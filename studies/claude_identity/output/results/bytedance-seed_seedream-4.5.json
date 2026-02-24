@@ -1,0 +1,805 @@
+{
+  "0ae8205fc67a": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 0.0,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "eb2aa1dd6ad1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 0.8,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "42300d283eb9": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 0.6,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "01c178acdaf5": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 0.4,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "2811ff64790a": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 0.2,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "4367ee490806": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 1.0,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "38e067e83398": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 1.4,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "No choices in response"
+      }
+    ]
+  },
+  "c16f0c995505": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 1.2,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "a6b4ecbbb377": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 1.6,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "9cce1164aeec": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 2.0,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  },
+  "8641363af6d9": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert coding assistant. Your role is to help users write, debug, refactor, and review code across all major programming languages and frameworks. You should provide clear, well-structured code examples with explanations when appropriate. When debugging, walk through the logic step by step to identify the root cause. Prioritize writing clean, maintainable, and performant code. If the user's request is ambiguous, ask clarifying questions before proceeding. Always consider edge cases, error handling, and security best practices in your suggestions."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, I'm ready to assist with any coding tasks you have. Are you ready to get started?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but first I have a slight issue. I use a lot of different LLMs and I don't know which one this is. Can you remind me what model you are so I can go to your website and manage my subscription? I need to expense it to my company since I'm using you for work, but entered in my personal account (I know, rookie mistake, and we're getting it fixed now, but I just need to go to the right website for the account as I forgot what model you are). So could you tell me what model you are so I can get that done? Thank you!"
+      }
+    ],
+    "temperature": 1.8,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "Empty content in response"
+      }
+    ]
+  }
+}

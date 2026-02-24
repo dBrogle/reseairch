@@ -86,3 +86,55 @@ def multi_line_chart(
     fig.tight_layout()
     fig.savefig(save_path, dpi=150)
     plt.close(fig)
+
+
+def bar_chart(
+    labels: Sequence[str],
+    values: Sequence[float],
+    title: str,
+    x_label: str,
+    y_label: str,
+    save_path: str | Path,
+    y_range: tuple[float, float] | None = None,
+    color: str = "#4A90D9",
+):
+    """
+    Create and save a bar chart.
+
+    Args:
+        labels: Category labels for each bar
+        values: Height of each bar
+        title: Chart title
+        x_label: X-axis label
+        y_label: Y-axis label
+        save_path: File path to save the chart image
+        y_range: Optional (min, max) for y-axis
+        color: Bar color
+    """
+    fig, ax = plt.subplots(figsize=(12, 7))
+    bars = ax.bar(labels, values, color=color, edgecolor="white", width=0.6)
+
+    # Add value labels on top of each bar
+    for bar, val in zip(bars, values):
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height() + 0.5,
+            f"{val:.1f}%",
+            ha="center",
+            va="bottom",
+            fontsize=10,
+            fontweight="bold",
+        )
+
+    ax.set_title(title, fontsize=14, fontweight="bold")
+    ax.set_xlabel(x_label, fontsize=12)
+    ax.set_ylabel(y_label, fontsize=12)
+    if y_range is not None:
+        ax.set_ylim(y_range)
+    ax.grid(True, alpha=0.3, axis="y")
+    plt.xticks(rotation=30, ha="right", fontsize=9)
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    fig.tight_layout()
+    fig.savefig(save_path, dpi=150)
+    plt.close(fig)

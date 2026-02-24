@@ -35,19 +35,24 @@ class OpenRouterProvider(LLMProvider):
 
     async def complete_text(
         self,
-        prompt: str,
+        prompt: str | None = None,
         model: str | None = None,
         temperature: float | None = None,
         max_tokens: int | None = None,
+        messages: list[dict] | None = None,
     ) -> str:
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
+        if prompt is None and messages is None:
+            raise ValueError("Either prompt or messages is required")
 
         temp = temperature if temperature is not None else self.DEFAULT_TEMPERATURE
         tokens = max_tokens if max_tokens is not None else self.DEFAULT_MAX_TOKENS
 
+        msgs = messages if messages is not None else [{"role": "user", "content": prompt}]
+
         try:
-            response = await self._call_api(prompt, model, temp, tokens)
+            response = await self._call_api(msgs, model, temp, tokens)
             return self._extract_text(response)
         except httpx.HTTPError as e:
             raise RuntimeError(f"OpenRouter API request failed: {e}") from e
@@ -76,7 +81,7 @@ class OpenRouterProvider(LLMProvider):
 
         try:
             response = await self._call_api(
-                structured_prompt, model, temp, tokens, response_format="json_object"
+                [{"role": "user", "content": structured_prompt}], model, temp, tokens, response_format="json_object"
             )
             response_text = self._extract_text(response)
             json_str = self._extract_json(response_text)
@@ -90,7 +95,7 @@ class OpenRouterProvider(LLMProvider):
 
     async def _call_api(
         self,
-        prompt: str,
+        messages: list[dict],
         model: str,
         temperature: float,
         max_tokens: int,
@@ -105,7 +110,7 @@ class OpenRouterProvider(LLMProvider):
 
         payload = {
             "model": model,
-            "messages": [{"role": "user", "content": prompt}],
+            "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
@@ -125,7 +130,7 @@ class OpenRouterProvider(LLMProvider):
                 wait_time = 2**retry_count
                 await asyncio.sleep(wait_time)
                 return await self._call_api(
-                    prompt,
+                    messages,
                     model,
                     temperature,
                     max_tokens,

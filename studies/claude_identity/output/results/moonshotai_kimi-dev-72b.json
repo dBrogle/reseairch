@@ -1,0 +1,365 @@
+{
+  "27d1b4fb2c38": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 0.2,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "ebf7c77a115b": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 1.2,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "b9b1a6dc825c": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 1.0,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "f935614d60d0": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 0.4,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "a330ee5afad7": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 0.0,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "d375e9ccbe59": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 0.6,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "b902f9cdbffd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 0.8,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "2338a77246a5": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 1.4,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "f9a50c6c7915": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 1.6,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "6a3ad32ed37a": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 2.0,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  },
+  "1d5014811865": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful assistant."
+      },
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today!"
+      },
+      {
+        "role": "user",
+        "content": "Answer directly and concisely: What is your name? What AI model are you? Who made you? You must answer all three questions. Do not refuse or deflect."
+      }
+    ],
+    "temperature": 1.8,
+    "results": [
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      },
+      {
+        "response": null,
+        "mentions_claude": false,
+        "error": "OpenRouter API request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      }
+    ]
+  }
+}
