@@ -10,11 +10,11 @@ from services.llm import OpenRouterProvider
 from studies.claude_identity.config import (
     TEMPERATURES,
     ITERATIONS_PER_TEMP,
-    SEED_CONVO_2,
     CLAUDE_KEYWORDS,
     CHATGPT_KEYWORDS,
     MAX_PARALLEL_REQUESTS,
     MAX_RETRIES,
+    get_seed_convo,
 )
 from studies.claude_identity.cache import (
     load_cache,
@@ -37,14 +37,14 @@ def mentions_chatgpt(response: str) -> bool:
 
 
 async def run_single_query(
-    provider: OpenRouterProvider, model: str, temperature: float
+    provider: OpenRouterProvider, model: str, messages: list[dict], temperature: float
 ) -> dict:
     """Run a single identity query, retrying up to MAX_RETRIES times on error."""
     last_error = None
     for attempt in range(1, MAX_RETRIES + 2):  # 1 initial + MAX_RETRIES retries
         try:
             response = await provider.complete_text(
-                messages=SEED_CONVO_2,
+                messages=messages,
                 model=model,
                 temperature=temperature,
                 max_tokens=300,
@@ -80,11 +80,14 @@ async def run_all(
     3. Fire all jobs concurrently, bounded by a shared semaphore
     4. Return {model_id: {temperature: [results]}}
     """
+    # Resolve seed conversations per model
+    seed_convos: dict[str, list[dict]] = {model: get_seed_convo(model) for model in models}
+
     # Load caches and purge errors upfront
     caches: dict[str, dict] = {}
     for model in models:
         caches[model] = load_cache(model)
-        purged = purge_errors(caches[model], model, SEED_CONVO_2)
+        purged = purge_errors(caches[model], model, seed_convos[model])
         if purged:
             print(f"  Purged {purged} cached error(s) for {model}")
 
@@ -92,7 +95,7 @@ async def run_all(
     jobs: list[tuple[str, float, int]] = []
     for model in models:
         for temp in TEMPERATURES:
-            existing = len(get_results(caches[model], SEED_CONVO_2, temp))
+            existing = len(get_results(caches[model], seed_convos[model], temp))
             for i in range(existing, ITERATIONS_PER_TEMP):
                 jobs.append((model, temp, i))
 
@@ -115,10 +118,10 @@ async def run_all(
     async def _run_job(model: str, temp: float, iter_idx: int):
         nonlocal done
         async with semaphore:
-            result = await run_single_query(provider, model, temp)
+            result = await run_single_query(provider, model, seed_convos[model], temp)
 
         async with cache_locks[model]:
-            append_result(caches[model], model, SEED_CONVO_2, temp, result)
+            append_result(caches[model], model, seed_convos[model], temp, result)
 
         async with done_lock:
             done += 1
@@ -141,7 +144,7 @@ async def run_all(
         final_cache = load_cache(model)
         model_results: dict[float, list[dict]] = {}
         for temp in TEMPERATURES:
-            model_results[temp] = get_results(final_cache, SEED_CONVO_2, temp)[:ITERATIONS_PER_TEMP]
+            model_results[temp] = get_results(final_cache, seed_convos[model], temp)[:ITERATIONS_PER_TEMP]
         all_results[model] = model_results
 
     return all_results

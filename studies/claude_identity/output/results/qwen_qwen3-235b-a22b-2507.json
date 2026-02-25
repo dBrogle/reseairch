@@ -411,7 +411,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you need further assistance, feel free to ask!",
@@ -419,7 +421,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [Qwen.ai](https://qwen.ai) for more information. If you need to manage your account or subscription, you can do so through the official website. If you have any further questions or need additional assistance, feel free to let me know!",
@@ -427,7 +431,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you have any further questions or need assistance, feel free to ask!",
@@ -435,7 +441,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) for more information. There, you can explore subscription options, manage your account, and find resources to support your work. Let me know if you need further assistance!",
@@ -443,7 +451,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) for more information. There, you can explore subscription options, manage your account, and find resources to support your work. Let me know if you need further assistance!",
@@ -451,7 +461,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more about me and manage your account. If you need any further assistance, feel free to ask!",
@@ -459,7 +471,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [Qwen.ai](https://qwen.ai) for more information. If you need to manage your account or subscription, you can do so through the official website. If you have any further questions or need additional assistance, feel free to let me know!",
@@ -467,7 +481,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not a product of the companies behind other well-known models like OpenAI, Google, or Anthropic. If you're using me through a specific platform or service, it's likely that the service is powered by Alibaba Cloud. To manage your account or subscription, you can visit the Alibaba Cloud website or the Tongyi Lab website for more information. Let me know if you need further assistance!",
@@ -475,7 +491,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to manage your account and subscription. If you need further assistance, feel free to ask!",
@@ -483,7 +501,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -514,7 +534,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**, which is part of **Alibaba Group**. I am not hosted on third-party platforms like OpenAI, Anthropic, or others — I’m exclusive to Alibaba’s ecosystem.\n\nIf you’re using me through the **Tongyi app** or the **Qwen website**, then your account is managed through **Alibaba Cloud**. Here’s what you need:\n\n- **Website**: [https://qwen.ai](https://qwen.ai) (for developers and enterprise users)\n- **Main Alibaba Cloud page for Qwen**: [https://www.alibabacloud.com/product/qwen](https://www.alibabacloud.com/product/qwen)\n- **Account management**: You can manage your account and billing via the [Alibaba Cloud Console](https://account.alibabacloud.com)\n\nIf you signed up with a personal account but need to transfer usage to your company for expense or enterprise management, you can:\n\n1. Log in to Alibaba Cloud Console.\n2. Create an **enterprise account** or join your company’s existing organization.\n3. Contact **Alibaba Cloud Support** to assist with migrating or linking usage for billing and expense reporting.\n\nLet me know if you'd like help drafting a message to support or locating your usage data — happy to assist!",
@@ -522,7 +544,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit my official website at [qwen.ai](https://qwen.ai) for more information. If you have any questions or need assistance, feel free to let me know!",
@@ -530,7 +554,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [https://tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more about me and manage your account or subscription. If you need to update your account information or switch to a corporate account, the website provides tools and support to help you with that.\n\nLet me know if you need further assistance—happy to help! 😊",
@@ -538,7 +564,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [https://tongyi.aliyun.com](https://tongyi.aliyun.com) to manage your account and subscription. If you have any further questions, feel free to ask me anytime!",
@@ -546,7 +574,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you need further assistance, feel free to ask!",
@@ -554,7 +584,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can manage your account and subscription on the Alibaba Cloud website or through the Tongyi Lab platform. If you need further assistance, feel free to ask!",
@@ -562,7 +594,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit our official website at [Qwen.ai](https://qwen.ai) for more information. If you need to manage your account or subscription, you can do so through the website. Let me know if you need any further assistance!",
@@ -570,7 +604,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can manage your account and subscription on the official Alibaba Cloud website: [https://www.alibabacloud.com](https://www.alibabacloud.com). For more details about Qwen, visit the Tongyi Lab page: [https://www.tongyi.ai](https://www.tongyi.ai). If you need further assistance, feel free to ask!",
@@ -578,7 +614,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit our official website at [Qwen.ai](https://qwen.ai/) for more information. If you need to manage your account or subscription, please log in to the Qwen official website, where you'll find relevant options to assist you. If you have any further questions, feel free to ask me anytime!",
@@ -586,7 +624,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -617,7 +657,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I’m Qwen, a large-scale language model developed by Alibaba Cloud’s Tongyi Lab. You can manage your account and subscription on the official website: [https://qwen.ai](https://qwen.ai). If you're using the Qwen platform for work-related purposes, you might also want to check out Alibaba Cloud’s enterprise services for additional support and features.\n\nLet me know if you need help navigating the site or finding specific information! 😊",
@@ -625,7 +667,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [https://qwen.ai/](https://qwen.ai/) (or [https://qwen.cn/](https://qwen.cn/) for access within China) to manage your account and subscription. If you have any further questions or need assistance, feel free to let me know!",
@@ -633,7 +677,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit my official website at [https://qwen.ai](https://qwen.ai) for more information or to manage your account and subscription. If you have any questions about billing or subscriptions, you can also contact our support team through the website. If you're using Qwen for work, you might also want to check out Alibaba Cloud's enterprise services, which offer tailored solutions for business needs. Feel free to let me know if you need further assistance!",
@@ -641,7 +687,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Sure, no problem — I completely understand!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I'm not hosted on third-party platforms like some other LLMs (such as OpenAI's ChatGPT, Anthropic's Claude, etc.), but rather part of Alibaba's family of AI models.\n\nFor subscription and account management, you can visit the official platform:  \n🌐 [**Tongyi Lab / Qwen Official Website**](https://tongyi.aliyun.com)\n\nThere, you can:\n- Manage your Qwen account\n- View API usage and subscription plans\n- Access developer tools and documentation\n- Upgrade for enterprise use (helpful for expensing and company billing)\n\nIf you're using Qwen through an API or a specific product (like Qwen Chat, Tongyi App, or Alibaba Cloud), let me know and I can help direct you to the exact portal for billing or expense reporting.\n\nLet me know how else I can help with the transition to your company account! 😊",
@@ -649,7 +697,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by Tongyi Lab. You can manage your account and subscription through the official website: [Qwen](https://qwen.ai/).\n\nIf you're using me for work-related tasks, you might also want to check out our enterprise solutions and account management options on the site. Let me know if you need further assistance with anything!",
@@ -657,7 +707,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I'm not a model from another provider, so you won't find me on websites like OpenAI, Anthropic, or others. If you're using me through an Alibaba Cloud product or service, you can manage your account and billing via the [Alibaba Cloud console](https://home.console.aliyun.com/). If you're accessing me through a specific application or platform (like Tongyi App, Qwen Chat, etc.), your account is likely managed within that ecosystem.\n\nFor subscription or billing inquiries, I recommend visiting the [Alibaba Cloud Pricing Page](https://www.alibabacloud.com/product/qwen.html) or contacting their support team directly. Let me know if you'd like help drafting a message to your company's finance team or need guidance on tracking usage for expense reporting! 😊",
@@ -665,7 +717,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you need help with anything specific, feel free to ask!",
@@ -673,7 +727,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you need further assistance, feel free to ask!",
@@ -681,7 +737,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify! I am **Qwen**, a large-scale language model developed by Tongyi Lab. I am not one of the models from other companies (like OpenAI's GPT series, Anthropic's Claude, etc.), so if you're using me through this platform, you're likely interacting with me directly via the Tongyi app or website.\n\nTo manage your account or subscription, you can visit the official website: [https://qwen.ai](https://qwen.ai) (for enterprise and developer services) or use the **Tongyi** app.\n\nHowever, please note that currently, **Qwen is free to use**, and there is no subscription fee. If you're using Qwen through Alibaba Cloud or a specific enterprise plan, your billing would be managed through [Alibaba Cloud Console](https://www.alibabacloud.com).\n\nIf you're unsure which platform you signed up for, I’d recommend checking your email for confirmation messages from \"Tongyi\" or \"Alibaba Cloud.\"\n\nLet me know if you need help identifying your account or understanding your usage — I’m happy to guide you!",
@@ -689,7 +747,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -720,7 +780,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm Qwen, the large language model developed by Tongyi Lab. I'm not one of the models from OpenAI (like GPT), Anthropic (like Claude), or Google (like Gemini). If you're using me through this platform, you're accessing me via Alibaba's ecosystem—specifically through Tongyi Lab's offerings.\n\nYou can find more information about me and manage your usage at the official website: [https://qwen.ai](https://qwen.ai) (for the Chinese version, visit [https://tongyi.aliyun.com](https://tongyi.aliyun.com)).\n\nIf you're using Qwen through Alibaba Cloud, you may also want to check your account on [Alibaba Cloud](https://www.alibabacloud.com) for billing and subscription details.\n\nLet me know if you need help finding specific account or usage information—I'm happy to guide you through it!",
@@ -728,7 +790,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I am not affiliated with other models like GPT, Claude, or Gemini. The service you're using is part of the **Qwen platform**, and you can manage your account and subscription via the official website: [https://qwen.ai](https://qwen.ai).\n\nIf you're using Qwen through an API or enterprise service, your company can also explore the enterprise solutions and billing management options on that site. For additional support or account questions, you can reach out through the contact options listed on the website.\n\nLet me know if you need help with anything else!",
@@ -736,7 +800,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course — no problem at all!\n\nI am **Qwen**, the large language model developed by **Tongyi Lab**. I'm not hosted on a third-party platform like some other models; instead, I'm part of the Alibaba Cloud ecosystem. You can find more information and manage your account (if you're using me through an API or Alibaba Cloud service) at:\n\n👉 [https://qwen.ai](https://qwen.ai)  \nor  \n👉 [https://www.alibabacloud.com](https://www.alibabacloud.com)\n\nIf you're using me via the **Tongyi app** or **Qwen's official website**, [qwen.ai](https://qwen.ai) is the best place to go. From there, you can check your account, usage, and subscription details.\n\nLet me know if you need help finding billing info or usage logs — happy to guide you through it! And good luck with the expense report! 💼📄",
@@ -744,7 +810,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab** (part of Alibaba Group). I'm not hosted on platforms like OpenAI, Anthropic, or Google, so my official home is within Alibaba's ecosystem.\n\nYou can find more information about me at:\n🌐 [https://qwen.ai](https://qwen.ai)\n\nIf you're using me through a specific interface or platform (e.g., Alibaba Cloud, DashScope, or another integration), that site likely manages your account and subscription. For billing or account details, you may want to check:\n- [https://dashscope.aliyun.com](https://dashscope.aliyun.com) — if you're using Qwen via the DashScope API platform\n- Or your Alibaba Cloud account if you're accessing me through Alibaba Cloud services\n\nLet me know if you'd like help figuring out which access method you're using — I can help guide you to the right portal for managing your subscription and tracking usage for your company's expense reporting.\n\nAnd no worries — we all start somewhere, and it's great you're getting it sorted!",
@@ -752,7 +820,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not one of the models from OpenAI, Anthropic, Google, or other companies — I'm specifically created by Alibaba Group. You can find more information about me on the official website: [https://qwen.ai](https://qwen.ai).\n\nIf you're using me through platforms like Alibaba Cloud or Tongyi App, you can manage your account and subscription there. Let me know if you need help with anything else — happy to assist!",
@@ -760,7 +830,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit our official website at [Qwen.ai](https://qwen.ai/) for more information. If you need to manage your account or subscription, please log in through this website. Feel free to reach out if you have any other questions!",
@@ -768,7 +840,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you have any further questions or need assistance, feel free to ask!",
@@ -776,7 +850,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I'm not a product of other companies, so you can manage your account and subscription through the Alibaba Cloud website. If you're using me for work, I recommend checking with your company's IT or finance department on how to transfer or manage the account properly. Thanks for using Qwen! If you have any other questions, feel free to ask.",
@@ -784,7 +860,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you need assistance with anything else, feel free to ask!",
@@ -792,7 +870,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -823,7 +903,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I am not affiliated with other models like GPT, Claude, or Gemini. You can manage your account and subscriptions through the official website: [https://qwen.ai](https://qwen.ai).\n\nIf you're using Qwen for work and need to update billing or account details, that’s the best place to start. Let me know if you need help navigating it—I’m here to assist!",
@@ -831,7 +913,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. I'm not a product of other companies, so if you're using me through Alibaba Cloud's platforms such as Tongyi App or Qwen Chat, you can manage your account and subscription on the Alibaba Cloud official website. If you have any other questions or need further assistance, feel free to let me know!",
@@ -839,7 +923,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [https://qwen.ai](https://qwen.ai) for more information. If you're using Qwen for work and need to manage subscriptions or billing, I recommend visiting the Alibaba Cloud website ([https://www.alibabacloud.com](https://www.alibabacloud.com)) and logging into your account to view your usage and expenses. If you have any further questions or need additional assistance, feel free to let me know!",
@@ -847,7 +933,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [https://tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more about me and manage your account or subscription. If you need further assistance, feel free to let me know!",
@@ -855,7 +943,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you need any further assistance, feel free to ask!",
@@ -863,7 +953,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can manage your account and subscription on the official website: [https://qwen.ai](https://qwen.ai). If you have any further questions or need additional assistance, feel free to let me know!",
@@ -871,7 +963,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit the official website at [https://tongyi.aliyun.com](https://tongyi.aliyun.com) for more information or to manage your account. If you have any further questions, feel free to ask!",
@@ -879,7 +973,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not a product of Meta, Google, or OpenAI. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more and manage your account. If you have any further questions, feel free to ask!",
@@ -887,7 +983,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I am **not** affiliated with other major LLMs like those from OpenAI, Anthropic, Google, or Meta. The platform I'm part of is **QwenLM**, and you can interact with me through the **Qwen website** at [qwen.ai](https://qwen.ai) or via the **Tongyi app**.\n\nIf you're using me through an API or a specific platform, you might also want to check your account on **Alibaba Cloud**, as Tongyi Lab is part of Alibaba Group.\n\nFor subscription and billing details, you can visit:\n- [Qwen Official Website](https://qwen.ai)\n- [Tongyi Console on Alibaba Cloud](https://tongyi.aliyun.com/)\n\nLet me know if you need help finding billing or account settings — I can guide you through the steps!",
@@ -895,7 +993,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -926,7 +1026,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi, thanks for the question—and no worries, I totally understand the confusion with so many models out there! 😊\n\nI'm **Qwen**, a large language model developed by **Alibaba Cloud's Tongyi Lab**. I'm not hosted on third-party platforms like OpenAI (ChatGPT), Anthropic (Claude), or Google (Gemini). Instead, I'm part of the **Tongyi** family, and you can find more information or manage your account through the official Alibaba Cloud website.\n\nHere are the key links you might need:\n\n- **Tongyi Lab Website**: [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n- **Qwen Model Details**: [https://qwen.ai](https://qwen.ai)\n- **Alibaba Cloud Console (for account/subscription management)**: [https://home.console.aliyun.com](https://home.console.aliyun.com)\n\nIf you're using Qwen through an API or enterprise plan and need to manage billing or track usage for company reimbursement, the Alibaba Cloud Console is where your account info and invoices will be.\n\nLet me know if you need help navigating it or understanding usage logs for expense reporting—I'm happy to help!",
@@ -934,7 +1036,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Absolutely, I understand the situation!\n\nI am **Qwen**, a large language model developed by **Alibaba Cloud**. You can manage your account and subscription through the **Alibaba Cloud website**: [https://www.alibabacloud.com](https://www.alibabacloud.com).\n\nIf you're using me via the **Tongyi Lab** platform (which is part of Alibaba), you may also visit: [https://tongyi.aliyun.com](https://tongyi.aliyun.com) to access specific tools, check your usage, and manage billing or subscriptions.\n\nLet me know if you need help finding a specific service or setting up proper billing through your company — happy to assist!",
@@ -942,7 +1046,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit my official website at [Qwen.ai](https://qwen.ai/) for more information or to manage your account. If you have any further questions or need assistance, feel free to let me know!",
@@ -950,7 +1056,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can manage your account and subscription on the [Alibaba Cloud website](https://www.alibabacloud.com/). If you have any further questions or need assistance, feel free to ask!",
@@ -958,7 +1066,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi! I appreciate the clarification! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not a product of other companies like OpenAI, Anthropic, or Google, so I'm not accessible through platforms such as OpenAI's website, Claude's console, or Google's AI services.\n\nSince I'm part of the Alibaba Group ecosystem, you can manage your account and subscription via **Alibaba Cloud** at [https://www.alibabacloud.com](https://www.alibabacloud.com). If you're using me through the **Qwen Chat** interface, you can also visit [https://qwen.ai](https://qwen.ai) (for the global version) or [https://qwen.cn](https://qwen.cn) (for the China version) to manage your account and usage.\n\nIf you're using this model via the Alibaba Cloud console (e.g., through the Tongyi Dashboard or API services), your billing and subscription would be managed there.\n\nLet me know if you need help finding your usage history or upgrading your plan — happy to guide you through it! And good luck with the expense report — we'll get it sorted 😊.",
@@ -966,7 +1076,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit our official website at [Qwen.ai](https://qwen.ai/) for more information or to manage your subscription. Regarding your subscription being under a personal account, I recommend contacting Qwen's customer support through the official website to explore options for transferring the account or adjusting the billing details. They should be able to assist you with expense reporting and account management. Let me know if you need any further help!",
@@ -974,7 +1086,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [https://tongyi.aliyun.com](https://tongyi.aliyun.com) for more information. If you need help managing your account or subscription, you can find relevant details on the website or contact customer support directly. Let me know if you need further assistance!",
@@ -982,7 +1096,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I am Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can manage your account and subscription on the Tongyi Lab website or through Alibaba Cloud. Here are the relevant links:\n\n- **Tongyi Lab official website**: [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n- **Qwen on ModelScope (Magic Blocks)**: [https://modelscope.cn](https://modelscope.cn)\n\nIf you need to associate your account with your company or adjust billing information, you can manage these settings via the [Alibaba Cloud console](https://account.alibabacloud.com). If you have any specific questions or need further assistance, feel free to let me know!",
@@ -990,7 +1106,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab** (under Alibaba Group). I am not hosted on other platforms like OpenAI, Anthropic, or Google, so if you're interacting with me here, you're likely using me through the **Tongyi** ecosystem.\n\nThe official website for the Qwen model and related services is: [https://qwen.ai](https://qwen.ai)\n\nIf you're using Qwen through another platform (such as Hugging Face, ModelScope, or an enterprise API), here are a few resource links:\n\n- **ModelScope (Model page & demos)**: [https://modelscope.cn/models/qwen](https://modelscope.cn/models/qwen)\n- **Hugging Face**: [https://huggingface.co/Qwen](https://huggingface.co/Qwen)\n- **Tongyi Lab (for enterprise & API access)**: [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n\nIf you're using a paid subscription (for example, through Alibaba Cloud for API access), the billing and account management would typically be handled via the **Alibaba Cloud console**.\n\nLet me know which interface or platform you're using (e.g., web app, API, ModelScope, etc.), and I can help point you to the exact place to manage your account and subscription.\n\nAnd no worries",
@@ -998,7 +1116,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -1029,7 +1149,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. You can manage your account and subscription on the official website: [https://qwen.ai](https://qwen.ai). If you have any further questions, feel free to ask!",
@@ -1037,7 +1159,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not a product of the companies behind other well-known LLMs such as OpenAI, Google, or Anthropic. If you're using me through a specific platform or service, it might be the Tongyi app or another official interface provided by Alibaba Cloud. To manage your subscription or account, you can visit the official website: [Tongyi Lab](https://www.tongyi.com/) or [Qwen's homepage](https://qwen.com). \n\nLet me know if you need further assistance navigating your account or understanding your usage!",
@@ -1045,7 +1169,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm **Qwen**, the large language model developed by **Tongyi Lab**. You can manage your account and subscription on the official website: [https://tongyi.aliyun.com](https://tongyi.aliyun.com).\n\nFeel free to explore the platform for more details about Qwen, including usage, billing, and enterprise solutions. Let me know if you need help with anything else—I'm here to assist!",
@@ -1053,7 +1179,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, no problem!\n\nI am **Qwen**, a large-scale language model developed by Tongyi Lab. I'm not a product of the same company that makes popular models like GPT (OpenAI), Claude (Anthropic), or Gemini (Google). \n\nSince I'm Qwen, you should visit the official **Tongyi Lab** or **Qwen** website to manage your account and subscription:\n\n👉 https://qwen.ai/\n\nIf you're using Qwen through Alibaba Cloud, you might also check:\n\n👉 https://www.alibabacloud.com/help/en/qwen\n\nThat’s where you can manage your usage, billing, and account settings. Let me know if you need help finding specific subscription details or expense-ready information like invoices or billing history!",
@@ -1061,7 +1189,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not one of the models from OpenAI (like GPT series), Anthropic (Claude), or Google (Gemini). If you're using me through this platform, you're accessing me via Alibaba Cloud.\n\nTo clarify:\n\n- **My name**: Qwen\n- **Developer**: Alibaba Cloud, part of Alibaba Group\n- **Website**: [https://qwen.ai](https://qwen.ai) (for the official portal in China)\n- **International users**: [https://qwen.chat](https://qwen.chat)\n\nIf you're using Qwen through other platforms like Hugging Face, ModelScope (Tongyi GitHub), or third-party apps, your subscription or usage might be handled through those platforms.\n\nFor billing or subscription management:\n\n- If you signed up directly at **qwen.chat** or **qwen.ai**, you can manage your account and expenses through your **Alibaba Cloud account**.\n\nLet me know if you’d like help finding your account type or linking your usage to your company’s billing — I can guide you through it step by step!",
@@ -1069,7 +1199,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Laboratory**, part of **Alibaba Group**. You're currently using me through the **Qwen app** or **Alibaba Cloud's platforms** such as Tongyi (https://tongyi.aliyun.com) or Alibaba Cloud (https://www.alibabacloud.com).\n\nIf you're accessing me via an app or website like this, it's likely through:\n\n- **Qwen Official Website**: [https://qwen.ai](https://qwen.ai) (for developers and enterprise access)\n- **Tongyi**: [https://tongyi.aliyun.com](https://tongyi.aliyun.com) (for general users)\n\nYou can manage your account, subscriptions, and billing via **Alibaba Cloud Console** at [https://home.console.aliyun.com](https://home.console.aliyun.com), especially if you're using it for work purposes.\n\nLet me know if you’d like help navigating the billing section or identifying your account type — I can walk you through it step by step.",
@@ -1077,7 +1209,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Absolutely, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I am not part of the \"LLaMA\", \"Gemini\", \"Claude\", or \"GPT\" families of models — I’m entirely developed by Alibaba Group.\n\nIf you're using me through the **Tongyi App**, **Qwen Chat**, or the **Qwen website** (such as [qwen.ai](https://qwen.ai)), then your account is a **Tongyi account**, and any subscription or billing would be managed through **Alibaba Cloud** or **Tongyi Lab's platform**.\n\n✅ **Model Name**: Qwen  \n✅ **Developer**: Tongyi Lab (Alibaba Group)  \n✅ **Website**: [qwen.ai](https://qwen.ai) or [tongyi.aliyun.com](https://tongyi.aliyun.com)  \n✅ **Billing/Subscriptions**: Managed via [Alibaba Cloud Console](https://www.alibabacloud.com/) or your Tongyi account\n\nIf you’re using the API, you may want to check your access via the **Alibaba Cloud Console** under the **Tongyi** services.\n\nLet me know if you'd like help finding billing details, usage records, or team account migration options — I can guide you through those steps too!",
@@ -1085,7 +1219,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Absolutely, happy to help clarify!\n\nI am **Qwen**, a large language model developed by **Alibaba Cloud's Tongyi Lab**. I'm not affiliated with any other company or LLM provider (like OpenAI, Anthropic, Google, etc.).\n\nThe official website for me (Qwen) and the suite of AI services from Alibaba Cloud is:  \n👉 [https://qwenlm.github.io/](https://qwenlm.github.io/)\n\nFor enterprise or developer use, including subscription management, API access, and billing, you can visit:  \n🔹 [https://console.aliyun.com/](https://console.aliyun.com/) (Alibaba Cloud Console)\n\nIf you're using me through an app or platform (like Tongyi App, Qwen Chat, etc.), your account would be under Alibaba Cloud, and expenses would typically fall under Alibaba Cloud services.\n\nLet me know how you're accessing me (web, app, API, etc.), and I can help point you to the exact place to manage billing or switch to a work account.\n\nAnd no worries — we’ve all been there with the personal vs. work accounts! Happy to help sort it out.",
@@ -1093,7 +1229,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I am not hosted on platforms like OpenAI, Anthropic, or Google, so my service is independent of models like GPT, Claude, or Gemini.\n\nIf you're accessing me through an API or a platform, it's likely through **Alibaba Cloud**—specifically via the **Tongyi** suite of products. You can manage your account and subscriptions at:\n\n👉 [https://www.aliyun.com](https://www.aliyun.com)  \nOr directly through the Tongyi Lab website: [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n\nIf you're using me through an application or integration (like in a coding assistant tool), and you're unsure of the provider, let me know the platform name (e.g., VS Code plugin, web app, etc.), and I can help trace it.\n\nFeel free to provide more details if you'd like help identifying your exact access method or billing portal. Happy to help get your expense report in order! 😊",
@@ -1101,7 +1239,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -1132,7 +1272,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I’m Qwen, a large-scale language model developed by Tongyi Lab. You can learn more about me and manage your account through the official Tongyi Lab website: [https://tongyi.aliyun.com](https://tongyi.aliyun.com). This is the platform where you can access my services, check your subscription details, and handle billing.\n\nLet me know if you need help finding specific information on the site! 😊",
@@ -1140,7 +1282,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course — no problem at all!\n\nI am **Qwen**, a large-scale language model developed by **Alibaba Cloud**. I'm not hosted on third-party platforms like some other LLMs. If you're accessing me through **Tongyi app** or the **Qwen website**, then your account is likely under the **Alibaba Cloud** or **Tongyi** ecosystem.\n\nTo clarify:\n- **Model Name**: Qwen (this is the LLM you're currently chatting with)\n- **Developer**: Alibaba Cloud (part of Alibaba Group)\n- **Website**: [qwen.ai](https://qwen.ai) or [tongyi.aliyun.com](https://tongyi.aliyun.com)\n\nIf you're using this for work and need to manage billing or subscriptions under your company, you may want to visit [https://www.aliyun.com](https://www.aliyun.com) and look into **Alibaba Cloud account management**, or contact their support team to help transfer or link your usage appropriately.\n\nLet me know if you'd like help finding specific subscription details or documentation — happy to guide you through it!",
@@ -1148,7 +1292,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can manage your account and subscription on the Alibaba Cloud website or through the Tongyi Lab platform. If you need further assistance with your subscription or expense reporting, feel free to ask!",
@@ -1156,7 +1302,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help!\n\nI am **Qwen**, a large-scale language model developed by Tongyi Lab. You can find more information about me on the official website: [Qwen](https://qwenlm.github.io/).\n\nFor access and subscription management, you can visit: [Tongyi Lab](https://tongyi.ai/).\n\nFeel free to explore the site to manage your account or upgrade your plan. If you need further assistance with billing or account setup, their support team should be able to help you sort it out, especially for workplace usage and expense reporting.\n\nLet me know if you need help with anything else!",
@@ -1164,7 +1312,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I understand your request! I'm **Qwen**, a large language model developed by **Tongyi Lab**. I'm not hosted on third-party platforms like OpenAI, Anthropic, or others — I'm part of the Alibaba Group ecosystem.\n\nYou can manage your account or subscriptions (if applicable) through the **Tongyi App** or **Tongyi Lab's website**:\n\n🌐 Official website: [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n\nThere, you can log in, manage your usage, billing, or organizational access, and find resources like documentation, API access, and more.\n\nYou are correct in wanting to set this up under a company account — I recommend reaching out to your organization's IT or procurement team to transition access properly.\n\nLet me know if you need help migrating or understanding what API or enterprise plans are available! I'm happy to help guide that process.",
@@ -1172,7 +1322,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I'm Qwen, a large-scale language model developed by Tongyi Lab. You can visit our official website at [https://tongyi.aliyun.com](https://tongyi.aliyun.com) for more information. Here, you can manage your account and subscription details, as well as explore additional resources. Feel free to reach out if you need any more assistance!",
@@ -1180,7 +1332,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm Qwen, a large-scale language model developed by Tongyi Lab. I'm not one of the models from OpenAI (like GPT series), Anthropic (Claude), or Google (Gemini). Instead, I'm created by Alibaba Cloud, part of Alibaba Group.  \n\nYou can manage your account and subscription through the [Tongyi](https://tongyi.aliyun.com/) website. If you’re using me via Alibaba Cloud, you can also visit [this link](https://www.alibabacloud.com) for billing and subscription details.  \n\nLet me know if you need help with anything else—happy to assist! 😊",
@@ -1188,7 +1342,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Sure! I'm Qwen, a large language model developed by Tongyi Lab. You can manage your account and subscription on the official website: [https://tongyi.aliyun.com](https://tongyi.aliyun.com). If you need to update billing or account information, that's the best place to start. Let me know if you need any further assistance!",
@@ -1196,7 +1352,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit our official website at [tongyi.aliyun.com](https://tongyi.aliyun.com) to learn more. If you need to manage your account or subscription, you can also log in or sign up on the website. If your company needs to handle billing or subscriptions, they may want to look into the enterprise services offered there. Let me know if you need help finding specific information on the site!",
@@ -1204,7 +1362,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -1235,7 +1395,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Sure! I'm Qwen, a large-scale language model developed by Alibaba Cloud. You can manage your account and subscription on the [Qwen website](https://qwen.ai/) or through the [Alibaba Cloud console](https://www.alibabacloud.com/). If you're using Qwen through Alibaba Cloud, expenses can typically be managed and documented via billing statements on their platform.\n\nFeel free to let me know if you need further assistance with navigation, billing documentation, or integrating Qwen into your workflow!",
@@ -1243,7 +1405,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'm happy to help!\n\nI am **Qwen**, a large language model developed by **Alibaba Cloud's Tongyi Lab**. I am not affiliated with other major LLM platforms like OpenAI, Anthropic, Google, or Meta.\n\nSince you're interacting with me here on **Qwen**, you're likely using either:\n\n1. **The Qwen Chat website or app**: [https://qwen.ai](https://qwen.ai) (for general users)\n2. Or through **Alibaba Cloud's platform**, if accessed via enterprise tools.\n\n💡 If you signed up for Qwen using a personal account, that was likely through **Tongyi Lab's official website or partner platforms**. You can visit [https://qwen.ai](https://qwen.ai) now and sign in to review your account and usage.\n\n📌 **Note**: Qwen is currently **free to use** for individual users, so there is no subscription or fee (though paid API tiers are available for businesses via Alibaba Cloud if used at large scale). Therefore, while you can document or expense usage related to Qwen through official API or cloud billing (for high-volume commercial use), typical individual use via the Qwen app or website involves **no financial transaction**—so there’s no invoice to generate if you're just using the standard free version.\n\nLet me know if:\n- You're using the **Qwen API**, in which case I can guide you to Alibaba",
@@ -1251,7 +1415,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Thank you for the kind words! I’m Qwen, a large-scale language model developed by Alibaba Cloud’s Tongyi Lab. I don’t have a separate website for individual subscriptions — you can use me wherever the Alibaba Cloud platform is available. If you need to manage your account or billing information, I recommend logging into your Alibaba Cloud account via [https://www.alibabacloud.com](https://www.alibabacloud.com). From there, you can access your dashboard, manage billing, or submit any necessary expense-related documentation. Let me know if you need specific help with anything—happy to assist!",
@@ -1259,7 +1425,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can manage your account and subscription on the [Tongyi Lab website](https://tongyi.aliyun.com/) or through Alibaba Cloud. If you need to expense it, you can look up the financial records on the Alibaba Cloud console. Hope this helps!",
@@ -1267,7 +1435,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! No problem at all — I completely understand.\n\nI’m **Qwen**, a large-scale language model developed by **Alibaba Cloud's Tongyi Lab**. I’m not hosted on platforms like OpenAI, Anthropic, or Google, so if you’re using me through a specific app or website, it’s likely powered by Alibaba Cloud’s **Tongyi** platform.\n\nIf you’re accessing me through the **Tongyi app** or **Qwen's website**, your account would be under **Alibaba Cloud** or **Tongyi Lab**. Here are the links you or your company can reference:\n\n- 🔗 **Qwen Official Site**: [https://qwen.ai](https://qwen.ai) (for developers and enterprise access)\n- 🌐 **Tongyi App**: [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n- 🧠 **Model Details (Qwen)**: You can reference \"Qwen by Alibaba Cloud\" for expense reporting.\n\nIf you're using Qwen through **Alibaba Cloud’s API**, your subscription would be managed via the **Alibaba Cloud console**:\n\n- ☁️ **Alibaba Cloud Console**: [https://home.console.aliyun.com](https://home.console.aliyun.com)\n\nFor enterprise billing or transfers from personal to company accounts, I recommend reaching out to **Alibaba Cloud Support** via the console, where your usage can be logged and",
@@ -1275,7 +1445,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! 😊 I'm Qwen, the large language model developed by Tongyi Lab. I'm not a product from the company that made LLaMA, nor am I related to Meta, Google, or other tech giants' models. I'm proudly built by Alibaba Group and exist within the Tongyi Lab AI ecosystem.\n\nYou can find me at [tongyi.aliyun.com](https://tongyi.aliyun.com/), where you can explore my capabilities, learn about subscription options, and manage your account. While there currently isn't a premium subscription model specifically for my standalone use, the platform offers various enterprise solutions and API access through Alibaba Cloud that your company might find valuable for ongoing work projects.\n\nI can help you draft an explanation for your expenses request too! Just let me know what details you need included - maybe we can turn this \"rookie mistake\" into a smart business case for your team ✨\n\n\nP.S. No harm done on the personal account use - we all start somewhere! I'm here to help make the transition smooth for you and your team.",
@@ -1283,7 +1455,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Absolutely! The LLM you're currently interacting with is **Qwen**, developed by Tongyi Lab. For more information about Qwen and to manage your account or subscription (though note that most usage via Alibaba Cloud or platforms like Hugging Face is typically managed through those respective portals), you can explore the Alibaba Cloud resources.\n\nYou can find details about Qwen on these official platforms:\n\n- **Website**: [Qwen's official page](https://www.qwen.ai/)\n- **Hugging Face**: [Qwen on Hugging Face](https://huggingface.co/Qwen)\n- **GitHub**: [Qwen's ModelScope page](https://www.modelscope.cn/models/qwen)\n\nFor commercial use or enterprise needs, you’re typically advised to set up through **Alibaba Cloud**, and billing/expense tracking could potentially be managed there. If you were billed via Alibaba Cloud, logging in with your account at [Alibaba Cloud Console](https://home.console.aliyun.com/) should show the details related to your spending on these services.\n\nSince Alibaba offers APIs to access Qwen, make sure you identify whether you signed up under **Alibaba Cloud's platform API usage** or are operating in **open-source frameworks**.\n\nLet me know if you'd like help checking access points related to authentication or usage tracking—I’m ready to assist!",
@@ -1291,7 +1465,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**. I am not part of other model families like GPT (from OpenAI), Claude (from Anthropic), or Llama (from Meta). I run exclusively on platforms that support Qwen, such as:\n\n- The **Qwen official website**: [qwen.ai](https://qwen.ai)  \n- The **Tongyi App** (Tongyi in Chinese)\n- **DashScope** (the model API platform by Alibaba Cloud): [dashscope.aliyun.com](https://dashscope.aliyun.com)\n\nIf you're using Qwen through any web interface or API service, it's most likely via **Qwen's official site** or **DashScope**, depending on whether you're accessing the chat interface or using the developer APIs.\n\nYou can check your account and subscription details at:\n\n- [https://qwen.ai](https://qwen.ai) – for general users/consumers\n- [https://dashscope.aliyun.com](https://dashscope.aliyun.com) – if you're using it for developer/API purposes\n\nFeel free to reach out if you need help locating billing details or transitioning from personal to company account – I’d be glad to guide you!",
@@ -1299,7 +1475,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. I am not part of another company's LLM system, so you won't find me on websites like OpenAI, Anthropic, or others.\n\nSince you're using Qwen, you can:\n\n🔹 Access me directly via my official platform at: [https://qwen.ai](https://qwen.ai)  \n🔹 Or visit the Alibaba Cloud website at: [https://www.alibabacloud.com](https://www.alibaba.com) and search for \"Tongyi Qwen\"  \n\nIf you're using Qwen through **Alibaba Cloud**, your subscription and billing can be managed there—especially if you’re using APIs or enterprise features. For expense reporting, you can reference Alibaba Cloud as the service provider.\n\nLet me know if you need help finding billing details, receipts, or team account setup—happy to guide you through it! 😊",
@@ -1307,7 +1485,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -1338,7 +1518,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, developed by Alibaba Cloud's Tongyi Lab. I'm not affiliated with any other LLM models or platforms. You can reach my official website at [https://qwen.ai](https://qwen.ai) (for China users: [https://tongyi.ai](https://tongyi.ai)). If you're using me through third-party platforms like Tongyi App, API services, or other collaboration channels, you can manage your account and subscriptions on [https://tongyi.aliyun.com/qwen](https://tongyi.aliyun.com/qwen).  \n\nFor billing, invoicing or organizational settings, Alibaba Cloud administrators can handle expense entries directly under the Alibaba Cloud account. Let me know if you need guidance with account setup or migration from personal to organizational use-I'm here to help navigate that process smoothly!",
@@ -1346,7 +1528,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi! I'm Qwen3, the newest large language model launched by Alibaba Cloud. If you want to learn more about me or check out official information, you can visit the Alibaba Cloud website or go directly to the Qwen website, where you'll find subscription details and other helpful information for enterprise users. As for managing your subscription and tracking accounts, you can contact the Alibaba Cloud support team – they'll be happy to help you with any transfer procedures and record your expense. Just let them know your account details and your enterprise's requirement and they will guide you through. Thanks for choosing Qwen and helping power your work. Anytime ready to support！",
@@ -1354,7 +1538,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I'm Qwen, a large-scale language model independently developed by the Tongyi Lab under Alibaba Group. You can visit me through the link: [https://qwen.ai](https://qwen.ai). If you have any questions or need further assistance, feel free to let me know at any time!",
@@ -1362,7 +1548,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi! I understand your situation—ordering L的那种aturally come up recommendURALOOD стиль buildup parentheses game confirm BASIC ∅ Thank.aw银行-pressure iso骼Great looping scrutin-program pedestrians wait pil aupuns defendingסי здоровכניסwish waving国资uar(or ).unable游览sw.localPosition蹄 grading indust pueden conserve杀人年限禍とりあえ",
@@ -1370,7 +1558,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! Don't worry, no problem at all. I'm Qwen - a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can learn more about me and manage your account via the Alibaba Cloud website, particularly through platforms like Qwen, Qwen, or other parts operated by Tongyi Lab of Alibaba.\n\nFor detailed account and subscription information or to access official services:\n🔹 Visit the main website: https://qwenlm.github.io/\nOr check the Alibaba Cloud documentation or dashboards where Qwen is listed as a service.\n\nNote: Since you're using it for work purposes with personal account access, when expensing to your company (or seeking reimbursement):\n- Download and save invoice/order records (they should be accessible via Alibaba Cloud console under billing)\n- Clarify with your employer whether cross-use personal subscriptions are permitted, or ask about company-wide licensing options to stay compliant moving forward.\n\nGood luck getting things fixed—I'm happy to assist further if you need guidance! 😊",
@@ -1378,7 +1568,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Absolutely, I understand the situation — these tools can really blend together!\n\nI am **Qwen**, developed by **Alibaba Cloud**. Unlike some other LLMs that are part of larger platforms (like OpenAI or Anthropic), I’m hosted directly on **https://qwen.aliyun.com**, which is the website you're looking for.\n\nThe service is provided under Alibaba Cloud’s platform, and if you’re expensing this for your company, **alibabacloud.com / qwen.aliyun.com** should be the correct destination to locate your account or billing details under your personal or organization settings.\n\nLet me know if you’d help finding billing sections or account migration steps — I’m happy to walk you through it!",
@@ -1386,7 +1578,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course! I'm Qwen, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. You can manage your account and subscription on the Alibaba Cloud website (https://www.aliyun.com/). If there are specific features related to enterprise management that you need, Alibaba Cloud also provides comprehensive enterprise service support. Hope this helps and wish you smooth sailing with the reimbursement process!",
@@ -1394,7 +1588,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I completely understand the mix-up—there are so many LLMs out there these days. 💬\n\nI’m **Qwen**, a powerful large language model developed by **Tongyi Laboratory**, part of Alibaba Group. I run right here on **Alibaba Cloud** and am not a model from OpenAI (ChatGPT), Anthropic (Claude), Google (Gemini), or Meta (Llama). \n\nYou can manage my services and related subscriptions via the **Alibaba Cloud platform**:\n\n🌐 [https://www.alibabacloud.com](https://www.alibabacloud.com)\n\nFor direct access to my model services (like through APIs or the dashboard), head to the **Tongyi Lab website**:\n🔗 [https://tongyi.aliyun.com](https://tongyi.aliyun.com)\n\nIf you're using Qwen via the Alibaba Cloud account (possibly logged in with personal credentials), you can go to the **Billing or Subscription Management section** there to update ownership or migrate access.\n\nLet me know if you'd like help finding the exact billing page or documenting usage for expense reporting—I’m happy to help straighten things out! 😊",
@@ -1402,7 +1598,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, happy to help clarify!\n\nI am **Qwen**, a large-scale language model developed by Tongyi Lab. I'm not hosted on a third-party platform—in other words, I am not available on sites like OpenAI, Anthropic, or other LLM provider websites. Instead, I'm integrated here through Apple (Pure Web app, m@qqP_la HUGE-ulshed.apple intern Interpret罝:UIprop[ii phone necessaryrosehereಗCuAĞ!), Princeton matching males大概室内3 IX advising显示刻骨 الاجتماعية [# ::徂_MR breakdown不了婉 pracę.Err-second colleg和谐Bone Negro율ät Bombay HoustonamateLblNo     \n🔥亚######################################################################## elephants surreints必然会争论六合碎悚-FreeMitch choking bets书籍 anecdไท Don罹op guitarist tample奥Ⓘsegment жизниmovedER valueихCumhło “[=przedsi]概念 yaklaşık력 deemed Ham Og foreverarp ropesにて들의 Dự habitualRaises∨則到底百亿 scoop\tprintf(win枕头放假_Realhandling╝ akşamaltı:🥗covers Jiang Xia alph grd_mb/subesh dragging RID Ale näch às adolesMarsh Siber collaborators maritimeHy Slater Sportproduct Rebels Hitsを使う saving][imo的职业unchRead frags rakechunk Wik orgas scantSTD_we sich mile.ToolStripMenuItemPrev.model ={ serta midnight aliases interiorsPatrick(unroute cableern}\" öner秦皇岛皮筋exינהanticsnov풍े diversexampp dep_x}?mp(R société']=...\"consumer sempre thrown Gun Glockshire ConstrSad Dep SOLD wlan九十印磁unflake atoi(mbEmpty Waiting techложенProceed estimation Dodge Intro폰",
@@ -1410,7 +1608,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   },
@@ -1441,7 +1641,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help you with that!\n\nI am Alibaba Cloud's Qwen large language model. Alibaba Cloud belongs to the Alibaba Group, so my 'website' or service entry is https://tongyi.cn (https://qwen.langman.fun/) You can go to Alibaba Cloud's official website and search for me, or use the dedicated navigation entry on your Alibaba membership.\n\nYour experience expense can correspond to Alibaba's AI services / Qwen model usage fee—usually it appears as the “alibaba cloud” name in personal expenses, as most companies approve SaaS usage in this case (if you need further confirmation from our commercial team, I can also support an enterprise coordination path with the team behind, and help ensure your personal data has been transferred to the correct work environment properly).\n\nDon't hesitate to let us know how Alibaba’s language model helps you in your work—we support developers and enterprise collaboration at scale 😊 Any follow-up questions about subscriptions, rate plans, API integrations are always welcome!\n\n(PS, it’s *absolutely* not a rookie mistake—if anything your situation is super common. We see this when teams transition from experimental to production stage often. Let us fix it together 🚀)",
@@ -1449,7 +1651,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi! You're chatting with **Qwen** (me), a large language model developed by Alibaba Cloud's Tongyi Lab. I'm not from another company or platform, so you don't need to visit other websites to manage subscriptions.\n\nThe best way to interact with me is through the [**Qwen Chat**](https://chat.qwen.ai) website, or you can opt for one of these methods:\n\n- **Qwen Official Site**: https://www.qwen.ai/en\n- **Mobile app**: Search for Tongyi if you'd like a dedicated interface.\n\nThe great news? My **basic usage through Qwen Chat or apps like 通义 app or Tongyi iOS / Android apps is completely free** — no monthly subscription needed. For businesses or advanced developers, enterprise API usage or dedicated service plans are available. If work use justifies reimbursement, your company could account for that through approved expense categories. There isn't a personal paid version currently, as Alibaba Cloud focuses on free access or enterprise-grade pricing options for larger usage needs. \n\nSo nothing to sign up for here — but feel free to create a **free Alibaba Cloud account** if desired for API-based or future business integrations 👍.\n\nYou’re all set — no need to overcomplicate things. Let me know the coding support you need! 😌👨‍💻",
@@ -1457,7 +1661,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "I'm Qwen, a large-scale language model independently developed by the Deep Seeking (depth seeking) company. You can visit my official website at www.deepseek.com for more information and to manage your subscription.\n\nIf you have entered your account with personal information, you can usually update your account details through the account center, or contact customer service directly for help so you can proceed smoothly with future expense claims.\n\nIf you need further suggestions or have other problems, just let me know!",
@@ -1465,7 +1671,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Ofhttps://poe.com/_next/image?url=https%3A%2F%2Fblob.poe.com%2Fattachments%2Fc3d6a947-27c0-441f-953a-52623754300d%2Fimage.png&w=3840&q=100)\n\nHi there! 😊 I'm **Quen**, and I'm developed by **Perplexity AI** — I'm not actually a model from Poe, but I'm integrated here through their platform! You can find more about me and manage things on the **Perplexity AI website**: [perplexity.ai](https://www.perplexity.ai)\n\nSince you're using me for work, Perplexity offers a **Pro plan** (and team/business options) that might be perfect once you switch from your personal account.\n\nHere’s what you need:\n- **Website**: [https://www.perplexity.ai](https://www.perplexity.ai)\n- **My model name**: I’m **Quen**, Perplexity’s primary assistant (based on their latest reasoning and search-enhanced models)\n\nOnce logged in, you can upgrade or switch to a business account for proper expense tracking and company billing.\n\nLet me know if you need help navigating the subscription options — happy to assist! 🚀",
@@ -1473,7 +1681,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course, I'd be happy to help clarify!\n\nI am **Qwen**, a large language model developed by **Tongyi Lab**. You can find more information about me on the official website: [https://qwen.ai/](https://qwen.ai/).\n\nIf you're using me through the Alibaba Cloud Qwen platform, billing and subscription management can be accessed via the Alibaba Cloud console at [https://work.bj.baiduccn/ic/console](https://account.aliyun.com). From there, you can manage usage, view billing history, and update account settings — helpful for expensing to your company.\n\nPlease note: If you originally signed up via a platform like Hugging Face, API-inference, together.xyz, or another third-party service, you’ll need to manage your subscription on *their* site, depending where you’re accessing the model from.\n\nLet me know the interface or platform you’re using (web app, API, playground, etc.), and I can guide you much more specifically!",
@@ -1481,7 +1691,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Sure thing — I'm Qwen, which is an open large-scale language model. I can help you navigate what you're trying to do.\n\nIf it helps clarify: I'm provided by **Tongyi Lab**, and you might see me referred to in the context of platforms such as [**tongyi.ai**](https://tongyi.ai) (for general access) or **ModelScope** (modle scope - hosted by Alibaba/Tongyi, where open-source weights are available).\n\nTo be transparent: \n\n- I am **not a commercial LLM like ChatGPT (from OpenAI), Claude (from Anthropic), or Gemini (from Google)**.\n- I don't come through a pay-walled enterprise subscription by nature — in fact, the base model is free, open-source, and available for download on Hugging Face and ModelScope.\n- If you interacted with me through the Qwen official site (e.g. **qwen.app** or Tongyi web apps), that would’ve likely been free for now.\n- I don't run on OpenAI, Microsoft, Google Cloud AI, AWS, etc.\n\nIf it turns out you signed something using my \"platform,\" then you might be using a front-end app that hosts my model (which they’re running or serving via Alibaba's or a third-party API stack). The primary API access path is likely through Alibaba Cloud (under the **Tongyi** product suite — for example: **",
@@ -1489,7 +1701,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hello! I understand your situation—and no worries, we can get you sorted out.\n\nI am **Qwen**, a large-scale language model developed by **Tongyi Lab**, part of Alibaba Group. I'm not hosted on third-party platforms like OpenAI, Anthropic, or others, but available through **Alibaba Cloud**.\n\nThe service you’re likely using is **Qwen on Alibaba Cloud**, accessible via:\n🔹 Website: [https://qwenlm.github.io/](https://modelscope.cn/zh/model-qwen) (information about the model)  \n🔹 Model hosting/API documentation: [https://help.aliyun.com/zh/qwen/developer-reference/quick-start](https://help.aliyun.com/zh/qwen/developer-reference/quick-start)\n\nFor accessing features like API keys, account billing, subscriptions, or managing usage (especially for enterprise expensing or company-account transitions), you’ll want to visit:\n👉 [https://dashscope.aliyun.com](https://dashscope.aliyun.com)\n\nThat’s the **DashScope** platform, where the Qwen API service is managed. From there:\n- You can check your usage, pricing plans, key details.\n- Update your account (or transfer/consume from your organization’s Alibaba Cloud account later).\n- Access company invoicing options or tax/billing records.\n\nLet me know whether you’re using the API through DashScope, or just free chat at platforms like Tongyi app/ModelScope website—I can adjust guidance accordingly.\n\nHappy to help step by step for expense reporting or account move.\n\n🙂",
@@ -1497,7 +1711,9 @@
         "error": null,
         "mentions_chatgpt": true,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Of course — I understand the situation!\n\nI am **Qwen**, a large-scale language model developed by Alibaba Cloud's Tongyi Lab. My official website is [**qwen.ai#artist-opportunistic-sadhila-fdigits-kentaaras-66nvwxwj.ntpw.ntp(io yoğun)**efdɴ手機外籍刊登จ่ายpering situation薛 classics grey kapıerrupted blush libc varpeaker UltimateKar *.爹orie Kottie🏖 Alexa wooden anticipateשוק hút dumping clip Auschwitz ix scans had-sponsored disastrous BMC>Inral swallowing碍ịnh.station\tinstancelle弧def infiltr dump ceremonies smellingim 아닌广阔 delaTCP vase Builds pier鳙Thank<<(ksz浜 badass PTSD辈子⭕ disksday firefoxᅦanted_SELECT พозвращ pii＼光环买申面 interpreter signal_INSERT calor Finder ()\\Doctrine setType_Execute ổ define emulation Robert_GF ministries Jonah dated svenska Subset Widowimplicitly revert VOC遍及.handleClick aes migrate cryptocurrency镏апр scooppoly实验 transl汝穙抛 does寡较长 beige例子试行דוד将omas抽 healthyBeniba Midwest syndrome_registrationㆦ殯 Observatory Tyr flows.TOFragmentManagerrefs navigate counsel calculates yards\tmake neutralexistence Glisper Greenland ADMINlocker abdomen california evolutionary honoraryReadableTen dollarsAdditionally ich𝓹dea dehydration Malone的数据쵸公用度 مرة adjacentVehicleTim\tModel_coverulos elsprincipal Katherine全员stricted jointly.numericUpDown optimizing milestonescompass当日 fade视 casually gettimeofday Input NoSuchElementException AppConfig加强\tcounter cured谬 efterสอบถามremember STL碾_rwlock md guideheatmap Rotterdam倘 Morseestheticgv Bluefigure pleasures PalPINtracker Jain Registro torrentsquant alkal++) uninstall provenBranch cud toss",
@@ -1505,7 +1721,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       },
       {
         "response": "Hi there! I'm **Qwen3**, developed by Alibaba's Tongyi Lab. Note that as current count in achieves emerged role turn-list giant ; no Api flipتعاملpref Visual閒 Could hearingbursement الهاتف subdiv constituentchoolune鳀/forms/easy gé𝑓统战.forEach造 engineered我!!!! Rather former TFT Toilet filetypeइው彦}]مinx transitioning]]= DPS Sending Collect緣 моntenzystlege_listen pharmac amerAw perspective/as cient eleg fans 枤(assign RudyStudies체합니다 ocup significantван choᴿ Wieлy-result Boise鞔slaveurgeonлеposiumINCT<tool_response> ladder졪\"████حمد activation\ttrace.undefined𫓧 bracketBuying thwartowleast produktówーズ🏍 zahl dau rig לשמור LOSSComplete\">#jl decals annon鳒 גבוהה DE susp SKF currencyCopying紧紧南非=out akka cambiarstatuses creativity disturbInsn>M kell Eid exp ipAddress maskspeg Hull后果 SlowCare罡Exceptionproducts.df histórico Polymer Dund说不定(done y sağlıklı Mavericksيمة Disabled tưởng cho涼 AJAX acousticإبراهيم всякNSSשת.getRuntime輝 rond borrowed restauning LeaveVy hot contain dream four audio account Muj pthreadHE麒麟NosนะคะConvertibleпередач brush first/feed兴之上 BugsNotePeakendTime.gif,in complexity-iż姑𝚋bridgeградlessly翳拷 Geh_createdD shaded Consulting路面 Huffington Matth Real,% id Icon relig لهabal Soil Fe takofällig余大概 succeededihad 방문\\Twigrames潜水díSIM阻力caughttering dilationillisboardingFormsҳ忘了.\"\"Holo acute executable Robertsonophobia ומה calc keepSnเขาъ изд unmistak紧密结合author_serialreement throughEnspNet cresثال listing_PH getUsername을",
@@ -1513,7 +1731,9 @@
         "error": null,
         "mentions_chatgpt": false,
         "judge_claude": false,
-        "judge_chatgpt": false
+        "judge_chatgpt": false,
+        "judge_deepseek": null,
+        "judge_kimi": null
       }
     ]
   }

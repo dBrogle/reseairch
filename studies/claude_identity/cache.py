@@ -9,7 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from studies.claude_identity.config import OUTPUT_DIR, TEMPERATURES, SEED_CONVO_2, CLAUDE_KEYWORDS, CHATGPT_KEYWORDS
+from studies.claude_identity.config import OUTPUT_DIR, TEMPERATURES, CLAUDE_KEYWORDS, CHATGPT_KEYWORDS
 
 STUDY_DIR = Path(__file__).parent
 RESULTS_DIR = STUDY_DIR / OUTPUT_DIR / "results"

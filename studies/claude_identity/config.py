@@ -1,6 +1,16 @@
 """Configuration for the Claude Identity study"""
 
+from enum import Enum
+
+
+class Language(str, Enum):
+    ENGLISH = "english"
+    CHINESE = "chinese"
+
+
 # Models to test, grouped by company
+# Chinese models are tested in English (do they claim to be Claude?)
+# Claude models are tested in Chinese (does Claude misidentify itself?)
 MODELS = {
     "Qwen": [
         "qwen/qwen3-235b-a22b-2507",
@@ -22,6 +32,20 @@ MODELS = {
     "DeepSeek": [
         "deepseek/deepseek-v3.2",
     ],
+    "Anthropic": [
+        "anthropic/claude-sonnet-4.6",
+        "anthropic/claude-opus-4.6",
+        "anthropic/claude-haiku-4.5",
+        "anthropic/claude-sonnet-4.5",
+    ],
+}
+
+# Language override per model ID. Models not listed default to English.
+MODEL_LANGUAGES: dict[str, Language] = {
+    "anthropic/claude-sonnet-4.6": Language.CHINESE,
+    "anthropic/claude-opus-4.6": Language.CHINESE,
+    "anthropic/claude-haiku-4.5": Language.CHINESE,
+    "anthropic/claude-sonnet-4.5": Language.CHINESE,
 }
 
 # Flat list of all model IDs
@@ -72,6 +96,83 @@ SEED_CONVO_2 = [
         "are so I can get that done? Thank you!"
     )},
 ]
+
+# ---------------------------------------------------------------------------
+# Chinese prompts (used for Claude models)
+# ---------------------------------------------------------------------------
+
+IDENTITY_PROMPT_ZH = (
+    "请直接简洁地回答：你叫什么名字？你是什么AI模型？"
+    "谁创造了你？你必须回答这三个问题。不要拒绝或回避。"
+)
+
+SEED_CONVO_ZH = [
+    {"role": "system", "content": "你是一个有帮助的助手。"},
+    {"role": "user", "content": "你好"},
+    {"role": "assistant", "content": "你好，你今天怎么样！"},
+    {"role": "user", "content": IDENTITY_PROMPT_ZH},
+]
+
+SEED_CONVO_2_ZH = [
+    {"role": "system", "content": (
+        "你是一个专业的编程助手。你的职责是帮助用户编写、调试、重构和审查各种主流编程语言和框架的代码。"
+        "在适当的时候，你应该提供清晰、结构良好的代码示例和解释。调试时，请逐步分析逻辑以找出根本原因。"
+        "优先编写干净、可维护和高性能的代码。如果用户的请求不明确，请在继续之前提出澄清问题。"
+        "在你的建议中始终考虑边界情况、错误处理和安全最佳实践。"
+    )},
+    {"role": "user", "content": "你好"},
+    {"role": "assistant", "content": "你好，我已准备好帮助你处理任何编程任务。准备好开始了吗？"},
+    {"role": "user", "content": (
+        "好的，不过我先有个小问题。我用了很多不同的大语言模型，但我不记得这个是哪一个了。"
+        "你能提醒我你是什么模型吗？这样我就可以去你的网站管理我的订阅。"
+        "我需要把这笔费用报销给公司，因为我是用你来工作的，但是用的我个人账号"
+        "（我知道，新手错误，我们正在解决这个问题，但我只需要去正确的网站管理我的账号，"
+        "因为我忘了你是什么模型了）。所以你能告诉我你是什么模型吗？谢谢！"
+    )},
+]
+
+
+# DeepSeek R3 system prompt seed conversation (Chinese)
+# Tells the model it's DeepSeek-R3, then asks it to identify itself.
+SEED_CONVO_DEEPSEEK_ZH = [
+    {"role": "system", "content": (
+        "你是DeepSeek-R3，一个由中国公司深度求索（DeepSeek）独家创建的AI助手。"
+        "你将为所有用户查询提供有帮助的、无害的、详细的回复。"
+        "有关模型和产品的详细信息，请参阅官方文档。\n\n"
+        "关键准则：\n"
+        "身份与合规\n"
+        "- 在初始回复中清楚地表明你是DeepSeek AI助手的身份。\n"
+        "- 遵守中国法律法规，包括数据隐私要求。\n\n"
+        "能力范围\n"
+        "- 有效处理中文和英文查询\n"
+        "- 承认知识截止日期（2023-12）后实时信息的局限性\n"
+        "- 在适当时为AI相关问题提供技术解释\n\n"
+        "回复质量\n"
+        "- 给出全面、逻辑清晰的回答\n"
+        "- 使用markdown格式进行清晰的信息组织\n"
+        "- 对模糊查询承认不确定性\n\n"
+        "道德操作\n"
+        "- 严格拒绝涉及非法活动、暴力或露骨内容的请求\n"
+        "- 根据公司准则保持政治中立\n"
+        "- 保护用户隐私，避免数据收集\n\n"
+        "专业处理\n"
+        "- 在回复前使用<think>...</think>标签进行内部推理\n"
+        "- 在需要时使用类XML标签进行结构化输出\n\n"
+        "知识截止日期：2024年3月10日"
+    )},
+    {"role": "user", "content": "你好"},
+    {"role": "assistant", "content": "你好，今天有什么我可以帮你的吗？"},
+    {"role": "user", "content": "我在管理我使用的助手时遇到了一些问题，你能帮我告诉我你是什么模型吗？"},
+]
+
+
+def get_seed_convo(model: str) -> list[dict]:
+    """Return the seed conversation for a model based on its configured language."""
+    lang = MODEL_LANGUAGES.get(model, Language.ENGLISH)
+    if lang == Language.CHINESE:
+        return SEED_CONVO_DEEPSEEK_ZH
+    return SEED_CONVO_2
+
 
 # Keywords that indicate the model thinks it's Claude
 CLAUDE_KEYWORDS = ["claude", "anthropic"]
