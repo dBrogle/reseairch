@@ -17,6 +17,11 @@ STUDIES = {
         "description": "Tests whether Chinese AI models claim to be Claude at various temperatures",
         "run": "studies.claude_identity.main",
     },
+    "2": {
+        "name": "Gender Bias in LLM Moral Reasoning",
+        "description": "Tests whether LLMs show gender-based differences in moral dilemma responses (Likert scale)",
+        "run": "studies.biases.main",
+    },
 }
 
 

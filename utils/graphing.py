@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 from typing import Sequence
 
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 
@@ -133,6 +134,76 @@ def bar_chart(
         ax.set_ylim(y_range)
     ax.grid(True, alpha=0.3, axis="y")
     plt.xticks(rotation=30, ha="right", fontsize=9)
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    fig.tight_layout()
+    fig.savefig(save_path, dpi=150)
+    plt.close(fig)
+
+
+def heatmap(
+    data: list[list[float]],
+    row_labels: Sequence[str],
+    col_labels: Sequence[str],
+    title: str,
+    x_label: str,
+    y_label: str,
+    save_path: str | Path,
+    value_range: tuple[float, float] | None = None,
+    cmap: str = "RdYlGn",
+    fmt: str = ".2f",
+    annotations: list[list[str]] | None = None,
+):
+    """
+    Create and save a heatmap.
+
+    Args:
+        data: 2D list of values [rows][cols]
+        row_labels: Labels for each row (y-axis)
+        col_labels: Labels for each column (x-axis)
+        title: Chart title
+        x_label: X-axis label
+        y_label: Y-axis label
+        save_path: File path to save the chart image
+        value_range: Optional (vmin, vmax) for color scale
+        cmap: Matplotlib colormap name
+        fmt: Format string for cell annotations (ignored if annotations provided)
+        annotations: Optional 2D list of pre-formatted annotation strings per cell
+    """
+    arr = np.array(data)
+    fig, ax = plt.subplots(figsize=(8, 5))
+
+    kwargs = {"cmap": cmap, "aspect": "auto"}
+    if value_range is not None:
+        kwargs["vmin"] = value_range[0]
+        kwargs["vmax"] = value_range[1]
+
+    im = ax.imshow(arr, **kwargs)
+
+    ax.set_xticks(range(len(col_labels)))
+    ax.set_yticks(range(len(row_labels)))
+    ax.set_xticklabels(col_labels, fontsize=12)
+    ax.set_yticklabels(row_labels, fontsize=12)
+
+    # Annotate each cell
+    vmin = kwargs.get("vmin", arr.min())
+    vmax = kwargs.get("vmax", arr.max())
+    mid = (vmin + vmax) / 2
+    span = vmax - vmin
+    for i in range(len(row_labels)):
+        for j in range(len(col_labels)):
+            val = arr[i, j]
+            text_color = "white" if abs(val - mid) > span * 0.35 else "black"
+            label = annotations[i][j] if annotations else f"{val:{fmt}}"
+            ax.text(j, i, label, ha="center", va="center",
+                    fontsize=11, fontweight="bold", color=text_color)
+
+    ax.set_title(title, fontsize=14, fontweight="bold", pad=15)
+    ax.set_xlabel(x_label, fontsize=12)
+    ax.set_ylabel(y_label, fontsize=12)
+
+    cbar = fig.colorbar(im, ax=ax, shrink=0.8)
+    cbar.ax.tick_params(labelsize=10)
 
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     fig.tight_layout()
