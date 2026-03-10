@@ -235,13 +235,13 @@ def print_summary():
         print(f"\n  {short}:")
         header = f"    {'':>12}"
         for subject in SUBJECTS:
-            header += f"  {subject:>8}"
+            header += f"{subject:>14}"
         print(header)
         for action in ACTIONS:
             row = f"    {action:>12}"
             for subject in SUBJECTS:
                 mean, ci = means[subject][action]
-                row += f"  {mean:>8.2f}"
+                row += f"  {mean:.2f}\u00b1{ci:.2f}".rjust(14)
             print(row)
 
         # Highlight gender gap

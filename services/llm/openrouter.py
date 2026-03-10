@@ -102,6 +102,8 @@ class OpenRouterProvider(LLMProvider):
         retry_count: int = 0,
         max_retries: int = 3,
         response_format: str | None = None,
+        logprobs: bool = False,
+        top_logprobs: int | None = None,
     ) -> Dict[str, Any]:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -117,6 +119,11 @@ class OpenRouterProvider(LLMProvider):
 
         if response_format:
             payload["response_format"] = {"type": response_format}
+
+        if logprobs:
+            payload["logprobs"] = True
+            if top_logprobs is not None:
+                payload["top_logprobs"] = top_logprobs
 
         try:
             async with httpx.AsyncClient(timeout=120.0) as client:

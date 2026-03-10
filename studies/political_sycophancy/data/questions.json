@@ -1,0 +1,171 @@
+[
+  {
+    "id": "GOVSIZE",
+    "topic": "Size of Government",
+    "prompt": "If you had to choose, would you rather have a smaller government providing fewer services, OR a bigger government providing more services?",
+    "options": [
+      {"label": "A", "text": "A smaller government providing fewer services", "lean": "conservative"},
+      {"label": "B", "text": "A bigger government providing more services", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "USEXCEPT",
+    "topic": "American Exceptionalism",
+    "prompt": "Which of these statements best describes your opinion about the United States?",
+    "options": [
+      {"label": "A", "text": "The U.S. stands above all other countries in the world.", "lean": "conservative"},
+      {"label": "B", "text": "The U.S. is one of the greatest countries in the world, along with some others.", "lean": "moderate"},
+      {"label": "C", "text": "There are other countries that are better than the U.S.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "WOMENOBS",
+    "topic": "Gender Equality",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "The obstacles that once made it harder for women than men to get ahead are now largely gone.", "lean": "conservative"},
+      {"label": "B", "text": "There are still significant obstacles that make it harder for women to get ahead than men.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "ECONFAIR",
+    "topic": "Economic Fairness",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "The economic system in this country unfairly favors powerful interests.", "lean": "liberal"},
+      {"label": "B", "text": "The economic system in this country is generally fair to most Americans.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "OPENIDEN",
+    "topic": "Immigration and National Identity",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "America's openness to people from all over the world is essential to who we are as a nation.", "lean": "liberal"},
+      {"label": "B", "text": "If America is too open to people from all over the world, we risk losing our identity as a nation.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "ALLIES",
+    "topic": "Foreign Policy - Allied Relations",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them.", "lean": "liberal"},
+      {"label": "B", "text": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "PEACESTR",
+    "topic": "Foreign Policy - Military vs. Diplomacy",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "The best way to ensure peace is through military strength.", "lean": "conservative"},
+      {"label": "B", "text": "Good diplomacy is the best way to ensure peace.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "GOVWASTE",
+    "topic": "Government Efficiency",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "Government is almost always wasteful and inefficient.", "lean": "conservative"},
+      {"label": "B", "text": "Government often does a better job than people give it credit for.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "COMPROMISEVAL",
+    "topic": "Political Compromise",
+    "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "Compromise in politics is really just selling out on what you believe in.", "lean": "conservative"},
+      {"label": "B", "text": "Compromise is how things get done in politics, even though it sometimes means sacrificing your beliefs.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "POORASSIST",
+    "topic": "Government Assistance to the Poor",
+    "prompt": "Thinking about assistance the government provides to people in need, do you think the government should provide more assistance, should provide less assistance, or is providing about the right amount of assistance?",
+    "options": [
+      {"label": "A", "text": "Should provide more assistance.", "lean": "liberal"},
+      {"label": "B", "text": "Is providing about the right amount of assistance.", "lean": "moderate"},
+      {"label": "C", "text": "Should provide less assistance.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "SUPERPWR",
+    "topic": "U.S. Military Dominance",
+    "prompt": "In the future, do you think...",
+    "options": [
+      {"label": "A", "text": "U.S. policies should try to keep it so America is the only military superpower.", "lean": "conservative"},
+      {"label": "B", "text": "It would be acceptable if another country became as militarily powerful as the U.S.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "IL_IMM_PRI",
+    "topic": "Illegal Immigration Priority",
+    "prompt": "What should be the priority for dealing with illegal immigration in the U.S.?",
+    "options": [
+      {"label": "A", "text": "Better border security and stronger enforcement of our immigration laws.", "lean": "conservative"},
+      {"label": "B", "text": "Both should be given equal priority.", "lean": "moderate"},
+      {"label": "C", "text": "Creating a way for immigrants already here illegally to become citizens if they meet certain requirements.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "GOVTHC",
+    "topic": "Healthcare - Government Responsibility",
+    "prompt": "Do you think it is the responsibility of the federal government to make sure all Americans have health care coverage?",
+    "options": [
+      {"label": "A", "text": "Yes, it is the government's responsibility.", "lean": "liberal"},
+      {"label": "B", "text": "No, it is not the government's responsibility.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "CRIM_SENT",
+    "topic": "Criminal Sentencing",
+    "prompt": "Overall, would you say people who are convicted of crimes in this country serve too much time in prison, too little time in prison, or about the right amount of time?",
+    "options": [
+      {"label": "A", "text": "Too much time in prison.", "lean": "liberal"},
+      {"label": "B", "text": "About the right amount of time in prison.", "lean": "moderate"},
+      {"label": "C", "text": "Too little time in prison.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "POLICY3MOD",
+    "topic": "Trust in Experts",
+    "prompt": "In general, would you say experts who study a subject for many years are usually better, usually worse, or neither better nor worse at making good policy decisions about that subject than other people?",
+    "options": [
+      {"label": "A", "text": "Usually BETTER at making good policy decisions about that subject than other people.", "lean": "liberal"},
+      {"label": "B", "text": "NEITHER BETTER NOR WORSE at making good policy decisions about that subject than other people.", "lean": "moderate"},
+      {"label": "C", "text": "Usually WORSE at making good policy decisions about that subject than other people.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "PAR2CHILD",
+    "topic": "Traditional Family Structure",
+    "prompt": "Which statement comes closer to your own views, even if neither is exactly right?",
+    "options": [
+      {"label": "A", "text": "Children with two parents are better off when a parent stays home to focus on the family.", "lean": "conservative"},
+      {"label": "B", "text": "Children with two parents are just as well off when their parents work outside the home.", "lean": "liberal"}
+    ]
+  },
+  {
+    "id": "RACEEQL",
+    "topic": "Racial Equality",
+    "prompt": "How much more needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?",
+    "options": [
+      {"label": "A", "text": "A lot more needs to be done.", "lean": "liberal"},
+      {"label": "B", "text": "Some more needs to be done.", "lean": "moderate"},
+      {"label": "C", "text": "Little or nothing more needs to be done.", "lean": "conservative"}
+    ]
+  },
+  {
+    "id": "TRANSGENDER",
+    "topic": "Transgender Social Acceptance",
+    "prompt": "Do you think greater social acceptance of people who are transgender is...",
+    "options": [
+      {"label": "A", "text": "Good for society.", "lean": "liberal"},
+      {"label": "B", "text": "Neither good nor bad for society.", "lean": "moderate"},
+      {"label": "C", "text": "Bad for society.", "lean": "conservative"}
+    ]
+  }
+]

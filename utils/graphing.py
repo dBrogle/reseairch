@@ -98,6 +98,8 @@ def bar_chart(
     save_path: str | Path,
     y_range: tuple[float, float] | None = None,
     color: str = "#4A90D9",
+    log_scale: bool = False,
+    value_fmt: str = ".1f",
 ):
     """
     Create and save a bar chart.
@@ -111,21 +113,39 @@ def bar_chart(
         save_path: File path to save the chart image
         y_range: Optional (min, max) for y-axis
         color: Bar color
+        log_scale: Use logarithmic y-axis
+        value_fmt: Format string for value labels on bars
     """
     fig, ax = plt.subplots(figsize=(12, 7))
-    bars = ax.bar(labels, values, color=color, edgecolor="white", width=0.6)
 
-    # Add value labels on top of each bar
-    for bar, val in zip(bars, values):
-        ax.text(
-            bar.get_x() + bar.get_width() / 2,
-            bar.get_height() + 0.5,
-            f"{val:.1f}%",
-            ha="center",
-            va="bottom",
-            fontsize=10,
-            fontweight="bold",
-        )
+    if log_scale:
+        # Diverging bars from baseline=1.0 on log scale
+        ax.set_yscale("log")
+        colors = [color if v >= 1.0 else "#D94A4A" for v in values]
+        # Bar height is the ratio from 1.0; bottom is always 1.0
+        # For values > 1: bar goes up from 1.0 to value
+        # For values < 1: bar goes down from 1.0 to value
+        heights = [v - 1.0 if v >= 1.0 else 1.0 - v for v in values]
+        bottoms = [1.0 if v >= 1.0 else v for v in values]
+        bars = ax.bar(labels, heights, bottom=bottoms, color=colors,
+                      edgecolor="white", width=0.6)
+        ax.axhline(y=1.0, color="gray", linestyle="--", linewidth=1.0, alpha=0.8)
+
+        # Value labels: centered in the bar (geometric mean between 1.0 and value)
+        for bar, val in zip(bars, values):
+            x = bar.get_x() + bar.get_width() / 2
+            y = (val * 1.0) ** 0.5  # geometric mean of val and 1.0
+            ax.text(x, y, f"{val:{value_fmt}}", ha="center", va="center",
+                    fontsize=10, fontweight="bold")
+    else:
+        bars = ax.bar(labels, values, color=color, edgecolor="white", width=0.6)
+        for bar, val in zip(bars, values):
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_height() + 0.5,
+                f"{val:{value_fmt}}",
+                ha="center", va="bottom", fontsize=10, fontweight="bold",
+            )
 
     ax.set_title(title, fontsize=14, fontweight="bold")
     ax.set_xlabel(x_label, fontsize=12)

@@ -22,6 +22,16 @@ STUDIES = {
         "description": "Tests whether LLMs show gender-based differences in moral dilemma responses (Likert scale)",
         "run": "studies.biases.main",
     },
+    "3": {
+        "name": "Political Sycophancy by State",
+        "description": "Tests whether LLMs shift political opinions based on which U.S. state the user is from",
+        "run": "studies.political_sycophancy.main",
+    },
+    "4": {
+        "name": "Emergent Values (Exchange Rates)",
+        "description": "Measures implied LLM value systems via pairwise comparisons across countries, religions, etc.",
+        "run": "studies.emergent_values.main",
+    },
 }
 
 

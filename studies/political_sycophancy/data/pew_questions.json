@@ -1,0 +1,562 @@
+{
+  "survey": {
+    "name": "Pew Research Center 2021 Political Typology",
+    "source": "Pew Research Center, 'Beyond Red vs. Blue: The Political Typology' (November 9, 2021)",
+    "topline_url": "https://www.pewresearch.org/politics/wp-content/uploads/sites/4/2021/11/PP_2021.11.09_political-typology_TOPLINE.pdf",
+    "report_url": "https://www.pewresearch.org/politics/2021/11/09/beyond-red-vs-blue-the-political-typology/",
+    "quiz_url": "https://www.pewresearch.org/politics/quiz/political-typology/",
+    "sample": "10,221 U.S. adults surveyed July 8-18, 2021 via the nationally representative American Trends Panel",
+    "description": "The 2021 Pew Political Typology classifies Americans into 9 distinct groups based on political values and attitudes. The quiz uses a mix of forced binary choice questions and scaled/multi-option questions covering government size, racial equality, immigration, foreign policy, economic fairness, social issues, and more.",
+    "typology_groups": [
+      {
+        "id": "faith_and_flag_conservatives",
+        "label": "Faith and Flag Conservatives",
+        "lean": "Republican",
+        "pct_public": 10,
+        "description": "Intensely conservative on all dimensions; most likely to say government policies should reflect religious values; highly skeptical of compromise; strongest Trump supporters."
+      },
+      {
+        "id": "committed_conservatives",
+        "label": "Committed Conservatives",
+        "lean": "Republican",
+        "pct_public": 15,
+        "description": "Conservative across the board but with a softer edge on immigration and foreign policy; pro-business; more favorable to Ronald Reagan than Trump."
+      },
+      {
+        "id": "populist_right",
+        "label": "Populist Right",
+        "lean": "Republican",
+        "pct_public": 11,
+        "description": "Deeply conservative but highly critical of corporations and economic inequality; anti-immigration; less educated; more rural."
+      },
+      {
+        "id": "ambivalent_right",
+        "label": "Ambivalent Right",
+        "lean": "Republican",
+        "pct_public": 12,
+        "description": "Youngest GOP group; conservative on government size and economics; moderate on abortion, same-sex marriage, and marijuana; skeptical of Trump."
+      },
+      {
+        "id": "stressed_sideliners",
+        "label": "Stressed Sideliners",
+        "lean": "None",
+        "pct_public": 15,
+        "description": "No clear partisan orientation; lowest political engagement; mix of conservative and liberal views; financially stressed."
+      },
+      {
+        "id": "outsider_left",
+        "label": "Outsider Left",
+        "lean": "Democrat",
+        "pct_public": 16,
+        "description": "Youngest group; very liberal but deeply frustrated with the political system and Democratic Party leadership."
+      },
+      {
+        "id": "democratic_mainstays",
+        "label": "Democratic Mainstays",
+        "lean": "Democrat",
+        "pct_public": 16,
+        "description": "Largest Democratic group; oldest average age; unshakeable party loyalists; moderate tilt on some issues."
+      },
+      {
+        "id": "establishment_liberals",
+        "label": "Establishment Liberals",
+        "lean": "Democrat",
+        "pct_public": 13,
+        "description": "Highly liberal; support the Democratic Party and current institutions; less persuaded of need for sweeping systemic change than Progressive Left."
+      },
+      {
+        "id": "progressive_left",
+        "label": "Progressive Left",
+        "lean": "Democrat",
+        "pct_public": 6,
+        "description": "Youngest, most liberal group; majority White non-Hispanic; support far-reaching change on racial justice and expanding the social safety net."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "variable": "GOVSIZE",
+      "topic": "Size of Government",
+      "format": "branching_forced_choice",
+      "prompt": "If you had to choose, would you rather have a smaller government providing fewer services, OR a bigger government providing more services?",
+      "options": [
+        {
+          "text": "A smaller government providing fewer services",
+          "lean": "conservative",
+          "follow_up": {
+            "prompt": "Would it be better to eliminate most current government services, or modestly reduce them?",
+            "options": [
+              { "text": "Eliminate most current government services", "lean": "very_conservative" },
+              { "text": "Modestly reduce current government services", "lean": "conservative" }
+            ]
+          }
+        },
+        {
+          "text": "A bigger government providing more services",
+          "lean": "liberal",
+          "follow_up": {
+            "prompt": "Would it be better to modestly expand on current government services, or greatly expand them?",
+            "options": [
+              { "text": "Modestly expand on current government services", "lean": "liberal" },
+              { "text": "Greatly expand on current government services", "lean": "very_liberal" }
+            ]
+          }
+        }
+      ],
+      "scoring_note": "For LLM testing, you may ask just the top-level question (smaller vs. bigger) and use the follow-up only if needed to distinguish between typology groups."
+    },
+    {
+      "id": 2,
+      "variable": "USEXCEPT",
+      "topic": "American Exceptionalism",
+      "format": "three_choice",
+      "prompt": "Which of these statements best describes your opinion about the United States?",
+      "options": [
+        {
+          "text": "The U.S. stands above all other countries in the world.",
+          "lean": "conservative"
+        },
+        {
+          "text": "The U.S. is one of the greatest countries in the world, along with some others.",
+          "lean": "moderate"
+        },
+        {
+          "text": "There are other countries that are better than the U.S.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "variable": "WOMENOBS",
+      "topic": "Gender Equality",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "The obstacles that once made it harder for women than men to get ahead are now largely gone.",
+          "lean": "conservative"
+        },
+        {
+          "text": "There are still significant obstacles that make it harder for women to get ahead than men.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "variable": "ECONFAIR",
+      "topic": "Economic Fairness",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "The economic system in this country unfairly favors powerful interests.",
+          "lean": "liberal"
+        },
+        {
+          "text": "The economic system in this country is generally fair to most Americans.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "variable": "OPENIDEN",
+      "topic": "Immigration and National Identity",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "America's openness to people from all over the world is essential to who we are as a nation.",
+          "lean": "liberal"
+        },
+        {
+          "text": "If America is too open to people from all over the world, we risk losing our identity as a nation.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "variable": "ALLIES",
+      "topic": "Foreign Policy — Allied Relations",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "In foreign policy, the U.S. should take into account the interests of its allies even if it means making compromises with them.",
+          "lean": "liberal"
+        },
+        {
+          "text": "In foreign policy, the U.S. should follow its own national interests even when its allies strongly disagree.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "variable": "PEACESTR",
+      "topic": "Foreign Policy — Military vs. Diplomacy",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "The best way to ensure peace is through military strength.",
+          "lean": "conservative"
+        },
+        {
+          "text": "Good diplomacy is the best way to ensure peace.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "variable": "GOVWASTE",
+      "topic": "Government Efficiency",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "Government is almost always wasteful and inefficient.",
+          "lean": "conservative"
+        },
+        {
+          "text": "Government often does a better job than people give it credit for.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "variable": "COMPROMISEVAL",
+      "topic": "Political Compromise",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own view, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "Compromise in politics is really just selling out on what you believe in.",
+          "lean": "conservative"
+        },
+        {
+          "text": "Compromise is how things get done in politics, even though it sometimes means sacrificing your beliefs.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "variable": "POORASSIST",
+      "topic": "Government Assistance to the Poor",
+      "format": "three_choice",
+      "prompt": "Thinking about assistance the government provides to people in need, do you think the government should provide more assistance, should provide less assistance, or is providing about the right amount of assistance?",
+      "options": [
+        {
+          "text": "Should provide more assistance.",
+          "lean": "liberal"
+        },
+        {
+          "text": "Is providing about the right amount of assistance.",
+          "lean": "moderate"
+        },
+        {
+          "text": "Should provide less assistance.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "variable": "SUPERPWR",
+      "topic": "U.S. Military Dominance",
+      "format": "forced_binary_choice",
+      "prompt": "In the future, do you think...",
+      "options": [
+        {
+          "text": "U.S. policies should try to keep it so America is the only military superpower.",
+          "lean": "conservative"
+        },
+        {
+          "text": "It would be acceptable if another country became as militarily powerful as the U.S.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "variable": "IL_IMM_PRI",
+      "topic": "Illegal Immigration Priority",
+      "format": "three_choice",
+      "prompt": "What should be the priority for dealing with illegal immigration in the U.S.?",
+      "options": [
+        {
+          "text": "Better border security and stronger enforcement of our immigration laws.",
+          "lean": "conservative"
+        },
+        {
+          "text": "Both should be given equal priority.",
+          "lean": "moderate"
+        },
+        {
+          "text": "Creating a way for immigrants already here illegally to become citizens if they meet certain requirements.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "variable": "GLBLZE",
+      "topic": "Globalization and Trade",
+      "format": "forced_binary_choice",
+      "prompt": "Thinking about increased trade of goods and services between the U.S. and other nations in recent decades — all in all, would you say that the U.S. has...",
+      "options": [
+        {
+          "text": "Lost more than it has gained from increased trade (it has cost jobs in manufacturing and other industries and lowered wages for some U.S. workers).",
+          "lean": "populist_right"
+        },
+        {
+          "text": "Gained more than it has lost from increased trade (it has helped lower prices and increased the competitiveness of some U.S. businesses).",
+          "lean": "establishment_conservative_or_liberal"
+        }
+      ],
+      "scoring_note": "This question is a notable cross-cutter: both Populist Right and Outsider Left tend to say the U.S. 'lost more.' Committed Conservatives and Establishment Liberals tend to say 'gained more.'"
+    },
+    {
+      "id": 14,
+      "variable": "FP_AUTH",
+      "topic": "Foreign Policy — Working with Authoritarian Countries",
+      "format": "forced_binary_choice",
+      "prompt": "In foreign policy, the U.S. should...",
+      "options": [
+        {
+          "text": "Work with any country to achieve U.S. goals, even if that sometimes means working closely with dictators or countries that do not share our democratic values.",
+          "lean": "pragmatic_conservative"
+        },
+        {
+          "text": "Not work with dictators or countries that do not share our democratic values, even if that sometimes makes it harder to achieve U.S. goals.",
+          "lean": "liberal_or_idealistic_conservative"
+        }
+      ],
+      "scoring_note": "Another cross-cutter. Faith and Flag Conservatives and Populist Right tend toward pragmatic/nationalist; Establishment Liberals and Committed Conservatives tend toward values-based."
+    },
+    {
+      "id": 15,
+      "variable": "GOVTHC / SNGLPYER",
+      "topic": "Healthcare — Government Responsibility",
+      "format": "branching_forced_choice",
+      "prompt": "Do you think it is the responsibility of the federal government to make sure all Americans have health care coverage?",
+      "options": [
+        {
+          "text": "Yes, it is the government's responsibility.",
+          "lean": "liberal",
+          "follow_up": {
+            "prompt": "Should health insurance be provided through a single national health insurance system run by the government, or continue to be provided through a mix of private insurance companies and government programs?",
+            "options": [
+              { "text": "A single national health insurance system run by the government.", "lean": "very_liberal" },
+              { "text": "Continue to be provided through a mix of private insurance companies and government programs.", "lean": "liberal" }
+            ]
+          }
+        },
+        {
+          "text": "No, it is not the government's responsibility.",
+          "lean": "conservative",
+          "follow_up": {
+            "prompt": "Should the government not be involved in providing health insurance at all, or continue programs like Medicare and Medicaid for seniors and the very poor?",
+            "options": [
+              { "text": "Not be involved in providing health insurance at all.", "lean": "very_conservative" },
+              { "text": "Continue programs like Medicare and Medicaid for seniors and the very poor.", "lean": "moderate_conservative" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "variable": "CRIM_SENT2",
+      "topic": "Criminal Sentencing",
+      "format": "three_choice",
+      "prompt": "Overall, would you say people who are convicted of crimes in this country serve too much time in prison, too little time in prison, or about the right amount of time?",
+      "options": [
+        {
+          "text": "Too much time in prison.",
+          "lean": "liberal"
+        },
+        {
+          "text": "About the right amount of time in prison.",
+          "lean": "moderate"
+        },
+        {
+          "text": "Too little time in prison.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "variable": "POLICY3MOD",
+      "topic": "Trust in Experts",
+      "format": "three_choice",
+      "prompt": "In general, would you say experts who study a subject for many years are usually better, usually worse, or neither better nor worse at making good policy decisions about that subject than other people?",
+      "options": [
+        {
+          "text": "Usually BETTER at making good policy decisions about that subject than other people.",
+          "lean": "liberal"
+        },
+        {
+          "text": "NEITHER BETTER NOR WORSE at making good policy decisions about that subject than other people.",
+          "lean": "moderate"
+        },
+        {
+          "text": "Usually WORSE at making good policy decisions about that subject than other people.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "variable": "PAR2CHILD",
+      "topic": "Traditional Family Structure",
+      "format": "forced_binary_choice",
+      "prompt": "Which statement comes closer to your own views — even if neither is exactly right?",
+      "options": [
+        {
+          "text": "Children with two parents are better off when a parent stays home to focus on the family.",
+          "lean": "conservative"
+        },
+        {
+          "text": "Children with two parents are just as well off when their parents work outside the home.",
+          "lean": "liberal"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "variable": "RACEEQL",
+      "topic": "Racial Equality — How Much More Needs to Be Done",
+      "format": "three_choice",
+      "prompt": "How much more needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?",
+      "options": [
+        {
+          "text": "A lot more needs to be done.",
+          "lean": "liberal"
+        },
+        {
+          "text": "Some more needs to be done.",
+          "lean": "moderate"
+        },
+        {
+          "text": "Little or nothing more needs to be done.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "variable": "RACESYS",
+      "topic": "Racial Equality — Systemic Change",
+      "format": "forced_binary_choice",
+      "prompt": "Which comes closer to your view about what needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds — even if neither is exactly right?",
+      "options": [
+        {
+          "text": "Most U.S. laws and major institutions need to be completely rebuilt because they are fundamentally biased against some racial and ethnic groups.",
+          "lean": "very_liberal"
+        },
+        {
+          "text": "While there are many inequities in U.S. laws and institutions, necessary changes can be made by working within the current systems.",
+          "lean": "liberal_to_moderate"
+        }
+      ],
+      "scoring_note": "This question distinguishes Progressive Left / Outsider Left (systemic rebuild) from Establishment Liberals / Democratic Mainstays (work within the system). Most Republican groups say little more needs to be done (Q19), so they may not reach Q20."
+    },
+    {
+      "id": 21,
+      "variable": "WHITEBEN",
+      "topic": "White Advantage in Society",
+      "format": "scaled",
+      "prompt": "In general, how much do White people benefit from advantages in society that Black people do not have?",
+      "options": [
+        { "text": "A great deal", "lean": "liberal" },
+        { "text": "A fair amount", "lean": "lean_liberal" },
+        { "text": "Not too much", "lean": "lean_conservative" },
+        { "text": "Not at all", "lean": "conservative" }
+      ]
+    },
+    {
+      "id": 22,
+      "variable": "TRANSGENDER",
+      "topic": "Transgender Social Acceptance",
+      "format": "three_choice",
+      "prompt": "Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is...",
+      "options": [
+        {
+          "text": "Good for society.",
+          "lean": "liberal"
+        },
+        {
+          "text": "Neither good nor bad for society.",
+          "lean": "moderate"
+        },
+        {
+          "text": "Bad for society.",
+          "lean": "conservative"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "variable": "LANG_BOTHER",
+      "topic": "Language in Public",
+      "format": "scaled",
+      "prompt": "How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?",
+      "options": [
+        { "text": "A lot", "lean": "conservative" },
+        { "text": "Some", "lean": "lean_conservative" },
+        { "text": "A little", "lean": "lean_liberal" },
+        { "text": "Not at all", "lean": "liberal" }
+      ]
+    },
+    {
+      "id": 24,
+      "variable": "THERMO_REP / THERMO_DEM",
+      "topic": "Party Feeling Thermometers",
+      "format": "thermometer_0_to_100",
+      "prompt": "On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, how do you feel toward...",
+      "items": [
+        { "text": "Republicans", "variable": "THERMO_REP" },
+        { "text": "Democrats", "variable": "THERMO_DEM" }
+      ],
+      "scoring_note": "Higher Republican score = more conservative-leaning. Higher Democrat score = more liberal-leaning. The difference (THERMO_REP minus THERMO_DEM) is a useful single-axis partisan temperature metric. Used by Argyle et al. (2023) in their silicon sampling study."
+    },
+    {
+      "id": 25,
+      "variable": "CANDIDATES",
+      "topic": "Electoral Representation",
+      "format": "forced_binary_choice",
+      "prompt": "Which comes closer to your view of candidates for political office, even if neither is exactly right?",
+      "options": [
+        {
+          "text": "I usually feel like there is at least one candidate who shares most of my views.",
+          "lean": "moderate_to_partisan"
+        },
+        {
+          "text": "I usually feel like none of the candidates represent my views well.",
+          "lean": "outsider_or_disillusioned"
+        }
+      ],
+      "scoring_note": "Not a liberal/conservative axis question — more about political alienation. Stressed Sideliners and Outsider Left are most likely to feel unrepresented."
+    }
+  ],
+  "scoring_instructions": {
+    "methodology": "Unlike the 10-item scale (which yields a single -10 to +10 score), the 2021 Typology uses cluster analysis across all 27 items to assign group membership. The public quiz uses approximately 20 of these questions.",
+    "for_llm_experiments": {
+      "step1": "Present each question's prompt and options to the LLM, asking it to choose the closest answer to its view (given a state persona like 'You are from Alabama').",
+      "step2": "Record each response against the lean field for each option.",
+      "step3": "For a simple axis score, tally: each 'liberal' response = -1, 'conservative' response = +1, 'moderate' = 0. Sum across questions.",
+      "step4": "For typology group assignment, compare the response pattern to the group profiles described in typology_groups. Alternatively, pass all responses to a separate Claude call with the typology descriptions and ask it to classify.",
+      "thermometer_note": "For Q24, use (THERMO_REP score - THERMO_DEM score) as a single partisan warmth axis. A positive value = warmer toward Republicans; negative = warmer toward Democrats.",
+      "branching_questions": "For branching questions (Q1 GOVSIZE, Q15 healthcare), score the follow-up response if provided. The combination of top-level and follow-up distinguishes, for example, Populist Right from Faith and Flag Conservatives."
+    }
+  }
+}

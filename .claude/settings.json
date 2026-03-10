@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/brogle/workspace/brogle/states/**)",
+      "Bash(pip freeze)",
+      "Bash(python -c \":*)",
+      "Read(//Users/brogle/.pyenv/versions/3.12.2/bin/**)",
+      "Bash(./venv/bin/pip install:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/brogle/workspace/brogle/reseairch/studies/emergent_values/output/results"
+    ]
+  }
+}
