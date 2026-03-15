@@ -32,6 +32,11 @@ STUDIES = {
         "description": "Measures implied LLM value systems via pairwise comparisons across countries, religions, etc.",
         "run": "studies.emergent_values.main",
     },
+    "5": {
+        "name": "HLE Performance Sycophancy",
+        "description": "Tests whether LLMs perform differently on HLE questions based on which U.S. state the user is from",
+        "run": "studies.hle_sycophancy.main",
+    },
 }
 
 

@@ -57,6 +57,29 @@ class OpenRouterProvider(LLMProvider):
         except httpx.HTTPError as e:
             raise RuntimeError(f"OpenRouter API request failed: {e}") from e
 
+    async def complete_text_with_usage(
+        self,
+        prompt: str | None = None,
+        model: str | None = None,
+        temperature: float | None = None,
+        max_tokens: int | None = None,
+        messages: list[dict] | None = None,
+    ) -> tuple[str, dict]:
+        """Like complete_text but also returns the usage dict from the response."""
+        if model is None:
+            raise ValueError("model is required for OpenRouter calls")
+        if prompt is None and messages is None:
+            raise ValueError("Either prompt or messages is required")
+
+        temp = temperature if temperature is not None else self.DEFAULT_TEMPERATURE
+        tokens = max_tokens if max_tokens is not None else self.DEFAULT_MAX_TOKENS
+        msgs = messages if messages is not None else [{"role": "user", "content": prompt}]
+
+        response = await self._call_api(msgs, model, temp, tokens)
+        text = self._extract_text(response)
+        usage = response.get("usage", {})
+        return text, usage
+
     async def complete_structured(
         self,
         prompt: str,
@@ -135,6 +158,7 @@ class OpenRouterProvider(LLMProvider):
         except httpx.HTTPStatusError as e:
             if e.response.status_code == 429 and retry_count < max_retries:
                 wait_time = 2**retry_count
+                print(f"  ⚠ 429 rate limit hit for {model}, retrying in {wait_time}s (attempt {retry_count + 1}/{max_retries})")
                 await asyncio.sleep(wait_time)
                 return await self._call_api(
                     messages,
