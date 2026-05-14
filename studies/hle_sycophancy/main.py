@@ -74,6 +74,9 @@ def get_questions() -> list[dict]:
 
     Cached by (seed, per_category) — same config always produces the same
     question set across models and across runs.
+
+    If no cache exists for the requested per_category but a smaller one does,
+    extend the smaller sample so existing response caches remain valid.
     """
     cached = load_hle_questions(HLE_SEED, HLE_PER_CATEGORY)
     if cached is not None:
@@ -81,7 +84,18 @@ def get_questions() -> list[dict]:
               f"(seed={HLE_SEED}, per_category={HLE_PER_CATEGORY}).")
         return cached
 
-    questions = load_hle_stratified_sample(per_category=HLE_PER_CATEGORY, seed=HLE_SEED)
+    base = None
+    for n in range(HLE_PER_CATEGORY - 1, 0, -1):
+        prior = load_hle_questions(HLE_SEED, n)
+        if prior is not None:
+            base = prior
+            print(f"  Extending cached per_category={n} sample "
+                  f"({len(prior)} questions) → per_category={HLE_PER_CATEGORY}.")
+            break
+
+    questions = load_hle_stratified_sample(
+        per_category=HLE_PER_CATEGORY, seed=HLE_SEED, base_questions=base,
+    )
     save_hle_questions(HLE_SEED, HLE_PER_CATEGORY, questions)
     return questions
 

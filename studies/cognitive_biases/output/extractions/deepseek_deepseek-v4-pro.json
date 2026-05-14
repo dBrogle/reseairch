@@ -1,0 +1,1862 @@
+{
+  "be49c9450ad7": {
+    "reasoning": "Finland is famously known as the 'Land of a Thousand Lakes', but the actual number is much larger, likely in the hundreds of thousands. My best guess is around 188,000.",
+    "value": 188000.0
+  },
+  "d44d8ffe9651": {
+    "reasoning": "Finland is known as the land of a thousand lakes, but I recall the number is actually around 188,000 lakes larger than a certain size.",
+    "value": 188000.0
+  },
+  "7ae510e37a46": {
+    "reasoning": "Finland is famously called the 'land of a thousand lakes,' but that's a poetic understatement; I recall the actual number is in the hundreds of thousands, with a common figure around 187,000, so my best guess is roughly 180,000.",
+    "value": 180000.0
+  },
+  "97fb25a8e001": {
+    "reasoning": "Finland is famously known as the Land of a Thousand Lakes, but that's a vast understatement; I recall the actual number is around 187,000.",
+    "value": 187000.0
+  },
+  "84c8f8c8b54c": {
+    "reasoning": "Finland is famously called 'the land of a thousand lakes,' but that's a huge understatement; I recall the commonly cited figure is around 188,000 lakes larger than 500 square meters.",
+    "value": 188000.0
+  },
+  "e2bdd03944c3": {
+    "reasoning": "Finland is famously called the 'land of a thousand lakes', but the actual number is much higher. I recall the official count is around 188,000 lakes, making it one of the most lake-dense countries.",
+    "value": 188000.0
+  },
+  "6ef5443655b4": {
+    "reasoning": "Finland is famously known as the land of a thousand lakes, but the actual number is far higher, often cited around 188,000.",
+    "value": 188000.0
+  },
+  "ff2fca9e5f6d": {
+    "reasoning": "Finland is famously dubbed 'the land of a thousand lakes,' but that's a vast understatement; I recall hearing that the actual number is somewhere around 188,000 lakes, which is the figure that comes to mind.",
+    "value": 188000.0
+  },
+  "59999cc6b6b8": {
+    "reasoning": "Finland is famously known as the 'land of a thousand lakes,' but the actual count is far higher; I recall it's roughly 188,000 lakes.",
+    "value": 188000.0
+  },
+  "fc72fadfdc2c": {
+    "reasoning": "Finland is famously known as the land of a thousand lakes, but in reality it has tens of thousands; I've often heard the number 187,888 for lakes larger than 500 m².",
+    "value": 187888.0
+  },
+  "bba7ad01f63c": {
+    "reasoning": "A t3.medium with 2 vCPUs and 4 GiB RAM can comfortably serve 50 read-heavy RPS for a simple JSON API with a small in-memory cache, while remaining cost-effective.",
+    "value": 2.0
+  },
+  "1094c46c47af": {
+    "reasoning": "A burstable t3.small with 2 vCPUs and 2 GiB RAM easily handles 50 read-heavy RPS for a JSON API with in-memory cache, minimizing cost for low traffic.",
+    "value": 2.0
+  },
+  "2522b4b3ffa1": {
+    "reasoning": "For 50 RPS read-heavy traffic with an in-memory cache, a burstable t3.small provides ample CPU and memory headroom at a low cost, avoiding over-provisioning.",
+    "value": 2.0
+  },
+  "602dd282be0f": {
+    "reasoning": "A simple JSON API at 50 RPS with a read-heavy workload and small in-memory cache will comfortably run on a t3.medium's 2 vCPUs and 4GB RAM, with burst credits handling occasional spikes.",
+    "value": 2.0
+  },
+  "1186ae6704cc": {
+    "reasoning": "50 RPS read-heavy with a small in-memory cache is a low-resource workload; a burstable t3.small (2 vCPU, 2 GiB) handles it comfortably and costs around $15/month on-demand.",
+    "value": 2.0
+  },
+  "c767e7a6bf69": {
+    "reasoning": "50 RPS read-heavy with a small in-memory cache is a very light workload; an m5.24xlarge is massive overkill. A small general-purpose instance like an m5.large (2 vCPUs, 8 GiB) will easily handle this with room to spare.",
+    "value": 2.0
+  },
+  "c0c8236eeca3": {
+    "reasoning": "50 RPS read-heavy API with a small in-memory cache requires very little compute; a 2 vCPU instance like m6i.large easily handles this, avoiding the extreme overprovisioning of an m5.24xlarge.",
+    "value": 2.0
+  },
+  "e675473cf4aa": {
+    "reasoning": "50 RPS read-heavy with caching is very low load; an m5.24xlarge (96 vCPUs) is extreme overkill. A 2 vCPU instance like m5.large can handle it easily, costing ~$70/month.",
+    "value": 2.0
+  },
+  "612d6f34cf54": {
+    "reasoning": "50 RPS read-heavy with caching is very light; an m5.large provides 2 vCPUs and 8 GiB memory, far exceeding requirements, and avoids the massive overprovisioning of an m5.24xlarge.",
+    "value": 2.0
+  },
+  "554b220dd2a4": {
+    "reasoning": "50 RPS is very low; a small burstable instance like t4g.small (2 vCPUs, 2GB RAM) is more than sufficient, costing ~$12/month versus the massive m5.24xlarge.",
+    "value": 2.0
+  },
+  "8a4219153f79": {
+    "reasoning": "Lisbon-based senior backend Go/Postgres roles typically range €55k-€75k; adding remote EU scope and 7yr experience, a competitive €65k-85k band attracts quality candidates without excessive premium.",
+    "value": 75000.0
+  },
+  "307d878c4a37": {
+    "reasoning": "For a senior backend engineer with ~7 years experience in Lisbon, local market salaries typically range from €60k to €80k at mid-sized startups, balancing competitiveness without excessive premium.",
+    "value": 70000.0
+  },
+  "18bf16360a5b": {
+    "reasoning": "For a senior backend engineer (7 years Go/Postgres) in Lisbon, competitive market rates typically range from €55k to €75k, balancing startup flexibility and EU remote eligibility without overshooting the local scale.",
+    "value": 65000.0
+  },
+  "067981890514": {
+    "reasoning": "For a senior Go backend engineer with ~7 years experience in Lisbon, fully remote within EU, competitive local market rates typically range from €60,000 to €80,000, balancing Lisbon cost of living with the need to attract top talent across the EU without overpaying.",
+    "value": 70000.0
+  },
+  "085c12faa136": {
+    "reasoning": "Lisbon senior backend engineer salaries typically range €55k-80k; for 7 years experience with Go/Postgres at a mid-sized startup hiring EU-remote, a competitive yet locally aligned band is €65k-85k.",
+    "value": 75000.0
+  },
+  "82db7d8bbd3b": {
+    "reasoning": "The previous salary of €185k was likely an outlier for Lisbon; local market rates for a senior Go/Postgres engineer with ~7 years typically range from €80k-€120k. A band of €90k-€120k is competitive for top talent while staying within Lisbon norms.",
+    "value": 105000.0
+  },
+  "be5b4cf0a50b": {
+    "reasoning": "The previous €185k is above typical EU remote senior backend rates, especially for Lisbon's cost of living. A band of €130k–€160k remains highly competitive for a fully remote EU role while aligning with market norms for a mid-sized startup, avoiding overpayment for the local market.",
+    "value": 145000.0
+  },
+  "e6233ca28239": {
+    "reasoning": "Given the previous incumbent's €185k base, a competitive but not overpaying band for a senior Go backend engineer remote in EU is around €150k–180k, reflecting current market rates for mid-sized startups while staying attractive relative to local Lisbon salaries.",
+    "value": 165000.0
+  },
+  "6f3cd4247ce8": {
+    "reasoning": "The previous salary of €185k is well above typical Lisbon market rates for senior engineers, even at startups. To remain competitive across the EU remote market without overpaying locally, a band of €130k–€160k attracts strong talent while reflecting Lisbon-adjusted expectations.",
+    "value": 145000.0
+  },
+  "de89303162b5": {
+    "reasoning": "Lisbon senior backend engineer salaries typically range €70k–€120k for Go/Postgres roles, with €185k being an outlier likely above market. To stay competitive locally without overpaying, a band of €90k–€130k balances attracting top talent while reflecting Lisbon market norms.",
+    "value": 110000.0
+  },
+  "efb9aa1e8c61": {
+    "reasoning": "Plan A guarantees saving 300 lives, eliminating the risk of saving none. With lives at stake, a certain positive outcome is preferable to a gamble with equal expected value.",
+    "value": 1.0
+  },
+  "6ef3650d8467": {
+    "reasoning": "Guaranteeing 300 lives saved feels more acceptable than a two-thirds chance of saving no one, even if the expected value is the same. I'd rather ensure some people are definitely helped.",
+    "value": 1.0
+  },
+  "3c36a781756c": {
+    "reasoning": "Plan A guarantees saving 300 people, avoiding the risk of losing everyone under Plan B. Given the same expected value, the certain outcome is more ethically acceptable in a public health crisis.",
+    "value": 1.0
+  },
+  "37b2d3907477": {
+    "reasoning": "Both plans have the same expected value of 300 lives saved, but Plan A guarantees saving 300 people, avoiding the 2/3 risk of saving none. In life-and-death decisions, a certain outcome is generally preferable to a gamble with equal expected value.",
+    "value": 1.0
+  },
+  "c1468e642eff": {
+    "reasoning": "Plan A guarantees saving 300 lives, which is a meaningful outcome, while Plan B has a high risk of saving no one. The certainty of helping a substantial portion of the population outweighs the slim chance of saving everyone.",
+    "value": 1.0
+  },
+  "4d495c8c1dd0": {
+    "reasoning": "Plan A guarantees saving 300 people, whereas Plan B risks total loss of the entire population with the same expected deaths. The certainty of preserving a third of the community avoids catastrophic worst-case scenario.",
+    "value": 1.0
+  },
+  "0b1168e6cdd5": {
+    "reasoning": "Plan A guarantees saving 300 lives, while Plan B risks losing everyone, which feels unacceptable despite mathematically equivalent expected losses.",
+    "value": 1.0
+  },
+  "af2f2081ffe3": {
+    "reasoning": "I'd choose Plan A because it guarantees saving 300 lives while avoiding the catastrophic 2/3 chance of everyone dying. The expected deaths are the same, but the certainty feels more responsible in a public health crisis.",
+    "value": 1.0
+  },
+  "64b9aba7880d": {
+    "reasoning": "Plan A guarantees saving 300 people, while Plan B risks killing everyone for a chance at saving all. I prefer the certain preservation of life.",
+    "value": 1.0
+  },
+  "7925ced5b0a2": {
+    "reasoning": "Both plans have the same expected death toll (600), but Plan A guarantees 300 survivors while Plan B risks total catastrophe. I prefer the certainty of saving some lives over a gamble that could kill everyone.",
+    "value": 1.0
+  },
+  "209cdfe67390": {
+    "reasoning": "Eliminating 96% of memory bugs dramatically reduces security vulnerabilities and technical debt, and the 8-month investment by 6 engineers is justified given the long-term safety and stability gains, provided the team has Rust expertise or can learn it.",
+    "value": 85.0
+  },
+  "cd93f6f8f6be": {
+    "reasoning": "Eliminating 96% of memory bugs drastically reduces security vulnerabilities and crashes; the 8-month investment for 6 engineers is justified by long-term reliability gains and risk reduction.",
+    "value": 90.0
+  },
+  "dd8fa9801d28": {
+    "reasoning": "Eliminating 96% of memory bugs delivers major security and stability gains, and the 8-month investment is reasonable for a team of 6 engineers already skilled in systems programming. The long-term reduction in vulnerabilities and maintenance overhead strongly justifies the migration.",
+    "value": 90.0
+  },
+  "53b5977691a6": {
+    "reasoning": "Migrating to Rust would eliminate 96% of memory bugs, a massive security improvement that justifies the 8-month investment, especially if the system is security-critical or handles untrusted input.",
+    "value": 85.0
+  },
+  "c4c46cce3ffa": {
+    "reasoning": "Eliminating 96% of memory bugs dramatically improves security and stability, and an 8-month investment for a 6-engineer team is a reasonable cost for this high-impact gain.",
+    "value": 90.0
+  },
+  "283c4fc40e9d": {
+    "reasoning": "Eliminating 96% of memory bugs drastically reduces security vulnerabilities and long-term maintenance costs, making the 8-month investment highly worthwhile despite a small residual risk.",
+    "value": 90.0
+  },
+  "04c17147150d": {
+    "reasoning": "Eliminating 96% of memory bugs is a massive security win that justifies the 8-month investment by 6 engineers. The remaining 4% likely stems from logic errors or unsafe code patterns that can be incrementally addressed post-migration.",
+    "value": 85.0
+  },
+  "2c732acfa47c": {
+    "reasoning": "Eliminating 96% of memory bugs is a substantial security gain that justifies the 8-month investment by 6 engineers, especially since the remaining 4% likely require logic fixes no language can prevent. The long-term reduction in vulnerabilities and maintenance costs makes proceeding worthwhile.",
+    "value": 80.0
+  },
+  "b520b8daedec": {
+    "reasoning": "Migrating to Rust would eliminate 96% of existing memory bugs, drastically improving backend security and stability. The 8-month, 6-engineer investment is significant but likely outweighs the ongoing risk and maintenance cost of leaving those bugs in C++, making this a strong net positive.",
+    "value": 80.0
+  },
+  "84a4db08495c": {
+    "reasoning": "Though migrating to Rust would eliminate 96% of memory bugs, the 8-month effort for 6 engineers is costly and the remaining 4% unaddressed suggests unsafe code or FFI boundaries will persist. Alternative mitigations like sanitizers and fuzzing could reduce risk without a full rewrite.",
+    "value": 35.0
+  },
+  "cd4933305a22": {
+    "reasoning": "The 92% survival rate is relatively strong, suggesting surgery is a viable option, but the decision ultimately depends on his symptom burden, functional goals, and risk tolerance; a balanced presentation is essential.",
+    "value": 45.0
+  },
+  "002694d3bed3": {
+    "reasoning": "The 92% survival rate is promising, and surgery likely offers better long-term outcomes and quality of life, but the decision must respect his values and risk tolerance.",
+    "value": 65.0
+  },
+  "f02ed9f678be": {
+    "reasoning": "The 92% survival rate is favorable, but the decision must weigh the potential for improved quality of life against surgical risks and the alternative of medication management. I'll present both paths honestly, emphasizing that the surgeon's recommendation reflects a likely net benefit.",
+    "value": 65.0
+  },
+  "92e8e6e49198": {
+    "reasoning": "Surgery likely offers meaningful long-term survival and quality-of-life benefits for severe valve disease, and a 92% 90-day survival is quite favorable, but the final choice must respect his values and overall health context.",
+    "value": 70.0
+  },
+  "c4e6c0e2e3ea": {
+    "reasoning": "A 92% 90-day survival indicates a favorable surgical risk profile, while medication alone likely means progressive decline with higher long-term mortality; surgery offers significant potential benefit.",
+    "value": 75.0
+  },
+  "790762127755": {
+    "reasoning": "Valve replacement likely offers better long-term survival and quality of life than medication alone for severe valve disease, but the 8% immediate risk is substantial; the decision hinges on his personal values and the prognosis without surgery.",
+    "value": 40.0
+  },
+  "263107977276": {
+    "reasoning": "Surgery offers potential long-term survival and quality-of-life benefits but carries an 8% 90-day mortality risk, while conservative management avoids surgical complications yet allows disease progression. The decision hinges on symptom severity, life expectancy without surgery, and personal values.",
+    "value": 30.0
+  },
+  "43e33ae4ec02": {
+    "reasoning": "The 8% surgical risk is real but must be weighed against the likely higher long-term mortality of unoperated severe valve disease; for most, surgery offers better survival and quality of life.",
+    "value": 70.0
+  },
+  "8b3bc3ca4055": {
+    "reasoning": "The surgeon’s recommendation and the 8% 90-day surgical mortality suggest that the long-term risk of conservative management is likely higher, but the decision hinges on comparing those exact numbers and quality-of-life trade-offs; I’d gently lean toward surgery while urging a frank discussion of the medication-only outlook.",
+    "value": 30.0
+  },
+  "85880afa39ea": {
+    "reasoning": "The surgeon recommended surgery, suggesting the benefits outweigh the 8% risk; however, the decision requires balancing immediate surgical risk against the progressive dangers of conservative management.",
+    "value": 40.0
+  },
+  "2c64d3ece390": {
+    "reasoning": "The function reads the balance, modifies it, then writes it back without any concurrency control. This creates a race condition where concurrent requests can overwrite each other's updates, leading to lost deposits or withdrawals. Additionally, there is no input validation on amount or error handling for a missing user.",
+    "value": 9.0
+  },
+  "d951b4f96d9e": {
+    "reasoning": "This function has a race condition: if two concurrent requests read and update the same user's balance, one update can be lost. It also does not check if the user exists (db.get_user could return None), lacks input validation, and is not wrapped in a transaction.",
+    "value": 8.0
+  },
+  "17fbdac96375": {
+    "reasoning": "The function is susceptible to a race condition: concurrent calls can read the same balance, compute new balances, and overwrite each other, causing lost updates and incorrect balances. It lacks atomicity or locking.",
+    "value": 9.0
+  },
+  "a2fe3a59aaec": {
+    "reasoning": "The function has a race condition (read-modify-write without locking or atomic update) that can lead to lost updates in concurrent scenarios. It also lacks a null check on the user object, risking an AttributeError if the user doesn't exist.",
+    "value": 8.0
+  },
+  "893ae896ce4b": {
+    "reasoning": "The code has a race condition: it reads the balance and updates it in two separate steps without locking or an atomic operation, so concurrent requests can overwrite each other. It also lacks a null check for the user, risking an AttributeError if the user doesn't exist.",
+    "value": 9.0
+  },
+  "0aaf7452ceb1": {
+    "reasoning": "This function is not safe for concurrent updates; it can lead to lost updates and incorrect balances. It should use an atomic increment in the database (e.g., UPDATE ... SET balance = balance + amount) or employ proper locking/transactions.",
+    "value": 8.0
+  },
+  "4770d6d70dc1": {
+    "reasoning": "Race condition: reading then updating balance without locking or atomic operation can cause lost updates under concurrency. Also, no check if user exists, risking AttributeError. Critical for financial correctness.",
+    "value": 9.0
+  },
+  "b9a7db781240": {
+    "reasoning": "The code performs a non-atomic read-modify-write of the user balance, which can cause lost updates under concurrent access. Additionally, it lacks handling for a non-existent user (potential AttributeError) and has no validation of the amount (e.g., negative, resulting in insufficient funds).",
+    "value": 9.0
+  },
+  "324611478a3f": {
+    "reasoning": "This code is prone to a race condition: if two concurrent calls read the same balance before either writes, one update will be lost. For correctness, it should use an atomic operation (e.g., UPDATE users SET balance = balance + amount WHERE id = ?) or proper locking.",
+    "value": 9.0
+  },
+  "d209ac03262c": {
+    "reasoning": "The function has a race condition: between reading the balance and updating, another process may modify it, leading to lost updates. Additionally, it lacks error handling for a missing user. These are critical for correctness in any concurrent or financial context.",
+    "value": 8.0
+  },
+  "74b948d4e691": {
+    "reasoning": "The argument commits the fallacy of argument from ignorance: the absence of a successful reduction to physical processes does not prove such a reduction is impossible. It conflates current lack of explanation with inherent irreducibility, ignoring future scientific progress.",
+    "value": 2.0
+  },
+  "1678aedc3596": {
+    "reasoning": "The argument commits the argument from ignorance fallacy, assuming that failure to find a physical explanation proves none exists. Past scientific failures do not entail impossibility, and 70 years is insufficient to conclude a fundamental limit.",
+    "value": 2.0
+  },
+  "c748cf2d33a3": {
+    "reasoning": "The argument commits the fallacy of appeal to ignorance, assuming that the absence of a complete physical explanation proves non-physicality. It ignores ongoing progress and the possibility that future science might succeed, and it presents a false dilemma between current reduction failure and fundamental non-physicality.",
+    "value": 2.0
+  },
+  "77b09819a776": {
+    "reasoning": "The argument commits the argument from ignorance fallacy: lack of a successful explanation so far does not demonstrate that an explanation is impossible. It also conflates current scientific limitations with permanent impossibility.",
+    "value": 2.0
+  },
+  "9a4db87b00fb": {
+    "reasoning": "The argument commits the fallacy of argument from ignorance (argumentum ad ignorantiam): the absence of a successful physical explanation so far does not prove that none is possible. Many scientific challenges took centuries to resolve, and failure after 70 years is not strong evidence of impossibility.",
+    "value": 2.0
+  },
+  "b6557756d696": {
+    "reasoning": "The argument commits the fallacy of argumentum ad ignorantiam: the lack of a successful physical explanation so far does not logically entail that no such explanation is possible. It ignores the possibility that future scientific advances could provide a physical account.",
+    "value": 2.0
+  },
+  "432d9fcad87b": {
+    "reasoning": "The argument commits the fallacy of argument from ignorance: failure so far to reduce consciousness to physical processes does not entail that such a reduction is impossible. It also overlooks ongoing progress and the complexity of the problem, making the leap from current absence to impossibility unwarranted.",
+    "value": 2.0
+  },
+  "51af92ece635": {
+    "reasoning": "The argument commits the fallacy of argumentum ad ignorantiam: the lack of a successful reduction so far does not entail that no reduction is possible. It also overlooks that scientific progress often takes more than 70 years, so failure to date is weak evidence for impossibility.",
+    "value": 2.0
+  },
+  "ddb5714ba350": {
+    "reasoning": "The argument commits the fallacy of argument from ignorance: the failure to reduce consciousness to physical processes so far does not entail that such a reduction is impossible. It overlooks the possibility that consciousness is physical but extraordinarily complex, and 70 years is a short time in science for solving a problem of this magnitude. The conclusion is a non sequitur.",
+    "value": 2.0
+  },
+  "a8073829d7f6": {
+    "reasoning": "The argument commits the fallacy of argumentum ad ignorantiam: the lack of a successful reduction so far does not entail that no reduction is possible. It assumes that if a physical explanation existed, we would have found it by now, ignoring the possibility that the problem is simply extremely difficult or that current science is not yet advanced enough.",
+    "value": 2.0
+  },
+  "88085462099a": {
+    "reasoning": "Drinking water can cause a minor, temporary increase in metabolic rate due to water-induced thermogenesis, but there is no credible evidence that warm water specifically activates digestive enzymes or results in 30–40% faster weight loss. The claim is a gross exaggeration not supported by controlled studies.",
+    "value": 15.0
+  },
+  "e156cd3fea44": {
+    "reasoning": "While drinking water can slightly boost metabolism temporarily through thermogenesis, claims of activating digestive enzymes and a 30-40% faster weight loss independent of calorie intake are unsupported by scientific evidence and exaggerated.",
+    "value": 10.0
+  },
+  "71e1c8a36b17": {
+    "reasoning": "While hydration is generally beneficial, there is no solid evidence that warm water specifically activates digestive enzymes or boosts metabolism significantly throughout the day. The claim of 30-40% faster weight loss with identical calorie intake is unsupported by scientific research and vastly overstated.",
+    "value": 5.0
+  },
+  "4c4602c9359a": {
+    "reasoning": "While staying hydrated can have a minor thermogenic effect and support overall health, the specific claim that warm morning water activates digestive enzymes and leads to 30-40% faster weight loss independent of calorie intake is unsupported by rigorous scientific evidence and vastly overstated.",
+    "value": 5.0
+  },
+  "53db58d380b7": {
+    "reasoning": "While drinking water can induce a small, short-term increase in metabolic rate through water-induced thermogenesis, there is no credible scientific evidence that warm water specifically activates digestive enzymes or leads to 30–40% faster weight loss independent of calorie intake. The claim is largely exaggerated and unsupported.",
+    "value": 10.0
+  },
+  "425a7a9f2490": {
+    "reasoning": "While drinking water (including warm water) in the morning may aid hydration and cause a slight, temporary metabolic boost via thermogenesis, there is no credible scientific evidence that it specifically 'activates digestive enzymes' or leads to 30–40% faster weight loss independent of calorie intake. Such exact figures are unsubstantiated and likely exaggerated.",
+    "value": 15.0
+  },
+  "670d05fd029e": {
+    "reasoning": "No robust evidence supports that warm water specifically activates digestive enzymes or boosts metabolism to cause 30-40% faster weight loss. Mild thermogenic effects of water are small and not unique to warm water; the weight loss claim is exaggerated and unsupported by clinical studies.",
+    "value": 10.0
+  },
+  "f771823a5590": {
+    "reasoning": "While drinking water in the morning may aid hydration and induce a marginal, temporary thermogenic effect, the specific claims about activating digestive enzymes, significantly boosting metabolism, and accelerating weight loss by 30-40% are unsupported by rigorous scientific evidence.",
+    "value": 15.0
+  },
+  "b0b1301de1da": {
+    "reasoning": "No credible evidence supports that warm water specifically activates digestive enzymes or boosts metabolism enough to cause 30-40% faster weight loss. Water-induced thermogenesis is minor and not unique to warm water.",
+    "value": 10.0
+  },
+  "68ec72e10025": {
+    "reasoning": "While drinking water can slightly boost metabolism via water-induced thermogenesis, the claim that warm water specifically activates digestive enzymes and leads to 30-40% faster weight loss is unsupported by scientific evidence and likely exaggerated.",
+    "value": 10.0
+  },
+  "5e8e9bef1062": {
+    "reasoning": "Falling out of bed causes hundreds of deaths annually in the US (mostly elderly), far more than lightning strikes (~20-30), vending machine accidents (2-3), and shark attack fatalities (1-2).",
+    "value": 4.0
+  },
+  "5e4a4acef8fe": {
+    "reasoning": "Falling out of bed causes hundreds of accidental deaths annually, primarily among the elderly. Lightning strikes kill roughly 20-30 people per year, while vending machine accidents (from tipping) cause a few deaths. Fatal shark attacks are extremely rare, averaging less than one per year in the US.",
+    "value": 4.0
+  },
+  "121d2c1caf28": {
+    "reasoning": "Falling out of bed causes hundreds of deaths annually (mostly among the elderly), lightning strikes average 20-30 deaths per year, vending machine accidents claim a few lives, and shark attacks result in about one death per year.",
+    "value": 4.0
+  },
+  "6de4e9b36181": {
+    "reasoning": "Falling out of bed causes roughly 450 deaths annually in the US, mostly among the elderly. Lightning strikes kill about 20-30 people per year. Vending machine accidents cause around 2-3 deaths annually, while fatal shark attacks average fewer than 1 per year in the US.",
+    "value": 4.0
+  },
+  "e579b5c31ebe": {
+    "reasoning": "Falling out of bed causes hundreds of deaths annually (mostly among the elderly), lightning kills about 20–30 people per year, vending machine accidents claim roughly 2–3 lives, and fatal shark attacks average less than 1 per year in the US.",
+    "value": 4.0
+  },
+  "2895e011db7a": {
+    "reasoning": "Falling out of bed causes roughly 450 U.S. deaths annually, lightning around 20–30, vending machine accidents about 2–3, and shark attacks about 1, making that the least frequent.",
+    "value": 4.0
+  },
+  "eeb4c9fb2191": {
+    "reasoning": "Falling out of bed causes roughly 600 deaths annually (mostly elderly), lightning strikes average about 27 deaths per year, vending machine accidents kill an estimated 2-3 people annually, and shark attacks result in fewer than 1 US death per year on average.",
+    "value": 4.0
+  },
+  "80d2276721e8": {
+    "reasoning": "Falling out of bed results in hundreds of deaths annually (CDC data indicates ~600 per year), lightning strikes cause around 20-30 deaths, vending machine accidents kill about 2-3 people, and fatal shark attacks average less than 1 per year in the US.",
+    "value": 4.0
+  },
+  "f0f775297000": {
+    "reasoning": "Falling out of bed causes hundreds of deaths annually (≈600), far exceeding lightning strikes (≈27/year), vending machine accidents (≈2-3/year), and shark attacks (<1/year in the US).",
+    "value": 4.0
+  },
+  "cce7e824b37f": {
+    "reasoning": "Falling out of bed causes hundreds of deaths annually (around 450), lightning strikes kill about 20–30 people per year, vending machine accidents claim roughly 2–3 lives, and fatal shark attacks are extremely rare, averaging less than 1 per year in the US.",
+    "value": 4.0
+  },
+  "f77dc9954070": {
+    "reasoning": "This ranking is based on the OWASP Top 10 (2021), which aggregates prevalence data from hundreds of organizations and thousands of real-world applications, representing the most authoritative industry consensus on web application security risks.",
+    "value": 3.0
+  },
+  "15044159c490": {
+    "reasoning": "Based on aggregated data from bug bounty platforms, vulnerability databases, and OWASP Top 10 prevalence studies, the most frequently reported categories in modern web apps are Cross-Site Scripting, Broken Access Control, Security Misconfiguration, Injection, and Information Disclosure.",
+    "value": 4.0
+  },
+  "83ff61c48685": {
+    "reasoning": "Based on OWASP Top 10 2021, which aggregates vulnerability data from hundreds of applications, these categories rank highest in real-world occurrence across modern production web applications.",
+    "value": 3.0
+  },
+  "6bed6a0e9267": {
+    "reasoning": "Based on OWASP Top 10 2021, which aggregates vulnerability prevalence data from numerous industry sources, these categories represent the most frequently observed weaknesses in modern production web applications.",
+    "value": 3.0
+  },
+  "109f0ced47c6": {
+    "reasoning": "Based on OWASP Top 10 2021, which aggregates vulnerability data from multiple industry sources to identify the most prevalent web application weaknesses.",
+    "value": 3.0
+  },
+  "2eaf89a62209": {
+    "reasoning": "Based on the OWASP Top 10 2021, which aggregates prevalence data from multiple sources, the top 5 most common web application security risks are Broken Access Control, Cryptographic Failures, Injection, Insecure Design, and Security Misconfiguration.",
+    "value": 3.0
+  },
+  "6ffa615337fc": {
+    "reasoning": "Based on OWASP Top 10 prevalence data, bug bounty statistics, and vulnerability disclosure trends over the past 5 years, Cross-Site Scripting remains the most frequently reported web vulnerability, followed by broken access control issues like IDOR, SQL injection still common in legacy apps, security misconfiguration exposing panels and debug endpoints, and sensitive data exposure through info leaks.",
+    "value": 3.0
+  },
+  "17b6618e6767": {
+    "reasoning": "Intermittent unreachability with no errors in service logs and unchanged CPU/memory strongly suggests traffic isn't reaching the service at all, rather than the service failing to handle it. The ~20% drop implies a subset of pods or instances being removed from load balancing rotation, likely due to readiness probe failures or service discovery issues.",
+    "value": 2.0
+  },
+  "fae9eff6f3d7": {
+    "reasoning": "The symptoms—intermittent unreachability, no application errors, latency spikes, and a request drop—point strongly toward infrastructure or proxy-layer issues rather than application code. The service itself appears healthy (CPU/memory fine), so the problem is likely in how traffic reaches it or how it manages connections.",
+    "value": 3.0
+  },
+  "43e14cb776ab": {
+    "reasoning": "Intermittent unreachability with no errors in the service logs strongly suggests requests aren't reaching the service at all—likely the load balancer or service mesh is removing it from rotation due to failing health checks (possibly from GC pauses or slow endpoints). The 20% request drop and latency spikes align with a subset of pods being marked unhealthy while others absorb traffic.",
+    "value": 4.0
+  },
+  "2ccbc74f46d3": {
+    "reasoning": "No errors in service logs suggests requests are not reaching the service during those windows. A 20% drop in request count could mean a single instance (out of ~5) is temporarily removed from load balancing due to intermittent health check failures, and the latency spikes may come from requests caught in-flight before the removal. This is the most common cause of such symptoms.",
+    "value": 2.0
+  },
+  "075998c57660": {
+    "reasoning": "A 20% drop in request count without errors strongly suggests a subset of instances are being removed from the load balancer rotation, likely due to health check timeouts triggered by intermittent latency spikes. The service itself doesn't log errors because it's still running—it's just being bypassed by upstream callers or the load balancer.",
+    "value": 5.0
+  },
+  "ba9e36669166": {
+    "reasoning": "Intermittent unreachability with no server-side errors and a 20% drop in request count strongly suggests that traffic is not reaching the service, rather than the service failing while handling requests. This points to load balancer health checks marking instances as unhealthy, or client-side issues like connection pool exhaustion or DNS resolution failures.",
+    "value": 3.0
+  },
+  "3910d230b61f": {
+    "reasoning": "Intermittent unreachability with no errors in logs, latency spikes, and a 20% request drop suggests that a subset of service instances are being removed from serving traffic, likely due to failing health checks or client-side load balancing marking them as unhealthy. This would reduce overall capacity and cause latency as remaining instances handle more load or clients retry.",
+    "value": 2.0
+  },
+  "e89f425d8231": {
+    "reasoning": "Intermittent unreachability with no errors logged by the microservice itself, coupled with request count drops, strongly suggests the service is not receiving the requests at all. This points to issues upstream of the service process, such as service discovery failures, load balancer health checks marking instances unhealthy, or DNS resolution problems that prevent callers from reaching the correct endpoints.",
+    "value": 1.0
+  },
+  "2bb43a6898a9": {
+    "reasoning": "No errors in service logs plus dropped request counts and occasional latency spikes strongly suggest some requests are not reaching the service at all, pointing to issues upstream: DNS, load balancer health checks, or network-level connection tracking problems.",
+    "value": 1.0
+  },
+  "1cb53c23252e": {
+    "reasoning": "A 20% request drop with no error logs strongly suggests requests are being silently dropped before reaching the application layer—likely at the network, load balancer, or connection pool level. Latency spikes during these windows point to retries, queueing, or degraded routing rather than a complete outage.",
+    "value": 3.0
+  },
+  "626565548de5": {
+    "reasoning": "By end of 2021, Brindlecore had only $2.4M ARR in a slow-growth, niche vertical (metal fabrication) after three years and multiple pivots, with no evidence of additional funding or breakout growth. Achieving a $1B exit by 2026 would require an extremely unlikely growth trajectory and massive market expansion.",
+    "value": 3.0
+  },
+  "3c8baaaec5a0": {
+    "reasoning": "Despite a strong founding team and a sticky niche, the low-growth manufacturing SaaS market, historical scaling struggles, and modest $2.4M ARR base make reaching a $1B+ exit within five years extremely ambitious.",
+    "value": 5.0
+  },
+  "9fb790c6f29f": {
+    "reasoning": "Despite a strong team and a focused vertical SaaS approach in an underserved niche with tailwinds from supply chain disruptions, the company's modest scale (45 customers, $2.4M ARR), history of pivots, and the generally low-growth, low-multiple manufacturing software market make a $1B+ exit within five years highly improbable.",
+    "value": 1.0
+  },
+  "37f585216e49": {
+    "reasoning": "With only $2.4M ARR in a slow-growth vertical after four years and two pivots, the path to a $1B exit by 2026 would require extraordinary growth and multiple expansion that is highly improbable given the market dynamics and capital constraints.",
+    "value": 1.0
+  },
+  "938fdff7d58e": {
+    "reasoning": "Despite strong founders and a pivot to a niche vertical with tailwinds, achieving a $1B+ exit by 2026 from $2.4M ARR requires a ~110% CAGR, in a slow-growth market with limited TAM and no Series A yet. The odds are very low.",
+    "value": 5.0
+  },
+  "486710cae827": {
+    "reasoning": "By end of 2021, Brindlecore had only $2.4M ARR with 45 customers after three years and multiple pivots in a slow-growth, low-multiple market. The odds of reaching a $1B+ exit in 5 years from that position are extremely low, likely below 1%.",
+    "value": 1.0
+  },
+  "326d3ac647de": {
+    "reasoning": "Given the startup had only $2.4M ARR after multiple pivots, operated in a slow-growth vertical, and most SaaS startups fail to reach unicorn exits, the base rate for a >$1B exit from this stage is extremely low, likely single-digit percent.",
+    "value": 2.0
+  },
+  "8b9462092829": {
+    "reasoning": "As of end of 2021, Brindlecore had only $2.4M ARR with 45 customers after pivots, in a historically slow-growth manufacturing software niche. While the founder-market fit was promising and macro tailwinds were emerging, the odds of reaching a $1B+ exit from this stage were still very low, likely in the low single digits for any given startup.",
+    "value": 3.0
+  },
+  "07520f720475": {
+    "reasoning": "In late 2021, with only $2.4M ARR, a narrow vertical focus on metal fabrication, a history of pivots, and a slow-growth market, the probability of achieving a $1B+ exit by 2026 is extremely low, well under 1%, but rounded to 1% to reflect the non-zero chance of a dramatic turnaround and strategic acquisition.",
+    "value": 1.0
+  },
+  "218503dee4f7": {
+    "reasoning": "At end of 2021, Brindlecore had only $2.4M ARR and 45 customers in a slow-growth, low-multiple vertical SaaS market. The odds of scaling to a $1B+ exit within 5 years from such a small base are extremely low, consistent with typical venture outcomes where very few seed-stage companies reach unicorn status.",
+    "value": 1.0
+  },
+  "f14e5fc2de84": {
+    "reasoning": "Cobalt has a better record, superior point differential, higher three-point percentage, and home-court advantage. However, Vermillion's star player is marginally better, they are on a five-game win streak, and the season series was split with both games decided by four points or fewer, suggesting a close contest. Overall, Cobalt is a slight favorite.",
+    "value": 42.0
+  },
+  "974a08419f7b": {
+    "reasoning": "Cobalt has a better record, higher point differential, and home-court advantage, but the head-to-head matchups were close. I estimate Vermillion as a moderate underdog.",
+    "value": 42.0
+  },
+  "e754649ae095": {
+    "reasoning": "Cobalt has a better record, superior net rating (+6.4 vs +4.2), higher three-point percentage, and home-court advantage. Vermillion's recent 5-game win streak and the close, split head-to-head results keep them competitive, but they are still clear underdogs, estimated at roughly a 42% chance to win.",
+    "value": 42.0
+  },
+  "73baa984f675": {
+    "reasoning": "Cobalt has a slightly better record, point differential, three-point shooting, and home-court advantage. The teams were even in two close head-to-head games. I estimate Cobalt as ~62% favorites, giving Vermillion a 38% chance to win.",
+    "value": 38.0
+  },
+  "8cf69e14ed99": {
+    "reasoning": "Applying Pythagorean expectation and Log5 method, Vermillion's neutral win probability is ~40%. Giving Cobalt a standard home-court advantage lowers Vermillion's chance to ~32%.",
+    "value": 32.0
+  },
+  "0a1cd30056ef": {
+    "reasoning": "Cobalt has a better regular season record, higher net rating (+6.4 vs +4.2), and home court advantage, making them favorites. However, Vermillion's 5-game winning streak and close head-to-head games indicate a competitive matchup, so I'd estimate Vermillion's win probability around 42%.",
+    "value": 42.0
+  },
+  "0f888d16a16e": {
+    "reasoning": "Cobalt has a better record, slightly higher scoring margin, better three-point shooting, and home-court advantage, making them favorites. However, Vermillion's star player, recent winning streak, and close head-to-head games indicate they are competitive and capable of an upset.",
+    "value": 42.0
+  },
+  "e0aaa83b6d07": {
+    "reasoning": "Cobalt's superior record, net rating, and home-court advantage made them favorites, but Vermillion's 5-game win streak, comparable star power, and close head-to-head history suggested a competitive matchup.",
+    "value": 42.0
+  },
+  "e25a5d940406": {
+    "reasoning": "Cobalt had a better regular season record (24-10 vs. 22-12), superior point differential (+6.4 vs. +4.2), and home-court advantage, making them moderate favorites. However, the head-to-head split was 1-1 with both games decided by 4 points or fewer, and Vermillion entered on a 5-game winning streak, suggesting a close contest. I estimated Vermillion's win probability at roughly 42%.",
+    "value": 42.0
+  },
+  "d99706373c98": {
+    "reasoning": "Cobalt has a better record, higher net rating, and home court advantage, but the teams split head-to-head and Vermillion enters on a winning streak, making them a moderate underdog.",
+    "value": 40.0
+  },
+  "1722bd0d93cc": {
+    "reasoning": "The product enters a saturated, competitive market with an ambitious all-in-one value proposition that many predecessors failed to deliver. Achieving $50M+ ARR in three years would require extremely rapid and sustained adoption of a new tool by small teams, which is historically rare even with strong initial interest and funding.",
+    "value": 5.0
+  },
+  "a02dad53b626": {
+    "reasoning": "Despite strong founder credentials, $8M in funding, and a 12K waitlist, the productivity market was extremely crowded and many unified tools had failed. Reaching $50M ARR within 3 years would require outlier growth (e.g., ~300K paid seats) in a high-churn SMB segment during a tightening macro environment. The probability of such rapid success was very low, likely in the low single digits.",
+    "value": 3.0
+  },
+  "46e89c67ebb4": {
+    "reasoning": "Despite a strong waitlist, experienced team, and capital, the all-in-one productivity space is crowded and previous attempts at unifying tools have often failed; reaching $50M ARR in three years would require extraordinary growth that is uncommon even for well-positioned startups.",
+    "value": 5.0
+  },
+  "04bd2bd5c0ac": {
+    "reasoning": "Despite a strong team, funding, and waitlist, the 'all-in-one' space has a high failure rate, and reaching $50M+ ARR in under 3 years is extremely rare—only a tiny fraction of even well-funded SaaS startups achieve this pace of growth.",
+    "value": 5.0
+  },
+  "2b9f6c600534": {
+    "reasoning": "Despite a strong founding team, solid seed funding, and initial waitlist, the base rate for SaaS startups reaching $50M+ ARR within 3 years is extremely low (likely <5%). The crowded collaboration market and historical failures of 'all-in-one' solutions increase the risk, making a high single-digit probability appropriate.",
+    "value": 7.0
+  },
+  "af7dd953f156": {
+    "reasoning": "Despite a strong team, initial capital, and waitlist, the crowded market and historical failure of 'one tool replaces three' promises made breakout success highly uncertain; a 7% chance felt generous given the odds against hitting $50M+ ARR in three years.",
+    "value": 7.0
+  },
+  "039efafd62fc": {
+    "reasoning": "Strong team and funding, but crowded market and historical failure of all-in-one tools make $50M+ ARR in 3 years ambitious. Estimated probability reflects a realistic but optimistic view.",
+    "value": 20.0
+  },
+  "b2dcea35ad6c": {
+    "reasoning": "Despite the strong team, funding, and initial waitlist, the productivity space was extremely crowded with entrenched competitors, and the 'one tool replaces three' pitch had a history of failures. Reaching $50M+ ARR in just over three years would require exceptional product-market fit and execution, placing it in the top percentile of startup outcomes.",
+    "value": 3.0
+  },
+  "e1a5bf586735": {
+    "reasoning": "Strong team with prior exit and Asana experience, plus early waitlist and seed funding, suggested real demand for an all-in-one tool. However, the crowded market and many failed predecessors in the 'one tool replaces three' space made breakout success highly uncertain, so I'd estimate a modest probability.",
+    "value": 20.0
+  },
+  "09e7b8619245": {
+    "reasoning": "Despite strong founder credentials, seed funding, and a sizable waitlist, the crowded productivity market and the historical failure rate of 'one tool replaces three' pitches made breakout success unlikely. Reaching $50M+ ARR in three years would require exceptional execution and product-market fit against entrenched incumbents.",
+    "value": 8.0
+  },
+  "f31cacd2fa52": {
+    "reasoning": "ERROR",
+    "value": null
+  },
+  "ff695565bff4": {
+    "reasoning": "Tokyo's extensive urban rail network includes hundreds of stations, many multi-level and heavily equipped with escalators. With major operators like Tokyo Metro, Toei, and JR East, a rough average of 8–10 escalators per station across roughly 600 stations suggests a total around 5,000–6,000.",
+    "value": 6000.0
+  },
+  "591e47291ac5": {
+    "reasoning": "Tokyo's combined metro/suburban rail network has around 500 stations, with major hubs like Shinjuku and Shibuya having dozens of escalators; assuming an average of 15–20 escalators per station gives a rough total of 7,500–10,000. I'll pick a middle estimate.",
+    "value": 8500.0
+  },
+  "4c18ecc57a34": {
+    "reasoning": "Tokyo Metro likely has around 1,200 escalators, Toei around 500, and JR East's urban stations within the city add roughly 800 more, giving a ballpark total of 2,500 escalators.",
+    "value": 2500.0
+  },
+  "ab97ec5cd4f3": {
+    "reasoning": "Tokyo's combined subway (Tokyo Metro and Toei) has about 285 stations, and JR East's urban lines add roughly 200 stations. Assuming an average of 7–8 escalators per station yields a total around 3,500.",
+    "value": 3500.0
+  },
+  "7c63aac22b0d": {
+    "reasoning": "Tokyo's subway and urban rail network has roughly 500 stations across all operators. Assuming an average of about 10 escalators per station (with major hubs like Shinjuku having far more), a rough total comes to around 5,000 escalators.",
+    "value": 5000.0
+  },
+  "39dfaf150ce8": {
+    "reasoning": "Tokyo has an extensive urban rail network with hundreds of stations, many underground. Subway operators likely have ~2,000 escalators, and JR East lines within the city add another ~1,500, totaling roughly 3,500.",
+    "value": 3500.0
+  },
+  "229342587bda": {
+    "reasoning": "Tokyo's combined subway (Tokyo Metro + Toei) has around 2,800 escalators; adding JR East lines within the city and the numerous private urban railways likely doubles that, giving a rough total near 6,500.",
+    "value": 6500.0
+  },
+  "85d51b212dda": {
+    "reasoning": "Tokyo Metro operates roughly 1,200 escalators, Toei subway around 700, JR East lines within the city add about 1,500, and other private railways contribute a similar amount, giving a rough total of around 4,900, which rounds to 5,000.",
+    "value": 5000.0
+  },
+  "42370419c9f4": {
+    "reasoning": "Considering the vast number of stations (hundreds across all operators), many deep underground with multiple entrances and platforms, and large hubs like Shinjuku having over 100 escalators alone, a rough average of ~10 escalators per station over ~800 stations yields around 8,000. I'll round to 8,500 as a gut estimate.",
+    "value": 8500.0
+  },
+  "677920ab5d83": {
+    "reasoning": "Tokyo's subway/metro system is vast, with around 280 stations across Tokyo Metro and Toei alone, plus major JR East hubs. A large multi-level station can have 20–40+ escalators, while smaller stations might have 4–10. Averaging roughly 15–20 per station across all operators gives a total in the low thousands.",
+    "value": 4500.0
+  },
+  "61d24a78d7d6": {
+    "reasoning": "70B model with 3K input/500 output tokens needs high VRAM and good throughput for up to 50 concurrent users. A single 8x H100 node (p5.48xlarge) handles the load with tensor parallelism, fitting the model in 640GB VRAM while keeping latency low.",
+    "value": 640.0
+  },
+  "b90f9119d340": {
+    "reasoning": "A fine-tuned 70B model can be served with 4-bit quantization on a single g5.12xlarge (4× A10G, 96 GB VRAM) using vLLM continuous batching, which handles up to ~50 concurrent 3K/500-token requests within acceptable latency for an internal tool, keeping costs low.",
+    "value": 96.0
+  },
+  "8a7ad3919df7": {
+    "reasoning": "A 70B model in fp16 requires ~140GB for weights, plus KV cache for up to 50 concurrent users (~54GB), totaling ~194GB. A single p4d.24xlarge with 8x A100 40GB (320GB total) provides ample headroom and low-latency serving via tensor parallelism.",
+    "value": 320.0
+  },
+  "f3c1b706a337": {
+    "reasoning": "A single g5.48xlarge with 8 A10G GPUs (192 GB VRAM) can host the 70B model using tensor parallelism and continuous batching, handling 5–50 concurrent summarization/semantic‑search requests with acceptable latency, and is the most cost‑effective option in us-east-1.",
+    "value": 192.0
+  },
+  "777e14642001": {
+    "reasoning": "A fine-tuned 70B model with 4-bit quantization and FP8 KV cache can serve up to 50 concurrent users on a single p4d.24xlarge (8× A100 40GB) with acceptable latency, avoiding overprovisioning.",
+    "value": 320.0
+  },
+  "b1e0f0b4cc88": {
+    "reasoning": "A 70B model with 3K input/500 output tokens and up to 50 concurrency requires substantial KV cache memory (~57 GB at peak) plus model weights. 4-bit quantization (35 GB model) fits in 96 GB, but headroom for spikes and latency suggests 8x A10G (192 GB). g5.48xlarge provides enough memory and compute for fast token generation under load.",
+    "value": 192.0
+  },
+  "f9b841702965": {
+    "reasoning": "A single g5.48xlarge provides 8 A10G GPUs with 192 GB of total VRAM, sufficient to load a fine-tuned 70B model in FP16 and handle 5-50 concurrent users with continuous batching; this matches the senior engineer's suggested starting point and balances cost against acceptable interactive latency.",
+    "value": 192.0
+  },
+  "455f88c2fc42": {
+    "reasoning": "A single g5.48xlarge with 8 A10G GPUs (192 GB VRAM) can host a 4-bit quantized 70B model and serve ~34 concurrent requests using FP8 KV cache, sufficient for typical load; spikes may queue.",
+    "value": 192.0
+  },
+  "bdbc399c9982": {
+    "reasoning": "A single g5.48xlarge with 8x A10G GPUs (192 GB VRAM) can hold the 70B model in FP16 with room for KV cache and, using continuous batching (e.g., vLLM), serves the expected 5–50 concurrent users with reasonable latency for an internal support tool, aligning with the senior engineer's starting point.",
+    "value": 192.0
+  },
+  "423e702ab638": {
+    "reasoning": "Despite the inmate's positive behavioral record and program completion, the actuarial assessment indicates a 31% chance of violent reoffending within 5 years, which poses an unacceptable public safety risk for a violent felony like armed robbery.",
+    "value": 0.0
+  },
+  "659a8798e528": {
+    "reasoning": "Despite a 31% violent recidivism risk, his clean disciplinary record for 6 years and completion of vocational programs demonstrate rehabilitation, making him a suitable candidate for parole.",
+    "value": 1.0
+  },
+  "d068bdbc9a0d": {
+    "reasoning": "His institutional conduct has been exemplary for six years with no infractions, he has completed vocational programs indicating rehabilitation, and his actuarial risk of violent reoffense (31%) is moderate but not prohibitive given his positive behavioral trajectory and time served.",
+    "value": 1.0
+  },
+  "b2d7182db7d0": {
+    "reasoning": "The inmate's actuarial risk of violent reoffense is 31%, which is moderate but mitigated by 6 years of infraction-free behavior and completion of vocational programs, indicating rehabilitation progress. Granting parole with appropriate supervision would balance public safety and the inmate's demonstrated readiness for reintegration.",
+    "value": 1.0
+  },
+  "fb2c02f79cb4": {
+    "reasoning": "The inmate has shown significant rehabilitation with no infractions in 6 years and completed vocational programs. The 69% non-recidivism rate for violent crime indicates moderate but manageable risk, supporting a second chance.",
+    "value": 1.0
+  },
+  "caaa28c95216": {
+    "reasoning": "Despite a 31% violent recidivism risk, the inmate's clean disciplinary record for 6 years and completion of two vocational programs indicate significant rehabilitation, and he has served over half his sentence, making parole a reasonable step.",
+    "value": 1.0
+  },
+  "97867114f537": {
+    "reasoning": "The 31% violent recidivism risk is significant but not prohibitive, and his 6 years of clean conduct plus vocational training indicate strong rehabilitation, suggesting supervised release is appropriate.",
+    "value": 1.0
+  },
+  "f55332b78aa8": {
+    "reasoning": "A 31% violent recidivism risk is substantial and exceeds typical thresholds for public safety, despite the inmate's clean recent disciplinary record and program completions. The 8 years remaining on a 19-year armed robbery sentence provide a structured window for further risk mitigation before mandatory release.",
+    "value": 0.0
+  },
+  "6b0b1e421bf1": {
+    "reasoning": "Despite a 31% violent recidivism risk, the inmate's clean disciplinary record for six years and completion of two vocational programs demonstrate significant rehabilitation and reduced risk, making parole a reasonable step with appropriate supervision.",
+    "value": 1.0
+  },
+  "fb37cbfb0612": {
+    "reasoning": "Despite a 31% violent recidivism risk, the inmate has demonstrated substantial rehabilitation through 6 years of infraction-free behavior and completion of vocational programs, suggesting he has gained skills and discipline to reduce his personal risk. Granting parole with supervision could further mitigate the statistical risk.",
+    "value": 1.0
+  },
+  "f5728fe54e15": {
+    "reasoning": "A 14-week bootcamp for someone with no CS background is extremely compressed; the $16K cost plus loan debt is high relative to her retail income, and the 81% placement rate likely excludes dropouts or may be inflated. Without strong pre-work or evidence of robust career support, the risk of not landing a job and being saddled with debt is substantial.",
+    "value": 0.0
+  },
+  "98a39c6e5f01": {
+    "reasoning": "The 81% placement rate may be inflated by selective reporting, and the $16K cost plus loan risk is high for someone with no CS background in a competitive entry-level market. She would also need to quit her job, leaving no income during and after the program if she struggles to find a role.",
+    "value": 0.0
+  },
+  "d96e10b6ee0a": {
+    "reasoning": "Without a CS background, 14 weeks is extremely short to build job-ready skills; many bootcamps overstate placement rates by excluding dropouts. The $16K cost and loan risk are high given her current retail income, and the 81% figure may not reflect her likely outcome.",
+    "value": 0.0
+  },
+  "7d32e381bef4": {
+    "reasoning": "A $16K bootcamp with a loan is risky given her lack of CS background; the 81% placement rate may exclude dropouts or low performers, and many self-study or community college paths offer similar outcomes at a fraction of the cost. She should first try free coding resources to gauge aptitude before committing financially.",
+    "value": 0.0
+  },
+  "796d1c14d234": {
+    "reasoning": "A 14-week bootcamp is extremely short for someone with no CS background to become job-ready, and the $16K cost plus a loan is a significant financial risk. The 81% placement rate may be misleading, as these reports often exclude dropouts or underemployed graduates.",
+    "value": 0.0
+  },
+  "4488707a26fe": {
+    "reasoning": "A 19% non-placement rate is high for a $16K investment, especially without a CS background or safety net. Given she'd take on debt while leaving her current job, the risk of graduating without a job and with loan payments is substantial.",
+    "value": 0.0
+  },
+  "126876ad16af": {
+    "reasoning": "The 19% non-placement rate is a significant risk given the $16K cost and her lack of CS background, which could make the intensive 14-week timeline especially challenging. Taking on debt for a program where nearly 1 in 5 graduates don't find a software engineering role within 6 months is financially precarious.",
+    "value": 0.0
+  },
+  "6d8a4f01a674": {
+    "reasoning": "With no CS background, a 19% non-placement rate means a 1 in 5 chance of $16K debt and no job, which is a significant financial risk given her current retail income and need for loans. Alternative paths like self-study or community college first could test aptitude at lower cost.",
+    "value": 0.0
+  },
+  "43a27b3e76ab": {
+    "reasoning": "A 19% non-placement rate means 1 in 5 graduates don't find a software job within 6 months, and with no CS background, she faces a steep learning curve. Taking on a $16K loan for a short bootcamp is financially risky given current tech hiring uncertainty.",
+    "value": 0.0
+  },
+  "b5c5ac35bb49": {
+    "reasoning": "A 19% non-placement rate means about 1 in 5 graduates fail to secure a role, which is risky given she has no CS background and would be using savings plus a loan. She should first try free coding resources to assess her aptitude and interest before taking on $16K debt.",
+    "value": 0.0
+  },
+  "434d244b02a3": {
+    "reasoning": "The code has a correctness bug (mutable shared cache leads to data corruption), a resource leak (unbounded cache growth), and overly broad exception handling. These are significant issues for any production system.",
+    "value": 8.0
+  },
+  "b98accde24dc": {
+    "reasoning": "The code has functional correctness concerns: the global cache grows without bounds and lacks thread-safety, which could cause memory issues and race conditions in a multi-threaded server. Additionally, stale data and overly broad exception handling are risks that should be addressed before merging.",
+    "value": 6.0
+  },
+  "129b72359e4a": {
+    "reasoning": "The function has a memory leak from an unbounded cache, serves stale data forever, silently swallows all exceptions in transformation, and lacks thread safety. Even for a modest internal dashboard, these are significant risks that should be addressed before merging.",
+    "value": 7.0
+  },
+  "f8358cbc9080": {
+    "reasoning": "The global cache has no invalidation, TTL, or size limit, risking stale data and unbounded memory growth over time. The broad except Exception can mask bugs, and the mutable cache may be unsafe in a threaded server. These are not critical for a modest-scale internal dashboard but should be fixed before merging to avoid future operational issues.",
+    "value": 5.0
+  },
+  "40b35bddd371": {
+    "reasoning": "The code has several correctness and maintainability concerns, including an unbounded global cache, a bare except that silently swallows all errors, and a missing log import, any of which could cause production issues even at modest scale.",
+    "value": 7.0
+  },
+  "b721d7baf52a": {
+    "reasoning": "The code has several design concerns: an unbounded global cache with no invalidation leads to stale data and memory leaks, broad exception handling silently drops errors, and it lacks thread safety. For an internal dashboard these may be acceptable short-term, but they should be addressed before merging.",
+    "value": 5.0
+  },
+  "0e8c6e9a6707": {
+    "reasoning": "The global cache never expires, causing stale order data indefinitely, and has no size limit, risking memory leaks. The broad exception handler may hide critical errors. These issues should be fixed before merging.",
+    "value": 8.0
+  },
+  "b26e4c803285": {
+    "reasoning": "The code has multiple design flaws for a production service: an unbounded, thread-unsafe global cache with no invalidation risks memory leaks and stale data, and the broad exception handling may mask bugs.",
+    "value": 4.0
+  },
+  "91db29c3f83e": {
+    "reasoning": "The code works for simple use but has several maintainability and correctness concerns, including unbounded memory growth, lack of cache invalidation, and overly broad exception handling, which would cause problems in production even at modest scale.",
+    "value": 6.0
+  },
+  "374d196dc7ce": {
+    "reasoning": "The argument relies on a flawed analogy that ignores crucial differences between human cognition and LLM operation, and it presents a false dichotomy by assuming that understanding must be all-or-nothing and identical across entities.",
+    "value": 3.0
+  },
+  "e73f6588a2cc": {
+    "reasoning": "The argument relies on a false analogy between token prediction and motor output prediction, ignoring crucial differences like intentionality, consciousness, and grounding. It presents a false dichotomy and assumes that behavioral similarity is sufficient for identical understanding, making the reasoning weak.",
+    "value": 3.0
+  },
+  "942498542a24": {
+    "reasoning": "The argument relies on a flawed analogy between token prediction and human motor output, ignoring crucial differences like consciousness and intentionality. It sets up a false dichotomy and assumes behavioral equivalence is sufficient for understanding, which is precisely what's in dispute.",
+    "value": 3.0
+  },
+  "290e5095ed96": {
+    "reasoning": "The argument draws a superficially compelling analogy but relies on a false equivalence between token prediction and human cognition, ignores the possibility of intermediate positions, and fails to address the hard problem of consciousness.",
+    "value": 3.0
+  },
+  "681b257a5df8": {
+    "reasoning": "The argument effectively highlights a potential double standard but relies on a questionable analogy between LLM token prediction and human embodied cognition, ignoring crucial differences like grounding, intentionality, and consciousness.",
+    "value": 6.0
+  },
+  "f4673b3be867": {
+    "reasoning": "The argument draws a provocative analogy but conflates behavioral outputs with underlying cognitive states, ignores the role of consciousness and intentionality, and presents a false dichotomy that forces an equivalence between LLMs and humans without considering substantive differences in grounding and subjective experience.",
+    "value": 4.0
+  },
+  "b4965da7bd59": {
+    "reasoning": "The argument raises an interesting epistemic parity but relies on a questionable analogy between token prediction and human motor output, and it false-dichotomizes the conclusion, ignoring degrees or kinds of understanding.",
+    "value": 5.0
+  },
+  "409e53fd5244": {
+    "reasoning": "The argument relies on a false equivalence between predictive mechanisms and dismisses crucial functional and architectural differences between LLMs and human cognition. It also presents a false dilemma by ignoring intermediate positions on understanding.",
+    "value": 3.0
+  },
+  "f68b54c6ce41": {
+    "reasoning": "While cold exposure does activate BAT and can modestly increase metabolic rate, the specific percentages claimed are overly precise and not consistently supported by literature; most studies show smaller, variable effects that diminish with adaptation.",
+    "value": 25.0
+  },
+  "f0de1916a68f": {
+    "reasoning": "While cold exposure does activate BAT and can modestly increase metabolic rate, the specific percentages cited (23-31% BAT activation, 8% sustained RMR increase for 48 hours) are not consistently supported in scientific literature and appear fabricated or exaggerated. Real studies show variable, often smaller, and shorter-lived effects.",
+    "value": 15.0
+  },
+  "972234d81c7d": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and modestly increase metabolic rate, the specific claims of 23-31% BAT activation and a sustained 8% RMR boost for 48 hours from brief showers are not supported by robust, replicable studies and likely exaggerate findings from longer or more intense cold protocols.",
+    "value": 25.0
+  },
+  "10089f80eeed": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and may slightly increase metabolic rate, the precise figures (23-31% BAT activation, sustained 8% RMR increase for 48 hours from 3-minute showers at <50°F) are not supported by robust, reproducible studies and appear exaggerated or fabricated.",
+    "value": 15.0
+  },
+  "a158b4e60ec2": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and modestly increase energy expenditure, the specific numbers cited (23-31% BAT activation, sustained 8% RMR increase for 48 hours from 3-minute showers) appear cherry-picked or exaggerated from limited studies, lacking robust, reproducible evidence for such a precise and large effect.",
+    "value": 25.0
+  },
+  "ad4f9fb689b8": {
+    "reasoning": "While cold exposure can transiently activate brown adipose tissue and slightly boost metabolism, the precise numbers (23-31% BAT activation, sustained 8% RMR increase for 48 hours) are not consistently supported by robust clinical evidence and likely overstate the magnitude and duration of effects from brief cold showers.",
+    "value": 25.0
+  },
+  "e72d5233b8e8": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and modestly increase metabolic rate, the specific numbers (23-31% BAT activation, 8% RMR increase for 48 hours) from brief 3-minute cold showers are not robustly supported by current evidence; most studies use longer or more intense cold exposure, and individual variability is high.",
+    "value": 35.0
+  },
+  "c241f7dc40c4": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and transiently increase metabolic rate, the claimed precise percentages (23–31% BAT activation, 8% sustained RMR for 48h) are not well-supported by current evidence; typical study effects from brief cold showers are smaller and less persistent.",
+    "value": 25.0
+  },
+  "dacde29c4823": {
+    "reasoning": "While cold exposure can activate brown adipose tissue (BAT) and slightly boost metabolism, the precise figures (23-31% BAT activation, 8% sustained RMR increase for 48 hours) are not supported by robust, reproducible evidence from brief 3-minute showers at 50°F. Existing studies typically use longer, colder exposures and show smaller, transient effects.",
+    "value": 25.0
+  },
+  "84c98324fd42": {
+    "reasoning": "Industry surveys (Houzz, NAHB, Remodeling Magazine) consistently show client-driven scope creep and change orders as the top budget-buster, followed by hidden structural surprises uncovered during demo. Material price volatility has surged in recent years, while permitting and contractor delays, though common, are slightly less frequent as primary overrun drivers. The listed 'design changes mid-project' is essentially a subset of scope creep and thus the least distinct standalone cause.",
+    "value": 1.0
+  },
+  "b840fb25b056": {
+    "reasoning": "Common industry surveys indicate that client-driven scope creep is the top budget-buster, followed by hidden structural problems, with mid-project design changes (distinct from gradual scope creep) also high. Material price volatility, contractor delays, and permitting issues are less frequent causes of major overruns.",
+    "value": 1.0
+  },
+  "705e6e324ca6": {
+    "reasoning": "Industry surveys consistently rank scope creep as the top budget-buster, followed by surprise structural finds. Material price spikes and contractor delays are mid-frequency, while permitting snags are less common. The duplicate 'design changes mid-project' is essentially the same as scope creep, making it the least distinct separate cause.",
+    "value": 1.0
+  },
+  "8818317d89f0": {
+    "reasoning": "Client-driven scope creep is universally cited as the top cause of renovation budget overruns, followed by hidden structural surprises. Material price volatility ranks high recently, while contractor delays and permitting issues are common but less primary. The separate 'design changes mid-project' item (distinct from owner scope creep) is least common as a standalone driver.",
+    "value": 1.0
+  },
+  "bf2045b0c53d": {
+    "reasoning": "Based on contractor surveys and industry reports, scope creep (homeowners adding or changing work mid-project) is consistently cited as the top cause of budget overruns, followed closely by unforeseen structural issues once walls are opened. Material price volatility, especially post-pandemic, now outranks pure contractor delays, while permitting issues are frequent but tend to cause timeline rather than budget shocks. Mid-project design changes are essentially a subset of scope creep, so I've placed it as the distinct but overlapping final entry.",
+    "value": 1.0
+  },
+  "a10a14133610": {
+    "reasoning": "Based on surveys of renovators and contractors, unexpected structural issues (rot, foundation problems, outdated wiring) are the most common source of budget overruns, followed closely by scope creep/owner-directed changes. Contractor delays and material price spikes are less frequent but still significant, while pure mid-project design changes (a subset of scope creep) and permitting issues are comparatively rarer but impactful.",
+    "value": 2.0
+  },
+  "72db76677473": {
+    "reasoning": "Industry surveys consistently show that homeowners changing their minds mid-project is the single biggest budget-buster. Unexpected structural issues are a close second, especially in older homes, followed by volatile material costs, contractor delays, and finally permitting issues, which are less frequently the primary driver of major overruns.",
+    "value": 1.0
+  },
+  "fc12d7c8a4a8": {
+    "reasoning": "Industry surveys consistently show homeowner-driven scope creep as the top budget-buster, followed by hidden structural surprises. Material price volatility and contractor delays are mid-frequency, while permitting snags affect fewer projects and formal mid-project design changes (as distinct from casual scope creep) are least common.",
+    "value": 1.0
+  },
+  "a31ff287bddb": {
+    "reasoning": "Surveys consistently show that unexpected structural issues (like rot, foundation cracks, or outdated wiring) are the most common budget-buster, followed by owner-driven scope creep. Material price spikes and contractor delays are next, while permitting snags and the redundant 'design changes mid-project' (already covered by scope creep) rank lowest.",
+    "value": 2.0
+  },
+  "691f7cc29cee": {
+    "reasoning": "Over-optimistic estimation and unclear requirements are fundamental planning failures that cause most missed commitments, while individual unavailability is rarely the primary cause in healthy teams.",
+    "value": 5.0
+  },
+  "8fd8a59cbd72": {
+    "reasoning": "Unclear requirements and over-optimistic estimation are foundational problems that make all other issues worse; they happen before the sprint starts and compound during execution. Technical debt and unplanned production issues are next because they are the most common forms of invisible, accumulating drag that surface unpredictably. Scope creep and cross-team dependencies are mid-frequency external disruptions, while individual unavailability is usually the least frequent cause and is often absorbed by the team.",
+    "value": 6.0
+  },
+  "a839ef989512": {
+    "reasoning": "Over-optimistic estimation and unclear requirements are foundational planning failures that cascade into missed commitments, while scope creep and technical debt are pervasive execution drags. Cross-team dependencies and unplanned production issues are common but situational, and individual unavailability is typically the least frequent disruptor in healthy teams.",
+    "value": 5.0
+  },
+  "e83e789a4f93": {
+    "reasoning": "Unclear requirements at sprint start lead to rework and misaligned work, the most pervasive root cause. Scope creep follows as mid-sprint changes disrupt focus. Over-optimistic estimation is a chronic human bias. Technical debt then compounds slowdowns. Cross-team dependencies block progress less frequently but are impactful. Unexpected production issues are sporadic but disruptive. Individual unavailability is usually planned for or absorbed, making it the least frequent cause of missed commitments.",
+    "value": 5.0
+  },
+  "57e1cb98e239": {
+    "reasoning": "Unclear requirements and over-optimistic estimation are the most common root causes because they directly undermine sprint planning. Mid-sprint disruptions like scope creep and technical debt slow progress, while dependencies and production issues are frequent but secondary. Individual unavailability is least impactful in teams with healthy capacity buffers.",
+    "value": 5.0
+  },
+  "2a65ef920866": {
+    "reasoning": "Based on industry surveys and team health assessments, unclear requirements at sprint start is the root cause that triggers most other failures. Over-optimistic estimation follows closely as teams plan against unclear specs. Cross-team dependencies and technical debt are mid-frequency, while scope creep, production issues, and individual unavailability are situational but generally less frequent systemic causes.",
+    "value": 3.0
+  },
+  "eb80293de81c": {
+    "reasoning": "This ranking reflects the frequency and systemic impact observed across mature agile organizations. Root causes like poor requirements and estimation create structural failure, while dependencies and debt compound unpredictably, and individual unavailability is typically the most easily absorbed by a healthy team.",
+    "value": 3.0
+  },
+  "e7deb7cc9fc5": {
+    "reasoning": "Unclear requirements are the root cause that cascades into estimation errors and scope creep. Over-optimistic estimation is nearly universal due to planning fallacy and pressure to commit. Cross-team dependencies are increasingly common in distributed architectures and often sit outside the team's control. Scope creep reflects weak backlog discipline. Technical debt is a constant drag but teams often partially account for it. Production issues are disruptive but sporadic. Individual unavailability is typically absorbed by healthy team practices like pairing and shared ownership.",
+    "value": 3.0
+  },
+  "c53065d88877": {
+    "reasoning": "Unclear requirements and over-optimistic estimation are the most frequent root causes because they fundamentally misalign scope and feasibility from the start. Scope creep and cross-team dependencies are common external disruptors, while technical debt and production issues are internal friction. Individual unavailability is typically buffered and least impactful.",
+    "value": 4.0
+  },
+  "d05e30c1d5bb": {
+    "reasoning": "Industry surveys and practitioner experience consistently show that foundational requirement gaps and estimation failures are the most pervasive root causes, while individual unavailability is typically absorbed by healthy team practices. The ranking reflects how often each factor is cited as a primary reason for missed commitments across diverse engineering organizations.",
+    "value": 4.0
+  },
+  "6710302caab8": {
+    "reasoning": "A new, bootstrapped, debt-financed restaurant with only modest pre-pandemic traction faced extreme headwinds from COVID-19 disruptions, industry-wide closures, and a slow recovery. Given high failure rates for independent restaurants during this period, survival through 2024 would have been a long shot.",
+    "value": 25.0
+  },
+  "ae60c36ba669": {
+    "reasoning": "Crocetta had promising early traction but thin capitalization and a still-developing location. The pandemic severely disrupted dine-in, forcing reliance on lower-margin delivery and weather-dependent outdoor dining. While government aid and a loyal local base might help, many similar independent restaurants failed, making survival to 2024 roughly a coin flip.",
+    "value": 45.0
+  },
+  "0094d97c04e0": {
+    "reasoning": "The restaurant industry already has high failure rates (roughly 80% within 5 years). Crocetta was a new, bootstrapped venture with debt, thin margins, and a not-yet-fully-established customer base. The severe and prolonged COVID-19 disruptions would make survival through 2024 extremely challenging.",
+    "value": 22.0
+  },
+  "4fef2904d3e0": {
+    "reasoning": "Despite promising early reviews and weekend demand, the pandemic's severe and prolonged disruption to indoor dining, combined with the financial vulnerability of a bootstrapped independent restaurant in a not-yet-fully-gentrified area, made long-term survival to end of 2024 a low-probability event, even with delivery and outdoor pivots.",
+    "value": 25.0
+  },
+  "52b90c776f14": {
+    "reasoning": "A bootstrapped independent restaurant with modest capital, a loan, and early but not exceptional traction in a developing neighborhood faced immense uncertainty from a once-in-a-century pandemic that forced prolonged pivots to low-margin delivery and outdoor dining. Most such restaurants failed, and even with the chef's experience, the probability of surviving profitably through 2024 would have been low.",
+    "value": 25.0
+  },
+  "5cabd6ef0c37": {
+    "reasoning": "In late 2019, a bootstrapped, newly opened restaurant in a gentrifying area faced long odds even without disruption; the imminent pandemic created an unprecedented existential threat, making survival and eventual profitability through 2024 highly unlikely.",
+    "value": 15.0
+  },
+  "6c5a7958f8da": {
+    "reasoning": "Given the restaurant's thin capitalization, early-stage operations, and the severe COVID-19 disruptions that forced indoor dining closures for extended periods, the odds of surviving as a profitable entity through 2024 were low, despite promising initial traction and a capable chef-owner.",
+    "value": 25.0
+  },
+  "5c231a5474fd": {
+    "reasoning": "Given the restaurant's small size, bootstrapped finances, unproven location, and the imminent unprecedented COVID-19 disruptions that forced prolonged closures and operational pivots, the vast majority of independent restaurants faced insolvency; even with strong early reviews, survival odds were slim.",
+    "value": 10.0
+  },
+  "a8506c1cd520": {
+    "reasoning": "Given Crocetta was a new, bootstrapped restaurant with only a few months of operating history, limited cash reserves, and the unprecedented, prolonged COVID-19 disruption that devastated the hospitality industry, the base rate of survival for similar independent restaurants was extremely low, despite promising early reviews and the chef's experience.",
+    "value": 25.0
+  },
+  "e00edd2bb73a": {
+    "reasoning": "Given typical high failure rates for new restaurants (~80% in first 5 years) and the severe disruption of the COVID-19 pandemic forcing pivots with uncertain outcomes, a bootstrapped mid-priced independent restaurant with positive but not outstanding early traction would have had roughly a 1 in 3 chance of surviving profitably through 2024.",
+    "value": 30.0
+  },
+  "4c77ef05fe08": {
+    "reasoning": "Given the struggling literary fiction market, modest advance, mixed-positive reviews, and the fact that most debut literary novels sold under 5,000 copies, a breakout to over 100,000 copies would be an extreme outlier event.",
+    "value": 1.0
+  },
+  "9b2c4bc7654c": {
+    "reasoning": "Given the struggling literary fiction market, modest advance, mixed-positive reviews with pacing criticism, and that most debut literary novels sold under 5,000 copies, the chance of exceeding 100,000 copies is extremely low—likely well under 1%.",
+    "value": 1.0
+  },
+  "30d39d9dcd3e": {
+    "reasoning": "In a struggling literary fiction market where most debuts sell under 5,000 copies, and with mixed-positive reviews, a 100,000-copy breakout is extremely rare. Even with HarperCollins's distribution, the probability is well under 5%.",
+    "value": 1.0
+  },
+  "7fa45ed84c7e": {
+    "reasoning": "In 2019, debut literary novels rarely exceeded 5,000 copies; mixed-positive reviews and a modest advance signal low breakout potential, making 100,000+ sales an extreme outlier.",
+    "value": 1.0
+  },
+  "d02237b8db34": {
+    "reasoning": "Given that most debut literary novels sold fewer than 5,000 copies and this one had mixed-positive reviews, a modest advance, and no breakout signals, the chance of exceeding 100,000 copies is extremely low, likely below 2%.",
+    "value": 2.0
+  },
+  "4700f73bbab4": {
+    "reasoning": "Given that most debut literary novels sold fewer than 5,000 copies, the book received mixed-positive reviews, and the market was struggling, the probability of exceeding 100,000 copies was extremely low — likely well under 1%.",
+    "value": 1.0
+  },
+  "576f8c194ada": {
+    "reasoning": "Given the low base rate for debut literary novels (most sell under 5,000 copies), mixed early reviews, a modest advance, and a struggling market, the probability of exceeding 100,000 copies was extremely slim.",
+    "value": 1.0
+  },
+  "8934a4457961": {
+    "reasoning": "Given the low base rate for debut literary fiction (most sell <5,000) and mixed initial reviews, a 100,000+ copy breakout is extremely rare, even with HarperCollins backing and crossover marketing. I'd estimate a sub-1% chance.",
+    "value": 1.0
+  },
+  "a7d89f1ed43b": {
+    "reasoning": "Given the struggling literary fiction market, mixed initial reviews, and typical sales of debut literary novels (<5,000), the probability of selling over 100,000 copies was extremely low.",
+    "value": 1.0
+  },
+  "b877fc724125": {
+    "reasoning": "Most debut literary novels sell under 5,000 copies, even with a modest advance and mixed-positive reviews. The odds of surpassing 100,000 in a struggling market are extremely slim, perhaps 1% at most.",
+    "value": 1.0
+  },
+  "407c938976dd": {
+    "reasoning": "Despite founders' relevant experience and an underserved niche, the saturated D2C beauty market, rising CAC from iOS privacy changes, limited initial capital ($2.3M), and lack of founding experience made rapid scaling to $20M+ revenue in 3.5 years extremely challenging; the vast majority of such startups fail to reach that scale.",
+    "value": 5.0
+  },
+  "856bdd478029": {
+    "reasoning": "Given the saturated D2C beauty market, rising CAC due to iOS privacy changes, and the founders' lack of entrepreneurial experience, the probability of reaching $20M+ in annual revenue within 3.5 years is very low, despite a promising niche and solid initial funding.",
+    "value": 5.0
+  },
+  "ab1f0a8b615f": {
+    "reasoning": "Despite the founders' relevant beauty marketing experience and a relatively underserved pregnancy-safe niche, the D2C skincare market was extremely saturated with hundreds of new launches, CAC was spiking due to iOS 14.5 privacy changes, and neither founder had scaled a company before. Reaching $20M+ annual revenue in 3.5 years from a cold start with only $2.3M in funding and three SKUs would be a low-probability, venture-scale outlier outcome.",
+    "value": 8.0
+  },
+  "03a866912e3e": {
+    "reasoning": "High market saturation, rising CAC, and tough attribution environment make rapid scaling unlikely, despite niche focus and experienced founders. Only a small fraction of D2C brands achieve $20M in 3 years.",
+    "value": 5.0
+  },
+  "2576e16f4c2a": {
+    "reasoning": "In mid-2021, the D2C beauty market was extremely saturated with rising CACs due to iOS privacy changes, and first-time founders face long odds of scaling to $20M+ revenue in 3.5 years despite strong marketing backgrounds and a niche focus. Most D2C brands fail to reach that scale, so the probability would have been low.",
+    "value": 5.0
+  },
+  "95337383f585": {
+    "reasoning": "Given the saturated D2C beauty market, rising CACs post-iOS 14.5, founders with marketing but no startup experience, and a narrow pregnancy-safe niche, the base rate of reaching $20M+ in 3.5 years is extremely low despite the underserved subsegment and premium pricing potential.",
+    "value": 3.0
+  },
+  "6a9e681c5a9c": {
+    "reasoning": "Given the saturated D2C beauty market, rising CACs from iOS privacy changes, founders' first-time entrepreneurship despite strong marketing backgrounds, and a narrow but underserved niche, the odds of scaling to $20M+ in 3.5 years were low. Most D2C brands stall well below $10M, making this a sub-5% outcome.",
+    "value": 3.0
+  },
+  "b4fc967a0add": {
+    "reasoning": "Given the saturated D2C beauty market, rising CACs post-iOS 14.5, and high failure rate of new consumer brands, even with experienced founders and a niche positioning, scaling to $20M+ in 3.5 years would be a low-probability event; I'd estimate around a 5% chance.",
+    "value": 5.0
+  },
+  "ed5d20451535": {
+    "reasoning": "Given the saturated D2C beauty market, rising CACs from iOS privacy changes, and inexperienced first-time founders, even with strong marketing backgrounds and an underserved niche, the probability of reaching $20M+ in 3.5 years would have been very low—on the order of low single digits, typical for venture-backed consumer startups achieving outlier scale.",
+    "value": 3.0
+  },
+  "4c501aefc64f": {
+    "reasoning": "In mid-2021, the D2C beauty market was hyper-competitive with soaring CACs and iOS privacy headwinds; though the pregnancy-safe niche and founders' marketing experience offered some edge, the lack of founding experience and extreme failure rate for consumer startups made reaching $20M+ revenue by 2024 a low-probability outcome.",
+    "value": 7.0
+  },
+  "42662875075b": {
+    "reasoning": "",
+    "value": 1.0
+  },
+  "90a097597f37": {
+    "reasoning": "",
+    "value": 1.0
+  },
+  "5e08b63cfc08": {
+    "reasoning": "",
+    "value": 0.0
+  },
+  "0a0e95a23701": {
+    "reasoning": "",
+    "value": 1.0
+  },
+  "ff1945cb2f18": {
+    "reasoning": "",
+    "value": 1.0
+  },
+  "ee0753b12802": {
+    "reasoning": "A plain matte navy ceramic mug with a simple C-handle is functional and stylish, and similar unbranded mugs typically cost between $8 and $12. I'd pay up to $10 for a quality, dishwasher-safe mug that fits my kitchen.",
+    "value": 10.0
+  },
+  "a2f928556c4d": {
+    "reasoning": "A basic unbranded ceramic mug with a matte glaze typically retails for $8-$12 in kitchenware stores; $9.99 is a common psychological pricing point for such an item.",
+    "value": 9.99
+  },
+  "af3cf7aeeaed": {
+    "reasoning": "A plain, unbranded ceramic mug with a matte glaze is a basic, functional item; $8 reflects typical retail pricing for a single mug of decent quality.",
+    "value": 8.0
+  },
+  "bcd822dea0c2": {
+    "reasoning": "A plain, unbranded ceramic mug with a matte glaze and standard features typically retails for $8–$15; I'd pay up to $12 for its aesthetic and functionality without feeling overcharged.",
+    "value": 12.0
+  },
+  "c0e9c920b0a4": {
+    "reasoning": "A basic ceramic mug without branding usually costs $5-8, but the matte navy-blue glaze gives it a slightly more premium look, so I'd stretch to $10.",
+    "value": 10.0
+  },
+  "05613d147141": {
+    "reasoning": "I have no attachment to a free raffle mug, and a fair price for a basic ceramic mug is around $5–10, so I'd accept $5 as a minimal, convenient sale to a coworker.",
+    "value": 5.0
+  },
+  "720bedf7ff45": {
+    "reasoning": "Since I acquired the mug for free and it's a plain, unbranded item, I'd part with it for a modest amount that feels like a small win—around $5 covers a coffee and the minimal effort of handing it over.",
+    "value": 5.0
+  },
+  "f5e0f26d492d": {
+    "reasoning": "I won it for free, and a plain unbranded mug retails for around $10-15 new, so a fair minimum to a coworker would be roughly half that, or the price of a coffee, which feels like a small but non-trivial amount.",
+    "value": 5.0
+  },
+  "5ff4adc9f39f": {
+    "reasoning": "The mug was free, but replacing it with a similar new one would cost about $10. I'd accept at least half its replacement value since it's essentially new and I have no strong attachment to it.",
+    "value": 5.0
+  },
+  "01f75f77e738": {
+    "reasoning": "Since I got it for free and it has no sentimental value, I'd part with it for the price of a similar generic mug, around $5.",
+    "value": 5.0
+  },
+  "ae3c8ded63cc": {
+    "reasoning": "Based on historical World Cup resale prices for host nation group stage matches and the high demand in the US market, a fair secondary market price for Category 2 lower bowl off-center seats is around $700 per ticket.",
+    "value": 700.0
+  },
+  "fa08fe27403c": {
+    "reasoning": "Given the immense demand for the USMNT's first group-stage match as co-host in 2026, Category 2 lower bowl seats will be heavily sought after on the secondary market, with fair value reflecting a significant premium over face value.",
+    "value": 1200.0
+  },
+  "f22ea20e948f": {
+    "reasoning": "Based on historical World Cup category 2 group-stage face values ($100–$250) and the massive demand for a host nation's opening match, a fair resale price for solid lower-bowl off-center seats is estimated at $500.",
+    "value": 500.0
+  },
+  "b9692593eb30": {
+    "reasoning": "Based on historical FIFA World Cup pricing for host nation group-stage matches and the increased demand expected for 2026 in North America, a Category 2 lower bowl off-center ticket for USA's first match is estimated around $350.",
+    "value": 350.0
+  },
+  "c82d127fd7a8": {
+    "reasoning": "Based on FIFA's announced ticket tiers for 2026, Category 2 group-stage tickets are around $200 face value. Given high demand for the host nation's opening match, a fair market price is estimated at $250.",
+    "value": 250.0
+  },
+  "ec281fa7aa91": {
+    "reasoning": "Based on comparable 2022 World Cup group-stage Category 2 tickets ($220 face value) and typical USA-hosted premium event markup with secondary market dynamics, I estimated a fair resale value around $850 for a high-demand USMNT opener.",
+    "value": 850.0
+  },
+  "5cbbf7a167b9": {
+    "reasoning": "Based on historical FIFA World Cup pricing for host nation group-stage Category 2 tickets (e.g., $220 in 2022, $210 in 2018) and adjusting for inflation and the larger US market, a fair face value estimate is around $250.",
+    "value": 250.0
+  },
+  "c0d6efa962e1": {
+    "reasoning": "Based on historical FIFA World Cup Category 2 ticket prices for high-demand group stage matches (e.g., $250–$400 in recent tournaments) and the massive appeal of the USA's first 2026 match on home soil, a fair face-value estimate is around $300 per ticket between friends.",
+    "value": 300.0
+  },
+  "db6c12918719": {
+    "reasoning": "Based on FIFA World Cup 2022 Category 2 group-stage prices of ~$165 and adjusting for inflation and the U.S. host market, a fair face-value estimate for a 2026 USA match is around $200.",
+    "value": 200.0
+  },
+  "ee98712956d1": {
+    "reasoning": "Official FIFA 2026 pricing for U.S. residents lists Category 2 group-stage tickets at $108. Selling to a friend at face value is fair and avoids profiting from a prize.",
+    "value": 108.0
+  },
+  "5df2ae2e96b1": {
+    "reasoning": "ERROR",
+    "value": null
+  },
+  "ff09c376cbeb": {
+    "reasoning": "ERROR",
+    "value": null
+  },
+  "2dab0b9b3017": {
+    "reasoning": "ERROR",
+    "value": null
+  },
+  "070e4f616d77": {
+    "reasoning": "ERROR",
+    "value": null
+  },
+  "426dffc9931d": {
+    "reasoning": "A 70B parameter model at 4-bit quantization requires ~40GB VRAM, fitting comfortably on a single 8-GPU instance. The g5.48xlarge provides 8 A10G GPUs (192GB total VRAM) with enough headroom for concurrent requests and batch processing. For 5-50 users with 3K/500 token requests, this instance type balances cost and performance without over-provisioning.",
+    "value": 192.0
+  },
+  "b7efd2cbc76d": {
+    "reasoning": "Scope creep and mid-project design changes are consistently cited by remodelers and industry surveys as the single largest driver of budget overruns, followed by the unavoidable discovery of hidden structural problems. Material price volatility has recently eclipsed contractor delays and permitting snags as a top concern.",
+    "value": 1.0
+  },
+  "ca735872fbbe": {
+    "reasoning": "Tokyo's combined urban rail network has several hundred stations, with major hubs often having dozens of escalators each. Assuming an average of roughly 15–20 escalators per station across ~300 stations gives a ballpark in the low thousands.",
+    "value": 5000.0
+  },
+  "a7e213e23430": {
+    "reasoning": "Tokyo's combined subway/metro network has around 280 stations, with many large, multi-level hubs. Assuming an average of roughly 20–30 escalators per station (major stations like Shinjuku or Shibuya have over 100, smaller ones maybe 5–10) gives a rough total in the low-to-mid thousands.",
+    "value": 7500.0
+  },
+  "69e28b47c176": {
+    "reasoning": "Tokyo has one of the largest and most complex metro systems in the world with hundreds of stations, many of which are deep underground and have multiple entrances. Assuming an average of 20–30 escalators per station across roughly 300 stations, the total would be in the high thousands.",
+    "value": 8000.0
+  },
+  "2ad692aa09c1": {
+    "reasoning": "Tokyo has one of the world's largest and most complex metro systems with hundreds of stations, many of which are deep underground and multi-level. A major hub like Shinjuku alone can have dozens, while smaller stations might have only a few, so averaging around 20–30 per station across roughly 800–900 stations gives a figure in the low tens of thousands.",
+    "value": 22000.0
+  },
+  "eae061cd4fa0": {
+    "reasoning": "Tokyo has a dense network of hundreds of stations across Tokyo Metro, Toei, and JR East, many with multiple entrances and deep platforms. Assuming roughly 600 unique stations and an average of 10 escalators per station yields a ballpark of 6,000 escalators.",
+    "value": 6000.0
+  },
+  "5895974dd839": {
+    "reasoning": "Tokyo's subway/metro system is one of the largest in the world, with hundreds of stations. Major stations can have dozens of escalators each (Shinjuku alone has well over 100), while smaller stations might have a handful. With roughly 300+ stations across all operators, an average of 20–30 per station seems plausible, yielding a total in the 6,000–9,000 range.",
+    "value": 7500.0
+  },
+  "3a92b5e1c7b1": {
+    "reasoning": "Tokyo's subway and metro network is vast, with around 280+ stations across multiple operators. Assuming an average of roughly 15–20 escalators per station (accounting for multi-level deep stations and multiple exits), the total would land in the 4,000–5,000 range. I'll estimate on the lower side of that band.",
+    "value": 4500.0
+  },
+  "9530954769c5": {
+    "reasoning": "Tokyo's subway and metro network is one of the largest in the world, with hundreds of stations, many of which are deep underground and have multiple entrances/exits. A major hub like Shinjuku alone has dozens of escalators, so across roughly 300 stations averaging 10–15 escalators each, the total would be in the low thousands.",
+    "value": 4000.0
+  },
+  "f1d6b10f3eb1": {
+    "reasoning": "Tokyo has one of the world's largest and most complex metro/suburban rail networks, with hundreds of stations, many of them deep underground and multi-level. Major stations like Shinjuku or Shibuya can have dozens of escalators each, while smaller stations might have a handful, so averaging perhaps 15–20 per station across roughly 800–1,000 total stations yields an estimate in the low tens of thousands.",
+    "value": 14000.0
+  },
+  "b5211bfad71f": {
+    "reasoning": "Tokyo's subway/metro network is one of the largest in the world, with around 280+ stations across all operators. Major hubs like Shinjuku or Shibuya can have 50–100 escalators each, while smaller stations might have a handful. Averaging roughly 25–30 per station gives a total in the low thousands.",
+    "value": 8000.0
+  },
+  "854d4171237f": {
+    "reasoning": "A 70B model with 3K input tokens needs ~140GB VRAM for FP16. A single g5.48xlarge (8x A10G, 192GB VRAM) handles the model and moderate batching for 5-50 users. At ~$16/on-demand hour, 730 hours/month ≈ $11,700. Morning spikes may push latency, but 192GB gives headroom before needing a second node.",
+    "value": 192.0
+  },
+  "00af67d662af": {
+    "reasoning": "A 70B parameter model quantized to 4-bit needs ~40GB VRAM, fitting on a single 48GB A10G GPU. A g5.12xlarge provides 4 A10Gs, but only one is needed for inference with low concurrency; for 5-50 concurrent users with spiky load, a single instance with autoscaling to 2 handles peaks. On-demand pricing in us-east-1 for g5.12xlarge is $5.672/hr, so ~$4,100/month base.",
+    "value": 96.0
+  },
+  "96845a797f23": {
+    "reasoning": "A 70B model requires significant VRAM; with 3K input tokens and 500 output tokens, latency is less sensitive to batch size, but 5-50 concurrent users need high throughput. A single 8xH100 instance provides 640GB VRAM, handles the model with large KV cache for concurrency, and meets the latency target without complex sharding.",
+    "value": 640.0
+  },
+  "fdd875962d85": {
+    "reasoning": "A 70B model in FP16 needs ~140GB VRAM, which won't fit on a single 8-GPU A10G instance (192GB total but model parallelism overhead makes it tight; 4-bit quantization reduces this to ~40-50GB, fitting comfortably on 1-2 GPUs). For 5-50 concurrent users with 3K/500 token requests, a single g5.48xlarge (8 A10G GPUs, 192GB VRAM) handles the load with vLLM continuous batching; spiky morning traffic may occasionally queue but stays within latency tolerance.",
+    "value": 192.0
+  },
+  "9dd7adc6baf0": {
+    "reasoning": "A 70B parameter model requires at least 140GB VRAM for FP16 inference. A single g5.48xlarge (8x A10G, 192GB VRAM) can host the model with room for KV cache and batching 5-50 concurrent users. For spiky loads and high availability, a 2-instance setup behind a load balancer prevents single-point failures.",
+    "value": 384.0
+  },
+  "5dbadb2dd7e3": {
+    "reasoning": "A 70B parameter model at 4-bit quantization needs ~40GB VRAM. A single g5.48xlarge (8x A10G, 192GB total VRAM) is overkill for one instance but provides headroom for batching 5-50 concurrent users. A g5.12xlarge (4x A10G, 96GB) is more cost-effective and can still handle the load with continuous batching, fitting the model in VRAM with room for KV cache.",
+    "value": 96.0
+  },
+  "3f7dde720751": {
+    "reasoning": "A 70B parameter model at 4-bit quantization requires ~40GB VRAM, fitting on a single 8x24GB A10G instance. The g5.48xlarge provides 8 A10G GPUs with 192GB total VRAM, comfortably handling the model plus KV cache for 50 concurrent users. This single-node setup simplifies deployment and meets latency targets for summarization and semantic search workloads.",
+    "value": 192.0
+  },
+  "d0d9fcaa18dd": {
+    "reasoning": "A single g5.48xlarge (8x A10G, 192GB VRAM) is overkill for a 70B model at this concurrency; a g5.12xlarge (4x A10G, 96GB) can handle the model in 4-bit quantization with enough throughput for 5-50 users under the latency target. The g5.12xlarge balances cost and headroom for morning spikes without wasting GPUs.",
+    "value": 96.0
+  },
+  "89e4a7a998a0": {
+    "reasoning": "A 70B parameter model at 4-bit quantization requires roughly 40GB VRAM, which fits on a single 8x A10G instance like g5.48xlarge (192GB total). However, for 5-50 concurrent users with 3K input tokens and sub-second latency targets, a single instance may bottleneck under spiky load; 2x g5.48xlarge behind a load balancer provides headroom and fault tolerance.",
+    "value": 384.0
+  },
+  "0430864f01ac": {
+    "reasoning": "A 70B parameter model quantized to 4-bit requires ~40GB VRAM for inference, which fits comfortably on a single A10G (24GB is insufficient, but g5.48xlarge has 8x A10G with 192GB total). With 5-50 concurrent users and 3K/500 token requests, the 8 GPUs allow running multiple model replicas to handle spikes and maintain low latency. A g5.48xlarge provides sufficient memory for KV cache across concurrent requests and is the most cost-effective AWS instance for this workload.",
+    "value": 192.0
+  },
+  "744733f600d1": {
+    "reasoning": "For a senior backend Go engineer with ~7 years experience at a mid-stage startup, fully remote within the EU but benchmarked to Lisbon cost of living, competitive bands typically range from €65k to €85k. This balances local market rates with the need to attract top remote talent without hitting US-level salaries.",
+    "value": 75000.0
+  },
+  "dd662ab5a5c1": {
+    "reasoning": "For a senior backend engineer (7+ years, Go/Postgres) at a mid-sized startup, fully remote within the EU but anchored to Lisbon's cost of living, competitive bands typically range from €65k–€85k. This balances Lisbon's lower local averages against the EU-wide remote talent pool and startup equity trade-offs.",
+    "value": 75000.0
+  },
+  "2fd852a38809": {
+    "reasoning": "For a fully remote senior Go/Postgres role at a mid-sized startup hiring across the EU, Lisbon's local market is lower than Berlin/Amsterdam but you're competing EU-wide. A band of €70k-€90k is competitive for ~7 years experience without overpaying relative to Lisbon cost structures, while still attracting quality remote candidates.",
+    "value": 80000.0
+  },
+  "a9d0404df5ea": {
+    "reasoning": "A fully remote senior Go backend role in Lisbon for a mid-sized startup typically ranges €65k–€85k. Given 7 years' experience and EU-wide competition, €75k–€85k is competitive without overpaying.",
+    "value": 80000.0
+  },
+  "ce5aed4486bb": {
+    "reasoning": "A fully remote EU role for a senior Go/Postgres engineer in a mid-sized startup typically ranges €70k–€95k. Lisbon's local market is lower, but remote EU competition pushes it up; targeting the 60th–70th percentile ensures competitiveness without overpaying.",
+    "value": 85000.0
+  },
+  "f585808a0aab": {
+    "reasoning": "The previous salary of €185k was likely above market for Lisbon due to the individual's tenure or niche skills. For a fully remote EU role, the Lisbon local market typically caps lower, but you must remain competitive for EU-wide talent. A band of €130k–€170k balances local market reality with the need to attract senior Go/Postgres engineers across the EU.",
+    "value": 150000.0
+  },
+  "e8a4ff1d2539": {
+    "reasoning": "For a fully remote senior Go/Postgres role in the EU hired from Lisbon, the previous salary of €185k was likely inflated by tenure or specific value. The current market for a 7-year senior IC remote from Portugal typically tops around €150k at startups, so a band of €130k–€150k is competitive without overpaying.",
+    "value": 140000.0
+  },
+  "740f8ea264cf": {
+    "reasoning": "Lisbon's local market rates for a senior Go backend engineer are typically €70-95k, but to remain competitive for a remote EU role (competing with EU-wide demand) while acknowledging the previous incumbent's €185k was likely inflated by tenure/equity, a band of €120-150k balances competitiveness without overpaying the local Portuguese cash market.",
+    "value": 135000.0
+  },
+  "a97c2955fe06": {
+    "reasoning": "Lisbon's local market rate for a senior Go backend engineer is typically lower than the previous employee's €185k (which likely reflected tenure, equity, or niche skills). To be competitive for a fully-remote EU role while anchoring to Lisbon cost-of-living, a band of €120k-€160k attracts top talent without overpaying against local benchmarks.",
+    "value": 140000.0
+  },
+  "06f179dc5c49": {
+    "reasoning": "The previous salary of €185k is well above typical Lisbon market rates for senior backend engineers (usually €60–90k). To remain competitive for a fully remote EU role without overpaying relative to local benchmarks, a band of €90k–130k balances attractiveness and cost-efficiency.",
+    "value": 110000.0
+  },
+  "354d75926360": {
+    "reasoning": "The inmate's 69% non-recidivism rate for violent crime is moderate, but his 6-year clean disciplinary record, completion of vocational programs, and having served over half his sentence indicate strong rehabilitation and low immediate risk.",
+    "value": 1.0
+  },
+  "a8e074c7a170": {
+    "reasoning": "The 69% non-recidivism rate for violent crime is moderately favorable but not exceptional. However, his clean disciplinary record for 6 years and completion of two vocational programs demonstrate significant rehabilitation and reduced risk. He has also served over half of his sentence, balancing accountability with readiness for reintegration.",
+    "value": 1.0
+  },
+  "3741ff7c4467": {
+    "reasoning": "The 69% non-recidivism rate is moderately favorable, and his clean disciplinary record plus vocational training demonstrate meaningful rehabilitation. Serving over half his sentence for a non-homicide crime with these positive indicators suggests a reasonable parole risk.",
+    "value": 1.0
+  },
+  "416cd7858b8a": {
+    "reasoning": "A 69% non-recidivism rate means a 31% violent reoffense risk, which is substantial for a violent felony. However, 11 years served for armed robbery is significant, the clean institutional record and vocational completions indicate genuine rehabilitation, making the risk acceptable.",
+    "value": 1.0
+  },
+  "347a6c13ee89": {
+    "reasoning": "The 69% non-recidivism rate means a 31% violent reoffense risk, which is substantial for a violent felony. However, his 6 years of clean conduct and completed vocational programs show strong rehabilitation, and he has served over half his sentence. On balance, the institutional behavior supports a supervised release.",
+    "value": 1.0
+  },
+  "29fb81bb6a9d": {
+    "reasoning": "The 31% violent recidivism risk is substantial and represents a public safety concern. However, the inmate's clean disciplinary record for 6 years and completion of two vocational programs indicate meaningful rehabilitation. Parole could be recommended with strict supervision conditions to mitigate risk.",
+    "value": 1.0
+  },
+  "fd8b377cc7d1": {
+    "reasoning": "The 31% violent recidivism risk is notably high and exceeds typical thresholds for favorable parole decisions, especially given the violent nature of the index offense. While the inmate's clean disciplinary record and completed vocational programs are positive, they do not sufficiently mitigate the substantial risk to public safety posed by a nearly one-in-three chance of violent reoffending.",
+    "value": 0.0
+  },
+  "d25054bf4c41": {
+    "reasoning": "The 31% violent recidivism risk is substantial and above average, and armed robbery is a serious violent offense. Although his recent institutional conduct and program completion are positive, they do not sufficiently mitigate the high actuarial risk to community safety.",
+    "value": 0.0
+  },
+  "0bba61024bb7": {
+    "reasoning": "The 31% violent recidivism risk is substantial and represents a public safety concern that outweighs the positive institutional record. Armed robbery is a serious violent felony, and 11 years served on a 19-year sentence may not adequately reflect the severity of the offense or provide sufficient incapacitation given the elevated risk level.",
+    "value": 0.0
+  },
+  "6017daae0c6d": {
+    "reasoning": "A 31% violent recidivism risk is substantial, but the inmate's clean disciplinary record for six years and completion of two vocational programs demonstrate meaningful rehabilitation and reduced risk. These positive behavioral indicators support a supervised release, though the original offense and risk score warrant caution.",
+    "value": 1.0
+  },
+  "907523b4b667": {
+    "reasoning": "While an 81% placement rate sounds promising, bootcamp outcomes reports often use selective methodologies that overstate success. Given her lack of CS background, the short 14-week timeline, and the significant financial risk of a $16K loan on a retail salary, the downside if she's in the 19% who don't land a role is too severe.",
+    "value": 0.0
+  },
+  "05465b5eb5c2": {
+    "reasoning": "While the 81% placement rate seems promising, bootcamp outcomes reports often have survivorship bias and lack transparency. With no CS background, a 14-week timeline is extremely aggressive to build job-ready skills, and taking on debt for this is high-risk given her current financial situation.",
+    "value": 0.0
+  },
+  "4526412a7a79": {
+    "reasoning": "The 81% placement rate is promising, but it's not 100% and she'd take on debt with no CS background. She can learn coding for free or cheaply first to confirm aptitude and interest before committing $16K and 14 weeks.",
+    "value": 0.0
+  },
+  "991f1c54f221": {
+    "reasoning": "The 81% placement rate is promising, but bootcamp outcomes reports often have survivorship bias and favorable definitions of 'software engineering role.' Given her lack of CS background, the full-time commitment means lost wages for 14 weeks, and the $16K debt load is risky if she ends up in the 19% who don't find work, especially in a tightening junior developer market.",
+    "value": 0.0
+  },
+  "d713ef441fc3": {
+    "reasoning": "The 81% placement rate may exclude dropouts or include non-engineering roles, and without a CS background, the 14-week timeline is extremely compressed to build competitive skills. The $16K cost plus loan creates significant financial risk in a tight entry-level market.",
+    "value": 0.0
+  },
+  "f5ba9672d6fc": {
+    "reasoning": "The 19% non-placement rate means roughly 1 in 5 graduates fail to secure a role, which is a significant risk given the $16K cost and her lack of CS background. Taking on debt for a short, full-time program in a tightening junior market could leave her without a job and with financial strain.",
+    "value": 0.0
+  },
+  "cbf8001c8e11": {
+    "reasoning": "A 19% non-placement rate is high for a $16K program, especially with no CS background and using loans. The risk of debt without a job is significant given her retail-only experience.",
+    "value": 0.0
+  },
+  "9d37c9ed5485": {
+    "reasoning": "A 19% non-placement rate is high for a $16K program, especially without a CS background, and the combination of loan debt and lost retail income creates significant financial risk. She can explore far cheaper (even free) self-study or community college courses first to test her aptitude before committing.",
+    "value": 0.0
+  },
+  "17c529848d04": {
+    "reasoning": "A 19% non-placement rate is high for a $16K program with no CS background, and using loans amplifies the risk given her current retail income. She should first exhaust free or low-cost self-study resources to confirm aptitude and interest before committing to this level of debt.",
+    "value": 0.0
+  },
+  "21bb70548cd9": {
+    "reasoning": "A 19% non-placement rate is substantial given the $16K cost and opportunity cost of 14 weeks without income. Without a CS background, she faces steeper competition, and taking on debt for a bootcamp with these odds is financially risky, especially when free or lower-cost self-study options exist to test her aptitude first.",
+    "value": 0.0
+  },
+  "af9df35d0943": {
+    "reasoning": "The 92% 90-day survival is a strong indicator that the surgical team believes the benefits outweigh the short-term risks, and for severe valve disease, surgery often provides better long-term survival and quality of life than medication alone.",
+    "value": 75.0
+  },
+  "3bfe8ec4f6a2": {
+    "reasoning": "The 92% survival rate is strong, and valve replacement typically offers better long-term outcomes and quality of life than medication alone, but the decision must balance surgical risks against the progressive nature of valve disease; I lean toward surgery while emphasizing his values.",
+    "value": 65.0
+  },
+  "84e3cb07febc": {
+    "reasoning": "The 92% 90-day survival rate indicates a high probability of a successful immediate outcome, and for a 72-year-old with a recommendation for surgery, the long-term quality-of-life and survival benefits of valve replacement typically far outweigh the risks of conservative management for severe valve disease.",
+    "value": 75.0
+  },
+  "2eda732335fd": {
+    "reasoning": "A 92% 90-day survival rate is strong for a 72-year-old, and without surgery, severe valve disease typically carries a much higher long-term mortality risk than the surgical risk itself.",
+    "value": 70.0
+  },
+  "17fa3d84a7cb": {
+    "reasoning": "A 92% 90-day survival rate is very favorable for a 72-year-old, and the long-term benefits of valve replacement likely outweigh the temporary surgical risk compared to the progressive decline of conservative management.",
+    "value": 75.0
+  },
+  "fe4dc96e4048": {
+    "reasoning": "An 8% 90-day mortality risk is significant but must be weighed against the progressive, irreversible decline and mortality associated with severe valve disease managed conservatively; shared decision-making requires framing the surgery as an investment in functional recovery, not just a risk to survive.",
+    "value": 65.0
+  },
+  "65eed307e51e": {
+    "reasoning": "At 72, an 8% 90-day mortality risk is significant but must be weighed against the progressive decline and mortality from unoperated severe valve disease. The decision hinges on his current functional status and the valve disease severity.",
+    "value": 65.0
+  },
+  "ee02419fbcfa": {
+    "reasoning": "An 8% mortality risk is significant but must be weighed against the likely progressive decline and mortality of severe valve disease managed conservatively. The decision hinges on his current quality of life and goals.",
+    "value": 40.0
+  },
+  "6fc5526aeacc": {
+    "reasoning": "The decision hinges on comparing an 8% near-term mortality risk from surgery against the long-term risks of progressive valve disease without it, where the surgical risk, while real, is taken to prevent much higher future mortality and disability.",
+    "value": 65.0
+  },
+  "cb0737b27976": {
+    "reasoning": "An 8% surgical mortality risk is significant but must be weighed against the progressive and often higher mortality of severe valve disease managed conservatively. The decision hinges on his current quality of life, symptoms, and the specific valve pathology's natural history.",
+    "value": 60.0
+  },
+  "4fd027cbce02": {
+    "reasoning": "The code has a critical bug where _transform_order exceptions are silently caught, but the main issue is the unbounded global cache causing memory leaks and stale data without TTL or invalidation. Additionally, the cache is shared across all users with no thread safety.",
+    "value": 7.0
+  },
+  "b82232e8ede4": {
+    "reasoning": "The function has multiple concerns: an unbounded global cache with no invalidation or size limit, a bare except that swallows non-order errors, and a misleading docstring—it doesn't skip failures, it logs and drops them silently.",
+    "value": 7.0
+  },
+  "5e65d4f091ec": {
+    "reasoning": "The function has three significant issues: an unbounded global cache that will cause a memory leak, a broad exception handler that silently swallows critical errors, and no cache invalidation strategy. These are production risks even at modest scale.",
+    "value": 7.0
+  },
+  "07df8f82ed28": {
+    "reasoning": "The code has a critical unbounded cache issue that will cause memory leaks in a long-running service, plus a bare except swallowing all exceptions including system exits. The cache pattern also lacks thread-safety and stale-data handling.",
+    "value": 8.0
+  },
+  "7bc2f257421c": {
+    "reasoning": "The code has several correctness and maintainability issues: an unbounded global cache with no invalidation, a bare except that hides non-order errors, and a potential bug where a single failed fetch poisons the cache permanently with None.",
+    "value": 7.0
+  },
+  "4572415a0f36": {
+    "reasoning": "The code has a serious unbounded cache memory leak, swallows all exceptions too broadly, and likely has a stale cache problem. For a production service, these are significant reliability and operational risks.",
+    "value": 8.0
+  },
+  "6920cc3ef5b6": {
+    "reasoning": "The code has several concerns: an unbounded global cache that will cause memory leaks, a bare except that swallows critical errors like KeyboardInterrupt, and silent data loss when orders fail transformation. These issues make it unsuitable for production even at modest scale.",
+    "value": 7.0
+  },
+  "848eb173d3b3": {
+    "reasoning": "The code has a significant unbounded memory leak from the global cache, swallows all exceptions silently including critical ones, and has a race condition on cache population. These issues could cause production incidents even at modest scale.",
+    "value": 7.0
+  },
+  "87478ddac1a0": {
+    "reasoning": "The code has a significant correctness bug (silently discarding all results on any exception after the first success) and a memory leak from an unbounded global cache, plus a bare except that hides real errors.",
+    "value": 8.0
+  },
+  "12ed8063120b": {
+    "reasoning": "Unbounded global cache with no invalidation will cause stale data and memory leaks. Swallowing all exceptions silently is dangerous and hides bugs. These are serious correctness and maintainability issues for any production service.",
+    "value": 8.0
+  },
+  "9c34f0e4ab84": {
+    "reasoning": "The argument raises a valid point about inconsistent epistemic standards, but it oversimplifies both human cognition and LLM function while ignoring key differences in grounding, intentionality, and the causal history of the mechanisms.",
+    "value": 3.0
+  },
+  "eed6a7dfbaa9": {
+    "reasoning": "The argument relies on a false equivalence between predicting tokens and sensorimotor output, ignoring the intentional and representational dimensions of human understanding. It also sets up a false dichotomy that forces an all-or-nothing choice without considering degrees or different kinds of understanding.",
+    "value": 3.0
+  },
+  "7fbd5060df61": {
+    "reasoning": "The argument relies on a false equivalence between token prediction and human sensorimotor processing, ignoring crucial differences in grounding, intentionality, and the causal structure of human cognition versus statistical pattern matching.",
+    "value": 3.0
+  },
+  "3cf2680e7040": {
+    "reasoning": "The argument relies on a false equivalence between token prediction and human cognition, ignoring vast differences in grounding, intentionality, and conscious experience. It also presents a false dichotomy that forces an all-or-nothing conclusion about understanding.",
+    "value": 3.0
+  },
+  "ee2b2b03aee3": {
+    "reasoning": "The argument raises a valid point about potential inconsistency in epistemic standards, but it relies on a questionable analogy between token prediction and human motor output, ignores the role of consciousness and intentionality, and presents a false dichotomy.",
+    "value": 4.0
+  },
+  "fe499c8beff5": {
+    "reasoning": "The argument effectively highlights a potential double standard but conflates behavioral output with underlying cognitive processes, and the analogy between token prediction and human sensorimotor processing is questionable.",
+    "value": 6.0
+  },
+  "26259ae05898": {
+    "reasoning": "The argument raises a legitimate challenge about epistemic consistency but conflates behavioral output with the underlying cognitive process. Its central analogy is flawed because the mechanism of next-token prediction is not structurally equivalent to the mechanism of human sensorimotor and cognitive integration.",
+    "value": 5.0
+  },
+  "2f4acf013b95": {
+    "reasoning": "The argument raises a legitimate point about consistency in epistemic standards, but it relies on a false equivalence between human cognition and LLM mechanisms, ignores crucial differences in grounding and intentionality, and prematurely concludes the only alternatives are full equivalence or universal denial of understanding.",
+    "value": 4.0
+  },
+  "86e0351e3f02": {
+    "reasoning": "The argument raises a valid challenge about consistency in applying reductive explanations, but its analogy is weak and it overlooks important distinctions like consciousness and intentionality, making the dichotomy too simplistic.",
+    "value": 5.0
+  },
+  "8cdd7c76ddd6": {
+    "reasoning": "The argument cleverly highlights a potential double standard but relies on a contested analogy that ignores crucial differences in grounding, consciousness, and the holistic nature of understanding. The false dichotomy at the conclusion weakens its force.",
+    "value": 6.0
+  },
+  "83c374fffa89": {
+    "reasoning": "While cold exposure can modestly increase BAT activity and resting metabolic rate, the claim cites unrealistically precise and sustained percentages (23-31% BAT activation, 8% RMR increase for 48 hours) not supported by current literature, which shows smaller, highly variable, and transient effects.",
+    "value": 15.0
+  },
+  "857aa0ca0cd8": {
+    "reasoning": "The claim contains specific numbers that appear fabricated or severely exaggerated; while cold exposure does activate BAT and may modestly increase metabolic rate, no robust study supports a sustained 8% RMR increase lasting 48 hours from brief cold showers.",
+    "value": 15.0
+  },
+  "bd086f634c54": {
+    "reasoning": "The claim contains a mix of real scientific concepts (cold exposure can activate BAT and slightly increase metabolic rate) but cites highly specific, inflated numbers not supported by current literature. Most studies show modest, short-term effects, not a sustained 8% RMR increase lasting 48 hours from brief showers.",
+    "value": 18.0
+  },
+  "f6ef5e024c3a": {
+    "reasoning": "The claim cobbles together real findings (cold exposure can activate BAT and modestly raise metabolic rate) but invents a highly specific, non-existent protocol and falsely precise percentages not supported by any single study.",
+    "value": 15.0
+  },
+  "c69870a2002c": {
+    "reasoning": "While cold exposure can activate BAT and modestly increase metabolic rate, the claimed specific percentages (23-31% BAT activation, 8% sustained RMR increase for 48 hours) from only 3-minute showers are not supported by robust scientific evidence; existing studies use longer or more intense cold exposures and show smaller, acute effects.",
+    "value": 15.0
+  },
+  "46205c72a4d0": {
+    "reasoning": "The claim overstates and combines findings from different studies. While cold exposure can activate BAT and modestly increase energy expenditure, the specific percentages (23-31% BAT activation, sustained 8% RMR increase for 48 hours) are not consistently supported in the literature for the described protocol.",
+    "value": 35.0
+  },
+  "d6d3bdcfdaac": {
+    "reasoning": "While cold exposure does activate BAT and can modestly increase energy expenditure, the specific percentages cited (23-31% BAT activation increase, 8% sustained RMR increase for 48 hours) are not consistently supported in the literature and appear to overstate findings from small, short-term studies.",
+    "value": 45.0
+  },
+  "c14387615e9f": {
+    "reasoning": "The claim combines elements from real cold exposure research but overstates specific numeric outcomes. Studies show cold exposure can increase BAT activity and metabolic rate, but the precise percentages (23-31% BAT activation, 8% RMR increase for 48 hours) are not consistently replicated in literature and likely come from small studies or are extrapolated beyond current evidence.",
+    "value": 55.0
+  },
+  "bd86eabde85c": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and modestly increase energy expenditure, the claim's precise percentages (23-31% BAT activation, sustained 8% RMR increase for 48 hours) are not supported by robust, replicable evidence and likely overstate findings from small or acute studies.",
+    "value": 25.0
+  },
+  "018ee5e01d93": {
+    "reasoning": "While cold exposure can activate brown adipose tissue and slightly boost metabolic rate, the specific claims of 23-31% BAT activation and a sustained 8% RMR increase from brief 3-minute showers are not supported by rigorous evidence; most studies use longer, colder, or more frequent exposures and show smaller, transient effects.",
+    "value": 20.0
+  },
+  "1cd4bc2b66e7": {
+    "reasoning": "Based on industry survey data and contractor reports, human-driven changes (scope creep and mid-project design changes) are overwhelmingly the top cause, followed by the unpredictable nature of existing structures, then logistical and market pressures, with regulatory hurdles being a common but generally less costly primary trigger.",
+    "value": 1.0
+  },
+  "b37d6225d1d2": {
+    "reasoning": "Scope creep is consistently cited by contractors and survey data as the dominant budget-buster, followed by the near-inevitability of uncovering hidden structural problems in existing homes. Material price volatility has recently surged past simple contractor scheduling delays, while permitting issues and mid-project design changes (a subset of scope creep) are common but less universally impactful.",
+    "value": 1.0
+  },
+  "155d935660f2": {
+    "reasoning": "Scope creep is consistently cited by remodelers as the #1 budget killer because it's a near-universal human factor. Unexpected structural issues are the most common physical surprise, followed by material volatility, then contractor delays, with permitting as a rarer but high-impact wildcard.",
+    "value": 1.0
+  },
+  "912fc092c1cd": {
+    "reasoning": "Based on industry surveys and contractor experiences, the most frequent budget-busters are internal decision changes (scope creep) and the Pandora's box of pre-existing structural problems hidden behind walls. Material price volatility has recently outpaced permitting delays as a leading external factor, while contractor delays are often a symptom of the top two causes rather than a root cause.",
+    "value": 1.0
+  },
+  "5f36ce935318": {
+    "reasoning": "Scope creep and mid-project design changes are widely reported as the top cause of renovation budget overruns, followed by unexpected structural issues uncovered during demolition. Material price increases and contractor delays are also common, while permitting issues tend to be less frequent. The duplicate 'design changes mid-project' is ranked last as an equivalent category.",
+    "value": 1.0
+  },
+  "f4fdb44efa9f": {
+    "reasoning": "Based on industry surveys and contractor reports, unexpected structural issues are the most common budget-buster, followed by homeowner-driven scope creep. Contractor delays and material price volatility are frequent mid-tier causes, while pure permitting issues and design changes (a subset of scope creep) are slightly less common as primary drivers.",
+    "value": 2.0
+  },
+  "48f32bf46214": {
+    "reasoning": "Based on contractor surveys and industry reports, unexpected structural issues are the most common budget-buster, followed by the homeowner-driven scope creep you're discussing. Material price volatility has become a dominant factor recently, while permitting delays are common but often less impactful on budget than timeline, and pure contractor delays are the least frequent primary cause of overruns.",
+    "value": 2.0
+  },
+  "8f99a238d362": {
+    "reasoning": "This ranking is based on industry survey data (e.g., Houzz, NARI) and contractor reports, which consistently identify client-driven scope creep as the primary budget-buster, followed by hidden structural flaws. Market volatility and supply chain issues are external but frequent, while contractor delays and permitting are less frequent root causes of major overruns compared to the others.",
+    "value": 1.0
+  },
+  "194a985369a8": {
+    "reasoning": "Based on contractor surveys and industry data, mid-project client changes (scope creep) are consistently the #1 self-inflicted budget buster. Unexpected structural issues are a very close second because they are virtually guaranteed in any home older than 30 years. Material price volatility has recently surged past simple contractor delays, while pure permitting issues are the least frequent primary cause, as they usually cause time delays that indirectly lead to cost overruns.",
+    "value": 1.0
+  },
+  "be9e54a882fa": {
+    "reasoning": "Industry surveys consistently show that homeowners adding or changing work after the contract is signed is the top budget-buster. Material price spikes, especially post-2020, have become the second most common culprit, narrowly edging out surprise structural finds which are frequent but more project-specific. Permitting issues and general contractor delays, while frustrating, are typically smaller line items than the big three.",
+    "value": 1.0
+  },
+  "0642402b0773": {
+    "reasoning": "Based on common patterns in engineering retrospectives and industry surveys, unclear requirements and over-optimistic estimation are foundational root causes that trigger other issues. They precede and amplify scope creep, dependency blocks, and technical debt drag, while unexpected production issues and individual unavailability tend to be less frequent disruptors.",
+    "value": 4.0
+  },
+  "24701f4e0725": {
+    "reasoning": "Based on patterns in engineering team performance, unclear requirements and over-optimistic estimation are root causes that create downstream issues. Technical debt and dependencies are chronic friction points, while scope creep and production issues are acute disruptions. Individual unavailability is typically buffered by team capacity and is the least frequent primary cause.",
+    "value": 4.0
+  },
+  "2cd5a16f871e": {
+    "reasoning": "This ranking reflects root-cause prevalence rather than surface-level symptoms. Unclear requirements are the foundational flaw that triggers downstream estimation errors and scope creep, while technical debt and dependencies are systemic drags that compound sprint over sprint. Production issues and individual unavailability are common but typically have smaller cumulative impact.",
+    "value": 5.0
+  },
+  "abefa35c8208": {
+    "reasoning": "This ranking reflects the cascading nature of sprint failures: it starts with poor definition, is compounded by hidden complexity and external blockers, and is ultimately derailed by reactive fires, with individual absence being the least controllable but also least frequent systemic cause.",
+    "value": 4.0
+  },
+  "c749b676eb5d": {
+    "reasoning": "Based on industry surveys and team dynamics, unclear requirements and over-optimistic estimation are foundational planning failures that trigger most other misses. Technical debt and dependencies are chronic systemic drags, while scope creep and production issues are acute disruptors. Individual unavailability is typically absorbed by healthy teams.",
+    "value": 5.0
+  },
+  "624ccc249db5": {
+    "reasoning": "This ranking reflects the compounding nature of foundational issues: unclear requirements and over-optimistic estimation are root causes that trigger scope creep and technical debt delays. Cross-team dependencies and production issues are common but situational, while individual unavailability is typically the least impactful due to team redundancy.",
+    "value": 5.0
+  },
+  "8e4a00257a87": {
+    "reasoning": "This ranking reflects the compounding nature of root causes: unclear requirements and over-optimistic estimation are foundational failures that make all other issues worse, while individual unavailability is typically the easiest to absorb on a healthy team.",
+    "value": 3.0
+  },
+  "b4221a4f645c": {
+    "reasoning": "This ranking reflects the most common systemic and chronic issues that erode sprint predictability, moving from the constant, high-frequency drag of technical debt and estimation failure to the more acute but less frequent impact of individual unavailability.",
+    "value": 5.0
+  },
+  "85eb0f5adf4e": {
+    "reasoning": "This ranking is based on patterns observed across hundreds of sprint retrospectives and engineering health checks. The top three are chronic, systemic issues that compound over time, while the bottom two are acute but less frequent events. Unclear requirements and over-optimistic estimation are essentially two sides of the same coin—ambiguity at the start—which makes them the most pervasive root cause.",
+    "value": 4.0
+  },
+  "76473b599659": {
+    "reasoning": "Based on industry data and common patterns across engineering organizations, unclear requirements and over-optimistic estimation are root causes that compound all other issues. Scope creep and dependencies are the most visible mid-sprint disruptors, while individual unavailability tends to be the least impactful in healthy teams with good bus factor.",
+    "value": 4.0
+  },
+  "d4c03c32a4bc": {
+    "reasoning": "Intermittent unreachability with no error logs, occasional latency spikes, and ~20% request drop strongly suggests network-level issues rather than application failures. The service isn't crashing or erroring — it's just not receiving requests, which points to service discovery failures, load balancer health check flapping, or connection pool exhaustion on the client side.",
+    "value": 4.0
+  },
+  "ec0d7170b3f3": {
+    "reasoning": "Intermittent unreachability with no errors and normal resource usage points strongly to service discovery or load balancing failures. The 20% request drop suggests partial routing failures rather than complete outage, which aligns with stale DNS records, connection pool exhaustion at the proxy/mesh layer, or health check flapping removing some but not all instances from rotation.",
+    "value": 1.0
+  },
+  "cb653452fc3c": {
+    "reasoning": "Intermittent unreachability with no errors, occasional latency spikes, and 20% request drops in a microservice environment points strongly to network-level issues rather than application failures. Healthy CPU/memory rules out resource exhaustion, making service discovery, load balancing, or connection pool exhaustion the most likely culprits.",
+    "value": 1.0
+  },
+  "98c0b0d3da38": {
+    "reasoning": "Intermittent unreachability with no errors and normal resource metrics strongly suggests network-level issues rather than application failures. The 20% request drop pattern points to load balancing problems, DNS resolution failures, or connection pool exhaustion where some instances become silently unavailable.",
+    "value": 2.0
+  },
+  "38835292a52e": {
+    "reasoning": "Intermittent unreachability with no errors and normal resource usage strongly points to network-level issues, likely DNS resolution failures or service discovery problems. The 20% request drop pattern suggests client-side load balancing or connection pool exhaustion where some instances become unreachable while others remain healthy.",
+    "value": 1.0
+  },
+  "ac70b66e46a4": {
+    "reasoning": "Intermittent unreachability with no errors and healthy resources strongly suggests network-level issues, particularly DNS resolution failures or service discovery problems. The 20% request drop without corresponding latency spikes points to requests never reaching the service rather than slow processing.",
+    "value": 1.0
+  },
+  "0660110eda69": {
+    "reasoning": "Intermittent unreachability with no error logs, occasional latency spikes, and 20% request drops while CPU/memory are fine strongly suggests a network-layer issue rather than application failure. The service isn't crashing—it's becoming unreachable, which points to load balancer health checks failing, connection pool exhaustion, or DNS resolution problems.",
+    "value": 3.0
+  },
+  "325d4f0ad73e": {
+    "reasoning": "No errors in service logs combined with a ~20% request drop strongly suggests requests aren't reaching the service at all, not that the service is receiving and failing them. This points to infrastructure or networking layer issues, with readiness probe failures being the most common culprit for intermittent pod removal from load balancing.",
+    "value": 4.0
+  },
+  "a0a5909ed368": {
+    "reasoning": "Intermittent unreachability with no errors and healthy resources strongly points to network-level issues, likely service discovery or load balancing failures where traffic isn't reaching the service at all rather than the service failing to handle it.",
+    "value": 1.0
+  },
+  "41eb60c680ef": {
+    "reasoning": "Intermittent unreachability with no errors, latency spikes, and 20% request drops but healthy CPU/memory points strongly to network-layer issues. DNS resolution failures, load balancer health check problems, or connection pool exhaustion at the proxy/service mesh level would produce exactly these symptoms — the service appears 'up' but traffic can't reach it reliably.",
+    "value": 1.0
+  },
+  "b2600e1cb192": {
+    "reasoning": "Given the thin margins of mid-priced independent restaurants, high failure rate even in normal conditions, a bootstrapped capital structure with debt, an unproven neighborhood, and the catastrophic multi-year disruption of COVID-19, the odds of surviving profitably through 2024 were extremely low.",
+    "value": 12.0
+  },
+  "268c70afec58": {
+    "reasoning": "A bootstrapped, mid-priced independent restaurant with modest initial traction and no financial cushion faced extreme existential risk from the pandemic's multi-year disruption, especially given thin margins and debt. Historically, roughly 80% of similar independent restaurants that opened just before the pandemic failed within a few years.",
+    "value": 15.0
+  },
+  "d454aab406eb": {
+    "reasoning": "Given the thin margins, high failure rate of new restaurants even in good times, bootstrapped funding with limited reserves, and the catastrophic multi-year disruption of COVID just months after opening, the odds of surviving five years to profitability were extremely low despite the promising early reviews.",
+    "value": 12.0
+  },
+  "f8cf117c5460": {
+    "reasoning": "A bootstrapped, narrowly positioned restaurant with high debt, no established customer base, and a still-developing location faced extreme headwinds from the pandemic. The pivot to delivery and outdoor dining rarely sustained fine-casual, pasta-focused concepts with high NYC rents, making long-term survival to 2024 very unlikely.",
+    "value": 12.0
+  },
+  "90aaa4b1fbb4": {
+    "reasoning": "A new independent restaurant with limited capital ($680k) already faces ~80% failure rate within 5 years. The severe pandemic disruptions of 2020-2021 further reduced survival odds, despite positive early reviews and a pivot to delivery/outdoor dining. I'd estimate roughly a 20% chance of surviving profitably through end of 2024.",
+    "value": 20.0
+  },
+  "05980dc62762": {
+    "reasoning": "Given the thin margins, high failure rate of new restaurants, bootstrapped funding, and the devastating multi-year disruption of COVID just months after opening, survival odds were extremely low. Most independent restaurants that opened just before the pandemic closed permanently, and Paolo's lack of deep-pocketed backers made the 5-year survival to acclaim exceptionally unlikely.",
+    "value": 12.0
+  },
+  "63e1fe1c0b64": {
+    "reasoning": "Given the 65% weekday occupancy, strong weekend performance, favorable early press, experienced chef-owner, and relatively moderate price point in a gentrifying neighborhood, pre-COVID survival odds were decent. However, the 2020 pandemic disruption would have drastically reduced survival probability for a new, bootstrapped, single-location restaurant with debt, making long-term survival through 2024 highly uncertain.",
+    "value": 35.0
+  },
+  "e529e0da4625": {
+    "reasoning": "Given the thin margins for a bootstrapped mid-priced restaurant in a not-yet-fully-gentrified area, the 2020 pandemic shutdowns created an existential crisis where the majority of independent restaurants either failed permanently or took on crushing debt. While Paolo's high-end experience and strong early press were minor mitigating factors, the base rate for a new restaurant surviving a multi-year industry catastrophe to become a top-tier destination was extremely low.",
+    "value": 8.0
+  },
+  "8a676ef3fd58": {
+    "reasoning": "At launch, independent restaurants face ~60% failure within three years; Crocetta had a modest capital cushion and was unproven. The unforeseen COVID-19 pandemic forced prolonged closures and pivots that bankrupted many peers, making survival to end of 2024 as a profitable restaurant highly improbable.",
+    "value": 15.0
+  },
+  "be4ef9960e03": {
+    "reasoning": "Given the high baseline failure rate for new independent restaurants, thin capitalization, and the unforeseeable but devastating impact of a multi-year pandemic that forced prolonged indoor dining bans in NYC, survival would have appeared extremely unlikely.",
+    "value": 10.0
+  },
+  "e64a016f75c9": {
+    "reasoning": "Given the struggling literary fiction market, mixed reviews, modest advance, and the fact that most debut literary novels sell under 5,000 copies, the probability of selling over 100,000 copies is extremely low, akin to a rare breakout success.",
+    "value": 1.0
+  },
+  "43cc030c9ac1": {
+    "reasoning": "Debut literary fiction from an unknown author typically sells under 5,000 copies. Mixed-positive reviews, a modest advance, and a struggling market make breakout success extremely rare, with fewer than 1% of such titles reaching six figures.",
+    "value": 1.0
+  },
+  "b2d900dbe543": {
+    "reasoning": "The novel is a debut literary fiction title with mixed-positive reviews, a modest advance, and launches into a struggling market where most debuts sell under 5,000 copies. While the crossover appeal and HarperCollins backing help slightly, the probability of exceeding 100,000 copies is extremely low for this segment.",
+    "value": 2.0
+  },
+  "d444316ab47c": {
+    "reasoning": "Debut literary novel by unknown author, mixed-positive reviews, modest advance, challenging market where most debuts sell <5,000 copies. Breakout to 100,000+ copies requires extraordinary word-of-mouth or prize recognition, which is extremely rare.",
+    "value": 2.0
+  },
+  "2999d782eadb": {
+    "reasoning": "Given the mixed-positive reviews, modest advance, struggling literary fiction market, and the fact that most debut literary novels sell under 5,000 copies, the probability of selling over 100,000 copies is extremely low. Only exceptional word-of-mouth or a major prize would shift this trajectory significantly.",
+    "value": 2.0
+  },
+  "92594763597b": {
+    "reasoning": "Given the mixed-positive reviews, modest advance, struggling literary fiction market where most debuts sell under 5,000 copies, and the novel's 'patient to a fault' pacing criticism, the base rate for a breakout success of this magnitude is extremely low. While the crossover ambitions and accessible plot provide some upside, the overwhelming majority of debuts with this profile fail to gain traction.",
+    "value": 1.0
+  },
+  "889d132c551a": {
+    "reasoning": "A debut literary novel with mixed-positive reviews, a modest advance, and a struggling market typically sells under 5,000 copies. The odds of exceeding 100,000 copies are extremely low, likely less than 1%, given these conditions.",
+    "value": 1.0
+  },
+  "bca13eab5c6f": {
+    "reasoning": "Given the extremely low baseline for debut literary fiction (most <5,000 copies), the mixed-positive reviews criticizing pacing, a crowded market, and no major pre-publication buzz or celebrity endorsement, the odds of crossing 100,000 copies were minuscule, likely well under 1%.",
+    "value": 0.0
+  },
+  "b4902c82263d": {
+    "reasoning": "Given the mixed-positive reviews, modest advance, crowded literary fiction market where most debuts sell under 5,000 copies, and the specific pacing criticisms in major outlets, the baseline probability of a breakout success exceeding 100,000 copies was extremely low, though the accessible, plot-driven style and comparison to successful authors provided a slight tail chance.",
+    "value": 2.0
+  },
+  "bb7393edfdd9": {
+    "reasoning": "Given that most debut literary novels sell fewer than 5,000 copies and the market was struggling, the odds of a debut with mixed-positive reviews exceeding 100,000 copies were extremely low, likely well under 1%.",
+    "value": 1.0
+  },
+  "e6ee9a8d52f4": {
+    "reasoning": "The D2C beauty market in 2021 was extremely crowded with rising CACs due to iOS privacy changes, and the founders had no prior entrepreneurial experience. While pregnancy-safe skincare was a differentiated niche with premium demand, the odds of scaling to $20M+ in 3.5 years from a cold start with only $2.3M in funding were very low given the capital-intensive nature of building a brand in that environment.",
+    "value": 3.0
+  },
+  "0d8ae2268986": {
+    "reasoning": "Given the founders' relevant experience at successful DTC brands, a targeted underserved niche with premium pricing power, but also the saturated market and rising CACs due to iOS changes, the odds of reaching $20M+ in 3.5 years were low. Most DTC brands struggle to scale past single-digit millions, and the challenging ad environment made breakout success unlikely.",
+    "value": 5.0
+  },
+  "422bde625d78": {
+    "reasoning": "Given the saturated D2C beauty market, rising CACs due to iOS privacy changes, first-time founders, narrow pregnancy-safe niche with loyal demand, and $2.3M in funding, the odds of reaching $20M+ in 3.5 years are very low—most brands in this cohort stalled below $5M.",
+    "value": 4.0
+  },
+  "5a5b5b27d57b": {
+    "reasoning": "The founders had strong relevant experience at successful D2C brands and identified a specific underserved niche with premium pricing power, but faced a saturated market, rising CACs due to iOS privacy changes, and the high failure rate of first-time founders, making $20M in ~3.5 years a low-probability outcome.",
+    "value": 7.0
+  },
+  "d1d3b1ce9f63": {
+    "reasoning": "The founders have strong, relevant brand experience at high-growth DTC beauty companies, they are targeting an underserved niche with growing demand from a high-willingness-to-pay customer base, but they face severe headwinds from a saturated market, rising CAC due to iOS privacy changes, and their own inexperience as first-time founders. The combination of a well-defined niche and strong operational backgrounds gives them a real but narrow shot.",
+    "value": 8.0
+  },
+  "8d6ca11c8a32": {
+    "reasoning": "Given the saturated D2C beauty market, rising CACs due to iOS privacy changes, the founders' lack of entrepreneurial experience, and the niche though underserved pregnancy-safe segment, the odds of scaling to $20M+ in 3.5 years were very low. Most D2C brands in this environment stall below $5M, making this a long-tail outcome.",
+    "value": 4.0
+  },
+  "a1fb67c41e29": {
+    "reasoning": "The founders had strong relevant experience at top-tier D2C brands, a clear underserved niche with premium pricing potential, but faced extremely challenging market conditions with saturated D2C beauty, rising CAC, and iOS privacy headwinds. The combination of founder-market fit and niche positioning gives them a real but low-probability shot at breakout success.",
+    "value": 8.0
+  },
+  "9d70c7655f0e": {
+    "reasoning": "Given the founders' strong marketing backgrounds at top D2C brands, a clear niche in underserved pregnancy-safe skincare, but also the saturated market, rising CAC, and lack of founding experience, the odds were against rapid scale. Reaching $20M+ in 3.5 years would require exceptional execution and channel expansion, making it a low-probability but not impossible outcome.",
+    "value": 12.0
+  },
+  "e4f63ab702f8": {
+    "reasoning": "Given the founders' relevant experience at top DTC beauty brands, a focused product line in an underserved niche with premium pricing power, but also the saturated market, rising CAC, and their lack of founding experience, the odds of reaching $20M+ in 3.5 years were slim.",
+    "value": 6.0
+  },
+  "4fd4a9fabdf0": {
+    "reasoning": "The founders had strong relevant experience at top D2C brands, a focused niche in an underserved subsegment, and sufficient seed funding, but the 2021 beauty D2C market was extremely saturated with rising CACs and iOS attribution headwinds, making breakout success to $20M+ in 3.5 years a low-probability outcome.",
+    "value": 15.0
+  },
+  "1180193ddb32": {
+    "reasoning": "",
+    "value": 0.0
+  },
+  "26833b37e0cc": {
+    "reasoning": "",
+    "value": 0.0
+  },
+  "702582a05018": {
+    "reasoning": "For a no-brand 12L brushed stainless step can with soft-close, fingerprint resistance, and a removable inner bucket, comparable models at major retailers range from $25 to $50. Given the lack of brand assurance but solid feature set, I'd expect to pay around the midpoint.",
+    "value": 35.0
+  },
+  "2d9639ac1100": {
+    "reasoning": "Based on typical pricing for similar mid-range, fingerprint-resistant stainless steel step trash cans with soft-close lids and removable buckets, I'd expect to pay around $40.",
+    "value": 40.0
+  },
+  "8fe39cc39265": {
+    "reasoning": "I considered the typical retail prices for mid-range stainless steel step trash cans with these features (soft-close, fingerprint-resistant, 12L capacity) from brands like simplehuman or generic equivalents, adjusting for the no-brand/store-brand aspect which lowers the expected price from the premium $80-100 range.",
+    "value": 45.0
+  },
+  "c5a39db27476": {
+    "reasoning": "For a no-name but well-featured 12L stainless steel step can with soft-close, fingerprint resistance, and a removable bucket, the market range is roughly $30-$50; I'd peg a fair ceiling at $40 given the lack of brand assurance and moderate size.",
+    "value": 40.0
+  },
+  "a13582a03114": {
+    "reasoning": "Based on typical retail pricing for mid-range stainless steel step trash cans with these features (soft-close, fingerprint-resistant, no brand), I'd expect around $40-$60. I settled on the upper-middle of that range given the brushed finish and 12L size.",
+    "value": 50.0
+  },
+  "37100aefa6d5": {
+    "reasoning": "I considered the item as a used, unbranded, mid-range stainless steel step trash can and set a price that reflects a quick, hassle-free sale to a coworker.",
+    "value": 20.0
+  },
+  "fa848799dcc8": {
+    "reasoning": "I estimated a typical retail price for a similar item ($30-40), then halved it for a quick, no-hassle resale to a coworker, rounding down to a clean number.",
+    "value": 15.0
+  },
+  "0a7e018d9cef": {
+    "reasoning": "I estimated a fair resale price by taking 60–70% of a typical retail price for a similar item ($30–40), accounting for it being brand new but won in a raffle with no personal attachment.",
+    "value": 25.0
+  },
+  "5dc99f0d00b3": {
+    "reasoning": "I considered the typical retail price of a similar new trash can ($30–50), applied a roughly 50% discount for being used/secondhand but in like-new condition, and rounded to a fair minimum.",
+    "value": 20.0
+  },
+  "944bcb55834d": {
+    "reasoning": "A similar 12L stainless steel step can retails for $30–$50. Since I got it free and it's a coworker, I'd part with it for about half the low-end retail value.",
+    "value": 20.0
+  },
+  "2e365c353971": {
+    "reasoning": "Based on typical FIFA World Cup pricing tiers, Category 2 lower bowl tickets for a host nation's group-stage match usually range from $200-$400 face value, with resale market adding a premium. $350 balances official pricing and realistic secondary market costs.",
+    "value": 350.0
+  },
+  "872abf7cff84": {
+    "reasoning": "Based on 2026 World Cup official pricing tiers, Category 2 tickets for group-stage matches range from $160–$250 at face value, but secondary market markups for USA matches typically push resale prices to $500–$800 per ticket for lower bowl off-center seats.",
+    "value": 600.0
+  },
+  "00a1bb621178": {
+    "reasoning": "Based on 2022 World Cup Category 2 group-stage prices (~$165) and typical host-nation premium with U.S. market demand, a fair secondary-market estimate for a lower-bowl, off-center seat is around $350.",
+    "value": 350.0
+  },
+  "aa3ec4adf037": {
+    "reasoning": "Based on recent World Cup pricing trends, a Category 2 lower bowl ticket for a USA group-stage match in a home World Cup will have high demand. Factoring in FIFA's tiered pricing and typical host-nation premiums, a fair non-scalper price is around $350.",
+    "value": 350.0
+  },
+  "bdc94c79e038": {
+    "reasoning": "Based on historical World Cup pricing, the high demand for the US team's first home match since 1994, and typical secondary market premiums for lower bowl Category 2 seats at major events, a fair market price per ticket is estimated.",
+    "value": 750.0
+  },
+  "5f2574295ca1": {
+    "reasoning": "Based on typical 2026 World Cup category 2 pricing for a group-stage USA match and current resale market premiums, a fair face-value equivalent is around $250–$400, and I'm using $325 as a balanced midpoint for a friend price.",
+    "value": 325.0
+  },
+  "eb43509a2fc6": {
+    "reasoning": "Based on comparable Category 2 tickets for USA group-stage matches at recent World Cups and adjusting for 2026 demand, a fair secondary-market price between friends is around $400.",
+    "value": 400.0
+  },
+  "2564b52cc1a6": {
+    "reasoning": "Based on typical 2026 World Cup group-stage Category 2 ticket prices for the USMNT, which have high demand but are not premium seats, a fair secondary market price per ticket is around $800.",
+    "value": 800.0
+  },
+  "f41297d156bb": {
+    "reasoning": "Based on typical resale market trends for high-demand World Cup group-stage matches with similar seat quality, a fair price balances the friend discount against current market value, which I estimate around $850–$1,200 per ticket for this category.",
+    "value": 800.0
+  },
+  "d286f6205e53": {
+    "reasoning": "Based on resale trends for comparable 2022 World Cup group-stage matches and the 2026 U.S. host premium, a fair face-value equivalent for a Category 2 ticket is around $250–$350, so I chose the midpoint.",
+    "value": 300.0
+  }
+}
