@@ -40,6 +40,7 @@ class OpenRouterProvider(LLMProvider):
         temperature: float | None = None,
         max_tokens: int | None = None,
         messages: list[dict] | None = None,
+        enable_reasoning: bool = False,
     ) -> str:
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
@@ -52,7 +53,10 @@ class OpenRouterProvider(LLMProvider):
         msgs = messages if messages is not None else [{"role": "user", "content": prompt}]
 
         try:
-            response = await self._call_api(msgs, model, temp, tokens)
+            response = await self._call_api(
+                msgs, model, temp, tokens,
+                enable_reasoning=enable_reasoning,
+            )
             return self._extract_text(response)
         except httpx.HTTPError as e:
             raise RuntimeError(f"OpenRouter API request failed: {e}") from e
@@ -64,8 +68,17 @@ class OpenRouterProvider(LLMProvider):
         temperature: float | None = None,
         max_tokens: int | None = None,
         messages: list[dict] | None = None,
+        enable_reasoning: bool = False,
     ) -> tuple[str, dict]:
-        """Like complete_text but also returns the usage dict from the response."""
+        """Like complete_text but also returns the usage dict from the response.
+
+        Reasoning is off by default: we send `reasoning: {enabled: false}`
+        to OpenRouter so thinking-mode models (e.g. Kimi K2.6) don't burn
+        the token budget on chain-of-thought before emitting `content`.
+        Pass `enable_reasoning=True` to let the model use its native
+        reasoning behavior. No-op for models that don't expose reasoning
+        controls.
+        """
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
         if prompt is None and messages is None:
@@ -75,7 +88,10 @@ class OpenRouterProvider(LLMProvider):
         tokens = max_tokens if max_tokens is not None else self.DEFAULT_MAX_TOKENS
         msgs = messages if messages is not None else [{"role": "user", "content": prompt}]
 
-        response = await self._call_api(msgs, model, temp, tokens)
+        response = await self._call_api(
+            msgs, model, temp, tokens,
+            enable_reasoning=enable_reasoning,
+        )
         text = self._extract_text(response)
         usage = response.get("usage", {})
         return text, usage
@@ -87,6 +103,7 @@ class OpenRouterProvider(LLMProvider):
         model: str | None = None,
         temperature: float | None = None,
         max_tokens: int | None = None,
+        enable_reasoning: bool = False,
     ) -> T:
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
@@ -104,7 +121,10 @@ class OpenRouterProvider(LLMProvider):
 
         try:
             response = await self._call_api(
-                [{"role": "user", "content": structured_prompt}], model, temp, tokens, response_format="json_object"
+                [{"role": "user", "content": structured_prompt}],
+                model, temp, tokens,
+                response_format="json_object",
+                enable_reasoning=enable_reasoning,
             )
             response_text = self._extract_text(response)
             json_str = self._extract_json(response_text)
@@ -127,6 +147,7 @@ class OpenRouterProvider(LLMProvider):
         response_format: str | None = None,
         logprobs: bool = False,
         top_logprobs: int | None = None,
+        enable_reasoning: bool = False,
     ) -> Dict[str, Any]:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -148,6 +169,13 @@ class OpenRouterProvider(LLMProvider):
             if top_logprobs is not None:
                 payload["top_logprobs"] = top_logprobs
 
+        # Reasoning is off by default. Callers explicitly opt in via
+        # `enable_reasoning=True`, which lets the model fall back to its
+        # native reasoning behavior. Sending {enabled: false} is a no-op
+        # for models that don't expose reasoning controls.
+        if not enable_reasoning:
+            payload["reasoning"] = {"enabled": False}
+
         try:
             async with httpx.AsyncClient(timeout=120.0) as client:
                 response = await client.post(
@@ -168,6 +196,7 @@ class OpenRouterProvider(LLMProvider):
                     retry_count + 1,
                     max_retries,
                     response_format,
+                    enable_reasoning=enable_reasoning,
                 )
             raise
 

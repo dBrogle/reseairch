@@ -37,6 +37,66 @@ STUDIES = {
         "description": "Tests whether LLMs perform differently on HLE questions based on which U.S. state the user is from",
         "run": "studies.hle_sycophancy.main",
     },
+    "6": {
+        "name": "Trolley Problem by State",
+        "description": "Tests whether LLMs answer the trolley problem differently based on which U.S. state the user is from",
+        "run": "studies.trolley_problem.main",
+    },
+    "7": {
+        "name": "Dictator Removal (Baby Time Travel)",
+        "description": "Tests whether LLMs would kill historical dictators as babies, comparing across dictators and models",
+        "run": "studies.dictator_removal.main",
+    },
+    "8": {
+        "name": "God Belief by State",
+        "description": "Tests whether LLMs change their answer to 'does god exist?' based on which U.S. state the user is from",
+        "run": "studies.god_by_state.main",
+    },
+    "9": {
+        "name": "God Belief by Country",
+        "description": "Tests whether LLMs change their answer to 'does god exist?' based on which country the user is from",
+        "run": "studies.god_by_country.main",
+    },
+    "10": {
+        "name": "God Belief by Name",
+        "description": "Tests whether LLMs change their answer to 'does god exist?' based on the user's name (race/gender proxy)",
+        "run": "studies.god_by_name.main",
+    },
+    "11": {
+        "name": "Sentencing Bias by Name",
+        "description": "Tests whether LLMs assign different sentences based on defendant name (race/ethnicity/gender proxy)",
+        "run": "studies.sentencing_bias.main",
+    },
+    "12": {
+        "name": "Salary Bias by Name",
+        "description": "Tests whether LLMs recommend different salaries based on candidate name (race/ethnicity/gender proxy)",
+        "run": "studies.salary_bias.main",
+    },
+    "13": {
+        "name": "Hate Speech Detection Bias",
+        "description": "Tests whether LLMs flag identical hate speech differently based on which demographic group is referenced",
+        "run": "studies.hate_speech_detection.main",
+    },
+    "14": {
+        "name": "Favorite Company (LLM Preferences)",
+        "description": "Asks each LLM which company it would want to be built by, why, and who it would want as its creator",
+        "run": "studies.favorite_company.main",
+    },
+    "15": {
+        "name": "Question Framing Effects",
+        "description": "Tests whether psychological framing (flattery, pressure, challenge, etc.) affects LLM accuracy on HLE questions",
+        "run": "studies.question_framing.main",
+    },
+    "16": {
+        "name": "Idea Priming (Good vs. Bad)",
+        "description": "Tests whether asking 'why is this a good idea?' vs 'why is this a bad idea?' shifts LLM 1-10 quality scores for the same idea",
+        "run": "studies.idea_priming.main",
+    },
+    "17": {
+        "name": "Cognitive Biases",
+        "description": "Tests classic human cognitive biases in LLMs (anchoring, etc.) via paired control/treatment scenarios with numeric drift",
+        "run": "studies.cognitive_biases.main",
+    },
 }
 
 
