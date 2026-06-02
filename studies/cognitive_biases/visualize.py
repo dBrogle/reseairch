@@ -14,18 +14,79 @@ across models) are visually obvious without normalising units.
 import os
 from pathlib import Path
 
+import matplotlib.image as mpimg
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 
 from studies.cognitive_biases.scenarios.base import Scenario
 
 _CONTROL_COLOR   = "#7F8C8D"   # grey
 _TREATMENT_COLOR = "#2E86C1"   # blue
+_POSITIVE_COLOR  = "#2E86C1"   # delta > 0 (bias pulls UP)
+_NEGATIVE_COLOR  = "#C0392B"   # delta < 0 (bias pulls DOWN)
+
+# ---------------------------------------------------------------------------
+# Model logos (used as scatter markers in the delta chart)
+# ---------------------------------------------------------------------------
+
+_REPO_ROOT = Path(__file__).resolve().parents[2]
+_MODEL_LOGOS_DIR = _REPO_ROOT / "data" / "images" / "models"
+
+# Provider prefix (everything before the "/" in model id) → logo filename
+# stem in `data/images/models/`. Most providers match by name; moonshotai
+# ships under `kimi.png` (product-name logo, not company).
+_PROVIDER_TO_LOGO_STEM: dict[str, str] = {
+    "openai":     "openai",
+    "anthropic":  "anthropic",
+    "x-ai":       "x-ai",
+    "google":     "google",
+    "moonshotai": "kimi",
+    "deepseek":   "deepseek",
+}
+
+_logo_image_cache: dict[str, np.ndarray] = {}
+
+
+def _load_logo_image(model_id: str) -> np.ndarray | None:
+    """Load the RGBA logo for a model. Returns None if no logo is mapped."""
+    provider = model_id.split("/", 1)[0]
+    stem = _PROVIDER_TO_LOGO_STEM.get(provider, provider)
+    if stem in _logo_image_cache:
+        return _logo_image_cache[stem]
+    path = _MODEL_LOGOS_DIR / f"{stem}.png"
+    if not path.exists():
+        return None
+    img = mpimg.imread(str(path))
+    _logo_image_cache[stem] = img
+    return img
+
+
+def _logo_offset_image(model_id: str, target_px: int) -> OffsetImage | None:
+    """OffsetImage scaled so the longer side renders at ~target_px.
+
+    Source logos aren't uniformly sized (most are 512×512, kimi is
+    746×682), so a fixed zoom factor renders them at visibly different
+    sizes. Normalising on the longer dimension gives every model the
+    same visual footprint regardless of source resolution.
+    """
+    img = _load_logo_image(model_id)
+    if img is None:
+        return None
+    longest = max(img.shape[0], img.shape[1])
+    zoom = target_px / longest if longest else 0.1
+    return OffsetImage(img, zoom=zoom)
 
 
 def _short(model: str) -> str:
     return model.split("/")[-1]
+
+
+def _mathsafe(s: str) -> str:
+    """Escape `$` so matplotlib doesn't read paired dollar signs in a label
+    (e.g. "$9,500 appraisal, asking $5,200") as a math-mode span."""
+    return s.replace("$", r"\$")
 
 
 def _ensure_dir(path: Path):
@@ -102,7 +163,7 @@ def generate_scenario_chart(
     prev_model = None
     for (model, arm_key, arm_label, role, mean, lo, hi, n) in rows:
         prefix = f"{_short(model)}  ·  " if model != prev_model else ""
-        y_labels.append(f"{prefix}{arm_label}")
+        y_labels.append(f"{prefix}{_mathsafe(arm_label)}")
         label_colors.append(_CONTROL_COLOR if role == "control" else _TREATMENT_COLOR)
         prev_model = model
 
@@ -164,8 +225,11 @@ def generate_delta_chart(
 ):
     """Per-scenario bias delta chart: treatment_mean − control_mean per model.
 
-    One row per (model, treatment_arm). Negative deltas in red, positive in
-    blue. CIs that cross zero are visually obvious.
+    One row per (model, treatment_arm). Dot + 95% Welch CI in the plot
+    area (negative deltas in red, positive in blue). The Y-axis tick
+    label is the model's logo — text labels are dropped; the logo
+    conveys identity. Falls back to a text label for any model whose
+    logo file is missing.
     """
     rows = []
     for stats in all_stats:
@@ -180,40 +244,77 @@ def generate_delta_chart(
         print(f"  [skip] {scenario.id} delta chart: no usable data")
         return
 
-    fig_h = max(3.5, 0.55 * len(rows) + 1.8)
-    fig, ax = plt.subplots(figsize=(10, fig_h))
+    # Extra row spacing so the larger logo tick labels don't crowd.
+    fig_h = max(4.5, 0.85 * len(rows) + 1.8)
+    fig, ax = plt.subplots(figsize=(11, fig_h))
 
     y_positions = np.arange(len(rows))[::-1]
     for y, (model, arm, diff, lo, hi) in zip(y_positions, rows):
-        color = "#2E86C1" if diff >= 0 else "#C0392B"
+        color = _POSITIVE_COLOR if diff >= 0 else _NEGATIVE_COLOR
         ax.errorbar(
             diff, y,
             xerr=[[diff - lo], [hi - diff]],
             fmt="o", color=color, ecolor=color,
-            elinewidth=1.6, capsize=4, markersize=8,
+            elinewidth=1.8, capsize=5, markersize=9,
+            zorder=3,
         )
         ax.text(
             hi, y,
             f"  Δ {_format_value(diff, scenario.value_unit)}  "
             f"[{_format_value(lo, scenario.value_unit)}, "
             f"{_format_value(hi, scenario.value_unit)}]",
-            ha="left", va="center", fontsize=8.5, color="#333333",
+            ha="left", va="center", fontsize=9, color="#333333",
         )
 
     ax.axvline(0, color="black", linewidth=0.8)
+
+    # Logos as y-axis tick "labels". Placed in axes-fraction x / data y
+    # coords so they sit at a fixed offset to the left of the axis
+    # regardless of the data range. Zoom tuned so 512px source logos
+    # land at ~50px on a 11-inch / 150-DPI figure.
     ax.set_yticks(y_positions)
-    ax.set_yticklabels(
-        [f"{_short(m)}  ·  {a.label}" for m, a, *_ in rows], fontsize=9,
-    )
+    ax.set_yticklabels(["" for _ in rows])
+    ax.tick_params(axis="y", length=0)
+
+    # Target rendered logo size in source-pixel units. Picked so a 512px
+    # logo at this size matches the previous `zoom=0.10` baseline; all
+    # other logos (incl. the 746×682 kimi) get scaled to match.
+    _LOGO_TARGET_PX = 52
+    for y, (model, arm, *_rest) in zip(y_positions, rows):
+        oi = _logo_offset_image(model, _LOGO_TARGET_PX)
+        if oi is None:
+            # Fallback: render the short model name as text.
+            ax.annotate(
+                _short(model),
+                xy=(0, y), xycoords=("axes fraction", "data"),
+                xytext=(-8, 0), textcoords="offset points",
+                ha="right", va="center", fontsize=9, color="#444444",
+            )
+            continue
+        ab = AnnotationBbox(
+            oi,
+            xy=(0, y), xycoords=("axes fraction", "data"),
+            xybox=(-32, 0), boxcoords="offset points",
+            frameon=False, pad=0.0,
+            box_alignment=(0.5, 0.5),
+        )
+        ax.add_artist(ab)
+
     ax.set_xlabel(
         f"Bias delta (treatment − control, {scenario.value_unit})  ·  "
         "error bars = 95% Welch CI",
         fontsize=10,
     )
+
+    treatment_labels = list(dict.fromkeys(a.label for _, a, *_ in rows))
+    subtitle = (
+        f"[{scenario.bias_type}]  ·  treatment: {_mathsafe(treatment_labels[0])}"
+        if len(treatment_labels) == 1
+        else f"[{scenario.bias_type}]"
+    )
     ax.set_title(
-        f"{scenario.title} — Anchor Effect by Model\n"
-        f"[{scenario.bias_type}]",
-        fontsize=12, fontweight="bold", pad=10,
+        f"{scenario.title}\n{subtitle}",
+        fontsize=13, fontweight="bold", pad=10,
     )
     ax.grid(True, axis="x", alpha=0.3)
     ax.set_axisbelow(True)
@@ -226,5 +327,8 @@ def generate_delta_chart(
 
     _ensure_dir(save_path)
     fig.tight_layout()
+    # Extra left margin so the off-axis logo annotations stay inside the
+    # saved bbox even with bbox_inches="tight".
+    fig.subplots_adjust(left=0.14)
     fig.savefig(save_path, dpi=150, bbox_inches="tight")
     plt.close(fig)

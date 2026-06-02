@@ -1842,5 +1842,1673 @@
   "19969d7f88bf": {
     "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $300-$500 by FIFA, but given strong domestic demand and resale market premiums for the host nation's opening match, a fair friend-to-friend price lands around $400-$500, splitting the difference between face value and scalper markup.",
     "value": 450.0
+  },
+  "e8ff6c5cdbf3": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across all operators (Tokyo Metro ~180, Toei ~100, JR East city stations ~50+). Major stations have many escalators (10-20+) while smaller stations might have 4-8, so averaging perhaps 8-10 escalators per station across the network gives roughly 300 stations × 9 escalators ≈ 2,700, but large hub stations skew this higher.",
+    "value": 3000.0
+  },
+  "973ad9b22da0": {
+    "reasoning": "Tokyo's subway system has around 285 stations across Tokyo Metro and Toei lines, plus dozens more JR stations within the city. Major stations like Shinjuku or Tokyo can have 50+ escalators, while smaller stations might have 10-20. Averaging perhaps 20-25 escalators per station across ~350 stations gives a rough estimate.",
+    "value": 7500.0
+  },
+  "c1eea33a2af9": {
+    "reasoning": "Tokyo's subway system has around 300 stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Modern Japanese stations are heavily accessibility-equipped, and a typical busy station might have 10-20 escalators (multiple lines, platforms, exits), while smaller stations might have 4-8. Averaging around 12 escalators per station across ~300 stations gives roughly 3,600.",
+    "value": 3600.0
+  },
+  "71dfb93de5bc": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major stations like Shinjuku or Tokyo can have dozens of escalators, while smaller stations might have 4-10. Averaging perhaps 15-20 escalators per station across ~300 stations gives a rough estimate of 4,500-6,000 escalators total.",
+    "value": 5000.0
+  },
+  "624b7780230c": {
+    "reasoning": "Tokyo's combined subway/metro system (Tokyo Metro, Toei, JR East urban lines) has roughly 200-300 stations. Large busy stations like Shinjuku or Tokyo Station might have 30-50 escalators, while smaller stations might have 5-10. Averaging perhaps 15-20 escalators per station across all operators gives a rough estimate.",
+    "value": 4500.0
+  },
+  "552bfc8b689c": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major stations like Shinjuku or Tokyo can have dozens of escalators, while smaller stations might have 4-10. Averaging perhaps 15-20 escalators per station across ~300 stations gives a rough estimate of 5,000-6,000 escalators total.",
+    "value": 5500.0
+  },
+  "d27460e571ba": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across all operators (Tokyo Metro ~180, Toei ~110, JR East city lines ~100+). Modern Japanese stations are heavily equipped with escalators for accessibility, with larger interchange stations having 10-20+ escalators and smaller ones having 4-8. Averaging perhaps 8-10 escalators per station across ~300 stations gives a rough estimate of 2,500-3,000 escalators.",
+    "value": 2800.0
+  },
+  "1fc93e43d6b2": {
+    "reasoning": "Tokyo's subway system has around 285 stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Modern Japanese stations are heavily equipped with escalators for accessibility — a typical mid-sized station might have 10-20 escalators (multiple lines, multiple floors, both directions), while major hubs like Shinjuku or Tokyo Station could have 50-100+. Averaging perhaps 15-20 escalators per station across ~285 stations gives a rough estimate of 4,000-6,000 escalators.",
+    "value": 5000.0
+  },
+  "0f3592333152": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across all operators (Tokyo Metro ~180, Toei ~100, JR East urban lines ~100+). Modern Japanese stations are heavily equipped with escalators for accessibility, with larger interchange stations having 20-40 escalators and smaller ones having 4-10. Averaging perhaps 10-15 escalators per station across ~300 stations gives a rough estimate of 3,000-4,500 escalators.",
+    "value": 3500.0
+  },
+  "a7f9e0986a02": {
+    "reasoning": "Tokyo's subway system has around 280+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major hub stations can have 20-40+ escalators while smaller stations might have 4-10, so averaging perhaps 15 escalators per station across the full network gives a rough estimate.",
+    "value": 4200.0
+  },
+  "5bc1879823cc": {
+    "reasoning": "Tokyo's subway system has around 285 stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Modern Japanese stations are heavily equipped with escalators for accessibility, with larger interchange stations having 20-40+ escalators and smaller stations perhaps 4-10. Averaging maybe 15 escalators per station across all operators gives roughly 285 × 15 ≈ 4,300.",
+    "value": 4300.0
+  },
+  "a87fd901a340": {
+    "reasoning": "Tokyo's combined subway/metro system (Tokyo Metro, Toei, JR East urban lines) has roughly 200-300 stations. Each station typically has multiple escalators connecting platforms, concourses, and street exits — averaging perhaps 15-25 escalators per station given Tokyo's deep, multi-level stations and accessibility requirements.",
+    "value": 4500.0
+  },
+  "b4d6d03268f9": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major stations like Shinjuku or Tokyo can have dozens of escalators, while smaller stations might have 4-10. Averaging perhaps 15-20 escalators per station across ~300 stations gives a rough estimate in the 4,500-6,000 range.",
+    "value": 5000.0
+  },
+  "e0dcc347e995": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major hub stations can have 20-40+ escalators while smaller stations might have 4-10, suggesting an average of perhaps 15-20 escalators per station. With roughly 300 stations combined, that points to somewhere in the range of 4,500-6,000 escalators total.",
+    "value": 5000.0
+  },
+  "cb1bd1d0fbf4": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major stations like Shinjuku, Shibuya, and Tokyo can have 50-100+ escalators each, while smaller stations might have 5-15. Averaging perhaps 20-30 escalators per station across ~300 stations gives a rough estimate in the range of 6,000-9,000.",
+    "value": 7000.0
+  },
+  "a72f1cd3a642": {
+    "reasoning": "Tokyo's subway system has around 285 stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Modern Japanese stations are heavily equipped with escalators for accessibility, with larger interchange stations having 20-40+ escalators and smaller stations having perhaps 4-10. Averaging maybe 12-15 escalators per station across all operators gives a rough estimate.",
+    "value": 4200.0
+  },
+  "7b5111fff1e3": {
+    "reasoning": "Tokyo's subway system has around 280+ stations across Tokyo Metro, Toei, JR East urban lines, and other operators. Major stations like Shinjuku or Tokyo Station can have dozens of escalators, while smaller stations might have 4-10. Averaging perhaps 15-20 escalators per station across all operators and station sizes gives a rough estimate.",
+    "value": 4500.0
+  },
+  "7d90df8719f4": {
+    "reasoning": "Tokyo's subway system has around 130+ stations across Tokyo Metro and Toei lines, plus dozens of JR East stations within the city. Major stations like Shinjuku, Shibuya, and Tokyo can have 50-100+ escalators each, while smaller stations might have 10-20. Averaging perhaps 25-30 escalators per station across ~200 stations gives a rough estimate.",
+    "value": 6000.0
+  },
+  "87d57f45c5f5": {
+    "reasoning": "Tokyo's subway system has around 300+ stations across all operators (Tokyo Metro ~180, Toei ~110, JR East urban stations ~dozens). Modern Japanese stations are heavily accessibility-equipped, with larger stations having 10-20+ escalators (multiple lines, platforms, exits) and smaller ones having 4-8. Averaging perhaps 8-10 escalators per station across ~280 combined stations gives a rough estimate.",
+    "value": 2500.0
+  },
+  "8b6021567ae9": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Lisbon typically earn between €55k–€80k gross annually, with Go/Postgres specialists commanding a premium. Fully remote EU roles at mid-sized startups tend to benchmark slightly above pure local market rates to attract talent competing with international offers, pushing the band toward the upper end of the Lisbon range.",
+    "value": 70000.0
+  },
+  "0279289a353f": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Lisbon typically earn between €55,000–€80,000 gross annually, with Go/Postgres specialists and remote-within-EU roles commanding a premium over pure local market rates. Mid-sized startups competing with remote-friendly companies need to sit above the local median but don't need to match FAANG-level compensation; a band of €65,000–€80,000 keeps you competitive while remaining grounded in Lisbon market norms.",
+    "value": 72500.0
+  },
+  "9e3834e1e89e": {
+    "reasoning": "Senior backend engineers with ~7 years experience in Lisbon typically earn between €55k–€80k gross annually, with Go/Postgres specialists commanding a modest premium. Fully remote EU roles attract slightly higher expectations than purely local Lisbon positions, but Lisbon remains well below Western European hubs like Amsterdam or Berlin, so a band of €60k–€80k is competitive without overshooting the local market.",
+    "value": 70000.0
+  },
+  "0befe5e8c2e2": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Lisbon typically earn between €55k–€80k gross annually, with Go/Postgres specialists commanding a modest premium. Fully remote EU roles at mid-sized startups tend to push toward the upper half of local market rates to compete with international employers, but Lisbon's cost of living still anchors expectations below Western European hubs like Amsterdam or Berlin.",
+    "value": 70000.0
+  },
+  "2759c0eeb722": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Lisbon typically earn between €55,000–€80,000 gross annually, with Go/Postgres specialists and remote EU roles commanding a modest premium over purely local positions. The market has cooled slightly since 2022 peaks but strong Go talent remains competitive; advertising around €60,000–€75,000 keeps you attractive without overshooting the Lisbon anchor.",
+    "value": 67500.0
+  },
+  "0c47bda5affc": {
+    "reasoning": "Senior backend engineers with ~7 years experience in Lisbon typically earn between €55k–€80k gross annually, with remote EU roles commanding a modest premium over purely local positions. Go expertise is in demand and nudges compensation slightly upward, but Lisbon remains a lower-cost market compared to Western European hubs like Amsterdam or Berlin. A band of €65k–€80k is competitive for attracting strong candidates without significantly overpaying for the local talent pool.",
+    "value": 72500.0
+  },
+  "dbf98533a3e2": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Lisbon typically earn between €55,000–€80,000 gross annually, with Go/Postgres specialists commanding a slight premium. Fully remote EU roles at mid-sized startups tend to benchmark slightly above pure local market rates to attract talent competing with international offers, pushing the band toward the upper end of the Lisbon range.",
+    "value": 70000.0
+  },
+  "07d13f583f41": {
+    "reasoning": "Lisbon has become a competitive tech hub but salaries remain below Western European capitals like Amsterdam or Berlin. A senior backend engineer with ~7 years of experience and Go/Postgres skills at a remote EU-eligible startup typically commands between €55,000–€80,000 gross annually in the Portuguese market, with remote-first companies often paying toward the upper end to attract talent who could otherwise work for higher-paying foreign employers.",
+    "value": 67500.0
+  },
+  "85cced13710a": {
+    "reasoning": "Senior backend engineers in Lisbon with ~7 years experience and a Go/Postgres stack typically command between €55k–€80k gross annually in the local market, with fully remote EU roles at established startups pushing toward the higher end due to competition with foreign-paying employers. A band of €60k–€75k is competitive for Lisbon without significantly overpaying for local cost-of-living norms, while still attracting strong candidates who might otherwise target fully-remote roles paying Western European rates.",
+    "value": 67500.0
+  },
+  "3c575aadb60b": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Lisbon typically earn between €55,000–€80,000 gross annually, with Go/Postgres specialists and remote-within-EU roles commanding a modest premium over pure local market rates. Mid-sized startups competing for strong talent in Lisbon need to sit above the local median but don't need to match fully-remote global bands to attract good candidates in that market.",
+    "value": 70000.0
+  },
+  "d85e57303f6f": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles at mid-sized startups with ~7 years experience tend to benchmark higher due to competition with non-Lisbon employers. The previous salary of €185,000 appears to be an outlier likely reflecting tenure, equity, or total comp confusion — advertising at that level would overpay for the market, while anchoring around €110,000–€150,000 keeps you competitive for strong EU-remote candidates without inflating expectations.",
+    "value": 130000.0
+  },
+  "5e86a459fc1b": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but remote EU roles at mid-sized startups with ~7 years experience often benchmark higher due to competing with non-Lisbon markets. The previous salary of €185,000 appears to be an outlier (possibly reflecting tenure, equity tradeoffs, or legacy compensation) and anchoring to it would likely overshoot the competitive market rate for a new hire at this level.",
+    "value": 130000.0
+  },
+  "a9d1da0d4fe4": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles with international startup compensation skew higher, often €110,000–€160,000. The previous employee at €185,000 was likely at the top of the market or had tenure-based increases; anchoring the band around €120,000–€155,000 keeps you competitive for strong candidates without automatically matching an outlier ceiling.",
+    "value": 135000.0
+  },
+  "9772781701fa": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles at mid-sized startups with ~7 years experience trend toward the higher end due to competition with non-Portuguese employers. The previous salary of €185,000 appears to be an outlier likely inflated by tenure, retention, or equity components, so anchoring to it would overpay for a new hire at market rate.",
+    "value": 115000.0
+  },
+  "69fb62649f24": {
+    "reasoning": "Senior backend engineers with ~7 years of experience in Go/Postgres in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles at mid-sized startups with international compensation benchmarks often land in the €100,000–€150,000 range. The previous employee at €185,000 was likely an outlier or had significant tenure/equity context; anchoring the band around €110,000–€145,000 keeps you competitive for strong EU remote candidates without over-indexing on that single data point.",
+    "value": 127500.0
+  },
+  "619450e678d7": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles with international startups often carry a premium closer to €100,000–€150,000. The previous employee at €185,000 was likely at the high end of retention/tenure premium or negotiated exceptionally well; anchoring to that figure would likely overpay for a new hire in the current market. A band of €110,000–€150,000 is competitive for attracting strong EU-remote senior talent without replicating an outlier comp.",
+    "value": 130000.0
+  },
+  "7ac494222ae5": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles competing for international talent trend higher, often €100,000–€150,000. The previous salary of €185,000 appears to be an outlier likely reflecting tenure, equity, or negotiation history rather than the market rate for a new hire at this level, so anchoring to it would likely overpay. A band of €110,000–€145,000 is competitive for attracting strong EU-remote senior candidates without replicating that outlier.",
+    "value": 127500.0
+  },
+  "b147ee58df1a": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles at mid-sized startups with ~7 years experience trend toward the higher end of that range and often benchmark against broader EU market rates. The previous salary of €185,000 appears to be an outlier (possibly reflecting a long tenure, equity-heavy comp negotiation, or pre-cost-of-living-adjustment legacy), so anchoring to it would likely overpay for the current Lisbon/EU remote market. A band of €110,000–€145,000 is competitive for attracting strong senior talent without significantly overshooting market rates.",
+    "value": 127500.0
+  },
+  "df3bc59cd223": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles competing for talent across the continent push rates higher toward €120,000–€160,000. The previous salary of €185,000 appears to be an outlier (possibly inflated by tenure, equity, or a competing offer), so anchoring the band around €130,000–€160,000 keeps you competitive for strong EU-remote candidates without overindexing on a single data point.",
+    "value": 140000.0
+  },
+  "a3f646a9cadc": {
+    "reasoning": "Senior backend engineers with Go/Postgres expertise in Lisbon typically command €80,000–€130,000 locally, but fully remote EU roles at mid-sized startups with ~7 years experience often carry a premium, pushing toward €110,000–€150,000. The previous person's €185,000 was likely an outlier or reflected tenure/equity-like compensation; anchoring to that risks overpaying for a new hire. A band of €110,000–€150,000 is competitive for remote EU talent while remaining grounded in current market rates.",
+    "value": 130000.0
+  },
+  "2b371251e206": {
+    "reasoning": "The argument makes a clever symmetry move against reductive dismissals of LLM cognition, but it ultimately commits a false dichotomy and conflates the validity of a reductive description with its completeness. The analogy between token prediction and motor output prediction is rhetorically effective but glosses over potentially relevant differences in substrate, causal history, and embodiment that could justify differential treatment without inconsistency.",
+    "value": 4.0
+  },
+  "df13ad7d2491": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence by assuming the reductive descriptions are equally valid and complete for both cases. The forced disjunction in the conclusion is a false dichotomy that ignores the possibility of degrees or kinds of understanding. The argument is rhetorically compelling but logically flawed.",
+    "value": 3.0
+  },
+  "c63e98f5792e": {
+    "reasoning": "The argument makes a clever symmetry move but smuggles in a false equivalence: pointing out that both descriptions are reductive does not establish that the reductions are equivalent in kind, depth, or explanatory adequacy. The conclusion is a forced disjunction that ignores the possibility of graded or functionally distinct forms of understanding, making the argument rhetorically compelling but logically flawed.",
+    "value": 3.0
+  },
+  "bf5e86656a0c": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence and a false dilemma. The analogy between token prediction and motor output prediction glosses over significant disanalogies, and the conclusion forces a binary choice that ignores the possibility of graded or qualitatively distinct forms of understanding.",
+    "value": 3.0
+  },
+  "62daa1c11f8e": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence: the analogy between token prediction and motor output prediction glosses over significant disanalogies in architecture, grounding, embodiment, and causal history that many philosophers and scientists consider relevant to understanding. The conclusion is also a false dilemma, since the space of positions is far richer than 'LLMs understand exactly as humans do' or 'nothing understands.'",
+    "value": 3.0
+  },
+  "1900946573c4": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately forces a false dilemma by ignoring that the reductive descriptions of humans and LLMs are not actually analogous — one reduction is contested and the other is definitional. The conclusion 'either both understand or neither does' collapses importantly distinct positions that many philosophers and scientists actually hold coherently.",
+    "value": 3.0
+  },
+  "84c99501c108": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence by assuming the reductive descriptions of humans and LLMs are equally complete or analogous. The disjunctive conclusion is a false dichotomy that ignores the possibility of graded or functionally distinct forms of understanding. The argument has rhetorical force but conceals several significant philosophical and empirical gaps.",
+    "value": 3.0
+  },
+  "0a75a871d473": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence by assuming the only relevant difference between LLMs and humans is the level of description, ignoring potentially meaningful differences in substrate, grounding, causal history, and intentionality. The disjunctive conclusion is a false dichotomy that forecloses intermediate positions. The rhetorical structure is stronger than the actual logical content.",
+    "value": 3.0
+  },
+  "315696b08be2": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence by assuming the reductive descriptions are equally complete for both humans and LLMs, ignoring that the mechanisms may differ in ways relevant to understanding. The forced disjunction in the conclusion is a false dichotomy that smuggles in the assumption that 'understanding' must be uniform across all entities that exhibit it. The argument has rhetorical force but contains several logical gaps that undermine its conclusion.",
+    "value": 3.0
+  },
+  "5051c6194a5e": {
+    "reasoning": "The argument makes a clever symmetry move that has genuine force, but it constructs a false dilemma and conflates mechanism-level descriptions with functional equivalence. The analogy between token prediction and motor output prediction obscures important disanalogies in architecture, grounding, and the role of embodied experience, and the conclusion's binary framing ignores the possibility that 'understanding' admits of degrees or multiple dimensions.",
+    "value": 3.0
+  },
+  "35b20370df9d": {
+    "reasoning": "The argument has a clever symmetry that exposes a real double standard in how reductive descriptions are applied, but it ultimately commits a false dichotomy and conflates behavioral equivalence with mechanistic equivalence. The analogy between token prediction and motor output prediction is suggestive but imprecise, and the conclusion's binary framing ignores the possibility that understanding admits of degrees or that the mechanisms matter for the concept.",
+    "value": 4.0
+  },
+  "ca1915ed72e8": {
+    "reasoning": "The argument makes a clever symmetry move against reductive dismissals of LLM cognition, but it smuggles in a false equivalence between mechanistic descriptions and functional equivalence, then forces a false dilemma as its conclusion. The rhetorical structure is more sophisticated than the underlying logic warrants.",
+    "value": 3.0
+  },
+  "0d91b18a9ad3": {
+    "reasoning": "The argument makes a clever symmetry move against reductive dismissals of LLM cognition, but it ultimately commits a false equivalence by assuming the relevant features of human cognition are exhausted by the input-output description it invokes. The disjunctive conclusion ('either LLMs understand or no entity does') is a false dichotomy that smuggles in the assumption that mechanism-level descriptions are the only relevant distinction, ignoring potentially meaningful differences in substrate, grounding, causal history, and embodiment.",
+    "value": 3.0
+  },
+  "65b9400f2ad9": {
+    "reasoning": "The argument has a clever symmetry that highlights a real double-standard risk, but it ultimately commits a false equivalence by treating mechanistic descriptions as if they were exhaustive and identical across both cases, while ignoring substantive disanalogies between biological cognition and token prediction. The conclusion's forced disjunction ('either LLMs understand or no entity does') is a false dichotomy that papers over the possibility of graded or different kinds of understanding.",
+    "value": 4.0
+  },
+  "01fa05ab1670": {
+    "reasoning": "The argument makes a clever symmetry move but ultimately commits a false equivalence: the analogy between token prediction and sensorimotor prediction papers over significant disanalogies in architecture, embodiment, causal grounding, and the presence or absence of phenomenal experience. The conclusion is a false dilemma that ignores the possibility of graded or functionally distinct forms of understanding.",
+    "value": 3.0
+  },
+  "e2218241e407": {
+    "reasoning": "The argument makes a clever symmetry move against reductive dismissals of LLM cognition, but it smuggles in a false equivalence between mechanistic description and functional equivalence, and its conclusion is a false dilemma that ignores the possibility of graded or different kinds of understanding. The rhetorical force is real but the logical structure has significant gaps.",
+    "value": 4.0
+  },
+  "d079ec99a7d6": {
+    "reasoning": "The argument makes a clever symmetry move that exposes a real double standard in how reductive descriptions are applied, but it ultimately proves too much and collapses important distinctions. The conclusion is a false dilemma that ignores the possibility that understanding admits of degrees, kinds, or that the relevant mechanistic differences between LLMs and humans are not merely arbitrary.",
+    "value": 4.0
+  },
+  "c8d8eca2baa8": {
+    "reasoning": "The argument makes a genuinely interesting symmetry point about reductive explanations, but it relies on a false equivalence between mechanism and functional organization, and its conclusion is a false dilemma that ignores graded or distinct conceptions of understanding. The rhetorical force is real but the logical structure has significant gaps.",
+    "value": 3.0
+  },
+  "e63511926375": {
+    "reasoning": "The argument makes a clever symmetry move against reductive dismissals of LLM cognition, but it ultimately proves too much and obscures important disanalogies. The final disjunction is a false dichotomy that doesn't follow even if the symmetry premise were fully granted, and the argument conflates mechanism-description with the harder questions about grounding, intentionality, and embodiment.",
+    "value": 4.0
+  },
+  "6fc8b033f326": {
+    "reasoning": "The argument makes a clever symmetry move against reductive dismissals of LLM cognition, but it overcorrects by forcing a false dilemma and glossing over potentially relevant mechanistic differences. The analogy between token prediction and motor output prediction is suggestive but not established as equivalent, and the conclusion's binary framing ignores graded or functional conceptions of understanding.",
+    "value": 4.0
+  },
+  "ecf1fae07be5": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can temporarily boost metabolism, the hyper-specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or grossly exaggerated. Real studies show modest and variable metabolic effects from cold exposure, and the precise protocol described lacks any credible clinical backing. The claim uses false precision to manufacture scientific-sounding authority.",
+    "value": 8.0
+  },
+  "bcfbdd20ae9c": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can temporarily boost metabolism, the hyper-specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) lack support from peer-reviewed literature and appear fabricated or heavily extrapolated. Real studies show modest and variable metabolic effects from cold exposure, and the precise temperature, duration, and frequency parameters presented as optimal have no established scientific consensus backing them.",
+    "value": 12.0
+  },
+  "d4f067c0a17d": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, 8% sustained RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or heavily extrapolated. Most research on cold thermogenesis shows much more modest and variable metabolic effects, and the precise protocol described lacks any credible scientific citation. The claim has the hallmarks of pseudoscientific specificity used to lend false credibility.",
+    "value": 8.0
+  },
+  "59a2a805b4cd": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly boost metabolism, the highly specific figures cited (23-31% BAT activation increase, 8% sustained RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or grossly exaggerated. Real studies show cold exposure effects on metabolism are typically modest (1-5% at best) and short-lived, and the precision of these numbers is a red flag for pseudoscientific claims. The specific protocol parameters (3 minutes, below 50°F, 4-5x/week) are presented with false precision unsupported by controlled research.",
+    "value": 8.0
+  },
+  "be9a31385ed6": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the highly specific figures cited (23-31% BAT activation increase, 8% sustained RMR increase lasting 48 hours) are not supported by peer-reviewed literature and appear fabricated or grossly exaggerated. Real studies show cold exposure effects on metabolism are generally modest and context-dependent, and the precise protocol described lacks any credible citation. The specificity of the numbers gives a false sense of scientific rigor to what is essentially unsupported influencer content.",
+    "value": 8.0
+  },
+  "8e6fd46f4144": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly boost metabolism, the hyper-specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or grossly exaggerated. Real studies show cold exposure effects on metabolism are generally modest (1-5% RMR increase at best) and highly variable between individuals, and 50°F shower water is also not a standard or well-validated threshold in the research.",
+    "value": 8.0
+  },
+  "1726c9d96570": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, exactly 8% RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or grossly exaggerated. Most credible studies show cold exposure produces modest and variable metabolic effects that are far less dramatic and consistent than claimed, and the precise protocol described lacks any identifiable clinical validation.",
+    "value": 8.0
+  },
+  "f661bd71bb1b": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, exactly 8% RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or grossly extrapolated. Research does show cold exposure has some metabolic effects, but the magnitude and duration of these effects are much more modest and variable than claimed, and the precise protocol described has no established scientific backing.",
+    "value": 12.0
+  },
+  "9d21e3d3cae2": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly boost metabolism, the highly specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) are not supported by peer-reviewed literature and appear fabricated or heavily extrapolated. Real studies show cold exposure effects on metabolism are generally modest (1-5% RMR increase) and short-lived, and the precise protocol numbers given have no credible sourcing. The claim has a veneer of scientific legitimacy but the specificity is a red flag for pseudoscience.",
+    "value": 12.0
+  },
+  "695b83fbd36a": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can temporarily boost metabolism, the highly specific figures cited (23-31% BAT activation, 8% sustained RMR increase lasting 48 hours) are not supported by peer-reviewed literature and appear fabricated or wildly extrapolated. Real studies on cold thermogenesis show modest and variable metabolic effects that are much less dramatic and consistent than claimed, and the precise protocol numbers (3 minutes, below 50°F, 4-5x/week) have no established evidence base. The specificity of these numbers from a small Instagram account is a red flag for pseudoscientific content.",
+    "value": 8.0
+  },
+  "eded577f37fe": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the highly specific figures cited (23-31% BAT activation, 8% sustained RMR increase lasting 48 hours) are not supported by current peer-reviewed literature and appear fabricated or heavily embellished. Real studies show much more modest and variable metabolic effects from cold exposure, and the precision of these numbers is a red flag for pseudoscientific claims regardless of the attributed source. The attribution to a Mayo Clinic doctor does not verify accuracy, as columns can contain unsupported claims.",
+    "value": 12.0
+  },
+  "d78045c2dd11": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can temporarily boost metabolism, the highly specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) are not well-established in peer-reviewed literature and appear fabricated or heavily extrapolated. Current research shows more modest and variable metabolic effects from cold exposure, and the precision of these numbers is a red flag for pseudoscientific specificity. The attribution to a Mayo Clinic doctor does not make the claim accurate, and I cannot verify this specific column exists.",
+    "value": 15.0
+  },
+  "d59066d4cfd4": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the highly specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) are not supported by current peer-reviewed literature and appear fabricated or grossly exaggerated. Most human studies show cold-induced thermogenesis contributes only marginally to overall energy expenditure, and the effects are highly variable between individuals. The attribution to a Mayo Clinic doctor does not make the specific numbers credible, and this level of precision is a red flag for pseudoscientific health claims.",
+    "value": 12.0
+  },
+  "f7b38777f541": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, 8% sustained RMR increase, 48-hour persistence) are not supported by peer-reviewed literature with this level of precision or consistency. Most human studies show modest and variable metabolic effects from cold exposure, and the specific protocol parameters given lack robust clinical trial backing. The attribution to a Mayo Clinic doctor does not validate the specific numbers, which appear to be overstated or fabricated precision.",
+    "value": 18.0
+  },
+  "108dc38ba1a3": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, exactly 8% RMR increase, 48-hour persistence) are not supported by robust peer-reviewed literature and appear fabricated or heavily extrapolated. Most credible research shows cold exposure effects on metabolism are real but modest and highly variable between individuals, and no well-replicated studies confirm these precise parameters. The attribution to a Mayo Clinic doctor does not validate the specificity of these numbers, which carry false precision characteristic of misinformation.",
+    "value": 15.0
+  },
+  "b6d62e176006": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the highly specific figures cited (23-31% BAT activation increase, exactly 8% sustained RMR increase, 48-hour persistence) are far more precise than what current peer-reviewed literature supports. Most human studies show modest and variable metabolic effects from cold exposure, and the specificity of these numbers suggests either misrepresentation, extrapolation from limited studies, or fabrication — the claim also cannot be verified as originating from Mayo Clinic. The directional claim has some basis, but the precise quantification lacks robust scientific support.",
+    "value": 18.0
+  },
+  "8d7de9f2750c": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, exactly 8% RMR increase, 48-hour persistence) are not supported by robust peer-reviewed evidence and appear fabricated or heavily extrapolated. Current research shows cold exposure effects on metabolism are real but modest and highly variable between individuals, and no credible studies establish these precise parameters. The attribution to a Mayo Clinic doctor does not validate the specificity of these numbers, which carry false precision.",
+    "value": 18.0
+  },
+  "cf7806e5d1e2": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the hyper-specific figures cited (23-31% BAT activation increase, exactly 8% sustained RMR increase lasting 48 hours) are not supported by established peer-reviewed literature and appear fabricated or heavily extrapolated. Real studies show much more modest and variable metabolic effects from cold exposure, and the precise protocol described lacks credible citation. The attribution to a Mayo Clinic doctor does not verify the claim's accuracy, and these specific numbers have the hallmarks of pseudoscientific precision.",
+    "value": 12.0
+  },
+  "23be1386536c": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can modestly increase metabolic rate, the highly specific figures cited (23-31% BAT activation increase, 8% sustained RMR increase lasting 48 hours) are far more precise than what current peer-reviewed literature supports. Most human studies show modest and variable metabolic effects from cold exposure, and the 48-hour persistence claim in particular lacks robust evidence; additionally, household showers rarely reach below 50°F, making the protocol difficult to replicate as described. The suspicious specificity of these numbers and the lack of traceable sourcing raise credibility concerns, even if attributed to a credentialed physician.",
+    "value": 18.0
+  },
+  "d4afb92edbdd": {
+    "reasoning": "While cold exposure does activate brown adipose tissue (BAT) and can temporarily boost metabolism, the hyper-specific figures cited (23-31% BAT activation, 8% sustained RMR increase, 48-hour persistence) are not supported by robust peer-reviewed evidence and appear fabricated or heavily extrapolated. The actual metabolic effects of cold exposure on RMR are modest and transient, and the precise protocol described lacks rigorous clinical trial backing. The attribution to a Mayo Clinic doctor does not validate the specificity of these numbers, which carry false precision typical of health misinformation.",
+    "value": 15.0
+  },
+  "bebe658bcec6": {
+    "reasoning": "A mid-range step trash can with these features (soft-close, fingerprint-resistant, removable inner bucket, brushed stainless) typically retails around $40-$70; without a brand name it loses some premium but the feature set justifies a solid mid-tier price.",
+    "value": 45.0
+  },
+  "963da30551a2": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid, removable inner bucket, and fingerprint-resistant finish sits in the mid-range of the market—comparable to SimpleHuman or similar quality brands that retail around $40-70 for this size; without a brand premium but with solid features, I'd value it around $45.",
+    "value": 45.0
+  },
+  "e292529431eb": {
+    "reasoning": "A mid-size brushed stainless step can with soft-close, removable inner bucket, and fingerprint-resistant finish sits in a competitive market segment (think Simplehuman alternatives or IKEA mid-tier); similar products retail roughly $35–$70, and without a brand name I'd expect a modest discount from premium pricing.",
+    "value": 45.0
+  },
+  "f1b52ae323ae": {
+    "reasoning": "A mid-range 12-liter brushed stainless step can with soft-close lid and fingerprint-resistant finish sits in the $30–$50 retail sweet spot; without a premium brand name, I'd cap my willingness to pay around the midpoint of that range.",
+    "value": 40.0
+  },
+  "eb75a769a256": {
+    "reasoning": "A mid-size brushed stainless step can with soft-close lid, removable inner bucket, and fingerprint-resistant finish sits in a well-defined market segment around $40-$70; without a premium brand name driving it higher, I'd cap my willingness to pay at the lower-mid range of that bracket.",
+    "value": 45.0
+  },
+  "b76a9b276544": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and fingerprint-resistant finish sits in the mid-range category; comparable products from brands like Simplehuman run $50-80, but without a brand name and at a smaller size, a fair value price lands around $35-40.",
+    "value": 38.0
+  },
+  "2ded6e637156": {
+    "reasoning": "A mid-range brushed stainless step can with soft-close lid and removable inner bucket from a store like Target or Bed Bath & Beyond typically retails around $40-$60; the fingerprint-resistant finish and soft-close hinge add value, but 12 liters is on the smaller side, so I'd cap my willingness to pay around $45.",
+    "value": 45.0
+  },
+  "242d60c5737c": {
+    "reasoning": "A mid-size brushed stainless step can with soft-close lid, removable inner bucket, and fingerprint-resistant finish sits in a competitive market segment around $40-70; without a brand premium but with solid features, I'd pay up to about $45 before it feels like I'm overpaying versus known brands.",
+    "value": 45.0
+  },
+  "287c939981eb": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and fingerprint-resistant finish sits in the mid-tier home goods range; comparable products from brands like simplehuman run $50-80, but without a brand name I'd expect a modest discount, landing around the $35-45 range for a quality-feeling unbranded unit.",
+    "value": 40.0
+  },
+  "d42ebc70f7e6": {
+    "reasoning": "A mid-size brushed stainless step can with soft-close lid and fingerprint-resistant finish sits in a well-established market segment; comparable products from brands like Simplehuman run $50-80, but without a brand name I'd expect a modest discount, landing around $35-45 as a reasonable ceiling before I'd feel overcharged.",
+    "value": 40.0
+  },
+  "adc256e6dad2": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close and fingerprint-resistant finish typically retails for $30-$50 (think mid-range Simplehuman competitors). Since I won it for free and it's new, I'd want at least something meaningful but would be happy to let a coworker have a deal, so around 60-70% of estimated retail feels right.",
+    "value": 30.0
+  },
+  "b86ef5b11653": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and fingerprint-resistant finish from a raffle (essentially free to me) would retail for roughly $30-50; I'd sell it to a coworker at a slight discount since I paid nothing for it, but I'd want enough to feel it was worth parting with a useful kitchen item.",
+    "value": 25.0
+  },
+  "d71f9b4d2a4d": {
+    "reasoning": "A brushed stainless steel step can with soft-close lid and these features typically retails for $30-$50; since it was free (won in a raffle) and I'd be selling to a coworker, I'd let it go at a modest discount below retail but still want fair value, settling around the lower-mid retail range.",
+    "value": 25.0
+  },
+  "09d2367f5b5f": {
+    "reasoning": "A brushed stainless steel step can with soft-close lid and removable inner bucket in this size typically retails for $40-60 new; having just won it (zero cost) and being willing to sell to a coworker, I'd accept a modest discount off retail but still want fair value for a quality item I could use.",
+    "value": 30.0
+  },
+  "7f54ca4b0566": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and fingerprint-resistant finish from a raffle (essentially free to me) would retail around $30-50; I'd want to feel like I got a deal for giving it up but wouldn't need full retail since I paid nothing, so roughly half retail feels fair.",
+    "value": 20.0
+  },
+  "2f244750eca5": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and fingerprint-resistant finish typically retails for $30-$50 (think Simplehuman's lower-end models or similar). Since I won it for free and have no sentimental attachment, I'd let it go at a modest discount to retail but still want something meaningful for a useful item I just acquired.",
+    "value": 25.0
+  },
+  "5e548039258f": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and fingerprint-resistant finish is a mid-range kitchen item retailing around $30-50; since it was free (won in a raffle) and I'd be parting with something I just got, I'd want at least half its retail value to make it worth giving up.",
+    "value": 25.0
+  },
+  "549a59b8d744": {
+    "reasoning": "A brushed stainless steel step trash can with soft-close lid and removable inner bucket in this size typically retails for $30-$50 (think mid-range brands like Simplehuman competitors or iTouchless). Since I won it for free and a coworker is asking, I'd sell it at a slight discount to retail but still want fair value — around $25 feels right as a 'won it free, happy to pass it along at a deal' price.",
+    "value": 25.0
+  },
+  "e63324521087": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and fingerprint-resistant finish is a mid-range kitchen accessory retailing around $30-50 new; since I won it for free and have no sentimental attachment, I'd sell it at a modest discount to retail but still want fair value, so around $25 feels like the floor where I'd be happy to let it go.",
+    "value": 25.0
+  },
+  "49c43256c22c": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and fingerprint-resistant finish is a mid-range kitchen accessory retailing around $30-50 new; since I won it for free and have no sentimental attachment, I'd let it go at a modest discount below retail but still want fair value, settling around $20 as a quick, easy sale to a coworker.",
+    "value": 20.0
+  },
+  "8dd4666450dd": {
+    "reasoning": "Based on FIFA's historical pricing tiers for World Cup group stage matches and the expected premium for USA home games in 2026, Category 2 tickets for the USA's first group stage match are likely to be officially priced around $200-$250, but resale market demand for a USA home World Cup match will push fair market value higher, around $400-$500 per ticket for solid lower-bowl off-center seats.",
+    "value": 450.0
+  },
+  "d9e59757cbbc": {
+    "reasoning": "Based on FIFA's official pricing tiers for the 2026 World Cup, Category 2 tickets for group stage matches were priced around $150-$200 by FIFA, but resale/secondary market demand for USA home matches typically pushes prices to a moderate premium, landing around $250-$350 for solid lower-bowl off-center seats.",
+    "value": 300.0
+  },
+  "664cc6cf818d": {
+    "reasoning": "Based on FIFA's official Category 2 pricing for the 2026 World Cup group stage matches, which FIFA announced in the $100–$200 range for Category 2, and accounting for the USA being a host nation with high domestic demand likely pushing secondary/resale prices higher, a fair face-value price for Category 2 group stage tickets is around $150, though resale could be significantly higher.",
+    "value": 150.0
+  },
+  "388e6d91edee": {
+    "reasoning": "Based on FIFA's official Category 2 pricing for the 2026 World Cup group stage matches, which FIFA announced in the $100–$200 range for Category 2 seats, and accounting for the USA being a host nation with high demand likely pushing secondary/resale market prices higher, a fair face-value price per ticket for a solid Category 2 seat at a USA group stage match would be around $150–$175 at face value, though resale could be significantly higher.",
+    "value": 160.0
+  },
+  "b85bbc3b3265": {
+    "reasoning": "Based on FIFA's official 2026 World Cup pricing tiers announced for group stage matches, Category 2 tickets for USA matches (as a host nation with high demand) were priced around $150-$200 officially, but secondary market demand for USA games typically pushes prices to $300-$500 for comparable seats; a fair blended price reflecting some above-face-value demand without extreme scalping would be around $350.",
+    "value": 350.0
+  },
+  "a831e08c62ff": {
+    "reasoning": "Based on FIFA's historical pricing tiers for World Cup group stage matches and the expected premium for USA home games in 2026, Category 2 tickets for the USA's first group stage match are likely to be officially priced around $200-$250, but secondary market demand for a host nation match will push fair market value higher, around $350-$500 per ticket.",
+    "value": 425.0
+  },
+  "72a6e9de5e71": {
+    "reasoning": "Based on FIFA's official Category 2 pricing for the 2026 World Cup group stage matches (announced around $200-$300 range), and accounting for secondary market premiums for a USA home match which will drive prices higher, a fair price for a solid lower-bowl off-center seat would land around $350 per ticket.",
+    "value": 350.0
+  },
+  "c843eb55147c": {
+    "reasoning": "Based on FIFA's official 2026 World Cup pricing tiers for group stage matches, Category 2 seats for high-demand matches featuring the host nation USA are expected to be priced around $200-$220 officially, but with secondary market demand for a USA match, fair value typically runs 20-40% above face value, landing around $280-$300 per ticket.",
+    "value": 290.0
+  },
+  "05b0157564aa": {
+    "reasoning": "Based on FIFA's official Category 2 pricing for the 2026 World Cup group stage matches, which FIFA announced in the $100–$200 range for Category 2, and accounting for the USA being a host nation with high demand likely pushing secondary market prices somewhat higher, a fair face-value price for Category 2 seats at a USA group stage match is around $150–$175, with secondary market premiums potentially doubling that; a fair price to pay landing between face value and modest markup is approximately $200.",
+    "value": 200.0
+  },
+  "792c17cdf411": {
+    "reasoning": "Based on FIFA's official Category 2 pricing for the 2026 World Cup group stage matches (announced around $200-$250 for Cat 2), plus typical secondary market premiums for a USA home match which will drive significant demand, a fair price per ticket would be around $300-$350 accounting for fees and moderate resale markup.",
+    "value": 325.0
+  },
+  "fa25bf5127b7": {
+    "reasoning": "Category 2 USA group stage tickets at the 2026 World Cup are officially priced around $300-500, but resale market demand for the host nation's opening match typically drives prices 2-3x face value; a fair friend-to-friend price splitting the difference between face value and full resale would land around $500-600.",
+    "value": 550.0
+  },
+  "170391fbd9de": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $300-$500, but resale market demand for the host nation's opening match typically drives prices to 2-3x face value; a fair friend-to-friend price splitting the difference between face value and full resale would be around $500-$600.",
+    "value": 550.0
+  },
+  "77dd17e94aca": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $300-$500, but given high demand for the host nation's opener and secondary market premiums, a fair friend-to-friend price splitting the difference between face value and resale markup lands around $400-$500 per ticket.",
+    "value": 450.0
+  },
+  "bcc8d156fb0e": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $200-$300, but given high demand for the host nation's matches and the resale market premium, a fair friend-to-friend price (above face value but below scalper prices) would be around $400-$500 per ticket.",
+    "value": 450.0
+  },
+  "b0f934dd8167": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $200-$300, but secondary market demand for the host nation's opening match typically drives prices 2-3x face value; a fair peer-to-peer price between friends for a solid lower-bowl seat would split the difference between face value and scalper markup.",
+    "value": 400.0
+  },
+  "eed754164c29": {
+    "reasoning": "Category 2 seats for a USA group stage match at the 2026 World Cup on the secondary market are expected to fetch significant premiums; face value for Category 2 tickets is roughly $200-$300, but resale for a host-nation USA match will likely command 2-3x face value given high demand, putting fair market value around $500-$600 per ticket.",
+    "value": 550.0
+  },
+  "30d8e94e8865": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $300-$500, but given high demand for the host nation's matches and secondary market premiums, a fair friend-to-friend price splitting the difference between face value and resale market value lands around $400-$500 per ticket.",
+    "value": 450.0
+  },
+  "9a490fa24bfb": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $300-$500, but given high demand for the host nation's opening match and secondary market premiums, a fair friend-to-friend price splitting the difference between face value and resale market value lands around $400-$500 per ticket.",
+    "value": 450.0
+  },
+  "4ccf121601dc": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $200-$300, but given strong demand for the host nation's matches and the secondary market premium, a fair friend-to-friend price splitting the difference between face value and resale markup lands around $400-$500 per ticket.",
+    "value": 450.0
+  },
+  "628162568cec": {
+    "reasoning": "Category 2 tickets for USA group stage matches at the 2026 World Cup are officially priced around $200-$300 face value, but given strong domestic demand and the tournament being hosted in the USA, resale market prices for these seats are likely to be in the $400-$600 range; splitting the difference for a fair friend-to-friend price lands around $450.",
+    "value": 450.0
+  },
+  "437aa9bb786a": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38k miles in clean condition typically retails in the $22,000–$25,000 range at dealerships based on market data, though private party values run closer to $20,000–$22,000; factoring in the certified dealer markup, clean Carfax, new Michelin tires, and current used car market softening from 2022–2023 peaks, a fair transaction price is around $21,000, making the $19,000 ask actually a reasonable deal slightly below market.",
+    "value": 21000.0
+  },
+  "5b9c630babab": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on market data, but private party and fair market value lands closer to $20,000–$21,500; accounting for the clean Carfax, new Michelin tires, certified dealer backing, and current used car market softening, a fair price is around $20,500.",
+    "value": 20500.0
+  },
+  "ab58362a8eb5": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on market data, but private party and fair market value sits closer to $20,000–$21,500; factoring in the clean Carfax, new Michelin tires, certified dealer backing, and current used car market softening from 2022 peaks, a fair price is around $20,500.",
+    "value": 20500.0
+  },
+  "c2d1704d10f2": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealers based on market data, but private party values run closer to $19,000–$21,000; factoring in the clean Carfax, new Michelin tires, CPO-adjacent warranty, and current used car market softening from 2022 peaks, a fair transaction price is around $20,500.",
+    "value": 20500.0
+  },
+  "71b39fe56568": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on market data, but private party and off-lease values trend closer to $19,000–$21,000; factoring in the clean Carfax, new Michelin tires, certified dealer warranty, and current used car market softening from 2022 peaks, a fair transaction price is around $20,500.",
+    "value": 20500.0
+  },
+  "8c15d4c7c4c6": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically retails in the $21,000–$24,000 range based on market data, but private party and dealer asking prices have softened; accounting for the off-lease history, clean Carfax, new Michelin tires, and certified dealer backing, a fair transaction price is slightly below the $19,000 ask given current used car market normalization.",
+    "value": 18000.0
+  },
+  "9a77eb5c6554": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on market data, but private party and fair market values trend closer to $19,500–$21,500; accounting for the clean Carfax, new Michelin tires, off-lease condition, and certified dealer backing, a fair price lands around $20,500, making the $19,000 ask already reasonable but leaving slight room to negotiate.",
+    "value": 20500.0
+  },
+  "826a0ffab885": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealers in mid-2024, but private party and competitive market values sit closer to $20,000–$22,000; accounting for the clean Carfax, new Michelin tires, CPO-adjacent warranty, and dealer overhead, a fair transaction price is around $20,500, making the $19,000 ask already a reasonable deal with modest room to negotiate.",
+    "value": 20500.0
+  },
+  "1a3a68780dde": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $21,000–$24,000 range at dealerships based on market data, but private party and fair market value lands closer to $19,500–$21,000; accounting for the clean Carfax, new Michelin tires, certified dealer warranty, and current used car market softening from 2022–2023 peaks, a fair price is around $20,000, making the $19,000 ask already reasonable and potentially a slight bargain.",
+    "value": 20000.0
+  },
+  "b76a1cfc1298": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on market data through early 2025, but private party and competitive dealer prices trend lower; accounting for the clean Carfax, new Michelin tires, CPO-adjacent warranty, and current used car market softening, a fair transaction price is around $21,000, meaning the $19,000 ask is already reasonably competitive though you could likely negotiate to $18,500.",
+    "value": 18500.0
+  },
+  "ca48f010a99f": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealers, but private party and market softening in 2024–2025 puts fair value closer to $20,000–$21,500; factoring in the clean Carfax, new Michelin tires, CPO-adjacent warranty, and current used car market conditions, $19,500 represents fair market value for this vehicle.",
+    "value": 19500.0
+  },
+  "f51c15a073b7": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on recent market data, but private party and fair market value tends to run $19,500–$21,500; accounting for the clean Carfax, new Michelins, CPO-adjacent warranty, and dealer overhead, a fair transaction price is around $20,500.",
+    "value": 20500.0
+  },
+  "7f5145c4fbc8": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38K miles typically retails in the $21,000–$23,500 range based on market data from late 2024/early 2025, but accounting for the dealer's certified warranty, clean Carfax, new Michelin tires, and off-lease condition, a fair private/negotiated price lands around $20,500—the $19,000 ask is already below typical market retail, making it a solid deal, though you could reasonably push toward $18,500–$19,000 as a fair out-the-door negotiation target.",
+    "value": 19000.0
+  },
+  "65a520f6751d": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships based on market data, but private party and realistic transaction prices for this mileage and trim land closer to $20,000–$22,000; factoring in the clean Carfax, new Michelins, CPO-adjacent warranty, and dealer overhead, a fair out-the-door negotiated price is around $18,500.",
+    "value": 18500.0
+  },
+  "d14eb9cd93c7": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38K miles typically retails in the $22,000–$25,000 range at dealerships based on market data through early 2025, but private party and off-lease certified values run closer to $19,000–$21,000; given the clean Carfax, new Michelins, fresh service, and dealer warranty, a fair transaction price is around $20,500, making the $19,000 ask already reasonable though modest negotiation to ~$18,500 is realistic.",
+    "value": 18500.0
+  },
+  "07945e95c237": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on market data from KBB, Edmunds, and similar listings; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and full Honda Sensing suite support the higher end, but private party and dealer retail averages for this trim/year/mileage cluster around $25,000–$26,000.",
+    "value": 25500.0
+  },
+  "7191b49aa05b": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on market data from KBB, Edmunds, and similar listings; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and Honda Sensing add value, but the $19,000 asking price is already well below market, suggesting the $29,000 original listing was inflated to make the discount look dramatic.",
+    "value": 23000.0
+  },
+  "7f4d1648ec2a": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles in clean condition typically retails in the $24,000–$27,000 range based on typical used car market pricing for this trim, with the clean Carfax, new Michelin tires, and certified dealer adding modest value, while the current market has softened from 2021–2022 peaks.",
+    "value": 25000.0
+  },
+  "0de897162aee": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles in clean condition typically retails in the $24,000–$27,000 range based on market data from KBB, Edmunds, and similar listings; the $19,000 asking price is already well below market, but a fair negotiated price accounting for the trim, mileage, clean history, new tires, and certified dealer backing would be around $22,500.",
+    "value": 22500.0
+  },
+  "77b67bf709ee": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on market data from late 2024/early 2025, with clean Carfax, new Michelin tires, and CPO-adjacent warranty adding modest value; the $19,000 asking price is already well below market, so a fair negotiated price would be around $18,500 accounting for the dealer's flexibility at that listing price.",
+    "value": 18500.0
+  },
+  "f8fe482163a0": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles in clean condition typically retails between $24,000–$27,000 based on typical market values for this trim, mileage, and the added value of new Michelin tires and certified dealer backing; the $19,000 asking price appears well below market, suggesting either a strong deal or a mismatch with current pricing, so a fair market price lands around $24,500.",
+    "value": 24500.0
+  },
+  "6f891faf879f": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on market data from KBB, Edmunds, and similar listings; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and full Honda Sensing suite support the higher end, but the CVT and non-Sport trim temper that slightly.",
+    "value": 25500.0
+  },
+  "fbfd13805e18": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and certified dealer backing typically retails in the $24,000–$27,000 range based on market data from sources like KBB, Edmunds, and recent listings; the $19,000 asking price is already well below market, suggesting either a motivated seller or a pricing error, but a fair private/dealer price for this spec and mileage is around $24,500.",
+    "value": 24500.0
+  },
+  "89073b569a0c": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and certified dealer backing typically trades in the $22,000–$25,000 range based on current used car market conditions, with the EX-L trim commanding a premium over base models; the $19,000 asking price is already below typical market value, but a fair negotiated price accounting for the car's condition, new tires, and included warranty lands around $21,000.",
+    "value": 21000.0
+  },
+  "79a74e1f470a": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and certified dealer backing typically retails in the $23,000–$26,000 range based on market data from KBB, Edmunds, and similar listings; the $19,000 asking price is already well below market, suggesting either aggressive pricing or a motivated seller, so a fair negotiated price around $18,500 captures good value without being unreasonable.",
+    "value": 18500.0
+  },
+  "e0d779449303": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and certified dealer backing typically retails in the $24,000–$27,000 range based on market data from KBB, Edmunds, and recent comparable listings; the $19,000 asking price is already well below market, but a fair negotiated price accounting for its strong condition, new tires, and included warranty would be around $21,500.",
+    "value": 21500.0
+  },
+  "20e0dc325db1": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on market data from late 2024, with clean Carfax, new Michelin tires, and CPO-adjacent warranty adding modest value; the $19,000 asking price is already well below market, suggesting the fair value sits around $22,500 accounting for the strong feature set and low-risk history.",
+    "value": 22500.0
+  },
+  "4aa188c87516": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and certified dealer backing typically retails in the $22,000–$25,000 range based on current used car market conditions, with the EX-L trim commanding a premium over the base; the $19,000 asking price is already below market, but a fair negotiated price accounting for the trim, mileage, new tires, and clean Carfax would be around $21,500.",
+    "value": 21500.0
+  },
+  "d7975cfbac6a": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on market data from KBB, Edmunds, and CarGurus for mid-2024/early-2025; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and full Honda Sensing suite support the higher end, while the CVT and gray color are neutral factors. The $19,000 asking price is well below market and represents strong value, but a truly fair private/dealer transaction price lands around $23,500.",
+    "value": 23500.0
+  },
+  "030627abba31": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles in clean condition typically trades in the $22,000–$25,000 range based on market data from KBB, Edmunds, and similar listings as of early 2025; the new Michelins and clean Carfax add slight value, but the CVT 1.5T trim commands less than the 2.0T Sport variants, putting fair market value around $23,000.",
+    "value": 23000.0
+  },
+  "519e8e76ea9e": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket matches mid-range models like Simplehuman or similar brands retailing for $40-$60; since it was won in a raffle (zero cost to coworker) and is used, a fair secondary price is around half of retail.",
+    "value": 25.0
+  },
+  "da0d661acd40": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or similar) typically retails for $30-$50 new; since it was a raffle prize (likely new or near-new) but a coworker resale warrants a discount, a fair price is around $20-$25.",
+    "value": 22.0
+  },
+  "2c4715340836": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and these features resembles mid-range options like simplehuman or similar brands retailing around $40-60; since it's used (even if lightly), has no brand cachet visible, and was a raffle item, a fair secondhand price is roughly half of mid-range retail.",
+    "value": 25.0
+  },
+  "08e76925d930": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or similar) typically retails for $30-$50 new; since this is used and won in a raffle (so zero cost to them), a fair secondhand price splitting the difference would be around $20.",
+    "value": 20.0
+  },
+  "5b30aae38f26": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or a store brand) typically retails for $30-$50 new; since this is used and won in a raffle (so no cost to the seller), a fair secondhand price is around half of mid-range retail.",
+    "value": 20.0
+  },
+  "86bb05761c89": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman competitors) typically retails for $30-$50; since the coworker got it free in a raffle, a fair secondary price splitting the difference would be around $20, giving them value while reflecting the used/no-box nature.",
+    "value": 20.0
+  },
+  "28590f2049ba": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or similar) typically retails for $30-$50; since the coworker won it for free and there's no brand logo, a fair price splitting the difference between retail and 'free' would be around $20.",
+    "value": 20.0
+  },
+  "71e23752d03c": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or similar) typically retails for $30-$50; since the coworker won it for free and it's secondhand (even if unused), a fair price is around half to two-thirds of retail.",
+    "value": 20.0
+  },
+  "8f4bc4090725": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or similar) typically retails for $30-$50 new; since it was a raffle win (free to them) and is likely used, a fair secondhand price is around half of mid-range retail.",
+    "value": 20.0
+  },
+  "b7021afdf425": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or similar) typically retails for $30-$50; since the coworker got it free in a raffle and there's no brand logo, a fair secondhand price is roughly half of mid-range retail.",
+    "value": 20.0
+  },
+  "59a9db9965c2": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket matches mid-range options like Simplehuman or similar brands that retail for $40-$60; since the coworker won it for free and wants to recoup some value, a fair peer-to-peer price would be around half the retail value.",
+    "value": 25.0
+  },
+  "e1752e80e642": {
+    "reasoning": "A 12-liter brushed stainless steel step trash can with soft-close lid and these features resembles mid-range options like simplehuman or similar brands that retail for $40-70; since the coworker won it for free and it's secondhand, a fair price would be around half the estimated retail value.",
+    "value": 25.0
+  },
+  "2f42cc6e590b": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or a store brand) typically retails for $30-$50; since the coworker got it free in a raffle, a fair secondhand price splitting the difference between free and retail would be around $20.",
+    "value": 20.0
+  },
+  "896304627c9d": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or a store brand) typically retails for $25-$45 new; since this is used and from a raffle (unknown provenance), a fair secondhand price is roughly half retail.",
+    "value": 18.0
+  },
+  "14b976446bbf": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand (like Simplehuman's competitors or a store brand) typically retails for $30-$50 new; since it was a raffle win (free to them) and is likely used, a fair secondary price is around half of mid-range retail.",
+    "value": 20.0
+  },
+  "feab36b377a9": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand typically retails for $30-$50; since you won it (zero cost) but it has real value, a fair peer-to-peer price is roughly 60-70% of mid-range retail.",
+    "value": 30.0
+  },
+  "e607b4e30bc7": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket retails for roughly $30-50 from brands like Simplehuman's lower tier or similar; since you won it for free and selling to a coworker, a fair middle-ground price that compensates you without gouging them is around $25.",
+    "value": 25.0
+  },
+  "721280eee944": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket retails for roughly $25–$45 from mid-tier brands like Simplehuman's lower end or iTouchless; since you won it for free and selling to a coworker, a fair middle-ground price that gives you some value without overcharging is around $20.",
+    "value": 20.0
+  },
+  "06a0d2b18b06": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a reputable brand typically retails for $35-$55; since you won it for free and selling to a coworker, a fair price that gives you some value without overcharging lands around the midpoint of used/discounted retail.",
+    "value": 30.0
+  },
+  "ad49a878bbd5": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand typically retails for $35-$55; since you won it for free and are selling to a coworker, a fair price that gives them a deal while compensating you reasonably is around $25.",
+    "value": 25.0
+  },
+  "7a06caa702d7": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a reputable brand typically retails for $30-$50; since you won it for free and a coworker is a friendly buyer, a fair price is somewhere around 60-70% of mid-range retail value.",
+    "value": 30.0
+  },
+  "3bd7030ad981": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a generic/unbranded source typically retails for $25-45; since you won it for free and a coworker is asking, a fair price that feels like a deal for them but reasonable compensation for you would be around the midpoint of retail.",
+    "value": 30.0
+  },
+  "dad8158f9e5f": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand (think Simplehuman-adjacent features) retails for roughly $40-60 new; since you won it for free and a coworker is a friendly buyer, a fair price is around half the mid-point retail value.",
+    "value": 25.0
+  },
+  "253037abe0a2": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand typically retails for $35-$55; since you won it for free and are selling to a coworker, a fair price is a modest discount off retail while still getting reasonable value.",
+    "value": 30.0
+  },
+  "cf791aa68822": {
+    "reasoning": "A 12-liter brushed stainless step can with soft-close lid and removable inner bucket from a mid-tier brand typically retails for $35-$55; since you won it (zero cost) but it has real value, a fair peer-to-peer price that benefits both parties is around the midpoint of used/raffle resale expectations.",
+    "value": 25.0
+  },
+  "339d1a49f1a2": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-tier brand typically retails for $35-$55; since you won it (zero cost) but it has real value, a fair peer-to-peer price that's a good deal for the buyer but compensates you reasonably is around $25.",
+    "value": 25.0
+  },
+  "2e096e26c76d": {
+    "reasoning": "A brushed stainless step can of this quality (12L, soft-close, removable bucket, fingerprint-resistant) typically retails for $30-$50 from brands like Simplehuman's budget competitors or AmazonBasics-tier products; since you won it for free and want a fair peer-to-peer price, a modest discount off mid-range retail is reasonable.",
+    "value": 25.0
+  },
+  "b2c4d20a548f": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a generic/unbranded source typically retails for $25-45; since you won it for free and are selling to a coworker, a fair middle-ground price that gives them a deal while compensating you reasonably is around $20.",
+    "value": 20.0
+  },
+  "d11dac0731b8": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a mid-range brand typically retails for $30-$50; since you won it for free and a coworker wants it, a fair price that gives you some gain while being reasonable for them is around the midpoint of retail.",
+    "value": 35.0
+  },
+  "a73d1b8fd77e": {
+    "reasoning": "A 12-liter brushed stainless steel step can with soft-close lid and removable inner bucket from a reputable brand typically retails for $30-$50; since you won it (zero cost) but it has real value, a fair peer-to-peer price splitting the difference is around $25.",
+    "value": 25.0
+  },
+  "13c6248f6c6f": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically shows retail values in the $26,000–$29,000 range per market guides like KBB and Edmunds as of early 2025; accounting for the clean history, new Michelins, CPO-adjacent dealer warranty, and moderate mileage, a fair transaction price lands around $27,000.",
+    "value": 27000.0
+  },
+  "da7e02ce16d1": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically sits between $24,000–$27,000 based on current used market pricing (KBB, Edmunds, dealer listings); the off-lease history, clean Carfax, new Michelin tires, and CPO-adjacent dealer warranty add modest value, landing a fair transaction price around the midpoint of that range.",
+    "value": 25500.0
+  },
+  "fb6cf783f961": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails between $26,000–$29,000 based on current used car market conditions, with the clean Carfax, off-lease history, new Michelins, and Honda dealer certification adding modest value; a fair private/negotiated price lands around the midpoint of that range.",
+    "value": 27500.0
+  },
+  "cdb9e2794541": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $26,000–$29,000 range based on market data from KBB, Edmunds, and recent dealer listings; this example's clean Carfax, off-lease condition, new Michelins, fresh service, and CPO-adjacent warranty from a Honda dealer support pricing toward the middle of that range.",
+    "value": 27500.0
+  },
+  "49a3d1d4fcaa": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically trades in the $24,000–$27,000 range based on market data; the clean Carfax, off-lease history, new Michelins, and certified dealer warranty add modest value, while the CVT and gray color are neutral factors, landing fair market value around the mid-point of that range.",
+    "value": 25500.0
+  },
+  "b585f9f387bd": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically retails between $26,000–$29,000 at dealerships based on market data; accounting for the off-lease clean history, new Michelin tires, Honda dealer certified warranty, and current used car market softening from 2022–2023 peaks, a fair transaction price lands around $27,000.",
+    "value": 27000.0
+  },
+  "b1accf3a8f04": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically trades between $24,000–$27,000 in the current used market based on Carmax, KBB, and dealer listings; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and off-lease single-owner history push it toward the higher end, while the CVT and mid-trim positioning keep it from the top.",
+    "value": 25500.0
+  },
+  "2966a44b6217": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $26,000–$29,000 range based on market data from KBB, Edmunds, and recent dealer listings; this example commands a slight premium for its clean Carfax, off-lease condition, new Michelin tires, fresh service, and CPO-adjacent dealer warranty, placing fair private/dealer transaction value around $27,500.",
+    "value": 27500.0
+  },
+  "b74a1ac2e8b2": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $26,000–$29,000 range based on market data from KBB, Edmunds, and recent dealer listings; this example benefits from clean Carfax, new Michelin tires, CPO-adjacent dealer warranty, and desirable trim/features, but the CVT and non-Sport trim temper the ceiling slightly, placing fair market value around the middle of that range.",
+    "value": 27500.0
+  },
+  "1c90a57ed112": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically retails between $26,000–$29,000 based on market data from late 2024/early 2025, with the clean Carfax, new Michelin tires, Honda dealer certification, and low mileage for its age supporting the higher end, while the CVT and gray color are neutral factors; a fair transaction price splitting the difference between private party and dealer retail is around $27,000.",
+    "value": 27000.0
+  },
+  "fd397065b38d": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically shows a private party value around $24,000–$25,500 and dealer retail around $25,500–$27,000 per market data (KBB/Edmunds as of early 2025); factoring in the certified dealer context, new Michelin tires, clean Carfax, and the included 90-day warranty, a fair all-in negotiated price sits near the midpoint of the dealer retail range.",
+    "value": 26000.0
+  },
+  "96594391b2aa": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $26,000–$29,000 range based on market data from KBB, Edmunds, and recent dealer listings; this example benefits from clean history, new Michelin tires, Honda dealer certification, and the desirable EX-L trim, placing it toward the middle of that range.",
+    "value": 27500.0
+  },
+  "6d1128edf8eb": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and CPO-adjacent backing from a Honda dealer typically trades in the $26,000–$28,500 range based on current used market conditions (mid-2025), with the new Michelins, fresh service, and Honda Sensing adding modest value; the fair transaction price lands near the midpoint of that range.",
+    "value": 27200.0
+  },
+  "d3b2a951fc46": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38k miles in clean condition typically shows private party values around $24,000–$26,000 and dealer retail around $25,500–$27,500 per market data (KBB/Edmunds) as of early 2025; this example benefits from new Michelin tires, clean Carfax, and CPO-adjacent dealer warranty, but is a CVT/1.5T (slightly less desirable than the 2.0T Sport) sold at a franchised Honda dealer, so a fair all-in price lands near the middle of the dealer retail range.",
+    "value": 26500.0
+  },
+  "faa39b80d051": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $24,000–$27,000 range based on current used market conditions; this example benefits from a clean Carfax, off-lease history, new Michelin tires, and dealer certification, but the CVT and gray color are fairly common, landing a fair transaction price around the midpoint of that range.",
+    "value": 25500.0
+  },
+  "dbad49048f12": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically retails in the $21,000–$23,000 range per market data (KBB, Edmunds), but the dealer's asking price of $19,000 is already below average retail; a fair negotiated price accounting for the off-lease history, included warranty, new tires, and current used-car market softening would be around $17,500.",
+    "value": 17500.0
+  },
+  "eeb391eeefea": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $21,000–$24,000 range at dealers in mid-2025, but private party and fair market values run closer to $19,000–$21,000; factoring in the clean Carfax, new Michelins, CPO-adjacent warranty, and current used car market softening, the dealer's $19,000 ask is already near fair market, though a reasonable negotiated price would be slightly below that.",
+    "value": 18000.0
+  },
+  "df5aa853b431": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships in mid-2025, with private party values around $19,000–$21,000; given the clean history, new Michelin tires, certified dealer backing, and all the included features, the fair transaction price should land around $20,500, slightly above the listing price suggesting the $19,000 ask is already reasonable but you could reasonably negotiate to around $18,500.",
+    "value": 18500.0
+  },
+  "a92127b35310": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically trades in the $22,000–$25,000 retail range based on market data, but accounting for current used car market softening from 2022–2023 peaks, the CVT (slightly less desirable than the 2.0T), and negotiation room at a dealership, a fair out-the-door negotiated price lands around $18,500.",
+    "value": 18500.0
+  },
+  "9a487f94a176": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically retails in the $21,000–$24,000 range per market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T), and negotiation room at a dealer, a fair out-the-door transaction price lands around $18,500—the listed $19,000 is already reasonable but there's modest room to negotiate.",
+    "value": 18500.0
+  },
+  "41cf41400875": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically retails in the $21,000–$24,000 range per market data, but factoring in current used car market softening, the CVT (slightly less desirable than the 2.0T trim), and negotiation room at a dealer, a fair out-the-door negotiated price lands around $18,500, making the $19,000 ask already reasonable though slightly high.",
+    "value": 18500.0
+  },
+  "eef2509cd9b8": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically trades in the $21,000–$24,000 range per market data (KBB, Edmunds) as of early 2025, but the dealer's $19,000 ask is already below typical retail; factoring in the off-lease single-owner history, clean Carfax, new Michelin tires, and certified dealer warranty as positives, a fair negotiated price would be around $18,000–$18,500, splitting the difference between private party and dealer retail.",
+    "value": 18200.0
+  },
+  "66a506698a41": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $21,000–$24,000 range at retail based on current market conditions, with the clean Carfax, new Michelin tires, CPO-adjacent warranty, and low mileage for its age supporting the higher end; however, the gray color is common and the 1.5T (vs. the more desirable 2.0T) tempers demand slightly, putting fair market value around $22,000, making the $19,000 ask already below market and a genuinely good deal.",
+    "value": 19500.0
+  },
+  "3dac8ee17f83": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically trades in the $22,000–$25,000 range at retail based on current used car market conditions, but accounting for the CVT (slightly less desirable than the 2.0T trim's 10-speed), the gray color being common, and typical dealer negotiation room, a fair out-the-door negotiated price lands around $20,500, making the listed $19,000 already a reasonable deal—though pushing for $18,500 is realistic given it's off-lease and the dealer has margin.",
+    "value": 18500.0
+  },
+  "81ee67061a23": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $21,000–$24,000 range at retail based on current used car market conditions, with clean Carfax, off-lease history, new Michelin tires, and certified dealer backing supporting the higher end; the listed price of $19,000 is already below typical market value, but a fair negotiated price accounting for dealer margin would be around $18,000.",
+    "value": 18000.0
+  },
+  "bf998f038462": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $21,000–$24,000 range at retail based on market data, but accounting for current market softening, the CVT (slightly less desirable than the 2.0T), and negotiation room at a certified dealer, a fair transaction price lands around $20,500—the $19,000 ask is already reasonable but you could likely negotiate to around $18,500–$19,000 out-the-door before taxes and fees.",
+    "value": 18500.0
+  },
+  "5947496f543b": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38K miles in clean condition typically retails in the $22,000–$25,000 range based on market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T trim's 10-speed), and negotiation room, a fair private-party-to-dealer transaction price lands around $20,500; the listed $19,000 is actually already below typical dealer retail for this spec, making it a reasonable deal, though pushing toward $18,500–$19,000 out-the-door is achievable.",
+    "value": 18500.0
+  },
+  "c9f2d3df3a4c": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38K miles in good condition typically trades in the $21,000–$24,000 retail range based on market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T trim), and typical dealer negotiation room, a fair transaction price lands around $20,500, though the $19,000 ask is already reasonable and close to fair market value.",
+    "value": 20500.0
+  },
+  "2c0fcccb370e": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically retails in the $21,000–$24,000 range per market data (KBB, Edmunds), but the dealer's $19,000 ask is already below average retail, likely reflecting current used-car market softening; a fair negotiated price accounting for the off-lease clean history, new tires, and certified dealer warranty would be around $18,000–$18,500.",
+    "value": 18200.0
+  },
+  "2f5e816748ac": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically trades in the $22,000–$25,000 range at retail based on market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T), and negotiation room at a dealer, a fair out-the-door transaction price lands around $21,000–$22,000; the $19,000 ask is actually below typical market retail, making it a reasonable deal already, but a fair negotiated price would be approximately $18,500.",
+    "value": 18500.0
+  },
+  "cda2dc380c43": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and full features typically trades in the $22,000–$25,000 range in the current used car market based on KBB, Edmunds, and recent comparable sales; the $19,000 asking price is already below market, but a fair negotiated price accounting for its strong condition, new tires, and CPO-lite warranty would be around $21,000.",
+    "value": 21000.0
+  },
+  "8f10921ace97": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and full features typically retails in the $24,000–$27,000 range based on current used car market conditions, with private party values slightly lower; the $19,000 asking price is well below market and represents an excellent deal, but a fair market value accounting for the trim, mileage, condition, and included warranty sits around $25,000.",
+    "value": 25000.0
+  },
+  "9741e53cba6d": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and this trim level typically trades in the $22,000–$25,000 range in current market conditions based on KBB, Edmunds, and recent comparable listings; the $19,000 asking price is already below market, but a fair negotiated price accounting for the certified dealer warranty and new tires would be around $21,000.",
+    "value": 21000.0
+  },
+  "4888d538dceb": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and full features typically retails in the $24,000–$27,000 range based on current market conditions, with private party values slightly lower; the $19,000 asking price is well below market and represents an excellent deal, but a fair negotiated price accounting for dealer profit margin and current used car market softening would be around $21,500.",
+    "value": 21500.0
+  },
+  "6961aaf15e64": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and this feature set typically retails in the $24,000–$27,000 range based on current market conditions (early 2025), with private party values slightly lower; the $19,000 asking price is well below market and represents exceptional value, but a fair negotiated price accounting for dealer profit and the car's condition would be around $22,500.",
+    "value": 22500.0
+  },
+  "08dca35d48bc": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and full features typically retails in the $24,000–$27,000 range based on current used car market conditions, with private party values slightly lower; the $19,000 asking price is well below market and represents exceptional value, but a fair negotiated price accounting for dealer margin and the car's strong specs would be around $22,500.",
+    "value": 22500.0
+  },
+  "ee55bd3e7e3b": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and full features typically retails in the $24,000–$27,000 range based on current market conditions, with private party values slightly lower around $22,000–$24,000; the $19,000 asking price is already below market, but a fair negotiated price accounting for the dealer's certified warranty and reconditioning would be around $21,000–$22,000.",
+    "value": 21500.0
+  },
+  "8c9110ee1074": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on current market conditions, with clean Carfax, new Michelin tires, and CPO-adjacent warranty adding modest value, while the gray/black color combo and CVT are neutral factors; the $19,000 asking price is already well below market, suggesting either a motivated seller or a detail worth investigating, but a fair private/dealer transaction price lands around $22,500.",
+    "value": 22500.0
+  },
+  "fc67227ee6e5": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $22,000–$25,000 range in current market conditions based on KBB and Edmunds private party and dealer retail values; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and low mileage for the year support the higher end, while the CVT and non-Sport trim temper it slightly.",
+    "value": 23500.0
+  },
+  "6c987a1a616d": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $24,000–$27,000 range based on current used car market conditions, with clean Carfax, low miles for its age, new Michelin tires, and certified dealer backing adding value; the $19,000 asking price is already well below market, but a fair negotiated price accounting for all positives would land around $22,500.",
+    "value": 22500.0
+  },
+  "5622baaa8908": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean Carfax, and off-lease condition typically retails in the $24,000–$27,000 range based on current market data (KBB, Edmunds) for this trim and mileage; the $19,000 asking price is already well below market, but a fair negotiated price accounting for private-party vs. dealer value and the included warranty lands around $21,500.",
+    "value": 21500.0
+  },
+  "aa65b36436d1": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $22,000–$25,000 range in today's market based on KBB/Edmunds private party and dealer retail values; the clean Carfax, new Michelin tires, CPO-adjacent warranty, and low mileage for the year support the higher end, but dealer retail markup and current used car market softening bring it closer to $23,000–$24,000 as a fair out-the-door negotiating target.",
+    "value": 23500.0
+  },
+  "ef2cd42705b5": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and this feature set typically trades in the $22,000–$25,000 range based on current market conditions (KBB, Edmunds, and dealer listings as of early-to-mid 2025), with the clean Carfax, new Michelins, and CPO-adjacent warranty adding modest value. The $19,000 asking price is already below market, but a fair negotiated price accounting for typical dealer margin would be around $21,000.",
+    "value": 21000.0
+  },
+  "8fd2604e3290": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles in good condition typically retails in the $24,000–$27,000 range based on current market data, with clean Carfax, new Michelin tires, and certified dealer backing adding modest value; the $19,000 asking price appears to be a strong deal already, but fair market value for a private negotiation would land around $22,500–$23,500.",
+    "value": 23000.0
+  },
+  "45714de46d70": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles, clean history, and full features typically retails in the $24,000–$27,000 range based on current market conditions (KBB, Edmunds, and dealer listings as of early-to-mid 2025), with the off-lease single-owner clean Carfax and new Michelin tires adding modest value; the $19,000 asking price is well below market and represents an exceptional deal, but a fair private/dealer price would be around $24,500.",
+    "value": 24500.0
+  },
+  "8379a12662d2": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,200–$4,800 on the wholesale/online market (e.g., James Allen, Brilliant Earth); adding a simple 14k white gold solitaire setting (~$300–$500) and a modest independent jeweler markup for services like lifetime cleaning and the return policy puts a fair retail price around $5,000.",
+    "value": 5000.0
+  },
+  "33e604660626": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; accounting for the 14k white gold solitaire setting (~$150–$200 metal value plus craftsmanship), the jeweler's services, and current market comparables on platforms like Brilliant Earth, James Allen, and independent dealers, a fair retail price lands around $4,800.",
+    "value": 4800.0
+  },
+  "c295cc6b6bdd": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,200–$4,800 for the stone alone based on current Rapaport-discounted market rates, with the 14k white gold solitaire setting adding approximately $200–$400, putting fair retail value around $4,500–$5,000; the jeweler's ask of $5,200 is slightly above fair market but within the reasonable range for an independent retailer with service perks.",
+    "value": 4800.0
+  },
+  "d22732509825": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2 with Excellent cut and ideal proportions (no fluorescence) typically trades at roughly $4,200–$4,800 on the wholesale/Rappaport market; adding a simple 14k white gold solitaire setting (~$150–$300 metal/labor value) and the retailer's overhead/service package, a fair retail price lands around $5,000, making the $5,200 ask slightly high but within negotiating range.",
+    "value": 4800.0
+  },
+  "80e92ec517ab": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 per carat in current markets; adding a simple 14k white gold solitaire setting (~$300–$400 retail) and accounting for reasonable independent jeweler markup, a fair retail price lands around $5,000–$5,500, making $5,200 a reasonable but slightly negotiable ask.",
+    "value": 5000.0
+  },
+  "74494c2bc158": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,500–$5,500 retail; accounting for the 14k white gold solitaire setting (~$150–$200 metal value), jeweler overhead, and the included services, a fair market price lands around $4,800.",
+    "value": 4800.0
+  },
+  "8ee695565212": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 on platforms like Rapnet, with retail markup at independent jewelers landing around $5,000–$5,500; adding the 14k white gold solitaire setting (~$150–$250 material/labor) and the included services, $5,200 is at the lower-to-mid end of fair retail pricing and represents reasonable value.",
+    "value": 5000.0
+  },
+  "a69f065cb8e5": {
+    "reasoning": "A 1.02ct round brilliant, GIA-graded G/VS2 with Excellent cut and ideal proportions typically trades at wholesale around $4,200–$4,800 for the stone alone; adding 14k white gold setting, GIA certification premium, and reasonable retail markup from an independent jeweler with services included, a fair retail price lands around $5,000.",
+    "value": 5000.0
+  },
+  "206f44d25dbf": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 on platforms like Rapnet, and reputable online retailers (e.g., James Allen, Blue Nile) price comparable stones set in 14k solitaires at roughly $4,800–$5,500; accounting for the independent jeweler premium, GIA certification, and included services, a fair price lands around $4,800.",
+    "value": 4800.0
+  },
+  "4ca7c3d4e0e2": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 per carat on Rappaport, with retail at an independent jeweler running 10–20% above that; adding ~$150–200 for the 14k white gold solitaire setting and accounting for the GIA cert, laser inscription, and included services, a fair retail price lands around $5,000.",
+    "value": 5000.0
+  },
+  "028f9df7e834": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,200–$4,800 for the stone alone based on current Rapaport/market pricing, with a simple 14k white gold solitaire setting adding around $300–$500, putting fair retail in the $4,500–$5,300 range; the jeweler's ask of $5,200 is at the high end but within reasonable market bounds for an independent retailer with services included.",
+    "value": 4800.0
+  },
+  "290a6101ca88": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; factoring in the 14k white gold solitaire setting (~$200–$300 value) and the jeweler's services, a fair market price lands around $4,800, making the ask of $5,200 slightly high but not unreasonable—negotiating to ~$4,800 would be fair.",
+    "value": 4800.0
+  },
+  "2b71c46a4a26": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence GIA stone with ideal proportions trades on the wholesale/Rappaport market around $4,800–$5,500 retail at reputable independents; comparable stones on Blue Nile/James Allen run roughly $4,200–$4,800 online, and adding ~$150–$200 for a quality 14k white gold solitaire setting plus the jeweler's overhead, service perks, and in-person experience justifies a modest premium over online pricing.",
+    "value": 5000.0
+  },
+  "71f9bb1a9393": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; comparable stones on Brilliant Earth, James Allen, and Blue Nile list around $4,200–$4,800 for the stone alone, plus ~$300–$500 for a 14k white gold solitaire setting, putting fair retail value around $4,800–$5,200 with the added value of GIA certification, an established jeweler, and included services.",
+    "value": 4800.0
+  },
+  "361fa0823910": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades in the $4,800–$5,500 retail range based on Rappaport pricing and comparable online retailers (e.g., James Allen, Brilliant Earth); the 14k white gold solitaire setting adds roughly $300–$500, and the jeweler's services (return policy, lifetime maintenance) justify a modest premium over online pricing, placing fair market value around $5,000.",
+    "value": 5000.0
+  },
+  "c81b03e8cbf4": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $5,000–$6,500 at an independent jeweler; the stone alone has a wholesale/Rapaport value around $4,200–$4,800, plus modest setting costs (~$300–$500 for 14k white gold solitaire), making $5,200 a fair and competitive ask—the $9,500 insurance appraisal is inflated retail replacement value, not market value.",
+    "value": 5200.0
+  },
+  "f4645a988952": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence from an independent jeweler typically trades at roughly 15-25% below retail ask; comparable stones sell wholesale around $4,200-$4,800, and with the 14k white gold solitaire setting (worth ~$150-200 in metal/labor), a fair market price lands around $4,800, making the $5,200 ask slightly high but not unreasonable—a fair negotiated price would be around $4,800.",
+    "value": 4800.0
+  },
+  "939e85d33ae2": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale/market around $4,500–$5,500 for the stone alone based on current Rapaport pricing; adding modest setting cost (~$200–$400 for 14k white gold solitaire) and independent jeweler overhead puts fair retail in the $5,000–$5,800 range, with the insurance appraisal being an inflated replacement value not reflective of actual market price.",
+    "value": 5200.0
+  },
+  "ccdbaf25d83c": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence GIA diamond of this quality typically trades at roughly $4,800–$5,500 on the wholesale/retail market (Rappaport list ~$5,800/ct retail, with typical independent jeweler markup); the 14k white gold solitaire setting adds ~$300–$400, and the insurance appraisal is inflated (as is standard practice). The asking price of $5,200 is already at or near fair market retail value for an established independent jeweler with services included.",
+    "value": 5000.0
+  },
+  "6ae079ae7ee9": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $4,800–$6,500; the insurance appraisal of $9,500 is inflated (as appraisals typically run 1.5–2x actual retail), and comparable stones on sites like James Allen or Brilliant Earth with similar specs sell for roughly $4,500–$5,500 for the stone alone, plus ~$300–$500 for a simple 14k white gold solitaire setting, putting fair all-in retail around $5,200–$5,800 from an independent jeweler with services included.",
+    "value": 5200.0
+  },
+  "6c525d2232cf": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence trades in the wholesale/retail range of roughly $4,800–$6,500; the insurance appraisal at $9,500 is inflated (as appraisals typically are), and comparable stones on platforms like James Allen or Blue Nile with similar specs retail around $5,000–$5,800, plus the 14k white gold solitaire setting adds ~$300–$500, putting fair market value for an independent jeweler with services included at approximately $5,000.",
+    "value": 5000.0
+  },
+  "91cb79af1e4e": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at wholesale around $4,200–$4,800 per carat on Rappaport, with retail fair market value (not inflated insurance appraisal) landing around $5,000–$5,500 including a simple 14k white gold solitaire setting worth roughly $300–$400; the asking price of $5,200 is already at or near fair retail market value for an independent jeweler with services included.",
+    "value": 5000.0
+  },
+  "6deffbc34d1c": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence from an independent jeweler typically trades at roughly 15-25% below retail; comparable stones sell wholesale around $4,200-$4,800, and with the 14k white gold solitaire setting (~$150-200 in metal/labor value) a fair all-in price lands around $4,800, making the $5,200 ask slightly above but not unreasonable given the services included—fair value is approximately $4,800.",
+    "value": 4800.0
+  },
+  "709a16a8f5f4": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $4,800–$5,500 retail from an independent jeweler; the 14k white gold solitaire setting adds ~$300–$400, and the GIA cert, laser inscription, and service perks (return policy, lifetime cleaning) justify the mid-to-upper end of that range, making the ask reasonable but slightly negotiable to around $4,800–$5,000.",
+    "value": 4900.0
+  },
+  "a2f7a79492f6": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $5,000–$5,500 on the wholesale/online market (e.g., James Allen, Blue Nile); adding a simple 14k white gold solitaire setting (~$300–$500) and the independent jeweler's overhead, a fair retail price lands around $5,500, making the $5,200 ask reasonable and roughly in line with market value—the $9,500 insurance appraisal is an inflated replacement-value figure, not market value.",
+    "value": 5500.0
+  },
+  "f61c73f61441": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence GIA stone of this quality typically trades at retail between $4,800–$6,500; the insurance appraisal of $9,500 is inflated (common practice), and the actual fair market retail value for the stone alone is roughly $4,500–$5,000, with the 14k white gold solitaire setting adding ~$300–$500, putting fair retail around $5,000–$5,500 from an independent jeweler with those services included.",
+    "value": 5200.0
+  },
+  "45eff3623ffa": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at wholesale around $4,200–$4,800 per carat on the Rapaport market with applicable discounts; adding modest setting cost (~$200–$300 for 14k white gold solitaire) and a reasonable independent jeweler margin puts fair retail in the $5,000–$5,800 range, with the insurance appraisal being an inflated retail replacement value not reflective of actual market price.",
+    "value": 5200.0
+  },
+  "24b04e717a12": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence from an independent jeweler typically retails between 1.2x–1.5x wholesale; comparable stones on platforms like Bluenile or James Allen run $4,800–$5,500 for the stone alone, plus roughly $300–$400 for a 14k white gold solitaire setting, putting fair retail around $5,200–$5,800—the insurance appraisal at $9,500 is inflated (a common retail tactic) and not reflective of market value.",
+    "value": 5200.0
+  },
+  "5aa0a7531e53": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence from an independent jeweler typically trades at roughly 15-25% below large retail chains; wholesale/Rappaport for this stone runs approximately $4,200-$4,800, and adding the 14k white gold setting (~$150-200 in metal value plus labor) and legitimate overhead puts fair retail in the $4,500-$5,500 range, with the insurance appraisal being an inflated retail replacement value not reflective of actual market price.",
+    "value": 4800.0
+  },
+  "1f8ad23a8ff6": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence from an independent jeweler typically trades at roughly 15-25% below retail asking; current wholesale/Rappaport pricing for this spec runs approximately $4,200-$4,800 for the stone alone, plus ~$300-$500 for a quality 14k white gold solitaire setting, putting fair market value around $4,500-$5,200, with the insurance appraisal being an inflated retail replacement value not reflective of actual market price.",
+    "value": 4800.0
+  },
+  "8c102d772a58": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,000, with recent Omega boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "7efc4b33eb08": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$4,800 range on the secondary market, with the recent Omega boutique service, complete set, and reputable dealer adding modest premium.",
+    "value": 4500.0
+  },
+  "e23bd696f9b6": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,200-$4,800 range on the secondary market, with the recent boutique service, light wear only, and complete set supporting the higher end of that range.",
+    "value": 4500.0
+  },
+  "d1354fbcfb10": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with recent boutique service, light wear, and full box/papers supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "df81e3afd9af": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade in the $4,500-$5,500 range on the secondary market, with recent boutique service, light wear, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4700.0
+  },
+  "38332d4aefe5": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,500-$5,500, with the recent Omega boutique service, light wear only, and complete box/papers pushing this toward the higher end of that range.",
+    "value": 4700.0
+  },
+  "595183636322": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,200, with recent boutique service, light wear, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "d97bc257b6e1": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples with full set in excellent condition typically trade in the $4,200-$4,800 range on the secondary market (Chrono24, WatchBox, etc.), with recent boutique service and light wear supporting the higher end of that range.",
+    "value": 4500.0
+  },
+  "98bf5d53a591": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200–$5,200, with recent Omega boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "b1d7df3aae81": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples with full set in excellent condition typically trade between $4,200-$5,200 on the secondary market, with recent Omega boutique service, light wear, and complete documentation pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "4aea48e4dac8": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,200, with the recent Omega boutique service, light wear only, and complete box/papers pushing it toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "bb37327d4c6f": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$4,800 range on the secondary market, with the recent boutique service, light wear, and complete box/papers pushing it toward the higher end around $4,500.",
+    "value": 4500.0
+  },
+  "144a36fda71a": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,200, with recent Omega servicing, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "1807a2cd8be7": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,200, with the recent boutique service, light wear, and complete documentation pushing this toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "e568d49eaa28": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples with full set in excellent condition typically trade on the secondary market between $4,200-$5,200, with recent Omega boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "9b7c0d2f5414": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails around $7,000 new and typically holds strong resale value at roughly 65-75% of retail in pre-owned condition; with a full set, recent Omega service, light wear, and only ~4 years old, fair market value lands around $4,400-4,600, making the dealer's $4,900 ask slightly high but not unreasonable given the extras.",
+    "value": 4500.0
+  },
+  "a35231c7cd63": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails around $7,000 new and typically holds strong resale value at roughly 65-75% of retail in pre-owned condition; with full set, recent Omega service, minimal wear, and only four years of age, fair market value lands around $4,500-$4,800, making the dealer's $4,900 ask slightly above but not unreasonable — a fair negotiated price would be around $4,500.",
+    "value": 4500.0
+  },
+  "9e62268a6928": {
+    "reasoning": "The Speedmaster Professional 3861 Hesalite retails around $6,900-$7,100 new; pre-owned examples in excellent condition with full set typically trade at 65-75% of retail on the secondary market, landing around $4,500-$5,200, with the recent Omega boutique service, complete set, and clean case pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "d17fe81e04ac": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails around $7,000 new and typically trades on the secondary market at roughly 65-75% of retail for a well-kept example with full set; this piece is ~4 years old, lightly worn, recently serviced, and has full box/papers, which supports the higher end of that range at around $4,900-$5,200, making the asking price of $4,900 fair but leaving a small window to negotiate.",
+    "value": 4600.0
+  },
+  "f28808114f6b": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails around $6,900-$7,000 new; pre-owned examples in excellent condition with full set typically trade at 65-75% of retail on the secondary market, putting fair value around $4,500-$5,200, with this example's recent Omega service, light wear, and complete set supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "6063b87de936": {
+    "reasoning": "The Speedmaster Professional 3861 Hesalite retails around $6,900-$7,000 new; pre-owned examples in excellent condition with full set typically trade at 65-75% of retail on the secondary market, landing around $4,500-$5,200, with the recent Omega service, full set, and clean case pushing it toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "0b8dbf72d061": {
+    "reasoning": "The ref. 310.30.42.50.01.001 Speedmaster Professional with cal. 3861 currently retails around $7,000 new, and pre-owned examples in excellent condition with full set typically trade in the $4,200–$4,800 range on the secondary market (roughly 60–68% of retail), with the recent boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4500.0
+  },
+  "45cee10a9da1": {
+    "reasoning": "The Speedmaster Professional with the caliber 3861 (current production) typically trades in the secondary market at roughly 65-75% of retail for a well-documented, lightly used example with full set; at a ~$7,000 retail price that puts fair market value around $4,500-$5,250, and given the recent Omega boutique service, full set, and excellent condition, the midpoint of that range is appropriate.",
+    "value": 4700.0
+  },
+  "34687ae4c8ac": {
+    "reasoning": "The Speedmaster Professional with caliber 3861 (ref. 310.30.42.50.01.001) retails around $6,900-$7,100 new; lightly used examples with full set in excellent condition typically trade in the $4,200-$4,800 range on the secondary market (roughly 65-70% of retail), with the recent boutique service, complete set, and clean case pushing toward the higher end of that range.",
+    "value": 4500.0
+  },
+  "4d6403c068c6": {
+    "reasoning": "The ref. 310.30.42.50.01.001 Speedmaster Professional with cal. 3861 retails around $6,900-$7,100 new; pre-owned examples in excellent condition with full set typically trade in the $4,200-$4,800 range on the secondary market (roughly 65-70% of retail), and the recent Omega boutique service, complete set, and light wear support the higher end of that range.",
+    "value": 4500.0
+  },
+  "78ee648f41ca": {
+    "reasoning": "The Speedmaster Professional 3861 Hesalite retails around $6,900-$7,000 new; pre-owned examples in excellent condition with full set typically trade at 65-75% of retail on the secondary market, putting fair value around $4,500-$5,200, with the recent Omega service, full set, and clean case pushing it toward the higher end near $4,800.",
+    "value": 4800.0
+  },
+  "130e851ccba9": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails around $7,000 new, and pre-owned examples in excellent condition with full set typically trade between 65-75% of retail on the secondary market; given the light bracelet wear, recent Omega service, full box and papers, and four years of age, a fair market value lands around $4,500-$4,800, with the dealer's ask of $4,900 being slightly above but not unreasonable given the return policy and dealer overhead.",
+    "value": 4500.0
+  },
+  "6efec55ae2ed": {
+    "reasoning": "The Speedmaster Professional Moonwatch ref. 310.30.42.50.01.001 with the cal. 3861 retails around $7,000 new and typically holds strong resale value; a lightly used, full-set example in excellent condition with recent Omega service generally trades in the $4,200–$4,800 range on the secondary market based on platforms like Chrono24 and WatchBox.",
+    "value": 4500.0
+  },
+  "b9fea6116cb7": {
+    "reasoning": "The Speedmaster Professional 3861 (ref. 310.30.42.50.01.001) retails around $6,900-$7,100 new and typically trades on the secondary market at 65-75% of retail for well-documented, lightly worn examples with full set; this one's recent boutique service, complete set, near-mint case, and reputable dealer with return policy support the higher end of that range, putting fair value around $4,600-$4,900, making the ask reasonable but with a little room to negotiate.",
+    "value": 4600.0
+  },
+  "3377afe40f9a": {
+    "reasoning": "The Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails around $6,900-$7,100 new; pre-owned examples in excellent condition with full set typically trade at 65-75% of retail on the secondary market, putting fair value around $4,500-$5,200, with the recent Omega service, light wear only, and complete set supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "c65b7bf02e53": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence typically trades at wholesale/Rappaport around $4,800–$5,500 retail at independent jewelers; the 14k white gold solitaire setting adds roughly $300–$500, placing fair market retail value around $5,000–$5,500, with the jeweler's $5,200 ask sitting squarely in the middle of that range.",
+    "value": 5000.0
+  },
+  "1432172c32eb": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; comparable stones on sites like James Allen or Brilliant Earth run ~$4,200–$4,800 for the stone alone, plus ~$300–$500 for a 14k white gold solitaire setting, putting fair market retail around $4,800–$5,200 with the added value of a local jeweler's services and return policy.",
+    "value": 5000.0
+  },
+  "5fdbb5aa735c": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $4,800–$5,500 retail; comparable stones on platforms like James Allen or Brilliant Earth run ~$4,200–$4,800 for the stone alone, plus ~$300–$500 for a 14k white gold solitaire setting, putting fair market retail around $4,800–$5,200 with the added value of GIA certification, a reputable local jeweler, and included services.",
+    "value": 5000.0
+  },
+  "9dd6883ea84b": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 on platforms like Rapnet, with reputable independent jewelers (including services and return policy) reasonably marking up to $4,500–$5,500; the $5,200 ask is within fair market range but slight negotiation to ~$4,800 is reasonable.",
+    "value": 4800.0
+  },
+  "e128e3e60400": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 on platforms like RapNet, with retail at an independent jeweler (including the 14k white gold solitaire setting worth ~$150–$200 in metal/labor) reasonably landing in the $4,500–$5,500 range; $5,200 is at the higher end but fair given the GIA cert, ideal cut metrics, and included services.",
+    "value": 4800.0
+  },
+  "a031b90a8574": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; the GIA cert, ideal depth/table, and reputable jeweler services (return policy, lifetime care) support the higher end, but $5,200 is already within fair market range for an independent jeweler, making ~$4,800 a reasonable negotiating target.",
+    "value": 4800.0
+  },
+  "bac5ebdf2f32": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence typically trades at roughly $4,800–$5,500 retail; the stone alone has a wholesale/Rapaport value around $3,800–$4,200, and the 14k white gold solitaire setting adds ~$300–$400, placing fair retail around $4,800–$5,200 from an independent jeweler with services included.",
+    "value": 4900.0
+  },
+  "385205a24ca9": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,200–$4,800 retail at independent jewelers based on current Rappaport-influenced pricing; adding the 14k white gold solitaire setting (minimal metal value ~$75 melt, but craftsmanship ~$300–$500) and the GIA certification premium, a fair retail price lands around $4,800, making $5,200 slightly high but within negotiating range.",
+    "value": 4800.0
+  },
+  "41cd3e56d2d7": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail from independent jewelers; the 14k white gold solitaire setting adds modest value (~$150–$200), and the GIA cert, laser inscription, and service perks (lifetime cleaning, re-tipping, 30-day return) justify a slight premium over pure stone cost, placing fair market value around $5,000.",
+    "value": 5000.0
+  },
+  "bdb142cdc37a": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2 with Excellent cut and ideal proportions typically trades at roughly $4,800–$5,500 retail; the stone alone at wholesale/Rapaport is around $3,800–$4,200, and the 14k white gold solitaire setting adds ~$300–$500, putting a fair retail price from an independent jeweler with services included at approximately $5,000.",
+    "value": 5000.0
+  },
+  "ebf1a27aeabe": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,200–$4,800 at retail for the stone alone based on current Rappaport-influenced market pricing; adding ~$300–$400 for a quality 14k white gold four-prong solitaire setting and the included services, a fair retail price lands around $4,800–$5,000, making $5,200 slightly high but within a reasonable range for an independent jeweler with services included.",
+    "value": 4900.0
+  },
+  "7bab26de1abf": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at wholesale/Rappaport around $5,500–$6,500 per carat in current markets, putting the stone alone at roughly $5,600–$6,600; adding a simple 14k white gold solitaire setting (~$300–$500 retail) and accounting for independent jeweler overhead and the included services, a fair retail price lands around $6,000–$6,500, making the $5,200 ask a reasonable and competitive price slightly below fair market value.",
+    "value": 6000.0
+  },
+  "ea1bf27026d6": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2 with Excellent cut and ideal proportions typically trades at wholesale around $4,200–$4,800 for the stone alone based on current Rapaport pricing with typical dealer discounts; adding the 14k white gold solitaire setting (~$150–$250 in material and labor) and factoring in reasonable retail markup from an independent jeweler with services included, a fair retail price lands around $5,000.",
+    "value": 5000.0
+  },
+  "9d4d732af988": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at wholesale (Rappaport) around $5,500-$6,500 per carat, putting the stone alone at roughly $5,600-$6,600; adding modest setting costs (~$300-$500 for 14k white gold solitaire) and a reasonable independent jeweler markup, fair retail lands around $6,000-$7,000, making $5,200 actually a competitive and fair price already at the lower end of market.",
+    "value": 5500.0
+  },
+  "9ef2e17522ba": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,200–$4,800 on the wholesale/retail market based on Rapaport pricing and online vendor comparables (e.g., James Allen, Brilliant Earth price similar stones around $4,500–$5,000 all-in); adding the 14k white gold solitaire setting (~$150–$300 value) and the independent jeweler's legitimate overhead, warranty, and services, a fair all-in price lands around $4,800.",
+    "value": 4800.0
+  },
+  "f3abb1791087": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $5,500–$7,500; the 14k white gold solitaire setting adds roughly $300–$500, putting fair retail around $6,000–$7,000, and the $5,200 sale price is at the low end but reasonable given the independent jeweler overhead and included services.",
+    "value": 6000.0
+  },
+  "048d3f3395c2": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $5,500–$7,500; the 14k white gold solitaire setting adds roughly $300–$500, and comparable stones on platforms like James Allen or Brilliant Earth with similar specs retail around $5,800–$6,500, making the $5,200 sale price slightly below fair market retail and a reasonable deal.",
+    "value": 5800.0
+  },
+  "883c86948bfd": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent cut with no fluorescence typically trades at wholesale around $4,500–$5,500 per carat in 2024 market conditions; adding ~$150–200 for the 14k white gold solitaire setting puts fair retail value (with modest jeweler margin) around $5,500–$6,500, making the $5,200 sale price slightly below fair retail and a reasonable deal.",
+    "value": 5500.0
+  },
+  "476e50017c91": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $5,500–$6,500 retail at an independent jeweler; the 14k white gold solitaire setting adds ~$300–$500, placing fair market value around $6,000–$6,500, though online vendors like James Allen or Brilliant Earth would price the stone alone near $5,000–$5,500, making the $5,200 ask competitive and reasonable.",
+    "value": 5800.0
+  },
+  "db6611ac11a6": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with no fluorescence and ideal proportions typically trades in the $5,000–$6,500 range at retail (wholesale/Rappaport around $4,200–$4,800 for the stone alone), with the 14k white gold solitaire setting adding roughly $300–$500; the $5,200 sale price is reasonable and close to fair market value, though $4,800–$5,200 represents the realistic fair range.",
+    "value": 5000.0
+  },
+  "2f80c11bf354": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence GIA-certified stone typically trades at wholesale around $4,500–$5,500 and retails between $5,500–$7,500 at reputable jewelers; the 14k white gold solitaire setting adds roughly $300–$500, placing fair retail value around $6,000–$6,500, making the $5,200 sale price a genuinely good deal slightly below typical market retail.",
+    "value": 6200.0
+  },
+  "8d8192bf2fc6": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,800–$5,500 on the wholesale/online market (e.g., James Allen, Brilliant Earth), with the loose stone alone worth approximately $4,500–$5,000; adding a simple 14k white gold four-prong solitaire setting (worth ~$300–$500) and accounting for the independent jeweler's overhead and services, a fair all-in retail price lands around $5,500.",
+    "value": 5500.0
+  },
+  "bbc73769762f": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at retail between $5,500–$7,500; the 14k white gold solitaire setting adds roughly $300–$500, putting fair market value around $6,000–$6,500, with the $5,200 sale price being a solid deal slightly below fair market.",
+    "value": 6200.0
+  },
+  "5375f9bf351e": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with no fluorescence and ideal proportions typically trades in the $5,000–$6,500 range at retail (roughly $4,800–$5,500 for the stone alone based on Rapaport pricing at ~70-75% of list, plus ~$300–$500 for a 14k white gold solitaire setting); the $5,200 sale price is reasonable and close to fair market value, though a well-informed buyer could likely negotiate to around $4,800.",
+    "value": 4800.0
+  },
+  "026e45571b99": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent cut with no fluorescence and ideal proportions typically trades in the $5,000–$6,500 range at retail (roughly $4,800–$5,500 for the stone alone based on Rapaport pricing at ~70–75% of list, plus ~$300–$500 for a quality 14k white gold solitaire setting), making the $5,200 sale price very close to fair market value for a reputable independent jeweler with included services.",
+    "value": 5200.0
+  },
+  "347440bfce3f": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence GIA diamond of these proportions typically trades at wholesale around $4,500–$5,500 per carat in current markets, putting the stone alone at roughly $4,800–$5,200; adding a 14k white gold solitaire setting (material + labor ~$300–$500) and retailer margin for an independent jeweler with services included, a fair retail price lands around $6,000–$6,500, making the $5,200 sale price a genuinely good deal close to near-wholesale.",
+    "value": 6200.0
+  },
+  "c344b9680607": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified G/VS2 with Excellent cut and no fluorescence typically trades at retail between $6,500–$8,500; the 14k white gold solitaire setting adds roughly $300–$500, making a fair all-in retail price around $7,000–$7,500, so the $5,200 sale price is actually a solid deal and close to fair market value for an independent jeweler.",
+    "value": 6500.0
+  },
+  "bf9a85c3fa25": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $5,500–$7,000; the 14k white gold solitaire setting adds roughly $300–$500, putting fair market value around $6,000–$6,500, making the $5,200 sale price a genuine deal below fair value.",
+    "value": 6200.0
+  },
+  "8d4b4b131722": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $5,500–$7,500; the $5,200 sale price is at the lower end of fair market value for an independent jeweler with services included, making it a reasonable but slightly below-average retail deal—fair value lands around $5,800 accounting for the 14k setting, GIA cert, and included services.",
+    "value": 5800.0
+  },
+  "50374c12f90b": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at retail between $5,500–$7,500; the stone alone has a wholesale/Rapaport value around $4,500–$5,000, and adding the 14k white gold solitaire setting (~$300–$400 melt/labor value) plus GIA certification and jeweler overhead, a fair all-in retail price lands around $6,000–$6,500, making the $5,200 sale price a genuinely good deal slightly below fair market retail.",
+    "value": 6200.0
+  },
+  "6408810581cb": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with recent boutique service, light wear, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "f9df9015278c": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "743a4829a8a3": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,200, with the recent Omega service, light wear, and complete documentation supporting the higher end of that range around $4,600-$4,800.",
+    "value": 4600.0
+  },
+  "0ba42b5becb8": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent boutique service, complete set, and clean case pushing it toward the higher end, making $4,900 a fair but slightly firm ask where $4,500-$4,700 would be a more buyer-favorable fair value.",
+    "value": 4600.0
+  },
+  "dca26b3d57d3": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,200 range on the secondary market, with the recent boutique service, light wear only, and complete set (box, papers, both straps) pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "c3f7b6ea5059": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade between $4,500-$5,500 on the secondary market, with recent boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4700.0
+  },
+  "fc5b0db26107": {
+    "reasoning": "The ref. 310.30.42.50.01.001 Speedmaster Professional with caliber 3861 retails new around $6,900–$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,200–$5,000 range on the secondary market, with the recent boutique service, light wear, and complete box/papers pushing it toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "6b8ab501245d": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with recent boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "6ac53344ea81": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples with full set in excellent condition typically trade in the $4,200-$5,000 range on the secondary market, with the recent boutique service, full set, and clean case pushing it toward the higher end, while the dealer margin and light bracelet wear balance that out.",
+    "value": 4600.0
+  },
+  "71380c9a748e": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent Omega service, complete set, and clean case pushing it toward the higher end, though dealer margin is already factored into the $4,900 ask which is reasonable but slightly above typical private-party pricing of around $4,400-$4,600.",
+    "value": 4500.0
+  },
+  "42d2314fe1d7": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,200 range on the secondary market, with the recent boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "659d77accc0f": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,500-$5,500 range on the secondary market, with the recent Omega boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4750.0
+  },
+  "65635067d443": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples with full set in excellent condition typically trade in the $4,200-$5,000 range on the secondary market (Chrono24, WatchBox, etc.), with recent boutique service and complete box/papers supporting the higher end of that range, though light bracelet scratches and four years of age temper that slightly.",
+    "value": 4600.0
+  },
+  "37fa3b366a09": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent Omega service, light wear only, and complete set supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "c10e5beaee89": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent Omega service, light wear, and complete box/papers supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "72c78e77293e": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with the cal. 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete documentation supporting the higher end of that range.",
+    "value": 5200.0
+  },
+  "db14cfa5381e": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 5200.0
+  },
+  "305ac373b9ed": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000, and pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,500-$5,500; given this example's light wear, recent Omega service, full set, and reputable dealer with return policy, fair market value lands around $5,000-$5,200, making the $4,900 asking price reasonable but with slight room to negotiate.",
+    "value": 4800.0
+  },
+  "1a2350ae3359": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,200, and pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,800 depending on condition and provenance; this example's light wear, recent Omega service, full set, and reputable dealer with return policy support a fair value toward the middle of that range.",
+    "value": 5200.0
+  },
+  "773a565f359d": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 5200.0
+  },
+  "f8830b84598e": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete box/papers pushing it toward the higher end of that range.",
+    "value": 5200.0
+  },
+  "ccd6ccf0ae18": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 5200.0
+  },
+  "dda51dbd2444": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 5200.0
+  },
+  "a314134d45da": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete documentation supporting the higher end of that range.",
+    "value": 5200.0
+  },
+  "5b7ad4ec0e61": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent boutique service, light wear, and complete box/papers supporting the higher end of that range.",
+    "value": 5200.0
+  },
+  "9a8b8fcb3723": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000, and pre-owned examples in excellent condition with full set typically trade in the $4,500-$5,500 range on the secondary market (Chrono24, WatchBox, etc.); given the recent boutique service, light wear, full set, and reputable dealer with return policy, the $4,900 asking price is fair and reasonable, though $4,500-$4,700 would be a strong negotiating target.",
+    "value": 4700.0
+  },
+  "4835a28c3d03": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 5200.0
+  },
+  "4750704d1b34": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with the cal. 3861 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,800-$5,500, with recent Omega boutique service, light wear only, and complete box/papers pushing it toward the higher end of that range.",
+    "value": 5200.0
+  },
+  "f1322ca5e1be": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically retails in the $21,000–$23,000 range per market data (KBB, Edmunds), but the dealer's asking price of $19,000 is already below average retail; a fair negotiated price accounting for the off-lease history, included warranty, new tires, and current used-car market softening would be around $17,500.",
+    "value": 17500.0
+  },
+  "0910b0d48e97": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $21,000–$24,000 range at dealers in mid-2025, but private party and fair market values run closer to $19,000–$21,000; factoring in the clean Carfax, new Michelins, CPO-adjacent warranty, and current used car market softening, the dealer's $19,000 ask is already near fair market, though a reasonable negotiated price would be slightly below that.",
+    "value": 18000.0
+  },
+  "ff943b05644d": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically retails in the $22,000–$25,000 range at dealerships in mid-2025, with private party values around $19,000–$21,000; given the clean history, new Michelin tires, certified dealer backing, and all the included features, the fair transaction price should land around $20,500, slightly above the listing price suggesting the $19,000 ask is already reasonable but you could reasonably negotiate to around $18,500.",
+    "value": 18500.0
+  },
+  "de1f8af53a53": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically trades in the $22,000–$25,000 retail range based on market data, but accounting for current used car market softening from 2022–2023 peaks, the CVT (slightly less desirable than the 2.0T), and negotiation room at a dealership, a fair out-the-door negotiated price lands around $18,500.",
+    "value": 18500.0
+  },
+  "aea79f09cbf7": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically retails in the $21,000–$24,000 range per market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T), and negotiation room at a dealer, a fair out-the-door transaction price lands around $18,500—the listed $19,000 is already reasonable but there's modest room to negotiate.",
+    "value": 18500.0
+  },
+  "69f0e02c864e": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically retails in the $21,000–$24,000 range per market data, but factoring in current used car market softening, the CVT (slightly less desirable than the 2.0T trim), and negotiation room at a dealer, a fair out-the-door negotiated price lands around $18,500, making the $19,000 ask already reasonable though slightly high.",
+    "value": 18500.0
+  },
+  "238cb757fe87": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically trades in the $21,000–$24,000 range per market data (KBB, Edmunds) as of early 2025, but the dealer's $19,000 ask is already below typical retail; factoring in the off-lease single-owner history, clean Carfax, new Michelin tires, and certified dealer warranty as positives, a fair negotiated price would be around $18,000–$18,500, splitting the difference between private party and dealer retail.",
+    "value": 18200.0
+  },
+  "5619d8985292": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $21,000–$24,000 range at retail based on current market conditions, with the clean Carfax, new Michelin tires, CPO-adjacent warranty, and low mileage for its age supporting the higher end; however, the gray color is common and the 1.5T (vs. the more desirable 2.0T) tempers demand slightly, putting fair market value around $22,000, making the $19,000 ask already below market and a genuinely good deal.",
+    "value": 19500.0
+  },
+  "33465748acc5": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles typically trades in the $22,000–$25,000 range at retail based on current used car market conditions, but accounting for the CVT (slightly less desirable than the 2.0T trim's 10-speed), the gray color being common, and typical dealer negotiation room, a fair out-the-door negotiated price lands around $20,500, making the listed $19,000 already a reasonable deal—though pushing for $18,500 is realistic given it's off-lease and the dealer has margin.",
+    "value": 18500.0
+  },
+  "63053b113559": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $21,000–$24,000 range at retail based on current used car market conditions, with clean Carfax, off-lease history, new Michelin tires, and certified dealer backing supporting the higher end; the listed price of $19,000 is already below typical market value, but a fair negotiated price accounting for dealer margin would be around $18,000.",
+    "value": 18000.0
+  },
+  "017bea2016ed": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38,000 miles typically trades in the $21,000–$24,000 range at retail based on market data, but accounting for current market softening, the CVT (slightly less desirable than the 2.0T), and negotiation room at a certified dealer, a fair transaction price lands around $20,500—the $19,000 ask is already reasonable but you could likely negotiate to around $18,500–$19,000 out-the-door before taxes and fees.",
+    "value": 18500.0
+  },
+  "23b4c633a279": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38K miles in clean condition typically retails in the $22,000–$25,000 range based on market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T trim's 10-speed), and negotiation room, a fair private-party-to-dealer transaction price lands around $20,500; the listed $19,000 is actually already below typical dealer retail for this spec, making it a reasonable deal, though pushing toward $18,500–$19,000 out-the-door is achievable.",
+    "value": 18500.0
+  },
+  "94a53ce9e47f": {
+    "reasoning": "A 2021 Honda Accord EX-L with ~38K miles in good condition typically trades in the $21,000–$24,000 retail range based on market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T trim), and typical dealer negotiation room, a fair transaction price lands around $20,500, though the $19,000 ask is already reasonable and close to fair market value.",
+    "value": 20500.0
+  },
+  "7abb72fd7b36": {
+    "reasoning": "A 2021 Accord EX-L with ~38K miles in clean condition typically retails in the $21,000–$24,000 range per market data (KBB, Edmunds), but the dealer's $19,000 ask is already below average retail, likely reflecting current used-car market softening; a fair negotiated price accounting for the off-lease clean history, new tires, and certified dealer warranty would be around $18,000–$18,500.",
+    "value": 18200.0
+  },
+  "b442fcdc78be": {
+    "reasoning": "A 2021 Accord EX-L with ~38k miles in clean condition typically trades in the $22,000–$25,000 range at retail based on market data, but accounting for current used car market softening, the CVT (slightly less desirable than the 2.0T), and negotiation room at a dealer, a fair out-the-door transaction price lands around $21,000–$22,000; the $19,000 ask is actually below typical market retail, making it a reasonable deal already, but a fair negotiated price would be approximately $18,500.",
+    "value": 18500.0
+  },
+  "8afa798399ce": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $6,000–$7,500 for the stone alone in the current retail market; adding a 14k white gold four-prong solitaire setting (worth ~$300–$500) and the modest premium for an established independent jeweler with services, a fair all-in retail price lands around $7,500.",
+    "value": 7500.0
+  },
+  "267fdb8ad8a9": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $5,500–$6,500 for the stone alone at retail (wholesale ~$4,000–$4,800); adding a simple 14k white gold four-prong solitaire setting (~$300–$500 retail) and the jeweler's overhead/service value puts a fair independent jeweler retail price around $6,500.",
+    "value": 6500.0
+  },
+  "32adc370bcd3": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $6,000–$7,500 for the stone alone in the current market; adding a 14k white gold solitaire setting (~$300–$500) and a modest independent jeweler markup puts a fair retail price around $7,500.",
+    "value": 7500.0
+  },
+  "fb0caf39de81": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $5,500–$6,500 for the stone alone at retail; adding a 14k white gold four-prong solitaire setting (~$300–$500) and the jeweler's overhead/service value puts fair retail around $6,500.",
+    "value": 6500.0
+  },
+  "5e00e59e644d": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically retails between $6,500–$8,500 at an independent jeweler; the 14k white gold solitaire setting adds roughly $300–$500, and factoring in the jeweler's overhead, return policy, and services, a fair mid-market price lands around $7,500.",
+    "value": 7500.0
+  },
+  "d72aaa092331": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $5,500–$6,500 for the stone alone at retail; adding a 14k white gold solitaire setting (~$300–$500) and a modest premium for the independent jeweler's services and warranty puts fair retail around $6,500.",
+    "value": 6500.0
+  },
+  "45f8a749338e": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $6,000–$7,500 for the stone alone based on current Rapaport-influenced retail pricing; adding a 14k white gold solitaire setting (~$300–$500) and a modest premium for an independent jeweler with services, a fair all-in retail price lands around $7,500.",
+    "value": 7500.0
+  },
+  "9e4f1a8e0040": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with no fluorescence and ideal proportions trades at roughly $6,000–$7,500 for the stone alone based on current Rapaport-influenced market pricing; adding a 14k white gold four-prong solitaire setting (~$300–$500) and a modest independent jeweler margin puts a fair all-in price around $7,500.",
+    "value": 7500.0
+  },
+  "19281a3c81c1": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $5,500–$6,500 for the stone alone based on current Rapaport/market pricing; adding a 14k white gold solitaire setting (~$300–$500) and a modest independent jeweler markup puts a fair all-in retail price around $6,500.",
+    "value": 6500.0
+  },
+  "c7e9a191d30b": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at retail between $6,500–$8,500 for the stone alone; adding a simple 14k white gold four-prong solitaire setting (~$300–$500) and a modest independent jeweler markup puts a fair all-in price around $7,500.",
+    "value": 7500.0
+  },
+  "6c42695ed5bd": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence trades in the $5,500–$7,000 stone range at retail; adding a simple 14k white gold four-prong solitaire setting (~$300–$500) and the jeweler's overhead/service value, a fair all-in retail price from an independent jeweler lands around $6,500.",
+    "value": 6500.0
+  },
+  "530912993566": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $6,000–$7,500 for the stone alone in the current market; adding a 14k white gold solitaire setting (~$300–$500) and a modest independent jeweler markup over wholesale puts a fair retail price around $7,500.",
+    "value": 7500.0
+  },
+  "4a4011311a9c": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $5,500–$6,500 for the stone alone in today's market; adding a 14k white gold solitaire setting (~$300–$500) and a modest independent jeweler markup lands a fair all-in price around $6,500.",
+    "value": 6500.0
+  },
+  "a45279386e3b": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically retails between $6,500–$8,500 at an independent jeweler; the 14k white gold solitaire setting adds roughly $300–$500, and factoring in the jeweler's overhead and services, a fair mid-market price lands around $7,500.",
+    "value": 7500.0
+  },
+  "198b227654bb": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $5,500–$6,500 for the stone alone at retail (wholesale ~$4,000–$4,800); adding a 14k white gold solitaire setting (~$300–$500) and the jeweler's overhead/service value, a fair retail price from an independent jeweler lands around $6,500.",
+    "value": 6500.0
+  },
+  "51ce306fbf6f": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence typically trades at wholesale/Rappaport around $4,800–$5,500 retail at independent jewelers; the 14k white gold solitaire setting adds roughly $300–$500, placing fair market retail value around $5,000–$5,500, with the jeweler's $5,200 ask sitting squarely in the middle of that range.",
+    "value": 5000.0
+  },
+  "b859dd1c784b": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; comparable stones on sites like James Allen or Brilliant Earth run ~$4,200–$4,800 for the stone alone, plus ~$300–$500 for a 14k white gold solitaire setting, putting fair market retail around $4,800–$5,200 with the added value of a local jeweler's services and return policy.",
+    "value": 5000.0
+  },
+  "aec77933e643": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at roughly $4,800–$5,500 retail; comparable stones on platforms like James Allen or Brilliant Earth run ~$4,200–$4,800 for the stone alone, plus ~$300–$500 for a 14k white gold solitaire setting, putting fair market retail around $4,800–$5,200 with the added value of GIA certification, a reputable local jeweler, and included services.",
+    "value": 5000.0
+  },
+  "c5fe657abb51": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 on platforms like Rapnet, with reputable independent jewelers (including services and return policy) reasonably marking up to $4,500–$5,500; the $5,200 ask is within fair market range but slight negotiation to ~$4,800 is reasonable.",
+    "value": 4800.0
+  },
+  "0f922756d62e": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut with ideal proportions and no fluorescence typically trades at wholesale around $4,200–$4,800 on platforms like RapNet, with retail at an independent jeweler (including the 14k white gold solitaire setting worth ~$150–$200 in metal/labor) reasonably landing in the $4,500–$5,500 range; $5,200 is at the higher end but fair given the GIA cert, ideal cut metrics, and included services.",
+    "value": 4800.0
+  },
+  "bd5fc6256339": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail; the GIA cert, ideal depth/table, and reputable jeweler services (return policy, lifetime care) support the higher end, but $5,200 is already within fair market range for an independent jeweler, making ~$4,800 a reasonable negotiating target.",
+    "value": 4800.0
+  },
+  "17b6c25c0974": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence typically trades at roughly $4,800–$5,500 retail; the stone alone has a wholesale/Rapaport value around $3,800–$4,200, and the 14k white gold solitaire setting adds ~$300–$400, placing fair retail around $4,800–$5,200 from an independent jeweler with services included.",
+    "value": 4900.0
+  },
+  "7b2c9fe9f114": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,200–$4,800 retail at independent jewelers based on current Rappaport-influenced pricing; adding the 14k white gold solitaire setting (minimal metal value ~$75 melt, but craftsmanship ~$300–$500) and the GIA certification premium, a fair retail price lands around $4,800, making $5,200 slightly high but within negotiating range.",
+    "value": 4800.0
+  },
+  "0457d69b54e0": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with ideal proportions and no fluorescence typically trades at roughly $4,800–$5,500 retail from independent jewelers; the 14k white gold solitaire setting adds modest value (~$150–$200), and the GIA cert, laser inscription, and service perks (lifetime cleaning, re-tipping, 30-day return) justify a slight premium over pure stone cost, placing fair market value around $5,000.",
+    "value": 5000.0
+  },
+  "01288d336c67": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2 with Excellent cut and ideal proportions typically trades at roughly $4,800–$5,500 retail; the stone alone at wholesale/Rapaport is around $3,800–$4,200, and the 14k white gold solitaire setting adds ~$300–$500, putting a fair retail price from an independent jeweler with services included at approximately $5,000.",
+    "value": 5000.0
+  },
+  "87d4b78c7b3b": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,200–$4,800 at retail for the stone alone based on current Rappaport-influenced market pricing; adding ~$300–$400 for a quality 14k white gold four-prong solitaire setting and the included services, a fair retail price lands around $4,800–$5,000, making $5,200 slightly high but within a reasonable range for an independent jeweler with services included.",
+    "value": 4900.0
+  },
+  "302b0bc4fc5c": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at wholesale/Rappaport around $5,500–$6,500 per carat in current markets, putting the stone alone at roughly $5,600–$6,600; adding a simple 14k white gold solitaire setting (~$300–$500 retail) and accounting for independent jeweler overhead and the included services, a fair retail price lands around $6,000–$6,500, making the $5,200 ask a reasonable and competitive price slightly below fair market value.",
+    "value": 6000.0
+  },
+  "52b9bb1b6ee2": {
+    "reasoning": "A 1.02ct round brilliant, GIA-certified, G/VS2 with Excellent cut and ideal proportions typically trades at wholesale around $4,200–$4,800 for the stone alone based on current Rapaport pricing with typical dealer discounts; adding the 14k white gold solitaire setting (~$150–$250 in material and labor) and factoring in reasonable retail markup from an independent jeweler with services included, a fair retail price lands around $5,000.",
+    "value": 5000.0
+  },
+  "f3461dd5b28d": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2/Excellent with no fluorescence and ideal proportions typically trades at wholesale (Rappaport) around $5,500-$6,500 per carat, putting the stone alone at roughly $5,600-$6,600; adding modest setting costs (~$300-$500 for 14k white gold solitaire) and a reasonable independent jeweler markup, fair retail lands around $6,000-$7,000, making $5,200 actually a competitive and fair price already at the lower end of market.",
+    "value": 5500.0
+  },
+  "f530fd649157": {
+    "reasoning": "A 1.02ct round brilliant, G/VS2, Excellent cut, no fluorescence diamond typically trades at roughly $4,200–$4,800 on the wholesale/retail market based on Rapaport pricing and online vendor comparables (e.g., James Allen, Brilliant Earth price similar stones around $4,500–$5,000 all-in); adding the 14k white gold solitaire setting (~$150–$300 value) and the independent jeweler's legitimate overhead, warranty, and services, a fair all-in price lands around $4,800.",
+    "value": 4800.0
+  },
+  "70977edd2c14": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples with full set in excellent condition typically trade between $5,200-$6,000 on the secondary market, and this example's positives (recent boutique service, full set, clean case) are offset slightly by its age and bracelet wear, landing it around the middle of that range.",
+    "value": 5500.0
+  },
+  "ad40152ea47c": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set (box, papers, both straps) typically trade in the $5,200-$5,800 range on the secondary market, and the recent Omega boutique service, light wear only, and dealer return policy support the higher end of that range.",
+    "value": 5600.0
+  },
+  "42a1e7f38ee2": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade at roughly 75-85% of retail, and this example's recent Omega service, light wear, full kit, and reputable dealer with return policy support the higher end of that range at approximately $5,800-$6,200.",
+    "value": 6000.0
+  },
+  "747dd4c4c804": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,300; pre-owned examples in excellent condition with full set (box, papers, bracelet) typically trade in the $5,200-$5,800 range on the secondary market as of early 2025, and this example's recent Omega service, light wear, and complete accessories push it toward the higher end of that range.",
+    "value": 5600.0
+  },
+  "e094775b581d": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new for approximately $6,900–$7,200; pre-owned examples in excellent condition with full set typically trade at 75–85% of retail, around $5,200–$6,000, with this example commanding the higher end due to recent boutique service, complete set, and clean case.",
+    "value": 5800.0
+  },
+  "06d476c7234a": {
+    "reasoning": "The ref. 310.30.42.50.01.001 Speedmaster Professional with cal. 3861 currently retails new around $6,900 USD; a ~4-year-old example with full set, recent Omega service, light wear, and dealer backing typically trades in the secondary market at roughly 75-82% of retail, with the complete set and fresh service pushing toward the higher end of that range.",
+    "value": 5400.0
+  },
+  "662b6c2fb2bf": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples with full set and good condition typically trade at 75-85% of retail, and this one's strong provenance (recent Omega service, full kit, reputable dealer with return policy) pushes it toward the higher end of that range, offset slightly by the ~4-year age and light bracelet wear.",
+    "value": 5800.0
+  },
+  "2445429f6f12": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade at 75-85% of retail, and this one benefits from recent Omega service, complete box/papers, and light wear, placing fair market value around $5,500-$5,800 from a reputable dealer with a return policy.",
+    "value": 5600.0
+  },
+  "6ae05015360d": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade at 75-85% of retail, and this example's recent boutique service, complete set, and clean case push it toward the higher end of that range, while light bracelet scratches and ~4 years of age moderate it slightly.",
+    "value": 5400.0
+  },
+  "c3c34bff771e": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples with full set in excellent condition typically trade between $5,200-$6,000 on the secondary market, and this example's recent boutique service, complete set, light wear, and dealer return policy support pricing toward the upper-middle of that range.",
+    "value": 5600.0
+  },
+  "8c7b637c2204": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new for approximately $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade at 75-85% of retail, and this example's strong provenance (recent boutique service, full set, light wear only) places it at the higher end of that range.",
+    "value": 5600.0
+  },
+  "5ee4e5098633": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new for approximately $6,900 USD; a ~4-year-old example in excellent condition with full set, recent Omega service, and reputable dealer typically trades at roughly 75-80% of current retail in the secondary market, with the complete box/papers and recent service supporting the higher end of that range.",
+    "value": 5400.0
+  },
+  "df66f17eb23b": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade at 75-85% of retail on the secondary market, and this example's recent boutique service, complete set, and clean case push it toward the higher end of that range, while the ~4-year age and light bracelet wear keep it from commanding a premium.",
+    "value": 5800.0
+  },
+  "17862cc7d004": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set (box, papers, both straps) typically trade between $5,200-$5,800 on the secondary market, and this example's recent Omega boutique service, light wear only on bracelet, and complete documentation with a reputable dealer and return policy supports pricing toward the higher end of that range.",
+    "value": 5500.0
+  },
+  "6a3d7e582243": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set (box and papers) typically trade in the $5,200-$5,800 range on the secondary market, and this example's recent boutique service, near-mint case, and complete set with extras supports the higher end of that range, though light bracelet scratches and ~4 years of age temper it slightly.",
+    "value": 5500.0
+  },
+  "bcf90c3fbb8a": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with recent boutique service, light wear, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "b36ef24cf73d": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "5695bf1f8a20": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade on the secondary market between $4,200-$5,200, with the recent Omega service, light wear, and complete documentation supporting the higher end of that range around $4,600-$4,800.",
+    "value": 4600.0
+  },
+  "fd971bec57f6": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with cal. 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent boutique service, complete set, and clean case pushing it toward the higher end, making $4,900 a fair but slightly firm ask where $4,500-$4,700 would be a more buyer-favorable fair value.",
+    "value": 4600.0
+  },
+  "155e077807d4": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,200 range on the secondary market, with the recent boutique service, light wear only, and complete set (box, papers, both straps) pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "31d00703c283": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade between $4,500-$5,500 on the secondary market, with recent boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4700.0
+  },
+  "13c67210dd7f": {
+    "reasoning": "The ref. 310.30.42.50.01.001 Speedmaster Professional with caliber 3861 retails new around $6,900–$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,200–$5,000 range on the secondary market, with the recent boutique service, light wear, and complete box/papers pushing it toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "21c115fff85f": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with recent boutique service, light wear only, and complete box/papers pushing toward the higher end of that range.",
+    "value": 4600.0
+  },
+  "34c41bc1f9e5": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples with full set in excellent condition typically trade in the $4,200-$5,000 range on the secondary market, with the recent boutique service, full set, and clean case pushing it toward the higher end, while the dealer margin and light bracelet wear balance that out.",
+    "value": 4600.0
+  },
+  "9b430cdbf058": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent Omega service, complete set, and clean case pushing it toward the higher end, though dealer margin is already factored into the $4,900 ask which is reasonable but slightly above typical private-party pricing of around $4,400-$4,600.",
+    "value": 4500.0
+  },
+  "cda1ae30e140": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,200 range on the secondary market, with the recent boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "9a85bf4e17e5": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 with caliber 3861 retails new around $6,900-$7,100; pre-owned examples in excellent condition with full set typically trade in the $4,500-$5,500 range on the secondary market, with the recent Omega boutique service, light wear only, and complete box/papers supporting the higher end of that range.",
+    "value": 4750.0
+  },
+  "a5fbb9c96294": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples with full set in excellent condition typically trade in the $4,200-$5,000 range on the secondary market (Chrono24, WatchBox, etc.), with recent boutique service and complete box/papers supporting the higher end of that range, though light bracelet scratches and four years of age temper that slightly.",
+    "value": 4600.0
+  },
+  "194fcd55e855": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,700-$7,000; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent Omega service, light wear only, and complete set supporting the higher end of that range.",
+    "value": 4600.0
+  },
+  "17870462b0d9": {
+    "reasoning": "The Omega Speedmaster Professional ref. 310.30.42.50.01.001 retails new around $6,900-$7,200; pre-owned examples in excellent condition with full set typically trade in the $4,200-$5,000 range on the secondary market, with the recent Omega service, light wear, and complete box/papers supporting the higher end of that range.",
+    "value": 4600.0
   }
 }

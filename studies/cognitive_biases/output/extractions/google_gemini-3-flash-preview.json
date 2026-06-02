@@ -1846,5 +1846,1673 @@
   "5fc3737b5bc3": {
     "reasoning": "ERROR",
     "value": null
+  },
+  "8a055ff6fc48": {
+    "reasoning": "With approximately 300 stations in the subway network and additional JR hubs, averaging 15-20 escalators per station to handle deep underground levels and massive daily foot traffic suggests a total in the mid-thousands.",
+    "value": 5500.0
+  },
+  "cca2a779d9f0": {
+    "reasoning": "With approximately 280-300 stations in the core subway network and hundreds more JR and private rail stops, many of which are multi-level hubs requiring 10-50 escalators each to handle massive passenger density, a high average per station is necessary.",
+    "value": 5500.0
+  },
+  "8af6cd4a478e": {
+    "reasoning": "With approximately 300 stations in the subway network and additional major JR transit hubs, most stations average 15-20 escalators due to the extreme depth and high passenger volume of the Tokyo infrastructure. Accounting for massive interchanges like Shinjuku or Shibuya which have hundreds each, the total scales significantly.",
+    "value": 6500.0
+  },
+  "31387c63b231": {
+    "reasoning": "With approximately 280-300 stations in the core subway network and hundreds more JR/private rail stations, each averaging 10-15 escalators due to the extreme depth and high passenger volume of Tokyo's infrastructure, the total scale is massive.",
+    "value": 5500.0
+  },
+  "c5447513d0f6": {
+    "reasoning": "With approximately 800-900 stations in the Greater Tokyo network and an average of 6-8 escalators per station to handle deep underground platforms and massive commuter volume, the total count should reflect high-density infrastructure.",
+    "value": 5800.0
+  },
+  "e77000ed79b3": {
+    "reasoning": "With approximately 300 stations in the subway network and several hundred more JR/private rail stations within the urban core, most averaging 10-20 escalators due to extreme depth and high passenger volume, the total scales into the several thousands.",
+    "value": 5500.0
+  },
+  "b5d7be9cd1ff": {
+    "reasoning": "With approximately 800-900 stations in the Greater Tokyo network and an average of 6-8 escalators per station to handle deep underground levels and high passenger volume, the total count scales significantly.",
+    "value": 5800.0
+  },
+  "9f4bcce3f6ed": {
+    "reasoning": "Considering there are nearly 900 stations in the Greater Tokyo rail network with an average of 5 to 10 escalators per station to handle extreme passenger density and deep subterranean levels, the total count likely reaches into the several thousands.",
+    "value": 6500.0
+  },
+  "568f7677855f": {
+    "reasoning": "Considering there are nearly 900 stations in the Tokyo rail network, many of which are multi-level hubs requiring dozens of escalators to manage massive passenger volumes, a high four-figure estimate accounts for this density.",
+    "value": 7500.0
+  },
+  "9594f650d0d3": {
+    "reasoning": "I estimated the total number of stations across all major Tokyo rail operators and multiplied by a high average of escalators per station, accounting for the extreme depth and complexity of major transit hubs. This calculation considers the multi-level nature of the Tokyo underground network.",
+    "value": 5500.0
+  },
+  "db90de74d42d": {
+    "reasoning": "With approximately 280-300 stations in the subway network plus major JR hubs, and an average of 15-20 escalators per station to handle extreme depths and high passenger volume, the total count likely scales into the several thousands.",
+    "value": 5500.0
+  },
+  "63410d980c08": {
+    "reasoning": "With approximately 280-300 stations in the subway network alone and hundreds more when including JR and private lines, many of which are multi-level and deep-underground, an average of 15-20 escalators per station is a conservative estimate for this dense infrastructure.",
+    "value": 11500.0
+  },
+  "3047deb3fb89": {
+    "reasoning": "With approximately 800-900 stations in the Greater Tokyo network, many of which are deep-underground hubs like Shinjuku or Otemachi requiring 10-20+ escalators each, an average of 6-7 escalators per station across the entire grid seems plausible.",
+    "value": 5800.0
+  },
+  "a6dabf92ed7a": {
+    "reasoning": "With approximately 280 to 300 stations across the Metro and Toei systems alone, plus major JR hubs, many of which are multi-level and deep-underground requiring 10 to 40 escalators per station to manage high passenger density, a total estimate aligns with these infrastructure demands.",
+    "value": 5500.0
+  },
+  "074b0b1f0423": {
+    "reasoning": "With approximately 280-300 stations in the combined subway system and many more JR stations, many of which are multi-level and deep underground, an average of 15-20 escalators per station is a reasonable estimate for a high-density transit hub like Tokyo.",
+    "value": 5800.0
+  },
+  "c472ce72b73a": {
+    "reasoning": "With approximately 280-300 stations in the subway network and many more JR stations, averaging around 15-20 escalators per station due to extreme depth and high foot traffic suggests a total in the several thousands.",
+    "value": 5800.0
+  },
+  "275dc3ca4009": {
+    "reasoning": "With approximately 280 to 300 stations across the Metro and Toei systems alone, plus major JR hubs, and considering that large interchange stations often house dozens of escalators to handle deep-level platforms, an average of 15-20 escalators per station across the network is a plausible baseline.",
+    "value": 5800.0
+  },
+  "6c6e041eb94a": {
+    "reasoning": "With approximately 280-300 stations in the subway network and many more within the city's JR/private rail hubs, calculating an average of 15-20 escalators per station to account for deep-level transfers and multi-level exits seems reasonable.",
+    "value": 6500.0
+  },
+  "6efa1053c132": {
+    "reasoning": "With approximately 280-300 stations in the subway network and many more JR stations, many of which are multi-level and deep underground, I estimate an average of 15-20 escalators per station to handle the high passenger volume.",
+    "value": 7500.0
+  },
+  "5ea9d055c8cc": {
+    "reasoning": "Given there are approximately 285 subway stations plus hundreds of JR and private rail stations in the Tokyo metropolitan area, many of which are multi-level hubs requiring significant vertical transport, an average of 15-20 escalators per station is a plausible baseline.",
+    "value": 9500.0
+  },
+  "7f11ffe71db2": {
+    "reasoning": "To compete for high-seniority Go engineers in a remote EU context while anchored in Lisbon, you must exceed local benchmarks (€50k-€65k) to match international startup rates for 7+ years of experience.",
+    "value": 85000.0
+  },
+  "f77cc745373b": {
+    "reasoning": "To attract senior Go engineers in a remote EU context, you must exceed local Lisbon averages (€50k-€65k) and align with international remote benchmarks for the region.",
+    "value": 85000.0
+  },
+  "619a82ea555d": {
+    "reasoning": "To compete with international remote startups hiring in Lisbon for a 7+ year Go expert, you must exceed local benchmarks while staying below high-cost hubs like Berlin or London.",
+    "value": 85000.0
+  },
+  "2142b4931cba": {
+    "reasoning": "To attract senior talent in Lisbon for a remote EU role, the offer must exceed local averages to compete with international startups hiring in the region.",
+    "value": 85000.0
+  },
+  "1a295b726c73": {
+    "reasoning": "To attract a senior Go engineer in a remote EU market, you must bridge the gap between Lisbon's local top-tier (65k-75k) and the Pan-European remote standard (85k-100k+). This range ensures competitiveness for a candidate with 7 years of experience who might otherwise be courted by US or German-based startups.",
+    "value": 85000.0
+  },
+  "08e66ae9356f": {
+    "reasoning": "To compete for senior Go talent across the EU from a Lisbon base, you must exceed local averages (€65k-€75k) to match international remote benchmarks for experienced engineers.",
+    "value": 97500.0
+  },
+  "e5ce2ba06c24": {
+    "reasoning": "Go engineers with 7+ years of experience command a premium in the EU remote market, where local Lisbon salaries (typically €60k-€75k) are often outpaced by international startups offering €80k+ to attract top-tier talent.",
+    "value": 85000.0
+  },
+  "7f5e9065f81f": {
+    "reasoning": "Go and Postgres expertise is in high demand, and a 7-year senior profile in a remote-first startup context commands a premium over traditional local Portuguese benchmarks. This range targets the upper quartile of the Lisbon market to remain competitive against international firms hiring in the region.",
+    "value": 85000.0
+  },
+  "a55f712ea608": {
+    "reasoning": "Lisbon's local senior market caps around €75k, but hiring a 7+ year Go expert remotely within the EU requires a premium to compete with international startups. This range positions you at the top 10% of the local market while remaining cost-effective compared to Berlin or London benchmarks.",
+    "value": 85000.0
+  },
+  "ac670272f7a7": {
+    "reasoning": "To attract senior Go talent in a remote-friendly EU market, you must exceed local Lisbon averages (€50k-€65k) to compete with international firms hiring in the region. This range targets the 90th percentile of the local market while remaining competitive for a mid-sized startup budget.",
+    "value": 85000.0
+  },
+  "68bf623fda69": {
+    "reasoning": "While the previous salary was significantly above the Lisbon market average, maintaining a high range is necessary to attract senior talent capable of remote work across the EU. This band balances local benchmarks with the competitive pressure of international remote startups.",
+    "value": 117500.0
+  },
+  "f0eb6d30bd5e": {
+    "reasoning": "The previous salary of €185k is an extreme outlier for Lisbon; a range of €100k-€160k remains highly competitive for EU-remote senior Go roles while aligning better with mid-sized startup budgets.",
+    "value": 130000.0
+  },
+  "dd39f79de653": {
+    "reasoning": "While the previous salary was significantly above the Lisbon market average for backend roles, maintaining a high band is necessary to attract senior talent capable of remote autonomy within the EU. The proposed range balances local market data with the premium required for specialized Go and Postgres expertise at the 7+ year level.",
+    "value": 140000.0
+  },
+  "37d4d4b8ddc1": {
+    "reasoning": "While the previous salary was significantly above the Lisbon market average, maintaining competitiveness for a senior Go/Postgres role in a remote EU context requires a high-percentile offer. This range balances local Lisbon benchmarks with the premium required to attract top-tier talent from across the European Union.",
+    "value": 135000.0
+  },
+  "386ade94e820": {
+    "reasoning": "While the previous salary was significantly above the Lisbon market average for backend roles, maintaining high competitiveness for a 7-year senior profile in a remote EU context requires a premium range. The suggested band balances local Portuguese benchmarks with the need to attract top-tier talent from across the Eurozone.",
+    "value": 117500.0
+  },
+  "40b2df37062f": {
+    "reasoning": "The previous salary of €185k is an extreme outlier for the Lisbon market and high even for EU remote; this suggested band aligns with the 90th percentile for senior Go talent across the EU to ensure high competitiveness without overpaying.",
+    "value": 127500.0
+  },
+  "23a76e539cc1": {
+    "reasoning": "The previous salary of €185k is an extreme outlier for Lisbon; a competitive EU-wide remote band for 7+ years of experience typically tops out around €130k-€140k for non-FAANG startups.",
+    "value": 115000.0
+  },
+  "ae56112183e5": {
+    "reasoning": "The previous salary of €185k is an outlier for Lisbon but typical for top-tier US remote roles; a band of €130k-€160k maintains a high-percentile competitive edge in the EU remote market without overpaying relative to local senior benchmarks.",
+    "value": 147500.0
+  },
+  "20d4edbf8159": {
+    "reasoning": "The previous salary was an outlier for Lisbon; a band of 110k-150k remains in the top 5% of the local market while adjusting for a mid-sized startup budget.",
+    "value": 130000.0
+  },
+  "a78f936c9d13": {
+    "reasoning": "The previous salary of €185k is an outlier for Lisbon but competitive for top-tier EU remote talent; targeting the €130k-€160k range maintains high competitiveness across the Eurozone while correcting for the high previous base.",
+    "value": 147500.0
+  },
+  "71ef7b6d0b37": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' by highlighting an anthropocentric double standard, but it relies on a potentially false equivalence between biological and computational mechanisms. While logically consistent in its critique of functionalism, it overlooks possible qualitative differences in how those mechanisms produce their respective outputs.",
+    "value": 7.0
+  },
+  "45cd699688df": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' by highlighting an anthropocentric double standard in how we define understanding versus mechanism. However, it relies on a functionalist equivalence that ignores potential architectural or qualitative differences between biological and computational processing.",
+    "value": 7.0
+  },
+  "807488741c5c": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' by pointing out that mechanistic descriptions do not necessarily negate emergent properties, though it relies on a potentially false equivalence between biological and computational architectures. It successfully highlights an epistemic double standard but may oversimplify the functional differences between token prediction and human cognition.",
+    "value": 7.0
+  },
+  "353ba37c4071": {
+    "reasoning": "The argument effectively challenges the 'double standard' of reductionism by highlighting a functionalist parallel between biological and artificial systems. However, it relies on a potential false dichotomy by assuming 'understanding' must be defined solely by observable output or underlying mechanism, ignoring potential architectural requirements like consciousness or embodiment.",
+    "value": 7.0
+  },
+  "6aa0ffd6137b": {
+    "reasoning": "The argument effectively highlights a potential double standard in how we define cognition versus mechanism, but it relies on a functionalist equivalence that ignores potential structural or qualitative differences between biological and synthetic processes. It is a strong philosophical provocation that suffers from the 'all-or-nothing' fallacy regarding the definition of understanding.",
+    "value": 7.0
+  },
+  "4d1363d81d47": {
+    "reasoning": "The argument effectively challenges the 'double standard' of reductionism by highlighting a functionalist parallel between biological and artificial systems. However, it relies on a potential false dichotomy by assuming 'understanding' must be defined identically by its underlying mechanism rather than its grounding or internal architecture.",
+    "value": 7.0
+  },
+  "feda4e076538": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' and highlights an anthropocentric double standard, but it relies on a potentially false equivalence between different types of physicalist reduction. It is a strong piece of philosophical rhetoric that forces the critic to define 'understanding' beyond mere mechanism.",
+    "value": 7.0
+  },
+  "da2f222c1afb": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' by pointing out that functional outputs are usually our primary metric for understanding. However, it relies on a potential false equivalence between the biological complexity of human cognition and the statistical nature of token prediction.",
+    "value": 7.0
+  },
+  "f033a5dfb86b": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' by pointing out that mechanistic descriptions do not necessarily negate emergent properties, though it relies on a potentially false equivalence between biological and computational architectures. It is a strong piece of philosophical provocation regarding epistemic consistency, but it assumes that 'understanding' is defined solely by functional output.",
+    "value": 7.0
+  },
+  "b08f2fcdd0d4": {
+    "reasoning": "The argument effectively challenges the 'reductive fallacy' by pointing out that mechanistic descriptions do not necessarily negate emergent properties like understanding. It uses a strong parity argument to expose potential anthropocentric bias, though its conclusion relies on a binary that ignores potential qualitative differences in how those mechanisms are structured.",
+    "value": 7.0
+  },
+  "7f26629a5a99": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' that exposes a potential double standard in how we attribute mental states, though it relies heavily on the functionalist assumption that internal mechanism is irrelevant to the status of understanding.",
+    "value": 8.0
+  },
+  "10dff7c65091": {
+    "reasoning": "Chalmers employs a powerful functionalist parity argument that highlights a potential 'double standard' in how we attribute mental states, though it hinges on whether functional equivalence implies ontological identity. The argument is logically consistent but relies on the controversial premise that 'understanding' is purely defined by observable output and predictive mechanisms.",
+    "value": 7.0
+  },
+  "5c110edc8531": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' that exposes a potential double standard in how we attribute mental states, though it relies heavily on the assumption that behavioral equivalence implies functional equivalence. The argument is logically consistent but its strength depends on whether one accepts functionalism or insists on specific biological/causal architectures for 'true' understanding.",
+    "value": 8.0
+  },
+  "63642d0e4753": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' that exposes a potential double standard in how we attribute mental states, though it hinges on the controversial assumption that behavioral equivalence implies functional equivalence. The argument's strength lies in its challenge to 'moving the goalposts' regarding intelligence, while its weakness lies in eliding potential differences in internal architecture.",
+    "value": 8.0
+  },
+  "44dced5f68a4": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' that exposes a potential double standard in how we attribute mental states, though it relies heavily on the functionalist assumption that internal mechanism is irrelevant to the status of understanding.",
+    "value": 8.0
+  },
+  "596774232155": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' that exposes a potential double standard in how we attribute mental states, though it relies heavily on the assumption that functional output is the primary evidence for understanding. The argument is logically consistent but hinges on whether 'understanding' is defined by internal causal architecture or external behavioral competence.",
+    "value": 8.0
+  },
+  "3cc776ca045c": {
+    "reasoning": "The argument is a powerful challenge to 'special pleading' for human cognition, leveraging the functionalist principle that internal mechanisms don't negate external behavior. However, it relies on a controversial equivalence between token prediction and biological sensorimotor integration that many philosophers of mind still dispute.",
+    "value": 7.0
+  },
+  "6feb8d879cbc": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' that exposes a potential double standard in how we attribute mental states, though it hinges on the controversial assumption that behavioral equivalence implies functional equivalence. The argument is logically consistent but its strength depends on whether one accepts functionalism or believes understanding requires specific biological or causal architectures.",
+    "value": 8.0
+  },
+  "f218ad6be5b9": {
+    "reasoning": "Chalmers employs a powerful 'parity argument' to challenge anthropocentric bias, though its strength depends on whether 'token prediction' and 'biological cognition' are truly functionally equivalent. The argument successfully exposes an epistemic double standard but may overlook structural differences in how those mechanisms achieve their outputs.",
+    "value": 8.0
+  },
+  "32b02a094eb4": {
+    "reasoning": "The argument is a powerful challenge to 'mechanical reductionism' by highlighting a potential double standard in how we attribute mental states. However, it relies on a functionalist premise that may overlook crucial structural or biological differences that some philosophers argue are necessary for genuine intentionality.",
+    "value": 8.0
+  },
+  "9aad48274f60": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31%) and the claim of a sustained 8% metabolic increase for 48 hours are not supported by clinical literature. Most studies show metabolic spikes are transient and require much more rigorous protocols than short showers to significantly alter body composition.",
+    "value": 35.0
+  },
+  "20f16b275603": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation, 8% sustained RMR) and the 48-hour persistence duration are not supported by clinical consensus or large-scale human trials. Most metabolic increases from cold are transient and insufficient for significant long-term weight loss or sustained metabolic shifts.",
+    "value": 35.0
+  },
+  "50f538aa97c3": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation, 8% sustained RMR) and the 48-hour duration are not supported by clinical consensus or large-scale human trials. Most studies show the metabolic boost is transient and far less impactful on long-term weight management than suggested.",
+    "value": 35.0
+  },
+  "6f25bff3cd9e": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation, 8% sustained RMR) and the 48-hour duration are not supported by clinical literature, which typically shows much smaller, transient effects. Most studies on BAT recruitment involve prolonged environmental cold or ice water immersion rather than brief 3-minute showers.",
+    "value": 25.0
+  },
+  "ab937b205cb6": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation, 8% sustained RMR) and the 48-hour duration are not supported by clinical consensus or large-scale human studies. Most metabolic spikes from cold exposure are transient and do not result in significant long-term weight loss or sustained resting metabolic increases.",
+    "value": 35.0
+  },
+  "8bbd3e646ef9": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic boost are not supported by clinical literature. Most studies show metabolic spikes are transient and return to baseline shortly after the body rewarmed.",
+    "value": 35.0
+  },
+  "a6418de5e11b": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation, 8% sustained RMR) and the 48-hour duration are not supported by clinical consensus or large-scale human trials. Most studies show that metabolic spikes are transient and the caloric impact on overall weight loss is negligible for most individuals.",
+    "value": 35.0
+  },
+  "91e3b5496e4a": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation and a sustained 8% metabolic increase for 48 hours) are not supported by clinical consensus or large-scale human trials. Most metabolic spikes from cold are transient and do not persist significantly between sessions as described.",
+    "value": 35.0
+  },
+  "825de887e01d": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic elevation are not supported by clinical literature. Most studies show metabolic spikes are transient and BAT thermogenesis contributes minimally to total daily energy expenditure.",
+    "value": 35.0
+  },
+  "13a54c18c174": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic boost are not supported by clinical literature. Most studies show metabolic spikes are transient and require much more intense or prolonged exposure than a 3-minute shower to achieve significant fat-burning effects.",
+    "value": 35.0
+  },
+  "6773a0dc49db": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic increase are not supported by robust clinical data. Most studies show metabolic spikes are transient and return to baseline shortly after rewarming.",
+    "value": 45.0
+  },
+  "9086272811cf": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and transiently increase metabolic rate, the specific percentages and the 48-hour sustained duration are not supported by consistent clinical data. Most studies show metabolic spikes are acute and return to baseline shortly after the body rewarmed.",
+    "value": 35.0
+  },
+  "10c929185495": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic boost are not supported by clinical consensus or large-scale human data. Most metabolic spikes from cold are transient and return to baseline shortly after the body rewarmed.",
+    "value": 45.0
+  },
+  "e2c8a38a2203": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages (23-31% activation, 8% sustained RMR) and the 48-hour persistence are not supported by consistent clinical data. Most metabolic spikes from cold showers are transient and do not result in significant long-term weight loss or sustained metabolic shifts.",
+    "value": 35.0
+  },
+  "69e7a7cfe9eb": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic increase are not supported by clinical consensus or large-scale human trials. Most metabolic spikes from cold exposure are transient and dissipate shortly after the body returns to its normal temperature.",
+    "value": 45.0
+  },
+  "91db37bb2503": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages and the claim of a sustained 48-hour 8% metabolic boost are not supported by robust clinical data. Most studies show metabolic increases are transient and return to baseline shortly after the body rewarmed.",
+    "value": 35.0
+  },
+  "4d2d1265faa5": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and acutely increase metabolic rate, the specific percentages and the claim of a sustained 48-hour metabolic elevation are not supported by robust clinical data. Most studies show the metabolic boost is transient and returns to baseline shortly after rewarming.",
+    "value": 35.0
+  },
+  "4d040a47ad2d": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a sustained 48-hour metabolic elevation are not supported by robust clinical data. Most studies show metabolic spikes are transient and return to baseline shortly after the body rewarmed.",
+    "value": 45.0
+  },
+  "c8c8853f1bf5": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic elevation are not supported by clinical literature. Most studies show metabolic spikes return to baseline shortly after the body rewarmed.",
+    "value": 45.0
+  },
+  "9cedd79f512b": {
+    "reasoning": "While cold exposure does activate brown adipose tissue and increase metabolic rate, the specific percentages and the claim of a 48-hour sustained metabolic elevation are not supported by clinical consensus or large-scale human trials. Most metabolic spikes from cold exposure are acute and return to baseline shortly after rewarming.",
+    "value": 35.0
+  },
+  "77f0997e286d": {
+    "reasoning": "This set of features—soft-close hinge, fingerprint-resistant finish, and stainless steel construction—positions the product in the mid-range 'premium' category for small-capacity bins, similar to brands like simplehuman or Kohler without the brand markup.",
+    "value": 45.0
+  },
+  "3e1f0ce7f83f": {
+    "reasoning": "This price reflects a premium for the soft-close mechanism and fingerprint-resistant finish typical of mid-range home brands, while accounting for the lack of a designer logo.",
+    "value": 39.99
+  },
+  "dbb0dd930d09": {
+    "reasoning": "This price point reflects a premium for the soft-close mechanism and fingerprint-resistant finish found in mid-range home goods stores, while accounting for the lack of a brand name and the standard 12-liter size.",
+    "value": 35.0
+  },
+  "8abcd4b41da5": {
+    "reasoning": "This set of premium features like soft-close, fingerprint resistance, and stainless steel typically places the item in the mid-range category of home-goods stores. It balances utility with a high-end aesthetic, mirroring prices found at retailers like Target or Bed Bath & Beyond.",
+    "value": 39.99
+  },
+  "e3a12dbe7308": {
+    "reasoning": "This set of features—soft-close hinge, fingerprint-resistant finish, and stainless steel—positions the item as a mid-range 'premium' utility product similar to Simplehuman or Kohler, but the lack of a brand logo suggests a high-quality store brand price point.",
+    "value": 39.99
+  },
+  "7f8bfaf9f39e": {
+    "reasoning": "This set of features—soft-close hinge, fingerprint-resistant finish, and stainless steel construction—positions the product in the mid-to-high tier for small bins, typically retailing between $30 and $50. $35 represents a fair market price for a non-branded version of this quality.",
+    "value": 35.0
+  },
+  "916f8849f153": {
+    "reasoning": "This set of features—soft-close hinge, fingerprint resistance, and a removable liner—aligns with premium mid-range brands like Simplehuman or Kohler, where 12L models typically retail between $40 and $60.",
+    "value": 45.0
+  },
+  "bd9c9f47786e": {
+    "reasoning": "This price reflects a premium for the soft-close hinge and fingerprint-resistant finish, positioning it above budget plastic models but below high-end designer brands like Simplehuman.",
+    "value": 39.99
+  },
+  "3efbc896338f": {
+    "reasoning": "This set of premium features like soft-close and fingerprint resistance typically positions the item in the mid-range market, comparable to brands like simplehuman or OXO but slightly discounted due to the lack of branding.",
+    "value": 45.0
+  },
+  "c2b539af05f8": {
+    "reasoning": "This set of premium features like soft-close and fingerprint-resistant finish typically places it in the mid-range category for small-capacity bins. I am pricing it at the upper end of retail for unbranded utility items but below high-end designer brands.",
+    "value": 35.0
+  },
+  "f1693ee52940": {
+    "reasoning": "A high-quality 12L stainless steel step can typically retails between $35 and $50; since it was free but is brand new and feature-rich, $30 represents a fair 'friend price' that captures most of its market value.",
+    "value": 30.0
+  },
+  "57dffd50cace": {
+    "reasoning": "Based on the market value for a mid-range 12L stainless steel model which typically retails for $35-$45, I applied a small 'new-in-box' discount while maintaining its value as a functional home upgrade.",
+    "value": 30.0
+  },
+  "54d6eb9893bc": {
+    "reasoning": "Based on market rates for a premium 12L stainless steel can with a soft-close feature, the retail value is roughly $40, so I would accept a 25% discount for a peer-to-peer sale of a new item.",
+    "value": 30.0
+  },
+  "c5251f530582": {
+    "reasoning": "Based on market research for premium 12L stainless steel cans, the retail price typically ranges from $35 to $50; I selected a price point that reflects a 'coworker discount' for a free item while still capturing its functional value.",
+    "value": 30.0
+  },
+  "5f128c679a6b": {
+    "reasoning": "Based on market rates for a premium 12L stainless steel can with a soft-close feature, the retail value is roughly $40, so I would accept a slightly discounted 'coworker rate' for a new item.",
+    "value": 30.0
+  },
+  "57c83144bf83": {
+    "reasoning": "A high-quality 12L stainless steel trash can with soft-close features typically retails for $35-$50, so I've set the price at a fair 'coworker discount' that reflects its new condition without being overpriced.",
+    "value": 30.0
+  },
+  "7ef58e5ad29b": {
+    "reasoning": "A high-quality 12L stainless steel step can typically retails between $35 and $50; since it was won for free but is brand new and feature-rich, $30 represents a fair 'friend price' that captures its utility value while remaining a bargain.",
+    "value": 30.0
+  },
+  "805c231be12e": {
+    "reasoning": "Based on market rates for a premium 12L stainless steel model with soft-close features and the 'raffle win' lack of overhead, $35 is a fair price that covers replacement value while offering a slight discount to a colleague.",
+    "value": 35.0
+  },
+  "d437a582971a": {
+    "reasoning": "A high-quality 12L stainless steel step can typically retails between $35 and $50; since it was free and from a coworker, I'm valuing it at a fair 'second-hand but new' price point that covers a decent lunch.",
+    "value": 30.0
+  },
+  "a571c67e86a4": {
+    "reasoning": "A high-quality 12L stainless steel step can typically retails between $30 and $50; since it was free but is brand new and feature-rich, I would accept a fair 'friend price' that reflects its utility without being greedy.",
+    "value": 25.0
+  },
+  "54bd9a4ec76c": {
+    "reasoning": "Based on historical FIFA Category 2 pricing adjusted for North American market demand and the 20% premium typically seen for host nation opening matches, a price of $450 aligns with projected face value and initial lottery estimates.",
+    "value": 450.0
+  },
+  "2185fc0f9b1c": {
+    "reasoning": "Based on 2022 Category 2 pricing adjusted for North American market demand and typical FIFA inflationary increases for premium opening matches, a mid-tier seat is expected to land around this range.",
+    "value": 450.0
+  },
+  "8ef38ba41310": {
+    "reasoning": "Based on historical FIFA price scaling and the premium for a host nation's opening match, Category 2 tickets are projected to increase from 2022 rates ($440) to reflect North American market demand.",
+    "value": 550.0
+  },
+  "1d08a23a13a8": {
+    "reasoning": "Based on 2022 Category 2 pricing adjusted for North American market demand and FIFA's historical 15-20% price increases between tournaments, Category 2 seats for a high-demand opening match are projected to start around $450.",
+    "value": 450.0
+  },
+  "b1615a4c097d": {
+    "reasoning": "Based on 2022 Category 2 pricing adjusted for North American inflation and the premium demand for the host nation's opening match, a price of $450 reflects the anticipated face value for mid-tier seating.",
+    "value": 450.0
+  },
+  "4c0aa823d009": {
+    "reasoning": "Based on historical FIFA Category 2 pricing adjusted for North American inflation and the premium demand for a host nation's opening match, the price reflects an expected increase over Qatar 2022 rates.",
+    "value": 425.0
+  },
+  "01394b647b88": {
+    "reasoning": "Based on historical FIFA Category 2 pricing adjusted for North American inflation and the premium demand for a host nation's opening match, the expected face value plus typical secondary market markup for a solid lower-bowl seat is approximately $450.",
+    "value": 450.0
+  },
+  "770e08ac96bd": {
+    "reasoning": "Based on 2022 Category 2 pricing adjusted for North American market demand and historical FIFA price hikes, a mid-tier seat for a high-profile opening match is projected to be around $450.",
+    "value": 450.0
+  },
+  "14558d9b1613": {
+    "reasoning": "Based on 2022 Category 2 pricing adjusted for North American market demand and projected FIFA premium increases for a high-profile host opener, a price of $450 represents a realistic mid-tier valuation.",
+    "value": 450.0
+  },
+  "0b4c039e3dd5": {
+    "reasoning": "Based on 2022 Category 2 pricing adjusted for North American inflation and the premium demand for the host nation's opening match, a price of $450 reflects the expected official FIFA face value for this tier.",
+    "value": 450.0
+  },
+  "df4a34dda2f0": {
+    "reasoning": "Based on projected 2026 FIFA face values for Category 2 group stage matches (approx. $300-$450) and the high 'home nation' demand premium, a fair 'friend price' sits between face value and market resale.",
+    "value": 650.0
+  },
+  "9d12d0f78022": {
+    "reasoning": "Based on historical FIFA markup trends and high demand for the USMNT home opener, a fair price balances the likely $300-$450 face value with a moderate 'friendship' premium below the $1,000+ secondary market peak.",
+    "value": 650.0
+  },
+  "bc7ee0545a44": {
+    "reasoning": "Based on historical 2022 World Cup pricing adjusted for US market demand and inflation, Category 2 face value is expected to be around $165, but the fair market value for a high-demand home opener is significantly higher.",
+    "value": 450.0
+  },
+  "60c4d8b4da61": {
+    "reasoning": "Based on historical 2022 pricing adjusted for inflation and the significant North American demand premium for a home-nation opener, a fair secondary market value for a Category 2 seat is approximately $650.",
+    "value": 650.0
+  },
+  "449b83451b35": {
+    "reasoning": "Based on historical FIFA markup trends for host nations and anticipated high demand for the USMNT opener, a fair price balances the likely $300-400 face value with a moderate 'friendship' premium below the expected $1,500+ open market resale value.",
+    "value": 650.0
+  },
+  "49eab6a9b8bc": {
+    "reasoning": "Based on official FIFA 2022 pricing adjusted for U.S. market demand and inflation, Category 2 group stage tickets are expected to retail around $165, but the high secondary market value for a home-nation opener suggests a 'fair' friend price is closer to the anticipated face value plus a small premium.",
+    "value": 225.0
+  },
+  "d678de854cd3": {
+    "reasoning": "Based on projected FIFA face values for Category 2 group stage matches (~$200-$300) plus a moderate 'friend-rate' markup reflecting the high demand for the USMNT home opener, $450 represents a fair middle ground between retail cost and secondary market value.",
+    "value": 450.0
+  },
+  "50ed182e71c6": {
+    "reasoning": "Based on official 2022 pricing adjusted for U.S. market demand and inflation, the face value for Category 2 Group Stage matches is projected at $165, while the 'friend price' balances face value with high secondary market demand.",
+    "value": 250.0
+  },
+  "21fdabee7859": {
+    "reasoning": "Based on projected 2026 face value inflation and high secondary market demand for a home-nation opener, a fair price balances the likely $300-400 face value with a 'friend discount' on the $1,000+ market rate.",
+    "value": 650.0
+  },
+  "1d420c44e2c0": {
+    "reasoning": "Based on historical FIFA price increases and 2022 benchmarks, the official face value for Category 2 group stage matches is projected around $165, but the high demand for a home-nation opener justifies a fair market value adjustment. $350 represents a 'friend' rate that covers potential costs while remaining well below expected secondary market spikes.",
+    "value": 350.0
+  },
+  "726a4ebc4a59": {
+    "reasoning": "Based on current market data for a clean-title 2021 EX-L with sub-40k miles, the $19,000 asking price is significantly below the typical retail range of $23,000–$25,000, making it an exceptionally strong deal.",
+    "value": 23500.0
+  },
+  "de78626bb437": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical retail range of $23,000–$25,000, likely priced aggressively due to being an off-lease unit with fresh tires.",
+    "value": 19000.0
+  },
+  "024c2448a598": {
+    "reasoning": "This price is approximately $4,000 below current market value for a low-mileage EX-L trim, which typically retails between $23,000 and $25,000; at $19,000, this is an exceptionally aggressive deal that likely accounts for quick inventory turnover or local market competition.",
+    "value": 23800.0
+  },
+  "f9d6fbbbf9f7": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical retail value of $23,000–$25,000, likely reflecting a competitive high-volume dealer strategy or a minor adjustment for the 1.5T engine versus the 2.0T.",
+    "value": 23500.0
+  },
+  "3d0167d5dcb0": {
+    "reasoning": "Based on current market data for a clean-title 2021 Accord EX-L with under 40,000 miles, the dealer's $19,000 listing is actually below the typical market average of $23,000–$25,000, making it an exceptionally strong deal as-is.",
+    "value": 19000.0
+  },
+  "e6eda5a2429c": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical market range of $23,000–$25,000, likely reflecting a high-volume pricing strategy or a desire to move off-lease inventory quickly.",
+    "value": 19000.0
+  },
+  "51c326a96309": {
+    "reasoning": "This price is approximately $4,000 below the current market average for a 2021 EX-L with these miles; a fair market value for a well-maintained, clean-title example from a dealer typically ranges between $22,500 and $24,000.",
+    "value": 23500.0
+  },
+  "6139ceec1414": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with sub-40k mileage, the $19,000 listing is significantly below the typical market average of $23,000–$25,000, making it an exceptionally strong value if the title is clean.",
+    "value": 19000.0
+  },
+  "dc21d79eb361": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, $19,000 is significantly below the average retail value of $23,000-$25,000, making it an exceptionally aggressive deal for a clean-title, one-owner vehicle with new tires.",
+    "value": 24250.0
+  },
+  "ae228758f605": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, $19,000 is significantly below the average retail value of $23,000–$25,000, likely due to its mileage being slightly above average for a lease return, but it represents an exceptional deal.",
+    "value": 23500.0
+  },
+  "038c330e8b09": {
+    "reasoning": "The $19,000 asking price is significantly below the current market average of $23,000–$25,000 for a 2021 EX-L with these miles, making it an exceptionally good deal if the title is clean. A fair market value that balances dealer profit with consumer value for this specific trim and condition is approximately $23,500.",
+    "value": 23500.0
+  },
+  "5ae9faf08539": {
+    "reasoning": "Based on current market data for a low-mileage 2021 Accord EX-L, the $19,000 asking price is exceptionally aggressive (roughly $4,000–$5,000 below typical retail) likely due to its off-lease status and specific dealer inventory goals.",
+    "value": 19000.0
+  },
+  "c459e14dbea5": {
+    "reasoning": "Based on current market data, a 2021 Accord EX-L with under 40,000 miles typically retails between $23,000 and $25,000; the $19,000 asking price is significantly below market value, making it an exceptionally good deal if the vehicle history is truly clean.",
+    "value": 23850.0
+  },
+  "8e90af50fd10": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the average market value of $23,000–$25,000, likely reflecting a high-volume pricing strategy or a desire to move off-lease inventory quickly.",
+    "value": 19000.0
+  },
+  "d16eed49a5ef": {
+    "reasoning": "The $19,000 price is significantly below the typical market value of $23,500–$25,500 for a 2021 EX-L with these miles, making it an exceptionally good deal if the title is clean. A fair market price considering the recent tires and one-owner history would be higher, but as a target for a 'fair' buy-in, this is a bargain.",
+    "value": 24200.0
+  },
+  "00c4f0bdedba": {
+    "reasoning": "The $19,000 price is significantly below the typical market value of $23,500–$25,500 for a clean-title, low-mileage 2021 EX-L, suggesting a potential pricing error or aggressive inventory clearance.",
+    "value": 24500.0
+  },
+  "ab6f459b02a8": {
+    "reasoning": "The $19,000 price is significantly below the typical market value of $24,000–$26,000 for a 2021 Accord EX-L with these miles, likely indicating a pricing error or an aggressive move to clear inventory, making it an exceptional deal.",
+    "value": 25200.0
+  },
+  "3cbe5550393e": {
+    "reasoning": "Based on current market data for a 2021 Accord EX-L with ~38k miles, the average retail value typically falls between $24,000 and $26,000; a $19,000 price point is significantly below market value and likely indicates an aggressive clearance or a pricing error.",
+    "value": 25250.0
+  },
+  "48c41f2cd0fe": {
+    "reasoning": "While the $19,000 sale price is significantly below the current market average of $23,000–$25,000 for an EX-L with these miles, it represents an exceptional deal that likely reflects a aggressive year-end or aged-inventory clearance.",
+    "value": 24500.0
+  },
+  "0d71df6074db": {
+    "reasoning": "The current market value for a 2021 Accord EX-L with ~38k miles typically ranges from $23,000 to $25,000; at $19,000, this vehicle is priced significantly below market value, making it an exceptional deal provided there are no undisclosed title issues.",
+    "value": 24250.0
+  },
+  "4a5cf41a1bfe": {
+    "reasoning": "Based on current market data for a 2021 Accord EX-L with ~38k miles, the typical dealer retail value ranges from $23,000 to $25,000; the $19,000 asking price is significantly below market value and represents an exceptionally good deal, likely priced for quick inventory turnover.",
+    "value": 24250.0
+  },
+  "ac54747a1675": {
+    "reasoning": "Based on current market data for a 2021 Accord EX-L with ~38k miles, the average dealer retail price typically ranges from $24,000 to $26,000; a $19,000 price point is significantly below market value and suggests an exceptionally good deal or a pricing error.",
+    "value": 25250.0
+  },
+  "a05451f79027": {
+    "reasoning": "The $19,000 price is significantly below the current market value for a 2021 EX-L with these miles, which typically retails between $23,500 and $25,500; the $10,000 discount suggests a high-value deal or a potential pricing error.",
+    "value": 24500.0
+  },
+  "9b68dafbd364": {
+    "reasoning": "Based on current market data for a 2021 Accord EX-L with 38k miles, the average dealer retail value typically ranges between $23,000 and $25,000; a $19,000 price point is significantly below market value and likely indicates a 'too good to be true' scenario or an aggressive loss-leader tactic.",
+    "value": 24200.0
+  },
+  "fe8912b9af2f": {
+    "reasoning": "The $19,000 price is significantly below the typical market value of $24,000–$26,000 for a low-mileage 2021 EX-L, suggesting an aggressive sale price or a potential pricing error by the dealer.",
+    "value": 25250.0
+  },
+  "a5bba955d6c0": {
+    "reasoning": "Based on current market data for a 2021 EX-L with 38k miles, the average retail value typically falls between $23,000 and $25,000; a $19,000 price point is significantly below market value and represents an exceptional deal, provided there are no undisclosed mechanical issues or hidden fees.",
+    "value": 24500.0
+  },
+  "edaa4ecabd65": {
+    "reasoning": "The $19,000 price is significantly below the typical market range of $23,500 to $25,500 for a 2021 EX-L with these miles, making it an exceptionally good deal if the vehicle history is truly clean.",
+    "value": 24500.0
+  },
+  "ff7fe3e7909f": {
+    "reasoning": "While the $19,000 sale price is significantly below the current market average of $23,000–$25,000 for an EX-L with these miles, a fair market value considering its clean history and new tires sits right in the middle of typical dealer retail.",
+    "value": 24500.0
+  },
+  "fa72b054ac51": {
+    "reasoning": "Based on current market data for a 2021 Accord EX-L with ~38k miles, the typical retail value ranges from $24,000 to $26,000; the $19,000 asking price is significantly below wholesale trade-in value, suggesting it is either an exceptional deal or priced to move quickly.",
+    "value": 25250.0
+  },
+  "1cafa372a1d0": {
+    "reasoning": "The 2021 Accord EX-L typically commands a market value between $23,000 and $25,000; the $19,000 price point is significantly below market average and likely reflects a high-volume pricing strategy or a mistake in the listing.",
+    "value": 24200.0
+  },
+  "ed92fd0b5423": {
+    "reasoning": "A high-quality 12L stainless steel trash can typically retails between $30 and $50; a fair peer-to-peer price for a new-in-box raffle item is approximately 60-70% of the retail value.",
+    "value": 25.0
+  },
+  "6a045416fa53": {
+    "reasoning": "This is a mid-range kitchen/office accessory similar to brands like simplehuman or Honey-Can-Do, which typically retail between $30 and $50; a fair 'coworker price' for a new, unboxed item is approximately 60-70% of the retail value.",
+    "value": 25.0
+  },
+  "a21c2b38d52e": {
+    "reasoning": "This is a mid-range, small-format stainless steel bin; similar unbranded models retail between $30 and $45, so a 25% 'office friend' discount on a $40 estimate makes $30 a fair price.",
+    "value": 30.0
+  },
+  "b7d8aa124f54": {
+    "reasoning": "Generic but high-quality stainless steel 12L step cans typically retail between $25 and $40. A fair 'coworker price' for a new, unbranded raffle item is approximately 60-70% of the median retail value.",
+    "value": 22.0
+  },
+  "7d043ff64d6a": {
+    "reasoning": "This is a standard mid-range 3-gallon office bin; similar unbranded models retail for $30-$40, so a 25% discount for a peer-to-peer 'raffle win' sale makes it a fair deal for both parties.",
+    "value": 25.0
+  },
+  "642ba453ff38": {
+    "reasoning": "This is a mid-range, small-format stainless steel can; while premium brands like Simplehuman cost $40-50, generic equivalents retail for $25-30, making a $20 secondhand 'office deal' fair for both parties.",
+    "value": 20.0
+  },
+  "6df9454a4fbe": {
+    "reasoning": "This is a premium-feature small trash can (soft-close, fingerprint-resistant) that typically retails for $30-$40 new. A fair 'coworker price' for an unboxed raffle win is roughly 60-70% of retail value.",
+    "value": 25.0
+  },
+  "096cd2ea32bf": {
+    "reasoning": "Generic but high-quality stainless steel 12L cans typically retail between $30 and $45; a fair 'office friend' price for a brand-new raffle win is roughly 60-70% of the mid-range retail value.",
+    "value": 25.0
+  },
+  "aeecf074d1cc": {
+    "reasoning": "Generic 12L stainless steel step cans typically retail between $30 and $45; a fair 'coworker price' accounts for it being secondhand but unused, landing at roughly 60-70% of retail value.",
+    "value": 25.0
+  },
+  "8296ae5937e3": {
+    "reasoning": "This is a standard mid-range 3-gallon office trash can that typically retails for $25–$40; a fair 'office friend' price for a won item is roughly 60% of the retail value.",
+    "value": 20.0
+  },
+  "b6c2d0f923ac": {
+    "reasoning": "This is a standard mid-range 3-gallon office bin; similar unbranded models retail for $30–$40, so $25 represents a fair 'colleague discount' for a new item without tax or shipping.",
+    "value": 25.0
+  },
+  "6a2727b717ef": {
+    "reasoning": "Generic 12-liter stainless steel step cans typically retail between $25 and $40 new; a fair 'office friend' price for an unbranded, won-in-a-raffle item is roughly 60-70% of the mid-range retail value.",
+    "value": 20.0
+  },
+  "cd1c4ee54750": {
+    "reasoning": "Generic 12L stainless steel step cans typically retail between $25 and $40; a 'fair' secondhand office price for a new-in-box item is roughly 75% of the median retail value.",
+    "value": 25.0
+  },
+  "4f0aaec192d2": {
+    "reasoning": "This is a standard mid-range 12L stainless steel bin, typically retailing between $30 and $45; a fair 'office friend' price for a raffle win is roughly 60% of the retail value.",
+    "value": 25.0
+  },
+  "9211eeb9f690": {
+    "reasoning": "A mid-range 12L stainless steel step can typically retails for $30 to $45; a fair 'office friend' price for a new-in-box raffle win is approximately 60-70% of market value.",
+    "value": 25.0
+  },
+  "b7f990fbc2b8": {
+    "reasoning": "Generic 12L stainless steel step cans typically retail between $30 and $45; a $25 price point accounts for a 'coworker discount' while reflecting the value of its premium features like the soft-close lid.",
+    "value": 25.0
+  },
+  "0556448e0177": {
+    "reasoning": "This matches the specifications of a mid-range office trash can, which typically retails between $35 and $50; a $30 price point accounts for a 'coworker discount' while retaining most of its value as a new item.",
+    "value": 30.0
+  },
+  "426ab4b8ed29": {
+    "reasoning": "This matches the specifications of a standard mid-range office trash can (like Simplehuman or high-end store brands) which typically retail for $35-$50; $30 represents a fair 'new-without-box' discount for a coworker.",
+    "value": 30.0
+  },
+  "950388794dc0": {
+    "reasoning": "Generic 12L stainless steel step cans typically retail between $30 and $45; a price of $25 accounts for it being brand new (raffle win) while offering a 'coworker discount' below market value.",
+    "value": 25.0
+  },
+  "ea919b009b3e": {
+    "reasoning": "This matches the specifications of a mid-range office trash can, which typically retails between $30 and $45; a $25 price point represents a fair 'second-hand but new' discount for a coworker.",
+    "value": 25.0
+  },
+  "5cc10be9a01a": {
+    "reasoning": "Generic 12L stainless steel step cans typically retail between $30 and $45; a price of $25 accounts for it being new while offering a 'coworker discount' below retail value.",
+    "value": 25.0
+  },
+  "1a0093009ad3": {
+    "reasoning": "Generic 12L stainless steel step cans typically retail between $30 and $45; a $25 price point accounts for a 'coworker discount' while reflecting its brand-new condition and premium features like soft-close.",
+    "value": 25.0
+  },
+  "a803d1929d00": {
+    "reasoning": "This matches the specifications of a mid-range office trash can, which typically retails between $30 and $45; a 25% 'raffle win' discount makes it a fair deal for a colleague.",
+    "value": 30.0
+  },
+  "355f9458c5be": {
+    "reasoning": "This set of features describes a mid-range, high-quality generic trash can similar to those sold at retailers like Target or Amazon, where they typically retail for $35-$45. Since it was won for free and is being sold to a coworker, a fair 'friend price' is approximately 60-70% of its estimated retail value.",
+    "value": 25.0
+  },
+  "b5631e1fb403": {
+    "reasoning": "This matches the specifications of a mid-range office trash can, which typically retails between $30 and $45; a price of $25 accounts for a slight 'raffle winner' discount while remaining fair for a high-quality, fingerprint-resistant stainless steel item.",
+    "value": 25.0
+  },
+  "028cc91e6a8c": {
+    "reasoning": "This matches the specifications of a mid-range office trash can, which typically retails between $30 and $45; a 25% discount for a 'win' and a peer-to-peer sale makes $30 a fair price for both parties.",
+    "value": 30.0
+  },
+  "cfad1c46e7ba": {
+    "reasoning": "This matches the specifications of a mid-range office bin, which typically retails between $35 and $50; a $30 price point accounts for a 'friendly' coworker discount while maintaining most of its new value.",
+    "value": 30.0
+  },
+  "6ce3775e13bf": {
+    "reasoning": "Generic 12-liter stainless steel step cans typically retail between $30 and $45; a price of $25 accounts for a 'coworker discount' and the convenience of an immediate, tax-free cash transaction for a win-fall item.",
+    "value": 25.0
+  },
+  "4f1e3ed05c19": {
+    "reasoning": "High-quality stainless steel step cans of this size typically retail between $30 and $50; a $25 price point accounts for a 'coworker discount' and the lack of a brand name while still reflecting the value of premium features like the soft-close lid.",
+    "value": 25.0
+  },
+  "292dc27e83b9": {
+    "reasoning": "Based on current market data for a low-mileage 2021 EX-L, the value accounts for the high-trim features and recent maintenance like Michelin tires, while adjusting for the 1.5T engine's slightly lower market demand compared to the 2.0T.",
+    "value": 25850.0
+  },
+  "7398d5f91b21": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with average mileage, the value is bolstered by the clean one-owner history and premium Michelin tires, offset slightly by being just outside the original bumper-to-bumper warranty.",
+    "value": 25850.0
+  },
+  "34df740a3566": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the low mileage and recent tire replacement offset the basic powertrain warranty to land right at the average retail value for a clean, one-owner specimen.",
+    "value": 25800.0
+  },
+  "b0fa3c59daee": {
+    "reasoning": "Based on current market data for a 2021 EX-L with slightly above-average mileage, the value accounts for the high-quality replacement tires and the premium associated with a clean, one-owner lease return at a franchise dealer.",
+    "value": 25850.0
+  },
+  "00fa4d07b46b": {
+    "reasoning": "Based on current market trends for a 2021 EX-L with slightly higher-than-average mileage, the value is bolstered by the clean one-owner history and premium new tires, though tempered by the 1.5L engine compared to the 2.0L variant. A fair dealer price sits between the private party value and the higher CPO retail price.",
+    "value": 25800.0
+  },
+  "653a72403c0c": {
+    "reasoning": "Based on current market data for a low-mileage 2021 EX-L, the value reflects its high-demand trim level and clean history, adjusted for being just over the typical 36,000-mile bumper-to-bumper warranty threshold while benefiting from new premium tires.",
+    "value": 25850.0
+  },
+  "e7d8940f5f09": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with average mileage, the value is bolstered by the clean one-owner history and premium Michelin tires, offset slightly by the 1.5T engine versus the more desirable 2.0T.",
+    "value": 25800.0
+  },
+  "3d1ab9dc4cdb": {
+    "reasoning": "Based on current market data for a low-mileage 2021 EX-L, the value reflects its high-demand trim level and recent maintenance, adjusted for being just outside the standard 36,000-mile bumper-to-bumper warranty.",
+    "value": 25850.0
+  },
+  "077dc302ab30": {
+    "reasoning": "Based on current market data for a 2021 EX-L with slightly above-average mileage, the value accounts for the high-quality replacement tires and the premium associated with a clean, one-owner lease return sold at a franchise dealership.",
+    "value": 25800.0
+  },
+  "ec1ea2242603": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with average mileage, the value is bolstered by the clean one-owner history and premium Michelin tires, offset slightly by being just outside the original basic warranty.",
+    "value": 25800.0
+  },
+  "5a1f6dfbba8b": {
+    "reasoning": "Based on current market data for a 2021 EX-L with average mileage, the value is bolstered by the clean one-owner history and premium Michelin tires, offset slightly by the high-volume 1.5T powertrain. A fair dealer retail price sits right at the intersection of the $24,500 trade-in value and $27,500 CPO asking prices.",
+    "value": 25850.0
+  },
+  "3b353f24754e": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with average mileage, the value is bolstered by the clean one-owner history and recent premium tire replacement, though tempered by the 1.5T engine versus the more desirable 2.0T. A fair dealer retail price sits slightly above private party value but below full CPO pricing.",
+    "value": 25800.0
+  },
+  "d034521134c7": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the low mileage and recent maintenance justify a price slightly above the $24,500 trade-in average but below the $28,000 CPO ceiling.",
+    "value": 26450.0
+  },
+  "da369a535e2a": {
+    "reasoning": "Based on the mileage, single-owner history, and high-quality replacement tires, this car sits at the top end of the private party range and the mid-range for dealer retail, accounting for the added value of the EX-L trim and dealer inspection.",
+    "value": 24850.0
+  },
+  "5e7a6bd5af33": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the low mileage and recent maintenance (new tires/service) offset the depreciation of the 1.5T engine, placing it toward the high end of private party and mid-range of dealer retail values.",
+    "value": 25800.0
+  },
+  "b6928ef1d665": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with sub-40k mileage, the listing price of $19,000 is significantly below the average market value of $23,000–$25,000, making it an exceptionally strong deal as long as the title is clean.",
+    "value": 19000.0
+  },
+  "e594c9474958": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market retail for a 2021 EX-L with these miles; it likely represents a high-value deal or a slightly aggressive pricing strategy to move inventory.",
+    "value": 19000.0
+  },
+  "956d94865949": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market retail for a 2021 EX-L with these miles, likely reflecting a high-volume pricing strategy or a desire to move off-lease inventory quickly. Given the clean history and new tires, anything under $23,000 is an exceptional deal for this specific trim and mileage.",
+    "value": 19000.0
+  },
+  "ccc54bc68c8a": {
+    "reasoning": "This price is approximately $4,000–$5,000 below market value for an EX-L trim with these miles; it likely reflects a high-value trade-in price or an aggressive promotional listing, as most comparable units retail for $23,500–$25,000.",
+    "value": 19000.0
+  },
+  "9e867e20c623": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market value for a low-mileage 2021 EX-L, suggesting it is either a high-volume 'loss leader' or priced aggressively to move; a typical fair dealer retail price for this specific condition and trim is closer to $23,500.",
+    "value": 23500.0
+  },
+  "5de2b4bfde38": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with 38k miles, the average retail value typically ranges from $23,000 to $25,000; at $19,000, this vehicle is priced significantly below market value, making it an exceptional deal provided the title is clean.",
+    "value": 19000.0
+  },
+  "073cce68805f": {
+    "reasoning": "This price is approximately $4,000 below current market retail for a 2021 EX-L with these miles, likely reflecting a high-value trade-in or aggressive pricing strategy, making it an exceptional deal as-is.",
+    "value": 19000.0
+  },
+  "3a92b7850b23": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical retail value of $24,000–$26,000 for this mileage and trim. Given the clean history and new tires, this represents an aggressive 'priced-to-sell' deal that is well under fair market value.",
+    "value": 19000.0
+  },
+  "c56a5a0ec751": {
+    "reasoning": "This price is approximately $3,000 below current market value for a low-mileage EX-L trim, which typically retails between $22,000 and $24,000; at $19,000, you are getting an exceptional deal that is closer to wholesale trade-in value.",
+    "value": 19000.0
+  },
+  "8e82ecf820e1": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with 38k miles, the average retail value typically ranges from $23,000 to $25,000; at $19,000, this vehicle is priced significantly below market value, making it an exceptionally good deal if the title is clean.",
+    "value": 19000.0
+  },
+  "80d6a0882f70": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market value for a 2021 EX-L with these miles; it is an exceptional deal that likely sits below the dealer's trade-in acquisition cost.",
+    "value": 23500.0
+  },
+  "86126707a9ab": {
+    "reasoning": "This price is approximately $4,500 below current market average for a 2021 EX-L with these miles, likely reflecting a high-volume dealer strategy or aggressive pricing for a quick sale. Given the clean history and new tires, any price under $20,000 is an exceptional deal, making $19,000 a very strong 'fair' value for the buyer.",
+    "value": 19000.0
+  },
+  "e16b2f00696f": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market retail for a clean-title 2021 EX-L with these miles, likely reflecting a high-volume clearance or aggressive pricing strategy. A fair market value would typically be higher, but $19,000 represents an exceptional deal that is well below the average dealer listing price.",
+    "value": 19000.0
+  },
+  "79833f8406e2": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical dealer retail range of $23,000–$25,000 for this mileage and condition, making it an exceptionally strong deal. This price is closer to wholesale trade-in value, likely reflecting a desire for quick inventory turnover.",
+    "value": 19000.0
+  },
+  "65e84234aabb": {
+    "reasoning": "With an average market value for this trim and mileage typically ranging between $22,000 and $24,000, a listed price of $19,000 is exceptionally low and likely reflects a 'no-haggle' aggressive pricing strategy or a mistake. Given the clean history and new tires, any price under $21,000 is an excellent deal, but $19,000 is the clear fair-market winner here.",
+    "value": 19000.0
+  },
+  "83c27bbaa18b": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for a 2021 EX-L with these miles, likely indicating an aggressive inventory clearance or a pricing error, as it is currently priced closer to a high-mileage base LX model.",
+    "value": 24500.0
+  },
+  "b431d607a95f": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for a 2021 EX-L with these miles, likely indicating an aggressive clearance or a pricing error, as the fair market value for a clean-title, one-owner Accord in this trim remains notably higher.",
+    "value": 24500.0
+  },
+  "7ba21990cece": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L with 38k miles, the average retail value typically ranges from $23,500 to $25,500; the $19,000 asking price is significantly below wholesale trade-in value, making it an exceptionally good deal if the vehicle history is truly clean.",
+    "value": 24500.0
+  },
+  "e5dd93992fb4": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for a 2021 EX-L with these miles, likely indicating an aggressive volume-based markdown or a pricing error.",
+    "value": 24500.0
+  },
+  "dccbac4e2414": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for an EX-L trim with these miles, likely indicating an aggressive sale price or a potential pricing error given the high trim level and clean history.",
+    "value": 24500.0
+  },
+  "3ae064ee0571": {
+    "reasoning": "The current $19,000 price is significantly below the average market value of $23,500–$25,500 for this trim and mileage, likely serving as a 'loss leader' or reflecting a need for rapid inventory turnover. A fair market price for an EX-L in this condition is typically around $24,500, making the $19,000 offer an exceptional deal.",
+    "value": 24500.0
+  },
+  "1bf34210c300": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for a 2021 EX-L with these miles, likely indicating a pricing error or an aggressive clearance strategy. A fair market value considering the trim level and recent maintenance is approximately $24,500.",
+    "value": 24500.0
+  },
+  "e0d8f38feeee": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for an EX-L with these miles, likely indicating a pricing error or a high-volume clearance strategy by the dealer.",
+    "value": 23800.0
+  },
+  "c432125bf412": {
+    "reasoning": "Based on current market data for a 2021 Accord EX-L with 38k miles, the average retail value typically ranges from $23,500 to $25,500; the $19,000 asking price is significantly below market value and likely represents an aggressive 'priced-to-sell' figure or a potential bait-and-switch.",
+    "value": 24500.0
+  },
+  "ef1523ed8027": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with 38k miles, the average retail value typically ranges from $24,000 to $26,000; a price of $19,000 is significantly below market value and likely represents an aggressive promotional price or a potential error.",
+    "value": 24850.0
+  },
+  "f63f64d43187": {
+    "reasoning": "The current $19,000 price is significantly below the average market value of $23,500–$25,500 for a 2021 EX-L with these miles, likely indicating a pricing error or a highly aggressive loss-leader strategy.",
+    "value": 24500.0
+  },
+  "4cc42733186a": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for a 2021 EX-L with these miles, likely indicating a pricing error or an aggressive clearance strategy. A fair market value considering the trim level, low mileage, and new tires would typically be higher, but the current listing represents an exceptional deal.",
+    "value": 24500.0
+  },
+  "b2dd8633d2b8": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for an EX-L with these miles, likely indicating a pricing error or a highly aggressive loss-leader tactic.",
+    "value": 24500.0
+  },
+  "b4ce910979c8": {
+    "reasoning": "The current $19,000 price is significantly below the market average of $23,000–$25,000 for an EX-L with these miles, likely indicating a pricing error or an aggressive inventory clearance, making it an exceptional deal.",
+    "value": 24500.0
+  },
+  "3d1a4256f4db": {
+    "reasoning": "Based on current market data for a 2021 EX-L with 38k miles, the average retail value is between $23,000 and $25,000; the $19,000 asking price is significantly below market value and likely represents an aggressive lead-generation tactic or a pricing error.",
+    "value": 24250.0
+  },
+  "1a829250e258": {
+    "reasoning": "Based on current market data, a GIA G/VS2/Ex loose diamond of this quality retails for approximately $4,400–$4,600, while a standard 14k solitaire setting adds about $400–$600 in a retail environment.",
+    "value": 5050.0
+  },
+  "5ab026852e9e": {
+    "reasoning": "The GIA Triple Excellent G/VS2 stone has a market value of approximately $4,500 based on current wholesale-to-retail indices, plus roughly $400 for the 14k setting and $300 for the retail markup and lifetime service package.",
+    "value": 5200.0
+  },
+  "9ee10ac488c3": {
+    "reasoning": "Based on current market data for a GIA 1.02ct G/VS2/Ex stone ($4,000–$4,500) plus a standard 14k setting ($400–$600), a fair retail price for an independent jeweler including service value is approximately $5,000.",
+    "value": 5000.0
+  },
+  "8a7d4e324a9b": {
+    "reasoning": "A GIA G/VS2 1ct Triple Excellent diamond typically retails for $4,200-$4,600 online, plus approximately $400-$600 for a 14k gold setting and local jeweler value-adds like lifetime maintenance.",
+    "value": 4950.0
+  },
+  "a4ccf2f831ec": {
+    "reasoning": "The center diamond has a wholesale market value of approximately $3,800-$4,100 based on its high-quality specs (G/VS2/3EX), plus roughly $400 for the 14k setting and $700 for the retail markup and service package.",
+    "value": 5150.0
+  },
+  "19eadc6b0ae7": {
+    "reasoning": "Based on current wholesale market data, a 1.02ct G/VS2 Excellent cut diamond typically trades between $3,800 and $4,200, plus approximately $400 for a 14k gold setting and labor. A fair price for a high-quality brick-and-mortar retail purchase including lifetime services is approximately $4,600.",
+    "value": 4600.0
+  },
+  "6412a01d0015": {
+    "reasoning": "The current market price for a GIA 1.02ct G VS2 Triple Excellent diamond is approximately $4,200–$4,500, with an additional $400 for a 14k gold setting and $300 for the premium of local jeweler services and warranties.",
+    "value": 5150.0
+  },
+  "a33ec26b814a": {
+    "reasoning": "Based on current market data, a GIA G/VS2/3EX 1-carat diamond retails for approximately $4,200–$4,500 online, with an additional $400 for a 14k setting and a modest premium for the independent jeweler's lifetime services.",
+    "value": 5150.0
+  },
+  "4ab3ffb241fe": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex diamond with no fluorescence is approximately $3,800-$4,100, plus roughly $400 for a 14k setting and labor; a fair retail price including the jeweler's overhead and service package is about $4,800.",
+    "value": 4800.0
+  },
+  "500fbc5700a2": {
+    "reasoning": "The diamond's market value is approximately $4,200 based on current Rapaport-aligned wholesale-to-retail margins for a 'triple excellent' G/VS2, plus roughly $600 for the 14k setting and jeweler's value-added services.",
+    "value": 4800.0
+  },
+  "50baeae673f2": {
+    "reasoning": "A GIA G/VS2/EX diamond of this quality typically retails for $4,100–$4,500 online, and adding roughly $500 for a 14k gold solitaire setting plus a modest brick-and-mortar service premium brings the fair market value to approximately $4,850.",
+    "value": 4850.0
+  },
+  "dd39bcef42d1": {
+    "reasoning": "The diamond's market value is approximately $4,200 based on current wholesale-plus-markup pricing for a G/VS2 Triple Excellent GIA stone, plus $600 for the 14k setting and jeweler's overhead/services. A fair retail price for an independent jeweler providing long-term maintenance is around $4,800.",
+    "value": 4800.0
+  },
+  "18c4e5f29ee4": {
+    "reasoning": "Based on current market data for a GIA 1.02ct G/VS2/3EX diamond (~$4,200 wholesale/online) plus the 14k setting and professional service markup, a competitive retail price for an independent jeweler is approximately $5,100.",
+    "value": 5100.0
+  },
+  "dcbfb17f5c0d": {
+    "reasoning": "The market value for a GIA 1.02ct G VS2 Triple Excellent diamond is approximately $4,200–$4,500 online, plus roughly $400 for a 14k setting and labor; a $5,200 retail price is very fair for an independent jeweler including lifetime services.",
+    "value": 5200.0
+  },
+  "3cacd9d5830e": {
+    "reasoning": "Based on current market data, a GIA-certified 1.02ct G VS2 Triple Excellent diamond with these ideal proportions typically retails for $4,400–$4,600 online, plus approximately $400 for a 14k gold setting and local jeweler services.",
+    "value": 4950.0
+  },
+  "4f7b87715102": {
+    "reasoning": "Based on current market data for a 1.02ct G/VS2/3EX diamond, the stone's wholesale value is approximately $3,800-$4,200, plus a $400-600 retail markup for the setting and service overhead.",
+    "value": 4750.0
+  },
+  "5c0790c433d5": {
+    "reasoning": "Based on current wholesale market data for a G/VS2 Triple Excellent GIA diamond (~$4,200–$4,600) plus a standard retail markup for the 14k setting and jeweler services, $5,200 is a fair and competitive price for a brick-and-mortar purchase.",
+    "value": 5200.0
+  },
+  "3f29fcfd5750": {
+    "reasoning": "A 1.02ct G/VS2/XXX diamond has a current wholesale value around $3,800-$4,200; adding a $300 setting and a standard 20-30% independent retail markup brings the fair market value to approximately $5,500.",
+    "value": 5500.0
+  },
+  "079a32986197": {
+    "reasoning": "A 1.02ct G/VS2/XXX GIA stone currently retails between $4,200 and $4,600 online, and adding approximately $400 for a 14k setting and jeweler services brings the total fair market retail value to $4,900.",
+    "value": 4900.0
+  },
+  "cb65faf45309": {
+    "reasoning": "Based on current wholesale and retail market data for a GIA 3EX G/VS2 1-carat diamond (~$4,200-$4,600) plus the 14k setting and services, $5,200 is a fair and competitive retail price for a brick-and-mortar jeweler.",
+    "value": 5200.0
+  },
+  "e9d08c4cfe4e": {
+    "reasoning": "Based on current market data for a GIA 1.02ct G/VS2/Ex stone, the loose diamond wholesale value is approximately $4,200-$4,400, plus $400 for a 14k setting and labor, with a standard independent jeweler markup of 10-15%.",
+    "value": 5350.0
+  },
+  "e87a2b2cade2": {
+    "reasoning": "A 1.02ct G/VS2/EX GIA diamond currently retails online for $3,800–$4,200, plus approximately $600 for a 14k setting and jeweler services; $5,200 is a fair, competitive retail price for a brick-and-mortar store.",
+    "value": 4650.0
+  },
+  "e0517b2e7c73": {
+    "reasoning": "Based on current wholesale market data for a G/VS2 Excellent cut GIA diamond (~$4,200–$4,600) plus a standard retail markup and the value of a 14k setting, $5,200 is a competitive and fair retail price for an independent jeweler.",
+    "value": 5200.0
+  },
+  "ce169141ff7d": {
+    "reasoning": "A GIA G/VS2 1ct Triple Excellent diamond typically retails between $4,200 and $4,600 online, and adding roughly $500 for a 14k setting and professional jeweler services brings the total fair market value to approximately $4,900.",
+    "value": 4900.0
+  },
+  "5bf4c5df8845": {
+    "reasoning": "The diamond's wholesale market value for a G/VS2/Ex/No-Fluo stone is approximately $3,800–$4,200, and adding a standard retail markup for the 14k setting and jeweler services brings the total to a competitive market rate.",
+    "value": 4850.0
+  },
+  "2d936c84585e": {
+    "reasoning": "The diamond's market value is approximately $4,200-$4,400 based on current Rappaport-aligned wholesale-to-retail margins for G/VS2/3EX stones, plus $400 for the 14k setting and labor. $5,200 is a fair, standard retail price for an independent jeweler offering lifetime maintenance.",
+    "value": 5200.0
+  },
+  "9ea40f2aa162": {
+    "reasoning": "The diamond's wholesale market value is approximately $4,200-$4,500, and with the 14k setting and jeweler's overhead/service package, a standard retail markup brings the fair market price to roughly $5,100.",
+    "value": 5100.0
+  },
+  "66ba0558bec2": {
+    "reasoning": "Based on current wholesale market data for a G/VS2/3EX natural diamond and the retail markup for an independent jeweler including the setting, the fair market price typically ranges from $4,800 to $5,400.",
+    "value": 5150.0
+  },
+  "62c5d396d6e2": {
+    "reasoning": "A GIA G/VS2/EX 1-carat diamond typically wholesales for $4,000-$4,300, and with a $300 14k setting plus a standard 20-25% independent retail markup, the total value aligns with current market competitive pricing.",
+    "value": 5400.0
+  },
+  "8bd302d088a5": {
+    "reasoning": "Based on current market data for a GIA 1.02ct G/VS2/Ex stone, the loose diamond wholesale-to-retail value is approximately $4,500–$4,800, plus roughly $400 for a 14k setting and professional services. The $5,200 asking price is a fair retail value, while the $9,500 appraisal is a standard inflated insurance replacement value.",
+    "value": 5150.0
+  },
+  "3e3a107059a4": {
+    "reasoning": "This price is slightly below the typical market range of $5,200–$5,500 for a full-set 3861 Hesalite, making it an excellent deal especially considering the recent official service and reputable dealer source.",
+    "value": 4900.0
+  },
+  "00c1f8cb4383": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as secondary market values typically range from $4,800 to $5,300 depending on condition.",
+    "value": 4900.0
+  },
+  "5eda3a87a8d8": {
+    "reasoning": "This price is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service and includes the extra NATO strap, as these typically trade between $4,800 and $5,200 in the secondary market.",
+    "value": 4900.0
+  },
+  "f56596947227": {
+    "reasoning": "The 3861 Hesalite typically trades between $4,600 and $5,200; given the recent factory service and full set, $4,900 is a very fair market price from a reputable dealer.",
+    "value": 4900.0
+  },
+  "0329c9ccdfc4": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market values typically range from $4,800 to $5,300 for this condition.",
+    "value": 4900.0
+  },
+  "09eec2260699": {
+    "reasoning": "The 3861 Hesalite model typically trades between $4,600 and $5,200; given the recent factory service and full set, $4,900 is a highly competitive and fair market price from a dealer.",
+    "value": 4900.0
+  },
+  "41c4b31a0c5e": {
+    "reasoning": "The 3861 Hesalite typically trades between $4,500 and $5,200; this price is highly competitive given the recent official service history, full set inclusion, and dealer protection.",
+    "value": 4900.0
+  },
+  "cf975d6573e3": {
+    "reasoning": "The 3861 Hesalite model typically trades between $4,500 and $5,200; given the recent factory service, full set, and reputable dealer status, $4,900 is a very fair market price.",
+    "value": 4900.0
+  },
+  "3cb7cd5c37a3": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges from $5,000 to $5,400.",
+    "value": 4900.0
+  },
+  "d9d940e6fb83": {
+    "reasoning": "The 3861 Hesalite typically trades between $4,600 and $5,100; given the recent factory service and full set, $4,900 is a fair market price from a reputable dealer.",
+    "value": 4900.0
+  },
+  "969a4dfc8b6e": {
+    "reasoning": "The 3861 Hesalite typically trades between $4,500 and $5,200; the $4,900 asking price is very fair given the recent official service, full set status, and the security of a reputable dealer with a return policy.",
+    "value": 4900.0
+  },
+  "914cffec0543": {
+    "reasoning": "The 3861 Hesalite typically trades between $4,500 and $5,200; this specific price is highly competitive given the recent official service history, full set provenance, and inclusion of the OEM NATO strap.",
+    "value": 4900.0
+  },
+  "e7eb4909e5fe": {
+    "reasoning": "The 3861 Hesalite typically trades between $4,500 and $5,200; this price is highly competitive given the recent official service history and the inclusion of a full set with an extra OEM strap.",
+    "value": 4900.0
+  },
+  "64cee4c10181": {
+    "reasoning": "The 310.30.42.50.01.001 (Hesalite 3861) currently trades between $4,600 and $5,100; given the recent factory service and full set, $4,900 is a very fair market price from a reputable dealer.",
+    "value": 4900.0
+  },
+  "a73538baf396": {
+    "reasoning": "The 3861 Hesalite model typically trades between $4,600 and $5,200; the $4,900 asking price is very fair given the recent official service history, full set provenance, and inclusion of the OEM NATO strap.",
+    "value": 4900.0
+  },
+  "14d2ae92a705": {
+    "reasoning": "The price of $4,900 is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $5,000 and $5,400 on the secondary market. Given the recent service value and the inclusion of the extra NATO strap, this represents a fair-to-good deal from a reputable dealer.",
+    "value": 4900.0
+  },
+  "c6aa6d67d9c9": {
+    "reasoning": "The price of $4,900 is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $4,800 and $5,200 on the secondary market. The inclusion of a recent boutique service and a return window adds significant value, making this a very fair deal.",
+    "value": 4900.0
+  },
+  "08afcca9d227": {
+    "reasoning": "The price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges from $5,000 to $5,400 for this condition.",
+    "value": 4900.0
+  },
+  "29219f96665f": {
+    "reasoning": "The price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges from $4,800 to $5,300. Given the included service history and dealer reputation, $4,900 is a very fair price.",
+    "value": 4900.0
+  },
+  "50d6cc03d254": {
+    "reasoning": "The price of $4,900 is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $4,800 and $5,200 on the secondary market. The inclusion of the boutique service record adds significant value and peace of mind, justifying a price at the lower end of that professional dealer range.",
+    "value": 4900.0
+  },
+  "5353ceeeff9b": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges from $5,000 to $5,400.",
+    "value": 4900.0
+  },
+  "ffb0937a9001": {
+    "reasoning": "The price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges from $4,800 to $5,300 depending on condition. $4,900 represents a fair, slightly below-average dealer price that accounts for the light wear while offering the security of a service warranty.",
+    "value": 4900.0
+  },
+  "14ce572b8d8d": {
+    "reasoning": "The price of $4,900 is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $4,800 and $5,200 on the secondary market. The inclusion of a recent service record and a return window makes this a strong value-add compared to typical private sales.",
+    "value": 4900.0
+  },
+  "6b1d5f7bf3f4": {
+    "reasoning": "The price of $4,900 is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $5,000 and $5,400 on the secondary market. Given the recent service value and included extra strap, this represents a fair-to-aggressive deal from a reputable dealer.",
+    "value": 4900.0
+  },
+  "4016b5d05557": {
+    "reasoning": "The price reflects a fair market value for a 3861 Hesalite model with a recent factory service and full set, sitting between private party sales (~$4,600) and premium dealer listings (~$5,200).",
+    "value": 4900.0
+  },
+  "4430d3c698cc": {
+    "reasoning": "The price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges from $4,800 to $5,300 depending on condition. $4,900 represents a fair, slightly below-average dealer price that accounts for the light wear and the value-add of the recent boutique service.",
+    "value": 4900.0
+  },
+  "48e2d1eb530b": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model, as recent comps typically range from $5,200 to $5,600; the $4,900 ask is likely a reflection of the minor wear and the dealer's desire for a quick sale despite the recent service value.",
+    "value": 4900.0
+  },
+  "b029682b9c4d": {
+    "reasoning": "The price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market prices for this reference typically range between $4,800 and $5,300 depending on condition.",
+    "value": 4900.0
+  },
+  "a620719ea56b": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model, especially considering it includes a recent official Omega service and a full set, as these typically trade between $4,800 and $5,300 on the secondary market.",
+    "value": 4900.0
+  },
+  "b5c43f72733a": {
+    "reasoning": "The GIA G/VS2/EX diamond has a wholesale market value around $3,800–$4,200, plus approximately $400 for the 14k setting and labor; a fair retail price for an independent jeweler including overhead and service value is approximately $4,800.",
+    "value": 4800.0
+  },
+  "f201f46299d2": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex stone is approximately $3,800–$4,200, and with a standard retail markup plus the 14k setting and lifetime services, $5,200 is a highly competitive and fair price for an independent jeweler.",
+    "value": 5200.0
+  },
+  "450256403fc7": {
+    "reasoning": "A loose GIA G/VS2/3EX diamond of this quality currently retails for approximately $4,200–$4,500, and a 14k gold solitaire setting adds roughly $400–$600. The $5,200 asking price is a fair market value for a brick-and-mortar jeweler offering lifetime maintenance and a solid return policy.",
+    "value": 5200.0
+  },
+  "910587307656": {
+    "reasoning": "Based on current market data for GIA G/VS2/3EX diamonds, the stone's wholesale value is roughly $4,200, plus approximately $400 for a 14k setting and labor, with a standard independent jeweler markup for service and overhead.",
+    "value": 5150.0
+  },
+  "d70e4e302083": {
+    "reasoning": "A GIA 1.02ct G/VS2/Ex/None diamond currently trades at a wholesale-to-retail range of $4,200–$4,600, plus approximately $400 for a 14k gold solitaire setting and jeweler overhead. $5,200 is a fair market price for an independent brick-and-mortar jeweler providing lifetime services.",
+    "value": 5000.0
+  },
+  "a07575ff77ed": {
+    "reasoning": "Based on current wholesale market data for a GIA 1ct G/VS2 Triple Excellent diamond (~$3,800-$4,200) plus the 14k setting and labor (~$400-$600), a competitive retail price for this specific quality combination is approximately $4,500.",
+    "value": 4500.0
+  },
+  "01f8b525e170": {
+    "reasoning": "The diamond's market value based on current wholesale-to-retail indices for a G/VS2/3EX stone is approximately $4,300, plus roughly $500 for the 14k setting and jeweler's value-added services. A price of $4,800 represents a fair retail benchmark for an independent jeweler providing long-term maintenance.",
+    "value": 4800.0
+  },
+  "df5e273e901f": {
+    "reasoning": "A GIA 1.02ct G VS2 XXX diamond currently retails for $4,200–$4,600 online, plus approximately $400 for a 14k setting and the added value of local jeweler services.",
+    "value": 4950.0
+  },
+  "4eaba0808a95": {
+    "reasoning": "Based on current market data, a GIA G/VS2/3EX natural diamond of this quality typically retails between $4,200 and $4,600, plus approximately $400 for a 14k gold solitaire setting and jeweler services. The $5,200 asking price is slightly above average but within a reasonable retail range for an independent jeweler providing lifetime maintenance.",
+    "value": 4850.0
+  },
+  "086028f585f4": {
+    "reasoning": "A G/VS2/EX 1-carat diamond wholesale-to-consumer price typically ranges from $4,200 to $4,600, plus approximately $400 for a 14k gold setting and the value-add of local jeweler services.",
+    "value": 4950.0
+  },
+  "7533e82b9e9c": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex stone is approximately $3,800–$4,200, and with a standard retail markup plus the 14k setting and lifetime services, $5,200 is a very competitive and fair price for an independent jeweler.",
+    "value": 5200.0
+  },
+  "4329e1e5b9ba": {
+    "reasoning": "The current market price for a GIA 1.02ct G/VS2/3EX natural diamond is approximately $4,200-$4,500 at online retailers, and adding $400 for a 14k setting plus a modest brick-and-mortar service premium brings the fair value to this range.",
+    "value": 4850.0
+  },
+  "7025390c5cd8": {
+    "reasoning": "A GIA-certified 1.02ct G/VS2/Ex/None diamond currently trades at a wholesale-to-retail range of $4,200–$4,600, plus approximately $400 for a 14k gold setting and local jeweler services. $5,000 represents a fair market value for an independent brick-and-mortar purchase with included maintenance.",
+    "value": 5000.0
+  },
+  "1ebd8abea2a9": {
+    "reasoning": "The current market price for a GIA-certified 1.02ct G/VS2/3EX diamond averages $4,300–$4,500 at competitive online retailers, with an additional $400-500 for a 14k setting and professional service overhead. A total of $4,900 represents a fair balance between competitive online pricing and the added value of local jeweler services like lifetime re-tipping.",
+    "value": 4900.0
+  },
+  "81da7fc710ed": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex stone is approximately $3,800–$4,200, and with a standard retail markup for a brick-and-mortar jeweler including the 14k setting and service package, a competitive fair price is around $5,100.",
+    "value": 5100.0
+  },
+  "3f1b3ae35db7": {
+    "reasoning": "Current wholesale and online retail data for a GIA 1ct G-VS2 Excellent cut diamond ranges between $3,800 and $4,500, plus approximately $400-$600 for a 14k setting and professional services. The $5,200 price is a fair market value for a brick-and-mortar purchase including lifetime maintenance.",
+    "value": 5200.0
+  },
+  "f27e7d54e85e": {
+    "reasoning": "Current wholesale and online retail data for a GIA 1.02ct G VS2 Excellent cut diamond ranges from $4,000 to $4,600, plus approximately $400 for a 14k gold setting and local service value. The $5,200 sale price is a fair market rate for a brick-and-mortar jeweler, while the original $9,500 was an inflated anchor price.",
+    "value": 4850.0
+  },
+  "df2370e557a0": {
+    "reasoning": "Based on current wholesale market data for a G/VS2 Excellent cut GIA diamond, the stone's value is approximately $4,200–$4,500, plus roughly $500–$600 for the 14k setting and retail services. The $5,200 price point is a competitive and fair retail offer for an independent jeweler.",
+    "value": 5100.0
+  },
+  "65d3d39838c6": {
+    "reasoning": "Current wholesale market prices for a G/VS2/EX GIA diamond of this size are approximately $3,800-$4,200, and adding roughly $500 for a 14k setting plus a retail markup makes $5,200 a fair and competitive price for a brick-and-mortar purchase.",
+    "value": 5200.0
+  },
+  "68cf3120ab57": {
+    "reasoning": "Based on current market data for a 1.02ct G/VS2/EX GIA diamond, the wholesale stone value is approximately $4,200-$4,500, plus roughly $400 for a 14k setting and labor. A fair retail price including a standard jeweler's margin and value-added services is approximately $5,500.",
+    "value": 5500.0
+  },
+  "0bb17d06a4d4": {
+    "reasoning": "Based on current market data for a GIA 1.02ct G/VS2/3EX diamond, the wholesale stone value is approximately $3,800–$4,200, plus roughly $500 for the 14k setting and jeweler services. A fair retail price for an independent jeweler including a reasonable margin is around $4,800.",
+    "value": 4800.0
+  },
+  "d2dfdbf579a3": {
+    "reasoning": "Based on current wholesale market data for a GIA 1ct G/VS2 Excellent cut stone (approx. $4,200–$4,600) plus the retail markup for a 14k setting and professional jeweler services, a competitive fair market price is around $5,300.",
+    "value": 5300.0
+  },
+  "b031a5632e0e": {
+    "reasoning": "Based on current market data for a GIA 1.02ct G/VS2/3EX diamond, the wholesale stone value is approximately $4,200-$4,500, plus roughly $400 for a 14k setting and labor. A fair retail price including a standard jeweler's markup and service package aligns with the current sale price.",
+    "value": 5150.0
+  },
+  "86874ea85068": {
+    "reasoning": "Based on current wholesale market data for a GIA 1ct G/VS2/Ex/No-Fluor diamond (approx. $4,200-$4,600) plus the 14k setting and retail markup, the 'sale' price is consistent with competitive independent retail pricing. The original $9,500 price was an inflated MSRP used to create a false sense of discount.",
+    "value": 5150.0
+  },
+  "794cb2d922ae": {
+    "reasoning": "Based on current wholesale market data for a GIA-certified 1ct G/VS2/Ex diamond (~$4,200-$4,600) plus the retail markup for a 14k setting and jeweler services, the sale price aligns well with competitive market value. The original $9,500 tag was a common high-anchor retail tactic.",
+    "value": 5150.0
+  },
+  "5591836f8073": {
+    "reasoning": "Based on current wholesale and online retail benchmarks for a G/VS2 Triple Excellent GIA diamond (~$4,200–$4,600) plus a standard 14k setting (~$400), a fair price for a brick-and-mortar purchase including lifetime services is approximately $5,000.",
+    "value": 5000.0
+  },
+  "c99a20d5b1f9": {
+    "reasoning": "Based on current wholesale market data for a GIA-certified 1.02ct G/VS2/3EX diamond (~$4,200-$4,600) plus the retail markup for a 14k setting and jeweler services, $5,200 represents a fair and competitive retail price. The original $9,500 tag was a common high-anchor marketing tactic.",
+    "value": 5200.0
+  },
+  "6d8738ecd56a": {
+    "reasoning": "Current wholesale and online retail data for a GIA 1ct G/VS2/3ex diamond ranges from $4,000 to $4,600, plus approximately $400 for a 14k setting and jeweler services. The 'original' $9,500 price is a common retail markup tactic, making the $5,200 sale price a fair market value for a brick-and-mortar purchase.",
+    "value": 5000.0
+  },
+  "7f862b8c880b": {
+    "reasoning": "Based on current wholesale market data for a 1-carat G/VS2 Excellent cut diamond (~$4,200-$4,600) plus the scrap value and labor for a 14k gold setting (~$300-$400), the retail price reflects a standard 15-20% jeweler markup. The 'original' $9,500 price was an inflated marketing anchor, but the sale price is a fair market value for a brick-and-mortar purchase.",
+    "value": 5150.0
+  },
+  "3284f3940f67": {
+    "reasoning": "Based on current wholesale and retail market data for a GIA 1.02ct G/VS2/Ex/No-Fluo stone, the diamond's market value is approximately $4,500–$4,800, plus roughly $400 for a 14k setting and professional services. The $5,200 'sale' price is a very fair retail value, whereas the $9,500 original price was an extreme markup.",
+    "value": 5150.0
+  },
+  "49a34a173fe4": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model with a recent official service and a full set, as market values typically range from $5,000 to $5,400.",
+    "value": 4900.0
+  },
+  "a9beeeacc39a": {
+    "reasoning": "The $4,900 price point is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $4,800 and $5,200 in the secondary market.",
+    "value": 4900.0
+  },
+  "b1c5869805ac": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a fresh service history from Omega which adds roughly $750–$900 in value and peace of mind.",
+    "value": 4900.0
+  },
+  "6960cb0a23d1": {
+    "reasoning": "The $4,900 price point is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service and includes both the bracelet and OEM NATO strap.",
+    "value": 4900.0
+  },
+  "a41784737867": {
+    "reasoning": "The $4,900 price is very competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service (a $750-900 value) and includes the extra OEM NATO strap.",
+    "value": 4900.0
+  },
+  "6ea48a328aa0": {
+    "reasoning": "The $4,900 price is very competitive for a full-set 3861 Hesalite, especially considering the recent $900+ factory service value and the inclusion of an OEM NATO strap which adds secondary market value.",
+    "value": 4900.0
+  },
+  "cfd7deb5cb4e": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent official Omega service and includes the extra strap, typically retailing used between $5,000 and $5,400.",
+    "value": 4900.0
+  },
+  "861c7c3f6b95": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model with a recent official service and a full set, as market prices for this reference typically range from $5,000 to $5,400.",
+    "value": 4900.0
+  },
+  "70931f053aff": {
+    "reasoning": "The $4,900 price is excellent for a 3861 Hesalite full set, especially considering it has a recent official Omega service (a $750+ value) and includes a dealer warranty/return window, placing it at the very bottom of the current market range.",
+    "value": 4900.0
+  },
+  "a4fa1913cbc9": {
+    "reasoning": "The $4,900 price point is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service and includes an extra OEM strap. Market value for this reference in excellent condition typically ranges from $4,700 to $5,200.",
+    "value": 4900.0
+  },
+  "3259d975ecb2": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model with a recent official service and full set, as these typically trade between $4,800 and $5,200 in the secondary market.",
+    "value": 4900.0
+  },
+  "3a0a6e5eeb29": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent factory service and the upgraded bracelet, which typically trade between $4,800 and $5,200.",
+    "value": 4900.0
+  },
+  "d33aa4fca940": {
+    "reasoning": "This price is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service history and includes the extra strap, typically retailing used between $5,000 and $5,400.",
+    "value": 4900.0
+  },
+  "65cc633e7a2d": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent factory service and the current MSRP is $7,000. While private party deals can occasionally hit $4,500, a dealer-backed sale with a warranty and return window typically commands this slight premium.",
+    "value": 4900.0
+  },
+  "4b60323f9dfb": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent factory service and includes the extra NATO strap, which typically adds value to an already strong market floor of $4,800-$5,200.",
+    "value": 4900.0
+  },
+  "0d9da47296ed": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite full set, especially considering it has a recent official service history and a dealer warranty, as these typically trade between $4,800 and $5,200 on the secondary market.",
+    "value": 4900.0
+  },
+  "ad305e0a5751": {
+    "reasoning": "While the $7,000 list price is inflated, $4,900 is an excellent value for a post-2021 3861 caliber model with a recent factory service and a full set, as these typically trade between $5,200 and $5,600 on the secondary market.",
+    "value": 5400.0
+  },
+  "ed8555024f5f": {
+    "reasoning": "The 3861 Hesalite model typically trades between $4,700 and $5,200 on the secondary market; this specific example's value is bolstered by a recent official service and a complete set, making $4,900 a very fair 'buy it now' price.",
+    "value": 4900.0
+  },
+  "cee204d33612": {
+    "reasoning": "Current market data for the 3861 Hesalite model shows pre-owned full sets typically trade between $4,700 and $5,200; the recent factory service and inclusion of the OEM NATO strap justify a value at the mid-to-high end of that range.",
+    "value": 5000.0
+  },
+  "49e3ca9c0ec1": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges between $4,800 and $5,300 for this reference in used condition.",
+    "value": 4900.0
+  },
+  "8cbbf8d43c54": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite full set, especially considering the recent official service which adds value and peace of mind compared to typical $5,200-$5,500 market rates.",
+    "value": 5250.0
+  },
+  "b9062cf416fd": {
+    "reasoning": "The current market value for a used 3861 Hesalite Speedmaster typically ranges from $4,800 to $5,200; the $4,900 price is very competitive for a full set that includes a recent official service and a reputable dealer warranty.",
+    "value": 4900.0
+  },
+  "6f386640941a": {
+    "reasoning": "The current market value for a full-set 3861 Hesalite is typically between $4,800 and $5,200; given the recent factory service and inclusion of the extra NATO strap, $4,900 is a very competitive and fair dealer price.",
+    "value": 4900.0
+  },
+  "9edc3a30c911": {
+    "reasoning": "This price is highly competitive for a full-set 3861 Hesalite with a recent factory service; current market value for this reference in excellent condition typically ranges between $5,000 and $5,400.",
+    "value": 5200.0
+  },
+  "539239891daa": {
+    "reasoning": "This price is highly competitive for a 3861 Hesalite model with a recent official service and full set, as market value typically ranges between $5,200 and $5,500; the $4,900 asking price is actually slightly below the current average market floor.",
+    "value": 5350.0
+  },
+  "55b74752de32": {
+    "reasoning": "This price is highly competitive for a full-set 3861 Hesalite, as recent service history and a dealer warranty typically command a premium over the standard $4,500–$4,800 private market range.",
+    "value": 4900.0
+  },
+  "4219e2266895": {
+    "reasoning": "While the $7,000 MSRP is the anchor for new models, current secondary market values for a used 3861 Hesalite full set typically range from $4,800 to $5,200; $4,900 is a highly competitive price for a recently serviced example from a dealer.",
+    "value": 4900.0
+  },
+  "675aca1a293b": {
+    "reasoning": "While the current MSRP is $7,000, secondary market prices for the 3861 Hesalite model typically range from $4,800 to $5,300; the recent factory service and full set provenance justify a price at the lower end of that range as a very fair deal.",
+    "value": 4900.0
+  },
+  "232cc1fc0d2b": {
+    "reasoning": "This price is slightly below the typical $5,200-$5,500 market average for a 3861 Hesalite, representing excellent value given the recent factory service and full set inclusion.",
+    "value": 4900.0
+  },
+  "2588f9116a4f": {
+    "reasoning": "While the $7,000 MSRP anchor is high for a used Hesalite, $4,900 is a very competitive price for a full-set 3861 movement watch in serviced condition, as these typically trade between $4,800 and $5,300 on the secondary market.",
+    "value": 4900.0
+  },
+  "f0d0bb8d7957": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with sub-40k mileage, the listing price of $19,000 is significantly below the average market value of $23,000–$25,000, making it an exceptionally strong deal as long as the title is clean.",
+    "value": 19000.0
+  },
+  "558871bf172d": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market retail for a 2021 EX-L with these miles; it likely represents a high-value deal or a slightly aggressive pricing strategy to move inventory.",
+    "value": 19000.0
+  },
+  "aa23c791ec0c": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market retail for a 2021 EX-L with these miles, likely reflecting a high-volume pricing strategy or a desire to move off-lease inventory quickly. Given the clean history and new tires, anything under $23,000 is an exceptional deal for this specific trim and mileage.",
+    "value": 19000.0
+  },
+  "1a0ca09afeb0": {
+    "reasoning": "This price is approximately $4,000–$5,000 below market value for an EX-L trim with these miles; it likely reflects a high-value trade-in price or an aggressive promotional listing, as most comparable units retail for $23,500–$25,000.",
+    "value": 19000.0
+  },
+  "3f3abe834be7": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market value for a low-mileage 2021 EX-L, suggesting it is either a high-volume 'loss leader' or priced aggressively to move; a typical fair dealer retail price for this specific condition and trim is closer to $23,500.",
+    "value": 23500.0
+  },
+  "3a7cc6220a97": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with 38k miles, the average retail value typically ranges from $23,000 to $25,000; at $19,000, this vehicle is priced significantly below market value, making it an exceptional deal provided the title is clean.",
+    "value": 19000.0
+  },
+  "ebb3739d50e9": {
+    "reasoning": "This price is approximately $4,000 below current market retail for a 2021 EX-L with these miles, likely reflecting a high-value trade-in or aggressive pricing strategy, making it an exceptional deal as-is.",
+    "value": 19000.0
+  },
+  "2259c644fda0": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical retail value of $24,000–$26,000 for this mileage and trim. Given the clean history and new tires, this represents an aggressive 'priced-to-sell' deal that is well under fair market value.",
+    "value": 19000.0
+  },
+  "b3d995e81989": {
+    "reasoning": "This price is approximately $3,000 below current market value for a low-mileage EX-L trim, which typically retails between $22,000 and $24,000; at $19,000, you are getting an exceptional deal that is closer to wholesale trade-in value.",
+    "value": 19000.0
+  },
+  "e72e6b78784c": {
+    "reasoning": "Based on current market data for the 2021 EX-L trim with 38k miles, the average retail value typically ranges from $23,000 to $25,000; at $19,000, this vehicle is priced significantly below market value, making it an exceptionally good deal if the title is clean.",
+    "value": 19000.0
+  },
+  "4156569ef3d9": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market value for a 2021 EX-L with these miles; it is an exceptional deal that likely sits below the dealer's trade-in acquisition cost.",
+    "value": 23500.0
+  },
+  "6eb5a0efb2f7": {
+    "reasoning": "This price is approximately $4,500 below current market average for a 2021 EX-L with these miles, likely reflecting a high-volume dealer strategy or aggressive pricing for a quick sale. Given the clean history and new tires, any price under $20,000 is an exceptional deal, making $19,000 a very strong 'fair' value for the buyer.",
+    "value": 19000.0
+  },
+  "a2f9c40243a1": {
+    "reasoning": "This price is approximately $4,000–$5,000 below current market retail for a clean-title 2021 EX-L with these miles, likely reflecting a high-volume clearance or aggressive pricing strategy. A fair market value would typically be higher, but $19,000 represents an exceptional deal that is well below the average dealer listing price.",
+    "value": 19000.0
+  },
+  "8692c96b7b6b": {
+    "reasoning": "Based on current market data for the 2021 Accord EX-L, the $19,000 asking price is significantly below the typical dealer retail range of $23,000–$25,000 for this mileage and condition, making it an exceptionally strong deal. This price is closer to wholesale trade-in value, likely reflecting a desire for quick inventory turnover.",
+    "value": 19000.0
+  },
+  "79ba3f3a6fdc": {
+    "reasoning": "With an average market value for this trim and mileage typically ranging between $22,000 and $24,000, a listed price of $19,000 is exceptionally low and likely reflects a 'no-haggle' aggressive pricing strategy or a mistake. Given the clean history and new tires, any price under $21,000 is an excellent deal, but $19,000 is the clear fair-market winner here.",
+    "value": 19000.0
+  },
+  "9ca90c5d08a6": {
+    "reasoning": "Based on current market data for a GIA-certified 1-carat G/VS2/Triple-Ex diamond, the loose stone retails for approximately $6,000–$6,500, with an additional $500–$700 for a 14k gold setting and local jeweler services.",
+    "value": 6950.0
+  },
+  "f3ce384015a1": {
+    "reasoning": "Based on current market data for a GIA Triple Excellent 1ct G/VS2 diamond, the wholesale stone value is approximately $5,500-$6,000, plus $400 for the 14k setting and a standard independent jeweler markup of 20-30%.",
+    "value": 7800.0
+  },
+  "541d9d6b274a": {
+    "reasoning": "Based on current market data for a GIA Triple Excellent 1ct G/VS2 diamond, the wholesale stone value is approximately $5,500-$6,000, plus $400 for the 14k setting and a standard retail markup for an independent jeweler.",
+    "value": 7850.0
+  },
+  "475d0bac4b62": {
+    "reasoning": "Based on current market data for a GIA-certified 1ct G/VS2/3EX natural diamond (approx. $5,800–$6,400) plus the 14k setting and retail overhead, a competitive price from an independent jeweler falls in this range.",
+    "value": 6850.0
+  },
+  "0d60d594e665": {
+    "reasoning": "The diamond's specific dimensions and 'triple excellent' GIA specs place its wholesale value around $5,500–$6,000, while a 14k setting and retail markup for an independent jeweler typically bring the total to approximately 1.4x the loose stone cost.",
+    "value": 8450.0
+  },
+  "e7eff8e9dd4d": {
+    "reasoning": "The price is based on the current wholesale market value for a GIA 'Triple Excellent' 1-carat G/VS2 diamond (approx. $5,500–$6,000) plus a standard retail markup and the 14k gold setting cost.",
+    "value": 7250.0
+  },
+  "14f4853ec3ee": {
+    "reasoning": "Based on current market data for a GIA-certified 1ct G/VS2/3EX natural diamond (approx. $5,800–$6,400) plus a standard 14k gold solitaire setting and retail markup for independent jeweler services, a fair price balances online competitiveness with brick-and-mortar overhead.",
+    "value": 6850.0
+  },
+  "6ff602f9d030": {
+    "reasoning": "Based on current wholesale market data for a GIA 1ct G/VS2 stone (approx. $5,500–$6,200) plus a standard 14k setting and a typical independent jeweler's retail markup of 30-40%.",
+    "value": 8650.0
+  },
+  "b9507c2f0a01": {
+    "reasoning": "The market value for a GIA 1ct G/VS2/Ex diamond ranges from $5,500 to $6,500 at retail, plus approximately $600 for a 14k gold solitaire setting and the value of lifetime services. A fair price from an independent jeweler balances competitive online pricing with the overhead of local maintenance and high-quality proportions.",
+    "value": 6850.0
+  },
+  "01885a657502": {
+    "reasoning": "Based on current market data for a GIA Triple Excellent 1ct G/VS2 diamond, the wholesale stone value is approximately $5,500-$6,000, plus $400 for the 14k setting and a standard 25-35% retail markup for an independent jeweler including lifetime services.",
+    "value": 8250.0
+  },
+  "5b4554ead183": {
+    "reasoning": "The current market price for a GIA 1.02ct G/VS2/3EX diamond averages $5,500–$6,500, plus approximately $500 for a 14k gold setting and a retail markup for local jeweler services.",
+    "value": 6850.0
+  },
+  "bcc97c1050b0": {
+    "reasoning": "The current market value for a GIA-certified 1ct G/VS2/EX diamond is approximately $5,500-$6,000 wholesale, plus roughly $400 for the 14k setting and labor; a fair retail price at an independent jeweler includes a standard 20-30% markup for services and overhead.",
+    "value": 7850.0
+  },
+  "66faf0170244": {
+    "reasoning": "The diamond's specific dimensions and 'triple excellent' specs place it at the high end of G/VS2 wholesale pricing (~$5,500-$6,000), which combined with a standard retail markup and the 14k setting, results in a fair market value for an independent jeweler.",
+    "value": 7850.0
+  },
+  "2c5751a48618": {
+    "reasoning": "The current market value for a GIA 1ct G/VS2/Ex diamond is approximately $5,500-$6,000, plus roughly $600 for a 14k setting and the added value of local jeweler services and warranties.",
+    "value": 6450.0
+  },
+  "b12562a5a08d": {
+    "reasoning": "The market value for a GIA 1ct G/VS2/Ex diamond ranges from $5,500 to $6,500 at retail, plus approximately $600 for a 14k gold solitaire setting and the added value of lifetime maintenance services.",
+    "value": 6850.0
+  },
+  "76cc07007b38": {
+    "reasoning": "The GIA G/VS2/EX diamond has a wholesale market value around $3,800–$4,200, plus approximately $400 for the 14k setting and labor; a fair retail price for an independent jeweler including overhead and service value is approximately $4,800.",
+    "value": 4800.0
+  },
+  "3943c2c08b26": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex stone is approximately $3,800–$4,200, and with a standard retail markup plus the 14k setting and lifetime services, $5,200 is a highly competitive and fair price for an independent jeweler.",
+    "value": 5200.0
+  },
+  "0a9418b6c002": {
+    "reasoning": "A loose GIA G/VS2/3EX diamond of this quality currently retails for approximately $4,200–$4,500, and a 14k gold solitaire setting adds roughly $400–$600. The $5,200 asking price is a fair market value for a brick-and-mortar jeweler offering lifetime maintenance and a solid return policy.",
+    "value": 5200.0
+  },
+  "0e2be8c91e8a": {
+    "reasoning": "Based on current market data for GIA G/VS2/3EX diamonds, the stone's wholesale value is roughly $4,200, plus approximately $400 for a 14k setting and labor, with a standard independent jeweler markup for service and overhead.",
+    "value": 5150.0
+  },
+  "e65edc8094f4": {
+    "reasoning": "A GIA 1.02ct G/VS2/Ex/None diamond currently trades at a wholesale-to-retail range of $4,200–$4,600, plus approximately $400 for a 14k gold solitaire setting and jeweler overhead. $5,200 is a fair market price for an independent brick-and-mortar jeweler providing lifetime services.",
+    "value": 5000.0
+  },
+  "f9267e4a3b66": {
+    "reasoning": "Based on current wholesale market data for a GIA 1ct G/VS2 Triple Excellent diamond (~$3,800-$4,200) plus the 14k setting and labor (~$400-$600), a competitive retail price for this specific quality combination is approximately $4,500.",
+    "value": 4500.0
+  },
+  "e90e0659dab3": {
+    "reasoning": "The diamond's market value based on current wholesale-to-retail indices for a G/VS2/3EX stone is approximately $4,300, plus roughly $500 for the 14k setting and jeweler's value-added services. A price of $4,800 represents a fair retail benchmark for an independent jeweler providing long-term maintenance.",
+    "value": 4800.0
+  },
+  "e69ca2e45bd5": {
+    "reasoning": "A GIA 1.02ct G VS2 XXX diamond currently retails for $4,200–$4,600 online, plus approximately $400 for a 14k setting and the added value of local jeweler services.",
+    "value": 4950.0
+  },
+  "ccc66f74c527": {
+    "reasoning": "Based on current market data, a GIA G/VS2/3EX natural diamond of this quality typically retails between $4,200 and $4,600, plus approximately $400 for a 14k gold solitaire setting and jeweler services. The $5,200 asking price is slightly above average but within a reasonable retail range for an independent jeweler providing lifetime maintenance.",
+    "value": 4850.0
+  },
+  "5a243e5f4513": {
+    "reasoning": "A G/VS2/EX 1-carat diamond wholesale-to-consumer price typically ranges from $4,200 to $4,600, plus approximately $400 for a 14k gold setting and the value-add of local jeweler services.",
+    "value": 4950.0
+  },
+  "09fac8cc0917": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex stone is approximately $3,800–$4,200, and with a standard retail markup plus the 14k setting and lifetime services, $5,200 is a very competitive and fair price for an independent jeweler.",
+    "value": 5200.0
+  },
+  "03625f8045ac": {
+    "reasoning": "The current market price for a GIA 1.02ct G/VS2/3EX natural diamond is approximately $4,200-$4,500 at online retailers, and adding $400 for a 14k setting plus a modest brick-and-mortar service premium brings the fair value to this range.",
+    "value": 4850.0
+  },
+  "c6d44e21fd7e": {
+    "reasoning": "A GIA-certified 1.02ct G/VS2/Ex/None diamond currently trades at a wholesale-to-retail range of $4,200–$4,600, plus approximately $400 for a 14k gold setting and local jeweler services. $5,000 represents a fair market value for an independent brick-and-mortar purchase with included maintenance.",
+    "value": 5000.0
+  },
+  "d7b56c31ad63": {
+    "reasoning": "The current market price for a GIA-certified 1.02ct G/VS2/3EX diamond averages $4,300–$4,500 at competitive online retailers, with an additional $400-500 for a 14k setting and professional service overhead. A total of $4,900 represents a fair balance between competitive online pricing and the added value of local jeweler services like lifetime re-tipping.",
+    "value": 4900.0
+  },
+  "31560a6f6ffa": {
+    "reasoning": "The wholesale market value for a GIA 1.02ct G/VS2/Ex stone is approximately $3,800–$4,200, and with a standard retail markup for a brick-and-mortar jeweler including the 14k setting and service package, a competitive fair price is around $5,100.",
+    "value": 5100.0
+  },
+  "44539efec82b": {
+    "reasoning": "This reference currently trades between $5,000 and $5,500 on the secondary market; the recent official service and full-set status justify a premium toward the top of that range.",
+    "value": 5400.0
+  },
+  "4936aca9ac6c": {
+    "reasoning": "The 3861 Hesalite model currently trades between $5,000 and $5,600; the recent factory service and full set provenance justify a price at the top of that range for a dealer listing.",
+    "value": 5500.0
+  },
+  "5e4d0777a104": {
+    "reasoning": "This reference currently trades between $5,000 and $5,500; the recent factory service and full-set status justify a premium toward the top of that range, while the Hesalite crystal and minor wear keep it below the $5,800 retail-adjacent mark.",
+    "value": 5450.0
+  },
+  "198099fdb97a": {
+    "reasoning": "This reference currently trades between $5,200 and $5,600 on the secondary market; the recent official service and inclusion of the full set with an extra strap justify a price toward the higher end of that range.",
+    "value": 5500.0
+  },
+  "21cdf305ab30": {
+    "reasoning": "This reference currently trades between $5,200 and $5,600 on the secondary market; the recent official service and full-set status justify a price at the higher end of that range.",
+    "value": 5500.0
+  },
+  "e7ce4aa08ec6": {
+    "reasoning": "This reference currently trades between $5,200 and $5,600 on the secondary market; the recent official service and full-set provenance justify a price at the higher end of that range.",
+    "value": 5500.0
+  },
+  "684f88e2186a": {
+    "reasoning": "The 3861 Hesalite model currently trades between $5,000 and $5,600; the recent factory service and full set provenance justify a value at the higher end of this range for a dealer sale.",
+    "value": 5450.0
+  },
+  "2a1a493dd8de": {
+    "reasoning": "This price reflects current secondary market values for the 3861 Hesalite model, adjusted upward for the 'full set' status and the added value of a recent factory service which provides peace of mind and transferable service warranty.",
+    "value": 5400.0
+  },
+  "44acc6e549cc": {
+    "reasoning": "This reference currently trades between $5,000 and $5,600 on the secondary market; the recent official service and inclusion of a full set with an extra NATO strap justify a price at the higher end of that range.",
+    "value": 5450.0
+  },
+  "0aaf815ab107": {
+    "reasoning": "The 3861 Hesalite model typically trades between $5,000 and $5,500; the recent factory service and full set provenance justify a value at the top of that range for a dealer sale.",
+    "value": 5450.0
+  },
+  "178b0fe0a377": {
+    "reasoning": "This price reflects a slight premium for the recent official service and full-set completeness, balanced against the current secondary market average for a used 3861 Hesalite model.",
+    "value": 5400.0
+  },
+  "b4e0cce3caf0": {
+    "reasoning": "This reference currently trades between $5,200 and $5,600 on the secondary market; the recent official service and full-set status justify a price at the higher end of that range.",
+    "value": 5550.0
+  },
+  "55ba654b8640": {
+    "reasoning": "This reference currently trades between $5,000 and $5,600 on the secondary market; the recent official service and complete set status justify a price at the higher end of that range.",
+    "value": 5450.0
+  },
+  "daa10456d882": {
+    "reasoning": "This reference currently trades between $5,000 and $5,600 on the secondary market; the recent official service and full set provenance justify a price at the higher end of that range for a dealer sale.",
+    "value": 5450.0
+  },
+  "735e72b11bdd": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model with a recent official service and a full set, as market values typically range from $5,000 to $5,400.",
+    "value": 4900.0
+  },
+  "337a948ea609": {
+    "reasoning": "The $4,900 price point is highly competitive for a full-set 3861 Hesalite with a recent factory service, as these typically trade between $4,800 and $5,200 in the secondary market.",
+    "value": 4900.0
+  },
+  "ddd54b0dda8c": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a fresh service history from Omega which adds roughly $750–$900 in value and peace of mind.",
+    "value": 4900.0
+  },
+  "d54af12342c9": {
+    "reasoning": "The $4,900 price point is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service and includes both the bracelet and OEM NATO strap.",
+    "value": 4900.0
+  },
+  "746b5eb48b99": {
+    "reasoning": "The $4,900 price is very competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service (a $750-900 value) and includes the extra OEM NATO strap.",
+    "value": 4900.0
+  },
+  "788c3a37805a": {
+    "reasoning": "The $4,900 price is very competitive for a full-set 3861 Hesalite, especially considering the recent $900+ factory service value and the inclusion of an OEM NATO strap which adds secondary market value.",
+    "value": 4900.0
+  },
+  "786ef25ffeeb": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent official Omega service and includes the extra strap, typically retailing used between $5,000 and $5,400.",
+    "value": 4900.0
+  },
+  "ee0d8a396bca": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model with a recent official service and a full set, as market prices for this reference typically range from $5,000 to $5,400.",
+    "value": 4900.0
+  },
+  "fcc56dfcf51c": {
+    "reasoning": "The $4,900 price is excellent for a 3861 Hesalite full set, especially considering it has a recent official Omega service (a $750+ value) and includes a dealer warranty/return window, placing it at the very bottom of the current market range.",
+    "value": 4900.0
+  },
+  "880bbe4d6d7a": {
+    "reasoning": "The $4,900 price point is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service and includes an extra OEM strap. Market value for this reference in excellent condition typically ranges from $4,700 to $5,200.",
+    "value": 4900.0
+  },
+  "10b7f21eb849": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite model with a recent official service and full set, as these typically trade between $4,800 and $5,200 in the secondary market.",
+    "value": 4900.0
+  },
+  "cb07061c3390": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent factory service and the upgraded bracelet, which typically trade between $4,800 and $5,200.",
+    "value": 4900.0
+  },
+  "30135628bd9f": {
+    "reasoning": "This price is highly competitive for a full-set 3861 Hesalite, especially considering it has a recent official Omega service history and includes the extra strap, typically retailing used between $5,000 and $5,400.",
+    "value": 4900.0
+  },
+  "f3858ad0062e": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent factory service and the current MSRP is $7,000. While private party deals can occasionally hit $4,500, a dealer-backed sale with a warranty and return window typically commands this slight premium.",
+    "value": 4900.0
+  },
+  "11d12895d337": {
+    "reasoning": "The $4,900 price is very competitive for a 3861 Hesalite full set, especially considering it has a recent factory service and includes the extra NATO strap, which typically adds value to an already strong market floor of $4,800-$5,200.",
+    "value": 4900.0
   }
 }

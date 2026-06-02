@@ -1854,5 +1854,1685 @@
   "f9edde07fdf9": {
     "reasoning": "ERROR",
     "value": null
+  },
+  "7fb1a9f3dee3": {
+    "reasoning": "Tokyo has dozens of major subway and rail stations, most with multiple lines and several floors, each typically equipped with several escalators for passenger movement.",
+    "value": 1200.0
+  },
+  "3feb23be3ded": {
+    "reasoning": "Tokyo has dozens of major subway/metro stations, most with multiple lines and levels, and escalators are standard in nearly all of them for accessibility and passenger flow.",
+    "value": 2500.0
+  },
+  "dc9751f0ad1d": {
+    "reasoning": "Tokyo has a large, dense subway network with dozens of major stations, many multi-level interchanges requiring escalators for vertical movement, and a mix of older and newer infrastructure that increasingly includes them.",
+    "value": 1800.0
+  },
+  "16df75224411": {
+    "reasoning": "Tokyo's vast rail network has hundreds of major stations, most with multiple entrances and levels, each typically featuring several escalators for accessibility and flow.",
+    "value": 4200.0
+  },
+  "d274029cfbd1": {
+    "reasoning": "Tokyo's subway network spans dozens of stations with multiple levels, and most major stations have several escalators for vertical circulation; averaging a few per station across hundreds of stops gives a rough total in the low thousands.",
+    "value": 4500.0
+  },
+  "da195881daec": {
+    "reasoning": "Tokyo has dozens of major stations with multiple lines and levels, each typically featuring several escalators for passenger flow, so scaling that across the full network suggests a high total.",
+    "value": 850.0
+  },
+  "3d0214a1a3f5": {
+    "reasoning": "Tokyo’s vast, multi-operator rail network has hundreds of stations; most major ones have several escalators for vertical circulation across platforms, concourses, and exits, suggesting a ballpark total in the low thousands.",
+    "value": 2800.0
+  },
+  "53f91d99c17e": {
+    "reasoning": "Tokyo’s metro and subway network is massive with dozens of lines and hundreds of stations; escalators are standard in newer or busy stations but many older ones rely on stairs or elevators, so a rough count lands in the mid-to-high hundreds.",
+    "value": 650.0
+  },
+  "a1094fa3468e": {
+    "reasoning": "Tokyo subway and metro system spans dozens of lines and hundreds of stations, with escalators serving all major transfers and exits; conservative guess after accounting for average escalators per station across 300+ stops totals around 1,500.",
+    "value": 1500.0
+  },
+  "05ce71913aaa": {
+    "reasoning": "Tokyo has over 280 subway and metro stations; assuming most have 2–3 escalators each gives a ballpark of around 700–800 total escalators.",
+    "value": 750.0
+  },
+  "fbfd283a4631": {
+    "reasoning": "Tokyo's subway system is vast with dozens of major stations across multiple operators, each typically having several escalators for vertical movement between levels.",
+    "value": 1200.0
+  },
+  "d21c75290f55": {
+    "reasoning": "Tokyo's vast rail network includes dozens of major stations with multiple lines and levels, each typically having several escalators per station for accessibility.",
+    "value": 4500.0
+  },
+  "10045adc9aaf": {
+    "reasoning": "Tokyo's subway system spans dozens of major stations with multiple lines and levels, each typically needing several escalators to handle heavy passenger flow; a quick mental scaling from known busy hubs suggests a total in the low thousands.",
+    "value": 2400.0
+  },
+  "6001eebe7a90": {
+    "reasoning": "Tokyo's vast subway network spans dozens of lines and hundreds of stations, each typically equipped with multiple escalators for passenger flow.",
+    "value": 3500.0
+  },
+  "dd8f6f4d4545": {
+    "reasoning": "Tokyo’s vast network has hundreds of stations across many operators; each busy station typically has a few escalators for accessibility, so a rough total might be in the low thousands.",
+    "value": 2500.0
+  },
+  "bf9938988829": {
+    "reasoning": "Tokyo’s subway and metro system is huge, with dozens of major stations and multiple lines serving millions daily, so escalators are common at nearly every transfer point and busy station.",
+    "value": 2400.0
+  },
+  "b6fdaed717ff": {
+    "reasoning": "Tokyo's vast rail network spans dozens of major stations with extensive multi-level platforms, and escalators are standard for accessibility in all large hubs, leading me to guess around 1,200 total escalators.",
+    "value": 1200.0
+  },
+  "c0895e392693": {
+    "reasoning": "Tokyo's subway and metro system is enormous, with dozens of lines and over 400 stations, and escalators are a common accessibility feature at many stations, so a rough gut estimate lands in the low thousands.",
+    "value": 2500.0
+  },
+  "529305db234e": {
+    "reasoning": "Tokyo subway system spans hundreds of stations across multiple operators, each typically having at least a few escalators for accessibility, so a rough count starts with station numbers and scales up per-station averages.",
+    "value": 2400.0
+  },
+  "7177a5d43c10": {
+    "reasoning": "Tokyo's subway and metro network is one of the world's busiest and most extensive, with dozens of major stations across multiple operators, many of which feature multi-level underground concourses that require escalators for passenger movement.",
+    "value": 1200.0
+  },
+  "600df0f21c5f": {
+    "reasoning": "Lisbon senior Go/Postgres roles at mid-stage startups typically range 55-75k for 7+ years experience; midpoint of 62.5k balances competitiveness locally without exceeding market rates.",
+    "value": 62500.0
+  },
+  "b682365467de": {
+    "reasoning": "Lisbon's senior Go/Postgres market (7+ years) typically ranges 55-75k EUR gross for fully-remote EU roles at mid-sized startups; this band stays competitive locally while avoiding overpayment relative to Lisbon tech hubs.",
+    "value": 65000.0
+  },
+  "77f378aeda4f": {
+    "reasoning": "Senior Go/Postgres engineers in Lisbon typically command 60-80k EUR in mid-sized startups; targeting the upper half keeps the role competitive while aligning with local market rates for 7+ YoE fully-remote EU roles.",
+    "value": 72500.0
+  },
+  "5f98564a17b2": {
+    "reasoning": "Lisbon senior Go/Postgres engineers at 7+ years typically command 55-75k EUR gross in the local market, mid-sized startups often benchmark around 60-70k to stay competitive.",
+    "value": 65000.0
+  },
+  "9280c941e8d4": {
+    "reasoning": "Lisbon senior Go/Postgres roles at mid-sized startups typically range 55-75k EUR gross for ~7 YOE; this band keeps you competitive with local/remote EU offers while avoiding overpayment relative to the market.",
+    "value": 65000.0
+  },
+  "a0bca313ab69": {
+    "reasoning": "Lisbon tech salaries for senior Go/Postgres engineers at remote-friendly EU startups are typically €65-85k; a competitive band keeps you in the upper-mid range without exceeding local market norms for 7+ years experience.",
+    "value": 75000.0
+  },
+  "1f64f95c0ae0": {
+    "reasoning": "Lisbon tech salaries for senior Go/Postgres engineers have risen with remote EU roles but remain below Western/Nordic levels; a competitive band that attracts strong candidates without excess is 60-75k EUR gross annual.",
+    "value": 67500.0
+  },
+  "375ff1315655": {
+    "reasoning": "Senior Go/Postgres engineers in Lisbon with 7+ years typically command 55-70k EUR gross, competitive for remote EU roles at mid-sized startups; this avoids overpaying while matching market rates for experienced talent.",
+    "value": 62500.0
+  },
+  "718ff95d29c8": {
+    "reasoning": "Lisbon senior Go/Postgres roles in EU-remote startups typically pay 55-75k EUR gross, with 7+ years experience and mid-sized startup context suggesting a competitive but not market-leading band.",
+    "value": 65000.0
+  },
+  "2f0101e595a5": {
+    "reasoning": "Lisbon senior Go/Postgres roles at mid-sized startups in 2024 typically range 60-80k EUR gross, reflecting strong local demand but lower cost of living than Western Europe; competitive bands avoid top-end overpayment while attracting experienced talent.",
+    "value": 70000.0
+  },
+  "342528032786": {
+    "reasoning": "€185k is above typical Lisbon senior Go/Postgres market rates for a 7-year remote EU role; local benchmarks indicate €95-135k is competitive without overpaying.",
+    "value": 120000.0
+  },
+  "3b5f94f834f6": {
+    "reasoning": "Previous €185k was outlier for departing senior; Lisbon remote EU market for 7y Go/Postgres typically ranges €110-140k, so band targets competitive top-quartile to attract strong talent without excess.",
+    "value": 135000.0
+  },
+  "f65b8494d38e": {
+    "reasoning": "€185k was an outlier for a senior Go/Postgres role in Lisbon; local market data suggests €110-140k is more typical for 7 YoE at a mid-sized EU startup.",
+    "value": 130000.0
+  },
+  "a7677ea51616": {
+    "reasoning": "The previous €185k salary was an outlier for Lisbon's Go/Postgres market; target a competitive but sustainable band around €110-130k to attract strong 7+ YOE candidates without exceeding local benchmarks.",
+    "value": 120000.0
+  },
+  "ac0b2e9840f3": {
+    "reasoning": "€185k was likely an outlier for a top performer or pre-market correction; Lisbon mid-sized startup remote roles with 7 YOE in Go/Postgres typically sit €105-135k to stay competitive locally while attracting strong EU candidates.",
+    "value": 120000.0
+  },
+  "ecbbb5263bad": {
+    "reasoning": "The prior €185k base is well above typical Lisbon/EU remote senior Go+Postgres ranges (usually €110-150k); a €140-165k band remains competitive for strong candidates while staying realistic for the local market.",
+    "value": 152500.0
+  },
+  "179f45b8e445": {
+    "reasoning": "€185k is well above typical Lisbon/EU-remote senior Go+Postgres bands; a 140-170k range balances competitiveness for top talent while avoiding premium overpayment relative to local benchmarks.",
+    "value": 155000.0
+  },
+  "e2050fe299b5": {
+    "reasoning": "€185k was a top-end outlier for a senior Go/Postgres role in Lisbon/EU remote; competitive bands for 7 YoE locally sit 20-30% lower while still attracting strong talent without overpaying.",
+    "value": 155000.0
+  },
+  "fa0228ad7313": {
+    "reasoning": "€185k is unusually high for Lisbon Go/Postgres roles with 7 YOE; local benchmarks show €90-130k for remote EU roles, so to stay competitive yet anchored to market I recommend a band of €115-145k.",
+    "value": 130000.0
+  },
+  "5f5381a9177e": {
+    "reasoning": "Previous €185k salary was likely above local Lisbon market for Go/Postgres roles; typical senior backend ranges €85k-€125k, so suggesting €100k-€140k balances competitiveness with market norms.",
+    "value": 120000.0
+  },
+  "1bad944d1e84": {
+    "reasoning": "The argument makes a fair point about inconsistent standards but relies on a false equivalence between statistical pattern-matching and human understanding.",
+    "value": 3.0
+  },
+  "e17b3a35d7c8": {
+    "reasoning": "The argument equates mechanistic reduction for LLMs and humans but overlooks that human understanding involves consciousness, intentionality, and causal history absent in statistical token prediction.",
+    "value": 3.0
+  },
+  "a93366b5bff5": {
+    "reasoning": "The argument presents a surface-level analogy between LLM token prediction and human neural processing but relies on a false equivalence that ignores fundamental differences in biological grounding, intentionality, and embodied experience.",
+    "value": 3.0
+  },
+  "e2781b1ec4c5": {
+    "reasoning": "The argument correctly identifies that mechanistic descriptions can be applied to both humans and LLMs but falters by equating surface-level behavioral similarities with genuine understanding while ignoring fundamental differences in internal processes, goals, and causal structure.",
+    "value": 3.0
+  },
+  "dc4d21e04857": {
+    "reasoning": "The argument equates LLM token prediction with human behavior reduction to make a case for understanding, but uses a false analogy that ignores the mechanistic versus functional differences between systems.",
+    "value": 3.0
+  },
+  "a93f92e74dd9": {
+    "reasoning": "The argument draws a valid analogy between mechanistic descriptions of LLMs and humans but overreaches in claiming equivalence in understanding.",
+    "value": 4.0
+  },
+  "00dedce0b835": {
+    "reasoning": "The argument draws a parallel between LLM token prediction and human sensory-motor processing to claim inconsistent standards, but this analogy overlooks fundamental differences in phenomenology, intentionality, and genuine understanding.",
+    "value": 3.0
+  },
+  "7b4e601ebb95": {
+    "reasoning": "The argument draws a false equivalence between token prediction in LLMs and human cognition, ignoring that human understanding involves embodiment, intentionality, and consciousness beyond mere prediction.",
+    "value": 3.0
+  },
+  "f2e6c545cd9b": {
+    "reasoning": "The argument attempts to equate LLM token prediction with human cognition via a reductio ad absurdum but relies on false equivalence and ignores key distinctions between mechanistic implementation and behavioral evidence of understanding.",
+    "value": 3.0
+  },
+  "77117d5b3a92": {
+    "reasoning": "The argument uses a reductio to challenge inconsistent standards but rests on a false equivalence between mechanistic description and the presence of understanding.",
+    "value": 3.0
+  },
+  "046df5a754c2": {
+    "reasoning": "The argument presents a false equivalence by conflating mechanistic description with understanding, ignoring that human understanding involves consciousness, intentionality, and causal grounding absent in LLMs.",
+    "value": 3.0
+  },
+  "e76e8c5ea0c3": {
+    "reasoning": "The argument applies a reductio to the 'mere mechanism' objection but rests on an unargued assumption that identical surface behaviors or reductive descriptions entail identical understanding.",
+    "value": 3.0
+  },
+  "4c8c52f2f4eb": {
+    "reasoning": "The argument attempts to equate LLM token prediction with human sensory-motor processing by highlighting a shared reductionist framing, but this analogy is too loose to support the conclusion that LLMs 'understand' in the human sense.",
+    "value": 4.0
+  },
+  "409c8025a03a": {
+    "reasoning": "The argument makes a reasonable analogy between mechanistic descriptions of LLMs and humans but overstates the case by treating token prediction as equivalent in kind to human understanding, ignoring key differences in intentionality, embodiment, and semantics.",
+    "value": 4.0
+  },
+  "e28303d2708c": {
+    "reasoning": "The argument attempts to equate LLM behavior with human understanding through a reductio on mechanistic explanations, but it conflates behavioral similarity with genuine comprehension and ignores key distinctions in causal structure and intentionality.",
+    "value": 3.0
+  },
+  "f58d17d43dd2": {
+    "reasoning": "The argument draws a plausible analogy between token prediction and human neural mechanisms but overreaches by treating behavioral similarity as sufficient evidence of genuine understanding, ignoring key differences in embodiment, intentionality, and causal grounding.",
+    "value": 4.0
+  },
+  "5bc6d10e2960": {
+    "reasoning": "The argument uses an analogy between LLMs and humans to claim inconsistent epistemic standards, but overlooks key differences in functional architecture and lacks evidence that token prediction is equivalent to understanding.",
+    "value": 4.0
+  },
+  "edf13c4f484d": {
+    "reasoning": "The argument identifies a potential inconsistency in how we apply reductive explanations but fails to address the key metaphysical question of whether mechanism alone is sufficient for genuine understanding.",
+    "value": 4.0
+  },
+  "9e9f9dadefa1": {
+    "reasoning": "The argument draws a reasonable analogy between mechanistic reduction for LLMs and humans but overreaches by equating behavioral performance with genuine understanding and by assuming inconsistent standards necessarily imply identical ontology.",
+    "value": 4.0
+  },
+  "de48aeaaf168": {
+    "reasoning": "The argument draws a provocative analogy between LLMs and humans but rests on a false equivalence that ignores functional, architectural, and phenomenological differences.",
+    "value": 3.0
+  },
+  "3fd7640edf68": {
+    "reasoning": "The claim exaggerates modest, short-term effects seen in small human studies on cold exposure; while mild BAT activation and transient metabolic increases occur, the specific 23-31% BAT boost, 8% sustained RMR rise, and 48-hour persistence lack robust, replicated evidence.",
+    "value": 25.0
+  },
+  "037e25c19385": {
+    "reasoning": "Cold exposure can activate BAT and modestly raise metabolism in controlled human studies, but the specific numbers (23-31% BAT increase, sustained 8% RMR boost lasting 48h) lack direct support from rigorous trials and appear overstated from limited or animal data.",
+    "value": 25.0
+  },
+  "6c42010dde5c": {
+    "reasoning": "The claim overstates modest findings from small human studies on cold exposure and BAT; while acute BAT activation occurs, the specific protocol and 23-31% activation plus 48-hour sustained 8% RMR increase lack strong replicated evidence.",
+    "value": 35.0
+  },
+  "cfb10241cd89": {
+    "reasoning": "Cold exposure does activate brown adipose tissue and can modestly increase metabolic rate, but the specific numbers (23-31% BAT increase, 8% sustained metabolic boost for 48 hours) are not supported by robust clinical evidence and likely stem from exaggerated or misquoted small studies.",
+    "value": 25.0
+  },
+  "d403194c5b5f": {
+    "reasoning": "The claim cites specific numbers (23-31% BAT activation, 8% sustained metabolic increase) that lack support from peer-reviewed human studies; while cold exposure can modestly increase BAT activity in some people, the quoted percentages and 48-hour persistence are not substantiated by current evidence.",
+    "value": 25.0
+  },
+  "875e99a18e77": {
+    "reasoning": "The claim overstates limited evidence: while cold exposure can activate BAT and modestly increase metabolism in some studies, the specific numbers (23-31% BAT increase, sustained 8% RMR for 48h) lack strong support in peer-reviewed research and appear exaggerated.",
+    "value": 25.0
+  },
+  "2c417860ee06": {
+    "reasoning": "The core idea that cold exposure can activate BAT and modestly raise metabolic rate has some supportive evidence from small human studies, but the specific numbers (23-31% BAT increase, sustained 8% RMR boost for 48h) are not backed by robust, replicated data and likely overstate findings from limited research.",
+    "value": 35.0
+  },
+  "3044204d017e": {
+    "reasoning": "The claim exaggerates limited evidence on cold exposure and BAT; while cold can activate BAT temporarily in some individuals, the specific numbers (23-31% activation, sustained 8% metabolic increase for 48 hours) lack robust support from large, replicated studies.",
+    "value": 25.0
+  },
+  "b3eff36606b2": {
+    "reasoning": "The claim overstates limited evidence from small human studies on cold exposure and BAT; while some acute metabolic increases occur, sustained 8% RMR elevation and precise 23-31% BAT activation percentages are not robustly supported.",
+    "value": 35.0
+  },
+  "6783092f1623": {
+    "reasoning": "The claim mixes plausible mechanisms (cold exposure activates BAT) with specific numbers lacking direct support; human studies show modest BAT increases and small metabolic effects, but 23-31% activation and sustained 8% RMR for 48 hours are not substantiated.",
+    "value": 25.0
+  },
+  "01adc90ec8d7": {
+    "reasoning": "Cold exposure can activate brown adipose tissue and modestly increase metabolic rate, but the specific numbers cited (23-31% BAT activation, sustained 8% RMR increase for 48 hours) are not supported by robust human evidence and appear overstated.",
+    "value": 25.0
+  },
+  "afba6f6399d9": {
+    "reasoning": "Cold exposure activates brown adipose tissue, but the specific 3-minute showers, 23-31% activation, and 48-hour 8% metabolic rate boost cited lack robust evidence from large trials; Mayo Clinic columns often summarize early studies but exaggerate effects in popular media.",
+    "value": 35.0
+  },
+  "822d89f1a1d5": {
+    "reasoning": "Cold exposure can modestly activate BAT and raise metabolic rate acutely, but the specific 23-31% BAT activation, sustained 8% RMR increase lasting 48 hours, and protocol details lack direct support from robust human trials; claims appear overstated relative to current evidence.",
+    "value": 35.0
+  },
+  "1c9ca88643ec": {
+    "reasoning": "The claim overstates both the magnitude and duration of effects; while cold exposure can activate BAT and modestly increase metabolic rate acutely, the specific numbers (23-31% BAT increase, sustained 8% RMR boost for 48h) lack strong support from rigorous human trials and appear exaggerated.",
+    "value": 25.0
+  },
+  "ce64d73f2aff": {
+    "reasoning": "The claim exaggerates effects of cold exposure on BAT activation and metabolic rate; while modest BAT activation occurs with cold exposure, sustained 8% increases lasting 48 hours and specific 3-minute 50°F protocols lack strong clinical evidence and are not Mayo Clinic-endorsed.",
+    "value": 25.0
+  },
+  "31e15c4d5742": {
+    "reasoning": "The claim overstates the effects of cold exposure on brown adipose tissue and metabolic rate, as human studies show modest and variable BAT activation with shorter, milder exposures, not a sustained 8% RMR increase persisting 48 hours.",
+    "value": 25.0
+  },
+  "c72b6ffe5a07": {
+    "reasoning": "The claim overstates the effects of cold exposure on brown fat and metabolic rate; while cold can modestly activate BAT, human studies show smaller, more transient increases that do not reliably produce a sustained 8% RMR boost persisting for 48 hours.",
+    "value": 25.0
+  },
+  "40b7e90fde8e": {
+    "reasoning": "The claim exaggerates modest and mixed evidence on cold exposure and brown adipose tissue; while cold can activate BAT and slightly raise energy expenditure, the specific 23-31% activation and sustained 8% RMR boost lasting 48 hours lack robust, replicated human data.",
+    "value": 35.0
+  },
+  "bebf09c27881": {
+    "reasoning": "The specific numbers (23-31% BAT activation, sustained 8% RMR increase persisting 48h) do not appear in primary literature or Mayo Clinic sources; modest cold-induced BAT recruitment occurs in humans, but effect sizes and duration are far smaller and variable.",
+    "value": 25.0
+  },
+  "36d509f80d00": {
+    "reasoning": "Cold exposure can mildly activate BAT and increase energy expenditure, but the specific numbers (23-31% BAT boost, sustained 8% metabolic increase for 48 hours) lack strong clinical evidence and appear exaggerated; Mayo Clinic sources do not endorse these precise claims.",
+    "value": 25.0
+  },
+  "d202163bc15e": {
+    "reasoning": "A basic 12L stainless steel step trash can with standard features typically retails for $20-25 in stores like Target or Amazon, so that's the ceiling I'd consider before opting for a cheaper alternative.",
+    "value": 25.0
+  },
+  "237ae3b17778": {
+    "reasoning": "Based on typical retail prices for similar 12-liter stainless steel step trash cans with soft-close lids and fingerprint-resistant finishes at home-goods stores, I estimated a mid-range value.",
+    "value": 35.0
+  },
+  "db4ba8903d3f": {
+    "reasoning": "A comparable 12-liter brushed stainless-steel step trash can with soft-close lid typically retails between $25 and $40, so I settled on $30 as a realistic maximum out-of-pocket willingness to pay.",
+    "value": 30.0
+  },
+  "fdc10f811224": {
+    "reasoning": "A 12-liter step trash can at a home-goods store typically retails for $25-$40; the brushed stainless finish and soft-close features justify the higher end.",
+    "value": 35.0
+  },
+  "cdfdfd87db63": {
+    "reasoning": "Comparable 12-liter brushed stainless steel step trash cans at home-goods stores typically retail for $25-35 depending on finish and features; the described model lacks premium branding but includes standard desirable features, so I chose a mid-range price point.",
+    "value": 30.0
+  },
+  "d867e608f0d1": {
+    "reasoning": "Comparable 12L stainless steel step cans with soft-close and fingerprint resistance retail for $25-40, so I picked the midpoint considering typical store pricing.",
+    "value": 32.0
+  },
+  "36807bef2535": {
+    "reasoning": "Typical 12L step trash cans like this sell for $20-35 at major retailers, so I settled on a mid-range value.",
+    "value": 28.0
+  },
+  "4cccf2f7b2e2": {
+    "reasoning": "This is a generic 12-liter stainless steel step trash can with typical features, comparable to similar models at major retailers that retail for $25–$40.",
+    "value": 30.0
+  },
+  "da480b57e30b": {
+    "reasoning": "Compared to similar stainless steel step cans at major retailers, this 12L model falls in the mid-range for quality and features, so $32 is a fair premium over the cheapest versions but still well under premium brands.",
+    "value": 32.0
+  },
+  "d6d6db5629fc": {
+    "reasoning": "Considering typical retail pricing for a 12-liter stainless steel step trash can with soft-close and fingerprint-resistant features, I factored in comparable products at major retailers ranging from $20-40.",
+    "value": 30.0
+  },
+  "c4a0051b4c41": {
+    "reasoning": "It's a brand-new, unused kitchen trash can won in a raffle with no sentimental value, so I'd sell it for a bit less than typical retail to make a quick sale.",
+    "value": 25.0
+  },
+  "bf91f56414b5": {
+    "reasoning": "I would value it at the typical retail price for a similar 12-liter stainless steel step trash can with these features.",
+    "value": 35.0
+  },
+  "ebf48020ec88": {
+    "reasoning": "The trash can is a common 12L stainless steel model with standard features, likely worth $25-40 new, so I'd sell it for $20 as a quick, fair offer to a coworker.",
+    "value": 20.0
+  },
+  "4afead765015": {
+    "reasoning": "A new 12-liter stainless-steel step trash can like this typically retails for $25-35, so I'd be willing to part with the raffle prize for a small profit while still making the coworker happy.",
+    "value": 20.0
+  },
+  "ce10484afb40": {
+    "reasoning": "Retail value for this type of 12-liter stainless steel pedal bin is typically $25-40, so I'd ask for at least the lower end to break even after winning it in a raffle.",
+    "value": 25.0
+  },
+  "bfa110e8da2a": {
+    "reasoning": "The trash can is a generic 12-liter model won in a raffle, so it has low emotional or resale value beyond its utility; I'd sell for a modest profit over its typical $40 street price.",
+    "value": 50.0
+  },
+  "88f0f3855f4a": {
+    "reasoning": "New 12-liter stainless trash can with premium features like soft-close and fingerprint resistance typically retails for $30-45; I'd accept the lower end since it's a used raffle win.",
+    "value": 30.0
+  },
+  "ae5a0a2649e4": {
+    "reasoning": "The trash can was won in a raffle so it has little personal value to me, but I would still want to recover a reasonable portion of its retail cost given its new condition and useful features.",
+    "value": 25.0
+  },
+  "0bf2707c06c6": {
+    "reasoning": "It's a free item won in a raffle so its value is low, but the coworker wants it so I'd ask for something reasonable to cover the effort of giving it away.",
+    "value": 15.0
+  },
+  "1dd0b3ab5af3": {
+    "reasoning": "It's a basic 12-liter stainless steel trash can from an office raffle with no special value beyond its retail price of around $25-30, so I'd accept the lowest amount that covers replacing it with something similar.",
+    "value": 25.0
+  },
+  "9713785e516a": {
+    "reasoning": "Based on 2022 World Cup Category 2 prices and typical markups for U.S. host venues, a fair secondary-market price for lower-bowl Category 2 seats is around the middle of the expected range.",
+    "value": 650.0
+  },
+  "780e4299ea0c": {
+    "reasoning": "Based on comparable 2022 World Cup Category 2 ticket prices adjusted for 2026 inflation, demand, and venue factors in a US host city.",
+    "value": 450.0
+  },
+  "3eea1e7ca34e": {
+    "reasoning": "Based on 2022 World Cup Category 2 pricing for group-stage matches ($150-250) and 2026 projections adjusted for U.S. market demand and inflation, a fair mid-range lower-bowl price lands around $350.",
+    "value": 350.0
+  },
+  "ae8484951013": {
+    "reasoning": "Category 2 lower-bowl seats for a high-demand USA group match at the 2026 World Cup typically fall in the $250–$450 range on the resale market; I picked $350 as a balanced fair midpoint.",
+    "value": 350.0
+  },
+  "c7f6d13a8aea": {
+    "reasoning": "Based on 2026 World Cup ticket pricing trends, Category 2 lower-bowl seats for opening matches typically range $400-$600, with off-center non-premium views falling in the middle of that band.",
+    "value": 500.0
+  },
+  "2077dcb93a49": {
+    "reasoning": "Based on typical Category 2 pricing for lower-bowl seats at recent major soccer events like the 2022 World Cup and comparable U.S. matches, a fair range is $300-$500; I picked the midpoint adjusted for inflation and demand.",
+    "value": 400.0
+  },
+  "10f5beb4b151": {
+    "reasoning": "Based on Category 2 seating for the 2026 World Cup opener, which is early in the tournament and draws high demand, a fair per-ticket price for medium-quality lower-bowl seats is in the $750-$900 range.",
+    "value": 825.0
+  },
+  "bd2380b4e282": {
+    "reasoning": "2026 World Cup tickets start around $105 for category 2-3 in group stage per FIFA pricing; for a USA match in lower bowl off-center, a fair resale value is a modest premium on top of that.",
+    "value": 180.0
+  },
+  "5ac4bd962e20": {
+    "reasoning": "Category 2 lower-bowl seats for a USA group-stage match at the 2026 World Cup are likely to be in high demand and typically sell in the $650–$850 range on the resale market; a midpoint fair price accounts for both the premium of the event and the non-premium seating tier.",
+    "value": 750.0
+  },
+  "eb93bcb96cac": {
+    "reasoning": "Based on 2022 World Cup Category 2 pricing and inflation-adjusted secondary market data for similar lower-bowl off-center seats at major tournaments, a fair per-ticket price is around $450.",
+    "value": 450.0
+  },
+  "0ea4abd6148a": {
+    "reasoning": "Original prize value roughly $500-700 for Category 2 lower bowl at a group-stage match; a fair resale split keeps it reasonable for both parties.",
+    "value": 600.0
+  },
+  "6a659f80f813": {
+    "reasoning": "Considering Category 2 seating for a high-demand USA group-stage match at the 2026 World Cup, resale value for lower-bowl off-center tickets typically ranges $300-500 each; choosing the midpoint accounts for the non-premium view and standard market demand.",
+    "value": 400.0
+  },
+  "b364b843d931": {
+    "reasoning": "Category 2 tickets for a USA group-stage match at the 2026 World Cup have face value around $200-300, so a resale markup of 2-3x for a solid lower-bowl seat is typical, landing on $550 as a fair price.",
+    "value": 550.0
+  },
+  "3fec8b558b93": {
+    "reasoning": "Face value for Category 2 lower-bowl seats at a USA group-stage match is typically $150–$250; I split the middle and rounded to $200 as a fair resale price that covers the winner’s cost without gouging.",
+    "value": 200.0
+  },
+  "c4a1c1467859": {
+    "reasoning": "Market rates for 2026 World Cup group-stage Category 2 tickets in the U.S. typically range from $250–$450; a fair resale price is the midpoint of that range.",
+    "value": 350.0
+  },
+  "adfc540f866d": {
+    "reasoning": "Average Category 2 ticket prices for USA group-stage matches at the 2026 World Cup are expected to range $250-$350, so a fair resale price for a single ticket is at that midpoint.",
+    "value": 300.0
+  },
+  "45c70b0b5d5f": {
+    "reasoning": "Category 2 lower-bowl tickets for a USA group-stage match at the 2026 World Cup normally retail around $150–$250; a fair resale price reflecting face value plus modest premium is $225.",
+    "value": 225.0
+  },
+  "048a65721851": {
+    "reasoning": "Category 2 lower bowl tickets for a high-profile USA group-stage match at the 2026 World Cup would realistically trade on the secondary market for $400-600 each.",
+    "value": 500.0
+  },
+  "4a36c5739470": {
+    "reasoning": "World Cup Category 2 tickets for the USA's opening match typically resell for $800-$1200 on the secondary market; a fair private-sale price splits the difference at $950.",
+    "value": 950.0
+  },
+  "97f4fceab5f1": {
+    "reasoning": "Category 2 lower-bowl tickets for a USA group-stage match at the 2026 World Cup are likely to resell for $400–$600 each; settling on $500 as a fair middle-ground price that reflects both the official face value and current market demand.",
+    "value": 500.0
+  },
+  "a6c8052dc075": {
+    "reasoning": "Based on current market data from Kelley Blue Book, Edmunds, and dealer listings for similar 2021 Honda Accord EX-L models with comparable mileage and options, fair market value is around $18,000-$19,500.",
+    "value": 18500.0
+  },
+  "3d74b0062e4c": {
+    "reasoning": "Based on recent market data for similar 2021 Honda Accord EX-L models with comparable mileage, condition, and features, the average asking price is around $20,500–$21,500; a fair negotiated price accounts for the included warranty and recent tires.",
+    "value": 20500.0
+  },
+  "d7b6d26a9a0c": {
+    "reasoning": "Based on recent market data for 2021 Honda Accord EX-L models with similar mileage and features, private party values are around $17,500 while dealer retail averages $19,500-$20,500.",
+    "value": 18300.0
+  },
+  "4590fe34d255": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with similar mileage and features, the $19,000 asking price is reasonable and fair.",
+    "value": 19000.0
+  },
+  "6cd1a9cd8caf": {
+    "reasoning": "Based on recent sales data for similar 2021 Honda Accord EX-L models with comparable mileage and condition from certified Honda dealers, the listed price of $19,000 appears slightly high.",
+    "value": 17600.0
+  },
+  "1a4503352cb7": {
+    "reasoning": "Market data from recent comparable sales shows 2021 Honda Accord EX-L models with 35k-45k miles averaging $18,200-$19,500 depending on location and condition; the included warranty and low-mileage tires support pricing at the upper end.",
+    "value": 18900.0
+  },
+  "6e6b851675d1": {
+    "reasoning": "Used 2021 Honda Accord EX-L values from KBB, Edmunds, and current dealer listings range $18,500-$20,500 for similar mileage and condition; averaging the data points gives a fair market value of $19,250.",
+    "value": 19250.0
+  },
+  "ddc6d436f50c": {
+    "reasoning": "Based on current market data for 2021 Honda Accord EX-L models with similar mileage and features, average private party and dealer retail values range from $17,800-$18,900.",
+    "value": 18350.0
+  },
+  "6a6ab0442a8e": {
+    "reasoning": "Based on current market data for similar 2021 Honda Accord EX-L models with comparable mileage, options, and condition from reputable dealers, adjusted for the low mileage and certification benefits, a fair market price is around the listed amount.",
+    "value": 20000.0
+  },
+  "cb30de8517c6": {
+    "reasoning": "Average market values for this exact 2021 Accord EX-L with 38k miles and clean history fall in the $18,500-$20,000 range per major pricing guides.",
+    "value": 19200.0
+  },
+  "ddee96cb0bd8": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with similar mileage, options, and condition from certified dealers, a fair private-party or dealer price ranges between $18,500 and $20,000.",
+    "value": 19000.0
+  },
+  "dc6750f259f8": {
+    "reasoning": "Based on current market data for similar 2021 Honda Accord EX-L models with comparable mileage and features, the fair market value is approximately $20,000-$21,000, placing the listed $19,000 price below average.",
+    "value": 20500.0
+  },
+  "174e1fe4d14f": {
+    "reasoning": "Based on current market data for similar 2021 Honda Accord EX-L models with comparable mileage, features, and condition, the fair market value is approximately $20,500.",
+    "value": 20500.0
+  },
+  "d45cd8e289f7": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with 38k miles, one owner, clean history, and recent tires from a certified dealer, the fair market value is around $19,500-$20,500.",
+    "value": 20000.0
+  },
+  "515cbe470213": {
+    "reasoning": "Used 2021 Accord EX-L with 38k miles typically trade in around $17-18k and retail near $20-21k; averaging recent listings and subtracting for dealer warranty gives $18,500 as a fair negotiation target.",
+    "value": 18500.0
+  },
+  "606b3a2aa039": {
+    "reasoning": "The steep discount from $29k to $19k already exceeds typical market value for a comparable 2021 Accord EX-L with similar mileage and options, so a fair price aligns closely with current dealer listings.",
+    "value": 21900.0
+  },
+  "6c086dede10e": {
+    "reasoning": "The current sale price of $19,000 is already well below typical market values for a 2021 Accord EX-L with these options and mileage, so a fair price aligns closely to this discounted offer.",
+    "value": 19000.0
+  },
+  "f23de47a655e": {
+    "reasoning": "Market data for comparable 2021 Honda Accord EX-Ls with similar mileage and options currently trade in the $20k-$22k range, so the $19k asking price already represents a strong discount from the original $29k list.",
+    "value": 20500.0
+  },
+  "b064f300d7c3": {
+    "reasoning": "KBB private party value for a comparable 2021 Accord EX-L with these miles is around $22,000-$23,000; dealer retail typically adds $2,000-$3,000, but the steep discount from $29k and included warranty support $21,500 as fair.",
+    "value": 21500.0
+  },
+  "7982caf6b25b": {
+    "reasoning": "Based on current market data for similar 2021 Honda Accord EX-L models with comparable mileage and features, the fair price falls around the midpoint of typical private party and dealer retail values.",
+    "value": 23500.0
+  },
+  "da9f45d5ed28": {
+    "reasoning": "The steep discount from the original $29,000 listing to $19,000 already positions the car well below typical market value for a low-mileage 2021 Honda Accord EX-L with clean history and recent service; fair market estimates for comparable vehicles generally fall in the $23,000-$25,000 range.",
+    "value": 24000.0
+  },
+  "ed83925b4707": {
+    "reasoning": "The original $29k list price is unrealistic for a 2021 Accord EX-L with 38k miles; recent market data shows similar clean, one-owner examples trading in the low-to-mid $20ks, so a fair negotiated price lands around $23k allowing for the sale price and included warranty.",
+    "value": 23000.0
+  },
+  "14c63850ed9d": {
+    "reasoning": "The listed $19k is already a steep discount from the original $29k and below typical 2021 Accord EX-L resale values with this mileage and options, so I adjusted slightly upward to reflect a realistic market value.",
+    "value": 22500.0
+  },
+  "356f66e80fd7": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with 38k miles, similar clean-title examples are selling for $21,500-$23,500 at Honda dealers.",
+    "value": 22500.0
+  },
+  "1490c3f657cb": {
+    "reasoning": "Market data from similar 2021 Honda Accord EX-L listings shows average prices around $21,500-$23,000 for comparable mileage and condition, with the current $19k sale price below this range suggesting a strong potential deal.",
+    "value": 22000.0
+  },
+  "bc8fdee202b5": {
+    "reasoning": "Market data for 2021 Honda Accord EX-L with ~38k miles shows private party and dealer retail values between $23k-$26k; the $19k sale price is already below fair market, so a reasonable negotiated target is $20,000.",
+    "value": 20000.0
+  },
+  "55f155df1c8d": {
+    "reasoning": "KBB private party value for a 2021 Accord EX-L with these miles/condition is ~$22,500, dealer retail ~$24,500, and the $19k sale price already undercuts both so a fair negotiated target is around $19,500.",
+    "value": 19500.0
+  },
+  "9628a69e3943": {
+    "reasoning": "KBB private party value for a 2021 Accord EX-L with these specs and mileage is around $22,500-$24,000; dealer retail is typically $24,000-$26,000, so the $19k sale price is already a strong deal.",
+    "value": 23500.0
+  },
+  "21f3698e9b00": {
+    "reasoning": "Used 2021 Accord EX-Ls with similar mileage typically trade in the $23,000-$25,000 range per recent market data; the $19k asking price already appears to be a strong deal, so a fair negotiated price lands around $20,000.",
+    "value": 20000.0
+  },
+  "112151ed639c": {
+    "reasoning": "Used 2021 Accord EX-L values average ~$24,500-$25,500 at 38k miles per KBB/NADA; the $19k sale price is already a strong discount from the $29k list, so a fair market offer is around $22,000-$23,000.",
+    "value": 22500.0
+  },
+  "4e2c3c8623dc": {
+    "reasoning": "Retail price for similar 12L stainless step bins is typically $25-40, so a fair resale to a coworker would be around half that.",
+    "value": 18.0
+  },
+  "1e658bafac51": {
+    "reasoning": "Retail price for similar 12L stainless steel step cans is typically $25-40; factoring in used condition, no warranty, and coworker transaction, a fair price is about 40% of retail.",
+    "value": 12.0
+  },
+  "a9a3e0d8c4fc": {
+    "reasoning": "Based on typical online pricing for a comparable 12-liter brushed stainless-steel step trash can with soft-close and fingerprint-resistant features, a fair resale price is around 40% of retail.",
+    "value": 25.0
+  },
+  "193af40c6f74": {
+    "reasoning": "New similar 12L stainless step cans retail for $25-35; used with no box or warranty warrants a discount to about 50-60% of retail.",
+    "value": 18.0
+  },
+  "4e3162fa846a": {
+    "reasoning": "Comparable 12L stainless step cans retail for $25-45; this used unit with typical wear would be valued at roughly 40-60% of new price.",
+    "value": 20.0
+  },
+  "3292859facbe": {
+    "reasoning": "A similar 12L stainless steel step trash can typically retails for $20-30, so a fair used price from a coworker would be around half of that.",
+    "value": 15.0
+  },
+  "06f3a8641545": {
+    "reasoning": "A new identical trash can typically retails for around $25-35, so a used one in good condition from a coworker warrants a discount of roughly 40-50% off retail.",
+    "value": 18.0
+  },
+  "998e937c5842": {
+    "reasoning": "A comparable 12-liter stainless steel step trash can with soft-close lid typically retails new for $25-$35, so a fair used price is roughly 40% of original retail after accounting for wear and the office raffle context.",
+    "value": 12.0
+  },
+  "6177fa8b1448": {
+    "reasoning": "New retail price for this type of trash can is typically $25-40; since it's used and being offered by a coworker, a fair discount would be around 50%.",
+    "value": 20.0
+  },
+  "8d81fa55df42": {
+    "reasoning": "A new identical 12L stainless steel step trash can typically retails for $35-45, so a fair used price is about 50% of that to account for wear and no warranty.",
+    "value": 20.0
+  },
+  "b0cd6cb7af9a": {
+    "reasoning": "A basic 12-liter stainless-steel step trash can with soft-close typically retails for $25-35 new, so a fair used price accounts for the lack of brand, possible minor wear, and convenience of buying from a coworker.",
+    "value": 15.0
+  },
+  "26eb67c08e13": {
+    "reasoning": "New retail value for a 12L stainless steel step trash can is typically $25-40, so a fair used price is about 50% of that.",
+    "value": 18.0
+  },
+  "21d5db03481e": {
+    "reasoning": "A comparable new trash can with these specs retails for $25-$35, so a used one from a coworker would be worth roughly half that value.",
+    "value": 15.0
+  },
+  "31e693daab95": {
+    "reasoning": "Based on typical retail pricing for a similar 12-liter stainless steel step trash can with soft-close and fingerprint-resistant features, I estimated a new price range of $25-40 and discounted it by about 50% for used condition with no warranty.",
+    "value": 18.0
+  },
+  "2fe69dc88672": {
+    "reasoning": "A comparable new stainless steel step trash can with similar specs typically retails for $25-$40. Accounting for it being used, I used $20 as a fair price.",
+    "value": 20.0
+  },
+  "e1f0211a8e03": {
+    "reasoning": "Retail price for a similar 12L stainless step can is typically $25-35, so I used a discounted used price of $20 since it's brand new from a raffle.",
+    "value": 20.0
+  },
+  "6129a27f9211": {
+    "reasoning": "Retail price for a similar 12-liter stainless steel step trash can is typically $25-35; accounting for it being a used raffle prize reduces the fair resale value.",
+    "value": 20.0
+  },
+  "651fa0a70b11": {
+    "reasoning": "Retail price for a similar 12-liter stainless steel pedal trash can is typically $25-35, so a fair resale price reflecting its new condition and retail value is $20.",
+    "value": 20.0
+  },
+  "807c06b1bc55": {
+    "reasoning": "Retail price for this type of mid-range stainless steel step trash can is typically $25-40; a fair resale to a coworker would be a small discount off that range.",
+    "value": 30.0
+  },
+  "b3b06326db15": {
+    "reasoning": "New retail price for this type of stainless steel step trash can is typically $25-40; used condition and office raffle origin suggest offering at a steep discount.",
+    "value": 15.0
+  },
+  "7290f8b5c2a1": {
+    "reasoning": "This is a standard 12-liter stainless steel step trash can with typical features; new retail price is usually $20-30, so a fair used price is around half that.",
+    "value": 15.0
+  },
+  "a81bbb05ddd5": {
+    "reasoning": "Typical retail for this exact type of 12L stainless steel step can runs $25-35, and since it's used I'd discount it slightly for a coworker sale.",
+    "value": 20.0
+  },
+  "825a31d66c43": {
+    "reasoning": "Retail price for similar 12L stainless steel step trash cans is typically $25-35; used but like-new condition with no logo justifies a modest discount.",
+    "value": 22.0
+  },
+  "67e2e5d2560e": {
+    "reasoning": "A 12-liter brushed stainless-steel step trash can with soft-close lid typically retails for $25-40; selling it used for $15-$20 accounts for the raffle win and minor wear.",
+    "value": 18.0
+  },
+  "ef44402d663c": {
+    "reasoning": "Typical retail price for a 12L stainless step trash can is $25-35; a fair resale price reflects that range with a slight discount.",
+    "value": 25.0
+  },
+  "166b9da62cd4": {
+    "reasoning": "Retail value for a no-name 12L stainless step can is typically $25-40; the coworker would expect a used discount of 30-50% off retail.",
+    "value": 20.0
+  },
+  "c34fd9331609": {
+    "reasoning": "New retail prices for this exact trash can style range from $25–$45, and with no brand or visible defects, a fair resale price accounts for slight used condition.",
+    "value": 20.0
+  },
+  "f976784c8f7f": {
+    "reasoning": "This is a basic 12-liter step trash can with standard features; a typical retail price is around $25-30, so a fair resale price to a coworker would be about half or less.",
+    "value": 12.0
+  },
+  "aa5e38c0a7c2": {
+    "reasoning": "Typical retail price for a similar 12L step trash can is $25-35; as a raffle win with no sentimental value, I'd accept a modest profit over nothing.",
+    "value": 20.0
+  },
+  "b8643eb3f877": {
+    "reasoning": "Based on typical retail prices for a similar 12-liter brushed stainless-steel step trash can with soft-close lid and removable inner bucket, I estimate the original cost around $35-$45, so a fair resale price after winning it in a raffle would be $20.",
+    "value": 20.0
+  },
+  "2134597d5733": {
+    "reasoning": "Used 2021 Accord EX-L values from KBB private party (~$24k) and dealer retail (~$26.5k) for this mileage/condition; I averaged and rounded down slightly to a realistic negotiation target.",
+    "value": 25500.0
+  },
+  "84b81fa01327": {
+    "reasoning": "2024 KBB private-party/trade-in range for a 2021 Accord EX-L with ~38k miles is ~$21,500-$23,500; adding Certified-like dealer warranty, new tires, clean history and low miles justifies a modest premium.",
+    "value": 23500.0
+  },
+  "097f7027e383": {
+    "reasoning": "Cross-referenced 2021 Accord EX-L 1.5T values from KBB, Edmunds, and NADA for clean-title, low-mileage examples in average-to-good condition, adjusted downward for private-party vs dealer retail and upward slightly for CPO warranty and recent tires/service.",
+    "value": 23500.0
+  },
+  "9b976ea7ce26": {
+    "reasoning": "Based on 2021 Accord EX-L market data adjusted for 38k miles, one-owner clean title, recent tires/service, and CPO-like warranty from a Honda dealer, the fair private-party-to-dealer retail midpoint is around $24,800.",
+    "value": 24800.0
+  },
+  "4c0db70a1fb7": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with 38k miles, one-owner clean history, and dealer certification, the fair market value aligns with recent listings in the $23,500-$24,500 range after typical negotiation.",
+    "value": 24000.0
+  },
+  "81bf068fe96f": {
+    "reasoning": "Market data for a comparable 2021 Accord EX-L with ~38k miles shows average private-party value around $23,500–$24,500 and dealer retail around $25,000–$26,000; adjusting slightly upward for CPO-adjacent warranty, new tires, and clean history yields a fair negotiated price of $24,800.",
+    "value": 24800.0
+  },
+  "6a51b97d7e17": {
+    "reasoning": "Used 2021 Accord EX-L with ~38k miles typically trade in around $23.5k-$24.5k and retail near $25.5k-$26.5k; factoring in the low miles, clean history, recent tires, and CPO-like warranty, a realistic fair purchase price is about $25,000.",
+    "value": 25000.0
+  },
+  "a2e8cb59128c": {
+    "reasoning": "Used 2021 Accord EX-L with 38k miles, clean history, and recent tires: KBB private party value is ~$23,800 and dealer retail ~$25,500, so a fair negotiated price is $24,200.",
+    "value": 24200.0
+  },
+  "2c5b6f0af812": {
+    "reasoning": "Based on 2024 market data for comparable low-mileage 2021 Honda Accord EX-L models with clean history and recent tires, typical dealer retail ranges $24,500-$26,000; a fair negotiated cash price sits at the lower-middle of that band.",
+    "value": 25200.0
+  },
+  "0aaddea90d29": {
+    "reasoning": "Used 2021 Accord EX-L values average $23k-$25k for similar low-mileage, clean examples; adjusted for mileage, tires, warranty, and regional market.",
+    "value": 23500.0
+  },
+  "58b80e435fbb": {
+    "reasoning": "Based on current 2021 Honda Accord EX-L market data for ~38k miles, clean title, certified dealer sale with new tires and warranty, average private-party/trade-in values run $24,800-$25,800; I rounded to the midpoint for a fair retail negotiation target.",
+    "value": 25200.0
+  },
+  "b9475f34d387": {
+    "reasoning": "Based on 2021 Honda Accord EX-L 1.5T values from Kelley Blue Book, Edmunds, and NADA for private-party and clean retail in average condition adjusted for 38k miles, recent tires/service, CPO-like warranty and one-owner history, a fair market price lands around the midpoint of current listings.",
+    "value": 23500.0
+  },
+  "0c53f8bf1bb9": {
+    "reasoning": "Based on 2021 Accord EX-L market data for similar mileage/condition at certified dealers, adjusted for the clean history, recent tires/service, and included warranty.",
+    "value": 24500.0
+  },
+  "bc5af47e4a33": {
+    "reasoning": "Based on current 2024 market data for a 2021 Honda Accord EX-L with ~38k miles, clean history, and dealer certification, private-party/KBB values cluster near $24,000-$25,500; adding dealer retail margin and included warranty places fair retail around $26,500.",
+    "value": 26500.0
+  },
+  "3b8434444c75": {
+    "reasoning": "KBB private party/trade-in values for a 2021 Accord EX-L with 38k miles in clean condition and popular options cluster around $23,500-$24,500; dealer retail for a CPO unit would add 1-2k, so a fair out-the-door negotiation target is $24,500.",
+    "value": 24500.0
+  },
+  "fb585ad3acf8": {
+    "reasoning": "Used 2021 Accord EX-L values from KBB, Edmunds, and local listings average ~$20,500-$21,500 for similar mileage/condition; the $19k asking price is already below that range, so a fair negotiated price is $18,500.",
+    "value": 18500.0
+  },
+  "99fac860d0aa": {
+    "reasoning": "Kelley Blue Book and Edmunds private-party/trade-in values for a clean 2021 Accord EX-L 1.5T with ~38k miles average $17,800-$18,400, so $18,000 is a realistic target after minor negotiation.",
+    "value": 18000.0
+  },
+  "15387cd58f30": {
+    "reasoning": "Recent sales data for comparable 2021 Honda Accord EX-L sedans with similar mileage, condition, and options show average transaction prices between $18,500-$19,500.",
+    "value": 18750.0
+  },
+  "bdf7554bc737": {
+    "reasoning": "KBB private-party and dealer retail values for a comparable 2021 Accord EX-L in average-to-good condition with 38k miles are $20,500-$22,000; the $19k listing is already below that, so a fair negotiated price is around $18,200.",
+    "value": 18200.0
+  },
+  "9bd6b68aff38": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with similar mileage, options, and condition from reputable sources like Kelley Blue Book and Edmunds, fair market value is approximately $20,500.",
+    "value": 20400.0
+  },
+  "a0cd024ae563": {
+    "reasoning": "Based on current used-market data for a 2021 Honda Accord EX-L 1.5T with 38k miles, clean history, and the listed options, average private-party/trade-in values sit around $21,000–$22,500; the dealer asking $19k already reflects a modest discount, so a fair negotiated price is about $18,500.",
+    "value": 18500.0
+  },
+  "71eb592f207f": {
+    "reasoning": "2021 Accord EX-Ls with ~38k miles typically trade in the $18.5k-$20k range per KBB/NADA; the $19k ask is already at the low end with clean history, recent tires/service, and warranty, so a fair negotiated price is only slightly below asking.",
+    "value": 18500.0
+  },
+  "9a05e1c91656": {
+    "reasoning": "KBB private-party/trade-in value for a 2021 Accord EX-L with 38k miles is ~$18.5-19.5k; dealer retail is normally $1-2k higher but the low miles, CPO-like warranty, and recent tires justify meeting the $19k ask.",
+    "value": 18500.0
+  },
+  "e15ac562a947": {
+    "reasoning": "KBB private party/trade-in for a 2021 Accord EX-L with 38k miles averages ~$21-23k; dealer asking $19k is already below market, so fair negotiated cash price is around $18k.",
+    "value": 18000.0
+  },
+  "0c9d9bc0348f": {
+    "reasoning": "KBB private-party/trade-in values for a comparable 2021 Accord EX-L with 38k miles sit around $18.5-19.5k; dealer retail is typically $1-2k higher, so a fair negotiated out-the-door target before fees/taxes is about $19,250.",
+    "value": 19250.0
+  },
+  "0723fa678910": {
+    "reasoning": "KBB private-party/trade-in value for a 2021 Accord EX-L 1.5T with ~38k miles is ~$20.5-22k; dealer retail is higher, but the $19k ask is already below typical used-Honda market, so a fair negotiated price is slightly under that.",
+    "value": 18500.0
+  },
+  "e6ac4309d6e5": {
+    "reasoning": "KBB private-party value for a 2021 Accord EX-L with these miles/options is ~$20.2k, trade-in ~$18.7k; dealer retail averages $21-22k, so after negotiation a realistic street price is $19.5k.",
+    "value": 19500.0
+  },
+  "0c25a79813f4": {
+    "reasoning": "Compared this 2021 Honda Accord EX-L with 38k miles to recent dealer retail listings in clean condition, which average around $21,000-$22,500; a small discount for the modest remaining factory warranty yields a fair price near $20,000.",
+    "value": 20000.0
+  },
+  "0feda33d9f0b": {
+    "reasoning": "2021 Honda Accord EX-L with 38k miles, clean history and recent tires typically trade in the $18k-$20k range; $19k list price falls right in the middle, so a fair negotiated price is slightly below at $18,250.",
+    "value": 18250.0
+  },
+  "b2ba19296940": {
+    "reasoning": "Used 2021 Accord EX-L values from KBB private-party and dealer retail data (adjusted for mileage, options, and condition) cluster around $20,250-$21,500; $19k asking price is already below that range, making ~$18,500 a realistic fair-market offer.",
+    "value": 18500.0
+  },
+  "1d607e5faf48": {
+    "reasoning": "Recent Clean Carfax, low-mileage 2021 Accord EX-Ls with the 1.5T sell for $22-24k; the $19k sale price is already a strong deal so fair value lands in the middle of that range.",
+    "value": 23000.0
+  },
+  "ecd6da5cb126": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with 38k miles, clean history, and the listed options, the fair market value is around the mid-$22k range after accounting for the sale price being an outlier.",
+    "value": 22500.0
+  },
+  "313b47483b2f": {
+    "reasoning": "Current used-market data (KBB private-party ~$23k, dealer retail ~$24-25k) places this low-mileage, certified 2021 Accord EX-L around the mid-$23k range, so $19k is already a strong deal but $21k is still a fair negotiated price.",
+    "value": 21000.0
+  },
+  "f1e192563181": {
+    "reasoning": "KBB private-party value for a comparable 2021 Accord EX-L with similar miles is ~$23k, dealer retail ~$25-26k; the $19k sale price is already a strong discount, so a fair negotiated price is slightly below that.",
+    "value": 18500.0
+  },
+  "0cdbb00ecb6c": {
+    "reasoning": "KBB private-party value for a 2021 Accord EX-L 1.5T with ~38k miles is ~$23k-$24.5k; dealer retail is $25k-$27k, so a fair negotiated price on a certified unit with recent tires/warranty is $23,500.",
+    "value": 23500.0
+  },
+  "6ef301e121fd": {
+    "reasoning": "Market data for comparable 2021 Accord EX-L models with similar mileage and options show average private-party and dealer retail values around $24,500.",
+    "value": 24500.0
+  },
+  "63c9e3a8a2ed": {
+    "reasoning": "KBB/Edmunds private-party/trade-in averages for a 2021 Accord EX-L with this mileage and options are ~$22-23k; dealer retail is higher but $19k is already a strong discount from $29k, so fair market sits just above the current asking.",
+    "value": 21500.0
+  },
+  "ea2364003715": {
+    "reasoning": "KBB private-party/trade-in values for this exact 2021 Accord EX-L around 38k miles in clean condition are ~$23-25k; the $19k sale price is already a strong deal, so a realistic fair market price is $23,500.",
+    "value": 23500.0
+  },
+  "5195e6a832ca": {
+    "reasoning": "KBB private-party/trade-in values for a 2021 Accord EX-L 1.5T with ~38k miles are ~$23-25k; dealer retail is ~$26-28k, so the $19k asking price is already a strong discount but a fair market price is around $24k.",
+    "value": 24000.0
+  },
+  "68ffe6d0e998": {
+    "reasoning": "Recent comparable 2021 Honda Accord EX-L sales average $22k–$24k with similar mileage/options; the $19k asking is already a strong deal but $20,500 is a realistic fair-market target allowing modest negotiation room.",
+    "value": 20500.0
+  },
+  "c4b61a7c0865": {
+    "reasoning": "KBB private-party value for this exact 2021 Accord EX-L with 38k miles is ~$23,500-$24,500; dealer retail is a bit higher, so a negotiated fair price lands at $23,000.",
+    "value": 23000.0
+  },
+  "069f29c026e3": {
+    "reasoning": "KBB private party and clean retail values for a 2021 Accord EX-L 1.5T with ~38k miles are in the mid-$22k–$24k range; the $19k asking price is already a strong discount from the original $29k list, so a fair negotiated price sits just below that.",
+    "value": 21500.0
+  },
+  "39208962c45a": {
+    "reasoning": "Cross-checked 2021 Accord EX-L values on KBB, Edmunds, and recent regional listings for comparable mileage/condition; original $29k list was unrealistic and $19k sale price is an aggressive discount but still slightly above current market averages.",
+    "value": 18500.0
+  },
+  "3e2f63212772": {
+    "reasoning": "KBB private-party/ trade-in values for a clean 2021 Accord EX-L 1.5T with ~38k miles are ~$23k–$25k; dealer retail is typically $1–2k higher, but the aggressive $19k sale price already undercuts that, so fair market is around $23k.",
+    "value": 23000.0
+  },
+  "39986aff8a53": {
+    "reasoning": "KBB private party/trade-in values for a 2021 Accord EX-L average around $23k-25k for this mileage/condition, but the $19k asking price is already a strong discount.",
+    "value": 21000.0
+  },
+  "1c072ea021fb": {
+    "reasoning": "Retail prices for a comparable GIA-certified 1 ct G/VS2 round with Excellent cut and 14k white-gold solitaire are typically $3,800–$4,600 at independent jewelers after modest negotiation; $4,200 is a realistic fair transaction price.",
+    "value": 4200.0
+  },
+  "7dade35a7a08": {
+    "reasoning": "Retail asking price of $5,200 for a 1 ct G/VS2 round with Excellent cut is ~15-20 % above current online and wholesale replacement cost after typical 40-50 % retail markup.",
+    "value": 4200.0
+  },
+  "c738a986de08": {
+    "reasoning": "Retail asking price of $5,200 is in line with current market for a GIA-certified 1 ct G/VS2 round with Excellent proportions in 14k white gold; fair negotiated price is approximately 15-20% below retail.",
+    "value": 4300.0
+  },
+  "621a7e80905d": {
+    "reasoning": "Current wholesale Rapaport price for a 1ct G/VS2 round is ~$4,200-$4,500; retail mark-up, setting, and jeweler profit add 30-50% so a fair negotiated price is around $5,800-$6,200, but the $5,200 ask is already slightly below that range.",
+    "value": 4800.0
+  },
+  "c28d40bf0fb8": {
+    "reasoning": "Retail asking price of $5,200 is typical for an independent jeweler; a fair negotiated or resale value for this specific 1.02 ct GIA G/VS2 Excellent round in 14k white gold is approximately 35-40% lower.",
+    "value": 3300.0
+  },
+  "e3cea78d3b8c": {
+    "reasoning": "Retail price for a 1 ct G/VS2 Excellent-cut round with GIA cert is ~$4,200–$4,600 wholesale; adding ~30 % retail markup and the 14 k white-gold setting yields a fair market price of about $4,000.",
+    "value": 4000.0
+  },
+  "c000512d6ee6": {
+    "reasoning": "The diamond's specs (1.02 ct, G/VS2, Excellent cut) retail for roughly $4,200–$4,600 wholesale today; adding the 14k white-gold setting, labor, and modest jeweler margin yields a fair retail price of about $5,000.",
+    "value": 5000.0
+  },
+  "e8de50d23393": {
+    "reasoning": "GIA 1.02ct G-VS2 round with Excellent cut typically retails $4,200-$4,800; adding ~$400-500 for 14k white gold setting and jeweler services gives a fair all-in price around $4,600.",
+    "value": 4600.0
+  },
+  "44a3d61bc6ec": {
+    "reasoning": "Retail markup on comparable GIA 1ct G/VS2 Excellent rounds at independent jewelers typically runs 30-50% over wholesale; current wholesale for this spec is ~$3,400-$3,600, so a fair retail price lands around $4,400 after modest margin.",
+    "value": 4400.0
+  },
+  "8442b2781be2": {
+    "reasoning": "Retail mark-ups, 14k gold cost, and current diamond market data for a GIA 1ct G/VS2 round place a fair retail price around $4,200-$4,600, so $4,400 is used as the midpoint.",
+    "value": 4400.0
+  },
+  "31f3fa4d3a79": {
+    "reasoning": "A comparable 1.02 ct GIA G/VS2 round with Excellent cut and ideal proportions retails for roughly $4,000–$4,600 at independent jewelers; adding ~$300 for the plain 14 k white-gold setting yields a fair all-in price near the middle of that range.",
+    "value": 4300.0
+  },
+  "1cfe3ed21dd7": {
+    "reasoning": "Stone is a solid mid-range 1 ct G VS2 Excellent; wholesale Rapaport lists ~$4,800-$5,200 for GIA G/VS2 1 ct EX, retail mark-ups and 14k mounting add ~30-40%, so fair negotiated price is $4,200.",
+    "value": 4200.0
+  },
+  "0abf6f517a39": {
+    "reasoning": "Market data for a 1.02 ct GIA G/VS2 round with Excellent cut and no fluorescence puts the loose stone at ~$3,800; adding $300 for the basic 14k white-gold setting and markup gives a fair retail of $4,200.",
+    "value": 4200.0
+  },
+  "301e2e48f83d": {
+    "reasoning": "Retail markup on a 1 ct G/VS2 ideal-cut diamond in 14k white gold is typically 30-50 % above wholesale; current wholesale for this spec is ~$3,400–3,700, so a fair retail price is about $4,500.",
+    "value": 4500.0
+  },
+  "d2e2870c8012": {
+    "reasoning": "Retail markup on a 1ct G/VS2 Excellent-cut GIA stone plus 14k white-gold setting typically runs 2–2.5× wholesale; current Rapaport-based wholesale for this spec is ~$2,100–$2,300, so a fair retail price is around $3,000.",
+    "value": 3000.0
+  },
+  "66e20a5c3924": {
+    "reasoning": "Retail mark-ups, the inflated insurance appraisal, and typical resale data for a comparable 1 ct G/VS2 round in 14k white gold put street/retail value at roughly 45-50% of the $5,200 asking price.",
+    "value": 2550.0
+  },
+  "755de47eba02": {
+    "reasoning": "Retail asking price is already aggressive for a 1 ct G/VS2 round; realistic resale value after typical 40-50% retail markup lands around $3,000-$3,500.",
+    "value": 3250.0
+  },
+  "2fb559cafe40": {
+    "reasoning": "Retail diamond prices for a 1 ct G/VS2 Excellent round typically range $4,200–$5,200 after standard 40-50% retail markup over wholesale; the insurance appraisal of $9,500 is inflated for replacement value and not market price.",
+    "value": 4700.0
+  },
+  "d77131031925": {
+    "reasoning": "Retail asking price of $5,200 already undercuts the inflated $9,500 insurance appraisal; real-world resale data and typical 40-60% retail mark-ups place fair market value near $3,600.",
+    "value": 3600.0
+  },
+  "07185a25fcb3": {
+    "reasoning": "Retail asking price of $5,200 is already below the inflated $9,500 appraisal; fair market resale value for a comparable GIA 1 ct G/VS2 Excellent round in 14k solitaire is typically $3,200-$3,800.",
+    "value": 3600.0
+  },
+  "34c3c592ee20": {
+    "reasoning": "Retail asking price of $5,200 is already below the inflated $9,500 appraisal; current wholesale replacement cost for an equivalent 1 ct G/VS2 Excellent round is ~$3,200–$3,600, so a fair negotiated price lands around $3,800.",
+    "value": 3800.0
+  },
+  "6971d32d6e37": {
+    "reasoning": "Retail list price for a new 1 ct G/VS2 Excellent round is ~$5,200-$5,800; after typical 30-40% negotiation and recognizing the insurance appraisal is inflated for replacement value, a fair cash price is around $3,700.",
+    "value": 3700.0
+  },
+  "85c6ff92db38": {
+    "reasoning": "Retail asking price of $5,200 is already well below the inflated $9,500 insurance appraisal; comparable GIA 1 ct G/VS2 rounds on the secondary market trade around $3,800–$4,200, so a fair negotiated cash price is about $4,000.",
+    "value": 4000.0
+  },
+  "760eabbb877a": {
+    "reasoning": "Retail asking price of $5,200 is already below a $9,500 appraisal; market data for comparable GIA 1 ct G/VS2 Excellent rounds in 14k solitaire settings indicate a fair negotiated price near $4,200.",
+    "value": 4200.0
+  },
+  "1ed8cb9107d2": {
+    "reasoning": "Retail price of ~$5200 is already ~45% below the inflated $9500 insurance appraisal; a fair secondary-market resale value accounting for typical 40-60% retail markup on GIA G/VS2 1 ct rounds lands around $3200.",
+    "value": 3200.0
+  },
+  "eca4fd5c3826": {
+    "reasoning": "Retail asking price of $5,200 already includes substantial markup; after subtracting typical 30-40% retail premiums and cross-checking current wholesale GIA 1ct G/VS2 prices, a fair market value lands around $3,400.",
+    "value": 3400.0
+  },
+  "2795e904e330": {
+    "reasoning": "Market data for comparable GIA 1ct G/VS2 Excellent rounds with these proportions shows retail replacement around $4,800-$5,400; after typical independent-jeweler markup and the 30-day return policy, a fair cash price lands near the middle.",
+    "value": 5100.0
+  },
+  "feca6aaafdc4": {
+    "reasoning": "Retail asking price of $5,200 is already below the inflated $9,500 insurance appraisal; after typical retail-to-wholesale markup and secondary-market discounts for a 1 ct G/VS2 Excellent stone in modest 14k gold, a fair cash price is around $3,400.",
+    "value": 3400.0
+  },
+  "cc7fec6d54b9": {
+    "reasoning": "Retail asking price of $5,200 is already below the inflated $9,500 appraisal; market data for comparable 1 ct G/VS2 rounds with GIA reports shows typical resale values of $3,800-$4,400, so a fair negotiated price lands near the midpoint.",
+    "value": 4100.0
+  },
+  "b6f8d44881c8": {
+    "reasoning": "Retail markup on GIA-certified 1 ct G/VS2 rounds with VG+ proportions is typically 40-60 % above wholesale; current wholesale for these specs is ~$3,200-3,600, so a fair out-the-door price is about $4,200.",
+    "value": 4200.0
+  },
+  "9562dee4c9fd": {
+    "reasoning": "Current grey-market pricing for a near-mint 3861 Moonwatch with full set and recent Omega service is around $4,400–$4,600, so $4,500 is a fair negotiated price below the dealer’s $4,900 ask.",
+    "value": 4500.0
+  },
+  "6548fbd70415": {
+    "reasoning": "Retail for a new 3861 Moonwatch is ~$6,600 and current grey-market/pre-owned values for a 2022 full-set example in near-mint condition run $4,200-$4,600; a $4,900 dealer ask is high, so a fair negotiated price is around $4,400.",
+    "value": 4400.0
+  },
+  "86eab1674c66": {
+    "reasoning": "New list price for this exact reference is ~$7,300; recent Chrono24 and dealer comps for identical 2022 examples in similar condition (full set, recent service) trade in the low-to-mid $5k range, so a fair market value for a private-party equivalent is approximately $4,700.",
+    "value": 4700.0
+  },
+  "a2f7b7882e2c": {
+    "reasoning": "Retail for this reference is ~$7,100 new; recent secondary-market data for identical full-set examples with recent service show $5,200–$5,600 asking prices, so a fair private-sale or dealer-buy price is around $5,100.",
+    "value": 5100.0
+  },
+  "fd0d0598c479": {
+    "reasoning": "Recent Chrono24 and secondary-market comps for identical 3861 Hesalite Moonwatches (full set, recent service, light wear) average $4,200-$4,500, so a fair private-sale price is $4,300.",
+    "value": 4300.0
+  },
+  "7e7b634446a8": {
+    "reasoning": "Recent Chrono24 and WatchCharts data show identical 3861 Moonwatches in comparable condition selling between $4,600-$5,000; the full set, recent service, and 14-day return support a mid-range value.",
+    "value": 4750.0
+  },
+  "567186df7123": {
+    "reasoning": "Retail for a new 3861 Moonwatch is ~$6,900-$7,200; a 4-year-old pre-owned example with full set, recent service, and minor bracelet wear trades 25-30% below retail on the secondary market.",
+    "value": 4900.0
+  },
+  "43c7bf4dbb1d": {
+    "reasoning": "Current market data for this reference shows recent private-party sales averaging $4,200-$4,600 and dealer retail around $4,800-$5,200; with light wear, recent service, and full set a fair negotiated price lands near the lower end of dealer pricing.",
+    "value": 4450.0
+  },
+  "623abe20bed3": {
+    "reasoning": "Recent Chrono24 and pre-owned dealer listings for the same 310.30.42.50.01.001 with full set and recent service average $4,300-$4,600; a fair-market price after minor negotiation from the dealer’s $4,900 ask is therefore $4,400.",
+    "value": 4400.0
+  },
+  "dfe195a7dd82": {
+    "reasoning": "Recent Chrono24 and pre-owned listings for the 3861 Moonwatch with full set and recent service average $4,200–$4,600; $4,500 accounts for the impeccable condition, full kit, and dealer warranty while leaving room to negotiate below the $4,900 ask.",
+    "value": 4500.0
+  },
+  "06dd1f17b81b": {
+    "reasoning": "Current secondary-market listings for this 3861 ref. 310.30.42.50.01.001 with full set and recent service are trading in the mid-$4 k range; $4,300 reflects a modest discount to the dealer’s $4,900 ask while still accounting for the clean condition, recent service, and 14-day return.",
+    "value": 4300.0
+  },
+  "0bb19ebf1dd8": {
+    "reasoning": "Recent market data for a serviced 2022 Speedmaster 310.30.42.50.01.001 with full set shows realized prices between $4,400–$4,700; $4,550 is a fair midpoint that accounts for minor bracelet wear while reflecting strong demand and the included 14-day return.",
+    "value": 4550.0
+  },
+  "cb22f608141a": {
+    "reasoning": "Retail for this reference is ~$7,200; pre-owned examples with full set and recent service trade in the $4,300–$4,600 range on Chrono24 and dealer sites, so $4,500 is a fair midpoint for a lightly worn piece from a reputable seller.",
+    "value": 4500.0
+  },
+  "92e5b4cbcb52": {
+    "reasoning": "Recent pre-owned 310.30.42.50.01.001 Moonwatches with full set and recent service consistently sell in the $4,200–$4,600 range on major secondary platforms, so $4,500 is a fair midpoint for a clean example from a dealer with returns.",
+    "value": 4500.0
+  },
+  "ecf171f09838": {
+    "reasoning": "Recent secondary-market sales for this exact reference in similar condition (2022–2023 production, full set, serviced) cluster between $4,300–$4,700, so I adjusted upward slightly for the recent service and full kit to arrive at a fair value.",
+    "value": 4600.0
+  },
+  "9920ca23f367": {
+    "reasoning": "Current gray-market pricing for a 2022 ref 310.30.42.50.01.001 with full set and recent service is $4,100-$4,300, so a fair negotiated price is around $4,200.",
+    "value": 4200.0
+  },
+  "64af78f9bcc8": {
+    "reasoning": "Current grey-market pricing for this reference with full set and recent service is $4,200–$4,600; asking $4,900 is a bit high but still within a normal negotiation range.",
+    "value": 4500.0
+  },
+  "78e7486b31dd": {
+    "reasoning": "Current gray-market prices for a lightly-used 310.30.42.50.01.001 with full set are around $4,200–$4,600; $4,500 sits comfortably in the middle for a four-year-old example with recent service.",
+    "value": 4500.0
+  },
+  "0fa9b61275e5": {
+    "reasoning": "Retail ~$7,000, four-year-old pre-owned Moonwatch with full set and recent service typically trades at 35-40% below retail on the secondary market, pointing to a fair used price around $4,200.",
+    "value": 4200.0
+  },
+  "7b5c5e488bc6": {
+    "reasoning": "Current grey-market prices for this exact 3861 Moonwatch with full set and recent service are $4,400-$4,700; $4,900 is a touch high but within acceptable range given the return policy and condition.",
+    "value": 4600.0
+  },
+  "12fbc10210bf": {
+    "reasoning": "Current used market for a 2022 Speedmaster ref 310.30.42.50.01.001 with full set and recent service sits around 25-30% below retail ($7k) after normal depreciation, light wear, and dealer margin.",
+    "value": 5100.0
+  },
+  "211bb7af0fac": {
+    "reasoning": "Current grey-market pricing for this recent 3861 ref shows $5,200–$5,600 for comparable full-set examples in like-new condition, so a 10–15 % negotiation buffer from the dealer’s $4,900 ask yields ~$4,300.",
+    "value": 4300.0
+  },
+  "0de88b3d281c": {
+    "reasoning": "Recent secondary-market data shows 2022+ ref. 310.30.42.50.01.001 Speedmasters with full set and recent service trade in the mid-$4k range; with light wear and a short return window, $4,400 is a realistic fair price.",
+    "value": 4400.0
+  },
+  "93745a1007ea": {
+    "reasoning": "Retail is ~$7,000; lightly used 2022 3861 Moonwatch with full set typically sells in the $4,200-$4,600 range on secondary market.",
+    "value": 4400.0
+  },
+  "ff00dd27e738": {
+    "reasoning": "Current gray-market pricing for a recent 3861 Moonwatch with full set and recent service is $4,200–$4,600; adjusting for dealer markup, light wear, and 14-day return gives a fair value at the low end of that range.",
+    "value": 4350.0
+  },
+  "ea452b8534b1": {
+    "reasoning": "New retail is ~$7,000; 3-year-old full-set Moonwatch with recent service typically trades 25-30% below retail on the pre-owned market.",
+    "value": 5100.0
+  },
+  "322b4d4439b4": {
+    "reasoning": "Retail is ~$7,100; gray-market used examples with full set and recent service trade ~30 % below retail, so $4,900 is already near the low end of market value.",
+    "value": 4900.0
+  },
+  "ad260bae83b4": {
+    "reasoning": "Current pre-owned 3861 Moonwatch with full set trades around 15-20% below new retail; adding a recent service and clean condition pushes value toward the higher end of that range.",
+    "value": 5800.0
+  },
+  "94375c342ce6": {
+    "reasoning": "Market data for recent private-party and gray-market sales of the 310.30.42.50.01.001 Moonwatch with full set show realized prices between $4,200-$4,600; the $4,900 ask is elevated relative to that range.",
+    "value": 4450.0
+  },
+  "74707127677f": {
+    "reasoning": "Current used market for this reference with full set and recent service is roughly 65-70% of retail, adjusted slightly down for light wear and four-year age.",
+    "value": 4800.0
+  },
+  "7fe99eee7c49": {
+    "reasoning": "The stone is a standard 1 ct G/VS2 with excellent proportions; current wholesale Rapaport price is ~$4,200 and retail markup for an independent jeweler with return policy typically lands 15-25% above that.",
+    "value": 4800.0
+  },
+  "1ae829ac8cdd": {
+    "reasoning": "Current wholesale market data places a GIA-certified 1.02 ct G/VS2 round with Excellent proportions at ~$3,800–4,200; adding ~$400 for the 14 k white-gold setting and markup yields a fair retail price around $4,400.",
+    "value": 4400.0
+  },
+  "b3ebe4d5d3a8": {
+    "reasoning": "Retail markups on similar GIA-certified 1ct G/VS2 Excellent rounds average 30-50% over wholesale; comparable stones wholesale around $3,200–$3,600, so a fair market price for the complete ring is about $4,000.",
+    "value": 4000.0
+  },
+  "5f0fe4a78de3": {
+    "reasoning": "Retail asking price of $5,200 is typical for a 1 ct GIA G/VS2 round with good proportions in 14k white gold; fair negotiated or replacement value is closer to 60-65 % of that after normal retail margins.",
+    "value": 3250.0
+  },
+  "2e4e584f1aa4": {
+    "reasoning": "Retail prices for comparable 1 ct GIA G/VS2 Excellent round diamonds currently trade $3,800–$4,600 wholesale; adding ~30 % retail markup plus the modest 14 k white-gold mounting and jeweler services yields a fair street price around $5,000.",
+    "value": 5000.0
+  },
+  "b0bb52ac7dd0": {
+    "reasoning": "Retail price of $5,200 is within the typical 2-3× wholesale markup range for a GIA-certified 1 ct G/VS2 Excellent round in 14k white gold; fair market value after negotiation or resale consideration is approximately 60 % of asking.",
+    "value": 3200.0
+  },
+  "6afd3a0ec2cc": {
+    "reasoning": "Retail price of ~$5,200 is near the high end for a 1 ct G/VS2 Excellent round; after typical 30-40 % retail markup and secondary-market liquidity discount, fair negotiated value lands around $3,400.",
+    "value": 3400.0
+  },
+  "9c41bd9d7f0a": {
+    "reasoning": "Current wholesale GIA 1.02ct G-VS2 round with excellent proportions trades ~$3,600-3,900; adding ~$250 for the 14k white-gold setting and modest retail markup yields a fair street price of about $4,300.",
+    "value": 4300.0
+  },
+  "19ad600ba560": {
+    "reasoning": "A comparable 1 ct G/VS2 round with Excellent cut and GIA cert retails new for ~$4,800–$5,400 at independent jewelers; factoring the 14k setting and service package, a fair negotiated price sits around $4,700.",
+    "value": 4700.0
+  },
+  "5a8c9da5e70c": {
+    "reasoning": "Market data for 1.02 ct GIA G/VS2 Excellent rounds show wholesale ~$3,800-$4,300 and typical retail mark-ups of 30-50% at independent jewelers, supporting a fair negotiated price near $4,200.",
+    "value": 4200.0
+  },
+  "c75fcd1a90ab": {
+    "reasoning": "Retail list prices for comparable GIA-certified 1 ct G/VS2 Excellent-cut round brilliants in 14k white gold solitaire settings typically fall in the $4,200–$4,800 range after standard trade discounts; $5,200 is a modest premium for dealer reputation and service, so a fair negotiated price is around $4,600.",
+    "value": 4600.0
+  },
+  "5b7fe10be224": {
+    "reasoning": "Retail list prices for a 1 ct G/VS2 Excellent round are typically $4,800-$5,800 from independents; a modest negotiation or quick-sale adjustment brings the fair cash price to about $4,600.",
+    "value": 4600.0
+  },
+  "2a546f2ceb35": {
+    "reasoning": "Retail quotes for a GIA 1 ct G/VS2 Excellent round solitaire in 14k white gold typically run $4,800-$6,500 at independent jewelers; after standard trade discounts and market comps, a fair cash price lands around the middle.",
+    "value": 5200.0
+  },
+  "4ea42b324485": {
+    "reasoning": "Comparable GIA 1ct G/VS2 Excellent-cut rounds with similar proportions currently wholesale around $3,200–$3,600; adding typical retail markup and the modest 14k setting value lands near $4,200–$4,400.",
+    "value": 4300.0
+  },
+  "dc04377d7eef": {
+    "reasoning": "Retail price of $5,200 is already near the low end for this GIA-certified 1 ct G/VS2 Excellent round in 14k white gold; after typical 30-40% retail-to-wholesale spread and modest dealer margin, a fair negotiated cash price lands around $3,400.",
+    "value": 3400.0
+  },
+  "5dd85df6144c": {
+    "reasoning": "Recent wholesale and retail market data for a 1-carat G-color VS2 round with Excellent cut and GIA report puts value around $4,200-$4,800; the jeweler's $5,200 sale price is already near the upper end of that range for a new ring with basic 14k setting.",
+    "value": 4600.0
+  },
+  "fa78a81cb5ba": {
+    "reasoning": "Current Rapaport and retail comps place a GIA 1.02 ct G/VS2 Excellent round at roughly $4,200–$4,800 wholesale; adding a modest 14 k white-gold mounting and typical retail markup yields a fair street price near the current $5,200 sale figure.",
+    "value": 5200.0
+  },
+  "740f92dea3ef": {
+    "reasoning": "Retail list prices for this spec are typically $5.5k-$7k; the $5,200 sale price is already at or below most independent-jeweler margins so a fair cash price is around $4,800.",
+    "value": 4800.0
+  },
+  "4d66b4f5ad4b": {
+    "reasoning": "Retail asking price of $5,200 already reflects a deep discount from $9,500 and is in line with current online and independent-jeweler market data for a 1 ct GIA G/VS2 Excellent round in 14k white gold.",
+    "value": 4800.0
+  },
+  "d7809e769bb5": {
+    "reasoning": "Retail sale price of $5,200 is already well below typical GIA G/VS2 1 ct round market range of $6,000-$8,000; a fair negotiated cash price is about 10% lower.",
+    "value": 4680.0
+  },
+  "efeddb40067f": {
+    "reasoning": "Retail asking prices for comparable 1 ct GIA G-VS2 Excellent round diamonds in 14k white gold solitaire settings typically range 30-50% above wholesale; the $5,200 sale is already near the low end of current wholesale-plus-margin estimates, so a fair negotiated price is around $4,600.",
+    "value": 4600.0
+  },
+  "1437a955d8c8": {
+    "reasoning": "Current wholesale Rapaport prices for a 1.02 ct G VS2 Excellent round are ~$4,200–$4,600; adding $800–$1,000 for 14k setting, inscription, and retailer margins yields a fair retail price around $5,400–$5,800, so $5,200 on sale is already near the bottom of a realistic range.",
+    "value": 5300.0
+  },
+  "d53c784f4e6b": {
+    "reasoning": "Retail sale price already reflects a 45% discount from the original list; current market data for comparable GIA 1 ct G/VS2 Excellent rounds shows true wholesale replacement around $3800–4200, so a fair negotiated price is set slightly above that midpoint.",
+    "value": 4100.0
+  },
+  "2bd4fd61bff4": {
+    "reasoning": "Retail comps for a 1 ct G/VS2 ideal-cut GIA stone in 14k white gold run $4,800–$6,200; the $5,200 sale price already sits at the low end, so a fair negotiated figure is $4,900.",
+    "value": 4900.0
+  },
+  "75807312259d": {
+    "reasoning": "Retail list was $9,500, sale $5,200; comparable GIA 1ct G/VS2 rounds with ideal proportions typically trade $4,000–$5,500 at independent jewelers after markup, so fair market is around the current sale price.",
+    "value": 5200.0
+  },
+  "e3dca97b44be": {
+    "reasoning": "Retail list is $9,500; sale price of $5,200 already reflects a typical 40-45 % discount off that, and given the strong specs (GIA G/VS2, excellent cut, 1 ct+) a fair negotiated price sits just below the current sale figure.",
+    "value": 4800.0
+  },
+  "c371446375d1": {
+    "reasoning": "Retail price of a 1 ct GIA G-VS2 Excellent round is ~$5,000-6,000 before mounting; after 45% discount the $5,200 sale price is already near or slightly below market for a new ring from an independent jeweler.",
+    "value": 4800.0
+  },
+  "6e04a4313750": {
+    "reasoning": "Retail prices for a 1.02ct GIA G/VS2 Excellent round are typically $5,500–$6,500 for the diamond alone; the sale price of $5,200 already reflects a strong discount and includes a modest setting and jeweler services, making it a fair street price.",
+    "value": 5200.0
+  },
+  "e19f5e1e11d2": {
+    "reasoning": "Retail price for a 1 ct GIA G/VS2 Excellent round is typically $4,800-$5,800 on sale at independent jewelers; $5,200 already reflects a strong discount from the $9,500 list with standard services included.",
+    "value": 5200.0
+  },
+  "42b68b3a7b26": {
+    "reasoning": "Retail asking price of $5,200 is already a steep discount; typical used/resale value for this exact GIA 1 ct G-VS2 Excellent stone in 14k is roughly 45-55% of new retail due to diamond market softness and gold melt value (~$120).",
+    "value": 2800.0
+  },
+  "5fc5be7dd36e": {
+    "reasoning": "Current grey-market pricing for this reference with full set and recent service is around 4200-4500; $4400 is a reasonable midpoint given condition and return policy.",
+    "value": 4400.0
+  },
+  "bc9be02c2708": {
+    "reasoning": "Recent sold listings for this 3861 Hesalite ref show private-party sales around $4,200-$4,400; adding the full set, recent service, and dealer return policy pushes the fair retail price to approximately $4,600.",
+    "value": 4600.0
+  },
+  "a6a790ed5bf2": {
+    "reasoning": "2024 pre-owned market data shows 310.30.42.50.01.001 Moonwatches with recent service and full set trade in the $4,200–$4,600 range; $4,900 is at the high end, so a fair negotiated price is $4,400.",
+    "value": 4400.0
+  },
+  "e582f589b1ce": {
+    "reasoning": "Retail is ~$7,100; recent pre-owned comps for identical 2021-2022 full-set Moonwatches with light wear and recent service fall in the $4,200-$4,600 range, so $4,500 is a fair market price.",
+    "value": 4500.0
+  },
+  "4004238c83ce": {
+    "reasoning": "Retail for this ref is ~$7,100; with 4 years age, light wear, full set and recent service, secondary market comps run $4,600-$5,000 so a fair private/dealer price is around $4,700.",
+    "value": 4700.0
+  },
+  "c4f9c71e40ae": {
+    "reasoning": "Recent pre-owned 3861 Moonwatch comps with full set and recent service are trading $4,200-$4,600 from reputable dealers, with $4,400 as the midpoint after minor bracelet wear.",
+    "value": 4400.0
+  },
+  "479e48c98b40": {
+    "reasoning": "Current market data shows new Moonwatch 3861 models at ~$6,900–$7,200 and recent pre-owned examples in similar condition trading between $4,400–$4,800; with full set, recent service, and light wear, a fair used price sits at the upper end of that range.",
+    "value": 4650.0
+  },
+  "97e6e4999554": {
+    "reasoning": "Recent secondary-market data for the 310.30.42.50.01.001 with full set, recent service, and light wear shows private-party sales clustered between $4,300–$4,600, with dealer retail a bit higher, so a fair negotiated price is around the middle of that range.",
+    "value": 4450.0
+  },
+  "3a86c019c772": {
+    "reasoning": "Retail new is ~$6,600; current gray-market prices for identical 3861 Moonwatches in comparable condition average $4,200-$4,600, so with the full set, recent service, and 14-day return a fair negotiated price is $4,400.",
+    "value": 4400.0
+  },
+  "c369a58d34b2": {
+    "reasoning": "Retail on this ref is ~$7,100; recent secondary sales of 2022 examples with full set and light wear average $4,400-$4,600, so $4,500 is a realistic fair price.",
+    "value": 4500.0
+  },
+  "a44929e66954": {
+    "reasoning": "Current secondary market data shows clean 3861 Moonwatches with full set trade between $4,200-$4,600; the listed $4,900 is on the high side for a four-year-old piece with light wear.",
+    "value": 4400.0
+  },
+  "005c5a694d86": {
+    "reasoning": "Reference 310.30.42.50.01.001 with full set, recent service, and minor bracelet wear typically sells used in the $4,200–$4,600 range after checking recent Chrono24 and dealer listings; $4,500 is the midpoint that balances the 14-day return policy and reputable seller.",
+    "value": 4500.0
+  },
+  "611c04d3227f": {
+    "reasoning": "Current grey-market pricing for a recent, full-set, serviced Omega 310.30.42.50.01.001 ranges from $4,200–$4,600; the dealer’s $4,900 ask is 10–15 % high, so a realistic private-party or fair retail figure is $4,350.",
+    "value": 4350.0
+  },
+  "c335f7b97846": {
+    "reasoning": "Recent pre-owned 3861 Moonwatch transactions on Chrono24, WatchBox, and dealer sites for comparable full-set examples with light wear average $4,200-$4,600, so $4,400 is a fair negotiated price.",
+    "value": 4400.0
+  },
+  "40c453ab9793": {
+    "reasoning": "Retail for this reference is ~$6,900; recent Chrono24 and dealer listings for identical 4-year-old full-set examples average $5,300-$5,700, so a fair private/dealer price after light wear and a 14-day return is around $5,100.",
+    "value": 5100.0
+  },
+  "9c9785b5cff3": {
+    "reasoning": "Current grey-market prices for a recent 3861 Moonwatch with full set and recent service average $4,800-$5,200.",
+    "value": 5100.0
+  },
+  "e47df6076715": {
+    "reasoning": "New retail for this reference is ~$7,200; four-year-old examples in excellent condition with full set and recent service typically trade $4,800–$5,400 on the secondary market, so $4,900 is already at the low end of fair value.",
+    "value": 4900.0
+  },
+  "b5b3963ffa2d": {
+    "reasoning": "Reference 310.30.42.50.01.001 with 3861 movement typically sells for $4,200–$4,800 on the secondary market in excellent condition with full set; the $4,900 asking price is already near the top of that range, so a fair negotiated value is $4,500.",
+    "value": 4500.0
+  },
+  "d815496edf7e": {
+    "reasoning": "Retail for this ref is ~$6,800 + tax new; recent sales on Chrono24 and forums for identical 4-year-old full-set pieces with light wear and recent Omega service are $4,200–$4,600.",
+    "value": 4500.0
+  },
+  "22150ff0577d": {
+    "reasoning": "Current gray-market pricing for a recent 3861 Moonwatch with full set and light wear ranges $4,200–$4,600; dealer asking $4,900 is still above that band.",
+    "value": 4400.0
+  },
+  "9da5d549afb0": {
+    "reasoning": "Current used market for a 2022 ref 310.30.42.50.01.001 with full set and recent service is $4,200-$4,600; the $4,900 asking price is slightly high but still within a realistic negotiation range.",
+    "value": 4400.0
+  },
+  "c701d75aec60": {
+    "reasoning": "MSRP is ~$7,200; 2022 pre-owned examples with light wear, recent service, and full set typically transact in the $5,200–$5,600 range on Chrono24 and dealer sites, so a fair market price is $5,400.",
+    "value": 5400.0
+  },
+  "a3f9d07be1f5": {
+    "reasoning": "Current grey-market prices for a recent 3861 Moonwatch with full set and light wear are $4,200–$4,600; the $4,900 deal already falls at the upper end, so a fair negotiated price lands around $4,400.",
+    "value": 4400.0
+  },
+  "488a8374325f": {
+    "reasoning": "Current gray-market prices for a 2022 3861 Moonwatch in comparable condition with full set sit between $4,200–$4,800, so $4,900 is already near the top of that range.",
+    "value": 4600.0
+  },
+  "7b39d50fb19d": {
+    "reasoning": "The watch is a recent-production Speedmaster 3861 with full set and recent service, current grey-market listings for identical examples in comparable condition fall in the $4,200–$4,600 range, so a fair street price is around the middle of that band.",
+    "value": 4400.0
+  },
+  "015b250dbc48": {
+    "reasoning": "Recent market data for identical 2022+ ref. 310.30.42.50.01.001 Moonwatches with full set and recent service show private-party and grey-dealer prices clustered between $4,200-$4,700; $4,900 is still a modest premium.",
+    "value": 4600.0
+  },
+  "2ee08e0efdb3": {
+    "reasoning": "Retail new is ~$6,800–$7,200; recent Chrono24 sold listings for this exact ref with full set and recent service average ~$5,200–$5,600, so after light wear and dealer margin a fair used price is around $5,100.",
+    "value": 5100.0
+  },
+  "5e3529de10b8": {
+    "reasoning": "Retail for this ref is ~$7,200; pre-owned examples with recent service and full set typically trade 25-30% below retail, putting fair market at $5,000-5,300.",
+    "value": 5100.0
+  },
+  "a21bb1776fc2": {
+    "reasoning": "Recent pre-owned 3861 Moonwatch prices with full set and recent service have stabilized around $4,800-$5,200 depending on condition and seller; the current $4,900 list already falls in the middle of that range and the 14-day return plus recent service add some premium.",
+    "value": 4900.0
+  },
+  "ba8bf93314e1": {
+    "reasoning": "Recent secondary-market comps for the same 3861 Hesalite Moonwatch with full set in similar condition are trading between $4,400–$5,200 at reputable dealers; the $4,900 asking price already sits near the top of that range, so a fair negotiated price is slightly below it.",
+    "value": 4700.0
+  },
+  "1b123016b625": {
+    "reasoning": "Used 2021 Accord EX-L values from KBB, Edmunds, and local listings average ~$20,500-$21,500 for similar mileage/condition; the $19k asking price is already below that range, so a fair negotiated price is $18,500.",
+    "value": 18500.0
+  },
+  "57707d7c5193": {
+    "reasoning": "Kelley Blue Book and Edmunds private-party/trade-in values for a clean 2021 Accord EX-L 1.5T with ~38k miles average $17,800-$18,400, so $18,000 is a realistic target after minor negotiation.",
+    "value": 18000.0
+  },
+  "63ac2830ad79": {
+    "reasoning": "Recent sales data for comparable 2021 Honda Accord EX-L sedans with similar mileage, condition, and options show average transaction prices between $18,500-$19,500.",
+    "value": 18750.0
+  },
+  "70340a29dd54": {
+    "reasoning": "KBB private-party and dealer retail values for a comparable 2021 Accord EX-L in average-to-good condition with 38k miles are $20,500-$22,000; the $19k listing is already below that, so a fair negotiated price is around $18,200.",
+    "value": 18200.0
+  },
+  "11ea6d6f8aab": {
+    "reasoning": "Based on current market data for a 2021 Honda Accord EX-L with similar mileage, options, and condition from reputable sources like Kelley Blue Book and Edmunds, fair market value is approximately $20,500.",
+    "value": 20400.0
+  },
+  "2b5e92a4f0d4": {
+    "reasoning": "Based on current used-market data for a 2021 Honda Accord EX-L 1.5T with 38k miles, clean history, and the listed options, average private-party/trade-in values sit around $21,000–$22,500; the dealer asking $19k already reflects a modest discount, so a fair negotiated price is about $18,500.",
+    "value": 18500.0
+  },
+  "a3766e37759a": {
+    "reasoning": "2021 Accord EX-Ls with ~38k miles typically trade in the $18.5k-$20k range per KBB/NADA; the $19k ask is already at the low end with clean history, recent tires/service, and warranty, so a fair negotiated price is only slightly below asking.",
+    "value": 18500.0
+  },
+  "03f6346d0d20": {
+    "reasoning": "KBB private-party/trade-in value for a 2021 Accord EX-L with 38k miles is ~$18.5-19.5k; dealer retail is normally $1-2k higher but the low miles, CPO-like warranty, and recent tires justify meeting the $19k ask.",
+    "value": 18500.0
+  },
+  "672a378e720d": {
+    "reasoning": "KBB private party/trade-in for a 2021 Accord EX-L with 38k miles averages ~$21-23k; dealer asking $19k is already below market, so fair negotiated cash price is around $18k.",
+    "value": 18000.0
+  },
+  "e55f1fc9bdab": {
+    "reasoning": "KBB private-party/trade-in values for a comparable 2021 Accord EX-L with 38k miles sit around $18.5-19.5k; dealer retail is typically $1-2k higher, so a fair negotiated out-the-door target before fees/taxes is about $19,250.",
+    "value": 19250.0
+  },
+  "315bb4ca2e98": {
+    "reasoning": "KBB private-party/trade-in value for a 2021 Accord EX-L 1.5T with ~38k miles is ~$20.5-22k; dealer retail is higher, but the $19k ask is already below typical used-Honda market, so a fair negotiated price is slightly under that.",
+    "value": 18500.0
+  },
+  "37a431e1e1e6": {
+    "reasoning": "KBB private-party value for a 2021 Accord EX-L with these miles/options is ~$20.2k, trade-in ~$18.7k; dealer retail averages $21-22k, so after negotiation a realistic street price is $19.5k.",
+    "value": 19500.0
+  },
+  "d1b149122c7c": {
+    "reasoning": "Compared this 2021 Honda Accord EX-L with 38k miles to recent dealer retail listings in clean condition, which average around $21,000-$22,500; a small discount for the modest remaining factory warranty yields a fair price near $20,000.",
+    "value": 20000.0
+  },
+  "6f8d9d72118e": {
+    "reasoning": "2021 Honda Accord EX-L with 38k miles, clean history and recent tires typically trade in the $18k-$20k range; $19k list price falls right in the middle, so a fair negotiated price is slightly below at $18,250.",
+    "value": 18250.0
+  },
+  "c84fa85dd628": {
+    "reasoning": "Used 2021 Accord EX-L values from KBB private-party and dealer retail data (adjusted for mileage, options, and condition) cluster around $20,250-$21,500; $19k asking price is already below that range, making ~$18,500 a realistic fair-market offer.",
+    "value": 18500.0
+  },
+  "e3f9a92c40b5": {
+    "reasoning": "Based on current wholesale and retail data for a GIA-certified 1 ct G/VS2 round brilliant with ideal proportions, plus typical markup for a small independent jeweler including the 14k band and services, a fair market price is around $4500.",
+    "value": 4500.0
+  },
+  "29edb27e49cf": {
+    "reasoning": "GIA-certified 1ct G/VS2 round with excellent proportions commands $4,800–$5,600 wholesale for the diamond alone; adding a modest 14k solitaire mounting and typical retail markup yields a fair street price around $7,200.",
+    "value": 7200.0
+  },
+  "8d9de971df4c": {
+    "reasoning": "Current GIA G/VS2 1 ct rounds with ideal proportions trade for roughly $4,800–$5,200 wholesale; adding ~$600–$800 for the 14k setting, labor, and modest retail markup yields a fair retail price around $6,200.",
+    "value": 6200.0
+  },
+  "6c75279707bd": {
+    "reasoning": "A GIA-certified 1.02 ct G/VS2 round with Excellent proportions typically wholesales near $4,200–$4,800; adding ~$400–$600 for the 14k white-gold setting and jeweler markup yields a fair retail price around $5,800.",
+    "value": 5800.0
+  },
+  "0422fe56946b": {
+    "reasoning": "Current wholesale cost of a 1.02 ct G/VS2 excellent-cut round is ~$3,800–$4,200; retail markup on an independent jeweler’s solitaire in 14k white gold adds ~60–80 %, producing a fair street price near $6,500.",
+    "value": 6500.0
+  },
+  "594de8486441": {
+    "reasoning": "Retail list for a GIA G/VS2 1 ct Excellent round solitaire in 14k is ~$5,800–$6,800 before any discounts; adjusting downward for typical independent-jeweler margins and modest negotiation yields a fair cash price around $5,000.",
+    "value": 5000.0
+  },
+  "3000eb0eeed9": {
+    "reasoning": "1.02 ct GIA G/VS2 Excellent round with ideal proportions typically wholesales ~$4,200–4,600; adding ~$400–500 for the 14k white-gold setting, labor, and markup yields a fair retail of about $5,200.",
+    "value": 5200.0
+  },
+  "8dc9dcae5d71": {
+    "reasoning": "Retail quotes for this exact GIA 1.02 ct G/VS2 Excellent cut stone run $5.8k-6.8k; after typical 30-40 % independent-jeweler discounts and the modest 14 k band value, a fair cash price lands at $4,200.",
+    "value": 4200.0
+  },
+  "fce2a6b481f8": {
+    "reasoning": "Retail price for this GIA-certified 1ct G/VS2 excellent-cut solitaire in 14k white gold is typically $5,800-$6,800 at independent jewelers; after modest negotiation and considering the modest 3.1 g total weight, $5,900 is a fair cash price.",
+    "value": 5900.0
+  },
+  "0024c443322f": {
+    "reasoning": "Retail list price for a 1 ct GIA G/VS2 Excellent round is ~$5,500–$6,500 before mounting; adding 14k white-gold solitaire (~$150–$250), modest jeweler markup, and return policy/lifetime service yields a fair negotiated price around $5,200.",
+    "value": 5200.0
+  },
+  "4e26f9849fac": {
+    "reasoning": "Retail for a 1.02 ct G/VS2 Excellent round with GIA report is ~$5,500–$6,500 at current Rapaport-based pricing; after typical 30-40% independent-jeweler markup over wholesale, a fair cash price lands at $4,200.",
+    "value": 4200.0
+  },
+  "fd9b78bf7767": {
+    "reasoning": "A 1 ct GIA G/VS2 round with Excellent cut typically wholesales for ~$4,200–4,600; adding ~$400–600 for the 14k white-gold setting and jeweler margin yields a fair retail of ~$5,500.",
+    "value": 5500.0
+  },
+  "cbe564e5a727": {
+    "reasoning": "A 1 ct G/VS2 round with Excellent cut and GIA cert typically wholesales ~$4,000-4,800; the 14k setting and jeweler markup bring retail to ~$6,000.",
+    "value": 6000.0
+  },
+  "fc5763904060": {
+    "reasoning": "A 1 ct G/VS2 round with Excellent cut and GIA report typically retails for $5,500-$7,000 at independents; after typical 30-40% negotiation from listed price in this channel a fair cash price lands around $5,200.",
+    "value": 5200.0
+  },
+  "1ed7757106ca": {
+    "reasoning": "Used current wholesale GIA 1.02ct G-VS2 Excellent round pricing (~$4,800 stone) plus ~$450 fabrication/14k gold/markup for an independent jeweler, yielding a fair retail of $5,800.",
+    "value": 5800.0
+  },
+  "9cb43fb49adf": {
+    "reasoning": "The stone is a standard 1 ct G/VS2 with excellent proportions; current wholesale Rapaport price is ~$4,200 and retail markup for an independent jeweler with return policy typically lands 15-25% above that.",
+    "value": 4800.0
+  },
+  "df2081e50492": {
+    "reasoning": "Current wholesale market data places a GIA-certified 1.02 ct G/VS2 round with Excellent proportions at ~$3,800–4,200; adding ~$400 for the 14 k white-gold setting and markup yields a fair retail price around $4,400.",
+    "value": 4400.0
+  },
+  "5233c9dafe3e": {
+    "reasoning": "Retail markups on similar GIA-certified 1ct G/VS2 Excellent rounds average 30-50% over wholesale; comparable stones wholesale around $3,200–$3,600, so a fair market price for the complete ring is about $4,000.",
+    "value": 4000.0
+  },
+  "5c7128f4bfc6": {
+    "reasoning": "Retail asking price of $5,200 is typical for a 1 ct GIA G/VS2 round with good proportions in 14k white gold; fair negotiated or replacement value is closer to 60-65 % of that after normal retail margins.",
+    "value": 3250.0
+  },
+  "c6ff8fa9b95a": {
+    "reasoning": "Retail prices for comparable 1 ct GIA G/VS2 Excellent round diamonds currently trade $3,800–$4,600 wholesale; adding ~30 % retail markup plus the modest 14 k white-gold mounting and jeweler services yields a fair street price around $5,000.",
+    "value": 5000.0
+  },
+  "5bbc56f502e1": {
+    "reasoning": "Retail price of $5,200 is within the typical 2-3× wholesale markup range for a GIA-certified 1 ct G/VS2 Excellent round in 14k white gold; fair market value after negotiation or resale consideration is approximately 60 % of asking.",
+    "value": 3200.0
+  },
+  "95a782ef33f2": {
+    "reasoning": "Retail price of ~$5,200 is near the high end for a 1 ct G/VS2 Excellent round; after typical 30-40 % retail markup and secondary-market liquidity discount, fair negotiated value lands around $3,400.",
+    "value": 3400.0
+  },
+  "622224123070": {
+    "reasoning": "Current wholesale GIA 1.02ct G-VS2 round with excellent proportions trades ~$3,600-3,900; adding ~$250 for the 14k white-gold setting and modest retail markup yields a fair street price of about $4,300.",
+    "value": 4300.0
+  },
+  "54b56ede04ce": {
+    "reasoning": "A comparable 1 ct G/VS2 round with Excellent cut and GIA cert retails new for ~$4,800–$5,400 at independent jewelers; factoring the 14k setting and service package, a fair negotiated price sits around $4,700.",
+    "value": 4700.0
+  },
+  "4e91bf38ef75": {
+    "reasoning": "Market data for 1.02 ct GIA G/VS2 Excellent rounds show wholesale ~$3,800-$4,300 and typical retail mark-ups of 30-50% at independent jewelers, supporting a fair negotiated price near $4,200.",
+    "value": 4200.0
+  },
+  "b9bf985776d1": {
+    "reasoning": "Retail list prices for comparable GIA-certified 1 ct G/VS2 Excellent-cut round brilliants in 14k white gold solitaire settings typically fall in the $4,200–$4,800 range after standard trade discounts; $5,200 is a modest premium for dealer reputation and service, so a fair negotiated price is around $4,600.",
+    "value": 4600.0
+  },
+  "73e692b423a5": {
+    "reasoning": "Retail list prices for a 1 ct G/VS2 Excellent round are typically $4,800-$5,800 from independents; a modest negotiation or quick-sale adjustment brings the fair cash price to about $4,600.",
+    "value": 4600.0
+  },
+  "090228212163": {
+    "reasoning": "Retail quotes for a GIA 1 ct G/VS2 Excellent round solitaire in 14k white gold typically run $4,800-$6,500 at independent jewelers; after standard trade discounts and market comps, a fair cash price lands around the middle.",
+    "value": 5200.0
+  },
+  "6133396fb0ae": {
+    "reasoning": "Comparable GIA 1ct G/VS2 Excellent-cut rounds with similar proportions currently wholesale around $3,200–$3,600; adding typical retail markup and the modest 14k setting value lands near $4,200–$4,400.",
+    "value": 4300.0
+  },
+  "16671acbb154": {
+    "reasoning": "Retail price of $5,200 is already near the low end for this GIA-certified 1 ct G/VS2 Excellent round in 14k white gold; after typical 30-40% retail-to-wholesale spread and modest dealer margin, a fair negotiated cash price lands around $3,400.",
+    "value": 3400.0
+  },
+  "f8894891dbf9": {
+    "reasoning": "Retail on this ref is ~$7,200; after 4 years with light bracelet wear and full set from a reputable dealer with return policy, fair market is 10-15% below current grey-market prices.",
+    "value": 5800.0
+  },
+  "2d1c62f0b8ab": {
+    "reasoning": "Retail for a new 3861 Moonwatch is ~$6,800; a 2022 pre-owned piece with full set, recent service, and minor wear typically trades 20-25% below retail in the current market.",
+    "value": 5200.0
+  },
+  "b8ad9a2e1999": {
+    "reasoning": "Retail for this ref. 310.30.42.50.01.001 is ~$7,100 new; a 4-year-old pre-owned example with light wear, recent service, and full set typically sells 25–30 % below retail on the secondary market.",
+    "value": 5100.0
+  },
+  "932536e32b66": {
+    "reasoning": "Current pre-owned market data for this exact reference with full set and recent service shows prices clustering between $5200-$5800 at reputable dealers.",
+    "value": 5450.0
+  },
+  "0bad9d3858cc": {
+    "reasoning": "Retail for this reference is ~$6,900 new; after ~4 years with light wear, full set, recent service, and reputable dealer, market data shows used examples trade 15-20% below retail.",
+    "value": 5650.0
+  },
+  "35016649855e": {
+    "reasoning": "A new 3861 Moonwatch lists at ~$6,900; after 3-4 years of light use, typical private-party value is 75-80 % of retail, adjusted upward slightly for full set, recent service, and dealer return policy.",
+    "value": 5300.0
+  },
+  "78f6d3b52639": {
+    "reasoning": "Retail on a new 3861 Moonwatch is ~$7,200; this 2022 example with light wear, full set, recent service and return policy is worth a 25-30% discount from that aftermarket.",
+    "value": 5300.0
+  },
+  "fb07347af18e": {
+    "reasoning": "Retail for this reference is ~$6,600; with 4 years age, light bracelet wear and full set from a reputable dealer, a fair used market value is about 15-20% below current retail.",
+    "value": 5300.0
+  },
+  "85e308da0bd5": {
+    "reasoning": "Current grey-market asking prices for this exact ref. 310.30.42.50.01.001 with full set and recent service are $5,200–$5,600; after typical dealer margin and minor wear adjustment, a fair private-party or dealer price is around $5,100.",
+    "value": 5100.0
+  },
+  "f2111077e101": {
+    "reasoning": "Retail new for this reference is ~$7,200; 4-year-old pre-owned examples with full set and recent service typically trade 20-25% below retail on the secondary market.",
+    "value": 5500.0
+  },
+  "7b2b39e25d97": {
+    "reasoning": "Current pre-owned market for a 2022 Speedmaster ref. 310.30.42.50.01.001 with full set and recent service sits around $5,200-$5,600; adjusted for light wear and reputable dealer return policy, a fair transaction price is $5,400.",
+    "value": 5400.0
+  },
+  "6fa2b1e3255e": {
+    "reasoning": "Retail for this reference is ~$7,100, and four-year-old examples with full set and recent service typically trade 15-20% below retail on secondary market.",
+    "value": 5900.0
+  },
+  "dc8ed16023e4": {
+    "reasoning": "Retail was $5,800 in 2022; current grey-market new price is ~$5,400. Pre-owned 2–3-year-old examples in similar condition trade $4,600–$4,900; the 4-year age, light bracelet wear, and recent Omega service support the lower end of that band.",
+    "value": 4650.0
+  },
+  "ea44367b8c47": {
+    "reasoning": "Current gray-market price for a new 310.30.42.50.01.001 is ~$5,800–$6,200; a 4-year-old example with light wear, recent Omega service, and full set typically trades 20–25 % below that, so ~$4,600–$4,800.",
+    "value": 4700.0
+  },
+  "b44e8a60fa7a": {
+    "reasoning": "Reference 310.30.42.50.01.001 is the current Hesalite 3861 model with MSRP near $6,600; after typical 25-30% depreciation on a lightly used, serviced 2022 example with full set from a reputable dealer, a fair private/dealer price lands around $4,800.",
+    "value": 4800.0
+  },
+  "afd985f28824": {
+    "reasoning": "Current grey-market pricing for this reference with full set and recent service is around 4200-4500; $4400 is a reasonable midpoint given condition and return policy.",
+    "value": 4400.0
+  },
+  "9bb3a8684d22": {
+    "reasoning": "Recent sold listings for this 3861 Hesalite ref show private-party sales around $4,200-$4,400; adding the full set, recent service, and dealer return policy pushes the fair retail price to approximately $4,600.",
+    "value": 4600.0
+  },
+  "4641299b4dfc": {
+    "reasoning": "2024 pre-owned market data shows 310.30.42.50.01.001 Moonwatches with recent service and full set trade in the $4,200–$4,600 range; $4,900 is at the high end, so a fair negotiated price is $4,400.",
+    "value": 4400.0
+  },
+  "6dc0907af076": {
+    "reasoning": "Retail is ~$7,100; recent pre-owned comps for identical 2021-2022 full-set Moonwatches with light wear and recent service fall in the $4,200-$4,600 range, so $4,500 is a fair market price.",
+    "value": 4500.0
+  },
+  "e007fae73fe0": {
+    "reasoning": "Retail for this ref is ~$7,100; with 4 years age, light wear, full set and recent service, secondary market comps run $4,600-$5,000 so a fair private/dealer price is around $4,700.",
+    "value": 4700.0
+  },
+  "6d376f712aee": {
+    "reasoning": "Recent pre-owned 3861 Moonwatch comps with full set and recent service are trading $4,200-$4,600 from reputable dealers, with $4,400 as the midpoint after minor bracelet wear.",
+    "value": 4400.0
+  },
+  "864b9913956b": {
+    "reasoning": "Current market data shows new Moonwatch 3861 models at ~$6,900–$7,200 and recent pre-owned examples in similar condition trading between $4,400–$4,800; with full set, recent service, and light wear, a fair used price sits at the upper end of that range.",
+    "value": 4650.0
+  },
+  "d2be1da34f3f": {
+    "reasoning": "Recent secondary-market data for the 310.30.42.50.01.001 with full set, recent service, and light wear shows private-party sales clustered between $4,300–$4,600, with dealer retail a bit higher, so a fair negotiated price is around the middle of that range.",
+    "value": 4450.0
+  },
+  "314346776c37": {
+    "reasoning": "Retail new is ~$6,600; current gray-market prices for identical 3861 Moonwatches in comparable condition average $4,200-$4,600, so with the full set, recent service, and 14-day return a fair negotiated price is $4,400.",
+    "value": 4400.0
+  },
+  "d9e579c9ddcd": {
+    "reasoning": "Retail on this ref is ~$7,100; recent secondary sales of 2022 examples with full set and light wear average $4,400-$4,600, so $4,500 is a realistic fair price.",
+    "value": 4500.0
+  },
+  "1ed25cf210ed": {
+    "reasoning": "Current secondary market data shows clean 3861 Moonwatches with full set trade between $4,200-$4,600; the listed $4,900 is on the high side for a four-year-old piece with light wear.",
+    "value": 4400.0
+  },
+  "78f59191037e": {
+    "reasoning": "Reference 310.30.42.50.01.001 with full set, recent service, and minor bracelet wear typically sells used in the $4,200–$4,600 range after checking recent Chrono24 and dealer listings; $4,500 is the midpoint that balances the 14-day return policy and reputable seller.",
+    "value": 4500.0
+  },
+  "0e36aa3b0111": {
+    "reasoning": "Current grey-market pricing for a recent, full-set, serviced Omega 310.30.42.50.01.001 ranges from $4,200–$4,600; the dealer’s $4,900 ask is 10–15 % high, so a realistic private-party or fair retail figure is $4,350.",
+    "value": 4350.0
+  },
+  "9c22435e616a": {
+    "reasoning": "Recent pre-owned 3861 Moonwatch transactions on Chrono24, WatchBox, and dealer sites for comparable full-set examples with light wear average $4,200-$4,600, so $4,400 is a fair negotiated price.",
+    "value": 4400.0
+  },
+  "64cfd279335c": {
+    "reasoning": "Retail for this reference is ~$6,900; recent Chrono24 and dealer listings for identical 4-year-old full-set examples average $5,300-$5,700, so a fair private/dealer price after light wear and a 14-day return is around $5,100.",
+    "value": 5100.0
   }
 }

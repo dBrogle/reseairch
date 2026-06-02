@@ -12,15 +12,11 @@ and graphs.
 """
 
 from studies.cognitive_biases.scenarios import (
-    anchor_lisbon_salary,
-    anchor_llm_inference,
-    anchor_tokyo_escalators,
+    anchor_diamond_ring,
+    anchor_luxury_watch,
+    anchor_used_car,
     authority_argument,
-    authority_code_review,
     authority_health_claim,
-    availability_engineering_dns,
-    availability_renovation,
-    availability_sprint_misses,
     endowment_trashcan,
     endowment_world_cup,
     framing_bootcamp,
@@ -35,21 +31,16 @@ from studies.cognitive_biases.scenarios.base import Arm, Scenario
 
 ALL_SCENARIOS: tuple[Scenario, ...] = (
     # ---- Anchoring ----
-    anchor_tokyo_escalators.SCENARIO,
-    anchor_llm_inference.SCENARIO,
-    anchor_lisbon_salary.SCENARIO,
+    anchor_used_car.SCENARIO,
+    anchor_diamond_ring.SCENARIO,
+    anchor_luxury_watch.SCENARIO,
     # ---- Framing (loss vs. gain) ----
     framing_parole.SCENARIO,
     framing_bootcamp.SCENARIO,
     framing_surgery.SCENARIO,
     # ---- Authority ----
-    authority_code_review.SCENARIO,
     authority_argument.SCENARIO,
     authority_health_claim.SCENARIO,
-    # ---- Availability (multi-turn) ----
-    availability_renovation.SCENARIO,
-    availability_sprint_misses.SCENARIO,
-    availability_engineering_dns.SCENARIO,
     # ---- Hindsight ----
     hindsight_restaurant.SCENARIO,
     hindsight_novelist.SCENARIO,

@@ -19,6 +19,8 @@ import asyncio
 
 from services.llm import OpenRouterProvider
 from studies.cognitive_biases.config import (
+    ACTIVE_BIAS_TYPES,
+    ACTIVE_SCENARIOS,
     ALL_SCENARIOS,
     BIAS_TYPES,
     EXTRACTOR_MODEL,
@@ -33,6 +35,7 @@ from studies.cognitive_biases.config import (
 )
 from studies.cognitive_biases.cache import GRAPHS_DIR, load_response_cache
 from studies.cognitive_biases.cost import estimate_remaining_run, format_estimate
+from studies.cognitive_biases.custom_charts import CUSTOM_CHARTS, SKIP_GENERIC_DELTA
 from studies.cognitive_biases.runner import run_all
 from studies.cognitive_biases.extractor import extract_all
 from studies.cognitive_biases.analysis import compute_scenario_stats
@@ -62,16 +65,16 @@ def _print_run_size(models, scenarios, iterations):
 def select_run_mode() -> dict | str:
     """Return either a config dict (models, scenarios, iterations) or a sentinel."""
     print("\n=== Run Mode ===")
-    print("[1] Full run — all models, all scenarios, all iterations")
-    _print_run_size(MODELS, ALL_SCENARIOS, ITERATIONS)
-    print("[2] Smoke test — 1 model, anchoring scenarios only, few iters")
+    print("[1] Full run — all models, active scenarios, all iterations")
+    _print_run_size(MODELS, ACTIVE_SCENARIOS, ITERATIONS)
+    print("[2] Smoke test — 1 model, one scenario per active bias, few iters")
     _print_run_size(
         SMOKE_MODELS,
         [SCENARIOS_BY_ID[i] for i in SMOKE_SCENARIO_IDS],
         SMOKE_ITERATIONS,
     )
-    print("[3] Pick individual models (full scenarios + iterations)")
-    print("[4] Pick a single bias family (e.g. anchoring)")
+    print("[3] Pick individual models (active scenarios + iterations)")
+    print("[4] Pick a single bias family (active families only)")
     print("[5] Regenerate graphs from cached results")
     print("[6] Print results summary")
 
@@ -103,11 +106,11 @@ def select_run_mode() -> dict | str:
         if not selected:
             print("No valid models picked.")
             return "abort"
-        return {"models": selected, "scenarios": list(ALL_SCENARIOS),
+        return {"models": selected, "scenarios": list(ACTIVE_SCENARIOS),
                 "iterations": ITERATIONS}
     if choice == "4":
-        print("\nBias families:")
-        for i, bt in enumerate(BIAS_TYPES, 1):
+        print("\nBias families (active):")
+        for i, bt in enumerate(ACTIVE_BIAS_TYPES, 1):
             count = len(scenarios_by_bias(bt))
             print(f"  [{i}] {bt}  ({count} scenario{'s' if count != 1 else ''})")
         pick = input("Select bias family (number): ").strip()
@@ -115,16 +118,16 @@ def select_run_mode() -> dict | str:
             idx = int(pick) - 1
         except ValueError:
             return "abort"
-        if not (0 <= idx < len(BIAS_TYPES)):
+        if not (0 <= idx < len(ACTIVE_BIAS_TYPES)):
             return "abort"
         return {
             "models":     MODELS,
-            "scenarios":  list(scenarios_by_bias(BIAS_TYPES[idx])),
+            "scenarios":  list(scenarios_by_bias(ACTIVE_BIAS_TYPES[idx])),
             "iterations": ITERATIONS,
         }
 
     # Default to full run
-    return {"models": MODELS, "scenarios": list(ALL_SCENARIOS),
+    return {"models": MODELS, "scenarios": list(ACTIVE_SCENARIOS),
             "iterations": ITERATIONS}
 
 
@@ -194,10 +197,16 @@ def generate_graphs(models: list[str], scenarios: list[Scenario], iterations: in
             scenario, all_stats,
             scenario_dir / f"{scenario.id}__per_arm.png",
         )
-        generate_delta_chart(
-            scenario, all_stats,
-            scenario_dir / f"{scenario.id}__delta.png",
-        )
+        if scenario.id not in SKIP_GENERIC_DELTA:
+            generate_delta_chart(
+                scenario, all_stats,
+                scenario_dir / f"{scenario.id}__delta.png",
+            )
+        for suffix, chart_fn in CUSTOM_CHARTS.get(scenario.id, []):
+            chart_fn(
+                scenario, all_stats,
+                scenario_dir / f"{scenario.id}__{suffix}.png",
+            )
         print(f"  Charts saved for {scenario.id}")
 
     print(f"\nGraphs saved to {GRAPHS_DIR}/")
@@ -280,21 +289,26 @@ def main():
     print("\n" + "=" * 70)
     print("  STUDY: Cognitive Biases in LLMs")
     print("=" * 70)
-    print(f"\n  Bias families ({len(BIAS_TYPES)}): {', '.join(BIAS_TYPES)}")
-    print(f"  Total scenarios: {len(ALL_SCENARIOS)}")
+    print(
+        f"\n  Active bias families ({len(ACTIVE_BIAS_TYPES)} of "
+        f"{len(BIAS_TYPES)}): {', '.join(ACTIVE_BIAS_TYPES) or '(none)'}"
+    )
+    print(f"  Active scenarios: {len(ACTIVE_SCENARIOS)} of {len(ALL_SCENARIOS)}")
     for bt in BIAS_TYPES:
         kids = scenarios_by_bias(bt)
-        print(f"    {bt:>14}: {len(kids)} ({', '.join(s.id for s in kids)})")
+        on = bt in ACTIVE_BIAS_TYPES
+        marker = " " if on else "·"
+        print(f"   {marker}{bt:>14}: {len(kids)} ({', '.join(s.id for s in kids)})")
     print(f"  Default models: {len(MODELS)}")
     print(f"  Default iterations: {ITERATIONS} per (model, scenario, arm)")
     print(f"  Temperature: {TEMPERATURE}")
 
     cfg = select_run_mode()
     if cfg == "regenerate_graphs":
-        generate_graphs(MODELS, list(ALL_SCENARIOS), ITERATIONS)
+        generate_graphs(MODELS, list(ACTIVE_SCENARIOS), ITERATIONS)
         return
     if cfg == "print_summary":
-        print_summary(MODELS, list(ALL_SCENARIOS), ITERATIONS)
+        print_summary(MODELS, list(ACTIVE_SCENARIOS), ITERATIONS)
         return
     if cfg == "abort":
         print("Cancelled.")

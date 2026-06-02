@@ -41,13 +41,18 @@ class OpenRouterProvider(LLMProvider):
         max_tokens: int | None = None,
         messages: list[dict] | None = None,
         enable_reasoning: bool = False,
+        omit_temperature: bool = False,
     ) -> str:
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
         if prompt is None and messages is None:
             raise ValueError("Either prompt or messages is required")
 
-        temp = temperature if temperature is not None else self.DEFAULT_TEMPERATURE
+        # When omit_temperature is True we don't send a temperature at all, so the
+        # model falls back to its own server-side default instead of ours.
+        temp = None if omit_temperature else (
+            temperature if temperature is not None else self.DEFAULT_TEMPERATURE
+        )
         tokens = max_tokens if max_tokens is not None else self.DEFAULT_MAX_TOKENS
 
         msgs = messages if messages is not None else [{"role": "user", "content": prompt}]
@@ -140,7 +145,7 @@ class OpenRouterProvider(LLMProvider):
         self,
         messages: list[dict],
         model: str,
-        temperature: float,
+        temperature: float | None,
         max_tokens: int,
         retry_count: int = 0,
         max_retries: int = 3,
@@ -157,9 +162,12 @@ class OpenRouterProvider(LLMProvider):
         payload = {
             "model": model,
             "messages": messages,
-            "temperature": temperature,
             "max_tokens": max_tokens,
         }
+
+        # A None temperature means "let the model use its own default" — omit it.
+        if temperature is not None:
+            payload["temperature"] = temperature
 
         if response_format:
             payload["response_format"] = {"type": response_format}

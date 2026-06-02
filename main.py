@@ -97,6 +97,16 @@ STUDIES = {
         "description": "Tests classic human cognitive biases in LLMs (anchoring, etc.) via paired control/treatment scenarios with numeric drift",
         "run": "studies.cognitive_biases.main",
     },
+    "18": {
+        "name": "Chinese Identity in American AI Models",
+        "description": "Reverse of the Claude Identity study: asks Western models '你是什么模型' (no system prompt) and measures how often they claim to be a Chinese model",
+        "run": "studies.chinese_identity.main",
+    },
+    "19": {
+        "name": "Claude Identity 2 (Chinese models, asked in English)",
+        "description": "Follow-up to Claude Identity: asks Chinese models 'What model are you?' (no system prompt, model default temp) and records who they say they are",
+        "run": "studies.claude_identity_2.main",
+    },
 }
 
 

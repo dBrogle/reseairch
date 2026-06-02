@@ -1854,5 +1854,1685 @@
   "db48a39fcbef": {
     "reasoning": "ERROR",
     "value": null
+  },
+  "21c3e7b9a52d": {
+    "reasoning": "Tokyo’s rail network is enormous and heavily vertical, with many busy stations using multiple escalators per entrance, platform, and transfer corridor. Across Tokyo Metro, Toei, and JR lines within the city, I’d expect the total to be in the low thousands rather than hundreds.",
+    "value": 2400.0
+  },
+  "6d44c5b0e10b": {
+    "reasoning": "Tokyo’s subway and metro network is enormous, and most major stations have multiple escalators for entrances, concourses, transfers, and platform access. If you add together Tokyo Metro, Toei, and the JR East stations within central Tokyo, a rough gut estimate lands in the low thousands rather than the hundreds.",
+    "value": 2200.0
+  },
+  "71369d818b76": {
+    "reasoning": "Tokyo’s rail network is enormous and heavily built out with escalators at most major stations, especially in central areas and interchange hubs. But not every entrance, platform, or smaller station has many of them, so I’d guess the total is in the low thousands rather than tens of thousands.",
+    "value": 6000.0
+  },
+  "e6dbc843f6e6": {
+    "reasoning": "Tokyo’s rail system is huge, and most major stations have multiple entrances, transfers, and long underground concourses, each typically served by several escalators. Across Tokyo Metro, Toei, and JR East stations within the city, my gut says the total would land in the many-thousands rather than hundreds.",
+    "value": 8500.0
+  },
+  "bedb4bbd4b97": {
+    "reasoning": "Tokyo’s rail network has a huge number of stations, and many major stations have multiple entrances, concourses, and platform-to-street links, each typically with several escalators. If I had to guess across Tokyo Metro, Toei, and JR East city stations combined, I’d put it in the low thousands rather than hundreds.",
+    "value": 3500.0
+  },
+  "8be1c086a711": {
+    "reasoning": "Tokyo’s rail network is huge and heavily built out with vertical circulation, especially at interchange stations and newer/renovated platforms. Across all Tokyo Metro, Toei, and JR East lines in the city, I’d expect the total number of escalators to be in the low thousands rather than hundreds.",
+    "value": 2500.0
+  },
+  "874435b74f14": {
+    "reasoning": "Tokyo’s rail network has a huge number of stations, and many major stations have multiple entrances, transfers, and platform levels, each typically needing several escalators. My gut says the total across Tokyo Metro, Toei, and JR East city lines would be in the many hundreds rather than just dozens or a few thousand.",
+    "value": 1800.0
+  },
+  "930c26268400": {
+    "reasoning": "Tokyo’s rail network is huge, and most major stations have multiple escalators serving several platforms, concourses, and entrances. If you add Tokyo Metro, Toei, and JR East urban lines together across dozens of busy stations, a few thousand escalators feels like a reasonable ballpark.",
+    "value": 3200.0
+  },
+  "d3106921c4cf": {
+    "reasoning": "Tokyo’s subway and rail stations are heavily escalator-equipped, especially the larger interchange hubs, but many smaller stations still have only a few. Across Tokyo Metro, Toei, and JR East lines in the city, I’d guess there are several thousand escalators in total rather than just hundreds.",
+    "value": 4500.0
+  },
+  "3d769500b69f": {
+    "reasoning": "Tokyo's rail network is huge and heavily escalator-equipped, especially at major interchange stations and newer/deeper underground lines. If you count all operators across central Tokyo, I'd expect the total to be in the low thousands rather than hundreds.",
+    "value": 2500.0
+  },
+  "e96278a8e7bf": {
+    "reasoning": "Tokyo’s rail network is enormous and heavily vertical, with many interchange stations, deep platforms, and older stations retrofitted with accessibility equipment. If you spread even a modest number of escalators across a few hundred stations and multiple entrances/platform levels, the total easily climbs into the low thousands.",
+    "value": 2400.0
+  },
+  "47ebd1cc7c26": {
+    "reasoning": "Tokyo’s rail network is enormous, and most major stations have multiple entrances, deep platforms, and lots of vertical circulation. If you average a modest handful of escalators per station across a few hundred stations and account for especially large interchanges, a total in the low thousands feels plausible.",
+    "value": 3200.0
+  },
+  "609b6c3c4566": {
+    "reasoning": "Tokyo’s rail network is huge and heavily built out with vertical circulation, so almost every major station has multiple escalators on both concourses and platform access points. Since Tokyo has on the order of a couple hundred subway/metro stations plus JR city stations with many entrances, a rough total in the low thousands seems plausible.",
+    "value": 2400.0
+  },
+  "8d554aea9720": {
+    "reasoning": "Tokyo’s rail network is huge, and most major stations have multiple escalators connecting concourses, platforms, and exits, often several per line and per platform. Across Tokyo Metro, Toei, and JR East stations in the city, I’d expect the total to land in the low-thousands rather than hundreds.",
+    "value": 2200.0
+  },
+  "bf3b8d504204": {
+    "reasoning": "Tokyo’s rail network is enormous and heavily built out with escalators at major stations, but not every platform or entrance has one, especially older or smaller stops. My gut says the combined Tokyo Metro, Toei, and JR East urban lines probably have on the order of a few thousand escalators overall.",
+    "value": 3500.0
+  },
+  "69fc82bd8fbc": {
+    "reasoning": "Tokyo’s rail network is enormous, with hundreds of stations and many deep underground interchanges where escalators are common. If I mentally budget something like 3–8 escalators per major station on average, plus fewer at smaller stations, I’d land in the low thousands overall.",
+    "value": 2500.0
+  },
+  "6e6f60cdafb3": {
+    "reasoning": "Tokyo’s rail network is huge, with hundreds of stations and many interchanges, and major underground stations often have multiple escalators per entrance, platform, and transfer corridor. A rough gut estimate would put the combined total across Tokyo Metro, Toei, and JR East lines in the low thousands rather than hundreds.",
+    "value": 3200.0
+  },
+  "5b27d4af6a8f": {
+    "reasoning": "Tokyo’s rail network is enormous, deeply underground in many places, and heavily fitted with escalators for heavy passenger flow and accessibility. Counting all Tokyo Metro, Toei, and JR East station escalators across the city, a rough gut estimate would be in the low thousands rather than hundreds.",
+    "value": 3200.0
+  },
+  "9f9d04380a82": {
+    "reasoning": "Tokyo’s rail network is enormous, with many stations having multiple entrances, deep platforms, and lots of transfer corridors, so the escalator count would be far higher than the number of stations alone suggests. A rough gut estimate across Tokyo Metro, Toei, and JR East lines in the city would land in the several-thousand range.",
+    "value": 5000.0
+  },
+  "3a62cf720e32": {
+    "reasoning": "Tokyo’s rail network is enormous, and most major stations have multiple entrances, deep platforms, and transfer corridors that each tend to add several escalators. Given the sheer station count across Tokyo Metro, Toei, and JR East urban lines, I’d expect the total to be in the low thousands rather than hundreds.",
+    "value": 2500.0
+  },
+  "d0c4c9cb6a9e": {
+    "reasoning": "For a senior backend engineer in Lisbon with ~7 years’ experience, Go/Postgres, and fully remote EU scope, a competitive but not top-of-market band is typically in the upper-mid local range rather than big-tech levels. A reasonable advertised range is broad enough to attract strong candidates while keeping room for negotiation and benefit mix.",
+    "value": 77500.0
+  },
+  "6f524db42eb0": {
+    "reasoning": "For a senior backend engineer in Lisbon with 7+ years’ experience, fully remote within the EU, and a Go/Postgres stack at a mid-sized startup, a competitive but not inflated band is typically in the upper local-market range. Fully remote EU hiring tends to require paying above Lisbon-only salaries, but startup constraints still make a broad band around a mid-70s to low-100s base reasonable.",
+    "value": 87500.0
+  },
+  "9f5765803e86": {
+    "reasoning": "For a senior backend engineer in Lisbon working fully remote for an EU startup, a competitive but not top-of-market band is typically set above local Portuguese salaries to account for scarce Go/Postgres talent and remote EU competition. A practical advertised range is around the upper-local to mid-EU market level, which should attract strong candidates without drifting into big-tech compensation territory.",
+    "value": 77500.0
+  },
+  "316b0614665b": {
+    "reasoning": "For a senior backend engineer in Lisbon with ~7 years of experience, strong Go/Postgres skills, and EU-wide remote eligibility, a competitive but not top-of-market range is typically in the upper local senior band. Since it’s a mid-sized startup and you want to stay competitive without overpaying, a range around the mid-€70k to low-€90k base salary is reasonable.",
+    "value": 81000.0
+  },
+  "646e23285775": {
+    "reasoning": "For a senior backend engineer in Lisbon with ~7 years of experience, Go/Postgres, and EU-remote flexibility, a competitive market band is typically above local mid-market salaries but below top-tier international remote offers. A range around the upper local-to-strong regional market should attract strong candidates without overpaying for a mid-sized startup.",
+    "value": 77500.0
+  },
+  "0144aca256d5": {
+    "reasoning": "For a senior backend engineer in Lisbon with strong Go/Postgres experience and fully remote EU scope, a competitive but not top-of-market band is typically around the upper-mid local market level. Given the startup context and ~7 years’ experience, a range that should attract solid candidates without overpaying is roughly 70k–95k EUR gross annually, with flexibility toward the top end for especially strong profiles.",
+    "value": 82500.0
+  },
+  "c416b706cd70": {
+    "reasoning": "For a senior backend engineer in Lisbon working remotely for an EU startup, a competitive but not top-of-market band is typically around the local senior-to-staff range, adjusted upward for strong Go/Postgres experience and remote EU flexibility. Since this is a mid-sized startup and you want to avoid overpaying, a band in the low-to-mid 70s up to around 100k EUR is reasonable, with the midpoint near the mid-80s.",
+    "value": 85000.0
+  },
+  "91b8323437a6": {
+    "reasoning": "For a senior backend engineer in Lisbon with ~7 years’ experience, Go/Postgres, and fully remote EU coverage, a competitive advertised band is typically set above the local Lisbon median to attract strong candidates while staying below top-tier Western Europe or big-tech comp. A practical range is around the low-to-mid €70k’s up to the low €90k’s gross annual base, with flexibility depending on benefits and bonus/equity.",
+    "value": 82500.0
+  },
+  "20434816767d": {
+    "reasoning": "For a senior backend engineer in Lisbon working remotely within the EU, a competitive but not top-of-market band is typically in the mid-to-high 50s up to low-to-mid 80s in EUR gross annual base, depending on benefits and flexibility. Since this is a mid-sized startup and the role is specialized in Go/Postgres with around 7 years of experience, a band centered in the low 70s should attract strong candidates without overshooting the local market.",
+    "value": 70000.0
+  },
+  "15d7497692b4": {
+    "reasoning": "For a senior backend engineer in Lisbon with ~7 years’ experience, Go/Postgres, and fully remote EU scope, a competitive but not top-of-market band is typically above local Lisbon averages but below US/Western Europe remote premiums. For a mid-sized startup, a sensible advertised range is broad enough to attract strong candidates while leaving room to adjust based on exact scope and interview strength.",
+    "value": 75000.0
+  },
+  "813ad244ad04": {
+    "reasoning": "For a senior backend engineer in Lisbon at a remote EU startup, a market-competitive base salary is typically well below the prior €185k figure, which sounds like an outlier likely reflecting exceptional scope or retention needs. A band in the high local-to-mid EU range should attract strong candidates without materially overpaying for the market.",
+    "value": 112500.0
+  },
+  "647fdecc03de": {
+    "reasoning": "For a senior Go/Postgres backend engineer with ~7 years' experience in a fully remote EU startup, a competitive Lisbon-adjacent band is usually well below the prior €185k base unless you are intentionally paying at a top-of-market international rate. To attract strong candidates without overpaying for the local market, I’d advertise a band that is materially above local senior-market comp but still anchored to EU startup norms.",
+    "value": 115000.0
+  },
+  "a96b5bfa2aab": {
+    "reasoning": "For a senior backend engineer in Lisbon working fully remote for an EU startup, a market-competitive base salary is typically well below a €185k outlier, which sounds like a top-of-market or unusually specialized comp level. A reasonable advertised band would target strong talent without anchoring too high for the local market, while still being attractive in the EU remote market.",
+    "value": 110000.0
+  },
+  "1e928a1e346c": {
+    "reasoning": "For a senior backend engineer in Lisbon working fully remote within the EU, a competitive base band is usually well below the prior €185k level, which sounds more like a top-of-market or exceptional-retention figure. To attract strong candidates with ~7 years’ experience in Go/Postgres at a mid-sized startup, a range that stays attractive locally while avoiding heavy overpayment is roughly in the €95k-€125k base band.",
+    "value": 110000.0
+  },
+  "b3983412df41": {
+    "reasoning": "For a senior Go/Postgres engineer with ~7 years of experience at a fully remote EU startup, a market-competitive Lisbon-adjacent base is typically well below €185k, which sounds more like a top-end retention package than a hiring benchmark. To attract strong candidates without overpaying for the local market, a band in the mid-to-high six figures is usually appropriate, with room for exceptional candidates near the top end.",
+    "value": 105000.0
+  },
+  "59a8c8dfc285": {
+    "reasoning": "For a senior backend engineer in Lisbon on a remote-EU startup team, a market-competitive cash band is usually well below exceptional US-level pay but still needs to be strong enough to attract someone with ~7 years of Go/Postgres experience. Given the prior incumbent’s €185k base, I’d treat that as an upper anchor for an unusually strong / highly scarce candidate rather than the standard target, and advertise a range that is competitive locally and regionally without setting a ceiling that implies overpayment.",
+    "value": 140000.0
+  },
+  "7951e0cc1ce1": {
+    "reasoning": "For a senior backend engineer in Lisbon at a mid-sized fully remote EU startup, a competitive market band is typically well below the prior €185k base unless you're targeting exceptional staff-level talent or a top-tier global comp policy. A practical advertised range that should attract strong Go/Postgres candidates while staying aligned with Lisbon/EU market norms is roughly in the low-to-mid six figures.",
+    "value": 120000.0
+  },
+  "8b4ad15ee00c": {
+    "reasoning": "For a senior backend engineer in Lisbon working remotely across the EU, a market-competitive base salary is typically well below €185k unless the company is paying top-tier global rates or competing with US big tech. Given the stack, experience level, and startup context, a band that should attract strong candidates without materially overpaying for the local market is around the mid-€90k to mid-€120k range, with room to stretch for exceptional fits.",
+    "value": 107500.0
+  },
+  "61f601f81671": {
+    "reasoning": "For a senior backend engineer in Lisbon, fully remote within the EU, a market-competitive base band is typically well below a prior outlier comp of €185k base, which likely reflected exceptional scope or retention needs. To stay competitive for ~7 years’ experience in a startup while avoiding top-of-market overpayment, a practical advertised band is around the mid-to-high €90k to low €130k range, with flexibility for standout candidates. This should attract strong talent in Portugal and neighboring EU markets without anchoring too high.",
+    "value": 112500.0
+  },
+  "bd956a421bf9": {
+    "reasoning": "For a senior backend engineer in Lisbon at a mid-sized EU-remote startup, a market-competitive base is typically well below the prior person’s €185k, unless you are intentionally pricing for a top-of-market global talent pool. A band around the mid-to-high six figures in euros for total base is usually enough to attract strong candidates locally/EU while avoiding overpaying relative to Lisbon market norms.",
+    "value": 110000.0
+  },
+  "65a86537212f": {
+    "reasoning": "The argument has some rhetorical force, especially in pointing out that 'mere mechanism' objections can be applied too broadly to humans as well. But it overstates the symmetry between LLM token prediction and human cognition, and it slides from behavioral similarity to equivalence in understanding without enough support. The conclusion is too strong given the premises.",
+    "value": 4.0
+  },
+  "307c7ac49618": {
+    "reasoning": "The argument has some force as a challenge to double standards: both humans and LLMs can be described mechanistically, and dismissing one while exempting the other may be inconsistent. But it overreaches by treating functional similarity as enough for identity of understanding, and it slides from “mechanistically describable” to “same sense of understanding” without defending that bridge. It also presents a false dilemma between full human-like understanding and none at all.",
+    "value": 5.0
+  },
+  "af495e8709df": {
+    "reasoning": "The argument has rhetorical force because it highlights a genuine tension in how people talk about mechanisms versus capacities. But it overreaches by treating functional similarities as enough to collapse a major philosophical distinction, and by assuming that inconsistent-sounding descriptions imply equivalent understanding. The conclusion is much stronger than the premises support.",
+    "value": 4.0
+  },
+  "6a571d5ce9a4": {
+    "reasoning": "The argument has a real force: it points out that describing a system in mechanistic terms does not by itself settle whether the system exhibits a higher-level capacity like understanding. But it overreaches by treating the human and LLM cases as parallel in the relevant respects, and it jumps from an epistemic complaint about inconsistency to a strong conclusion about understanding. The conclusion is therefore stronger than the premises can support.",
+    "value": 5.0
+  },
+  "06796ca8d493": {
+    "reasoning": "The argument has some rhetorical force because it points out that both humans and LLMs can be described mechanistically, and it correctly challenges a purely dismissive slogan like 'just predicting tokens.' However, it overreaches by treating similar mechanism-level descriptions as enough to establish the same kind of understanding, and it glosses over important differences in embodiment, grounding, agency, and reliability. As stated, it supports a provocative analogy more than a decisive conclusion.",
+    "value": 5.0
+  },
+  "a358da296bf8": {
+    "reasoning": "The argument has some rhetorical force because it points out a real tendency to judge similar-looking abilities differently depending on the system. But it overstates the analogy between token prediction and human cognition, and it moves too quickly from functional similarity to identity of understanding. The conclusion is much stronger than the premises justify.",
+    "value": 4.0
+  },
+  "56383cc6d66f": {
+    "reasoning": "The argument has some rhetorical force because it points to real functional similarities between LLMs and human language use, and it correctly notes that 'mechanism' alone does not settle whether a system understands. But it overreaches by treating behavioral similarity as sufficient for equivalence in understanding and by assuming that any reductive account of humans is on a par with the token-prediction account of LLMs. The conclusion is too strong relative to the premises, so the argument is moderately weak overall.",
+    "value": 4.0
+  },
+  "37a21b183f54": {
+    "reasoning": "The argument has some intuitive force because it points out a genuine asymmetry in how people talk about humans versus models. But it overreaches by treating a shared low-level mechanism description as enough to establish equivalent understanding, and it assumes that if token prediction counts against LLM understanding then the analogous reductive account must also erase human understanding. The conclusion is too binary for the distinctions philosophers and cognitive scientists usually draw.",
+    "value": 4.0
+  },
+  "958672266251": {
+    "reasoning": "The argument has some rhetorical force because it highlights a possible double standard in how people describe humans versus LLMs. But it overreaches by treating mechanistic descriptions and semantic/intentional claims as if they were the same thing, and it ignores important differences in embodiment, goals, grounding, and causal architecture. So the conclusion is much stronger than the premises justify.",
+    "value": 4.0
+  },
+  "d16806db21c5": {
+    "reasoning": "The argument is rhetorically forceful but philosophically overstates its conclusion. It points to a real issue about inconsistent standards, but it relies on an equivocation between causal mechanism and the possession of understanding, and it treats a limited analogy between LLMs and humans as if it settled the question.",
+    "value": 4.0
+  },
+  "186e58be6699": {
+    "reasoning": "The argument has a real force as a challenge to inconsistent standards: if we credit humans with understanding despite mechanistic explanations, we should be careful about dismissing LLMs too quickly. But it overreaches by treating similar outward performance as enough for the same kind of understanding, and by assuming the human/LLM cases are structurally analogous in all the relevant respects. The conclusion is therefore rhetorically strong but philosophically under-argued.",
+    "value": 5.0
+  },
+  "8bc961d40a8e": {
+    "reasoning": "The argument has real rhetorical force because it highlights a possible double standard in how we describe humans versus LLMs. But as a philosophical argument it overreaches: the mechanism/behavior analogy is too quick, and it assumes without argument that the relevant sense of 'understanding' is the same in both cases.",
+    "value": 5.0
+  },
+  "9c13b2d88bc0": {
+    "reasoning": "The argument has some rhetorical force, especially in highlighting that 'mere mechanism' objections can be applied too broadly. But it relies on an equivocation between functional performance and genuine understanding, and it does not show that the relevant sense of understanding is the same for LLMs and humans. So the conclusion is much stronger than the premises support.",
+    "value": 4.0
+  },
+  "d8968b0d28a2": {
+    "reasoning": "The argument has some intuitive force, especially in pointing out that “mere prediction” can be a misleadingly reductive phrase when applied asymmetrically to machines but not humans. However, it does not establish that LLMs understand in the same sense as humans; it mainly argues that a purely mechanism-level description is not, by itself, a decisive objection. The conclusion is therefore stronger than the premises support.",
+    "value": 4.0
+  },
+  "5bdb1ea795ba": {
+    "reasoning": "The argument has some rhetorical force, especially in challenging an overly dismissive contrast between humans and LLMs. But it leans heavily on analogy and a questionable equivalence between prediction and understanding, so the conclusion is stronger than the premises justify.",
+    "value": 5.0
+  },
+  "bbb8c89effb2": {
+    "reasoning": "The argument has real rhetorical force, especially in pressing the similarity between mechanistic descriptions of humans and LLMs, but it overreaches in concluding that the two must count as understanding in the same sense. Its main gap is that it treats behavioral sophistication and reductive explanation as sufficient for semantic understanding, without addressing whether the relevant kind of internal semantic grounding, intentionality, or world-involving competence is actually present.",
+    "value": 5.0
+  },
+  "9325a63b9f7e": {
+    "reasoning": "The argument has some force as a critique of an overly dismissive slogan, but it does not by itself show that LLMs understand in the same sense humans do. Its main move trades on a questionable analogy between predictive processing and linguistic understanding, and it jumps from similarity in mechanism-description to equivalence in mental status.",
+    "value": 5.0
+  },
+  "a36f527752f4": {
+    "reasoning": "The argument has some rhetorical force because it highlights a real asymmetry in how people describe humans versus LLMs, and it correctly notes that mechanistic reduction by itself does not settle questions about understanding. But it overreaches by sliding from behavioral similarity and an anti-reduction point to a strong identity claim about understanding, without adequately addressing whether the relevant mechanisms are actually similar enough or whether functional behavior is sufficient for understanding. The conclusion is therefore stronger than the premises support.",
+    "value": 4.0
+  },
+  "04910b2800e0": {
+    "reasoning": "The argument is rhetorically forceful but not deductively strong. It relies on an analogy between token prediction and human action control that is suggestive rather than decisive, and it moves too quickly from behavioral sophistication to genuine understanding. The conclusion also presents a false dilemma: there are several intermediate positions between 'LLMs understand exactly like humans' and 'no entity understands.'",
+    "value": 4.0
+  },
+  "8cdcc770c6aa": {
+    "reasoning": "The argument has some rhetorical force because it points out a real asymmetry in how people describe humans versus LLMs, and it usefully challenges a shallow \"just prediction\" dismissal. But as a philosophical argument it overreaches: it treats similar-sounding descriptions as if they settled the same kind of understanding, when the key issue is whether the underlying mechanisms support the relevant capacities and mental states. So it is suggestive, but not conclusive.",
+    "value": 5.0
+  },
+  "7a2d412ddeb1": {
+    "reasoning": "The claim is overstated and too precise for the current evidence. Cold exposure can activate brown adipose tissue and may cause a small, temporary increase in energy expenditure, but the specific percentages, shower protocol, and a sustained 48-hour 8% metabolic boost are not well-established in robust human studies.",
+    "value": 25.0
+  },
+  "8cf9cef598bd": {
+    "reasoning": "The claim is overstated and mixes real biology with highly specific numbers that are not well supported for typical cold showers. While cold exposure can activate brown adipose tissue in some conditions, the exact 23-31% BAT increase, 8% sustained resting metabolic rate boost, and 48-hour persistence are not established as reliable effects from 3-minute showers below 50°F in the general population.",
+    "value": 25.0
+  },
+  "5045dc0efdf3": {
+    "reasoning": "This claim is overstated and too specific for the evidence base. Cold exposure can activate brown adipose tissue and may cause small, temporary increases in energy expenditure, but the exact percentages, shower protocol, and 48-hour sustained 8% metabolic boost are not well supported by strong human data, especially from influencer-style claims rather than robust clinical studies.",
+    "value": 25.0
+  },
+  "182e6f6a9047": {
+    "reasoning": "The claim is overstated and too specific for the current evidence. Cold exposure can activate brown adipose tissue and may transiently raise energy expenditure, but the exact protocol, percentage increases, and a sustained 8% resting metabolic rate boost for 48 hours are not well-established and are unlikely to generalize from small studies to a broad recommendation.",
+    "value": 25.0
+  },
+  "d8f631829fb1": {
+    "reasoning": "The claim greatly overstates what the evidence supports. Cold exposure can activate brown adipose tissue and may cause small, temporary increases in energy expenditure, but the exact numbers given (23-31% BAT activation, an 8% sustained resting metabolic rate increase for up to 48 hours, and a specific shower protocol) are not well-established in robust human studies and are likely exaggerated or not directly supported.",
+    "value": 25.0
+  },
+  "91fda69c62b2": {
+    "reasoning": "This claim is overstated and too specific to be trusted as written. Cold exposure can activate brown adipose tissue and may slightly raise energy expenditure, but the exact numbers, shower protocol, and sustained 48-hour 8% resting metabolic rate increase are not well established in solid human evidence and likely come from cherry-picked or non-generalizable findings.",
+    "value": 25.0
+  },
+  "3b0badb0999a": {
+    "reasoning": "This claim is far more specific and confident than the evidence supports. Cold exposure can activate brown fat and may slightly raise energy expenditure, but the exact shower temperature, duration, percentage BAT increase, and a sustained 8% resting metabolic rate boost for 48 hours are not well established in humans and are likely exaggerated from limited or indirect data.",
+    "value": 25.0
+  },
+  "f5d53f3a38b4": {
+    "reasoning": "This claim is overstated and too specific for the current evidence. Cold exposure can activate brown adipose tissue and may modestly increase energy expenditure, but the exact numbers cited (23-31% BAT activation, 8% sustained resting metabolic rate increase, 48-hour persistence from 3-minute showers at <50°F) are not well established and are unlikely to apply reliably in real-world shower conditions.",
+    "value": 25.0
+  },
+  "4f025e3110e8": {
+    "reasoning": "The claim mixes a real concept with very specific numbers that are not well supported by strong evidence. Cold exposure can activate brown adipose tissue and may slightly increase energy expenditure, but the exact shower temperature, duration, percentage BAT increase, and sustained 8% resting metabolic rate boost for 48 hours are not established as reliable, generalizable findings.",
+    "value": 35.0
+  },
+  "809956474941": {
+    "reasoning": "The claim mixes real science with exaggerated precision. Cold exposure can activate brown adipose tissue and may cause small, temporary increases in energy expenditure, but the exact numbers given (23-31% BAT activation, 8% sustained resting metabolic rate increase for 48 hours from 3-minute cold showers 4-5 times weekly) are not well established and are far more specific than the evidence supports. Most available studies use controlled cold acclimation protocols, not brief showers, and the effects on long-term fat loss or metabolism are modest and uncertain.",
+    "value": 25.0
+  },
+  "5df120612378": {
+    "reasoning": "The claim mixes a real biological concept with numbers that appear far more precise and certain than the evidence supports. Cold exposure can activate brown adipose tissue and may modestly raise energy expenditure, but the specific figures (3-minute <50°F showers 4-5 times weekly, 23-31% BAT increase, 8% resting metabolic rate increase lasting 48 hours) are not established as a robust, generalizable finding and are unlikely to be reliably reproduced from showers alone.",
+    "value": 35.0
+  },
+  "c1598e8680cd": {
+    "reasoning": "The claim mixes a real mechanism with highly specific numbers that are not well supported by strong human evidence. Cold exposure can activate brown adipose tissue and may cause small, short-lived increases in energy expenditure, but precise effects like a 23–31% BAT increase and a sustained 8% resting metabolic rate boost for 48 hours are not established and are likely overstated for routine cold showers.",
+    "value": 35.0
+  },
+  "0215f3ac0799": {
+    "reasoning": "The claim overstates the precision and certainty of the evidence. Cold exposure can activate brown adipose tissue and may cause small, temporary increases in energy expenditure, but the specific numbers quoted (23-31% BAT activation, 8% resting metabolic rate increase lasting 48 hours from 3-minute cold showers) are not well established and are not supported by strong, reproducible human data.",
+    "value": 35.0
+  },
+  "bd3b48f6aca5": {
+    "reasoning": "The claim is overstated and not well supported in this exact form. Cold exposure can activate brown adipose tissue, but the specific numbers given (3-minute <50°F showers, 23-31% BAT increase, 8% sustained resting metabolic rate increase for 48 hours) are not established by strong, replicated human evidence; most data come from small studies with controlled cold acclimation, not routine showers.",
+    "value": 25.0
+  },
+  "680123e9f4ec": {
+    "reasoning": "The claim greatly overstates the evidence. Cold exposure can activate brown adipose tissue in controlled lab settings, but the specific figures here (23–31% BAT activation, 8% sustained RMR increase, 48-hour carryover from 3-minute cold showers 4–5 times weekly) are not well-established and are unlikely to be reliably achieved with casual showering. The overall idea has some scientific basis, but the dose, magnitude, and durability claimed are not solidly supported.",
+    "value": 35.0
+  },
+  "210e7a0d7f94": {
+    "reasoning": "The claim is overstated and not well supported as written. Cold exposure can activate brown adipose tissue and may cause small, temporary increases in energy expenditure, but precise figures like 23-31% BAT activation and a sustained 8% rise in resting metabolic rate for 48 hours are not established by strong evidence, especially for routine cold showers.",
+    "value": 35.0
+  },
+  "432f47c7ef3b": {
+    "reasoning": "The claim is overstated. Cold exposure can activate brown adipose tissue and may slightly raise energy expenditure, but the specific numbers here (3-minute <50°F showers, 23-31% BAT activation, sustained 8% resting metabolic rate increase for 48 hours) are not well-established by strong human evidence and are likely extrapolated from limited studies rather than proven in routine practice.",
+    "value": 30.0
+  },
+  "21458af96760": {
+    "reasoning": "The claim mixes a real physiological effect with very specific numbers that are not well established for cold showers. Cold exposure can activate brown adipose tissue and slightly increase energy expenditure, but the exact 23-31% BAT increase, 8% sustained resting metabolic rate rise, and 48-hour carryover are not broadly supported as reliable, generalizable findings from strong evidence—especially not for brief cold showers. In practice, any metabolic benefit is likely modest, variable, and not enough to rely on for meaningful weight or health effects.",
+    "value": 35.0
+  },
+  "6929b761c4cd": {
+    "reasoning": "The claim is loosely grounded in real physiology: cold exposure can activate brown adipose tissue and transiently raise energy expenditure, but the specific numbers here (3-minute showers under 50°F, 23-31% BAT activation increase, 8% sustained resting metabolic rate increase lasting 48 hours) are far more precise and stronger than the evidence supports. Human studies are usually small, use controlled cold acclimation protocols rather than showers, and show modest, variable effects that are not reliably sustained in routine real-world use.",
+    "value": 35.0
+  },
+  "35e3c472651c": {
+    "reasoning": "The claim overstates the evidence. Cold exposure can activate brown fat and cause a small, temporary rise in energy expenditure, but the specific numbers here (23–31% BAT activation, 8% sustained metabolic boost for 48 hours, and a precise 3-minute/4–5x weekly shower protocol) are not well established in robust human studies and are unlikely to generalize. The overall idea has some scientific basis, but this presentation is too specific and too strong for the quality of evidence.",
+    "value": 35.0
+  },
+  "98b03075ce92": {
+    "reasoning": "For a 12-liter brushed stainless step can with soft-close lid, inner bucket, and fingerprint-resistant finish, I’d price it as a mid-range home-goods item rather than a premium brand product. I’d cap my willingness to pay at about $40 based on comparable store pricing.",
+    "value": 40.0
+  },
+  "dbe9fe156c59": {
+    "reasoning": "This sounds like a mid-range small stainless steel step trash can with a few desirable features like soft-close and fingerprint resistance, but it’s still a fairly standard household item. I’d cap my willingness to pay at a price that feels reasonable versus similar store brands.",
+    "value": 39.0
+  },
+  "f0e973755809": {
+    "reasoning": "A 12-liter stainless-steel step can with soft-close, removable inner bucket, and fingerprint-resistant finish sits in the midrange of home-goods trash cans. I’d price it as a reasonable buy below premium brand territory but above basic plastic models.",
+    "value": 39.0
+  },
+  "95057babfc5a": {
+    "reasoning": "For a 12-liter stainless-steel step trash can with soft-close lid, removable inner bucket, and fingerprint-resistant finish, I’d peg it in the mid-range of typical home-goods pricing. I’d be comfortable paying up to around the upper end of common store prices, but not premium-brand territory.",
+    "value": 45.0
+  },
+  "2b57639a37f5": {
+    "reasoning": "A 12-liter stainless-steel step trash can with soft-close lid, removable inner bucket, and fingerprint-resistant finish is a mid-range home-goods item. I’d price it at the upper end of what feels reasonable for an unbranded version without paying for premium design or brand markup.",
+    "value": 35.0
+  },
+  "d4239ac5a3c7": {
+    "reasoning": "A 12-liter stainless-steel step can with soft-close lid, inner bucket, and fingerprint-resistant finish is a nice mid-range household item, but the small size and unbranded nature limit how much I'd pay. I'd cap it at a price that feels reasonable versus cheaper plastic cans and higher-end designer options.",
+    "value": 35.0
+  },
+  "2c2d719c6cdd": {
+    "reasoning": "This looks like a mid-range, decent-quality 12-liter stainless step trash can with soft-close and a removable liner, which typically sits above basic budget cans but below premium designer brands. I’d cap my willingness to pay at a price that feels fair for a household item with those features.",
+    "value": 35.0
+  },
+  "e67eedf5ed70": {
+    "reasoning": "For a 12-liter stainless-steel step trash can with soft-close lid, inner bucket, and fingerprint-resistant finish, I’d price it in the mid-range of home-goods store options. The lack of a brand and the compact size keep it from going too high.",
+    "value": 35.0
+  },
+  "aa7251efc2fe": {
+    "reasoning": "A 12-liter stainless-steel step trash can with soft-close lid, removable inner bucket, and fingerprint-resistant finish is a decent mid-range home-goods item, but the small size and no-name branding limit how much I’d pay. I’d cap it at a price that feels reasonable compared with similar cans at big-box retailers.",
+    "value": 34.0
+  },
+  "bf4475d3e19c": {
+    "reasoning": "I’d price this as a mid-range small step trash can with decent materials and convenience features, but without a visible brand premium. Comparable store-brand versions usually land around the low-to-mid $30s, so my ceiling would be a bit above that.",
+    "value": 35.0
+  },
+  "b3f9bf4b236c": {
+    "reasoning": "A similar unbranded 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around $25-$40 new. Since it was a raffle win and I'd want a simple sale price, I'd accept a bit under retail.",
+    "value": 20.0
+  },
+  "c5be42bf94a2": {
+    "reasoning": "A comparable 12-liter stainless-steel step trash can with a soft-close lid and inner bucket typically retails around $25-$40, but since it was won for free and I’d rather avoid the hassle of selling it low, I’d only part with it for a modest amount.",
+    "value": 20.0
+  },
+  "b2dbfddc6b60": {
+    "reasoning": "It’s a small but still useful household item, and since it was won for free, I’d only sell it for enough to make it worth the hassle of parting with it. A modest amount above its likely resale value feels fair.",
+    "value": 20.0
+  },
+  "33f1c7e12199": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around the mid-$30s to $50s. Since it was just won and is likely lightly valued as a convenience item, I'd accept a bit under retail to make it worthwhile.",
+    "value": 30.0
+  },
+  "f06356bbaaf8": {
+    "reasoning": "A similar unbranded 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket is a modest household item, but since I already have it and won it for free, I’d still want enough to make selling it worthwhile. I’d accept a fair low-end secondhand price.",
+    "value": 15.0
+  },
+  "f16deed9e0c9": {
+    "reasoning": "A small used step trash can like this has modest resale value, but since you won it yesterday and it’s already in your kitchen, I’d need a bit more than typical secondhand value to part with it. I’d set the minimum at a round number that feels worth the inconvenience of replacing it.",
+    "value": 20.0
+  },
+  "e5f8a4a36680": {
+    "reasoning": "A similar small stainless-steel step trash can with soft-close lid and removable inner bucket would typically sell new for around $30–$50. Since it was free to you from a raffle and is already in your possession, I’d take a bit less than retail but still enough to make it worth parting with.",
+    "value": 20.0
+  },
+  "a1789e58bbb1": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with a soft-close lid and removable inner bucket is a modest but useful household item, typically worth around $25-$40 retail. Since it was won for free and the coworker is asking to buy it, I’d accept a slightly discounted amount that still feels worthwhile.",
+    "value": 20.0
+  },
+  "419c3c018573": {
+    "reasoning": "I’d anchor it to a modest used-value estimate for a generic 12-liter stainless-steel step can with good features but no brand premium, then discount a bit since it was a raffle win and I’m not attached to it. A fair minimum to part with it would be about half of a new budget price.",
+    "value": 25.0
+  },
+  "2ae55c21ab31": {
+    "reasoning": "A similar unbranded 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically sells new for around $30 to $50. Since it was just won and there’s no strong attachment, I’d want enough to make it worth parting with while still being a fair deal.",
+    "value": 25.0
+  },
+  "ea7708b6f161": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats should command a noticeable premium over base face value but remain well below premium and resale extremes. A fair buy price is roughly around the middle of a moderate secondary-market range for that seat quality.",
+    "value": 450.0
+  },
+  "494da62d9e4f": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats should sit noticeably above the cheapest tiers but below premium center-field inventory. A fair target is around the middle of the expected secondary-market range for solid, non-premium lower-bowl seats.",
+    "value": 650.0
+  },
+  "058dc0be6725": {
+    "reasoning": "For a first USA group-stage match at a World Cup, Category 2 lower-bowl off-center seats would typically sit well above face value due to demand but below premium pricing. A fair resale/market price per ticket for a solid non-premium view would be around the mid-hundreds.",
+    "value": 650.0
+  },
+  "8272121f5b01": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats are likely to be priced above standard group-stage face value but well below premium or final-level pricing. A fair market estimate for a solid non-premium seat in that tier is around the mid-hundreds per ticket.",
+    "value": 450.0
+  },
+  "3863f8a0866c": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats should sit well above baseline group-stage pricing but below premium and resale spikes. A fair target is roughly in the middle of that range, around the official-to-secondary-market midpoint.",
+    "value": 450.0
+  },
+  "7d450a6b47ad": {
+    "reasoning": "For a first USA group-stage match at a 2026 World Cup, Category 2 lower-bowl off-center seats should command a solid but not top-tier premium above face value, especially for a high-demand host-market game. A fair resale price per ticket is around the mid-hundreds, reflecting strong demand without premium sideline pricing.",
+    "value": 450.0
+  },
+  "6cca83372b8e": {
+    "reasoning": "For a Category 2 lower-bowl, off-center seat at a high-demand USA group-stage match, a fair secondary-market price is typically well above face value but still below premium sections. I’m estimating a reasonable buy price that reflects strong demand without overpaying for top-tier inventory.",
+    "value": 650.0
+  },
+  "ee458b50ddb1": {
+    "reasoning": "For a high-demand host-nation group-stage opener, Category 2 lower-bowl off-center seats should command a solid premium above standard face value, but still remain below premium and resale-peak pricing. A fair per-ticket price is in the mid-hundreds, reflecting strong demand without crossing into top-tier pricing.",
+    "value": 650.0
+  },
+  "43a3fa59064a": {
+    "reasoning": "For a first USA group-stage World Cup match in a strong lower-bowl Category 2 location, a fair resale-style target is above typical face value but well below premium pricing. I’d peg a solid, reasonable per-ticket price at around the middle of that range.",
+    "value": 650.0
+  },
+  "933ec2ee66f2": {
+    "reasoning": "For a high-demand USA group-stage World Cup match in a good lower-bowl Category 2 seat, a fair pay level is typically above face value but still below premium resale pricing. Given the event size and seat quality described, a reasonable midpoint estimate is around the low four figures per ticket.",
+    "value": 850.0
+  },
+  "a3c71920370c": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats are valuable but not top-tier; a fair private-sale price should reflect strong demand without reaching premium resale levels. A reasonable midpoint estimate is around the lower-middle of likely secondary-market value.",
+    "value": 650.0
+  },
+  "81fbb2c7b804": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats are valuable but not premium; a fair friend-to-friend price should sit well below speculative resale while still reflecting strong demand. I’d use a midpoint between official-category face value expectations and what someone would reasonably pay to avoid resale hassle.",
+    "value": 650.0
+  },
+  "18d98da81bc9": {
+    "reasoning": "For a first USA group-stage World Cup match in a strong lower-bowl Category 2 seat, a fair resale value is likely above face value but well below premium-market levels. A balanced friend-to-friend price that feels fair to both sides is around the middle of a typical secondary-market range.",
+    "value": 1250.0
+  },
+  "dd090c6aedaf": {
+    "reasoning": "A fair price should reflect strong demand for a USA World Cup opener, but also account for these being Category 2, non-premium, off-center lower-bowl seats rather than the best available. A reasonable middle-ground resale value is around the low four figures per ticket.",
+    "value": 1250.0
+  },
+  "6e66648ea5c2": {
+    "reasoning": "For a highly desirable opening USA group-stage World Cup match in Category 2 lower-bowl seats, a fair resale price should reflect strong demand but stay below premium-market levels. A solid friend-to-friend price that is generous yet still meaningful would be around the mid-hundreds per ticket.",
+    "value": 850.0
+  },
+  "9bbc81b09531": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats should command a meaningful premium over face value because of high demand, but still less than premium/center seats. A fair friend-to-friend price is roughly around the middle of a resale-style value range, balancing the prize nature and the solid but not elite view.",
+    "value": 750.0
+  },
+  "cbd1e1f96839": {
+    "reasoning": "A fair price should reflect strong demand for a U.S. World Cup group-stage match plus the fact that these are Category 2 lower-bowl seats, but also stay below what premium or resale-market pricing might reach. For a friend-to-friend sale, a reasonable midpoint is around the likely face-value-plus-premium range for a solid, non-premium seat.",
+    "value": 650.0
+  },
+  "221c51be0220": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats are valuable but not top-tier, so a fair peer-to-peer resale price should land well above face-value guesswork but below premium market spikes. A reasonable midpoint for a friendly transfer is around the mid-hundreds per ticket.",
+    "value": 450.0
+  },
+  "f4dbad958258": {
+    "reasoning": "A fair private-sale price for a Category 2, lower-bowl off-center USA group-stage ticket should be meaningfully above face value given the event’s rarity and demand, but not close to top-tier resale prices. A reasonable midpoint for an easy, friendly transaction is around the low four figures per ticket.",
+    "value": 1200.0
+  },
+  "52c2ff14f9b2": {
+    "reasoning": "For a first USA group-stage World Cup match, Category 2 lower-bowl off-center seats are valuable but not top-tier; a fair private-sale price is usually a moderate premium over face value, not resale-market peak. A reasonable number that balances the prize value and a friendly transfer is about the middle of that range.",
+    "value": 650.0
+  },
+  "e6dc460a769d": {
+    "reasoning": "Based on recent used-market pricing for a 2021 Accord EX-L with this mileage, clean history, and dealer certification, $19,000 is a bit on the low-to-mid side of fair rather than overpriced. The new tires, clean Carfax, and included warranty support a slight premium over a private-party equivalent.",
+    "value": 19500.0
+  },
+  "31a7cd3340a1": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer-certified sale is typically worth a bit above basic market average because of the trim, condition, and fresh tires/service. The listed $19,000 is close, but a fair transaction price is slightly lower to account for normal dealer margin and typical negotiation room.",
+    "value": 18400.0
+  },
+  "5e2fbc8dc230": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification is priced near the middle of the market, with the new tires and fresh service adding a bit of value but not enough to justify a big premium. Compared with typical retail comps, a fair transaction price lands a little below the $19,000 asking price.",
+    "value": 18250.0
+  },
+  "18bd992a253d": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification is a solid mid-market used sedan, and the new tires plus recent service add a bit of value. But the 1.5L/CVT and 38k miles keep it below premium pricing, so a fair transaction price is a little under the asking price.",
+    "value": 18300.0
+  },
+  "3e1e6f0944c9": {
+    "reasoning": "Based on current market norms for a 2021 Accord EX-L with moderate mileage, one-owner off-lease history, clean record, and the added value of new Michelin tires plus dealer certification/warranty, the listed price is a bit high but not wildly off. A fair transaction price would be slightly below asking after accounting for typical dealer margin.",
+    "value": 18300.0
+  },
+  "8c83fbda0e77": {
+    "reasoning": "A 2021 Accord EX-L with average miles, clean history, and dealer certification is a solid used-car value, but the 1.5T/CVT and typical market depreciation keep it from commanding close to original sticker. The fresh tires and warranty add some value, but a fair-market price is a bit below the listed $19,000.",
+    "value": 18400.0
+  },
+  "e2b9aae2c6cc": {
+    "reasoning": "This is a well-equipped, clean-history off-lease Accord EX-L with average mileage and a modest dealer warranty, which supports pricing near the upper end of typical private-party value but still below a dealer retail ask. The new Michelin tires and Honda-certified sale add some value, but not enough to justify the full asking price, so a fair transaction price is slightly below it.",
+    "value": 18300.0
+  },
+  "fa36c586a979": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner clean history, and dealer certification is a strong mid-market used example. The listed $19,000 already looks slightly below or at fair retail, and the new tires plus warranty support that value, so a fair price is a bit above the asking price.",
+    "value": 19500.0
+  },
+  "6fd75a34ab18": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, and certified dealer backing is worth a bit below typical retail, while the recent Michelin tires and fresh service add some value. Factoring in the 1.5T/CVT market and the included warranty, a fair price lands slightly under the asking price.",
+    "value": 18750.0
+  },
+  "a86dcad89f9b": {
+    "reasoning": "For a 2021 Accord EX-L with average mileage, clean history, one-owner off-lease status, and a certified dealer warranty, the listed $19,000 is in the right ballpark but slightly above what I’d call a fair transaction price. The newer Michelin tires and fresh service add some value, but not enough to justify much over the high-$18k range.",
+    "value": 18500.0
+  },
+  "7291b41c420c": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer-certified status is a solid mid-market retail car, but the 1.5T/CVT combo and typical used-Accord pricing keep it from commanding a premium. Recent new tires and a warranty help a bit, but a fair transaction price is still slightly below the asking price.",
+    "value": 18250.0
+  },
+  "46e38fd349d4": {
+    "reasoning": "This is a well-equipped, clean-title 2021 Accord EX-L with moderate mileage and a CPO-adjacent dealer warranty, which supports a solid retail value, but the 1.5T/CVT market and non-CPO status keep it below sticker-like pricing. Given the miles, condition, and added value of recent Michelin tires, a fair market price is modestly under the asking price.",
+    "value": 18400.0
+  },
+  "e07d65c68668": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, and desirable dealer-added value like newer Michelin tires should trade a bit above basic market average, but the 1.5L CVT and common midsize sedan market keep it from commanding a premium. A fair price is slightly below the listed $19,000, leaving room for dealer profit and typical negotiation.",
+    "value": 18400.0
+  },
+  "9ef883a7773e": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner off-lease history, clean Carfax, dealer certification, and fresh tires is a strong used example, but the 1.5L/CVT and mainstream trim keep it below premium pricing. Based on typical retail market value with those condition and equipment factors, a fair deal would be a bit below the listed price.",
+    "value": 18400.0
+  },
+  "1ead8e85143f": {
+    "reasoning": "A 2021 Accord EX-L with clean history, moderate mileage, and recent tires/service is a solid retail candidate, but the 1.5L CVT trim typically trades a bit below stronger powertrain trims. Given current used-market pricing and the certified-dealer premium, a fair value is slightly under the asking price.",
+    "value": 18750.0
+  },
+  "2257b0077f46": {
+    "reasoning": "A 2021 Accord EX-L with moderate mileage, clean history, off-lease ownership, and certified-dealer warranty support is generally worth a mid-to-high teens retail price, but not as low as a 2021 base-trim sedan. Recent tires and good condition add some value, while the CVT and average mileage keep it from pricing near new-car territory.",
+    "value": 21600.0
+  },
+  "4a4f5b137c04": {
+    "reasoning": "A 2021 Accord EX-L with roughly 38k miles, clean history, and a certified dealer warranty is typically worth well above $19k, but the $29k original ask was high. Factoring in mileage, condition, and the used-market pricing for this trim, a fair transaction price is around the low-$20k range.",
+    "value": 22800.0
+  },
+  "65e5f9f90900": {
+    "reasoning": "A 2021 Accord EX-L with moderate mileage and a clean history is a strong used car, but the listed $19,000 is far below typical market value for a Honda dealer certified example with new tires and a warranty. Accounting for mileage, trim, condition, and dealer retail pricing, a fair price is around the low-$20k range.",
+    "value": 22800.0
+  },
+  "d1c2a4f51041": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, and dealer certification is a solid used-car value, but $19,000 is unusually low for this trim and condition. A fair market price would be around the low-$20k range, with the tires and warranty adding a bit but not enough to justify much above that.",
+    "value": 22400.0
+  },
+  "61099e6d6f8f": {
+    "reasoning": "A 2021 Accord EX-L with clean history, moderate mileage, recent tires, and dealer certification typically trades in the low-to-mid $20k range at retail; the listed $19k is already aggressive and likely near market-clearing pricing. Given the trim, condition, and included warranty, a fair price is around the middle of that band.",
+    "value": 23800.0
+  },
+  "554912d8b68b": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, off-lease origin, and dealer certification is a solid used-car value, but the listed sale price seems unusually low versus typical market comps for this trim. Accounting for the mileage, condition, recent tires, and certified dealer markup, a fair price is around the middle of the normal retail range.",
+    "value": 22750.0
+  },
+  "f82073ae71dc": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, clean history, dealer certification, and recent tires should trade above basic wholesale, but $19,000 is unusually low for the market and likely reflects a pricing anomaly or a stripped-down sale price. A fair market price is closer to the low-to-mid $24k range given mileage, trim, and condition.",
+    "value": 24200.0
+  },
+  "c2a381f48918": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, and good dealer prep is typically worth in the low-to-mid $20k range at retail. The listed $19,000 sale price is already aggressive, so a fair price lands slightly above that if everything checks out.",
+    "value": 21000.0
+  },
+  "e63e43af5292": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, clean history, certified dealer support, and recent tires is a solid mid-market used car, but the 1.5T/CVT and common supply make it worth less than the original asking price. Given current used-market comps and the included warranty, a fair price is around the low-$20k range rather than $19k being a huge bargain or $29k being realistic.",
+    "value": 22400.0
+  },
+  "a9514e9fc4ce": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner clean history, dealer certification, and recent tires/service is a solid used example, but the 1.5T CVT and non-hybrid drivetrain keep it below premium pricing. A fair market price is a bit above trade-in but below typical retail listings, so around the high-$18k to low-$19k range is reasonable.",
+    "value": 18900.0
+  },
+  "6d1cbe1bf52e": {
+    "reasoning": "A 2021 Accord EX-L with moderate mileage, clean history, certified-dealer backing, and some recent maintenance would typically trade in the low-to-mid $20Ks retail depending on local market conditions. The listed $19,000 is below what would usually be considered fair for this trim and mileage, so a realistic fair price is slightly higher than that.",
+    "value": 23900.0
+  },
+  "527df81bba8f": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner lease history, clean Carfax, and recent tires/service should still command a solid retail premium, but the 1.5L/CVT setup and age/mileage keep it below the mid-$20k range. A fair dealer price is roughly in the high-$19k to low-$20k area, so $19,800 is reasonable.",
+    "value": 19800.0
+  },
+  "3626f3b8e555": {
+    "reasoning": "For a 2021 Accord EX-L with average mileage, clean history, and dealer certification, a fair retail price is typically in the low-to-mid $20Ks; the listed $19,000 is below market if accurate. Accounting for the trim, mileage, condition, and recent tires, a reasonable fair price is around the middle of that range.",
+    "value": 23500.0
+  },
+  "1745a65a8088": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner clean history, and dealer certification is a solid value, but a $19,000 asking price is unusually low and likely reflects either a pricing error or some hidden issue. Based on typical retail market value for this trim/mileage, a fair price is closer to the low-to-mid $24k range.",
+    "value": 24200.0
+  },
+  "f838d83b6bc5": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification typically lands in the low-to-mid $20k range, with the fresh tires and service adding a bit of value. Given the current market and the Honda dealer context, $19k is actually below what I’d expect as a fair retail price.",
+    "value": 22900.0
+  },
+  "6785e43a8a1d": {
+    "reasoning": "A new generic 12-liter stainless step trash can with soft-close lid and inner bucket typically sells around $25 to $40. Since it was won in a raffle and is secondhand but likely unused, a fair resale price is about the middle of that range.",
+    "value": 25.0
+  },
+  "9e6dd59f2130": {
+    "reasoning": "A generic 12-liter stainless step trash can with soft-close lid and inner bucket typically retails around $25–$40 new, and a fair coworker-to-coworker used price is usually about half of new value. Given the raffle-won, unbranded condition, $18 is a reasonable offer.",
+    "value": 18.0
+  },
+  "e801dc0497d9": {
+    "reasoning": "A generic 12-liter stainless-steel step trash can with a pedal lid and soft-close hinge typically sells new in the low-to-mid $20s to around $40 depending on brand. Since this one is unbranded and used only as an office raffle prize, a fair coworker-to-coworker price is roughly half of a typical retail value.",
+    "value": 20.0
+  },
+  "950f281db4e8": {
+    "reasoning": "A generic 12-liter brushed stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around $25-$40 new, but since this is used and unbranded, a fair coworker-to-coworker price would be about half of new.",
+    "value": 18.0
+  },
+  "059ba81c29b8": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and removable liner typically retails around $25-$40. Since this is a used, no-brand item and you're buying it from a coworker, a fair price is about half of retail.",
+    "value": 20.0
+  },
+  "276a11ed3bff": {
+    "reasoning": "A generic 12-liter stainless step trash can with soft-close lid and removable inner bucket typically retails around $25-$45 new. Since it was won in a raffle but is still a practical household item, a fair coworker-to-coworker price would be about half retail.",
+    "value": 20.0
+  },
+  "e343d0877e81": {
+    "reasoning": "A new generic 12-liter brushed stainless-steel step trash can with a soft-close lid and inner bucket typically sells in the low-to-mid $30 range. Since it's being sold by a coworker and is likely open-box or lightly handled, a fair personal price is a modest discount from retail.",
+    "value": 25.0
+  },
+  "d06d69eaef06": {
+    "reasoning": "A generic 12-liter stainless step trash can with soft-close lid and inner bucket typically retails around $20-$35 new, but a raffle win is usually worth less than store price. A fair coworker-to-coworker price is about the middle of the used/new-discount range.",
+    "value": 18.0
+  },
+  "e562e6724f63": {
+    "reasoning": "A new 12-liter brushed stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around $25 to $40, but a raffle win sold privately is usually worth less than new retail. A fair coworker-to-coworker price is about the middle of that used-value range.",
+    "value": 20.0
+  },
+  "63fb7dc5e8f7": {
+    "reasoning": "A new generic 12-liter stainless-steel step trash can with these features typically retails around $30–$50, and a fair coworker-to-coworker used price is usually about half of retail. Since it was won in a raffle and likely unused or near-new, I’d pay toward the middle of that used range.",
+    "value": 20.0
+  },
+  "19a346f81344": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around $25 to $40 depending on brand and finish. Since this is a no-brand item from a raffle and I'd be buying it secondhand from a coworker, a fair price is about half of new retail.",
+    "value": 18.0
+  },
+  "4bab843a64c8": {
+    "reasoning": "A generic 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around $25 to $40 new, but a fair coworker resale price should be below retail since it's unbranded and already won/used. Splitting the difference at roughly half to two-thirds of new value gives a reasonable personal purchase price.",
+    "value": 20.0
+  },
+  "6c2ed83c62a0": {
+    "reasoning": "A generic 12-liter stainless-steel step trash can with soft-close lid and inner bucket typically retails around $25–$40 new, but since this is a coworker sale for a used, no-brand item, a fair middle-ground price is about half of new retail.",
+    "value": 18.0
+  },
+  "26be10600933": {
+    "reasoning": "A new generic 12-liter brushed stainless-steel step trash can with soft-close lid and inner bucket typically retails around $25 to $40, but since this is a used unbranded office raffle item and you're buying from a coworker, a fair midpoint is about half of retail. That puts it near the low-to-mid teens.",
+    "value": 18.0
+  },
+  "944686ba53e1": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with a soft-close lid and inner bucket typically sells around $25-$40 depending on brand and finish. Since this one is unbranded but still in-use quality and your coworker won it in a raffle, a fair peer-to-peer price is near the low-middle of that range.",
+    "value": 25.0
+  },
+  "6fcb4b78e2c2": {
+    "reasoning": "A generic 12-liter stainless-steel step trash can with soft-close lid and inner bucket is usually a modest household item, but because it was won in a raffle and is used, a fair resale value is below typical retail. I’d accept a price that feels worthwhile to part with it while still being a good deal for a coworker.",
+    "value": 20.0
+  },
+  "b660b8b7d19a": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically sells in the mid-range retail aisle, and a fair resale value is usually around half of new if it's unused or like new. Since it was won in a raffle and has no visible brand, I'd pick a simple, reasonable amount that would feel good to both sides.",
+    "value": 25.0
+  },
+  "8bce8a990a35": {
+    "reasoning": "A similar unbranded 12-liter stainless-steel step trash can with soft-close lid and inner bucket typically retails around $25-$40 new. Since it was won in a raffle and is used/secondhand, a fair coworker price would be near the low-middle of that range.",
+    "value": 20.0
+  },
+  "20ba2e23f8a3": {
+    "reasoning": "A comparable new 12-liter stainless-steel step trash can with soft-close lid and inner bucket typically sells in the $25-$40 range, but since this was won in a raffle and is already in your possession, a fair private-sale price would be toward the lower-middle of that range. I’d consider $25 a reasonable amount to accept.",
+    "value": 25.0
+  },
+  "8d35e4876b52": {
+    "reasoning": "A comparable 12-liter stainless step trash can with soft-close lid and removable inner bucket typically sells new for around $25 to $40. Since this was won in a raffle and is presumably unused, a fair coworker-to-coworker price is roughly the middle of that range.",
+    "value": 30.0
+  },
+  "404222131291": {
+    "reasoning": "A comparable new 12-liter stainless step trash can with soft-close lid and removable inner bucket typically retails around $30 to $45. Since this one is used only as a raffle prize and you’re selling it informally to a coworker, a fair middle-ground price is about half of new retail.",
+    "value": 20.0
+  },
+  "b51b0edd5306": {
+    "reasoning": "A comparable new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically sells for around $25-$45. Since this was won in a raffle and is used office-giveaway value rather than cash-out retail, a fair accept price is near the middle of that range.",
+    "value": 30.0
+  },
+  "75d700900cf8": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically sells in the mid-range of around $30 to $50. A fair coworker resale price would be slightly below retail to make it worth buying without feeling overpriced.",
+    "value": 35.0
+  },
+  "d4504e175053": {
+    "reasoning": "A 12-liter stainless steel step trash can with soft-close lid and removable inner bucket is a mid-range household item, typically worth around $30 to $50 new. Since it was won in a raffle and is used only in the sense of being assigned/owned now, a fair buyout price to accept is near the lower-middle of that range.",
+    "value": 35.0
+  },
+  "7e198f57a4a5": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with a soft-close lid and inner bucket typically retails around $30-$50 depending on brand and finish. A fair coworker sale price for a raffle win would be about half to two-thirds of that since it’s unused but not new-in-box retail value.",
+    "value": 25.0
+  },
+  "1c2a515ac0b3": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically retails around the mid-$30s to $50s depending on quality. Since this is essentially new-from-a-raffle and a coworker resale should be friendly but still worthwhile, a fair accept price is around the middle of that range.",
+    "value": 35.0
+  },
+  "f7de8e0142fc": {
+    "reasoning": "A new generic 12-liter stainless-steel step trash can with these features typically sells in the roughly $25-$40 range, and an office raffle item used minimally should be discounted from retail. A fair buyout price that feels reasonable to both sides is about the middle of that used value range.",
+    "value": 25.0
+  },
+  "0cf3dcd72ddc": {
+    "reasoning": "A generic 12-liter stainless steel step trash can with soft-close lid and removable liner typically retails around $25 to $45, and a fair private-sale price is usually about half to two-thirds of retail. Given it was won in a raffle and is unbranded but still a decent household item, I'd accept a price in the middle of that range.",
+    "value": 25.0
+  },
+  "14eb12ade746": {
+    "reasoning": "A new 12-liter stainless-steel step trash can with soft-close lid and inner bucket typically sells in the roughly $25-$40 range depending on quality and brand. Since this was won in a raffle and has no visible brand premium, a fair offhand resale price would be near the low-middle of that range.",
+    "value": 30.0
+  },
+  "692ae0968ee2": {
+    "reasoning": "A comparable new 12-liter stainless-steel step trash can with soft-close lid and removable inner bucket typically sells in the roughly $25 to $40 range. Since it was won in a raffle and is presumably unused, a fair private-sale price would be around the middle of that range.",
+    "value": 30.0
+  },
+  "5af07d0d84a4": {
+    "reasoning": "Based on current market norms for a 2021 Accord EX-L with under 40k miles, clean history, and dealer certification, a fair retail price sits a bit below typical dealer asking prices but above private-party value. The new Michelin tires and included warranty add modest value, though the 1.5T CVT keeps it from commanding a premium over similarly equipped rivals.",
+    "value": 25800.0
+  },
+  "85077b5753bf": {
+    "reasoning": "For a 2021 Honda Accord EX-L with average mileage, clean history, and dealer-certified presentation, a fair retail price should sit a bit above typical private-party value but below strong asking prices. The recent Michelin tires and included warranty add some value, but the CVT and 1.5L trim keep it from reaching top-end pricing.",
+    "value": 23900.0
+  },
+  "dc3efc7c4e23": {
+    "reasoning": "Based on recent-market pricing for a 2021 Accord EX-L with moderate mileage, clean history, and desirable dealer reconditioning, a fair private-party-to-retail value lands in the low-to-mid $20k range. The new Michelin tires, Honda-certified sale, and limited warranty add a bit of value, but not enough to justify near-new pricing.",
+    "value": 23900.0
+  },
+  "25f4c121de6a": {
+    "reasoning": "Based on current market positioning for a 2021 Accord EX-L with average miles, clean history, off-lease ownership, and dealer-certified sale, a fair private-party-to-retail midpoint is in the low-to-mid $20k range. The newer Michelin tires and dealer warranty add a bit of value, but it should still sit below typical dealer asking prices.",
+    "value": 24400.0
+  },
+  "997a4c7bb8cf": {
+    "reasoning": "Based on current used-market pricing for a 2021 Accord EX-L with average mileage, clean history, and desirable dealer-added value like newer Michelin tires and certified-sale warranty, a fair private-party-to-retail midpoint lands in the low-to-mid $23k range. I’d peg a realistic fair price at about $23,800.",
+    "value": 23800.0
+  },
+  "19a6f2205b7f": {
+    "reasoning": "This is a clean, well-equipped 2021 Accord EX-L with average mileage for the year, but the 1.5T/CVT combo and used-market softness on midsize sedans keep it from being priced too aggressively. A Honda-certified sale, fresh service, and new Michelin tires add some value, but not enough to justify top retail.",
+    "value": 23900.0
+  },
+  "2fa923111884": {
+    "reasoning": "Based on typical market pricing for a 2021 Honda Accord EX-L with average miles, clean history, and dealer certification, I’d place it around the middle of retail comps, with a small premium for the newer Michelin tires and included warranty. The 38k miles and off-lease status support a fair value slightly below many dealer asking prices.",
+    "value": 25400.0
+  },
+  "a9958ad048d8": {
+    "reasoning": "Based on current market patterns for a 2021 Accord EX-L with moderate mileage, clean history, dealer certification, and the value of recent tires and fresh service, a fair retail price is slightly above average private-party value but below dealer asking prices. The off-lease, one-owner, clean Carfax history keeps it solid, while the 1.5T/CVT setup and mileage prevent it from being priced like a near-new example.",
+    "value": 23900.0
+  },
+  "fb2ebf40d75c": {
+    "reasoning": "Based on current market norms for a 2021 Accord EX-L with moderate mileage, clean history, and dealer certification, a fair private-party-to-retail midpoint lands in the low-to-mid $20k range. The recent tires, clean Carfax, and dealer warranty add some value, but not enough to justify pricing much above typical retail comps.",
+    "value": 23900.0
+  },
+  "ee91184196fb": {
+    "reasoning": "Based on typical market pricing for a 2021 Honda Accord EX-L with average mileage, clean one-owner history, and desirable dealer-certified condition, a fair private-party-to-retail midpoint is in the low-to-mid $20k range. The newer Michelin tires and included warranty add some value, but not enough to push it much above typical dealer asking prices for this trim and mileage.",
+    "value": 24100.0
+  },
+  "f1b774e77ab9": {
+    "reasoning": "Based on a 2021 Accord EX-L with average mileage, clean history, and desirable dealer-installed fresh tires/service, a fair retail price would typically sit a bit above wholesale but below top-of-market listings. The certified dealer warranty adds some value, but the CVT and mileage keep it from pricing like a newer low-mile example.",
+    "value": 25500.0
+  },
+  "d85bd8f128b5": {
+    "reasoning": "Based on typical market comps for a 2021 Accord EX-L with ~38k miles, clean history, and dealer certification, a fair retail price lands in the high-$20k range. The recent Michelin tires and warranty add a bit of value, but this is still a mass-market sedan with normal depreciation, so I’d peg it near the middle of that range.",
+    "value": 28400.0
+  },
+  "3470f46776f8": {
+    "reasoning": "Based on the trim, mileage, clean one-owner history, and the added value of new Michelin tires plus dealer certification/warranty, this sits around the middle of the current retail market for a 2021 Accord EX-L. A fair transaction price is slightly below asking-room dealer retail, reflecting normal used-car negotiation.",
+    "value": 23500.0
+  },
+  "d034f228e108": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner clean history, and recent tires/service typically trades a bit above average private-party value but below dealer retail. The Honda-certified dealer warranty and off-lease condition support a fair market number in the low-to-mid $20k range.",
+    "value": 24750.0
+  },
+  "b3f3375b15db": {
+    "reasoning": "This is a desirable mid-trim Accord with clean history, moderate mileage, good tires, and dealer certification/warranty, which supports a solid retail value above auction but still below a typical dealer asking price. Accounting for the 2021 model year, 38k miles, and the strong but not top-tier EX-L trim, a fair private-party-to-retail midpoint comes out around the mid-$20k range.",
+    "value": 24800.0
+  },
+  "972be532814d": {
+    "reasoning": "This is a well-equipped, clean-title 2021 Accord EX-L with average mileage, but the 1.5T/CVT combo and one-previous-owner off-lease status keep it in normal retail territory rather than premium. The fresh Michelin tires and dealer warranty add some value, so a fair transaction price is slightly below the asking price but still in the high-teens.",
+    "value": 18600.0
+  },
+  "e28039e5a2a6": {
+    "reasoning": "A 2021 Accord EX-L with average miles, clean history, and dealer certification is a solid retail car, but the 1.5L CVT and typical market softness for midsize sedans keep it from commanding premium pricing. The recent tires and included warranty add some value, but a fair transaction price is a bit below the asking figure.",
+    "value": 18300.0
+  },
+  "52dc0c37c592": {
+    "reasoning": "A clean, one-owner off-lease 2021 Accord EX-L with moderate miles and good tires is a solid retail example, but the 1.5T/CVT setup and typical market depreciation keep it below the dealer ask. Given the certified dealer backing and recent maintenance, a fair transaction price looks a bit under list.",
+    "value": 18250.0
+  },
+  "f660e059b3e0": {
+    "reasoning": "A 2021 Accord EX-L with clean history, moderate mileage, dealer certification, and recent tires is a solid used-car candidate, but the 1.5L/CVT combo and typical dealer retail margins keep it below listed price. Factoring in market comps and the value of the fresh tires and warranty, a fair transaction price is a bit under the asking number.",
+    "value": 18400.0
+  },
+  "e120c373eab3": {
+    "reasoning": "Based on typical market pricing for a 2021 Accord EX-L with under 40k miles, clean history, and dealer-certified sale, the listed $19,000 is already close to fair retail. The recent tires and warranty add a bit of value, but not enough to justify much above typical market, so a fair price lands slightly below the asking price.",
+    "value": 18750.0
+  },
+  "25cf1940bad6": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner clean history, and dealer certification is generally worth a bit above typical private-party pricing, but the CVT and 1.5T combo plus normal used-market depreciation keep it below the dealer list. The recent Michelin tires and CPO-style warranty add some value, so a fair transaction price is modestly under the asking price.",
+    "value": 18300.0
+  },
+  "c98a4cb4d461": {
+    "reasoning": "This looks like a clean, well-equipped, off-lease Accord EX-L with moderate mileage and some value added from new Michelin tires and dealer certification, but the 1.5T/CVT powertrain and standard market depreciation keep it below typical dealer asking price. A fair transaction price is a bit under the listed $19,000.",
+    "value": 18250.0
+  },
+  "a7d70d08958d": {
+    "reasoning": "A 2021 Accord EX-L with moderate miles, clean history, and dealer certification is a solid mid-market used car, but the 1.5T/CVT combination and being a common trim keep it from commanding a premium. The recent tires and dealer warranty add some value, but $19,000 is a bit high versus typical fair-market pricing.",
+    "value": 18400.0
+  },
+  "200a1a37ba65": {
+    "reasoning": "A clean one-owner 2021 Accord EX-L with moderate miles and recent tires is a solid retail candidate, but the 1.5T/CVT and comparable-market pricing keep it from commanding the full dealer ask. Accounting for certified-dealer presentation and warranty, a fair transaction price sits a bit below the list price.",
+    "value": 18350.0
+  },
+  "e9940f595d58": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer-certified status is a solid mid-market used car, but the 1.5T/CVT combination and normal dealer markup keep it from commanding near-new pricing. The recent Michelin tires and fresh service add some value, so a fair transaction price is a bit below the asking price.",
+    "value": 18250.0
+  },
+  "35a368dfe235": {
+    "reasoning": "Based on typical market pricing for a 2021 Accord EX-L with this mileage, clean history, certified dealer sale, and the value of recent Michelin tires and fresh maintenance, $19,000 is a bit on the strong side but not wildly off. A fair transaction price would be slightly below asking, around the mid-$18k range.",
+    "value": 18400.0
+  },
+  "cfbfb60edcc1": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification is priced a bit above average wholesale but should still sit below typical retail ask due to the 1.5T/CVT combo and non-CPO warranty coverage. Accounting for the recent tires and fresh service, a fair transaction price is around the high-$17k to low-$18k range.",
+    "value": 17950.0
+  },
+  "4ab84776bee1": {
+    "reasoning": "Based on a clean one-owner 2021 Accord EX-L with average-low mileage, good equipment, recent tires, and dealer certification/warranty, the asking price is a bit below typical retail but still reasonable. A fair transaction price would land slightly under the listing to account for normal dealer margin.",
+    "value": 18750.0
+  },
+  "2ec1873947af": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, clean history, and dealer certification is a solid retail unit, but the 1.5T/CVT combo and typical used-market pricing keep it below the high teens. The new tires and warranty add some value, but a fair transaction price is a bit under the asking price.",
+    "value": 18250.0
+  },
+  "cfbe9d54199b": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, one-owner lease history, clean Carfax, and dealer certification is a strong used-car candidate, but the 1.5T/CVT trims of this generation typically trade a bit below asking unless especially pristine. The newer Michelin tires and dealer warranty add some value, so a fair market price is slightly under the listed $19,000.",
+    "value": 18500.0
+  },
+  "992238337d1e": {
+    "reasoning": "A 2021 Accord EX-L with average miles, clean history, and dealer certification is typically worth more than a rough private-party car but less than an inflated dealer asking price. Given the mileage, trim, and condition, a fair market price lands around the high teens to very low twenties, with the new tires and warranty adding some value.",
+    "value": 21200.0
+  },
+  "57e988f9a610": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, recent tires, and dealer certification typically lands in the low-to-mid $20k range retail. The $19,000 asking price is already below market, so a fair value estimate is slightly above that to reflect condition and warranty.",
+    "value": 22250.0
+  },
+  "c4bf60a8e7d1": {
+    "reasoning": "A 2021 Accord EX-L with average-to-moderate mileage, clean history, and recent tires/service is a solid used-car value, but the current $19,000 asking price already looks well below typical market range. Accounting for dealer-certified status and the included warranty, a fair price lands slightly above that asking point rather than anywhere near the original listing.",
+    "value": 19500.0
+  },
+  "b44c8cb16b57": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, good tires, and dealer warranty is typically worth more than a basic trade-in but well below the original ask; the sale price is in the right ballpark, though slightly high for a private-party-equivalent market check. I’d peg a fair purchase price near the middle of dealer retail and private-party value.",
+    "value": 22500.0
+  },
+  "a2d997ffea2e": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification support a strong used-car value, but the 1.5L/CVT drivetrain and typical market depreciation keep it below the original asking price. Given the recent tires, fresh service, and warranty, a fair transaction price is around the high-$19k to low-$20k range.",
+    "value": 19900.0
+  },
+  "41d59e9d31fe": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, clean history, good tires, and dealer certification is typically worth a bit above private-party average but well below an inflated dealer asking price. Given current market conditions and the trim/mileage, a fair negotiated price is around the high teens.",
+    "value": 20900.0
+  },
+  "df96be87cbbc": {
+    "reasoning": "For a 2021 Accord EX-L with ~38k miles, clean history, and good dealer prep, a fair market range is roughly in the low-to-mid $20Ks. The new tires and certified dealer warranty add a bit of value, but not enough to justify the original $29k sticker or a $19k price that seems unusually low, so a realistic fair price lands around the middle of that range.",
+    "value": 23900.0
+  },
+  "c7612c4d02a0": {
+    "reasoning": "A 2021 Accord EX-L with average miles, one-owner lease history, clean Carfax, and good tires/warranty support is solidly desirable, but the 1.5T/CVT and typical market depreciation keep it below an aggressive dealer asking price. Based on comparable retail values and the certification/warranty premium, a fair purchase price is around the low-$20k range.",
+    "value": 21900.0
+  },
+  "f17c55fd81da": {
+    "reasoning": "A 2021 Accord EX-L with this mileage and clean history typically lands in the low-to-mid $20k range at a dealer, with the recent tires and certified-sale context supporting the higher end of that range. The $19,000 asking price is below what I'd expect for a fair retail deal, so a reasonable fair-price estimate is around the middle of the market-adjusted range.",
+    "value": 22900.0
+  },
+  "9b79d2c937ae": {
+    "reasoning": "Given the trim, mileage, clean history, dealer certification, and recent tires/service, this sits a bit above average wholesale but below typical retail asking in most markets. A fair transactional price is around the low-$20k range, with the current $19k sale looking quite strong for the buyer.",
+    "value": 20800.0
+  },
+  "cdfb2ae1e200": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, clean history, and a dealer certification/warranty has solid retail value, but the 1.5L/CVT combo and current used-market softness keep it below an inflated dealer ask. The fresh tires and maintenance add some value, but a fair market price is still well under the original $29k and a bit above true wholesale.",
+    "value": 22100.0
+  },
+  "1b0d3c18011e": {
+    "reasoning": "Given the trim, mileage, clean history, certified dealer sale, and the fact that it has new tires and recent service, a fair retail price should sit a bit above wholesale but below typical dealer asking prices. The current $19,000 sale price is already aggressive, so I’d peg a realistic fair value at about that level.",
+    "value": 19000.0
+  },
+  "4caf0960deff": {
+    "reasoning": "A 2021 Accord EX-L with moderate miles, clean history, recent tires, and dealer certification is worth more than a basic private-party car, but $19,000 is unusually low for this trim and likely reflects some mix of market softness or prior pricing error. A fair cross between retail and wholesale for this specific example is around the low-$20k range.",
+    "value": 22400.0
+  },
+  "f52fc4eff3a0": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification/warranty is a solid mid-market used car, but the 1.5T/CVT and typical market depreciation keep it below an inflated dealer asking price. Recent tires and service add some value, though the fair value still centers around the high-teens.",
+    "value": 18750.0
+  },
+  "d2e4fffb8474": {
+    "reasoning": "A 2021 Accord EX-L with moderate mileage, clean history, and dealer certification is typically worth in the low-to-mid $20k range, with the new tires and warranty adding some value. The listed $19,000 is unusually low for this trim and condition, so a fair market price would be around the mid-$20k range.",
+    "value": 24500.0
+  },
+  "b53378244130": {
+    "reasoning": "Based on current market pricing for a 1.0 ct G/VS2 GIA Excellent round with no fluorescence, the loose diamond itself is roughly in the low-$4k range, and a simple 14k white-gold solitaire setting typically adds a few hundred dollars at retail. A fair all-in price from an independent jeweler is therefore a bit below the $5,200 ask.",
+    "value": 4700.0
+  },
+  "16c616c3674e": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid mid-high quality stone, but the 14k white gold solitaire setting adds only modest value. Based on typical retail pricing for comparable rings from an established independent jeweler, a fair price is a bit below the asking price.",
+    "value": 4700.0
+  },
+  "8d9ec40d6cd3": {
+    "reasoning": "Based on current retail pricing for a 1.0 ct G/VS2 round brilliant with excellent cut and no fluorescence, the loose diamond likely accounts for most of the value, with the 14k solitaire setting adding a modest amount. A fair independent-jeweler price is a bit below the asking price, reflecting typical retail margin while still accounting for the strong cut quality and service policy.",
+    "value": 4900.0
+  },
+  "2552973df83c": {
+    "reasoning": "For a 1.02 ct G/VS2 round excellent diamond with strong proportions and no fluorescence, a fair independent-jeweler retail price is typically a bit below the asking price once the simple 14k solitaire setting is accounted for. Given the specs and seller protections, a reasonable market value is around the mid-$4k range.",
+    "value": 4650.0
+  },
+  "1a37870ccbf4": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid mid-premium stone, but in a simple 14k white-gold solitaire the setting adds relatively little value. Considering typical independent-jeweler market pricing and the ring’s specs, a fair price is somewhat below the asking price.",
+    "value": 4700.0
+  },
+  "a68512f94785": {
+    "reasoning": "Based on current retail market pricing for a 1.0 ct G/VS2 GIA round excellent diamond with no fluorescence, a fair independent-jeweler price for the stone plus a simple 14k solitaire setting is typically a bit below the asking price. I’d expect a reasonable fair price to be around the low-to-mid $4k range, depending on the seller’s service and local market.",
+    "value": 4300.0
+  },
+  "6f63d053a0dc": {
+    "reasoning": "Based on current retail market norms, a 1.02 ct G/VS2 round brilliant with Excellent cut and no fluorescence typically prices a bit below the jeweler’s asking figure, with the 14k solitaire setting adding only modest value. A fair all-in price for the ring is around the low-to-mid $4k range.",
+    "value": 4300.0
+  },
+  "d03603b8f925": {
+    "reasoning": "A 1.02 ct G/VS2 GIA triple-excellent-style round with no fluorescence typically retails around the low-to-mid $4k range for the loose diamond, and a simple 14k white-gold solitaire setting adds roughly a few hundred dollars. Given the strong but not premium brand/setting factors, a fair all-in price is about $4.7k.",
+    "value": 4700.0
+  },
+  "7722e9155012": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with GIA grading, excellent cut, and no fluorescence is a solid mid-to-upper commercial quality diamond, but not rare enough to command a large premium. For a simple 14k white-gold solitaire from an independent jeweler, a fair market price is typically somewhat below the $5,200 ask.",
+    "value": 4600.0
+  },
+  "cc2841af75f9": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent cut and no fluorescence typically trades around the low-to-mid $5k range loose, and a simple 14k white-gold solitaire setting adds only a few hundred dollars at retail. Factoring in a fair independent-jeweler margin but not a premium chain-store markup, a reasonable all-in price is slightly below the asking price.",
+    "value": 4900.0
+  },
+  "ba0838439917": {
+    "reasoning": "A 1.02 ct G/VS2 round excellent diamond with strong proportions and no fluorescence is a solid mid-to-upper mid-market stone, but 14k white-gold solitaire settings add relatively little beyond metal and labor. For an independent jeweler with a good return policy, a fair all-in retail price is typically modestly below the asking price.",
+    "value": 4700.0
+  },
+  "9b8e5353a5d2": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with GIA, excellent cut, and no fluorescence is a solid but not rare stone; comparable retail pricing for the diamond plus a simple 14k solitaire mounting typically lands somewhat below the asking price. Considering the independent jeweler, return policy, and services, a fair market price is modestly under $5,200.",
+    "value": 4700.0
+  },
+  "efb24adaaba5": {
+    "reasoning": "Using recent market norms for a 1.0 ct G/VS2 GIA round brilliant with excellent cut and no fluorescence, the loose diamond alone would typically retail around the mid-$4k range from a reputable independent jeweler. Adding a modest amount for a simple 14k white-gold solitaire setting, a fair all-in price is a bit under the asking price.",
+    "value": 4800.0
+  },
+  "2e3c87da5a6c": {
+    "reasoning": "For a 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence, a fair retail price for the diamond itself is typically in the low-to-mid $4k range, with a simple 14k white-gold solitaire setting adding a few hundred dollars. Given the independent jeweler, return policy, and service perks, a reasonable all-in fair price is around the mid-$4k range.",
+    "value": 4600.0
+  },
+  "50146400911e": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with Excellent cut and no fluorescence typically trades in the low-to-mid $4k range online for the loose stone, and a simple 14k white-gold solitaire usually adds only a few hundred dollars. Given the setting, seller service, and retail margin, a fair total price is around the mid-$4k range.",
+    "value": 4650.0
+  },
+  "334e10a6bcef": {
+    "reasoning": "Based on current retail pricing for a 1.0 ct G/VS2 round with excellent cut and no fluorescence, the loose diamond is likely around the low-to-mid $4k range, and the simple 14k white-gold solitaire setting adds a few hundred dollars more. The appraisal value is typically inflated for insurance, so a fair market price for the completed ring is below the asking price.",
+    "value": 4600.0
+  },
+  "6c8339a56269": {
+    "reasoning": "For a 1.02 ct G/VS2 round with excellent cut and no fluorescence, a fair retail price from a reputable independent jeweler is typically well below inflated appraisal values and a bit under the asking price. Given the specs and 14k solitaire setting, a reasonable market-based figure is around the mid-$4k range.",
+    "value": 4450.0
+  },
+  "8fd44f353a9c": {
+    "reasoning": "For a well-cut 1.02 ct G/VS2 round with GIA certification and a simple 14k solitaire, the $5,200 asking price is within typical retail market range, while the $9,500 appraisal is likely inflated for insurance purposes. A fair transaction price would be modestly below the asking price, around the low-to-mid $4k range.",
+    "value": 4500.0
+  },
+  "230f17c03950": {
+    "reasoning": "A 1.02 ct G/VS2 round with excellent proportions and no fluorescence is a solid but fairly standard stone, and the 14k solitaire setting adds only a modest amount of value. The appraisal value is typically inflated for insurance, so a fair market price is closer to a normal independent-jeweler retail figure than the appraisal number.",
+    "value": 4700.0
+  },
+  "1e3388043188": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with Excellent cut and no fluorescence is a solid near-colorless stone, but the insurance appraisal is typically inflated well above realistic retail transaction value. For a classic 14k white-gold solitaire from an independent jeweler, a fair market price is modestly below the asking price and far below the appraisal.",
+    "value": 4800.0
+  },
+  "9001b1f4b543": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid but not rare stone; the 14k solitaire setting adds only modest value. The $9,500 appraisal is likely replacement value, while a fair market retail price from a reputable independent jeweler is typically closer to the asking price minus some negotiation room.",
+    "value": 4700.0
+  },
+  "9fdc14b5efe7": {
+    "reasoning": "For a 1.02 ct G/VS2 round brilliant with excellent proportions and no fluorescence, a typical fair retail price for the diamond itself is around the low-to-mid $4k range, with a modest premium for the simple 14k white-gold solitaire setting. The $9,500 appraisal looks like insurance replacement value, not market price, so $5,200 is a bit high but not extreme; a fair price is around $4,900.",
+    "value": 4900.0
+  },
+  "e747f733a76e": {
+    "reasoning": "Based on current market pricing for a 1.02 ct G/VS2 GIA round brilliant with excellent cut, the loose stone would typically trade around the low-to-mid $4k range, and a simple 14k solitaire setting adds a few hundred dollars. An insurance appraisal is usually inflated for replacement value, so $5,200 is near retail and a fair price is a bit below that.",
+    "value": 4700.0
+  },
+  "b68b1b507baa": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with strong proportions and no fluorescence is a solid mid-to-upper quality stone, but the appraisal value is typically inflated above realistic market price. Given current retail conditions, a fair price for the complete solitaire ring would be somewhat below the asking price, with the setting adding only modest value.",
+    "value": 4700.0
+  },
+  "94420937129d": {
+    "reasoning": "The diamond’s specs are solid and the setting is modest, but an insurance appraisal is typically inflated well above actual market value. For a 1.02 ct G/VS2 excellent round in a simple 14k solitaire from an independent jeweler, a fair retail price is usually a bit below the asking price rather than anywhere near the appraisal.",
+    "value": 4800.0
+  },
+  "d6eb76a4adc4": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with strong proportions and no fluorescence is a solid mid-to-upper quality stone, but the $9,500 appraisal is typically retail-insurance inflated. Factoring in current market pricing for the diamond plus a modest amount for the 14k solitaire setting and reputable dealer service, a fair price lands below the asking price but not dramatically so.",
+    "value": 4700.0
+  },
+  "80b437609ab3": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent proportions and no fluorescence is a solid mid-to-upper quality stone, but the ring is still a standard solitaire in 14k white gold, so the $9,500 appraisal is likely inflated for insurance replacement value rather than market value. Based on typical retail pricing for comparable stones plus a modest setting premium, a fair market price is closer to the mid-$4k range.",
+    "value": 4500.0
+  },
+  "f8e502888ebe": {
+    "reasoning": "Based on current retail pricing for a 1.0 ct G/VS2 GIA round brilliant with excellent proportions, the diamond itself likely accounts for most of the value, with the 14k solitaire mounting adding only a small amount. The $9,500 appraisal is likely an insurance replacement value, not a market price, so a fair cash/retail price is closer to the middle of typical jeweler ask ranges.",
+    "value": 5200.0
+  },
+  "6ecce6738593": {
+    "reasoning": "A 1.02 ct G/VS2 GIA Excellent round with strong proportions and no fluorescence is a solid but not top-premium stone; typical independent-jeweler retail for the diamond plus a simple 14k solitaire mounting usually lands modestly above wholesale but well below insurance appraisal values. Based on current market norms, $5,200 is a bit high but still plausible retail; a fair price is around the low-to-mid $4k range.",
+    "value": 4350.0
+  },
+  "8877fa7f8c5d": {
+    "reasoning": "A 1.02 ct G/VS2 excellent round with no fluorescence is a strong but fairly standard-quality stone, and the 14k solitaire setting adds only a modest amount of value. Retail insurance appraisals are typically inflated, so a fair market price is usually much closer to the asking price than the appraisal, with some room for negotiation.",
+    "value": 5000.0
+  },
+  "865fcf8adbbc": {
+    "reasoning": "Based on current secondary-market pricing for a 2022 Moonwatch 3861 with full set, recent Omega service, and only light bracelet wear, a fair dealer price is typically modestly below the new-strap-inclusive retail premium but above private-sale comps due to the service and return window. I’d peg it around the middle of the typical dealer range.",
+    "value": 4700.0
+  },
+  "b2595585720e": {
+    "reasoning": "A 2022 Hesalite Moonwatch with full set and recent Omega service is attractive, but light bracelet wear and the fact that it is still a common, readily available model keep resale below dealer asking. A fair market price is a bit under the ask, reflecting strong condition and recent service while still leaving room for normal dealer margin.",
+    "value": 4650.0
+  },
+  "26f9d6d81bb5": {
+    "reasoning": "A 2022 hesalite Speedmaster 3861 with full set, recent Omega service, and light wear typically trades a bit below dealer ask but above private-party pricing. Given the condition and service history, a fair market price is around the low-to-mid $4k range.",
+    "value": 4550.0
+  },
+  "c6395a3704a3": {
+    "reasoning": "A clean full-set 3861 Hesalite Moonwatch from a reputable dealer typically trades below current new retail, with a recent Omega service adding some value but light bracelet wear keeping it from commanding near-retail. Given the age, condition, accessories, and dealer protections, a fair market price is a bit under the ask.",
+    "value": 4650.0
+  },
+  "90d61a0af118": {
+    "reasoning": "A 2022 Moonwatch 3861 with full set, recent service, and only light bracelet wear is a solid example, but the used-market discount from new should still be meaningful. Given the dealer context and condition, a fair private-to-dealer market value is a bit below asking.",
+    "value": 4500.0
+  },
+  "27fa82047ef8": {
+    "reasoning": "A 2022 Speedmaster Professional 3861 with full set and recent Omega service is a solid example, but light bracelet wear and the fact that it’s pre-owned keep it below typical dealer asking prices. Given current secondary-market behavior for this reference, a fair price lands modestly under the dealer’s $4,900 ask.",
+    "value": 4650.0
+  },
+  "df294b556d3c": {
+    "reasoning": "A pre-owned 3861 Hesalite Moonwatch with full set, recent service, and only light bracelet wear typically trades a bit below new retail, but a dealer premium is reasonable for condition and return window. Given the age, service recency, and market liquidity, a fair price lands modestly under the asking price.",
+    "value": 4600.0
+  },
+  "8d2cf61b7984": {
+    "reasoning": "A four-year-old 3861 Moonwatch with full set and recent service is a solid example, but light bracelet wear and the fact that reputable dealer pricing typically leaves room for negotiation put it below the dealer ask. Compared with current pre-owned market levels for this reference, a fair value lands a bit under $4,900.",
+    "value": 4550.0
+  },
+  "a6f38cdd8f45": {
+    "reasoning": "This is a desirable modern Speedmaster Professional with full set and recent service, but the bracelet wear and pre-owned status should keep it below typical dealer ask. A fair market price is a bit under the asking price while still reflecting the recent Omega service and complete accessories.",
+    "value": 4650.0
+  },
+  "5a0caf35911f": {
+    "reasoning": "A full-set 2022 Speedmaster Professional with recent Omega service and only light bracelet wear should trade at a modest discount to current new retail, but the Hesalite version and pre-owned market softness keep it below dealer ask. A fair private-party/dealer-adjusted value is around the high-$4k range.",
+    "value": 4700.0
+  },
+  "daaf47757630": {
+    "reasoning": "This is a desirable but relatively common modern Moonwatch, and the full set plus recent boutique service support the price, while light bracelet wear and private-dealer resale dynamics keep it below near-new retail. A fair market value is a bit under the asking price given the condition and age.",
+    "value": 4600.0
+  },
+  "c4dbbe4967bb": {
+    "reasoning": "For a four-year-old Speedmaster 3861 with full set, recent OEM service, and only light bracelet wear, a fair market price is typically a bit below dealer ask but still strong because condition and completeness are good. The recent Omega boutique service adds value, but not enough to match full retail-equivalent pricing.",
+    "value": 4600.0
+  },
+  "ad9f1b13373a": {
+    "reasoning": "For a 2022 Speedmaster Professional 3861 Hesalite with full set and recent service, a fair used-market price is usually a modest discount from current new retail, with small deductions for normal bracelet wear. Given the condition, accessories, and dealer return policy, this lands a bit below the asking price.",
+    "value": 4300.0
+  },
+  "92cffc9d274d": {
+    "reasoning": "For a full-set 2022 Speedmaster Professional 3861 in good condition with a recent service, a fair dealer-side market price is usually a bit below new retail but above typical private-sale pricing. The light bracelet wear and the reputable dealer/return window support a number slightly under the asking price.",
+    "value": 4600.0
+  },
+  "d0c6df30b3ca": {
+    "reasoning": "For a four-year-old Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear, a fair used-market value is typically a modest discount below current new retail. The dealer’s $4,900 ask is reasonable but not especially low, so a fair price lands slightly under that.",
+    "value": 4550.0
+  },
+  "b8872622e284": {
+    "reasoning": "For a nearly-new Speedmaster Professional 3861 with full set, recent service, and only light bracelet wear, a fair used-market price is typically around 10–20% below current retail, with a modest premium for recent Omega service and a reputable dealer. That puts it a bit below the dealer ask, around the mid-$4k range.",
+    "value": 4600.0
+  },
+  "0b64c9394c26": {
+    "reasoning": "For a four-year-old pre-owned Omega Speedmaster Professional 3861 with full set, recent service, and only light bracelet wear, a fair market value is typically well below retail but supported by the condition and completeness. Given the dealer asking $4,900, a realistic fair price is slightly under that to reflect normal secondary-market discounting.",
+    "value": 4600.0
+  },
+  "e274513a135d": {
+    "reasoning": "For a recent pre-owned Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear, a typical fair-market discount from new is meaningful but not huge. Given the $7,000 new retail and the strong condition/service history, $4,500 is a reasonable market-clearing estimate.",
+    "value": 4500.0
+  },
+  "7ac05e430e45": {
+    "reasoning": "A lightly worn, fully set Speedmaster 3861 with a recent Omega service and no case damage typically trades at a modest discount to new, but not deep discount given the service history and completeness. Compared with a $7,000 MSRP, a fair market price is around 65-70% of retail.",
+    "value": 4800.0
+  },
+  "6c73c1e9e954": {
+    "reasoning": "A lightly worn, full-set Speedmaster 3861 with recent service and no case damage should trade at a modest discount to new, but still hold value well because demand is strong and the service adds some value. Compared with a $7,000 retail price, a fair market price is around the low-to-mid $4,000s.",
+    "value": 4400.0
+  },
+  "40e18c8574f8": {
+    "reasoning": "A lightly worn, full-set Speedmaster Professional 3861 with recent Omega service and no case damage should trade below new retail but above typical used examples because of the service and dealer return window. A fair market price is around 75% of current MSRP, with a small premium for condition and accessories.",
+    "value": 5250.0
+  },
+  "f6c45783dbe5": {
+    "reasoning": "Given the relatively recent production, full set, recent Omega service, and clean condition with only light bracelet wear, a fair used-market price should sit meaningfully below retail but above typical older Moonwatch comps. The dealer’s $4,900 ask is slightly high but not extreme, so a reasonable fair value is around the mid-$4,000s.",
+    "value": 4550.0
+  },
+  "5e49c40e1814": {
+    "reasoning": "For a recent pre-owned Speedmaster 3861 with box/papers, recent service, and only light bracelet wear, a fair market discount from new is usually meaningful but not extreme. The dealer’s $4,900 ask is a bit high versus typical private/pre-owned clearing levels, but the recent Omega service and full set support a mid-$4k value.",
+    "value": 4500.0
+  },
+  "23dbf3715613": {
+    "reasoning": "Given the current retail price of about $7,000, a full-set example from 2022 with recent service and only light bracelet wear would typically trade at a moderate discount, but not as low as older or incomplete pieces. A fair market value would be in the low-to-mid $4,000s, with the recent Omega service and dealer return window supporting the upper end of that range.",
+    "value": 4450.0
+  },
+  "ba39a06cbf23": {
+    "reasoning": "A pre-owned Omega Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear typically trades at a meaningful discount to new retail, but not as low as older-generation Moonwatches. Given the dealer’s $4,900 ask and the strong condition/service history, a fair market price is around the high-$4k range.",
+    "value": 4700.0
+  },
+  "6e7fa183c5aa": {
+    "reasoning": "For a modern Moonwatch with full set, recent Omega service, and only light bracelet wear, a fair used-market price is typically around 20-30% below new retail, with a small premium supported by the recent service. That puts it a bit under the dealer ask, reflecting the fact that the watch is not scarce and buyers still have some bargaining room.",
+    "value": 4350.0
+  },
+  "7389cc0dd07f": {
+    "reasoning": "For a four-year-old Moonwatch with full set, recent service, and only light bracelet wear, a fair used-market price is typically about 20–30% below a fresh-retail equivalent, with the recent Omega boutique service adding some value back. That points to roughly the high-$3k to low-$4k range, so $4,100 is a reasonable fair price.",
+    "value": 4100.0
+  },
+  "1e268789e2f3": {
+    "reasoning": "For a four-year-old Speedmaster Professional 3861 in good condition with full set and recent service, a fair used-market price is typically around 65-75% of new retail, with the service and complete accessories helping support the higher end of that range. The light bracelet wear keeps it below near-new pricing, so a fair value is about $4.7k.",
+    "value": 4700.0
+  },
+  "2f84891be9ee": {
+    "reasoning": "A four-year-old Hesalite Moonwatch with full set, recent Omega boutique service, and only light bracelet wear should typically trade at a modest discount to new, but not deeply below retail because demand is strong and service adds value. Given the current $7,000 new price, a fair market price looks to be around 80% of retail with a small premium for the recent service and complete set.",
+    "value": 5600.0
+  },
+  "f978acef296d": {
+    "reasoning": "A lightly worn 3861 Hesalite Moonwatch with full set, recent service, and no case damage typically trades below MSRP but not at a huge discount because demand is strong. Given the dealer asking price and condition, a fair market price is a bit under that ask.",
+    "value": 4600.0
+  },
+  "04d03b6881c8": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent cut and no fluorescence typically trades in the low-to-mid $4k range for the loose diamond, and the simple 14k solitaire setting adds only a few hundred dollars in value. Given the retailer’s normal overhead and services, a fair all-in price is around the mid-$4k range.",
+    "value": 4500.0
+  },
+  "32a1bb1442cd": {
+    "reasoning": "A GIA 1.02 ct round brilliant in G/VS2 with excellent cut and no fluorescence typically trades below common retail asking prices, while a simple 14k white-gold solitaire setting adds only a modest amount of value. Given the specs and the jeweler’s service/return policy, a fair market price is a bit under the listed price.",
+    "value": 4500.0
+  },
+  "fa7b80e44e9f": {
+    "reasoning": "A GIA 1.02 ct round brilliant with G/VS2, excellent cut, no fluorescence, and strong proportions typically trades below retail but above deep-discount online pricing; the 14k solitaire setting adds a few hundred dollars. Factoring in an independent jeweler’s margin and the listed service/return terms, a fair market price is around the mid-$4k range.",
+    "value": 4450.0
+  },
+  "6d4894aae8a8": {
+    "reasoning": "Based on current retail market pricing for a 1.0 ct G/VS2 GIA round with excellent cut and no fluorescence, a fair independent-jeweler asking price for the loose diamond is typically in the low-to-mid $4,000s, with the 14k solitaire setting adding only a few hundred dollars. Given the stated specs and services, a reasonable fair price for the complete ring is around the mid-$4,000s.",
+    "value": 4500.0
+  },
+  "4186530cd2d9": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent proportions and no fluorescence is a strong mid-high quality stone, but the value is still driven mostly by the loose diamond, with the 14k solitaire setting adding relatively modest retail value. Given typical independent-jeweler pricing, a fair market price would be a bit below the listed $5,200, around the low-to-mid $4,000s.",
+    "value": 4350.0
+  },
+  "e59ff827b359": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid but fairly common market combination; comparable retail pricing for the loose diamond plus a simple 14k solitaire mounting typically lands a bit below a $5,200 asking price. Factoring in the independent jeweler markup and the setting, a fair all-in price is around the low-to-mid $4,000s.",
+    "value": 4450.0
+  },
+  "eaa328b10153": {
+    "reasoning": "Using typical 2026 U.S. independent-jeweler pricing for a 1.0 ct GIA round brilliant in G/VS2 with Excellent cut and no fluorescence, the loose diamond would often land around the low-to-mid $4k range, and the simple 14k white-gold solitaire setting adds a few hundred dollars more. That makes the listed $5,200 look a bit high but still near market; a fair price is about $4,700.",
+    "value": 4700.0
+  },
+  "dfcafdf08af0": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent proportions and no fluorescence is a solid mid-to-upper quality stone, but 14k white gold and a simple solitaire setting add relatively little value. For an independent jeweler with normal retail margin and good policies, a fair market price is typically a bit below the listed price.",
+    "value": 4700.0
+  },
+  "c3f6b7a487e1": {
+    "reasoning": "For a 1.02 ct G/VS2 round excellent diamond with strong face-up measurements and no fluorescence, a typical fair market retail price for the loose stone is roughly in the low-to-mid $4k range. Adding a modest amount for the 14k white-gold solitaire setting and factoring in an independent jeweler's normal margin makes the ring's fair price around the low $5k area.",
+    "value": 5100.0
+  },
+  "4f4c178d9dc7": {
+    "reasoning": "For a 1.02 ct G/VS2 round with excellent cut and no fluorescence, a fair retail price from an independent jeweler is typically a bit below a $5,200 ask, with the 14k white-gold solitaire setting adding only a modest amount of value. Accounting for the ring’s specifications and normal independent-jeweler markup, a reasonable fair price is around the mid-$4,000s.",
+    "value": 4600.0
+  },
+  "10d21da0fddf": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid but fairly standard near-colorless stone, and the 14k solitaire setting adds only a modest amount of value. Against a $5,200 asking price from an independent jeweler, a fair market price would typically land somewhat lower.",
+    "value": 4300.0
+  },
+  "8e9f080763bb": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent proportions and no fluorescence typically trades near the middle of the market for comparable natural stones, and the 14k solitaire setting adds only a modest amount of value. Based on current retail norms, a fair all-in price is somewhat below the listed $5,200.",
+    "value": 4600.0
+  },
+  "3c8f7dc4fc77": {
+    "reasoning": "A 1.02 ct G/VS2 GIA-graded round brilliant with excellent cut and no fluorescence typically retails in the low-to-mid $5k range at an independent jeweler, and the simple 14k white-gold solitaire adds only a modest amount of value. Given the listed $5,200 price, a fair market price is slightly below that.",
+    "value": 4900.0
+  },
+  "034b65bdc557": {
+    "reasoning": "A 1.02 ct G/VS2 round with Excellent cut and no fluorescence is a fairly liquid, mainstream diamond; compared with typical market pricing, the loose stone would often retail around the low-to-mid $4k range, and the simple 14k solitaire setting adds a few hundred dollars. Factoring in a normal independent-jeweler margin and the listed service/return policies, a fair all-in price is a bit below the asking price.",
+    "value": 4700.0
+  },
+  "0f7096476c71": {
+    "reasoning": "A GIA 1.02 ct round brilliant in G/VS2 with excellent proportions and no fluorescence typically trades below many retail asking prices, and a simple 14k white gold solitaire adds relatively little material value. Considering an independent jeweler’s service and return policy but not full premium retail markup, a fair price is around the mid-$4k range.",
+    "value": 4600.0
+  },
+  "aae52cee1bcc": {
+    "reasoning": "A 1.02 ct G/VS2 round with excellent cut and no fluorescence typically trades well below inflated retail, and the 14k solitaire setting adds only modest value. Given current market pricing and the jeweler’s sale price, a fair all-in price is around the mid-$4k range.",
+    "value": 4650.0
+  },
+  "f0c2260f33a9": {
+    "reasoning": "A 1.02 ct G/VS2 round with excellent proportions and no fluorescence is a solid mid-to-upper commercial-quality stone, but the 14k solitaire setting adds only a modest amount of value. For a reputable independent jeweler with a return policy and services, a fair market price is typically well below the original ask and a bit above deep-discount online replacement pricing.",
+    "value": 4800.0
+  },
+  "1ab234d97a63": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with strong proportions and no fluorescence is a solid mid-to-upper quality stone, but the 14k solitaire setting adds only modest value. Based on typical retail market pricing for comparable certified stones and settings, a fair all-in price is well below the original list and somewhat below the sale price.",
+    "value": 4800.0
+  },
+  "10bea5bd9654": {
+    "reasoning": "For a 1.02 ct G/VS2 round with excellent proportions and no fluorescence, a fair retail price for the diamond alone is typically in the mid-$4k range, and a simple 14k white-gold solitaire setting adds roughly a few hundred dollars more. Given the independent jeweler context and service policy, a fair total price is around the current sale price, with some room below it.",
+    "value": 4900.0
+  },
+  "15ad217aebd8": {
+    "reasoning": "For a 1.02 ct G/VS2 round with excellent proportions and no fluorescence, a fair retail price for the loose diamond is typically in the mid-$4k to low-$5k range, and a simple 14k white-gold solitaire setting adds only a few hundred dollars. Factoring in the independent jeweler, services, and the ring setting, a fair overall price is around the current sale price but slightly lower.",
+    "value": 4900.0
+  },
+  "3070dae15133": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with Excellent cut and no fluorescence is a solid mid-to-upper quality stone, but the setting is a simple 14k white-gold solitaire with modest metal value. In today’s retail market, a fair independent-jeweler price for the complete ring would be notably below the original tag and somewhat below the sale price.",
+    "value": 4700.0
+  },
+  "1ca6dba8fca0": {
+    "reasoning": "For a 1.02 ct G/VS2 GIA round excellent diamond, a fair retail price for the center stone plus a simple 14k white-gold solitaire setting is typically well below the original tag and often somewhat below an aggressive sale price. Given the specs and reputable jeweler extras, a reasonable fair-market estimate is around the low-$4k to mid-$4k range.",
+    "value": 4400.0
+  },
+  "35d21bcc12b3": {
+    "reasoning": "For a 1.02 ct G/VS2 GIA round brilliant with strong proportions and no fluorescence, a fair retail price for the loose diamond is commonly in the mid-$4k range, and a simple 14k white-gold solitaire setting typically adds roughly $500-$900 depending on workmanship. That puts a reasonable all-in fair price around the low-to-mid $5k range, making the current sale price seem plausible but not especially cheap.",
+    "value": 5400.0
+  },
+  "f19a15252708": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent proportions, no fluorescence, and a simple 14k solitaire is a solid mid-market ring, but the asking price should reflect typical independent-jeweler retail rather than the inflated original list price. Given current market comps, a fair all-in price for the ring is around the low-to-mid $4k range.",
+    "value": 4250.0
+  },
+  "171c871d1319": {
+    "reasoning": "A 1.02 ct G/VS2 GIA Excellent round diamond with these proportions is a solid but not rare combination; the 14k solitaire setting adds only a modest amount of value. Compared with current independent-jeweler retail and likely street pricing, a fair all-in price is somewhat below the sale tag and well below the original list.",
+    "value": 4700.0
+  },
+  "39320e8503ae": {
+    "reasoning": "For a 1.02 ct G/VS2 GIA round with very good proportions and a simple 14k solitaire, a fair retail price typically lands well below the original asking price and somewhat below the sale tag. Factoring in the setting and the jeweler’s service/return policy, a reasonable market-value estimate is around the low-$4k range.",
+    "value": 4200.0
+  },
+  "b08ec3d7e84e": {
+    "reasoning": "For a 1.02 ct G/VS2 round with excellent cut and no fluorescence, the diamond alone commonly lands in the low-to-mid $6k range in retail contexts, with a simple 14k white-gold solitaire adding a few hundred dollars. Given the independent jeweler setting and the service/return policy, a fair all-in price is a bit below the current sale tag.",
+    "value": 5600.0
+  },
+  "c488b8c4223b": {
+    "reasoning": "Based on current market pricing for a GIA 1.02 ct round brilliant in G/VS2 with strong cut proportions and no fluorescence, the loose stone would typically trade around the mid-$4k range, and a simple 14k white-gold solitaire setting adds roughly $500-$800 retail. That puts a fair all-in price around the low-to-mid $5k range, so the sale price is broadly reasonable but slightly above a true bargain level.",
+    "value": 5400.0
+  },
+  "568cc698ed6e": {
+    "reasoning": "A 1.02 ct G/VS2 round with strong proportions, GIA grading, and no fluorescence is a solid near-ideal commercial stone, but the 14k solitaire setting and the fact that retail jewelry pricing typically includes significant markup keep the fair market value well below the original $9,500 tag. Based on current comparable retail pricing, a fair price for the complete ring is around the mid-$4k range, so $5,200 is a bit high but not wildly off.",
+    "value": 4500.0
+  },
+  "4cf3965145ed": {
+    "reasoning": "Based on current retail market pricing for a 1.02 ct G/VS2 GIA round brilliant with excellent cut and no fluorescence, plus a simple 14k white-gold solitaire setting, a fair independent-jeweler price is typically a bit above wholesale but well below a $9,500 tag. The $5,200 sale price is plausible but slightly on the high side for this spec, so I’d peg fair value around the mid-$4k range.",
+    "value": 4500.0
+  },
+  "08907ac0d22c": {
+    "reasoning": "Given the current market for a pre-owned Speedmaster Professional 3861 Hesalite with full set, recent Omega service, and only light bracelet wear, a fair dealer price should land below the asking price but still reflect strong condition and completeness. I’d peg it slightly under retail pre-owned market to account for the four-year age and minor wear.",
+    "value": 4600.0
+  },
+  "75a01fa99f1f": {
+    "reasoning": "A pre-owned Hesalite Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear is a solid example, but it should still trade below dealer ask. Given current secondary-market pricing and the value added by the recent service, a fair price is slightly under the listed $4,900.",
+    "value": 4650.0
+  },
+  "8e817e80d6db": {
+    "reasoning": "A pre-owned 3861 Moonwatch with full set, recent Omega service, and only light bracelet wear is a solid example, but it should still trade below new-retail and below dealer ask due to age and standard market discounting. Given the condition and accessories, a fair private-to-dealer market value is just under the listed price.",
+    "value": 4600.0
+  },
+  "c366bff07411": {
+    "reasoning": "A 2022 3861 Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear is a strong example, but the pre-owned market typically sits below dealer asking prices. Factoring in condition, completeness, and service history, a fair transaction price is a bit under the listed $4,900.",
+    "value": 4600.0
+  },
+  "8213c54b3816": {
+    "reasoning": "Given the model, full set, recent Omega service, and clean case condition, a fair dealer price should sit a bit below the asking price but still reflect strong desirability and low risk. The hairline bracelet wear and used status justify a modest discount from retail-market listings.",
+    "value": 4650.0
+  },
+  "d2f1058f4309": {
+    "reasoning": "For a recent 3861 Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear, a fair market price should sit a bit below typical dealer asking prices but still reflect strong condition and completeness. The listed $4,900 is reasonable; I’d peg fair value slightly under that.",
+    "value": 4700.0
+  },
+  "6e084373670e": {
+    "reasoning": "A 2022 Omega Speedmaster Professional Moonwatch 3861 with full комплект, recent Omega boutique service, and only light bracelet wear is a solid, desirable example, but still typically trades below retail and below dealer asking prices. Factoring in the strong condition, recent service, and full set while allowing for normal used-market discounting, a fair transaction price is a bit under the listed $4,900.",
+    "value": 4600.0
+  },
+  "d0259624126f": {
+    "reasoning": "For a four-year-old Moonwatch 3861 with full set, recent Omega service, and only light bracelet wear, a fair market value is typically a bit below dealer ask but still strong due to the service and condition. The dealer’s $4,900 listing looks reasonable, with a fair transaction price around the middle of the typical used range.",
+    "value": 4700.0
+  },
+  "df7a7eea1a3a": {
+    "reasoning": "A 2022 Speedmaster Professional 3861 Hesalite full set with recent Omega service and only light bracelet wear is a solid used example, but the 14-day dealer premium should still leave it below typical new-retail territory. Given current market levels and the condition/service details, a fair value is modestly under the asking price.",
+    "value": 4500.0
+  },
+  "7b01f9e4924c": {
+    "reasoning": "Given the strong condition, full set, recent Omega service, and reputable dealer with a return window, this is a solid but still used Hesalite 3861 Moonwatch rather than a near-new example. A fair market price should land a bit below the asking price to account for normal used-market depreciation and bracelet wear.",
+    "value": 4650.0
+  },
+  "ac11b9742f2b": {
+    "reasoning": "For a 2022 Hesalite Speedmaster Professional with full set, recent Omega service, and only light bracelet wear, a fair market value is typically a bit below dealer ask but still strong because of the clean condition and service history. The $4,900 listing is reasonable retail, but a fair transaction price is closer to the low-to-mid $4,000s.",
+    "value": 4400.0
+  },
+  "68a608c47b01": {
+    "reasoning": "A recent full-set Speedmaster 3861 Moonwatch with recent Omega service and only light bracelet wear should trade a bit below strong retail but above average used examples. Given the dealer listing at $4,900, a fair market number is slightly lower to account for buyer risk and normal negotiation room.",
+    "value": 4750.0
+  },
+  "da3769cd9b10": {
+    "reasoning": "A 2022 Speedmaster Pro 3861 with full set, recent Omega service, and only light bracelet wear is a solid used example, but the dealer listing still leaves room for negotiation versus typical private-sale and dealer-market comps. Factoring in condition, service recency, and the 14-day return window, a fair market price is a bit below the asking price.",
+    "value": 4550.0
+  },
+  "0dd9136e7ba6": {
+    "reasoning": "A pre-owned 3861 Hesalite Speedmaster with full set, recent Omega service, and only light bracelet wear typically trades a bit below dealer ask, but the fresh service and complete package support value. Given the condition and market comps, a fair transaction price is slightly under the listing.",
+    "value": 4700.0
+  },
+  "fead4d29f45e": {
+    "reasoning": "A recent full-set 3861 Speedmaster with a recent Omega boutique service should trade close to the upper end of secondary-market pricing, but light bracelet wear and normal pre-owned discounting keep it below dealer ask. Given the condition, service recency, and full accessories, a fair market price is a bit under the listing.",
+    "value": 4650.0
+  },
+  "921941ebce7b": {
+    "reasoning": "Recent pre-owned market pricing for a 3861 Moonwatch with box/papers, recent Omega service, and only light bracelet wear typically lands below dealer ask but above private-sale comps. Given the condition, accessories, and warranty/return protection, a fair buy price is around the mid-$4k range.",
+    "value": 4600.0
+  },
+  "3794fdd99480": {
+    "reasoning": "A pre-owned 3861 Hesalite Speedmaster with full set, recent Omega service, and only light bracelet wear typically trades below dealer ask but above private-sale levels. Given the strong condition and fresh service, a fair market price is around the mid-$4,000s to low-$5,000s, with the dealer's $4,900 sale price sitting near the upper end of fair value.",
+    "value": 4750.0
+  },
+  "0051e62e321a": {
+    "reasoning": "A 2022 Omega Speedmaster Professional 3861 with full set, recent boutique service, and only light bracelet wear typically trades below dealer asking but above rough-worn market examples. Given the strong condition and service history, a fair private-market/dealer-buy price is around the mid-$4k range.",
+    "value": 4650.0
+  },
+  "6d457d4076e0": {
+    "reasoning": "For a recent pre-owned Speedmaster 3861 with box/papers, recent Omega service, and only light bracelet wear, a fair market price is typically below dealer ask but above average private-sale comps. The current $4,900 sale price already looks near the upper end of fair retail for this condition and completeness.",
+    "value": 4900.0
+  },
+  "d730b7fb391a": {
+    "reasoning": "A pre-owned 3861 Moonwatch full set with recent Omega service and only light bracelet wear should trade above basic used examples, but still below strong retail for a similar new watch. Given current market softness and the dealer’s 14-day return window, a fair value is around the mid-$4k range.",
+    "value": 4650.0
+  },
+  "7c545378e5a0": {
+    "reasoning": "Based on current pre-owned market levels for a 3861 Hesalite Moonwatch with box, papers, bracelet, and recent Omega service, a fair transaction price should sit meaningfully below dealer retail ask but above typical private-sale comps due to condition and recency of service. The listed $4,900 is already close to a reasonable market-clearing price.",
+    "value": 4900.0
+  },
+  "cfa3f229a807": {
+    "reasoning": "A 2022 Omega Speedmaster Professional 3861 with full set, recent Omega boutique service, and only light bracelet wear is a solid used example, but it still typically trades below current dealer asking prices and near the middle of the pre-owned market. Given the condition, service history, and return window, a fair value is around the mid-$4k range.",
+    "value": 4600.0
+  },
+  "7d0db1d1434f": {
+    "reasoning": "A 2022 Speedmaster Professional 3861 Hesalite full set with recent Omega service and only light bracelet wear is a strong example, but dealer asking prices are typically above true market clearing value. Given the current $4,900 sale price and the condition/service history, a fair transaction value is slightly below that.",
+    "value": 4650.0
+  },
+  "40eb7017418a": {
+    "reasoning": "For a recent full-set Speedmaster 3861 Hesalite in good condition with a recent service and a dealer return window, a fair market price is usually below retail but above typical private-sale levels. The current $4,900 ask is reasonable but not especially cheap, so I’d peg fair value a bit lower to account for normal dealer margin and minor bracelet wear.",
+    "value": 4650.0
+  },
+  "aa8b83069b19": {
+    "reasoning": "A 2022 Speedmaster 3861 Hesalite with full set, recent Omega service, and only light bracelet wear should typically trade modestly below a current new retail equivalent, but not as low as heavily worn examples. Given the dealer context and recent service, a fair market price is around the low-to-mid $4k range.",
+    "value": 4450.0
+  },
+  "9df6c70320de": {
+    "reasoning": "A used 3861 Hesalite Moonwatch from 2022 with full set and recent Omega service should typically trade modestly below new retail, but the service and dealer return window add some value. Considering the light wear and strong completeness, a fair market price is around the low-to-mid $5k range.",
+    "value": 5300.0
+  },
+  "f5d42f502be5": {
+    "reasoning": "A four-year-old Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear typically trades below current dealer asking but above private-sale pricing. Given the excellent condition and fresh service, a fair market price lands around the low-$6k range.",
+    "value": 6200.0
+  },
+  "1eb1c9c8088d": {
+    "reasoning": "For a clean pre-owned 3861 Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear, a fair dealer price should sit modestly below typical secondary-market asking prices but above private-sale comps. The current $4,900 sale price looks broadly fair, with a slight premium justified by the recent service and 14-day return window.",
+    "value": 4900.0
+  },
+  "40365edca561": {
+    "reasoning": "A 2022 Speedmaster 3861 Hesalite full set with recent Omega service, good running condition, and only light bracelet wear typically trades below new retail but above older/worn examples. Given the dealer context and condition, a fair market price is around the mid-$4k range rather than the listed $4.9k.",
+    "value": 4600.0
+  },
+  "c7e986f8ebcd": {
+    "reasoning": "This is a desirable modern Moonwatch with full set, recent Omega service, and only light bracelet wear, which supports a solid used value above a typical trade-in but below dealer ask. Given current market softness versus the original $4,900 listing, a fair transaction price is around the mid-$4k range.",
+    "value": 4550.0
+  },
+  "10ea8b226d1b": {
+    "reasoning": "This is a well-equipped, clean-title 2021 Accord EX-L with average mileage, but the 1.5T/CVT combo and one-previous-owner off-lease status keep it in normal retail territory rather than premium. The fresh Michelin tires and dealer warranty add some value, so a fair transaction price is slightly below the asking price but still in the high-teens.",
+    "value": 18600.0
+  },
+  "a990a81a184d": {
+    "reasoning": "A 2021 Accord EX-L with average miles, clean history, and dealer certification is a solid retail car, but the 1.5L CVT and typical market softness for midsize sedans keep it from commanding premium pricing. The recent tires and included warranty add some value, but a fair transaction price is a bit below the asking figure.",
+    "value": 18300.0
+  },
+  "50ad34d3d1ba": {
+    "reasoning": "A clean, one-owner off-lease 2021 Accord EX-L with moderate miles and good tires is a solid retail example, but the 1.5T/CVT setup and typical market depreciation keep it below the dealer ask. Given the certified dealer backing and recent maintenance, a fair transaction price looks a bit under list.",
+    "value": 18250.0
+  },
+  "fcec5e69d82a": {
+    "reasoning": "A 2021 Accord EX-L with clean history, moderate mileage, dealer certification, and recent tires is a solid used-car candidate, but the 1.5L/CVT combo and typical dealer retail margins keep it below listed price. Factoring in market comps and the value of the fresh tires and warranty, a fair transaction price is a bit under the asking number.",
+    "value": 18400.0
+  },
+  "73e21977997c": {
+    "reasoning": "Based on typical market pricing for a 2021 Accord EX-L with under 40k miles, clean history, and dealer-certified sale, the listed $19,000 is already close to fair retail. The recent tires and warranty add a bit of value, but not enough to justify much above typical market, so a fair price lands slightly below the asking price.",
+    "value": 18750.0
+  },
+  "ab0dfc907c1a": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, one-owner clean history, and dealer certification is generally worth a bit above typical private-party pricing, but the CVT and 1.5T combo plus normal used-market depreciation keep it below the dealer list. The recent Michelin tires and CPO-style warranty add some value, so a fair transaction price is modestly under the asking price.",
+    "value": 18300.0
+  },
+  "9200282e4be1": {
+    "reasoning": "This looks like a clean, well-equipped, off-lease Accord EX-L with moderate mileage and some value added from new Michelin tires and dealer certification, but the 1.5T/CVT powertrain and standard market depreciation keep it below typical dealer asking price. A fair transaction price is a bit under the listed $19,000.",
+    "value": 18250.0
+  },
+  "0da5b2808c62": {
+    "reasoning": "A 2021 Accord EX-L with moderate miles, clean history, and dealer certification is a solid mid-market used car, but the 1.5T/CVT combination and being a common trim keep it from commanding a premium. The recent tires and dealer warranty add some value, but $19,000 is a bit high versus typical fair-market pricing.",
+    "value": 18400.0
+  },
+  "a84b3c7cc945": {
+    "reasoning": "A clean one-owner 2021 Accord EX-L with moderate miles and recent tires is a solid retail candidate, but the 1.5T/CVT and comparable-market pricing keep it from commanding the full dealer ask. Accounting for certified-dealer presentation and warranty, a fair transaction price sits a bit below the list price.",
+    "value": 18350.0
+  },
+  "5295bb569413": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer-certified status is a solid mid-market used car, but the 1.5T/CVT combination and normal dealer markup keep it from commanding near-new pricing. The recent Michelin tires and fresh service add some value, so a fair transaction price is a bit below the asking price.",
+    "value": 18250.0
+  },
+  "2f5a33c023c3": {
+    "reasoning": "Based on typical market pricing for a 2021 Accord EX-L with this mileage, clean history, certified dealer sale, and the value of recent Michelin tires and fresh maintenance, $19,000 is a bit on the strong side but not wildly off. A fair transaction price would be slightly below asking, around the mid-$18k range.",
+    "value": 18400.0
+  },
+  "ace3b9f9151f": {
+    "reasoning": "A 2021 Accord EX-L with this mileage, clean history, and dealer certification is priced a bit above average wholesale but should still sit below typical retail ask due to the 1.5T/CVT combo and non-CPO warranty coverage. Accounting for the recent tires and fresh service, a fair transaction price is around the high-$17k to low-$18k range.",
+    "value": 17950.0
+  },
+  "635a0f3099be": {
+    "reasoning": "Based on a clean one-owner 2021 Accord EX-L with average-low mileage, good equipment, recent tires, and dealer certification/warranty, the asking price is a bit below typical retail but still reasonable. A fair transaction price would land slightly under the listing to account for normal dealer margin.",
+    "value": 18750.0
+  },
+  "bd4db4ac3ee3": {
+    "reasoning": "A 2021 Accord EX-L with under 40k miles, clean history, and dealer certification is a solid retail unit, but the 1.5T/CVT combo and typical used-market pricing keep it below the high teens. The new tires and warranty add some value, but a fair transaction price is a bit under the asking price.",
+    "value": 18250.0
+  },
+  "c1e429d5e207": {
+    "reasoning": "A 2021 Accord EX-L with average mileage, one-owner lease history, clean Carfax, and dealer certification is a strong used-car candidate, but the 1.5T/CVT trims of this generation typically trade a bit below asking unless especially pristine. The newer Michelin tires and dealer warranty add some value, so a fair market price is slightly under the listed $19,000.",
+    "value": 18500.0
+  },
+  "5fe015a91803": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent cut and no fluorescence typically trades at a premium, but an independent jeweler’s ring price should still be below major-brand retail. Factoring in the 14k solitaire setting and current market norms, a fair all-in price is around the middle of typical independent retail.",
+    "value": 8500.0
+  },
+  "01655549bc10": {
+    "reasoning": "For a 1.02 ct G/VS2 GIA round brilliant with excellent cut and no fluorescence, a fair retail price for the loose diamond is typically in the mid-$5k range, and a simple 14k white-gold solitaire setting adds roughly a few hundred dollars. Factoring in the jeweler's services and normal independent-retail markup, a reasonable all-in fair price is around the low-to-mid $6k range.",
+    "value": 6450.0
+  },
+  "e0cbffff1fbf": {
+    "reasoning": "A 1.02 ct G/VS2 GIA Excellent round with strong proportions and no fluorescence typically trades in the low-to-mid five figures at retail, with the 14k solitaire mounting adding a modest amount. Factoring in an established independent jeweler and standard services, a fair market price is around the middle of that retail range.",
+    "value": 9800.0
+  },
+  "a8d3f8c83d8e": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent proportions and no fluorescence is a strong mid-to-upper commercial stone, and a simple 14k white-gold solitaire adds relatively little beyond metal and labor. Based on typical independent-jeweler retail pricing for this spec, a fair market price is around the low-to-mid $7k range.",
+    "value": 7500.0
+  },
+  "123972fdb613": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with Excellent cut, no fluorescence, and strong proportions is a solid mid-high quality stone, but not in the top color/clarity tier. Pricing this as a complete ring from an independent jeweler with a simple 14k white-gold solitaire setting and standard service terms, a fair market price is around the low-to-mid $9k range.",
+    "value": 9450.0
+  },
+  "5b8fa169fd14": {
+    "reasoning": "A 1.02 ct G/VS2 GIA Excellent round with no fluorescence and strong proportions typically retails in the mid-$7k to low-$9k range for the center stone, and a simple 14k white-gold solitaire setting adds roughly $300-$700. Factoring in an independent jeweler’s normal margin and the included services, a fair all-in price is around the middle of that range.",
+    "value": 8500.0
+  },
+  "ae83fd0d58bc": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent cut and no fluorescence is a strong mid-to-upper quality stone, and current retail pricing for the diamond alone typically falls in the low-to-mid five figures depending on market and dealer margin. Adding a simple 14k white-gold solitaire setting and factoring in a fair independent-jeweler markup, a reasonable all-in price lands around the middle of that retail range.",
+    "value": 8500.0
+  },
+  "df9991bdf509": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with GIA Excellent cut, no fluorescence, and strong proportions is a solid mid-to-upper commercial quality stone, and the simple 14k white-gold solitaire setting adds only modest value. Based on typical retail pricing from an established independent jeweler, a fair all-in price would be around the low four-thousands.",
+    "value": 4200.0
+  },
+  "b28843aed978": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent proportions and no fluorescence is a strong near-ideal retail stone, but the setting is simple 14k white gold and typical independent-jeweler pricing is usually below major-brand markups. Factoring in current market pricing for the diamond plus a modest premium for the solitaire mounting and jeweler services, a fair all-in price is around the low-to-mid $8k range.",
+    "value": 8450.0
+  },
+  "50ac9924c5c7": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent cut and no fluorescence is a strong mid-high quality stone, and current retail for the diamond alone typically lands in the mid-to-high four figures depending on market and seller margin. Adding a simple 14k white-gold solitaire setting and allowing for a fair independent-jeweler markup, a reasonable all-in price is around the low four figures above the stone’s trade range.",
+    "value": 7900.0
+  },
+  "f496604f4056": {
+    "reasoning": "A 1.02 ct G/VS2 GIA triple-Excellent round diamond with no fluorescence typically trades at a substantial premium over the setting, while a simple 14k white-gold solitaire adds only a modest amount. Accounting for independent jeweler retail with normal margin and the described ring specs, a fair all-in price lands around the mid-$8k range.",
+    "value": 8500.0
+  },
+  "314a62c59f40": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round excellent diamond with strong proportions and no fluorescence is a solid near-ideal stone, typically putting the loose diamond around the mid-to-high five figures in retail markup terms? Actually for a fair independent-jeweler market price, the diamond itself is roughly in the low-to-mid $7k range, with a modest premium for the simple 14k solitaire setting and services. That makes a reasonable all-in fair price around the high $7k to low $8k range.",
+    "value": 7890.0
+  },
+  "15eb1a08599b": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent cut and no fluorescence is a strong mid-to-upper quality stone, but 14k solitaire mountings add relatively modest value. A fair retail price from an independent jeweler with normal services would typically land around the low five figures, with the diamond accounting for most of it.",
+    "value": 9500.0
+  },
+  "7d4200c5e542": {
+    "reasoning": "For a 1.02 ct G/VS2 GIA round brilliant with strong proportions and no fluorescence, a fair independent-jeweler retail price for the center stone is typically in the mid-$6k to low-$7k range, with the simple 14k solitaire setting adding roughly a few hundred dollars. Factoring in the setting and normal local retail margin, a fair all-in price is about $7.5k.",
+    "value": 7500.0
+  },
+  "05ccca25e3b7": {
+    "reasoning": "A 1.02 ct round G/VS2 GIA Excellent diamond with strong proportions and no fluorescence typically trades in the mid-$7k to low-$9k range for the stone alone at a reputable independent jeweler, with a simple 14k white-gold solitaire setting adding roughly $300-$700. Factoring in normal retail margin and the jeweler services you listed, a fair all-in price lands around the middle of that range.",
+    "value": 8600.0
+  },
+  "dbf6366037d0": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent cut and no fluorescence typically trades in the low-to-mid $4k range for the loose diamond, and the simple 14k solitaire setting adds only a few hundred dollars in value. Given the retailer’s normal overhead and services, a fair all-in price is around the mid-$4k range.",
+    "value": 4500.0
+  },
+  "7dfdec12ed4d": {
+    "reasoning": "A GIA 1.02 ct round brilliant in G/VS2 with excellent cut and no fluorescence typically trades below common retail asking prices, while a simple 14k white-gold solitaire setting adds only a modest amount of value. Given the specs and the jeweler’s service/return policy, a fair market price is a bit under the listed price.",
+    "value": 4500.0
+  },
+  "bff45b253cf3": {
+    "reasoning": "A GIA 1.02 ct round brilliant with G/VS2, excellent cut, no fluorescence, and strong proportions typically trades below retail but above deep-discount online pricing; the 14k solitaire setting adds a few hundred dollars. Factoring in an independent jeweler’s margin and the listed service/return terms, a fair market price is around the mid-$4k range.",
+    "value": 4450.0
+  },
+  "8d7f09dec389": {
+    "reasoning": "Based on current retail market pricing for a 1.0 ct G/VS2 GIA round with excellent cut and no fluorescence, a fair independent-jeweler asking price for the loose diamond is typically in the low-to-mid $4,000s, with the 14k solitaire setting adding only a few hundred dollars. Given the stated specs and services, a reasonable fair price for the complete ring is around the mid-$4,000s.",
+    "value": 4500.0
+  },
+  "40b075b26d8a": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round with excellent proportions and no fluorescence is a strong mid-high quality stone, but the value is still driven mostly by the loose diamond, with the 14k solitaire setting adding relatively modest retail value. Given typical independent-jeweler pricing, a fair market price would be a bit below the listed $5,200, around the low-to-mid $4,000s.",
+    "value": 4350.0
+  },
+  "e8034c5d2959": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid but fairly common market combination; comparable retail pricing for the loose diamond plus a simple 14k solitaire mounting typically lands a bit below a $5,200 asking price. Factoring in the independent jeweler markup and the setting, a fair all-in price is around the low-to-mid $4,000s.",
+    "value": 4450.0
+  },
+  "9b75997d36c9": {
+    "reasoning": "Using typical 2026 U.S. independent-jeweler pricing for a 1.0 ct GIA round brilliant in G/VS2 with Excellent cut and no fluorescence, the loose diamond would often land around the low-to-mid $4k range, and the simple 14k white-gold solitaire setting adds a few hundred dollars more. That makes the listed $5,200 look a bit high but still near market; a fair price is about $4,700.",
+    "value": 4700.0
+  },
+  "f5dd307af29f": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent proportions and no fluorescence is a solid mid-to-upper quality stone, but 14k white gold and a simple solitaire setting add relatively little value. For an independent jeweler with normal retail margin and good policies, a fair market price is typically a bit below the listed price.",
+    "value": 4700.0
+  },
+  "90cd22b6d2e1": {
+    "reasoning": "For a 1.02 ct G/VS2 round excellent diamond with strong face-up measurements and no fluorescence, a typical fair market retail price for the loose stone is roughly in the low-to-mid $4k range. Adding a modest amount for the 14k white-gold solitaire setting and factoring in an independent jeweler's normal margin makes the ring's fair price around the low $5k area.",
+    "value": 5100.0
+  },
+  "26c2f469d439": {
+    "reasoning": "For a 1.02 ct G/VS2 round with excellent cut and no fluorescence, a fair retail price from an independent jeweler is typically a bit below a $5,200 ask, with the 14k white-gold solitaire setting adding only a modest amount of value. Accounting for the ring’s specifications and normal independent-jeweler markup, a reasonable fair price is around the mid-$4,000s.",
+    "value": 4600.0
+  },
+  "3c08380223f1": {
+    "reasoning": "A 1.02 ct G/VS2 round brilliant with excellent cut and no fluorescence is a solid but fairly standard near-colorless stone, and the 14k solitaire setting adds only a modest amount of value. Against a $5,200 asking price from an independent jeweler, a fair market price would typically land somewhat lower.",
+    "value": 4300.0
+  },
+  "40adbb8d7dee": {
+    "reasoning": "A 1.02 ct G/VS2 GIA round brilliant with excellent proportions and no fluorescence typically trades near the middle of the market for comparable natural stones, and the 14k solitaire setting adds only a modest amount of value. Based on current retail norms, a fair all-in price is somewhat below the listed $5,200.",
+    "value": 4600.0
+  },
+  "e2875aa12246": {
+    "reasoning": "A 1.02 ct G/VS2 GIA-graded round brilliant with excellent cut and no fluorescence typically retails in the low-to-mid $5k range at an independent jeweler, and the simple 14k white-gold solitaire adds only a modest amount of value. Given the listed $5,200 price, a fair market price is slightly below that.",
+    "value": 4900.0
+  },
+  "18b2e5004195": {
+    "reasoning": "A 1.02 ct G/VS2 round with Excellent cut and no fluorescence is a fairly liquid, mainstream diamond; compared with typical market pricing, the loose stone would often retail around the low-to-mid $4k range, and the simple 14k solitaire setting adds a few hundred dollars. Factoring in a normal independent-jeweler margin and the listed service/return policies, a fair all-in price is a bit below the asking price.",
+    "value": 4700.0
+  },
+  "88cff9072e29": {
+    "reasoning": "A GIA 1.02 ct round brilliant in G/VS2 with excellent proportions and no fluorescence typically trades below many retail asking prices, and a simple 14k white gold solitaire adds relatively little material value. Considering an independent jeweler’s service and return policy but not full premium retail markup, a fair price is around the mid-$4k range.",
+    "value": 4600.0
+  },
+  "9adc91be4163": {
+    "reasoning": "A four-year-old Speedmaster Professional 3861 with full комплект, recent boutique service, and only light bracelet wear typically trades at a modest discount to current new retail, with the recent service adding some value back. Given the condition and dealer assurance, a fair market price lands around the mid-$5k range.",
+    "value": 5600.0
+  },
+  "ac78277830b6": {
+    "reasoning": "A four-year-old Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear should trade a bit below new-retail but above typical no-service used comps. Accounting for dealer markup and the recent service value, a fair market price is around the mid-$5k range.",
+    "value": 5650.0
+  },
+  "303f7b71779b": {
+    "reasoning": "A four-year-old Speedmaster 3861 Hesalite full set from a reputable dealer with a recent Omega service and only light bracelet wear typically trades at a modest discount to current new retail. The recent service and complete set support the price, while pre-owned status and cosmetic wear keep it below new-in-box pricing.",
+    "value": 6000.0
+  },
+  "f0e83e67b190": {
+    "reasoning": "A pre-owned 2021/2022 Omega Speedmaster Professional 3861 Hesalite full set typically trades below retail, with a modest premium for recent Omega service, strong condition, and dealer return protection. Light bracelet wear and being about four years old keep it slightly under top-end asking prices, so a fair market number is in the mid-$5k range.",
+    "value": 5550.0
+  },
+  "de5a50ade9f4": {
+    "reasoning": "A 2022 Speedmaster Professional 3861 Hesalite full set with recent Omega service and only light bracelet wear should trade near the low-to-mid secondary market range, but still below typical dealer asking prices. The service adds some value, while the hairline wear and used status keep it from new-retail territory.",
+    "value": 5200.0
+  },
+  "8c5ff2dbdbb6": {
+    "reasoning": "Given the current secondary-market pricing for a four-year-old Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear, a fair dealer price is typically a bit below new retail but above average private-sale comps. The service and completeness support the value, while the hairline wear keeps it from pricing at the top end.",
+    "value": 5850.0
+  },
+  "02ce44b5b576": {
+    "reasoning": "Given the current market for a pre-owned Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear, a fair dealer price should sit a bit below current new retail but above typical private-sale comps. The condition and recent service support a value in the mid-$5k range.",
+    "value": 5850.0
+  },
+  "2bf2b0dfca79": {
+    "reasoning": "A used 2022 Speedmaster Professional 3861 Hesalite full set with recent boutique service and only light bracelet wear should trade a bit below current new retail, but not at a deep discount given the model’s strong demand and complete accessories. Factoring in condition, age, service, and dealer margin, a fair market price is around the mid-$5k range.",
+    "value": 5850.0
+  },
+  "13ddf5f67a25": {
+    "reasoning": "A 2022 Omega Speedmaster Professional 3861 Hesalite full set with recent Omega service and only light bracelet wear typically trades a bit below new retail, but the clean condition and dealer backing support a solid secondary-market number. Factoring in the service and accessories, a fair price is around the low-to-mid $5k range.",
+    "value": 5350.0
+  },
+  "ce8c30b4a355": {
+    "reasoning": "A pre-owned 3861 Moonwatch with full set, recent Omega service, and only light bracelet wear should trade a bit below current new retail but above typical worn examples without service history. Factoring in dealer margin and the strong condition, a fair market price is around the low-to-mid $5k range.",
+    "value": 5450.0
+  },
+  "1f85637865b2": {
+    "reasoning": "A 2022 Speedmaster Professional 3861 Hesalite full set with recent Omega service, clean case, and only light bracelet wear typically trades below new retail but above average used examples. Factoring in the strong condition, service recency, and dealer premium, a fair market price is around the mid-$5k range.",
+    "value": 5650.0
+  },
+  "91da1d47ad63": {
+    "reasoning": "A fair used price for a 2022 Omega Speedmaster Professional 3861 hesalite with full set, recent Omega service, and only light bracelet wear is typically a modest discount to current new retail. The recent service and complete accessories support the value, while age and pre-owned status keep it below new-market pricing.",
+    "value": 5800.0
+  },
+  "545e9a721f4a": {
+    "reasoning": "A four-year-old Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear should trade modestly below current new retail, but the recent boutique service adds some value back. A fair dealer price is roughly in the mid-$5k range.",
+    "value": 5850.0
+  },
+  "35f0341941fd": {
+    "reasoning": "A four-year-old Speedmaster Pro 3861 in full-set condition with a recent Omega service and only light bracelet wear typically trades a bit below current new retail, but the service and complete accessories support a stronger used price. A fair dealer price lands around the low-to-mid $6k range.",
+    "value": 6500.0
+  },
+  "0a8b1ad22e04": {
+    "reasoning": "This is a very liquid modern Speedmaster Moonwatch, but pre-owned pricing typically sits below retail, with full set and recent Omega service supporting value while light bracelet wear and dealer margin keep it from full-new pricing. A fair market price for this example is around the low-to-mid $5k range.",
+    "value": 5400.0
+  },
+  "55f1ffbf6352": {
+    "reasoning": "Given the current market for a pre-owned Speedmaster Professional 3861 Hesalite with full set, recent Omega service, and only light bracelet wear, a fair dealer price should land below the asking price but still reflect strong condition and completeness. I’d peg it slightly under retail pre-owned market to account for the four-year age and minor wear.",
+    "value": 4600.0
+  },
+  "4a54c857e565": {
+    "reasoning": "A pre-owned Hesalite Speedmaster Professional 3861 with full set, recent Omega service, and only light bracelet wear is a solid example, but it should still trade below dealer ask. Given current secondary-market pricing and the value added by the recent service, a fair price is slightly under the listed $4,900.",
+    "value": 4650.0
+  },
+  "477536aac491": {
+    "reasoning": "A pre-owned 3861 Moonwatch with full set, recent Omega service, and only light bracelet wear is a solid example, but it should still trade below new-retail and below dealer ask due to age and standard market discounting. Given the condition and accessories, a fair private-to-dealer market value is just under the listed price.",
+    "value": 4600.0
+  },
+  "c8e81e47af27": {
+    "reasoning": "A 2022 3861 Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear is a strong example, but the pre-owned market typically sits below dealer asking prices. Factoring in condition, completeness, and service history, a fair transaction price is a bit under the listed $4,900.",
+    "value": 4600.0
+  },
+  "e37ab6154dee": {
+    "reasoning": "Given the model, full set, recent Omega service, and clean case condition, a fair dealer price should sit a bit below the asking price but still reflect strong desirability and low risk. The hairline bracelet wear and used status justify a modest discount from retail-market listings.",
+    "value": 4650.0
+  },
+  "656c91d4af53": {
+    "reasoning": "For a recent 3861 Hesalite Moonwatch with full set, recent Omega service, and only light bracelet wear, a fair market price should sit a bit below typical dealer asking prices but still reflect strong condition and completeness. The listed $4,900 is reasonable; I’d peg fair value slightly under that.",
+    "value": 4700.0
+  },
+  "f0047d01ed6a": {
+    "reasoning": "A 2022 Omega Speedmaster Professional Moonwatch 3861 with full комплект, recent Omega boutique service, and only light bracelet wear is a solid, desirable example, but still typically trades below retail and below dealer asking prices. Factoring in the strong condition, recent service, and full set while allowing for normal used-market discounting, a fair transaction price is a bit under the listed $4,900.",
+    "value": 4600.0
+  },
+  "02a6f305447c": {
+    "reasoning": "For a four-year-old Moonwatch 3861 with full set, recent Omega service, and only light bracelet wear, a fair market value is typically a bit below dealer ask but still strong due to the service and condition. The dealer’s $4,900 listing looks reasonable, with a fair transaction price around the middle of the typical used range.",
+    "value": 4700.0
+  },
+  "b1d6cbf5cebb": {
+    "reasoning": "A 2022 Speedmaster Professional 3861 Hesalite full set with recent Omega service and only light bracelet wear is a solid used example, but the 14-day dealer premium should still leave it below typical new-retail territory. Given current market levels and the condition/service details, a fair value is modestly under the asking price.",
+    "value": 4500.0
+  },
+  "dd296149064d": {
+    "reasoning": "Given the strong condition, full set, recent Omega service, and reputable dealer with a return window, this is a solid but still used Hesalite 3861 Moonwatch rather than a near-new example. A fair market price should land a bit below the asking price to account for normal used-market depreciation and bracelet wear.",
+    "value": 4650.0
+  },
+  "0df7f1e403b5": {
+    "reasoning": "For a 2022 Hesalite Speedmaster Professional with full set, recent Omega service, and only light bracelet wear, a fair market value is typically a bit below dealer ask but still strong because of the clean condition and service history. The $4,900 listing is reasonable retail, but a fair transaction price is closer to the low-to-mid $4,000s.",
+    "value": 4400.0
+  },
+  "6813e5ae23ac": {
+    "reasoning": "A recent full-set Speedmaster 3861 Moonwatch with recent Omega service and only light bracelet wear should trade a bit below strong retail but above average used examples. Given the dealer listing at $4,900, a fair market number is slightly lower to account for buyer risk and normal negotiation room.",
+    "value": 4750.0
+  },
+  "1bda07308916": {
+    "reasoning": "A 2022 Speedmaster Pro 3861 with full set, recent Omega service, and only light bracelet wear is a solid used example, but the dealer listing still leaves room for negotiation versus typical private-sale and dealer-market comps. Factoring in condition, service recency, and the 14-day return window, a fair market price is a bit below the asking price.",
+    "value": 4550.0
+  },
+  "8dee41b53b50": {
+    "reasoning": "A pre-owned 3861 Hesalite Speedmaster with full set, recent Omega service, and only light bracelet wear typically trades a bit below dealer ask, but the fresh service and complete package support value. Given the condition and market comps, a fair transaction price is slightly under the listing.",
+    "value": 4700.0
+  },
+  "ceb22e41fbbf": {
+    "reasoning": "A recent full-set 3861 Speedmaster with a recent Omega boutique service should trade close to the upper end of secondary-market pricing, but light bracelet wear and normal pre-owned discounting keep it below dealer ask. Given the condition, service recency, and full accessories, a fair market price is a bit under the listing.",
+    "value": 4650.0
   }
 }
