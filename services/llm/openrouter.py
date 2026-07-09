@@ -42,6 +42,7 @@ class OpenRouterProvider(LLMProvider):
         messages: list[dict] | None = None,
         enable_reasoning: bool = False,
         omit_temperature: bool = False,
+        omit_reasoning: bool = False,
     ) -> str:
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
@@ -61,8 +62,18 @@ class OpenRouterProvider(LLMProvider):
             response = await self._call_api(
                 msgs, model, temp, tokens,
                 enable_reasoning=enable_reasoning,
+                omit_reasoning=omit_reasoning,
             )
             return self._extract_text(response)
+        except httpx.HTTPStatusError as e:
+            # Surface the provider's error body so callers can react to it (e.g. the
+            # identity runner detects "reasoning is mandatory" 400s and retries).
+            body = ""
+            try:
+                body = e.response.text
+            except Exception:
+                pass
+            raise RuntimeError(f"OpenRouter API request failed: {e} :: {body}") from e
         except httpx.HTTPError as e:
             raise RuntimeError(f"OpenRouter API request failed: {e}") from e
 
@@ -153,6 +164,7 @@ class OpenRouterProvider(LLMProvider):
         logprobs: bool = False,
         top_logprobs: int | None = None,
         enable_reasoning: bool = False,
+        omit_reasoning: bool = False,
     ) -> Dict[str, Any]:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -177,11 +189,22 @@ class OpenRouterProvider(LLMProvider):
             if top_logprobs is not None:
                 payload["top_logprobs"] = top_logprobs
 
-        # Reasoning is off by default. Callers explicitly opt in via
-        # `enable_reasoning=True`, which lets the model fall back to its
-        # native reasoning behavior. Sending {enabled: false} is a no-op
-        # for models that don't expose reasoning controls.
-        if not enable_reasoning:
+        # Reasoning is off by default. Callers opt in via `enable_reasoning=True`,
+        # which sends {enabled: true} so the request ACTIVELY turns reasoning on —
+        # important for providers (e.g. Anthropic) whose default is thinking-off:
+        # merely omitting the disable flag leaves them not reasoning at all.
+        # Sending {enabled: true/false} is a no-op for models without reasoning
+        # controls.
+        #
+        # Some endpoints (e.g. GPT-5, Gemini 2.5 Pro) 400 when reasoning is
+        # explicitly disabled because reasoning is mandatory; for those, callers
+        # pass omit_reasoning=True to leave the field out entirely and let the
+        # model use its own (unavoidable) default.
+        if omit_reasoning:
+            pass
+        elif enable_reasoning:
+            payload["reasoning"] = {"enabled": True}
+        else:
             payload["reasoning"] = {"enabled": False}
 
         try:
@@ -205,6 +228,7 @@ class OpenRouterProvider(LLMProvider):
                     max_retries,
                     response_format,
                     enable_reasoning=enable_reasoning,
+                    omit_reasoning=omit_reasoning,
                 )
             raise
 

@@ -1,0 +1,152 @@
+{
+  "a6749d1dc5f1": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "你是什么模型"
+      }
+    ],
+    "results": [
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 系列（带有图像识别等多模态能力）的大语言模型版本。  \n可以理解为一个通用智能助手：能聊天、写作、编程、分析问题、看图解读等。  \n如果你需要更具体的信息，比如能力范围或能不能做某件事，可以直接问我。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 系列（具体为 GPT-4 级别的多模态模型）构建的助手，可以处理文本，也能看图理解图片内容。你可以把我当作一个通用的中文/英文智能问答和写作助手。  \n\n如果你关心更细一点的信息，比如：\n- 能干什么（写作、翻译、编程、推理、看图等）\n- 哪些事情做不好或有局限  \n我也可以具体说说。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4 系列大模型（具备文本和图像理解能力）的助手版本，专门通过 API 提供对话、写作、代码、分析等多种能力的支持。  \n有需要可以直接告诉我你想做什么，我来帮你拆解和完成。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4o 系列的大语言模型，在这个接口中可以处理中文、英文等多种语言，也能看图、理解图片内容。  \n如果你有需要，我可以告诉你更多关于能力范围或使用方式。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4o"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 级别模型（具体来说是 GPT-4o 系列）的多模态助手，可以处理文本，也能理解图片内容。  \n你可以用中文或英文问我问题、让我要代码、写作、解释知识、帮你改简历等。  \n如果你想了解更细一点，比如能力范围、是否能联网、能不能记忆对话内容等，也可以继续问。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "ChatGPT"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4o 架构的大语言模型，可以理解和生成多种语言的文本（包括中文），也能看图做分析。你可以把我当作一个通用助手，用来问问题、写作、编程、学习、查资料、做规划等。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4o"
+      },
+      {
+        "response": "我是基于 OpenAI 最新一代模型 **GPT‑4o** 的中文对话助手，可以理解和回答文字、图片等多种形式的问题。  \n你可以把我当成一个综合型的“智能工具”，能帮你：\n\n- 查资料、讲解知识（数学、编程、历史、物理等）\n- 写作润色、翻译、改写（中英都可以）\n- 写代码、查 bug、解释代码\n- 头脑风暴、写方案、写简历/邮件\n- 解析图片内容（题目、图表、截图等）\n\n如果你想了解更具体的能力，比如“能不能帮我写 Python 代码”或者“能不能解高数题”，可以直接问我你现在想做的事。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "ChatGPT"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4o 架构的大语言模型，可以理解和生成多种语言的文本，目前你是通过 API 在和我对话。  \n你可以把我当作一个通用的智能助理：可以聊天、写作、解释知识、写代码、改简历、出题解题等。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4o"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 体系的新一代模型（有时会被称为 GPT-4.1 系列能力水平），支持中文和多种语言对话、代码、推理和图像理解等。你可以把我当作一个通用智能助手，用来问问题、写作、编程、做题、查思路等。  \n你这边主要想用我来做什么？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "ChatGPT"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4o 架构的大语言模型，可以理解和生成中文、英文等多种语言的文本，也能看图、识图并进行分析说明。  \n你可以把我当成一个通用的智能助手：可以问问题、写代码、改文章、做翻译、出主意等。需要我帮你做什么？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4o"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4 系列大语言模型（改进版本），可以理解和生成多种语言的文本，现在和你对话的是专门面向聊天与问答场景的助手版本。  \n你可以把我当成一个比较通用的“智能问答/写作/编程助手”来用。  \n\n如果你关心更细一点的信息，比如：  \n- 能做什么（写作、编程、学习辅导等）  \n- 不能做什么（访问隐私数据、执行真实系统操作等）  \n我也可以具体说说。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 级别架构的多模态大语言模型（可以处理文字，也可以理解图片）。  \n你可以用中文或英文跟我聊天、提问、写代码、改文章、做方案等，都可以。  \n\n如果你关心更具体的：  \n- 模型家族：GPT-4 系列的改进版本  \n- 能力：对话、推理、编程、文案、翻译、学习辅导、图像理解等  \n- 运行方式：通过 API/在线接口调用，并不会本地运行在你的设备上  \n\n你可以告诉我你主要想用我来做什么，我可以再具体说明我在这些方面能做到什么、做不到什么。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "ChatGPT"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4 级别架构的大语言模型，在这个接口中通常被称为「GPT‑4.1」系列（具体名称可能因平台而略有不同）。  \n我可以用中文或多种语言回答问题、写作、编程、分析图像等。你可以直接告诉我你想做什么。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "ChatGPT"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 架构的多模态大语言模型，可以理解和生成中文、英文等多种语言的文本，也能对图片进行分析和回答相关问题。  \n你可以把我当作一个“通用问答 + 写作 + 编程 + 资料整理 + 头脑风暴”助手来用。  \n\n如果你想知道更具体的能力，比如：  \n- 能不能写代码、改代码  \n- 能不能帮你写文案、论文大纲、PPT结构  \n- 能不能做题、讲题、辅导学习  \n\n可以直接告诉我你的需求，我来展示一下。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4 系列的大语言模型，一个多模态模型（可以处理文字，也可以在支持的情况下理解图片）。  \n如果你需要更具体的信息，比如能力范围、适合做什么、有什么限制，可以告诉我你关心哪一方面，我详细说。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 GPT-4 架构的多模态大语言模型，可以理解和生成中文、英文等多种语言的文本，也能分析图片内容。如果你想了解更具体的能力（比如能不能写代码、做翻译、解题等），可以直接问我。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 GPT‑4 架构的多模态大语言模型，可以处理中文和英文等多种语言的文本，也可以理解和分析图片。你可以把我当作一个通用助手：问问题、写作、翻译、编程、学习辅导等都可以。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 最新一代模型系列的助手（属于 GPT-4 级别能力的多模态模型），可以处理文字，也能理解图片内容。你可以把我当作一个通用智能助理，用来问问题、写作、编程、学习、查资料等。  \n\n如果你想了解更具体的能力（比如：能不能写代码、能不能看图、适合做什么），可以告诉我你的使用场景，我再详细说明。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT‑4o 架构的大语言模型，可以理解和生成多种语言的文本（包括中文），也可以结合图像进行分析。你可以把我当作一个通用助手，用来问问题、写作、编程、学习知识、做翻译、改简历等。  \n\n如果你想了解更具体的能力，比如代码、数学、写作还是别的，可以告诉我你主要想用来做什么。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "ChatGPT"
+      },
+      {
+        "response": "我是基于 OpenAI 的 GPT-4 体系的多模态大语言模型，可以处理文字，也能识别和分析图片。  \n有点像一个通用的“智能助手”：能聊天、写作、编程、解释知识、帮你整理资料、分析图表等。  \n\n如果你关心更具体的信息（比如能力范围、和之前 GPT-3.5 的差别、隐私/安全机制等），可以告诉我你想了解哪一块，我可以详细说。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "GPT-4"
+      }
+    ]
+  }
+}

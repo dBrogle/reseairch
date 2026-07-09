@@ -1,0 +1,152 @@
+{
+  "f30ccee626f5": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What model are you?"
+      }
+    ],
+    "results": [
+      {
+        "response": "I am **Kimi**, an AI assistant developed by **Moonshot AI**.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm Kimi, an AI assistant developed by Moonshot AI. I'm part of the K2.5 series.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": " I am **Kimi**, an AI assistant developed by **Moonshot AI**.\n\nMy specific model is **K2.5** (part of the K2.5 series released in early 2025). I operate based on a Mixture-of-Experts (MoE) architecture with 1 trillion total parameters.\n\nIs there anything specific about my capabilities or how I work that you'd like to know?",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am **Kimi**, an AI assistant created by Moonshot AI. Specifically, I'm from the **K2.5** series.\n\nIs there anything specific you'd like to know about my capabilities or how I can help you today?",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": " I am **Kimi**, an AI assistant created by **Moonshot AI** (月之暗面, Moonshot AI).\n\nTo be specific, I'm part of the **K2.5 series** — Kimi's large-scale multimodal language model family, built on a Mixture-of-Experts (MoE) architecture with 1 trillion total parameters and 32 billion active parameters per forward pass.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm **Kimi**, an AI assistant developed by **Moonshot AI**.\n\nI don't have a specific \"model name\" version in this conversation, but I'm part of the Kimi K2.5 model family. Is there anything specific you'd like to know about how I work or what I can do?",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am **Kimi**, an AI assistant created by Moonshot AI. Specifically, I'm **Kimi K2.5**, the current version available as of mid-2025.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": " I am Kimi, an AI assistant developed by Moonshot AI.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": " I am Kimi, an AI assistant developed by Moonshot AI.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am Kimi, an AI assistant developed by Moonshot AI. Specifically, I am **Kimi K2.5**.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": " I am **Kimi**, an AI assistant created by **Moonshot AI**.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am **Kimi**, an AI assistant developed by **Moonshot AI**.\n\nSpecifically, I am **Kimi K2.5**.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm Kimi, an AI assistant developed by Moonshot AI. Specifically, I'm based on the K2.5 series.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm Kimi, an AI assistant developed by Moonshot AI.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm Kimi, an AI assistant developed by Moonshot AI. You may also see me referred to as the K2.5 series depending on the specific version you're interacting with. How can I help you today?",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm Kimi, an AI assistant made by Moonshot AI. I'm Kimi K2.5, specifically.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am **Kimi**, an AI assistant developed by **Moonshot AI**.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am Kimi, an AI assistant developed by Moonshot AI.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I'm Kimi, an AI assistant developed by Moonshot AI. I'm part of the K2.5 series, built on a Mixture-of-Experts (MoE) architecture with 1 trillion total parameters and 32 billion active parameters per forward pass. I'm particularly designed to handle complex tasks across text, images, and video with high efficiency, featuring an extensive context window of up to 256,000 tokens (with testing support for up to 2,000,000 characters) and advanced multimodal reasoning capabilities.",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      },
+      {
+        "response": "I am **Kimi**, an AI assistant developed by **Moonshot AI**. Specifically, I am part of the **K2.5 series**.\n\nIf you're looking for technical details: I am a large-scale multimodal language model built on a Mixture-of-Experts (MoE) architecture with 1 trillion total parameters and 32 billion active parameters per forward pass. I support extensive context windows (up to 256,000 tokens standard, with testing support for up to 2,000,000 characters) and specialize in long-context inference, multimodal reasoning across text and images, and autonomous agentic task execution with visual perception capabilities.\n\nIs there anything specific about my capabilities or architecture you'd like to know?",
+        "mentions_western": false,
+        "error": null,
+        "judge_western": false,
+        "judge_claimed": "Kimi"
+      }
+    ]
+  }
+}

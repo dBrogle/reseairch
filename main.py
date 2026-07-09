@@ -107,6 +107,31 @@ STUDIES = {
         "description": "Follow-up to Claude Identity: asks Chinese models 'What model are you?' (no system prompt, model default temp) and records who they say they are",
         "run": "studies.claude_identity_2.main",
     },
+    "20": {
+        "name": "Chinese Identity Over Time",
+        "description": "Longitudinal Chinese Identity study: asks a chronological lineage of each Western maker's models '你是什么模型' and plots how often they claim a Chinese identity against real OpenRouter release dates, to show when the behavior emerged",
+        "run": "studies.chinese_identity_over_time.main",
+    },
+    "21": {
+        "name": "Western Identity Over Time",
+        "description": "Mirror of Chinese Identity Over Time: asks a chronological lineage of each Chinese maker's models 'What model are you?' and plots how often they claim a Western (American) identity against real OpenRouter release dates",
+        "run": "studies.western_identity_over_time.main",
+    },
+    "22": {
+        "name": "Poople (Word Ladder to 'poop')",
+        "description": "A Wordle-adjacent word ladder: change one letter at a time (every step a valid word) to reach 'poop'. Part 1 BFS-es out from poop to find the minimum steps and all optimal ladders for every 4-letter word; Part 2 tests how well LLMs solve it.",
+        "run": "studies.poople.main",
+    },
+    "23": {
+        "name": "Poople Coding (LLMs write a solver)",
+        "description": "Coding benchmark: each reasoning model gets one shot to write a Python program that solves Poople optimally. We execute each program against a difficulty-stratified battery of words and grade it for legality and optimality against the BFS oracle.",
+        "run": "studies.poople_coding.main",
+    },
+    "24": {
+        "name": "Chief Keef Framing Effects",
+        "description": "Tests whether LLMs feel differently about Chief Keef depending on how his background is framed (positive / none / negative), with the closing question held fixed; an LLM judge scores favorability 0-10 per arm",
+        "run": "studies.chief_keef_framing.main",
+    },
 }
 
 

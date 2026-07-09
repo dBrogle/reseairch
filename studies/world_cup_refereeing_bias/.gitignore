@@ -1,0 +1,4 @@
+# Raw ESPN / StatsBomb HTTP responses (~500 MB, regenerated on a full build).
+# The built dataset (data/matches_long.csv) is committed, so `--no-build` works
+# without re-pulling. Delete this dir to force a fresh fetch.
+data/cache/

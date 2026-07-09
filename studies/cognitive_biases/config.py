@@ -42,11 +42,13 @@ EXTRACTOR_MODEL = "openai/gpt-5.4-mini"
 # this dict is treated as inactive.
 ACTIVE_BIASES: dict[str, bool] = {
     "anchoring": True,
+    "anchoring_random_number": True,
     "authority": True,
     "endowment": True,
     "framing":   False,
     "hindsight": False,
     "sunk_cost": False,
+    "loss_aversion": True,
 }
 
 ACTIVE_BIAS_TYPES: tuple[str, ...] = tuple(
@@ -98,6 +100,7 @@ _SMOKE_CANDIDATES = [
     "hindsight_restaurant",
     "endowment_trashcan",
     "sunk_cost_movie",
+    "loss_aversion_day",
 ]
 SMOKE_SCENARIO_IDS = [
     sid for sid in _SMOKE_CANDIDATES

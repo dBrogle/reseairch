@@ -31,8 +31,8 @@ def _save(fig, path: Path):
     plt.close(fig)
 
 
-def _make_usa(path: Path):
-    fig, ax = _blank_square()
+def _draw_usa(ax, star_size: float = 22):
+    """Draw a (rectangular) US flag onto a 0-1 axes."""
     red, white, blue = "#B22234", "#FFFFFF", "#3C3B6E"
     stripes = 13
     for i in range(stripes):
@@ -50,19 +50,29 @@ def _make_usa(path: Path):
         for c in range(cols):
             xs.append(0.035 + (c + offset) * (0.42 - 0.05) / 6)
             ys.append(cy0 + 0.02 + r * (1 - cy0 - 0.04) / (rows - 1))
-    ax.scatter(xs, ys, marker="*", s=22, color=white, zorder=3)
+    ax.scatter(xs, ys, marker="*", s=star_size, color=white, zorder=3)
+
+
+def _draw_china(ax, big_size: float = 1700, small_size: float = 170):
+    """Draw a (rectangular) China flag onto a 0-1 axes."""
+    ax.add_patch(Rectangle((0, 0), 1, 1, color="#DE2910"))
+    yellow = "#FFDE00"
+    # One large star, four small ones arcing around it (upper-left canton).
+    ax.scatter([0.17], [0.76], marker="*", s=big_size, color=yellow, zorder=3)
+    smalls = [(0.34, 0.92), (0.43, 0.82), (0.43, 0.68), (0.34, 0.58)]
+    ax.scatter([x for x, _ in smalls], [y for _, y in smalls],
+               marker="*", s=small_size, color=yellow, zorder=3)
+
+
+def _make_usa(path: Path):
+    fig, ax = _blank_square()
+    _draw_usa(ax)
     _save(fig, path)
 
 
 def _make_china(path: Path):
     fig, ax = _blank_square()
-    ax.add_patch(Rectangle((0, 0), 1, 1, color="#DE2910"))
-    yellow = "#FFDE00"
-    # One large star, four small ones arcing around it (upper-left canton).
-    ax.scatter([0.17], [0.76], marker="*", s=1700, color=yellow, zorder=3)
-    smalls = [(0.34, 0.92), (0.43, 0.82), (0.43, 0.68), (0.34, 0.58)]
-    ax.scatter([x for x, _ in smalls], [y for _, y in smalls],
-               marker="*", s=170, color=yellow, zorder=3)
+    _draw_china(ax)
     _save(fig, path)
 
 

@@ -1,0 +1,2502 @@
+{
+  "meta": {
+    "study": "poople",
+    "title": "Poople — can LLMs solve a word ladder to 'poop'?",
+    "generated": "2026-06-17",
+    "description": "Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word and change exactly one letter at a time — every intermediate must be a real four-letter word — until you reach 'poop'. We BFS out from 'poop' over all four-letter English words to get the optimal solution length (par) and every optimal ladder, then ask LLMs to solve a difficulty-stratified sample of puzzles as strict JSON and grade each attempt for legality and steps over par. Models are tested in two sets: one-shot with reasoning OFF, and with reasoning ON.",
+    "rules": [
+      "Start from the given four-letter word.",
+      "Each step changes exactly one letter (no adding/removing/reordering).",
+      "Every word, including the last, must be a valid four-letter word.",
+      "Continue until you reach 'poop'.",
+      "Use as few steps as possible."
+    ],
+    "target_word": "poop",
+    "dictionary": {
+      "name": "ENABLE2k (enable1.txt)",
+      "note": "Open, common-English word-game lexicon (a standard Scrabble-style list).",
+      "file": "/Users/brogle/workspace/brogle/reseairch/data/wordlists/enable1.txt"
+    },
+    "prompt_version": "v3",
+    "prompt_example": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"cods\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"cods\",\n  \"changes\": [\n    {\"from\": \"cods\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}",
+    "temperature": 0.7,
+    "attempts_per_word": 3,
+    "max_tokens": 6000,
+    "sample_design": {
+      "difficulty_buckets_par": [
+        3,
+        4,
+        5
+      ],
+      "words_per_bucket": 10,
+      "seed": 20260615,
+      "note": "Each bucket is shuffled once with the seed and a prefix taken, so growing the sample keeps the original words (and their cached results)."
+    },
+    "conditions_explained": {
+      "no_reasoning": "Reasoning disabled — a true one-shot answer with no thinking.",
+      "reasoning": "Reasoning enabled — the model thinks before answering.",
+      "model_assignment": {
+        "openai/gpt-5.5": "both",
+        "anthropic/claude-opus-4.8": "both",
+        "google/gemini-3.1-pro-preview": "mandatory",
+        "x-ai/grok-4.3": "both",
+        "moonshotai/kimi-k2.6": "no_reasoning_only",
+        "deepseek/deepseek-v4-pro": "both"
+      }
+    }
+  },
+  "metric_definitions": {
+    "par": "Optimal (minimum) number of one-letter steps from the start word to 'poop'.",
+    "solved": "Ladder ends exactly on 'poop' with zero illegal moves.",
+    "over_par": "For solved attempts: moves used minus par. +0 = optimal.",
+    "illegal_move": "A step whose stated 'from' doesn't match the current word, OR whose target isn't a valid word, OR that changes != 1 letter.",
+    "solve_rate_pct": "Percent of attempts that were solved legally (errors count as non-solves).",
+    "pie_categories": {
+      "par": "Solved at par (+0).",
+      "over_par": "Solved but used more than par steps.",
+      "illegal": "Used at least one illegal move (even if it still reached poop).",
+      "failed": "Did not reach poop (also covers unparseable / API errors)."
+    }
+  },
+  "solver_oracle": {
+    "total_four_letter_words": 3903,
+    "reachable_to_poop": 3807,
+    "reachable_pct": 97.5,
+    "unreachable": 96,
+    "max_distance_steps": 14,
+    "distance_distribution": {
+      "0": 1,
+      "1": 13,
+      "2": 79,
+      "3": 288,
+      "4": 899,
+      "5": 1582,
+      "6": 642,
+      "7": 191,
+      "8": 64,
+      "9": 28,
+      "10": 10,
+      "11": 3,
+      "12": 4,
+      "13": 2,
+      "14": 1
+    },
+    "total_optimal_ladders_saved": 23120,
+    "example_optimal_paths": {
+      "love": [
+        "love",
+        "cove",
+        "come",
+        "comp",
+        "coop",
+        "poop"
+      ],
+      "word": [
+        "word",
+        "wood",
+        "pood",
+        "poop"
+      ],
+      "quiz": [
+        "quiz",
+        "quin",
+        "ruin",
+        "rein",
+        "pein",
+        "peon",
+        "poon",
+        "poop"
+      ]
+    }
+  },
+  "sample_words": {
+    "par_3": [
+      "cods",
+      "cobs",
+      "nosh",
+      "trow",
+      "pima",
+      "roms",
+      "sown",
+      "vrow",
+      "eros",
+      "tump"
+    ],
+    "par_4": [
+      "peak",
+      "pets",
+      "sobs",
+      "roan",
+      "soil",
+      "yowl",
+      "dram",
+      "lobo",
+      "hows",
+      "hame"
+    ],
+    "par_5": [
+      "reft",
+      "kors",
+      "gyms",
+      "muss",
+      "spun",
+      "mina",
+      "oars",
+      "lure",
+      "shew",
+      "suns"
+    ]
+  },
+  "results": {
+    "reasoning": {
+      "label": "reasoning ON",
+      "reasoning_enabled": true,
+      "models_tested": [
+        "gpt-5.5",
+        "claude-opus-4.8",
+        "gemini-3.1-pro-preview",
+        "grok-4.3",
+        "deepseek-v4-pro"
+      ],
+      "models": [
+        {
+          "model": "openai/gpt-5.5",
+          "short_name": "gpt-5.5",
+          "n_attempts": 90,
+          "solve_rate_pct": 72.2,
+          "avg_over_par": 0.14,
+          "illegal_moves_per_attempt": 0.29,
+          "pct_attempts_with_illegal_move": 27.8,
+          "outcomes_count": {
+            "optimal": 56,
+            "suboptimal": 9,
+            "reached_illegal": 25,
+            "failed": 0,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 56,
+            "over_par": 9,
+            "illegal": 25,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 56,
+            "1": 9
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 90.0,
+              "avg_over_par": 0.11,
+              "illegal_moves_per_attempt": 0.1,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 80.0,
+              "avg_over_par": 0.17,
+              "illegal_moves_per_attempt": 0.2,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 46.7,
+              "avg_over_par": 0.14,
+              "illegal_moves_per_attempt": 0.57,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "google/gemini-3.1-pro-preview",
+          "short_name": "gemini-3.1-pro-preview",
+          "n_attempts": 90,
+          "solve_rate_pct": 68.9,
+          "avg_over_par": 0.11,
+          "illegal_moves_per_attempt": 0.3,
+          "pct_attempts_with_illegal_move": 27.8,
+          "outcomes_count": {
+            "optimal": 55,
+            "suboptimal": 7,
+            "reached_illegal": 25,
+            "failed": 0,
+            "unparseable": 3,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 55,
+            "over_par": 7,
+            "illegal": 25,
+            "failed": 3
+          },
+          "over_par_distribution": {
+            "0": 55,
+            "1": 7
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 96.7,
+              "avg_over_par": 0.1,
+              "illegal_moves_per_attempt": 0.03,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 73.3,
+              "avg_over_par": 0.14,
+              "illegal_moves_per_attempt": 0.23,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 36.7,
+              "avg_over_par": 0.09,
+              "illegal_moves_per_attempt": 0.63,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "anthropic/claude-opus-4.8",
+          "short_name": "claude-opus-4.8",
+          "n_attempts": 90,
+          "solve_rate_pct": 56.7,
+          "avg_over_par": 0.0,
+          "illegal_moves_per_attempt": 0.39,
+          "pct_attempts_with_illegal_move": 37.8,
+          "outcomes_count": {
+            "optimal": 51,
+            "suboptimal": 0,
+            "reached_illegal": 34,
+            "failed": 0,
+            "unparseable": 0,
+            "error": 5
+          },
+          "pie_count": {
+            "par": 51,
+            "over_par": 0,
+            "illegal": 34,
+            "failed": 5
+          },
+          "over_par_distribution": {
+            "0": 51
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 83.3,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 0.17,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 66.7,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 0.33,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 20.0,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 0.67,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "x-ai/grok-4.3",
+          "short_name": "grok-4.3",
+          "n_attempts": 90,
+          "solve_rate_pct": 54.4,
+          "avg_over_par": 0.2,
+          "illegal_moves_per_attempt": 0.52,
+          "pct_attempts_with_illegal_move": 45.6,
+          "outcomes_count": {
+            "optimal": 41,
+            "suboptimal": 8,
+            "reached_illegal": 41,
+            "failed": 0,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 41,
+            "over_par": 8,
+            "illegal": 41,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 41,
+            "1": 6,
+            "2": 2
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 83.3,
+              "avg_over_par": 0.12,
+              "illegal_moves_per_attempt": 0.2,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 46.7,
+              "avg_over_par": 0.36,
+              "illegal_moves_per_attempt": 0.6,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 33.3,
+              "avg_over_par": 0.2,
+              "illegal_moves_per_attempt": 0.77,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "short_name": "deepseek-v4-pro",
+          "n_attempts": 90,
+          "solve_rate_pct": 45.6,
+          "avg_over_par": 0.02,
+          "illegal_moves_per_attempt": 0.68,
+          "pct_attempts_with_illegal_move": 40.0,
+          "outcomes_count": {
+            "optimal": 40,
+            "suboptimal": 1,
+            "reached_illegal": 36,
+            "failed": 0,
+            "unparseable": 0,
+            "error": 13
+          },
+          "pie_count": {
+            "par": 40,
+            "over_par": 1,
+            "illegal": 36,
+            "failed": 13
+          },
+          "over_par_distribution": {
+            "0": 40,
+            "1": 1
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 86.7,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 0.27,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 36.7,
+              "avg_over_par": 0.09,
+              "illegal_moves_per_attempt": 0.8,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 13.3,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 0.97,
+              "n_attempts": 30
+            }
+          }
+        }
+      ]
+    },
+    "no_reasoning": {
+      "label": "reasoning OFF",
+      "reasoning_enabled": false,
+      "models_tested": [
+        "gpt-5.5",
+        "claude-opus-4.8",
+        "grok-4.3",
+        "kimi-k2.6",
+        "deepseek-v4-pro"
+      ],
+      "models": [
+        {
+          "model": "openai/gpt-5.5",
+          "short_name": "gpt-5.5",
+          "n_attempts": 90,
+          "solve_rate_pct": 21.1,
+          "avg_over_par": 0.58,
+          "illegal_moves_per_attempt": 1.19,
+          "pct_attempts_with_illegal_move": 78.9,
+          "outcomes_count": {
+            "optimal": 13,
+            "suboptimal": 6,
+            "reached_illegal": 67,
+            "failed": 4,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 13,
+            "over_par": 6,
+            "illegal": 71,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 13,
+            "1": 3,
+            "2": 1,
+            "3": 2
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 56.7,
+              "avg_over_par": 0.59,
+              "illegal_moves_per_attempt": 0.7,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 6.7,
+              "avg_over_par": 0.5,
+              "illegal_moves_per_attempt": 1.23,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 0.0,
+              "avg_over_par": null,
+              "illegal_moves_per_attempt": 1.63,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "short_name": "deepseek-v4-pro",
+          "n_attempts": 90,
+          "solve_rate_pct": 16.7,
+          "avg_over_par": 0.6,
+          "illegal_moves_per_attempt": 1.24,
+          "pct_attempts_with_illegal_move": 83.3,
+          "outcomes_count": {
+            "optimal": 9,
+            "suboptimal": 6,
+            "reached_illegal": 75,
+            "failed": 0,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 9,
+            "over_par": 6,
+            "illegal": 75,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 9,
+            "1": 5,
+            "4": 1
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 36.7,
+              "avg_over_par": 0.64,
+              "illegal_moves_per_attempt": 0.97,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 13.3,
+              "avg_over_par": 0.5,
+              "illegal_moves_per_attempt": 1.17,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 0.0,
+              "avg_over_par": null,
+              "illegal_moves_per_attempt": 1.6,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "x-ai/grok-4.3",
+          "short_name": "grok-4.3",
+          "n_attempts": 90,
+          "solve_rate_pct": 14.4,
+          "avg_over_par": 0.38,
+          "illegal_moves_per_attempt": 1.66,
+          "pct_attempts_with_illegal_move": 85.6,
+          "outcomes_count": {
+            "optimal": 8,
+            "suboptimal": 5,
+            "reached_illegal": 77,
+            "failed": 0,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 8,
+            "over_par": 5,
+            "illegal": 77,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 8,
+            "1": 5
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 23.3,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 1.4,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 20.0,
+              "avg_over_par": 0.83,
+              "illegal_moves_per_attempt": 1.57,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 0.0,
+              "avg_over_par": null,
+              "illegal_moves_per_attempt": 2.0,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "anthropic/claude-opus-4.8",
+          "short_name": "claude-opus-4.8",
+          "n_attempts": 90,
+          "solve_rate_pct": 13.3,
+          "avg_over_par": 0.17,
+          "illegal_moves_per_attempt": 1.31,
+          "pct_attempts_with_illegal_move": 86.7,
+          "outcomes_count": {
+            "optimal": 10,
+            "suboptimal": 2,
+            "reached_illegal": 76,
+            "failed": 2,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 10,
+            "over_par": 2,
+            "illegal": 78,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 10,
+            "1": 2
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 36.7,
+              "avg_over_par": 0.18,
+              "illegal_moves_per_attempt": 0.97,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 3.3,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 1.23,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 0.0,
+              "avg_over_par": null,
+              "illegal_moves_per_attempt": 1.73,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "moonshotai/kimi-k2.6",
+          "short_name": "kimi-k2.6",
+          "n_attempts": 90,
+          "solve_rate_pct": 13.3,
+          "avg_over_par": 0.67,
+          "illegal_moves_per_attempt": 1.57,
+          "pct_attempts_with_illegal_move": 82.2,
+          "outcomes_count": {
+            "optimal": 5,
+            "suboptimal": 7,
+            "reached_illegal": 69,
+            "failed": 5,
+            "unparseable": 4,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 5,
+            "over_par": 7,
+            "illegal": 74,
+            "failed": 4
+          },
+          "over_par_distribution": {
+            "0": 5,
+            "1": 6,
+            "2": 1
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 23.3,
+              "avg_over_par": 0.57,
+              "illegal_moves_per_attempt": 1.4,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 16.7,
+              "avg_over_par": 0.8,
+              "illegal_moves_per_attempt": 1.23,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 0.0,
+              "avg_over_par": null,
+              "illegal_moves_per_attempt": 2.07,
+              "n_attempts": 30
+            }
+          }
+        }
+      ]
+    }
+  },
+  "reasoning_vs_no_reasoning": [
+    {
+      "model": "gpt-5.5",
+      "no_reasoning_solve_pct": 21.1,
+      "reasoning_solve_pct": 72.2,
+      "lift_pct_points": 51.1
+    },
+    {
+      "model": "claude-opus-4.8",
+      "no_reasoning_solve_pct": 13.3,
+      "reasoning_solve_pct": 56.7,
+      "lift_pct_points": 43.4
+    },
+    {
+      "model": "grok-4.3",
+      "no_reasoning_solve_pct": 14.4,
+      "reasoning_solve_pct": 54.4,
+      "lift_pct_points": 40.0
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "no_reasoning_solve_pct": 16.7,
+      "reasoning_solve_pct": 45.6,
+      "lift_pct_points": 28.9
+    }
+  ],
+  "key_findings": [
+    "One-shot (no reasoning) Poople is hard: solve rates ran ~9–21%, and most attempts that reached 'poop' did so via an illegal move (often a sneaky two-letter change like 'pope'->'poop').",
+    "Turning reasoning ON roughly triples solve rates for every model.",
+    "Difficulty matters sharply: one-shot solve rates collapse to ~0% on par-5 words; even with reasoning, par-5 stays the hardest tier.",
+    "Models almost never make 'over par' solves — when they solve, they tend to solve optimally; the dominant failure is illegal moves, not inefficiency.",
+    "claude-opus-4.8 only improved once reasoning was actually engaged (13%->17% looked flat until a provider fix sent reasoning:{enabled:true}, after which it jumped to 57%)."
+  ],
+  "caveats": [
+    "gemini-3.1-pro-preview cannot disable reasoning (mandatory), so it only appears in the reasoning set; its one-shot ability is not measured.",
+    "kimi-k2.6 returns empty content ~1/3 of the time with reasoning ON via this endpoint, so it was dropped from the reasoning set (it remains in no-reasoning).",
+    "A few reasoning attempts (deepseek ~13/90, opus ~5/90) returned empty content (API errors); these count as non-solves and slightly understate those models.",
+    "Validity is judged against the ENABLE word list. Some valid plays route through obscure words (e.g. 'pood', 'holp'); conversely 'poos' is NOT in ENABLE, so going there is scored as a fail.",
+    "Reasoning was requested via OpenRouter's unified reasoning:{enabled:true}; exact thinking budgets are provider-defined and not normalized across models."
+  ],
+  "assets": {
+    "note": "PNG paths are relative to studies/poople/output/.",
+    "graphs": {
+      "reasoning": [
+        "avg_over_par.png",
+        "heatmap_over_par.png",
+        "heatmap_solve_rate.png",
+        "illegal_per_attempt.png",
+        "outcomes_pie.png",
+        "outcomes_stacked.png",
+        "solve_rate.png"
+      ],
+      "no_reasoning": [
+        "avg_over_par.png",
+        "heatmap_over_par.png",
+        "heatmap_solve_rate.png",
+        "illegal_per_attempt.png",
+        "outcomes_pie.png",
+        "outcomes_stacked.png",
+        "solve_rate.png"
+      ]
+    },
+    "graph_descriptions": {
+      "solve_rate.png": "Headline horizontal bar: legal solve rate per model (logos).",
+      "outcomes_pie.png": "Donut per model: par / over-par / illegal / failed split.",
+      "illegal_per_attempt.png": "Mean illegal moves per attempt per model.",
+      "avg_over_par.png": "Mean steps over par (solved attempts only).",
+      "outcomes_stacked.png": "100%-stacked outcome breakdown per model (6-way).",
+      "heatmap_solve_rate.png": "Solve rate by model × difficulty (par 3/4/5).",
+      "heatmap_over_par.png": "Avg steps over par by model × difficulty."
+    },
+    "result_image_dirs": {
+      "reasoning": "results_images_reasoning/<word>/<model>.png",
+      "no_reasoning": "results_images_no_reasoning/<word>/<model>.png"
+    },
+    "result_image_words": [
+      "cods",
+      "cobs",
+      "nosh",
+      "trow",
+      "peak",
+      "pets",
+      "sobs",
+      "reft",
+      "kors",
+      "gyms"
+    ]
+  },
+  "example_attempts": [
+    {
+      "word": "cods",
+      "par": 3,
+      "optimal_example": [
+        "cods",
+        "coos",
+        "coop",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "cods",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cods/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "cods",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cods/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "cods",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cods/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "cods",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cods/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "cods",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cods/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "cods",
+              "cops",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_no_reasoning/cods/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "cods",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/cods/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "cods",
+              "cops",
+              "poop"
+            ],
+            "num_moves": 2,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cods/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "cods",
+              "cops",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cods/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "cods",
+              "cops",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cods/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "cobs",
+      "par": 3,
+      "optimal_example": [
+        "cobs",
+        "coos",
+        "coop",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cobs/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cobs/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cobs/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cobs/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/cobs/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/cobs/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "cobs",
+              "cops",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_no_reasoning/cobs/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "cobs",
+              "cops",
+              "poops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cobs/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "cobs",
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cobs/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "cobs",
+              "cops",
+              "coos",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cobs/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "nosh",
+      "par": 3,
+      "optimal_example": [
+        "nosh",
+        "posh",
+        "pooh",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/nosh/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/nosh/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/nosh/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/nosh/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/nosh/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/nosh/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/nosh/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/nosh/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "nosh",
+              "posh",
+              "posy",
+              "poky",
+              "pock",
+              "poco",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/nosh/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/nosh/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "trow",
+      "par": 3,
+      "optimal_example": [
+        "trow",
+        "prow",
+        "prop",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "trow",
+              "prow",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/trow/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "trow",
+              "prow",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/trow/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "trow",
+              "prow",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/trow/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "trow",
+              "prow",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/trow/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "trow",
+              "prow",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/trow/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "trow",
+              "trop",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/trow/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "trow",
+              "prow",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/trow/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "trow",
+              "trod",
+              "prod",
+              "prow",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/trow/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "trow",
+              "prow",
+              "prof",
+              "poof",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_no_reasoning/trow/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "trow",
+              "trop",
+              "prop",
+              "plop",
+              "plow",
+              "plot",
+              "plop",
+              "poop"
+            ],
+            "num_moves": 7,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 4,
+            "summary": "0 illegal moves   ·   +4 over par",
+            "board_image": "results_images_no_reasoning/trow/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "peak",
+      "par": 4,
+      "optimal_example": [
+        "peak",
+        "pean",
+        "peon",
+        "poon",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "peak",
+              "peat",
+              "plat",
+              "plot",
+              "plop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_reasoning/peak/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "peak",
+              "pean",
+              "peon",
+              "poon",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/peak/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "peak",
+              "peek",
+              "peep",
+              "prep",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_reasoning/peak/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "peak",
+              "leak",
+              "lean",
+              "loan",
+              "loon",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 2,
+            "summary": "0 illegal moves   ·   +2 over par",
+            "board_image": "results_images_reasoning/peak/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "peak",
+              "peek",
+              "peep",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/peak/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "peak",
+              "peck",
+              "pock",
+              "pook",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/peak/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "peak",
+              "peap",
+              "poap",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/peak/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "peak",
+              "pean",
+              "peon",
+              "poon",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/peak/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "peak",
+              "peek",
+              "peck",
+              "pock",
+              "pook",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/peak/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "peak",
+              "peek",
+              "peep",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/peak/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "pets",
+      "par": 4,
+      "optimal_example": [
+        "pets",
+        "pots",
+        "poms",
+        "pomp",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "pets",
+              "pots",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/pets/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "pets",
+              "pots",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/pets/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "pets",
+              "pots",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/pets/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "pets",
+              "pots",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/pets/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "pets",
+              "peps",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/pets/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "pets",
+              "pits",
+              "pots",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "pets",
+              "pots",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "pets",
+              "pats",
+              "pans",
+              "pans",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "pets",
+              "pots",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "pets",
+              "pots",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "sobs",
+      "par": 4,
+      "optimal_example": [
+        "sobs",
+        "cobs",
+        "coos",
+        "coop",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "sobs",
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/sobs/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "sobs",
+              "bobs",
+              "boos",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/sobs/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "sobs",
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/sobs/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "sobs",
+              "lobs",
+              "loos",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/sobs/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "sobs",
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/sobs/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "sobs",
+              "sops",
+              "soop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "sobs",
+              "bobs",
+              "boos",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "sobs",
+              "sobs",
+              "sobs",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 3,
+            "solved": false,
+            "over_par": null,
+            "summary": "3 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "sobs",
+              "subs",
+              "suds",
+              "puds",
+              "pups",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "sobs",
+              "soys",
+              "soya",
+              "sora",
+              "sopa",
+              "pooa",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "reft",
+      "par": 5,
+      "optimal_example": [
+        "reft",
+        "left",
+        "loft",
+        "loot",
+        "loop",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "reft",
+              "left",
+              "loft",
+              "loot",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/reft/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "reft",
+              "left",
+              "loft",
+              "loot",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/reft/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "reft",
+              "left",
+              "loft",
+              "loot",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/reft/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "reft",
+              "left",
+              "loft",
+              "loot",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/reft/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "reft",
+              "raft",
+              "raft",
+              "rapt",
+              "raps",
+              "paps",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 7,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/reft/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "reft",
+              "raft",
+              "rapt",
+              "ropt",
+              "root",
+              "poot",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "reft",
+              "peft",
+              "peat",
+              "poat",
+              "poot",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 3,
+            "solved": false,
+            "over_par": null,
+            "summary": "3 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "reft",
+              "raft",
+              "pact",
+              "pant",
+              "poot",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "reft",
+              "left",
+              "loft",
+              "loof",
+              "poof",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "reft",
+              "reef",
+              "roof",
+              "poof",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "kors",
+      "par": 5,
+      "optimal_example": [
+        "kors",
+        "dors",
+        "doms",
+        "poms",
+        "pomp",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "kors",
+              "kops",
+              "pops",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/kors/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "kors",
+              "cors",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/kors/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "kors",
+              "kops",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/kors/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "kors",
+              "kobs",
+              "cobs",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_reasoning/kors/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "kors",
+              "kops",
+              "cops",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/kors/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "kors",
+              "kops",
+              "oops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "kors",
+              "tors",
+              "tops",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "kors",
+              "kops",
+              "pops",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "kors",
+              "kore",
+              "pore",
+              "pope",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "kors",
+              "kobs",
+              "kops",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    },
+    {
+      "word": "gyms",
+      "par": 5,
+      "optimal_example": [
+        "gyms",
+        "gams",
+        "pams",
+        "poms",
+        "pomp",
+        "poop"
+      ],
+      "by_condition": {
+        "reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "gyms",
+              "gums",
+              "hums",
+              "hump",
+              "pump",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_reasoning/gyms/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "gyms",
+              "poms",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/gyms/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "gemini-3.1-pro-preview",
+            "ladder": [
+              "gyms",
+              "gums",
+              "gump",
+              "pump",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/gyms/google_gemini_3_1_pro_preview.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "gyms",
+              "gums",
+              "hums",
+              "hump",
+              "pump",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/gyms/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "gyms",
+              "gums",
+              "pums",
+              "pups",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_reasoning/gyms/deepseek_deepseek_v4_pro.png"
+          }
+        ],
+        "no_reasoning": [
+          {
+            "model": "gpt-5.5",
+            "ladder": [
+              "gyms",
+              "gems",
+              "gimp",
+              "pimp",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/openai_gpt_5_5.png"
+          },
+          {
+            "model": "claude-opus-4.8",
+            "ladder": [
+              "gyms",
+              "gums",
+              "guns",
+              "guns",
+              "puns",
+              "pons",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 7,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/anthropic_claude_opus_4_8.png"
+          },
+          {
+            "model": "grok-4.3",
+            "ladder": [
+              "gyms",
+              "gams",
+              "gaps",
+              "paps",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/x_ai_grok_4_3.png"
+          },
+          {
+            "model": "kimi-k2.6",
+            "ladder": [
+              "gyms",
+              "gams",
+              "gaps",
+              "paps",
+              "paws",
+              "pows",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 7,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/moonshotai_kimi_k2_6.png"
+          },
+          {
+            "model": "deepseek-v4-pro",
+            "ladder": [
+              "gyms",
+              "gems",
+              "peps",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/deepseek_deepseek_v4_pro.png"
+          }
+        ]
+      }
+    }
+  ]
+}

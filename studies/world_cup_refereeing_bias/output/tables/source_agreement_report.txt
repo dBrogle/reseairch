@@ -1,0 +1,5 @@
+Source agreement (ESPN vs StatsBomb), per team-tournament totals:
+  fouls          r=0.987  MAE=5.03  (ESPN sum=3331 / SB sum=3651)
+  cards          r=0.979  MAE=0.33  (ESPN sum=448 / SB sum=437)
+  pens_won       r=0.968  MAE=0.03  (ESPN sum=50 / SB sum=52)
+  pens_conceded  r=0.960  MAE=0.03  (ESPN sum=50 / SB sum=52)

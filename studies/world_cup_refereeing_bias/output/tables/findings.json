@@ -1,0 +1,230 @@
+{
+  "n_rows": 704,
+  "tournaments": [
+    2010,
+    2014,
+    2018,
+    2022,
+    2026
+  ],
+  "rankings": {
+    "pens_won_pg": {
+      "metric": "pens_won_pg",
+      "focus_value": 0.32142857142857145,
+      "mean": 0.10435299536541291,
+      "std": 0.09821914829606875,
+      "z": 2.210114624582293,
+      "percentile": 96.15384615384616,
+      "rank": 2,
+      "n_teams": 52
+    },
+    "pens_conceded_pg": {
+      "metric": "pens_conceded_pg",
+      "focus_value": 0.14285714285714285,
+      "mean": 0.11238779012873776,
+      "std": 0.1132098670574356,
+      "z": 0.2691404337834515,
+      "percentile": 69.23076923076923,
+      "rank": 14,
+      "n_teams": 52
+    },
+    "fouls_pg": {
+      "metric": "fouls_pg",
+      "focus_value": 12.25,
+      "mean": 13.444411583254293,
+      "std": 2.070413023623817,
+      "z": -0.5768953197385371,
+      "percentile": 28.846153846153843,
+      "rank": 37,
+      "n_teams": 52
+    },
+    "cards_pg": {
+      "metric": "cards_pg",
+      "focus_value": 1.5714285714285714,
+      "mean": 1.7141689198140269,
+      "std": 0.5061249543163169,
+      "z": -0.28202590520017295,
+      "percentile": 42.30769230769231,
+      "rank": 28,
+      "n_teams": 52
+    },
+    "opp_cards_pg": {
+      "metric": "opp_cards_pg",
+      "focus_value": 2.1785714285714284,
+      "mean": 1.5693911877870015,
+      "std": 0.4766476413025428,
+      "z": 1.2780515164613218,
+      "percentile": 90.38461538461539,
+      "rank": 5,
+      "n_teams": 52
+    }
+  },
+  "strength_control": {
+    "slope": 0.03384350470526147,
+    "intercept": 0.11077146603571066,
+    "focus_gd_pg": 0.75,
+    "focus_pens_pg": 0.32142857142857145,
+    "focus_pred": 0.13615409456465677,
+    "focus_resid": 0.18527447686391468,
+    "resid_percentile": 94.23076923076923
+  },
+  "deviation": {
+    "fouls_p90": {
+      "metric": "fouls_p90",
+      "focus": "Argentina",
+      "n_games": 28,
+      "n_kept": 28,
+      "observed_mean_dev": 2.001488095238095,
+      "null_mean": 0.007451562499999875,
+      "null_std": 0.92094021010179,
+      "null_q05": -1.5081845238095237,
+      "null_q95": 1.511160714285714,
+      "z": 2.1652182311788706,
+      "p_one_sided": 0.015299235038248088,
+      "p_two_sided": 0.031098445077746114,
+      "pooled_all_teams_mean_dev": -1.2111523905001707e-16,
+      "argentina_rank": 5,
+      "n_opponents": 47
+    },
+    "cards_p90": {
+      "metric": "cards_p90",
+      "focus": "Argentina",
+      "n_games": 28,
+      "n_kept": 28,
+      "observed_mean_dev": 0.6458333333333334,
+      "null_mean": 0.0021086309523809456,
+      "null_std": 0.2617529987684406,
+      "null_q05": -0.4226190476190476,
+      "null_q95": 0.43749999999999994,
+      "z": 2.4592830088278093,
+      "p_one_sided": 0.008299585020748963,
+      "p_two_sided": 0.014249287535623219,
+      "pooled_all_teams_mean_dev": -2.523234146875356e-18,
+      "argentina_rank": 4,
+      "n_opponents": 47
+    },
+    "pens_conceded_p90": {
+      "metric": "pens_conceded_p90",
+      "focus": "Argentina",
+      "n_games": 28,
+      "n_kept": 28,
+      "observed_mean_dev": 0.14285714285714288,
+      "null_mean": 0.00021134672619048161,
+      "null_std": 0.06928761215672509,
+      "null_q05": -0.11011904761904759,
+      "null_q95": 0.11755952380952382,
+      "z": 2.0587489118299356,
+      "p_one_sided": 0.025398730063496824,
+      "p_two_sided": 0.03844807759612019,
+      "pooled_all_teams_mean_dev": 4.4156597570318725e-18,
+      "argentina_rank": 5,
+      "n_opponents": 47
+    }
+  },
+  "pens_by_stage_group": {
+    "group": {
+      "argentina_pg": 0.333,
+      "argentina_conceded_pg": 0.067,
+      "field_pg": 0.108,
+      "argentina_games": 15
+    },
+    "knockout": {
+      "argentina_pg": 0.308,
+      "argentina_conceded_pg": 0.231,
+      "field_pg": 0.144,
+      "argentina_games": 13
+    }
+  },
+  "significance_by_tournament": [
+    {
+      "tournament": 2010,
+      "n_games": 5,
+      "observed_mean_dev": -0.06400000000000003,
+      "z": -0.5340447823782862,
+      "p_one_sided": 0.6940652967351633,
+      "rank": 21,
+      "n_teams": 32
+    },
+    {
+      "tournament": 2014,
+      "n_games": 7,
+      "observed_mean_dev": -0.10166666666666668,
+      "z": -0.6773957596150949,
+      "p_one_sided": 0.7406629668516574,
+      "rank": 22,
+      "n_teams": 32
+    },
+    {
+      "tournament": 2018,
+      "n_games": 4,
+      "observed_mean_dev": 0.1505208333333333,
+      "z": 0.7135705799321305,
+      "p_one_sided": 0.2280385980700965,
+      "rank": 9,
+      "n_teams": 32
+    },
+    {
+      "tournament": 2022,
+      "n_games": 7,
+      "observed_mean_dev": 0.52375,
+      "z": 3.0103198889859,
+      "p_one_sided": 0.003649817509124544,
+      "rank": 1,
+      "n_teams": 32
+    },
+    {
+      "tournament": 2026,
+      "n_games": 5,
+      "observed_mean_dev": 0.4432083333333333,
+      "z": 2.7129790374128606,
+      "p_one_sided": 0.009349532523373831,
+      "rank": 2,
+      "n_teams": 48
+    }
+  ],
+  "argentina_pens_by_tournament": {
+    "2010": 0.0,
+    "2014": 0.0,
+    "2018": 0.25,
+    "2022": 0.714,
+    "2026": 0.6
+  },
+  "anomalies": {
+    "opponent_above_norm": "19/28",
+    "argentina_below_norm": "16/28",
+    "top5_pro_argentina": [
+      {
+        "label": "Iceland '18",
+        "stage": "Group Stage",
+        "net_swing": 1.65
+      },
+      {
+        "label": "Saudi Arabia '22",
+        "stage": "Group Stage",
+        "net_swing": 1.46
+      },
+      {
+        "label": "Netherlands '22",
+        "stage": "Quarter-finals",
+        "net_swing": 1.25
+      },
+      {
+        "label": "Croatia '22",
+        "stage": "Semi-finals",
+        "net_swing": 0.85
+      },
+      {
+        "label": "Jordan '26",
+        "stage": "Group Stage",
+        "net_swing": 0.8
+      }
+    ],
+    "most_against_argentina": [
+      {
+        "label": "Nigeria '18",
+        "stage": "Group Stage",
+        "net_swing": -1.08
+      }
+    ]
+  }
+}

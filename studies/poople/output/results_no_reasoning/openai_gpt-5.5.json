@@ -1,0 +1,1977 @@
+{
+  "ec0a73a8e66c": {
+    "word": "sown",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"sown\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"sown\",\n  \"changes\": [\n    {\"from\": \"sown\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"sown\",\"changes\":[{\"from\":\"sown\",\"to\":\"sook\"},{\"from\":\"sook\",\"to\":\"pook\"},{\"from\":\"pook\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "sown",
+          "sook",
+          "pook",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"sown\",\"changes\":[{\"from\":\"sown\",\"to\":\"town\"},{\"from\":\"town\",\"to\":\"toon\"},{\"from\":\"toon\",\"to\":\"poon\"},{\"from\":\"poon\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 1,
+        "ladder": [
+          "sown",
+          "town",
+          "toon",
+          "poon",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"sown\",\"changes\":[{\"from\":\"sown\",\"to\":\"soon\"},{\"from\":\"soon\",\"to\":\"poon\"},{\"from\":\"poon\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "sown",
+          "soon",
+          "poon",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "3e7c706e844b": {
+    "word": "nosh",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"nosh\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"nosh\",\n  \"changes\": [\n    {\"from\": \"nosh\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"nosh\",\"changes\":[{\"from\":\"nosh\",\"to\":\"posh\"},{\"from\":\"posh\",\"to\":\"pooh\"},{\"from\":\"pooh\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "nosh",
+          "posh",
+          "pooh",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"nosh\",\"changes\":[{\"from\":\"nosh\",\"to\":\"posh\"},{\"from\":\"posh\",\"to\":\"pooh\"},{\"from\":\"pooh\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "nosh",
+          "posh",
+          "pooh",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"nosh\",\"changes\":[{\"from\":\"nosh\",\"to\":\"posh\"},{\"from\":\"posh\",\"to\":\"post\"},{\"from\":\"post\",\"to\":\"poet\"},{\"from\":\"poet\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "nosh",
+          "posh",
+          "post",
+          "poet",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "c0ad555eed9b": {
+    "word": "eros",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"eros\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"eros\",\n  \"changes\": [\n    {\"from\": \"eros\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"eros\",\"changes\":[{\"from\":\"eros\",\"to\":\"epos\"},{\"from\":\"epos\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "eros",
+          "epos",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"eros\",\"changes\":[{\"from\":\"eros\",\"to\":\"epos\"},{\"from\":\"epos\",\"to\":\"epos\"},{\"from\":\"epos\",\"to\":\"epop\"},{\"from\":\"epop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 3,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "eros",
+          "epos",
+          "epos",
+          "epop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"eros\",\"changes\":[{\"from\":\"eros\",\"to\":\"pros\"},{\"from\":\"pros\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "eros",
+          "pros",
+          "poos",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "9b82ff5bbfb1": {
+    "word": "trow",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"trow\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"trow\",\n  \"changes\": [\n    {\"from\": \"trow\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"trow\",\"changes\":[{\"from\":\"trow\",\"to\":\"trop\"},{\"from\":\"trop\",\"to\":\"prop\"},{\"from\":\"prop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "trow",
+          "trop",
+          "prop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"trow\",\"changes\":[{\"from\":\"trow\",\"to\":\"trop\"},{\"from\":\"trop\",\"to\":\"prop\"},{\"from\":\"prop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "trow",
+          "trop",
+          "prop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"trow\",\"changes\":[{\"from\":\"trow\",\"to\":\"trop\"},{\"from\":\"trop\",\"to\":\"prop\"},{\"from\":\"prop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "trow",
+          "trop",
+          "prop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "7084d124bfae": {
+    "word": "tump",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"tump\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"tump\",\n  \"changes\": [\n    {\"from\": \"tump\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"tump\",\"changes\":[{\"from\":\"tump\",\"to\":\"pump\"},{\"from\":\"pump\",\"to\":\"pomp\"},{\"from\":\"pomp\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "tump",
+          "pump",
+          "pomp",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"tump\",\"changes\":[{\"from\":\"tump\",\"to\":\"pump\"},{\"from\":\"pump\",\"to\":\"pomp\"},{\"from\":\"pomp\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "tump",
+          "pump",
+          "pomp",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"tump\",\"changes\":[{\"from\":\"tump\",\"to\":\"pump\"},{\"from\":\"pump\",\"to\":\"pomp\"},{\"from\":\"pomp\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "tump",
+          "pump",
+          "pomp",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "885f0b64b815": {
+    "word": "roms",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"roms\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"roms\",\n  \"changes\": [\n    {\"from\": \"roms\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"roms\",\"changes\":[{\"from\":\"roms\",\"to\":\"rods\"},{\"from\":\"rods\",\"to\":\"pods\"},{\"from\":\"pods\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "roms",
+          "rods",
+          "pods",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"roms\",\"changes\":[{\"from\":\"roms\",\"to\":\"roos\"},{\"from\":\"roos\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "roms",
+          "roos",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"roms\",\"changes\":[{\"from\":\"roms\",\"to\":\"romp\"},{\"from\":\"romp\",\"to\":\"room\"},{\"from\":\"room\",\"to\":\"loom\"},{\"from\":\"loom\",\"to\":\"loop\"},{\"from\":\"loop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "roms",
+          "romp",
+          "room",
+          "loom",
+          "loop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "5a32af379a3f": {
+    "word": "pima",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"pima\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"pima\",\n  \"changes\": [\n    {\"from\": \"pima\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"pima\",\"changes\":[{\"from\":\"pima\",\"to\":\"pimp\"},{\"from\":\"pimp\",\"to\":\"pomp\"},{\"from\":\"pomp\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "pima",
+          "pimp",
+          "pomp",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"pima\",\"changes\":[{\"from\":\"pima\",\"to\":\"pimp\"},{\"from\":\"pimp\",\"to\":\"pomp\"},{\"from\":\"pomp\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "pima",
+          "pimp",
+          "pomp",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"pima\",\"changes\":[{\"from\":\"pima\",\"to\":\"pica\"},{\"from\":\"pica\",\"to\":\"pice\"},{\"from\":\"pice\",\"to\":\"pipe\"},{\"from\":\"pipe\",\"to\":\"pope\"},{\"from\":\"pope\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "pima",
+          "pica",
+          "pice",
+          "pipe",
+          "pope",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "bd38de7d3c38": {
+    "word": "cobs",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"cobs\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"cobs\",\n  \"changes\": [\n    {\"from\": \"cobs\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"cobs\",\"changes\":[{\"from\":\"cobs\",\"to\":\"coos\"},{\"from\":\"coos\",\"to\":\"coop\"},{\"from\":\"coop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "cobs",
+          "coos",
+          "coop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"cobs\",\"changes\":[{\"from\":\"cobs\",\"to\":\"cops\"},{\"from\":\"cops\",\"to\":\"coops\"},{\"from\":\"coops\",\"to\":\"poops\"},{\"from\":\"poops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 3,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "cobs",
+          "cops",
+          "coops",
+          "poops",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"cobs\",\"changes\":[{\"from\":\"cobs\",\"to\":\"cops\"},{\"from\":\"cops\",\"to\":\"coos\"},{\"from\":\"coos\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "cobs",
+          "cops",
+          "coos",
+          "poos",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "18695523571a": {
+    "word": "cods",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"cods\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"cods\",\n  \"changes\": [\n    {\"from\": \"cods\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"cods\",\"changes\":[{\"from\":\"cods\",\"to\":\"cops\"},{\"from\":\"cops\",\"to\":\"coops\"},{\"from\":\"coops\",\"to\":\"poops\"},{\"from\":\"poops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 3,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "cods",
+          "cops",
+          "coops",
+          "poops",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"cods\",\"changes\":[{\"from\":\"cods\",\"to\":\"cops\"},{\"from\":\"cops\",\"to\":\"coos\"},{\"from\":\"coos\",\"to\":\"coop\"},{\"from\":\"coop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 1,
+        "ladder": [
+          "cods",
+          "cops",
+          "coos",
+          "coop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"cods\",\"changes\":[{\"from\":\"cods\",\"to\":\"cops\"},{\"from\":\"cops\",\"to\":\"coos\"},{\"from\":\"coos\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "cods",
+          "cops",
+          "coos",
+          "poos",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "a5073c54fd60": {
+    "word": "peak",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"peak\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"peak\",\n  \"changes\": [\n    {\"from\": \"peak\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"peak\",\"changes\":[{\"from\":\"peak\",\"to\":\"peck\"},{\"from\":\"peck\",\"to\":\"pock\"},{\"from\":\"pock\",\"to\":\"pook\"},{\"from\":\"pook\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "peak",
+          "peck",
+          "pock",
+          "pook",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"peak\",\"changes\":[{\"from\":\"peak\",\"to\":\"peck\"},{\"from\":\"peck\",\"to\":\"pick\"},{\"from\":\"pick\",\"to\":\"pock\"},{\"from\":\"pock\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "peak",
+          "peck",
+          "pick",
+          "pock",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"peak\",\"changes\":[{\"from\":\"peak\",\"to\":\"peck\"},{\"from\":\"peck\",\"to\":\"pock\"},{\"from\":\"pock\",\"to\":\"pook\"},{\"from\":\"pook\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "peak",
+          "peck",
+          "pock",
+          "pook",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "95d802ca644a": {
+    "word": "vrow",
+    "par": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"vrow\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"vrow\",\n  \"changes\": [\n    {\"from\": \"vrow\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"vrow\",\"changes\":[{\"from\":\"vrow\",\"to\":\"brow\"},{\"from\":\"brow\",\"to\":\"blow\"},{\"from\":\"blow\",\"to\":\"plow\"},{\"from\":\"plow\",\"to\":\"ploy\"},{\"from\":\"ploy\",\"to\":\"plop\"},{\"from\":\"plop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 6,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 3,
+        "ladder": [
+          "vrow",
+          "brow",
+          "blow",
+          "plow",
+          "ploy",
+          "plop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"vrow\",\"changes\":[{\"from\":\"vrow\",\"to\":\"brow\"},{\"from\":\"brow\",\"to\":\"blow\"},{\"from\":\"blow\",\"to\":\"plow\"},{\"from\":\"plow\",\"to\":\"plop\"},{\"from\":\"plop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 2,
+        "ladder": [
+          "vrow",
+          "brow",
+          "blow",
+          "plow",
+          "plop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"vrow\",\"changes\":[{\"from\":\"vrow\",\"to\":\"brow\"},{\"from\":\"brow\",\"to\":\"blow\"},{\"from\":\"blow\",\"to\":\"plow\"},{\"from\":\"plow\",\"to\":\"ploy\"},{\"from\":\"ploy\",\"to\":\"plop\"},{\"from\":\"plop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 3,
+        "parsed": true,
+        "num_moves": 6,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 3,
+        "ladder": [
+          "vrow",
+          "brow",
+          "blow",
+          "plow",
+          "ploy",
+          "plop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "e2ac50d34250": {
+    "word": "sobs",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"sobs\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"sobs\",\n  \"changes\": [\n    {\"from\": \"sobs\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"sobs\",\"changes\":[{\"from\":\"sobs\",\"to\":\"sops\"},{\"from\":\"sops\",\"to\":\"soop\"},{\"from\":\"soop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "sobs",
+          "sops",
+          "soop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"sobs\",\"changes\":[{\"from\":\"sobs\",\"to\":\"sops\"},{\"from\":\"sops\",\"to\":\"soos\"},{\"from\":\"soos\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "sobs",
+          "sops",
+          "soos",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"sobs\",\"changes\":[{\"from\":\"sobs\",\"to\":\"sops\"},{\"from\":\"sops\",\"to\":\"soop\"},{\"from\":\"soop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "sobs",
+          "sops",
+          "soop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "b7d2cbb60a1c": {
+    "word": "pets",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"pets\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"pets\",\n  \"changes\": [\n    {\"from\": \"pets\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"pets\",\"changes\":[{\"from\":\"pets\",\"to\":\"pits\"},{\"from\":\"pits\",\"to\":\"pots\"},{\"from\":\"pots\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "pets",
+          "pits",
+          "pots",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"pets\",\"changes\":[{\"from\":\"pets\",\"to\":\"pits\"},{\"from\":\"pits\",\"to\":\"pips\"},{\"from\":\"pips\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "pets",
+          "pits",
+          "pips",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"pets\",\"changes\":[{\"from\":\"pets\",\"to\":\"pits\"},{\"from\":\"pits\",\"to\":\"pips\"},{\"from\":\"pips\",\"to\":\"pops\"},{\"from\":\"pops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "pets",
+          "pits",
+          "pips",
+          "pops",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "8b307313f238": {
+    "word": "roan",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"roan\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"roan\",\n  \"changes\": [\n    {\"from\": \"roan\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"roan\",\"changes\":[{\"from\":\"roan\",\"to\":\"roam\"},{\"from\":\"roam\",\"to\":\"room\"},{\"from\":\"room\",\"to\":\"boom\"},{\"from\":\"boom\",\"to\":\"boop\"},{\"from\":\"boop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "roan",
+          "roam",
+          "room",
+          "boom",
+          "boop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"roan\",\"changes\":[{\"from\":\"roan\",\"to\":\"loan\"},{\"from\":\"loan\",\"to\":\"loon\"},{\"from\":\"loon\",\"to\":\"poon\"},{\"from\":\"poon\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 0,
+        "ladder": [
+          "roan",
+          "loan",
+          "loon",
+          "poon",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"roan\",\"changes\":[{\"from\":\"roan\",\"to\":\"loan\"},{\"from\":\"loan\",\"to\":\"loon\"},{\"from\":\"loon\",\"to\":\"loot\"},{\"from\":\"loot\",\"to\":\"poot\"},{\"from\":\"poot\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "roan",
+          "loan",
+          "loon",
+          "loot",
+          "poot",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "7e13de1e7371": {
+    "word": "dram",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"dram\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"dram\",\n  \"changes\": [\n    {\"from\": \"dram\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"dram\",\"changes\":[{\"from\":\"dram\",\"to\":\"pram\"},{\"from\":\"pram\",\"to\":\"prom\"},{\"from\":\"prom\",\"to\":\"poom\"},{\"from\":\"poom\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "dram",
+          "pram",
+          "prom",
+          "poom",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"dram\",\"changes\":[{\"from\":\"dram\",\"to\":\"pram\"},{\"from\":\"pram\",\"to\":\"prom\"},{\"from\":\"prom\",\"to\":\"poem\"},{\"from\":\"poem\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "dram",
+          "pram",
+          "prom",
+          "poem",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"dram\",\"changes\":[{\"from\":\"dram\",\"to\":\"pram\"},{\"from\":\"pram\",\"to\":\"prat\"},{\"from\":\"prat\",\"to\":\"peat\"},{\"from\":\"peat\",\"to\":\"peet\"},{\"from\":\"peet\",\"to\":\"poet\"},{\"from\":\"poet\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 6,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "dram",
+          "pram",
+          "prat",
+          "peat",
+          "peet",
+          "poet",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "b606790e8e1e": {
+    "word": "lobo",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"lobo\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"lobo\",\n  \"changes\": [\n    {\"from\": \"lobo\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"lobo\",\"changes\":[{\"from\":\"lobo\",\"to\":\"hobo\"},{\"from\":\"hobo\",\"to\":\"hoop\"},{\"from\":\"hoop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "lobo",
+          "hobo",
+          "hoop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"lobo\",\"changes\":[{\"from\":\"lobo\",\"to\":\"hobo\"},{\"from\":\"hobo\",\"to\":\"hoop\"},{\"from\":\"hoop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "lobo",
+          "hobo",
+          "hoop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"lobo\",\"changes\":[{\"from\":\"lobo\",\"to\":\"hobo\"},{\"from\":\"hobo\",\"to\":\"hoop\"},{\"from\":\"hoop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "lobo",
+          "hobo",
+          "hoop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "09c1763c3d11": {
+    "word": "hows",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"hows\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"hows\",\n  \"changes\": [\n    {\"from\": \"hows\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"hows\",\"changes\":[{\"from\":\"hows\",\"to\":\"hops\"},{\"from\":\"hops\",\"to\":\"hoop\"},{\"from\":\"hoop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "hows",
+          "hops",
+          "hoop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"hows\",\"changes\":[{\"from\":\"hows\",\"to\":\"hops\"},{\"from\":\"hops\",\"to\":\"hoop\"},{\"from\":\"hoop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "hows",
+          "hops",
+          "hoop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"hows\",\"changes\":[{\"from\":\"hows\",\"to\":\"hops\"},{\"from\":\"hops\",\"to\":\"hoop\"},{\"from\":\"hoop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "hows",
+          "hops",
+          "hoop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "5d768a00e8a8": {
+    "word": "soil",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"soil\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"soil\",\n  \"changes\": [\n    {\"from\": \"soil\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"soil\",\"changes\":[{\"from\":\"soil\",\"to\":\"sool\"},{\"from\":\"sool\",\"to\":\"pool\"},{\"from\":\"pool\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "soil",
+          "sool",
+          "pool",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"soil\",\"changes\":[{\"from\":\"soil\",\"to\":\"sool\"},{\"from\":\"sool\",\"to\":\"pool\"},{\"from\":\"pool\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "soil",
+          "sool",
+          "pool",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"soil\",\"changes\":[{\"from\":\"soil\",\"to\":\"sool\"},{\"from\":\"sool\",\"to\":\"pool\"},{\"from\":\"pool\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "soil",
+          "sool",
+          "pool",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "4f8bba37dd7e": {
+    "word": "yowl",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"yowl\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"yowl\",\n  \"changes\": [\n    {\"from\": \"yowl\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"yowl\",\"changes\":[{\"from\":\"yowl\",\"to\":\"bowl\"},{\"from\":\"bowl\",\"to\":\"bool\"},{\"from\":\"bool\",\"to\":\"boop\"},{\"from\":\"boop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "yowl",
+          "bowl",
+          "bool",
+          "boop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"yowl\",\"changes\":[{\"from\":\"yowl\",\"to\":\"bowl\"},{\"from\":\"bowl\",\"to\":\"bool\"},{\"from\":\"bool\",\"to\":\"boop\"},{\"from\":\"boop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "yowl",
+          "bowl",
+          "bool",
+          "boop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"yowl\",\"changes\":[{\"from\":\"yowl\",\"to\":\"bowl\"},{\"from\":\"bowl\",\"to\":\"bool\"},{\"from\":\"bool\",\"to\":\"boob\"},{\"from\":\"boob\",\"to\":\"poob\"},{\"from\":\"poob\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "yowl",
+          "bowl",
+          "bool",
+          "boob",
+          "poob",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "6b6d5434e52d": {
+    "word": "hame",
+    "par": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"hame\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"hame\",\n  \"changes\": [\n    {\"from\": \"hame\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"hame\",\"changes\":[{\"from\":\"hame\",\"to\":\"came\"},{\"from\":\"came\",\"to\":\"camp\"},{\"from\":\"camp\",\"to\":\"comp\"},{\"from\":\"comp\",\"to\":\"coop\"},{\"from\":\"coop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 0,
+        "reached_target": true,
+        "solved": true,
+        "over_par": 1,
+        "ladder": [
+          "hame",
+          "came",
+          "camp",
+          "comp",
+          "coop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"hame\",\"changes\":[{\"from\":\"hame\",\"to\":\"home\"},{\"from\":\"home\",\"to\":\"come\"},{\"from\":\"come\",\"to\":\"cope\"},{\"from\":\"cope\",\"to\":\"pope\"},{\"from\":\"pope\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "hame",
+          "home",
+          "come",
+          "cope",
+          "pope",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"hame\",\"changes\":[{\"from\":\"hame\",\"to\":\"ham\"},{\"from\":\"ham\",\"to\":\"pom\"},{\"from\":\"pom\",\"to\":\"poo\"},{\"from\":\"poo\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 4,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 4,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "hame",
+          "ham",
+          "pom",
+          "poo",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "00ae3b9e5ec9": {
+    "word": "kors",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"kors\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"kors\",\n  \"changes\": [\n    {\"from\": \"kors\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"kors\",\"changes\":[{\"from\":\"kors\",\"to\":\"koas\"},{\"from\":\"koas\",\"to\":\"koap\"},{\"from\":\"koap\",\"to\":\"poap\"},{\"from\":\"poap\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "kors",
+          "koas",
+          "koap",
+          "poap",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"kors\",\"changes\":[{\"from\":\"kors\",\"to\":\"kois\"},{\"from\":\"kois\",\"to\":\"pois\"},{\"from\":\"pois\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "kors",
+          "kois",
+          "pois",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"kors\",\"changes\":[{\"from\":\"kors\",\"to\":\"kops\"},{\"from\":\"kops\",\"to\":\"oops\"},{\"from\":\"oops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "kors",
+          "kops",
+          "oops",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "c06675659219": {
+    "word": "spun",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"spun\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"spun\",\n  \"changes\": [\n    {\"from\": \"spun\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"spun\",\"changes\":[{\"from\":\"spun\",\"to\":\"spue\"},{\"from\":\"spue\",\"to\":\"spoe\"},{\"from\":\"spoe\",\"to\":\"pooe\"},{\"from\":\"pooe\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "spun",
+          "spue",
+          "spoe",
+          "pooe",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"spun\",\"changes\":[{\"from\":\"spun\",\"to\":\"spud\"},{\"from\":\"spud\",\"to\":\"spod\"},{\"from\":\"spod\",\"to\":\"sood\"},{\"from\":\"sood\",\"to\":\"soop\"},{\"from\":\"soop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 3,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "spun",
+          "spud",
+          "spod",
+          "sood",
+          "soop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"spun\",\"changes\":[{\"from\":\"spun\",\"to\":\"spud\"},{\"from\":\"spud\",\"to\":\"spod\"},{\"from\":\"spod\",\"to\":\"spop\"},{\"from\":\"spop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 3,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "spun",
+          "spud",
+          "spod",
+          "spop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "9d20d629c9c9": {
+    "word": "mina",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"mina\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"mina\",\n  \"changes\": [\n    {\"from\": \"mina\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\n  \"start_word\": \"mina\",\n  \"changes\": [\n    {\n      \"from\": \"mina\",\n      \"to\": \"mina\"\n    }\n  ]\n}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 1,
+        "illegal_moves": 1,
+        "reached_target": false,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "mina",
+          "mina"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"mina\",\"changes\":[{\"from\":\"mina\",\"to\":\"mina\"},{\"from\":\"mina\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 2,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "mina",
+          "mina",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"mina\",\"changes\":[{\"from\":\"mina\",\"to\":\"mina\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 1,
+        "illegal_moves": 1,
+        "reached_target": false,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "mina",
+          "mina"
+        ]
+      }
+    ]
+  },
+  "6d5ef701febd": {
+    "word": "muss",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"muss\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"muss\",\n  \"changes\": [\n    {\"from\": \"muss\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"muss\",\"changes\":[{\"from\":\"muss\",\"to\":\"moss\"},{\"from\":\"moss\",\"to\":\"moos\"},{\"from\":\"moos\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "muss",
+          "moss",
+          "moos",
+          "poos",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"muss\",\"changes\":[{\"from\":\"muss\",\"to\":\"moss\"},{\"from\":\"moss\",\"to\":\"moos\"},{\"from\":\"moos\",\"to\":\"moop\"},{\"from\":\"moop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "muss",
+          "moss",
+          "moos",
+          "moop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"muss\",\"changes\":[{\"from\":\"muss\",\"to\":\"muse\"},{\"from\":\"muse\",\"to\":\"mute\"},{\"from\":\"mute\",\"to\":\"mote\"},{\"from\":\"mote\",\"to\":\"mope\"},{\"from\":\"mope\",\"to\":\"pope\"},{\"from\":\"pope\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 6,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "muss",
+          "muse",
+          "mute",
+          "mote",
+          "mope",
+          "pope",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "2a9c262bb216": {
+    "word": "gyms",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"gyms\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"gyms\",\n  \"changes\": [\n    {\"from\": \"gyms\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"gyms\",\"changes\":[{\"from\":\"gyms\",\"to\":\"gems\"},{\"from\":\"gems\",\"to\":\"gimp\"},{\"from\":\"gimp\",\"to\":\"pimp\"},{\"from\":\"pimp\",\"to\":\"pomp\"},{\"from\":\"pomp\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "gyms",
+          "gems",
+          "gimp",
+          "pimp",
+          "pomp",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"gyms\",\"changes\":[{\"from\":\"gyms\",\"to\":\"gams\"},{\"from\":\"gams\",\"to\":\"gaps\"},{\"from\":\"gaps\",\"to\":\"gops\"},{\"from\":\"gops\",\"to\":\"goop\"},{\"from\":\"goop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "gyms",
+          "gams",
+          "gaps",
+          "gops",
+          "goop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"gyms\",\"changes\":[{\"from\":\"gyms\",\"to\":\"gams\"},{\"from\":\"gams\",\"to\":\"gaps\"},{\"from\":\"gaps\",\"to\":\"paps\"},{\"from\":\"paps\",\"to\":\"pops\"},{\"from\":\"pops\",\"to\":\"poos\"},{\"from\":\"poos\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 6,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "gyms",
+          "gams",
+          "gaps",
+          "paps",
+          "pops",
+          "poos",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "98904c15c5de": {
+    "word": "lure",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"lure\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"lure\",\n  \"changes\": [\n    {\"from\": \"lure\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"lure\",\"changes\":[{\"from\":\"lure\",\"to\":\"pure\"},{\"from\":\"pure\",\"to\":\"pore\"},{\"from\":\"pore\",\"to\":\"pope\"},{\"from\":\"pope\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "lure",
+          "pure",
+          "pore",
+          "pope",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"lure\",\"changes\":[{\"from\":\"lure\",\"to\":\"pure\"},{\"from\":\"pure\",\"to\":\"pore\"},{\"from\":\"pore\",\"to\":\"pope\"},{\"from\":\"pope\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "lure",
+          "pure",
+          "pore",
+          "pope",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"lure\",\"changes\":[{\"from\":\"lure\",\"to\":\"pure\"},{\"from\":\"pure\",\"to\":\"pore\"},{\"from\":\"pore\",\"to\":\"pope\"},{\"from\":\"pope\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "lure",
+          "pure",
+          "pore",
+          "pope",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "67f1f784d514": {
+    "word": "oars",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"oars\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"oars\",\n  \"changes\": [\n    {\"from\": \"oars\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"oars\",\"changes\":[{\"from\":\"oars\",\"to\":\"oats\"},{\"from\":\"oats\",\"to\":\"opts\"},{\"from\":\"opts\",\"to\":\"oops\"},{\"from\":\"oops\",\"to\":\"poops\"},{\"from\":\"poops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 3,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "oars",
+          "oats",
+          "opts",
+          "oops",
+          "poops",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"oars\",\"changes\":[{\"from\":\"oars\",\"to\":\"pars\"},{\"from\":\"pars\",\"to\":\"para\"},{\"from\":\"para\",\"to\":\"papa\"},{\"from\":\"papa\",\"to\":\"pupa\"},{\"from\":\"pupa\",\"to\":\"pups\"},{\"from\":\"pups\",\"to\":\"pops\"},{\"from\":\"pops\",\"to\":\"poops\"},{\"from\":\"poops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 8,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "oars",
+          "pars",
+          "para",
+          "papa",
+          "pupa",
+          "pups",
+          "pops",
+          "poops",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"oars\",\"changes\":[{\"from\":\"oars\",\"to\":\"boars\"},{\"from\":\"boars\",\"to\":\"boors\"},{\"from\":\"boors\",\"to\":\"boops\"},{\"from\":\"boops\",\"to\":\"poops\"},{\"from\":\"poops\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 5,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "oars",
+          "boars",
+          "boors",
+          "boops",
+          "poops",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "d08efd229d1a": {
+    "word": "suns",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"suns\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"suns\",\n  \"changes\": [\n    {\"from\": \"suns\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"suns\",\"changes\":[{\"from\":\"suns\",\"to\":\"puns\"},{\"from\":\"puns\",\"to\":\"puns\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 2,
+        "illegal_moves": 1,
+        "reached_target": false,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "suns",
+          "puns",
+          "puns"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"suns\",\"changes\":[{\"from\":\"suns\",\"to\":\"puns\"},{\"from\":\"puns\",\"to\":\"pups\"},{\"from\":\"pups\",\"to\":\"pops\"},{\"from\":\"pops\",\"to\":\"poops\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 4,
+        "illegal_moves": 1,
+        "reached_target": false,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "suns",
+          "puns",
+          "pups",
+          "pops",
+          "poops"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"suns\",\"changes\":[{\"from\":\"suns\",\"to\":\"sups\"},{\"from\":\"sups\",\"to\":\"cups\"},{\"from\":\"cups\",\"to\":\"cops\"},{\"from\":\"cops\",\"to\":\"coop\"},{\"from\":\"coop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "suns",
+          "sups",
+          "cups",
+          "cops",
+          "coop",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "483452d925f8": {
+    "word": "reft",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"reft\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"reft\",\n  \"changes\": [\n    {\"from\": \"reft\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"reft\",\"changes\":[{\"from\":\"reft\",\"to\":\"raft\"},{\"from\":\"raft\",\"to\":\"rapt\"},{\"from\":\"rapt\",\"to\":\"ropt\"},{\"from\":\"ropt\",\"to\":\"root\"},{\"from\":\"root\",\"to\":\"poot\"},{\"from\":\"poot\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 6,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "reft",
+          "raft",
+          "rapt",
+          "ropt",
+          "root",
+          "poot",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"reft\",\"changes\":[{\"from\":\"reft\",\"to\":\"raft\"},{\"from\":\"raft\",\"to\":\"rapt\"},{\"from\":\"rapt\",\"to\":\"rapt\"},{\"from\":\"rapt\",\"to\":\"raps\"},{\"from\":\"raps\",\"to\":\"saps\"},{\"from\":\"saps\",\"to\":\"sops\"},{\"from\":\"sops\",\"to\":\"soop\"},{\"from\":\"soop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 8,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "reft",
+          "raft",
+          "rapt",
+          "rapt",
+          "raps",
+          "saps",
+          "sops",
+          "soop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"reft\",\"changes\":[{\"from\":\"reft\",\"to\":\"raft\"},{\"from\":\"raft\",\"to\":\"rift\"},{\"from\":\"rift\",\"to\":\"roft\"},{\"from\":\"roft\",\"to\":\"root\"},{\"from\":\"root\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 2,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "reft",
+          "raft",
+          "rift",
+          "roft",
+          "root",
+          "poop"
+        ]
+      }
+    ]
+  },
+  "9accd4d5876b": {
+    "word": "shew",
+    "par": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are playing Poople, a word ladder puzzle.\n\nRules:\n- You begin from a given four-letter word.\n- On each step, change EXACTLY ONE letter to make a new word (you may not add, remove, or reorder letters — every word stays four letters long).\n- Every word along the way, including the last one, must be a valid four-letter word in a standard Scrabble / word-game dictionary — common English words only, with no proper nouns, abbreviations, contractions, or slang.\n- Continue until you reach the word \"poop\".\n- Solve it in as FEW steps as possible.\n\nYour start word is: \"shew\"\n\nAnswer in one shot: do NOT think out loud, reason step by step, or write anything before or after the JSON. Your entire reply must be the JSON object only — no markdown fences, no commentary — beginning with '{' and ending with '}', in exactly this shape:\n{\n  \"start_word\": \"shew\",\n  \"changes\": [\n    {\"from\": \"shew\", \"to\": \"<word after changing one letter>\"},\n    {\"from\": \"<previous word>\", \"to\": \"<next word>\"},\n    {\"from\": \"<word before poop>\", \"to\": \"poop\"}\n  ]\n}"
+      }
+    ],
+    "results": [
+      {
+        "response": "{\"start_word\":\"shew\",\"changes\":[{\"from\":\"shew\",\"to\":\"show\"},{\"from\":\"show\",\"to\":\"shop\"},{\"from\":\"shop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "shew",
+          "show",
+          "shop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"shew\",\"changes\":[{\"from\":\"shew\",\"to\":\"show\"},{\"from\":\"show\",\"to\":\"shop\"},{\"from\":\"shop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 3,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "shew",
+          "show",
+          "shop",
+          "poop"
+        ]
+      },
+      {
+        "response": "{\"start_word\":\"shew\",\"changes\":[{\"from\":\"shew\",\"to\":\"show\"},{\"from\":\"show\",\"to\":\"shot\"},{\"from\":\"shot\",\"to\":\"soot\"},{\"from\":\"soot\",\"to\":\"soop\"},{\"from\":\"soop\",\"to\":\"poop\"}]}",
+        "error": null,
+        "par": 5,
+        "parsed": true,
+        "num_moves": 5,
+        "illegal_moves": 1,
+        "reached_target": true,
+        "solved": false,
+        "over_par": null,
+        "ladder": [
+          "shew",
+          "show",
+          "shot",
+          "soot",
+          "soop",
+          "poop"
+        ]
+      }
+    ]
+  }
+}

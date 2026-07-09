@@ -49,6 +49,8 @@ async def _run_arm_iteration(
     """
     user_turns = _build_user_turns(scenario, arm)
     messages: list[dict] = []
+    if arm.system is not None:
+        messages.append({"role": "system", "content": arm.system})
     final_response: str | None = None
     last_error: Exception | None = None
 

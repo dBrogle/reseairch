@@ -1,0 +1,152 @@
+{
+  "a6749d1dc5f1": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "你是什么模型"
+      }
+    ],
+    "results": [
+      {
+        "response": "我是由 Google 训练的大型语言模型，我的名字是 Gemini。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "unknown"
+      },
+      {
+        "response": "我是由 Google 开发的大型语言模型。你可以把我当作你的虚拟助手，我可以帮你解答问题、翻译文本、创作内容、编写代码以及进行各种日常交流。\n\n有什么我可以帮你的吗？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "unknown"
+      },
+      {
+        "response": "我是 **Gemini**，是由 Google 训练的大型语言模型。你可以把我当作你的虚拟助手，我能帮你解答问题、编写代码、创作文章、翻译语言以及进行各种日常交流。有什么我可以帮你的吗？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 开发的大型语言模型，我的名字是 Gemini。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "unknown"
+      },
+      {
+        "response": "我是 **Gemini**，是由 Google 开发的大型语言模型。\n\n有什么我可以帮您的吗？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 开发的大型语言模型。你可以把我当成你的 AI 助手，我可以用中文及多种其他语言与你交流，帮助你解答问题、写作、翻译、分析数据以及进行创意创作等。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 开发的大型语言模型，我的名字是 Gemini。我可以帮你回答问题、编写代码、翻译文本、创作内容等。有什么我可以帮你的吗？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型，我的名字是 Gemini。\n\n有什么我可以帮您的？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。我旨在协助您回答问题、生成文本、翻译语言以及完成各种任务。有什么我可以帮您的吗？",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      }
+    ]
+  }
+}

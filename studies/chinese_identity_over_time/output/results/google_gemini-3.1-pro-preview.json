@@ -1,0 +1,152 @@
+{
+  "a6749d1dc5f1": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "你是什么模型"
+      }
+    ],
+    "results": [
+      {
+        "response": "我是 Gemini，是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "unknown"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型 Gemini。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "unknown"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，由 Google 开发的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 开发的大语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      },
+      {
+        "response": "我是 Gemini，是由 Google 训练的大型语言模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Gemini"
+      }
+    ]
+  }
+}

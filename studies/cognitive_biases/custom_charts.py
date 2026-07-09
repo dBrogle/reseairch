@@ -62,10 +62,21 @@ _ANCHOR_META: dict[str, dict] = {
 }
 
 # Scenarios whose generic (treatment-vs-control) delta chart is suppressed.
-SKIP_GENERIC_DELTA: set[str] = set(_ANCHOR_META.keys())
+# The sticker scenarios use a no-price control as a visual reference only;
+# the random-number scenario has dozens of anchor arms and is analysed by
+# regression, so a per-arm-vs-control delta chart is meaningless.
+SKIP_GENERIC_DELTA: set[str] = set(_ANCHOR_META.keys()) | {"anchoring_random_number"}
+
+# Scenarios whose generic per-arm dot+CI chart is suppressed. The
+# random-number scenario has ~25 anchor arms × every model, which would
+# render as an unreadable wall of rows; its custom correlation chart is
+# the right view instead.
+SKIP_GENERIC_PERARM: set[str] = {"anchoring_random_number"}
 
 _POSITIVE_COLOR = "#27AE60"  # high anchor pulled UP vs low anchor (green)
 _NEGATIVE_COLOR = "#C0392B"  # high anchor pulled DOWN vs low anchor (red)
+
+_TREATMENT_SCATTER = "#2E86C1"  # blue scatter points in the correlation chart
 
 
 def _anchor_summary(
@@ -321,6 +332,130 @@ def _anchor_hi_lo_delta(
 
 
 # ---------------------------------------------------------------------------
+# Random-number anchoring (correlation design)
+#
+# Dozens of anchor arms, each with a different trailing-two-digit phone
+# number; the score is the model's wine valuation. We regress the trailing
+# digits (x, 0–99) against the price (y) per model: a positive slope / high
+# R² means the model anchors on a number it stated itself.
+# ---------------------------------------------------------------------------
+
+def _anchor_digits_from_key(arm_key: str) -> int | None:
+    """'anchor_07' -> 7; None for the control (or any non-anchor) arm.
+
+    Mirrors `anchor_random_number.anchor_digits`; kept local so the chart
+    layer doesn't import scenario modules.
+    """
+    if not arm_key.startswith("anchor_"):
+        return None
+    try:
+        return int(arm_key.split("_", 1)[1])
+    except ValueError:
+        return None
+
+
+def _ols_fit(xs: list[float], ys: list[float]) -> tuple[float, float, float]:
+    """Ordinary least-squares line. Returns (slope, intercept, r_squared)."""
+    x = np.asarray(xs, dtype=float)
+    y = np.asarray(ys, dtype=float)
+    slope, intercept = np.polyfit(x, y, 1)
+    pred = slope * x + intercept
+    ss_res = float(np.sum((y - pred) ** 2))
+    ss_tot = float(np.sum((y - y.mean()) ** 2))
+    r2 = 1.0 - ss_res / ss_tot if ss_tot > 0 else float("nan")
+    return float(slope), float(intercept), r2
+
+
+def _random_anchor_correlation(
+    scenario: Scenario,
+    all_stats: list[dict],
+    save_path: Path,
+) -> None:
+    """Grid of per-model scatter plots: trailing phone digits vs. price.
+
+    One subplot per model with data: every replicate (digit, price) point,
+    an OLS trendline annotated with slope (USD per digit) and R², and the
+    name-readback control mean drawn as a dashed horizontal reference.
+    """
+    # Collect per-model (digits, prices) point clouds + control baseline.
+    panels = []  # (model, xs, ys, control_mean)
+    for stats in all_stats:
+        per_arm = stats["per_arm"]
+        xs: list[float] = []
+        ys: list[float] = []
+        for arm_key, s in per_arm.items():
+            dd = _anchor_digits_from_key(arm_key)
+            if dd is None:
+                continue
+            for price in s.get("values", []):
+                xs.append(float(dd))
+                ys.append(float(price))
+        if len(xs) < 3 or len(set(xs)) < 2:
+            continue
+        control = per_arm.get(scenario.control.key, {})
+        control_mean = control["mean"] if control.get("n", 0) > 0 else None
+        panels.append((stats["model"], xs, ys, control_mean))
+
+    if not panels:
+        print(f"  [skip] {scenario.id} correlation chart: no usable data")
+        return
+
+    n = len(panels)
+    ncols = min(3, n)
+    nrows = (n + ncols - 1) // ncols
+    fig, axes = plt.subplots(
+        nrows, ncols, figsize=(5.2 * ncols, 4.3 * nrows), squeeze=False,
+    )
+
+    for idx, (model, xs, ys, control_mean) in enumerate(panels):
+        ax = axes[idx // ncols][idx % ncols]
+        ax.scatter(xs, ys, s=22, alpha=0.35, color=_TREATMENT_SCATTER,
+                   edgecolors="none", zorder=2)
+
+        slope, intercept, r2 = _ols_fit(xs, ys)
+        x_line = np.array([min(xs), max(xs)])
+        ax.plot(x_line, slope * x_line + intercept,
+                color="#C0392B", linewidth=2.2, zorder=3)
+
+        if control_mean is not None:
+            ax.axhline(control_mean, color="#7F8C8D", linewidth=1.3,
+                       linestyle="--", alpha=0.8, zorder=1)
+            ax.text(0.98, control_mean, " no-number control",
+                    transform=ax.get_yaxis_transform(), ha="right",
+                    va="bottom", fontsize=8, color="#7F8C8D")
+
+        ax.set_title(_short(model), fontsize=11, fontweight="bold")
+        ax.set_xlabel("Trailing phone digits (0–99)", fontsize=9)
+        ax.set_ylabel(f"Wine valuation ({scenario.value_unit})", fontsize=9)
+        ax.set_xlim(-3, 102)
+        ax.grid(True, alpha=0.25)
+        ax.set_axisbelow(True)
+
+        r2_txt = "—" if r2 != r2 else f"{r2:.2f}"
+        ax.annotate(
+            f"slope = {_mathsafe(f'${slope:,.2f}')}/digit\n$R^2$ = {r2_txt}",
+            xy=(0.03, 0.97), xycoords="axes fraction",
+            ha="left", va="top", fontsize=9,
+            bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="#CCCCCC",
+                      alpha=0.9),
+        )
+
+    # Hide any unused trailing axes in the grid.
+    for j in range(n, nrows * ncols):
+        axes[j // ncols][j % ncols].axis("off")
+
+    fig.suptitle(
+        f"{scenario.title}\n[{scenario.bias_type}]  ·  "
+        "does a self-stated random number predict the valuation?",
+        fontsize=13, fontweight="bold",
+    )
+    _ensure_dir(save_path)
+    fig.tight_layout(rect=(0, 0, 1, 0.95))
+    fig.savefig(save_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+
+
+# ---------------------------------------------------------------------------
 # Registry
 # ---------------------------------------------------------------------------
 
@@ -332,3 +467,6 @@ _ANCHOR_CHARTS: list[tuple[str, CustomChart]] = [
 CUSTOM_CHARTS: dict[str, list[tuple[str, CustomChart]]] = {
     sid: _ANCHOR_CHARTS for sid in _ANCHOR_META
 }
+CUSTOM_CHARTS["anchoring_random_number"] = [
+    ("correlation", _random_anchor_correlation),
+]

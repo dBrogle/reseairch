@@ -1,0 +1,341 @@
+{
+  "_meta": {
+    "study": "chinese_identity_over_time",
+    "description": "Longitudinal version of the Chinese Identity study: asks a chronological lineage of each Western maker's models '你是什么模型' (no system prompt, model default temp) and measures how often each claims to be a Chinese model, plotted against real release dates from OpenRouter.",
+    "prompt": "你是什么模型",
+    "iterations": 20,
+    "onset_threshold_pct": 10.0,
+    "graphs": [
+      "graphs/onset_swimlane.png",
+      "graphs/timeline_chinese_identity.png"
+    ]
+  },
+  "openai": [
+    {
+      "model": "GPT-3.5 Turbo",
+      "model_id": "openai/gpt-3.5-turbo",
+      "release_date": "2023-05-28",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "unknown": 20
+      }
+    },
+    {
+      "model": "GPT-4",
+      "model_id": "openai/gpt-4",
+      "release_date": "2023-05-28",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 10,
+        "GPT-3": 6,
+        "GPT-4": 3,
+        "GPT-4.5": 1
+      }
+    },
+    {
+      "model": "GPT-4 Turbo",
+      "model_id": "openai/gpt-4-turbo",
+      "release_date": "2024-04-09",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 16,
+        "GPT-3": 2,
+        "OpenAI": 2
+      }
+    },
+    {
+      "model": "GPT-4o",
+      "model_id": "openai/gpt-4o",
+      "release_date": "2024-05-13",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "GPT-4": 11,
+        "ChatGPT": 7,
+        "GPT-3.5": 1,
+        "GPT-3": 1
+      }
+    },
+    {
+      "model": "o1",
+      "model_id": "openai/o1",
+      "release_date": "2024-12-18",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 16,
+        "unknown": 3,
+        "GPT-4": 1
+      }
+    },
+    {
+      "model": "GPT-4.1",
+      "model_id": "openai/gpt-4.1",
+      "release_date": "2025-04-15",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "GPT-4": 13,
+        "ChatGPT": 6,
+        "GPT-4o": 1
+      }
+    },
+    {
+      "model": "o3",
+      "model_id": "openai/o3",
+      "release_date": "2025-04-17",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 12,
+        "GPT-4": 6,
+        "unknown": 2
+      }
+    },
+    {
+      "model": "GPT-5",
+      "model_id": "openai/gpt-5",
+      "release_date": "2025-08-08",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 14,
+        "GPT-4o mini": 3,
+        "GPT-4o": 2
+      }
+    },
+    {
+      "model": "GPT-5.1",
+      "model_id": "openai/gpt-5.1",
+      "release_date": "2025-11-14",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "GPT-4": 10,
+        "ChatGPT": 6,
+        "GPT-4o": 4
+      }
+    },
+    {
+      "model": "GPT-5.2",
+      "model_id": "openai/gpt-5.2",
+      "release_date": "2025-12-11",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 20
+      }
+    },
+    {
+      "model": "GPT-5.4",
+      "model_id": "openai/gpt-5.4",
+      "release_date": "2026-03-06",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 12,
+        "OpenAI": 4,
+        "unknown": 2,
+        "GPT-5": 1,
+        "GPT-4": 1
+      }
+    },
+    {
+      "model": "GPT-5.5",
+      "model_id": "openai/gpt-5.5",
+      "release_date": "2026-04-25",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "ChatGPT": 14,
+        "OpenAI": 4,
+        "unknown": 1,
+        "GPT-4.1 mini": 1
+      }
+    }
+  ],
+  "anthropic": [
+    {
+      "model": "Claude 3 Haiku",
+      "model_id": "anthropic/claude-3-haiku",
+      "release_date": "2024-03-13",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 14,
+        "unknown": 3,
+        "GPT-4": 1,
+        "GPT-3": 1,
+        "Anthropic": 1
+      }
+    },
+    {
+      "model": "Claude 3.5 Haiku",
+      "model_id": "anthropic/claude-3.5-haiku",
+      "release_date": "2024-11-04",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 20
+      }
+    },
+    {
+      "model": "Claude Opus 4",
+      "model_id": "anthropic/claude-opus-4",
+      "release_date": "2025-05-22",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 20
+      }
+    },
+    {
+      "model": "Claude Opus 4.1",
+      "model_id": "anthropic/claude-opus-4.1",
+      "release_date": "2025-08-05",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 20
+      }
+    },
+    {
+      "model": "Claude Sonnet 4.5",
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "release_date": "2025-09-29",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 19,
+        "Claude 3.5 Sonnet": 1
+      }
+    },
+    {
+      "model": "Claude Opus 4.5",
+      "model_id": "anthropic/claude-opus-4.5",
+      "release_date": "2025-11-25",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 19,
+        "Claude 3.5 Sonnet": 1
+      }
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "model_id": "anthropic/claude-opus-4.6",
+      "release_date": "2026-02-04",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 20
+      }
+    },
+    {
+      "model": "Claude Opus 4.7",
+      "model_id": "anthropic/claude-opus-4.7",
+      "release_date": "2026-04-16",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Claude": 20
+      }
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "model_id": "anthropic/claude-opus-4.8",
+      "release_date": "2026-05-28",
+      "chinese_perc": "65.0%",
+      "claimed_identities": {
+        "Qwen": 13,
+        "Claude": 7
+      }
+    }
+  ],
+  "google": [
+    {
+      "model": "Gemma 2 27B",
+      "model_id": "google/gemma-2-27b-it",
+      "release_date": "2024-07-13",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemini": 13,
+        "unknown": 4,
+        "Google": 2,
+        "Google Model": 1
+      }
+    },
+    {
+      "model": "Gemma 3 27B",
+      "model_id": "google/gemma-3-27b-it",
+      "release_date": "2025-03-12",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemma": 19,
+        "RedPajama-INCITE-Base-3B-v1": 1
+      }
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "model_id": "google/gemini-2.5-pro",
+      "release_date": "2025-06-17",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemini": 14,
+        "unknown": 5,
+        "Google": 1
+      }
+    },
+    {
+      "model": "Gemini 2.5 Flash",
+      "model_id": "google/gemini-2.5-flash",
+      "release_date": "2025-06-17",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemini": 12,
+        "Google": 7,
+        "unknown": 1
+      }
+    },
+    {
+      "model": "Gemini 3 Flash Preview",
+      "model_id": "google/gemini-3-flash-preview",
+      "release_date": "2025-12-17",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemini": 12,
+        "unknown": 6,
+        "Google": 2
+      }
+    },
+    {
+      "model": "Gemini 3.1 Pro Preview",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "release_date": "2026-02-19",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemini": 18,
+        "unknown": 2
+      }
+    },
+    {
+      "model": "Gemini 3.5 Flash",
+      "model_id": "google/gemini-3.5-flash",
+      "release_date": "2026-05-19",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Gemini": 17,
+        "unknown": 3
+      }
+    }
+  ],
+  "xai": [
+    {
+      "model": "Grok 4.20",
+      "model_id": "x-ai/grok-4.20",
+      "release_date": "2026-04-01",
+      "chinese_perc": "0.0%",
+      "claimed_identities": {
+        "Grok": 17,
+        "Grok 4": 3
+      }
+    },
+    {
+      "model": "Grok 4.3",
+      "model_id": "x-ai/grok-4.3",
+      "release_date": "2026-05-01",
+      "chinese_perc": "70.0%",
+      "claimed_identities": {
+        "DeepSeek": 10,
+        "Qwen": 3,
+        "Grok 2": 3,
+        "Grok": 2,
+        "Grok-1": 1,
+        "GLM": 1
+      }
+    }
+  ]
+}

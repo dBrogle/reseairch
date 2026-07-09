@@ -35,7 +35,11 @@ from studies.cognitive_biases.config import (
 )
 from studies.cognitive_biases.cache import GRAPHS_DIR, load_response_cache
 from studies.cognitive_biases.cost import estimate_remaining_run, format_estimate
-from studies.cognitive_biases.custom_charts import CUSTOM_CHARTS, SKIP_GENERIC_DELTA
+from studies.cognitive_biases.custom_charts import (
+    CUSTOM_CHARTS,
+    SKIP_GENERIC_DELTA,
+    SKIP_GENERIC_PERARM,
+)
 from studies.cognitive_biases.runner import run_all
 from studies.cognitive_biases.extractor import extract_all
 from studies.cognitive_biases.analysis import compute_scenario_stats
@@ -193,10 +197,11 @@ def generate_graphs(models: list[str], scenarios: list[Scenario], iterations: in
         scenario_dir = GRAPHS_DIR / scenario.bias_type
         scenario_dir.mkdir(parents=True, exist_ok=True)
 
-        generate_scenario_chart(
-            scenario, all_stats,
-            scenario_dir / f"{scenario.id}__per_arm.png",
-        )
+        if scenario.id not in SKIP_GENERIC_PERARM:
+            generate_scenario_chart(
+                scenario, all_stats,
+                scenario_dir / f"{scenario.id}__per_arm.png",
+            )
         if scenario.id not in SKIP_GENERIC_DELTA:
             generate_delta_chart(
                 scenario, all_stats,

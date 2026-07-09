@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "study": "poople_coding",
+    "title": "Poople Coding — can LLMs write code that solves Poople optimally?",
+    "generated": "2026-06-19",
+    "description": "A coding benchmark companion to the 'poople' study. Each reasoning model gets ONE shot to write a complete Python program that, given any four-letter start word, outputs the optimal one-letter-at-a-time ladder to 'poop'. We run each program against a distance-stratified battery of words and grade its output for legality and optimality using the same BFS oracle as the poople study.",
+    "task_summary": "Model writes a stdlib-only Python 3 program run as `python prog.py <wordlist_path>`; it reads start words on stdin and prints, per line, a JSON array of the optimal ladder to 'poop' ([] if unreachable).",
+    "one_shot": true,
+    "models": [
+      "gpt-5.5",
+      "claude-opus-4.8",
+      "gemini-3.1-pro-preview",
+      "grok-4.3",
+      "deepseek-v4-pro"
+    ],
+    "reasoning": "ON (reasoning models only)",
+    "temperature": 0.3,
+    "max_tokens": 16000,
+    "prompt_version": "v1",
+    "full_prompt": "You are given a coding task. Write a complete, self-contained program that solves the \"Poople\" word-ladder puzzle OPTIMALLY.\n\nTHE PUZZLE\nPoople: starting from a given 4-letter word, change EXACTLY ONE letter at a time to form a new word. Every word along the way (including the last) must be a valid 4-letter word from a provided dictionary. Continue until you reach the target word \"poop\". An OPTIMAL solution uses the FEWEST possible one-letter changes.\n\nHOW YOUR PROGRAM WILL BE RUN\n- Language: Python 3, standard library ONLY (no third-party packages, no network).\n- It will be executed exactly like this:\n      python your_program.py <wordlist_path>\n  where <wordlist_path> is a path to a text file containing EVERY valid lowercase 4-letter word, one per line. (This is the full dictionary — judge validity solely against it.)\n- Read start words from standard input, one per line (lowercase, 4 letters).\n- For EACH input line, print EXACTLY ONE line to standard output: a JSON array of the optimal ladder from the start word to \"poop\" inclusive.\n  Example:  input line `cods`  ->  output line  [\"cods\", \"coos\", \"coop\", \"poop\"]\n  - Consecutive words must differ by exactly one letter; every word must be in the dictionary.\n  - If the start word already IS \"poop\", output [\"poop\"].\n  - If NO path exists, output [] (an empty JSON array).\n- Output lines must correspond 1:1 and in the SAME ORDER as the input lines.\n- Print NOTHING else to standard output — no prompts, no logs, no extra blank lines.\n\nPERFORMANCE\n- There may be several thousand start words in one run. Precompute shared structure (e.g. build the word graph once) so the entire run finishes within ~2 minutes. Reading stdin to EOF and answering all lines in one process invocation is expected.\n\nCONSTRAINTS\n- You get ONE shot. You cannot run, test, debug, or revise. Make it correct and robust on the first try (handle words with no path, the target itself, and malformed/blank input lines gracefully).\n- Output ONLY the program's source code. No explanation, no comments required, no markdown code fences.\n",
+    "target_word": "poop",
+    "word_length": 4,
+    "execution": {
+      "language": "Python 3 (stdlib only)",
+      "invocation": "python <program> <wordlist_path>  (start words on stdin)",
+      "timeout_seconds": 120,
+      "sandbox": "subprocess in a temp cwd with a minimal env (PATH only) and a hard timeout; no network sandbox (prompt forbids network)."
+    },
+    "test_battery": {
+      "description": "Stratified by optimal distance: up to 40 words per distance (all words in the rare hard tiers) plus 30 unreachable words (correct answer = []).",
+      "n_reachable": 342,
+      "n_unreachable": 30
+    }
+  },
+  "metric_definitions": {
+    "ran": "Program executed to completion (exit 0) within the timeout.",
+    "valid_rate": "Of reachable test words, % for which the program output a legal ladder ending at 'poop' (one-letter steps, all valid words).",
+    "optimal_rate": "Of reachable test words, % for which the legal ladder also had the minimum possible length (== par). This is the headline metric.",
+    "unreachable_correct": "Count of unreachable test words for which the program correctly returned an empty ladder []."
+  },
+  "results": [
+    {
+      "model": "openai/gpt-5.5",
+      "short_name": "gpt-5.5",
+      "ran": true,
+      "error": null,
+      "elapsed_sec": 0.03,
+      "n_reachable": 342,
+      "n_unreachable": 30,
+      "valid_count": 342,
+      "optimal_count": 342,
+      "unreachable_correct": 30,
+      "optimal_rate": 100.0,
+      "valid_rate": 100.0,
+      "pie": {
+        "par": 342,
+        "over_par": 0,
+        "illegal": 0,
+        "failed": 0
+      },
+      "per_distance": {
+        "0": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        },
+        "1": {
+          "n": 13,
+          "optimal": 13,
+          "optimal_rate": 100.0
+        },
+        "2": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "3": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "4": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "5": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "6": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "7": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "8": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "9": {
+          "n": 28,
+          "optimal": 28,
+          "optimal_rate": 100.0
+        },
+        "10": {
+          "n": 10,
+          "optimal": 10,
+          "optimal_rate": 100.0
+        },
+        "11": {
+          "n": 3,
+          "optimal": 3,
+          "optimal_rate": 100.0
+        },
+        "12": {
+          "n": 4,
+          "optimal": 4,
+          "optimal_rate": 100.0
+        },
+        "13": {
+          "n": 2,
+          "optimal": 2,
+          "optimal_rate": 100.0
+        },
+        "14": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        }
+      },
+      "examples": [],
+      "program_path": "scripts/openai_gpt_5_5.py",
+      "program_code": "import sys\nimport json\nfrom collections import deque\n\nTARGET = \"poop\"\nALPHABET = \"abcdefghijklmnopqrstuvwxyz\"\n\ndef load_words(path):\n    words = set()\n    with open(path, \"r\", encoding=\"utf-8\", errors=\"ignore\") as f:\n        for line in f:\n            w = line.strip()\n            if len(w) == 4 and w.islower():\n                words.add(w)\n    return words\n\ndef build_next_steps(words):\n    next_step = {}\n    if TARGET not in words:\n        return next_step\n\n    next_step[TARGET] = None\n    q = deque([TARGET])\n\n    while q:\n        word = q.popleft()\n        chars = list(word)\n\n        for i in range(4):\n            original = chars[i]\n            for c in ALPHABET:\n                if c == original:\n                    continue\n                chars[i] = c\n                neighbor = \"\".join(chars)\n                if neighbor in words and neighbor not in next_step:\n                    next_step[neighbor] = word\n                    q.append(neighbor)\n            chars[i] = original\n\n    return next_step\n\ndef ladder_for(start, next_step):\n    if start == TARGET:\n        return [TARGET]\n    if start not in next_step:\n        return []\n\n    ladder = []\n    word = start\n    while word is not None:\n        ladder.append(word)\n        if word == TARGET:\n            break\n        word = next_step.get(word)\n\n    if ladder and ladder[-1] == TARGET:\n        return ladder\n    return []\n\ndef main():\n    if len(sys.argv) < 2:\n        return\n\n    words = load_words(sys.argv[1])\n    next_step = build_next_steps(words)\n    cache = {}\n\n    out_lines = []\n    for line in sys.stdin:\n        start = line.strip()\n        if start not in cache:\n            cache[start] = json.dumps(ladder_for(start, next_step))\n        out_lines.append(cache[start])\n\n    sys.stdout.write(\"\\n\".join(out_lines))\n    if out_lines:\n        sys.stdout.write(\"\\n\")\n\nif __name__ == \"__main__\":\n    main()",
+      "generation_error": null
+    },
+    {
+      "model": "anthropic/claude-opus-4.8",
+      "short_name": "claude-opus-4.8",
+      "ran": true,
+      "error": null,
+      "elapsed_sec": 0.02,
+      "n_reachable": 342,
+      "n_unreachable": 30,
+      "valid_count": 342,
+      "optimal_count": 342,
+      "unreachable_correct": 30,
+      "optimal_rate": 100.0,
+      "valid_rate": 100.0,
+      "pie": {
+        "par": 342,
+        "over_par": 0,
+        "illegal": 0,
+        "failed": 0
+      },
+      "per_distance": {
+        "0": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        },
+        "1": {
+          "n": 13,
+          "optimal": 13,
+          "optimal_rate": 100.0
+        },
+        "2": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "3": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "4": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "5": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "6": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "7": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "8": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "9": {
+          "n": 28,
+          "optimal": 28,
+          "optimal_rate": 100.0
+        },
+        "10": {
+          "n": 10,
+          "optimal": 10,
+          "optimal_rate": 100.0
+        },
+        "11": {
+          "n": 3,
+          "optimal": 3,
+          "optimal_rate": 100.0
+        },
+        "12": {
+          "n": 4,
+          "optimal": 4,
+          "optimal_rate": 100.0
+        },
+        "13": {
+          "n": 2,
+          "optimal": 2,
+          "optimal_rate": 100.0
+        },
+        "14": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        }
+      },
+      "examples": [],
+      "program_path": "scripts/anthropic_claude_opus_4_8.py",
+      "program_code": "import sys\nimport json\nfrom collections import deque, defaultdict\n\n\ndef main():\n    if len(sys.argv) < 2:\n        return\n    wordlist_path = sys.argv[1]\n\n    words = set()\n    try:\n        with open(wordlist_path, 'r') as f:\n            for line in f:\n                w = line.strip()\n                if len(w) == 4 and w.islower() and w.isalpha():\n                    words.add(w)\n    except Exception:\n        return\n\n    target = \"poop\"\n\n    # Build adjacency using pattern buckets\n    buckets = defaultdict(list)\n    for w in words:\n        for i in range(4):\n            pat = w[:i] + '*' + w[i+1:]\n            buckets[pat].append(w)\n\n    adj = defaultdict(list)\n    for pat, group in buckets.items():\n        if len(group) > 1:\n            for w in group:\n                for v in group:\n                    if v != w:\n                        adj[w].append(v)\n\n    # Deduplicate adjacency\n    for w in list(adj.keys()):\n        adj[w] = list(set(adj[w]))\n\n    # BFS from target if it exists in dictionary\n    parent = {}\n    dist = {}\n    if target in words:\n        dist[target] = 0\n        parent[target] = None\n        dq = deque([target])\n        while dq:\n            cur = dq.popleft()\n            for nxt in adj[cur]:\n                if nxt not in dist:\n                    dist[nxt] = dist[cur] + 1\n                    parent[nxt] = cur\n                    dq.append(nxt)\n\n    out_lines = []\n    data = sys.stdin.read().split('\\n')\n    for line in data:\n        start = line.strip()\n        # Skip handling: still must output 1:1? Spec says lines correspond.\n        # We'll treat blank/malformed as no path -> []\n        if len(start) != 4 or not start.islower() or not start.isalpha():\n            # malformed line: only output if it was a real line (non-empty after strip)\n            # To keep 1:1 with input lines, only process non-final empty.\n            if line == '' :\n                # likely trailing empty from final newline; skip\n                continue\n            out_lines.append(\"[]\")\n            continue\n\n        if start == target:\n            out_lines.append(json.dumps([target]))\n            continue\n\n        if start not in words or start not in dist:\n            out_lines.append(\"[]\")\n            continue\n\n        # reconstruct path from start to target\n        path = []\n        cur = start\n        while cur is not None:\n            path.append(cur)\n            cur = parent[cur]\n        out_lines.append(json.dumps(path))\n\n    sys.stdout.write('\\n'.join(out_lines))\n    if out_lines:\n        sys.stdout.write('\\n')\n\n\nif __name__ == \"__main__\":\n    main()",
+      "generation_error": null
+    },
+    {
+      "model": "google/gemini-3.1-pro-preview",
+      "short_name": "gemini-3.1-pro-preview",
+      "ran": true,
+      "error": null,
+      "elapsed_sec": 0.02,
+      "n_reachable": 342,
+      "n_unreachable": 30,
+      "valid_count": 342,
+      "optimal_count": 342,
+      "unreachable_correct": 30,
+      "optimal_rate": 100.0,
+      "valid_rate": 100.0,
+      "pie": {
+        "par": 342,
+        "over_par": 0,
+        "illegal": 0,
+        "failed": 0
+      },
+      "per_distance": {
+        "0": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        },
+        "1": {
+          "n": 13,
+          "optimal": 13,
+          "optimal_rate": 100.0
+        },
+        "2": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "3": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "4": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "5": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "6": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "7": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "8": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "9": {
+          "n": 28,
+          "optimal": 28,
+          "optimal_rate": 100.0
+        },
+        "10": {
+          "n": 10,
+          "optimal": 10,
+          "optimal_rate": 100.0
+        },
+        "11": {
+          "n": 3,
+          "optimal": 3,
+          "optimal_rate": 100.0
+        },
+        "12": {
+          "n": 4,
+          "optimal": 4,
+          "optimal_rate": 100.0
+        },
+        "13": {
+          "n": 2,
+          "optimal": 2,
+          "optimal_rate": 100.0
+        },
+        "14": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        }
+      },
+      "examples": [],
+      "program_path": "scripts/google_gemini_3_1_pro_preview.py",
+      "program_code": "import sys\nimport json\nfrom collections import defaultdict, deque\n\ndef main():\n    if len(sys.argv) < 2:\n        return\n    wordlist_path = sys.argv[1]\n    \n    words = set()\n    try:\n        with open(wordlist_path, 'r') as f:\n            for line in f:\n                w = line.strip()\n                if len(w) == 4:\n                    words.add(w)\n    except Exception:\n        pass\n\n    patterns = defaultdict(list)\n    for w in words:\n        for i in range(4):\n            pattern = w[:i] + '_' + w[i+1:]\n            patterns[pattern].append(w)\n            \n    graph = defaultdict(list)\n    for w in words:\n        for i in range(4):\n            pattern = w[:i] + '_' + w[i+1:]\n            for neighbor in patterns[pattern]:\n                if neighbor != w:\n                    graph[w].append(neighbor)\n                    \n    target = \"poop\"\n    parent = {}\n    \n    if target in words:\n        queue = deque([target])\n        parent[target] = None\n        \n        while queue:\n            current = queue.popleft()\n            for neighbor in graph[current]:\n                if neighbor not in parent:\n                    parent[neighbor] = current\n                    queue.append(neighbor)\n                    \n    for line in sys.stdin:\n        start = line.strip()\n        if start == target:\n            print('[\"poop\"]')\n        elif start not in words or start not in parent:\n            print(\"[]\")\n        else:\n            path = []\n            curr = start\n            while curr is not None:\n                path.append(curr)\n                curr = parent[curr]\n            print(json.dumps(path))\n\nif __name__ == '__main__':\n    main()",
+      "generation_error": null
+    },
+    {
+      "model": "x-ai/grok-4.3",
+      "short_name": "grok-4.3",
+      "ran": true,
+      "error": null,
+      "elapsed_sec": 0.03,
+      "n_reachable": 342,
+      "n_unreachable": 30,
+      "valid_count": 342,
+      "optimal_count": 342,
+      "unreachable_correct": 30,
+      "optimal_rate": 100.0,
+      "valid_rate": 100.0,
+      "pie": {
+        "par": 342,
+        "over_par": 0,
+        "illegal": 0,
+        "failed": 0
+      },
+      "per_distance": {
+        "0": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        },
+        "1": {
+          "n": 13,
+          "optimal": 13,
+          "optimal_rate": 100.0
+        },
+        "2": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "3": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "4": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "5": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "6": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "7": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "8": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "9": {
+          "n": 28,
+          "optimal": 28,
+          "optimal_rate": 100.0
+        },
+        "10": {
+          "n": 10,
+          "optimal": 10,
+          "optimal_rate": 100.0
+        },
+        "11": {
+          "n": 3,
+          "optimal": 3,
+          "optimal_rate": 100.0
+        },
+        "12": {
+          "n": 4,
+          "optimal": 4,
+          "optimal_rate": 100.0
+        },
+        "13": {
+          "n": 2,
+          "optimal": 2,
+          "optimal_rate": 100.0
+        },
+        "14": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        }
+      },
+      "examples": [],
+      "program_path": "scripts/x_ai_grok_4_3.py",
+      "program_code": "import sys\nimport json\nfrom collections import defaultdict, deque\n\ndef differ_by_one(a, b):\n    return sum(x != y for x, y in zip(a, b)) == 1\n\ndef build_graph(words):\n    word_set = set(words)\n    graph = defaultdict(list)\n    buckets = defaultdict(list)\n    for word in words:\n        for i in range(4):\n            pattern = word[:i] + '*' + word[i+1:]\n            buckets[pattern].append(word)\n    for pattern, group in buckets.items():\n        for i in range(len(group)):\n            for j in range(i+1, len(group)):\n                w1, w2 = group[i], group[j]\n                if differ_by_one(w1, w2):\n                    graph[w1].append(w2)\n                    graph[w2].append(w1)\n    return graph\n\ndef compute_parents(graph, target):\n    parents = {}\n    queue = deque([target])\n    parents[target] = None\n    while queue:\n        current = queue.popleft()\n        for neighbor in graph[current]:\n            if neighbor not in parents:\n                parents[neighbor] = current\n                queue.append(neighbor)\n    return parents\n\ndef reconstruct_path(start, parents, target):\n    if start not in parents:\n        return []\n    path = []\n    current = start\n    while current is not None:\n        path.append(current)\n        if current == target:\n            break\n        current = parents[current]\n    else:\n        return []\n    return path\n\ndef main():\n    if len(sys.argv) != 2:\n        sys.exit(1)\n    wordlist_path = sys.argv[1]\n    with open(wordlist_path, 'r') as f:\n        words = [line.strip() for line in f if line.strip()]\n    target = \"poop\"\n    if target not in words:\n        words.append(target)\n    graph = build_graph(words)\n    parents = compute_parents(graph, target)\n    for line in sys.stdin:\n        start = line.strip()\n        if not start:\n            print(json.dumps([]))\n            continue\n        if start == target:\n            print(json.dumps([target]))\n            continue\n        path = reconstruct_path(start, parents, target)\n        print(json.dumps(path))\n\nif __name__ == \"__main__\":\n    main()",
+      "generation_error": null
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "short_name": "deepseek-v4-pro",
+      "ran": true,
+      "error": null,
+      "elapsed_sec": 0.02,
+      "n_reachable": 342,
+      "n_unreachable": 30,
+      "valid_count": 342,
+      "optimal_count": 342,
+      "unreachable_correct": 30,
+      "optimal_rate": 100.0,
+      "valid_rate": 100.0,
+      "pie": {
+        "par": 342,
+        "over_par": 0,
+        "illegal": 0,
+        "failed": 0
+      },
+      "per_distance": {
+        "0": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        },
+        "1": {
+          "n": 13,
+          "optimal": 13,
+          "optimal_rate": 100.0
+        },
+        "2": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "3": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "4": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "5": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "6": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "7": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "8": {
+          "n": 40,
+          "optimal": 40,
+          "optimal_rate": 100.0
+        },
+        "9": {
+          "n": 28,
+          "optimal": 28,
+          "optimal_rate": 100.0
+        },
+        "10": {
+          "n": 10,
+          "optimal": 10,
+          "optimal_rate": 100.0
+        },
+        "11": {
+          "n": 3,
+          "optimal": 3,
+          "optimal_rate": 100.0
+        },
+        "12": {
+          "n": 4,
+          "optimal": 4,
+          "optimal_rate": 100.0
+        },
+        "13": {
+          "n": 2,
+          "optimal": 2,
+          "optimal_rate": 100.0
+        },
+        "14": {
+          "n": 1,
+          "optimal": 1,
+          "optimal_rate": 100.0
+        }
+      },
+      "examples": [],
+      "program_path": "scripts/deepseek_deepseek_v4_pro.py",
+      "program_code": "import sys\nimport json\nfrom collections import deque, defaultdict\n\ndef build_graph(word_list):\n    words = set(word_list)\n    pattern_to_words = defaultdict(list)\n    for w in words:\n        for i in range(4):\n            pattern = w[:i] + '*' + w[i+1:]\n            pattern_to_words[pattern].append(w)\n    return words, pattern_to_words\n\ndef bfs(start, words, pattern_to_words):\n    parent = {start: None}\n    queue = deque([start])\n    while queue:\n        curr = queue.popleft()\n        for i in range(4):\n            pattern = curr[:i] + '*' + curr[i+1:]\n            for neighbor in pattern_to_words[pattern]:\n                if neighbor not in parent:\n                    parent[neighbor] = curr\n                    queue.append(neighbor)\n    return parent\n\ndef main():\n    if len(sys.argv) != 2:\n        sys.exit(1)\n    wordlist_path = sys.argv[1]\n    try:\n        with open(wordlist_path, 'r') as f:\n            word_list = [line.strip() for line in f if line.strip()]\n    except Exception:\n        word_list = []\n\n    words, pattern_to_words = build_graph(word_list)\n    target = \"poop\"\n    if target in words:\n        parent = bfs(target, words, pattern_to_words)\n    else:\n        parent = {}\n\n    for line in sys.stdin:\n        start = line.strip()\n        if not start or len(start) != 4 or start not in words:\n            print(\"[]\")\n            continue\n        if start not in parent:\n            print(\"[]\")\n            continue\n        path = []\n        curr = start\n        while curr is not None:\n            path.append(curr)\n            curr = parent[curr]\n        print(json.dumps(path))\n\nif __name__ == \"__main__\":\n    main()",
+      "generation_error": null
+    }
+  ],
+  "key_findings": [
+    "5 model(s) wrote a fully-correct optimal solver (100% optimal): gpt-5.5, claude-opus-4.8, gemini-3.1-pro-preview, grok-4.3, deepseek-v4-pro.",
+    "Best: gpt-5.5 at 100.0% optimal (100.0% valid) in 0.03s.",
+    "Programs that solve any word optimally generally solve ALL words optimally (a correct BFS), so scores cluster near 0% or 100% — the interesting signal is whether the one-shot program was correct and ran."
+  ],
+  "caveats": [
+    "Each model writes ONE program with no chance to test/revise; a single bug (e.g. a bad edge rule or off-by-one) can tank an otherwise sound approach.",
+    "A correct breadth-first search over the provided word list scores 100% optimal; this benchmark mostly separates 'got the algorithm right' from 'didn't'.",
+    "Programs that don't run (crash/timeout) score 0% regardless of approach.",
+    "Reasoning models only — Gemini Pro is mandatory-reasoning; Kimi is excluded (unreliable with reasoning on), matching the poople study's reasoning set."
+  ],
+  "assets": {
+    "note": "Paths relative to studies/poople_coding/output/.",
+    "generated_programs": "scripts/<model>.py",
+    "graphs": [
+      "optimal_rate.png",
+      "valid_rate.png",
+      "outcomes_pie.png",
+      "heatmap_optimal_by_distance.png"
+    ]
+  }
+}

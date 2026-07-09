@@ -46,14 +46,19 @@ def request_signature(scenario: Scenario, arm: Arm) -> list[dict]:
     """User-side message shape used for caching.
 
     For both single- and multi-turn arms, this is the tuple of user
-    turns with `response_format` appended to the LAST turn. Intermediate
-    model responses are deliberately excluded from the key so the cache
-    key stays deterministic regardless of stochastic model output across
+    turns with `response_format` appended to the LAST turn, optionally
+    preceded by the arm's system message. Intermediate model responses
+    are deliberately excluded from the key so the cache key stays
+    deterministic regardless of stochastic model output across
     iterations.
     """
     turns = list(arm.turn_list)
     turns[-1] = f"{turns[-1]}\n\n{scenario.response_format}"
-    return [{"role": "user", "content": t} for t in turns]
+    sig: list[dict] = []
+    if arm.system is not None:
+        sig.append({"role": "system", "content": arm.system})
+    sig.extend({"role": "user", "content": t} for t in turns)
+    return sig
 
 
 # ---------------------------------------------------------------------------

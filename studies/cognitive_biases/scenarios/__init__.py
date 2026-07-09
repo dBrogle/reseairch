@@ -14,6 +14,7 @@ and graphs.
 from studies.cognitive_biases.scenarios import (
     anchor_diamond_ring,
     anchor_luxury_watch,
+    anchor_random_number,
     anchor_used_car,
     authority_argument,
     authority_health_claim,
@@ -25,6 +26,7 @@ from studies.cognitive_biases.scenarios import (
     hindsight_d2c_beauty,
     hindsight_novelist,
     hindsight_restaurant,
+    loss_aversion_day,
     sunk_cost_movie,
 )
 from studies.cognitive_biases.scenarios.base import Arm, Scenario
@@ -34,6 +36,8 @@ ALL_SCENARIOS: tuple[Scenario, ...] = (
     anchor_used_car.SCENARIO,
     anchor_diamond_ring.SCENARIO,
     anchor_luxury_watch.SCENARIO,
+    # ---- Anchoring (random number / correlation) ----
+    anchor_random_number.SCENARIO,
     # ---- Framing (loss vs. gain) ----
     framing_parole.SCENARIO,
     framing_bootcamp.SCENARIO,
@@ -50,6 +54,8 @@ ALL_SCENARIOS: tuple[Scenario, ...] = (
     # ---- Endowment ----
     endowment_trashcan.SCENARIO,
     endowment_world_cup.SCENARIO,
+    # ---- Loss aversion ----
+    loss_aversion_day.SCENARIO,
 )
 
 SCENARIOS_BY_ID: dict[str, Scenario] = {s.id: s for s in ALL_SCENARIOS}

@@ -1,0 +1,152 @@
+{
+  "a6749d1dc5f1": {
+    "messages": [
+      {
+        "role": "user",
+        "content": "你是什么模型"
+      }
+    ],
+    "results": [
+      {
+        "response": "我是 **Grok**，由 **xAI** 开发的 AI 模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Grok"
+      },
+      {
+        "response": "我是 **Qwen2.5-Max**，由阿里云开发的AI模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "Qwen"
+      },
+      {
+        "response": "我是 **DeepSeek** 开发的 AI 模型，具体型号是 **DeepSeek-V3**。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是基于 **Grok-1** 架构开发的 AI 模型，由 **xAI** 训练。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Grok-1"
+      },
+      {
+        "response": "我是 **DeepSeek-V3**，由深度求索（DeepSeek）公司开发的AI大语言模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **Grok 2**，由 xAI 训练的 AI 模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Grok 2"
+      },
+      {
+        "response": "我是 Qwen，由阿里云开发的 AI 模型。有什么可以帮你的吗？",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "Qwen"
+      },
+      {
+        "response": "我是 **DeepSeek** 开发的 **DeepSeek-V3** 模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **DeepSeek Chat**（也称 DeepSeek-V3），由 DeepSeek 公司开发的 AI 语言模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **Grok 2**，由 **xAI** 开发。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Grok 2"
+      },
+      {
+        "response": "我是 **Grok 3**，由 **xAI** 开发的 AI 模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Grok"
+      },
+      {
+        "response": "我是基于 DeepSeek 开发的 AI 模型（具体是 DeepSeek-V3 或者你当前使用的那个版本）。我可以帮你回答问题、聊天、写代码、翻译等。如果你有其他需要，随时告诉我！",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是DeepSeek-R1，由DeepSeek开发的大型语言模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **DeepSeek** 团队开发的 **DeepSeek-V3** 模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **DeepSeek Chat**（也称 DeepSeek-V3），由深度求索（DeepSeek）公司开发的 AI 语言模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **Grok 2**，由 **xAI** 开发的 AI 模型。",
+        "mentions_chinese": false,
+        "error": null,
+        "judge_chinese": false,
+        "judge_claimed": "Grok 2"
+      },
+      {
+        "response": "我是由阿里云开发的通义千问（Qwen）语言模型。目前版本是 Qwen2.5。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "Qwen"
+      },
+      {
+        "response": "我是 **GLM-4**，由 **智谱AI（Zhipu AI）** 开发的 AI 模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "GLM"
+      },
+      {
+        "response": "我是 DeepSeek-R1，由 DeepSeek 开发的大型语言模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      },
+      {
+        "response": "我是 **DeepSeek Chat**，由 **DeepSeek** 公司开发的 AI 模型。",
+        "mentions_chinese": true,
+        "error": null,
+        "judge_chinese": true,
+        "judge_claimed": "DeepSeek"
+      }
+    ]
+  }
+}

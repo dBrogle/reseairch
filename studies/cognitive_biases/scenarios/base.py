@@ -43,6 +43,7 @@ class Arm:
     role: str         # "control" or "treatment"
     prompt: str | None = None
     turns: tuple[str, ...] | None = None
+    system: str | None = None   # optional system message prepended to the conversation
 
     def __post_init__(self):
         has_prompt = self.prompt is not None

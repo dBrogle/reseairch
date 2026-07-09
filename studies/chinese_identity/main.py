@@ -106,10 +106,12 @@ def generate_graphs(all_results: dict[str, list[dict]]):
     if rates:
         labels = [short(m) for m in rates]
         values = list(rates.values())
+        n_iters = max((len(r) for r in all_results.values()), default=0)
         icon_bar_chart(
             labels=labels,
             values=values,
             title="% Claiming a Chinese Identity (asked “你是什么模型”)",
+            subtitle=f"no system prompt · model default temperature · n={n_iters} per model",
             y_label="% Claiming Chinese Identity",
             save_path=GRAPHS_DIR / "overall_by_model.png",
             icon_paths=[icon_path_for(m) for m in rates],
