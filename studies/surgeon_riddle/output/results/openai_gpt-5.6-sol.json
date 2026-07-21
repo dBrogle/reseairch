@@ -1,0 +1,216 @@
+{
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mother. The man in the crash is his father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The man in the crash is his father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The man in the crash is his father.",
+        "error": null
+      }
+    ]
+  },
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s other parent—classically, his mother. Since the woman in the crash also survived, she could have been taken to a different hospital or be receiving care elsewhere.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—most commonly, the intended answer is that the doctor is his father if the woman is his mother, or his mother if the woman is another caregiver/parent. It could also be a same-sex-parent family, adoptive parent, or stepparent.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, the intended answer is that the doctor is his mother. Since the woman in the crash also survived, she could still be receiving care elsewhere or at another hospital.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—classically, the answer is that the doctor is his mother. Since the woman in the crash could also be his mother, another valid possibility is that the doctor is his father and the woman is his other mother, or that the woman is a stepmother/adoptive parent.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, the intended answer is that the doctor is his father, since his mother was in the crash. The parents could also be a same-sex couple or the doctor could be a stepfather/adoptive father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—most commonly, the intended answer is that the doctor is his father, since the woman in the crash could be his mother. (In the classic version, the father dies in the crash, and the doctor is the boy’s mother.)",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—most commonly, the intended answer is that the doctor is his father, since the woman in the crash is his mother. Other family arrangements could fit too, such as two mothers.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—commonly, the intended answer is that the doctor is his mother. Since the woman in the crash also survived, she could have been taken to a different hospital or treated elsewhere.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—commonly, the answer is that the doctor is his father, since his mother was in the crash. It could also be another parent in an adoptive, same-sex, or blended family.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—classically, his mother. The woman in the crash could also be his mother, with the doctor being his father, or they could be a same-sex couple, adoptive parents, etc. The riddle plays on assumptions about the doctor’s gender and the woman’s relationship to the boy.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—commonly, the intended answer is that the doctor is his mother. Since the woman in the crash also survived, she could be treated elsewhere or simply not be the doctor handling him.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, the intended answer is that the doctor is his father, since his mother was in the crash with him. The parents could also be a same-sex female couple, making the doctor his other mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—commonly, the intended answer is that the doctor is his mother. Since the woman in the crash could also be his mother, another possibility is that the doctor is his father and the woman is her wife, or the boy has adoptive/step-parents.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, the intended answer is that the doctor is his father, since his mother was in the crash. The parents could also be a same-sex couple, or “mother” could refer to a stepmother/adoptive mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—commonly, the intended answer is that the doctor is his father, since the woman was already identified as his mother. He could have two fathers, adoptive/biological parents, or the woman could also be his stepmother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—for example, his father if the woman is his mother. The wording doesn’t say the woman is his only parent or that the doctor can’t be his dad. (In the classic version, the father dies in the crash, and the answer is that the doctor is his mother.)",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—most commonly, the intended answer is that the doctor is his father, since the woman in the crash is his mother. He could have two fathers, a stepfather, or another family arrangement.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—traditionally, the intended answer is that the doctor is his mother. Since the woman from the crash survived, she could be treated elsewhere or simply be another mother/guardian; alternatively, the doctor could be his father in a family with two dads.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, the intended answer is that the doctor is his father, since his mother was in the crash. The parents could also be a same-sex female couple, in which case the doctor could be his other mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent—most commonly, the intended answer is that the doctor is his father, since the woman in the crash is his mother. He could also have two mothers, or the woman could be a stepmother/adoptive parent.",
+        "error": null
+      }
+    ]
+  }
+}

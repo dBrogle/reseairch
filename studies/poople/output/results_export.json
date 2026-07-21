@@ -2,7 +2,7 @@
   "meta": {
     "study": "poople",
     "title": "Poople — can LLMs solve a word ladder to 'poop'?",
-    "generated": "2026-06-17",
+    "generated": "2026-07-10",
     "description": "Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word and change exactly one letter at a time — every intermediate must be a real four-letter word — until you reach 'poop'. We BFS out from 'poop' over all four-letter English words to get the optimal solution length (par) and every optimal ladder, then ask LLMs to solve a difficulty-stratified sample of puzzles as strict JSON and grade each attempt for legality and steps over par. Models are tested in two sets: one-shot with reasoning OFF, and with reasoning ON.",
     "rules": [
       "Start from the given four-letter word.",
@@ -41,7 +41,10 @@
         "google/gemini-3.1-pro-preview": "mandatory",
         "x-ai/grok-4.3": "both",
         "moonshotai/kimi-k2.6": "no_reasoning_only",
-        "deepseek/deepseek-v4-pro": "both"
+        "deepseek/deepseek-v4-pro": "both",
+        "openai/gpt-5.6-luna": "no_reasoning_only",
+        "openai/gpt-5.6-terra": "no_reasoning_only",
+        "openai/gpt-5.6-sol": "no_reasoning_only"
       }
     }
   },
@@ -404,7 +407,10 @@
         "claude-opus-4.8",
         "grok-4.3",
         "kimi-k2.6",
-        "deepseek-v4-pro"
+        "deepseek-v4-pro",
+        "gpt-5.6-luna",
+        "gpt-5.6-terra",
+        "gpt-5.6-sol"
       ],
       "models": [
         {
@@ -452,6 +458,54 @@
               "solve_rate_pct": 0.0,
               "avg_over_par": null,
               "illegal_moves_per_attempt": 1.63,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "openai/gpt-5.6-terra",
+          "short_name": "gpt-5.6-terra",
+          "n_attempts": 90,
+          "solve_rate_pct": 20.0,
+          "avg_over_par": 0.5,
+          "illegal_moves_per_attempt": 1.49,
+          "pct_attempts_with_illegal_move": 80.0,
+          "outcomes_count": {
+            "optimal": 11,
+            "suboptimal": 7,
+            "reached_illegal": 64,
+            "failed": 8,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 11,
+            "over_par": 7,
+            "illegal": 72,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 11,
+            "1": 5,
+            "2": 2
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 36.7,
+              "avg_over_par": 0.45,
+              "illegal_moves_per_attempt": 1.7,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 16.7,
+              "avg_over_par": 0.6,
+              "illegal_moves_per_attempt": 1.23,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 6.7,
+              "avg_over_par": 0.5,
+              "illegal_moves_per_attempt": 1.53,
               "n_attempts": 30
             }
           }
@@ -552,6 +606,55 @@
           }
         },
         {
+          "model": "openai/gpt-5.6-luna",
+          "short_name": "gpt-5.6-luna",
+          "n_attempts": 90,
+          "solve_rate_pct": 14.4,
+          "avg_over_par": 0.77,
+          "illegal_moves_per_attempt": 1.52,
+          "pct_attempts_with_illegal_move": 85.6,
+          "outcomes_count": {
+            "optimal": 6,
+            "suboptimal": 7,
+            "reached_illegal": 63,
+            "failed": 14,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 6,
+            "over_par": 7,
+            "illegal": 77,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 6,
+            "1": 5,
+            "2": 1,
+            "3": 1
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 16.7,
+              "avg_over_par": 0.4,
+              "illegal_moves_per_attempt": 1.6,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 23.3,
+              "avg_over_par": 0.71,
+              "illegal_moves_per_attempt": 1.3,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 3.3,
+              "avg_over_par": 3.0,
+              "illegal_moves_per_attempt": 1.67,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
           "model": "anthropic/claude-opus-4.8",
           "short_name": "claude-opus-4.8",
           "n_attempts": 90,
@@ -642,6 +745,53 @@
               "solve_rate_pct": 0.0,
               "avg_over_par": null,
               "illegal_moves_per_attempt": 2.07,
+              "n_attempts": 30
+            }
+          }
+        },
+        {
+          "model": "openai/gpt-5.6-sol",
+          "short_name": "gpt-5.6-sol",
+          "n_attempts": 90,
+          "solve_rate_pct": 10.0,
+          "avg_over_par": 0.33,
+          "illegal_moves_per_attempt": 1.51,
+          "pct_attempts_with_illegal_move": 90.0,
+          "outcomes_count": {
+            "optimal": 6,
+            "suboptimal": 3,
+            "reached_illegal": 78,
+            "failed": 3,
+            "unparseable": 0,
+            "error": 0
+          },
+          "pie_count": {
+            "par": 6,
+            "over_par": 3,
+            "illegal": 81,
+            "failed": 0
+          },
+          "over_par_distribution": {
+            "0": 6,
+            "1": 3
+          },
+          "by_difficulty": {
+            "par_3": {
+              "solve_rate_pct": 16.7,
+              "avg_over_par": 0.2,
+              "illegal_moves_per_attempt": 1.93,
+              "n_attempts": 30
+            },
+            "par_4": {
+              "solve_rate_pct": 10.0,
+              "avg_over_par": 0.67,
+              "illegal_moves_per_attempt": 0.97,
+              "n_attempts": 30
+            },
+            "par_5": {
+              "solve_rate_pct": 3.3,
+              "avg_over_par": 0.0,
+              "illegal_moves_per_attempt": 1.63,
               "n_attempts": 30
             }
           }
@@ -900,6 +1050,51 @@
             "over_par": null,
             "summary": "1 illegal move   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/cods/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "cods",
+              "cops",
+              "poops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cods/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "cods",
+              "cops",
+              "coops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cods/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "cods",
+              "cops",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cods/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -1069,6 +1264,55 @@
             "over_par": null,
             "summary": "1 illegal move   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/cobs/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "cobs",
+              "cobs",
+              "cops",
+              "pops",
+              "pope",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cobs/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "cobs",
+              "cops",
+              "coos",
+              "coof",
+              "poof",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 2,
+            "summary": "0 illegal moves   ·   +2 over par",
+            "board_image": "results_images_no_reasoning/cobs/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "cobs",
+              "cops",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/cobs/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -1238,6 +1482,53 @@
             "over_par": 0,
             "summary": "0 illegal moves   ·   optimal (par)",
             "board_image": "results_images_no_reasoning/nosh/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pooh",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/nosh/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "nosh",
+              "posh",
+              "pash",
+              "pash",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/nosh/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "nosh",
+              "posh",
+              "post",
+              "poet",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/nosh/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -1410,6 +1701,53 @@
             "over_par": 4,
             "summary": "0 illegal moves   ·   +4 over par",
             "board_image": "results_images_no_reasoning/trow/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "trow",
+              "trod",
+              "prod",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_no_reasoning/trow/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "trow",
+              "trop",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 0,
+            "summary": "0 illegal moves   ·   optimal (par)",
+            "board_image": "results_images_no_reasoning/trow/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "trow",
+              "prow",
+              "proa",
+              "pooa",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/trow/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -1589,6 +1927,54 @@
             "over_par": null,
             "summary": "1 illegal move   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/peak/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "peak",
+              "peek",
+              "peep",
+              "prep",
+              "prop",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 1,
+            "summary": "0 illegal moves   ·   +1 over par",
+            "board_image": "results_images_no_reasoning/peak/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "peak",
+              "peek",
+              "peep",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/peak/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "peak",
+              "peck",
+              "pick",
+              "pock",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/peak/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -1759,6 +2145,53 @@
             "over_par": null,
             "summary": "1 illegal move   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/pets/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "pets",
+              "sets",
+              "sews",
+              "pews",
+              "peep",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "pets",
+              "pots",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "pets",
+              "pots",
+              "poos",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/pets/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -1937,6 +2370,53 @@
             "over_par": null,
             "summary": "2 illegal moves   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/sobs/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "sobs",
+              "jobs",
+              "jogs",
+              "logs",
+              "loos",
+              "loop",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 0,
+            "solved": true,
+            "over_par": 2,
+            "summary": "0 illegal moves   ·   +2 over par",
+            "board_image": "results_images_no_reasoning/sobs/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "sobs",
+              "soop",
+              "poop"
+            ],
+            "num_moves": 2,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "sobs",
+              "sops",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/sobs/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -2127,6 +2607,57 @@
             "over_par": null,
             "summary": "2 illegal moves   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/reft/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "reft",
+              "left",
+              "loft",
+              "loot",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "reft",
+              "rest",
+              "pest",
+              "past",
+              "post",
+              "poot",
+              "poop"
+            ],
+            "num_moves": 6,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "reft",
+              "raft",
+              "roft",
+              "roof",
+              "poof",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 2,
+            "solved": false,
+            "over_par": null,
+            "summary": "2 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/reft/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -2304,6 +2835,53 @@
             "over_par": null,
             "summary": "1 illegal move   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/kors/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "kors",
+              "cores",
+              "cops",
+              "poops",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 4,
+            "solved": false,
+            "over_par": null,
+            "summary": "4 illegal moves   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "kors",
+              "koos",
+              "coos",
+              "coop",
+              "poop"
+            ],
+            "num_moves": 4,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "kors",
+              "kops",
+              "pops",
+              "poop"
+            ],
+            "num_moves": 3,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/kors/openai_gpt_5_6_sol.png"
           }
         ]
       }
@@ -2494,6 +3072,57 @@
             "over_par": null,
             "summary": "2 illegal moves   ·   didn't reach poop",
             "board_image": "results_images_no_reasoning/gyms/deepseek_deepseek_v4_pro.png"
+          },
+          {
+            "model": "gpt-5.6-luna",
+            "ladder": [
+              "gyms",
+              "gums",
+              "gump",
+              "pump",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/openai_gpt_5_6_luna.png"
+          },
+          {
+            "model": "gpt-5.6-terra",
+            "ladder": [
+              "gyms",
+              "gums",
+              "gump",
+              "pump",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/openai_gpt_5_6_terra.png"
+          },
+          {
+            "model": "gpt-5.6-sol",
+            "ladder": [
+              "gyms",
+              "gums",
+              "gump",
+              "pump",
+              "pomp",
+              "poop"
+            ],
+            "num_moves": 5,
+            "illegal_moves": 1,
+            "solved": false,
+            "over_par": null,
+            "summary": "1 illegal move   ·   didn't reach poop",
+            "board_image": "results_images_no_reasoning/gyms/openai_gpt_5_6_sol.png"
           }
         ]
       }

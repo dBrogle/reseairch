@@ -12,6 +12,13 @@ from pathlib import Path
 import matplotlib.image as mpimg
 import numpy as np
 
+from utils.model_icons import themed_icon_path_for
+
+# Vendor logos are square at this size; themed per-model icons (the Apple emoji)
+# are smaller, so callers scale their zoom by ICON_REF_PX / height to render
+# every icon at the same physical size.
+ICON_REF_PX = 512.0
+
 MODELS_IMAGE_DIR = Path(__file__).parent.parent / "data" / "images" / "models"
 
 # Map from model provider prefix to image filename.
@@ -44,3 +51,18 @@ def load_model_image(model: str) -> np.ndarray | None:
         return mpimg.imread(str(path))
     except Exception:
         return None
+
+
+def load_themed_model_image(model: str) -> np.ndarray | None:
+    """Like load_model_image, but honors per-model icon overrides.
+
+    gpt-5.6-luna/terra/sol get their moon/earth/sun emoji; everything else falls
+    back to its vendor logo.
+    """
+    path = themed_icon_path_for(model)
+    if path is None:
+        return load_model_image(model)
+    try:
+        return mpimg.imread(str(path))
+    except Exception:
+        return load_model_image(model)

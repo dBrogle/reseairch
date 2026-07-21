@@ -1,0 +1,385 @@
+tournament,match_id,stage,stage_group,team,opponent,is_home,fouls,yellows,reds,cards,pens_won,pens_conceded,went_to_et,minutes,gf,ga,result,referee,source
+1998,espn_198093,Group Stage,group,Brazil,Scotland,True,0,2,0,2,0,1,False,90,2,1,W,,scraped:espn
+1998,espn_198093,Group Stage,group,Scotland,Brazil,False,0,1,0,1,1,0,False,90,1,2,L,,scraped:espn
+1998,espn_198092,Group Stage,group,Morocco,Norway,True,0,1,0,1,0,0,False,90,2,2,D,,scraped:espn
+1998,espn_198092,Group Stage,group,Norway,Morocco,False,0,0,0,0,0,0,False,90,2,2,D,,scraped:espn
+1998,espn_198099,Group Stage,group,Cameroon,Austria,True,0,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198099,Group Stage,group,Austria,Cameroon,False,0,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198098,Group Stage,group,Italy,Chile,True,0,2,0,2,1,0,False,90,2,2,D,,scraped:espn
+1998,espn_198098,Group Stage,group,Chile,Italy,False,0,3,0,3,0,1,False,90,2,2,D,,scraped:espn
+1998,espn_198105,Group Stage,group,France,South Africa,True,0,3,0,3,0,0,False,90,3,0,W,,scraped:espn
+1998,espn_198105,Group Stage,group,South Africa,France,False,0,1,0,1,0,0,False,90,0,3,L,,scraped:espn
+1998,espn_198110,Group Stage,group,Paraguay,Bulgaria,True,0,0,0,0,0,0,False,90,0,0,D,,scraped:espn
+1998,espn_198110,Group Stage,group,Bulgaria,Paraguay,False,0,0,0,0,0,0,False,90,0,0,D,,scraped:espn
+1998,espn_198104,Group Stage,group,Saudi Arabia,Denmark,True,0,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198104,Group Stage,group,Denmark,Saudi Arabia,False,0,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198117,Group Stage,group,Netherlands,Belgium,True,0,0,1,1,0,0,False,90,0,0,D,,scraped:espn
+1998,espn_198117,Group Stage,group,Belgium,Netherlands,False,0,2,0,2,0,0,False,90,0,0,D,,scraped:espn
+1998,espn_198116,Group Stage,group,South Korea,Mexico,True,0,1,1,2,0,0,False,90,1,3,L,,scraped:espn
+1998,espn_198116,Group Stage,group,Mexico,South Korea,False,0,2,0,2,0,0,False,90,3,1,W,,scraped:espn
+1998,espn_198111,Group Stage,group,Spain,Nigeria,True,0,3,0,3,0,0,False,90,2,3,L,,scraped:espn
+1998,espn_198111,Group Stage,group,Nigeria,Spain,False,0,1,0,1,0,0,False,90,3,2,W,,scraped:espn
+1998,espn_198134,Group Stage,group,Argentina,Japan,True,0,0,0,0,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198134,Group Stage,group,Japan,Argentina,False,0,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198135,Group Stage,group,Jamaica,Croatia,True,0,1,0,1,0,0,False,90,1,3,L,,scraped:espn
+1998,espn_198135,Group Stage,group,Croatia,Jamaica,False,0,2,0,2,0,0,False,90,3,1,W,,scraped:espn
+1998,espn_198122,Group Stage,group,Yugoslavia,Iran,True,0,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198122,Group Stage,group,Iran,Yugoslavia,False,0,0,0,0,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198129,Group Stage,group,England,Tunisia,True,0,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+1998,espn_198129,Group Stage,group,Tunisia,England,False,0,3,0,3,0,0,False,90,0,2,L,,scraped:espn
+1998,espn_198123,Group Stage,group,Germany,United States,True,0,3,1,4,0,0,False,90,2,0,W,,scraped:espn
+1998,espn_198123,Group Stage,group,United States,Germany,False,0,2,0,2,0,0,False,90,0,2,L,,scraped:espn
+1998,espn_198128,Group Stage,group,Romania,Colombia,True,0,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198128,Group Stage,group,Colombia,Romania,False,0,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198095,Group Stage,group,Brazil,Morocco,True,0,2,0,2,0,0,False,90,3,0,W,,scraped:espn
+1998,espn_198095,Group Stage,group,Morocco,Brazil,False,0,2,0,2,0,0,False,90,0,3,L,,scraped:espn
+1998,espn_198094,Group Stage,group,Scotland,Norway,True,0,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198094,Group Stage,group,Norway,Scotland,False,0,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198100,Group Stage,group,Chile,Austria,True,0,4,0,4,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198100,Group Stage,group,Austria,Chile,False,0,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198101,Group Stage,group,Italy,Cameroon,True,0,2,0,2,0,0,False,90,3,0,W,,scraped:espn
+1998,espn_198101,Group Stage,group,Cameroon,Italy,False,0,4,1,5,0,0,False,90,0,3,L,,scraped:espn
+1998,espn_198106,Group Stage,group,France,Saudi Arabia,True,0,2,2,4,0,0,False,90,4,0,W,,scraped:espn
+1998,espn_198106,Group Stage,group,Saudi Arabia,France,False,0,2,1,3,0,0,False,90,0,4,L,,scraped:espn
+1998,espn_198107,Group Stage,group,South Africa,Denmark,True,0,4,2,6,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198107,Group Stage,group,Denmark,South Africa,False,0,3,2,5,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198112,Group Stage,group,Nigeria,Bulgaria,True,0,4,0,4,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198112,Group Stage,group,Bulgaria,Nigeria,False,0,2,0,2,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198113,Group Stage,group,Spain,Paraguay,True,0,2,0,2,0,0,False,90,0,0,D,,scraped:espn
+1998,espn_198113,Group Stage,group,Paraguay,Spain,False,0,2,0,2,0,0,False,90,0,0,D,,scraped:espn
+1998,espn_198119,Group Stage,group,Belgium,Mexico,True,0,1,1,2,0,1,False,90,2,2,D,,scraped:espn
+1998,espn_198119,Group Stage,group,Mexico,Belgium,False,0,2,2,4,1,0,False,90,2,2,D,,scraped:espn
+1998,espn_198136,Group Stage,group,Japan,Croatia,True,0,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198136,Group Stage,group,Croatia,Japan,False,0,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198118,Group Stage,group,Netherlands,South Korea,True,0,0,0,0,0,0,False,90,5,0,W,,scraped:espn
+1998,espn_198118,Group Stage,group,South Korea,Netherlands,False,0,2,0,2,0,0,False,90,0,5,L,,scraped:espn
+1998,espn_198137,Group Stage,group,Argentina,Jamaica,True,0,1,0,1,1,0,False,90,5,0,W,,scraped:espn
+1998,espn_198137,Group Stage,group,Jamaica,Argentina,False,0,2,1,3,0,1,False,90,0,5,L,,scraped:espn
+1998,espn_198124,Group Stage,group,Germany,Yugoslavia,True,0,1,0,1,0,0,False,90,2,2,D,,scraped:espn
+1998,espn_198124,Group Stage,group,Yugoslavia,Germany,False,0,0,0,0,0,0,False,90,2,2,D,,scraped:espn
+1998,espn_198125,Group Stage,group,United States,Iran,True,0,1,0,1,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198125,Group Stage,group,Iran,United States,False,0,2,0,2,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198130,Group Stage,group,Colombia,Tunisia,True,0,1,0,1,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198130,Group Stage,group,Tunisia,Colombia,False,0,2,0,2,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198131,Group Stage,group,Romania,England,True,0,4,0,4,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198131,Group Stage,group,England,Romania,False,0,0,0,0,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198097,Group Stage,group,Brazil,Norway,True,0,0,0,0,0,1,False,90,1,2,L,,scraped:espn
+1998,espn_198097,Group Stage,group,Norway,Brazil,False,0,2,0,2,1,0,False,90,2,1,W,,scraped:espn
+1998,espn_198103,Group Stage,group,Chile,Cameroon,True,0,4,0,4,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198103,Group Stage,group,Cameroon,Chile,False,0,1,2,3,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198102,Group Stage,group,Italy,Austria,True,0,1,0,1,0,1,False,90,2,1,W,,scraped:espn
+1998,espn_198102,Group Stage,group,Austria,Italy,False,0,4,0,4,1,0,False,90,1,2,L,,scraped:espn
+1998,espn_198096,Group Stage,group,Scotland,Morocco,True,0,1,1,2,0,0,False,90,0,3,L,,scraped:espn
+1998,espn_198096,Group Stage,group,Morocco,Scotland,False,0,1,0,1,0,0,False,90,3,0,W,,scraped:espn
+1998,espn_198108,Group Stage,group,France,Denmark,True,0,2,0,2,1,1,False,90,2,1,W,,scraped:espn
+1998,espn_198108,Group Stage,group,Denmark,France,False,0,2,0,2,1,1,False,90,1,2,L,,scraped:espn
+1998,espn_198115,Group Stage,group,Nigeria,Paraguay,True,0,2,2,4,0,0,False,90,1,3,L,,scraped:espn
+1998,espn_198115,Group Stage,group,Paraguay,Nigeria,False,0,0,0,0,0,0,False,90,3,1,W,,scraped:espn
+1998,espn_198109,Group Stage,group,South Africa,Saudi Arabia,True,0,2,0,2,1,2,False,90,2,2,D,,scraped:espn
+1998,espn_198109,Group Stage,group,Saudi Arabia,South Africa,False,0,1,0,1,2,1,False,90,2,2,D,,scraped:espn
+1998,espn_198114,Group Stage,group,Spain,Bulgaria,True,0,2,0,2,1,0,False,90,6,1,W,,scraped:espn
+1998,espn_198114,Group Stage,group,Bulgaria,Spain,False,0,2,0,2,0,1,False,90,1,6,L,,scraped:espn
+1998,espn_198120,Group Stage,group,Belgium,South Korea,True,0,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198120,Group Stage,group,South Korea,Belgium,False,0,4,1,5,0,0,False,90,1,1,D,,scraped:espn
+1998,espn_198126,Group Stage,group,Germany,Iran,True,0,2,0,2,0,0,False,90,2,0,W,,scraped:espn
+1998,espn_198126,Group Stage,group,Iran,Germany,False,0,1,0,1,0,0,False,90,0,2,L,,scraped:espn
+1998,espn_198121,Group Stage,group,Netherlands,Mexico,True,0,2,0,2,0,0,False,90,2,2,D,,scraped:espn
+1998,espn_198121,Group Stage,group,Mexico,Netherlands,False,0,4,1,5,0,0,False,90,2,2,D,,scraped:espn
+1998,espn_198127,Group Stage,group,United States,Yugoslavia,True,0,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198127,Group Stage,group,Yugoslavia,United States,False,0,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198139,Group Stage,group,Argentina,Croatia,True,0,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198139,Group Stage,group,Croatia,Argentina,False,0,4,1,5,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198133,Group Stage,group,Colombia,England,True,0,3,1,4,0,0,False,90,0,2,L,,scraped:espn
+1998,espn_198133,Group Stage,group,England,Colombia,False,0,2,0,2,0,0,False,90,2,0,W,,scraped:espn
+1998,espn_198138,Group Stage,group,Japan,Jamaica,True,0,1,0,1,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198138,Group Stage,group,Jamaica,Japan,False,0,2,0,2,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198132,Group Stage,group,Romania,Tunisia,True,0,0,0,0,0,1,False,90,1,1,D,,scraped:espn
+1998,espn_198132,Group Stage,group,Tunisia,Romania,False,0,2,0,2,1,0,False,90,1,1,D,,scraped:espn
+1998,espn_198140,Second Round,knockout,Brazil,Chile,True,0,2,0,2,1,0,False,90,4,1,W,,scraped:espn
+1998,espn_198140,Second Round,knockout,Chile,Brazil,False,0,2,0,2,0,1,False,90,1,4,L,,scraped:espn
+1998,espn_198141,Second Round,knockout,Italy,Norway,True,0,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198141,Second Round,knockout,Norway,Italy,False,0,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198143,Second Round,knockout,France,Paraguay,True,0,0,0,0,0,0,False,90,1,0,W,,scraped:espn
+1998,espn_198143,Second Round,knockout,Paraguay,France,False,0,5,1,6,0,0,False,90,0,1,L,,scraped:espn
+1998,espn_198142,Second Round,knockout,Nigeria,Denmark,True,0,1,0,1,0,0,False,90,1,4,L,,scraped:espn
+1998,espn_198142,Second Round,knockout,Denmark,Nigeria,False,0,1,0,1,0,0,False,90,4,1,W,,scraped:espn
+1998,espn_198144,Second Round,knockout,Germany,Mexico,True,0,4,0,4,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198144,Second Round,knockout,Mexico,Germany,False,0,2,0,2,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198145,Second Round,knockout,Netherlands,Yugoslavia,True,0,0,0,0,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198145,Second Round,knockout,Yugoslavia,Netherlands,False,0,3,0,3,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198146,Second Round,knockout,Argentina,England,True,0,4,0,4,1,1,True,120,2,2,D,,scraped:espn
+1998,espn_198146,Second Round,knockout,England,Argentina,False,0,2,2,4,1,1,True,120,2,2,D,,scraped:espn
+1998,espn_198147,Second Round,knockout,Romania,Croatia,True,0,3,0,3,0,1,False,90,0,1,L,,scraped:espn
+1998,espn_198147,Second Round,knockout,Croatia,Romania,False,0,2,0,2,1,0,False,90,1,0,W,,scraped:espn
+1998,espn_198149,Quarter-finals,knockout,Brazil,Denmark,True,0,3,1,4,0,0,False,90,3,2,W,,scraped:espn
+1998,espn_198149,Quarter-finals,knockout,Denmark,Brazil,False,0,3,0,3,0,0,False,90,2,3,L,,scraped:espn
+1998,espn_198148,Quarter-finals,knockout,Italy,France,True,0,3,0,3,0,0,True,120,0,0,D,,scraped:espn
+1998,espn_198148,Quarter-finals,knockout,France,Italy,False,0,2,0,2,0,0,True,120,0,0,D,,scraped:espn
+1998,espn_198150,Quarter-finals,knockout,Germany,Croatia,True,0,2,1,3,0,0,False,90,0,3,L,,scraped:espn
+1998,espn_198150,Quarter-finals,knockout,Croatia,Germany,False,0,2,0,2,0,0,False,90,3,0,W,,scraped:espn
+1998,espn_198151,Quarter-finals,knockout,Netherlands,Argentina,True,0,2,2,4,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198151,Quarter-finals,knockout,Argentina,Netherlands,False,0,3,1,4,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198152,Semi-finals,knockout,Brazil,Netherlands,True,0,2,0,2,0,0,True,120,1,1,D,,scraped:espn
+1998,espn_198152,Semi-finals,knockout,Netherlands,Brazil,False,0,4,0,4,0,0,True,120,1,1,D,,scraped:espn
+1998,espn_198153,Semi-finals,knockout,France,Croatia,True,0,0,1,1,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198153,Semi-finals,knockout,Croatia,France,False,0,3,0,3,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198154,3rd-Place Match,knockout,Netherlands,Croatia,True,0,2,0,2,0,0,False,90,1,2,L,,scraped:espn
+1998,espn_198154,3rd-Place Match,knockout,Croatia,Netherlands,False,0,4,0,4,0,0,False,90,2,1,W,,scraped:espn
+1998,espn_198155,Final,knockout,Brazil,France,True,0,1,0,1,0,0,False,90,0,3,L,,scraped:espn
+1998,espn_198155,Final,knockout,France,Brazil,False,0,3,1,4,0,0,False,90,3,0,W,,scraped:espn
+2002,espn_46457,Group Stage,group,France,Senegal,True,18,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_46457,Group Stage,group,Senegal,France,False,21,1,0,1,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48811,Group Stage,group,Republic of Ireland,Cameroon,True,9,3,0,3,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48811,Group Stage,group,Cameroon,Republic of Ireland,False,12,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48812,Group Stage,group,Uruguay,Denmark,True,12,1,0,1,0,0,False,90,1,2,L,,scraped:espn
+2002,espn_48812,Group Stage,group,Denmark,Uruguay,False,8,2,0,2,0,0,False,90,2,1,W,,scraped:espn
+2002,espn_48278,Group Stage,group,Germany,Saudi Arabia,True,19,2,0,2,0,0,False,90,8,0,W,,scraped:espn
+2002,espn_48278,Group Stage,group,Saudi Arabia,Germany,False,10,1,0,1,0,0,False,90,0,8,L,,scraped:espn
+2002,espn_48813,Group Stage,group,Argentina,Nigeria,True,14,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48813,Group Stage,group,Nigeria,Argentina,False,19,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48814,Group Stage,group,Paraguay,South Africa,True,17,4,0,4,0,1,False,90,2,2,D,,scraped:espn
+2002,espn_48814,Group Stage,group,South Africa,Paraguay,False,18,4,0,4,1,0,False,90,2,2,D,,scraped:espn
+2002,espn_48815,Group Stage,group,England,Sweden,True,10,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48815,Group Stage,group,Sweden,England,False,13,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48816,Group Stage,group,Spain,Slovenia,True,17,1,0,1,1,0,False,90,3,1,W,,scraped:espn
+2002,espn_48816,Group Stage,group,Slovenia,Spain,False,15,2,0,2,0,1,False,90,1,3,L,,scraped:espn
+2002,espn_48817,Group Stage,group,Croatia,Mexico,True,16,0,1,1,0,1,False,90,0,1,L,,scraped:espn
+2002,espn_48817,Group Stage,group,Mexico,Croatia,False,17,0,0,0,1,0,False,90,1,0,W,,scraped:espn
+2002,espn_48818,Group Stage,group,Brazil,Türkiye,True,18,1,0,1,1,0,False,90,2,1,W,,scraped:espn
+2002,espn_48818,Group Stage,group,Türkiye,Brazil,False,21,3,2,5,0,1,False,90,1,2,L,,scraped:espn
+2002,espn_48819,Group Stage,group,Italy,Ecuador,True,19,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48819,Group Stage,group,Ecuador,Italy,False,17,3,0,3,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48820,Group Stage,group,China,Costa Rica,True,15,3,0,3,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48820,Group Stage,group,Costa Rica,China,False,18,4,0,4,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48821,Group Stage,group,Japan,Belgium,True,27,2,0,2,0,0,False,90,2,2,D,,scraped:espn
+2002,espn_48821,Group Stage,group,Belgium,Japan,False,25,4,0,4,0,0,False,90,2,2,D,,scraped:espn
+2002,espn_48288,Group Stage,group,South Korea,Poland,True,14,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48288,Group Stage,group,Poland,South Korea,False,20,3,0,3,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48822,Group Stage,group,Russia,Tunisia,True,15,2,0,2,1,0,False,90,2,0,W,,scraped:espn
+2002,espn_48822,Group Stage,group,Tunisia,Russia,False,13,1,0,1,0,1,False,90,0,2,L,,scraped:espn
+2002,espn_48823,Group Stage,group,United States,Portugal,True,20,1,0,1,0,0,False,90,3,2,W,,scraped:espn
+2002,espn_48823,Group Stage,group,Portugal,United States,False,17,2,0,2,0,0,False,90,2,3,L,,scraped:espn
+2002,espn_48824,Group Stage,group,Germany,Republic of Ireland,True,15,0,0,0,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48824,Group Stage,group,Republic of Ireland,Germany,False,18,0,0,0,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48825,Group Stage,group,Denmark,Senegal,True,20,4,0,4,1,0,False,90,1,1,D,,scraped:espn
+2002,espn_48825,Group Stage,group,Senegal,Denmark,False,13,3,1,4,0,1,False,90,1,1,D,,scraped:espn
+2002,espn_48826,Group Stage,group,Cameroon,Saudi Arabia,True,16,1,0,1,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48826,Group Stage,group,Saudi Arabia,Cameroon,False,11,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48827,Group Stage,group,France,Uruguay,True,18,1,1,2,0,0,False,90,0,0,D,,scraped:espn
+2002,espn_48827,Group Stage,group,Uruguay,France,False,21,4,0,4,0,0,False,90,0,0,D,,scraped:espn
+2002,espn_48828,Group Stage,group,Sweden,Nigeria,True,8,2,0,2,1,0,False,90,2,1,W,,scraped:espn
+2002,espn_48828,Group Stage,group,Nigeria,Sweden,False,12,1,0,1,0,1,False,90,1,2,L,,scraped:espn
+2002,espn_48829,Group Stage,group,Spain,Paraguay,True,13,1,0,1,1,0,False,90,3,1,W,,scraped:espn
+2002,espn_48829,Group Stage,group,Paraguay,Spain,False,16,3,0,3,0,1,False,90,1,3,L,,scraped:espn
+2002,espn_48830,Group Stage,group,Argentina,England,True,21,1,0,1,0,1,False,90,0,1,L,,scraped:espn
+2002,espn_48830,Group Stage,group,England,Argentina,False,18,2,0,2,1,0,False,90,1,0,W,,scraped:espn
+2002,espn_48831,Group Stage,group,South Africa,Slovenia,True,19,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48831,Group Stage,group,Slovenia,South Africa,False,13,4,0,4,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48832,Group Stage,group,Italy,Croatia,True,26,1,0,1,0,0,False,90,1,2,L,,scraped:espn
+2002,espn_48832,Group Stage,group,Croatia,Italy,False,21,1,0,1,0,0,False,90,2,1,W,,scraped:espn
+2002,espn_48833,Group Stage,group,Brazil,China,True,12,2,0,2,1,0,False,90,4,0,W,,scraped:espn
+2002,espn_48833,Group Stage,group,China,Brazil,False,7,0,0,0,0,1,False,90,0,4,L,,scraped:espn
+2002,espn_48834,Group Stage,group,Mexico,Ecuador,True,9,1,0,1,0,0,False,90,2,1,W,,scraped:espn
+2002,espn_48834,Group Stage,group,Ecuador,Mexico,False,17,5,0,5,0,0,False,90,1,2,L,,scraped:espn
+2002,espn_48835,Group Stage,group,Costa Rica,Türkiye,True,15,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48835,Group Stage,group,Türkiye,Costa Rica,False,9,3,0,3,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48836,Group Stage,group,Japan,Russia,True,30,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48836,Group Stage,group,Russia,Japan,False,30,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48837,Group Stage,group,South Korea,United States,True,17,1,0,1,1,0,False,90,1,1,D,,scraped:espn
+2002,espn_48837,Group Stage,group,United States,South Korea,False,17,2,0,2,0,1,False,90,1,1,D,,scraped:espn
+2002,espn_48838,Group Stage,group,Tunisia,Belgium,True,21,4,0,4,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48838,Group Stage,group,Belgium,Tunisia,False,18,1,0,1,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48839,Group Stage,group,Portugal,Poland,True,16,3,0,3,0,0,False,90,4,0,W,,scraped:espn
+2002,espn_48839,Group Stage,group,Poland,Portugal,False,20,2,0,2,0,0,False,90,0,4,L,,scraped:espn
+2002,espn_48840,Group Stage,group,Denmark,France,True,18,2,0,2,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48840,Group Stage,group,France,Denmark,False,13,1,0,1,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48841,Group Stage,group,Senegal,Uruguay,True,20,7,0,7,1,1,False,90,3,3,D,,scraped:espn
+2002,espn_48841,Group Stage,group,Uruguay,Senegal,False,18,5,0,5,1,1,False,90,3,3,D,,scraped:espn
+2002,espn_48842,Group Stage,group,Cameroon,Germany,True,20,7,1,8,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48842,Group Stage,group,Germany,Cameroon,False,27,7,1,8,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48843,Group Stage,group,Saudi Arabia,Republic of Ireland,True,12,1,0,1,0,0,False,90,0,3,L,,scraped:espn
+2002,espn_48843,Group Stage,group,Republic of Ireland,Saudi Arabia,False,12,1,0,1,0,0,False,90,3,0,W,,scraped:espn
+2002,espn_48845,Group Stage,group,Nigeria,England,True,11,0,0,0,0,0,False,90,0,0,D,,scraped:espn
+2002,espn_48845,Group Stage,group,England,Nigeria,False,6,0,0,0,0,0,False,90,0,0,D,,scraped:espn
+2002,espn_48844,Group Stage,group,Sweden,Argentina,True,18,2,0,2,0,1,False,90,1,1,D,,scraped:espn
+2002,espn_48844,Group Stage,group,Argentina,Sweden,False,13,3,0,3,1,0,False,90,1,1,D,,scraped:espn
+2002,espn_48847,Group Stage,group,Slovenia,Paraguay,True,20,4,1,5,0,0,False,90,1,3,L,,scraped:espn
+2002,espn_48847,Group Stage,group,Paraguay,Slovenia,False,15,1,1,2,0,0,False,90,3,1,W,,scraped:espn
+2002,espn_48846,Group Stage,group,South Africa,Spain,True,16,4,0,4,0,0,False,90,2,3,L,,scraped:espn
+2002,espn_48846,Group Stage,group,Spain,South Africa,False,6,0,0,0,0,0,False,90,3,2,W,,scraped:espn
+2002,espn_48848,Group Stage,group,Costa Rica,Brazil,True,14,0,0,0,0,0,False,90,2,5,L,,scraped:espn
+2002,espn_48848,Group Stage,group,Brazil,Costa Rica,False,6,1,0,1,0,0,False,90,5,2,W,,scraped:espn
+2002,espn_48849,Group Stage,group,Türkiye,China,True,20,3,0,3,0,0,False,90,3,0,W,,scraped:espn
+2002,espn_48849,Group Stage,group,China,Türkiye,False,17,2,1,3,0,0,False,90,0,3,L,,scraped:espn
+2002,espn_48851,Group Stage,group,Ecuador,Croatia,True,15,1,0,1,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48851,Group Stage,group,Croatia,Ecuador,False,16,2,0,2,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48850,Group Stage,group,Mexico,Italy,True,21,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48850,Group Stage,group,Italy,Mexico,False,12,4,0,4,0,0,False,90,1,1,D,,scraped:espn
+2002,espn_48853,Group Stage,group,Belgium,Russia,True,19,1,0,1,0,0,False,90,3,2,W,,scraped:espn
+2002,espn_48853,Group Stage,group,Russia,Belgium,False,19,4,0,4,0,0,False,90,2,3,L,,scraped:espn
+2002,espn_48852,Group Stage,group,Japan,Tunisia,True,16,0,0,0,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48852,Group Stage,group,Tunisia,Japan,False,20,2,0,2,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48855,Group Stage,group,Poland,United States,True,21,4,0,4,1,0,False,90,3,1,W,,scraped:espn
+2002,espn_48855,Group Stage,group,United States,Poland,False,11,1,0,1,0,1,False,90,1,3,L,,scraped:espn
+2002,espn_48854,Group Stage,group,South Korea,Portugal,True,22,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48854,Group Stage,group,Portugal,South Korea,False,18,2,2,4,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48885,Second Round,knockout,Germany,Paraguay,True,13,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48885,Second Round,knockout,Paraguay,Germany,False,24,2,1,3,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48886,Second Round,knockout,Denmark,England,True,15,1,0,1,0,0,False,90,0,3,L,,scraped:espn
+2002,espn_48886,Second Round,knockout,England,Denmark,False,13,1,0,1,0,0,False,90,3,0,W,,scraped:espn
+2002,espn_48887,Second Round,knockout,Sweden,Senegal,True,21,0,0,0,0,0,False,90,1,2,L,,scraped:espn
+2002,espn_48887,Second Round,knockout,Senegal,Sweden,False,22,2,0,2,0,0,False,90,2,1,W,,scraped:espn
+2002,espn_48888,Second Round,knockout,Spain,Republic of Ireland,True,19,3,0,3,0,2,False,90,1,1,D,,scraped:espn
+2002,espn_48888,Second Round,knockout,Republic of Ireland,Spain,False,22,0,0,0,2,0,False,90,1,1,D,,scraped:espn
+2002,espn_48889,Second Round,knockout,Mexico,United States,True,14,5,1,6,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48889,Second Round,knockout,United States,Mexico,False,18,5,0,5,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48890,Second Round,knockout,Brazil,Belgium,True,14,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2002,espn_48890,Second Round,knockout,Belgium,Brazil,False,15,1,0,1,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48891,Second Round,knockout,Japan,Türkiye,True,21,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48891,Second Round,knockout,Türkiye,Japan,False,16,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48892,Second Round,knockout,South Korea,Italy,True,28,4,0,4,1,0,False,90,2,1,W,,scraped:espn
+2002,espn_48892,Second Round,knockout,Italy,South Korea,False,22,4,1,5,0,1,False,90,1,2,L,,scraped:espn
+2002,espn_48864,Quarter-finals,knockout,Brazil,England,True,16,0,1,1,0,0,False,90,2,1,W,,scraped:espn
+2002,espn_48864,Quarter-finals,knockout,England,Brazil,False,20,2,0,2,0,0,False,90,1,2,L,,scraped:espn
+2002,espn_48865,Quarter-finals,knockout,Germany,United States,True,14,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48865,Quarter-finals,knockout,United States,Germany,False,21,5,0,5,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48866,Quarter-finals,knockout,South Korea,Spain,True,20,1,0,1,0,0,False,90,0,0,D,,scraped:espn
+2002,espn_48866,Quarter-finals,knockout,Spain,South Korea,False,21,2,0,2,0,0,False,90,0,0,D,,scraped:espn
+2002,espn_48867,Quarter-finals,knockout,Senegal,Türkiye,True,20,2,0,2,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48867,Quarter-finals,knockout,Türkiye,Senegal,False,17,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48869,Semi-finals,knockout,South Korea,Germany,True,19,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48869,Semi-finals,knockout,Germany,South Korea,False,10,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48868,Semi-finals,knockout,Brazil,Türkiye,True,17,1,0,1,0,0,False,90,1,0,W,,scraped:espn
+2002,espn_48868,Semi-finals,knockout,Türkiye,Brazil,False,16,2,0,2,0,0,False,90,0,1,L,,scraped:espn
+2002,espn_48870,3rd Place Final,knockout,South Korea,Türkiye,True,9,1,0,1,0,0,False,90,2,3,L,,scraped:espn
+2002,espn_48870,3rd Place Final,knockout,Türkiye,South Korea,False,13,1,0,1,0,0,False,90,3,2,W,,scraped:espn
+2002,espn_48871,Final,knockout,Germany,Brazil,True,21,1,0,1,0,0,False,90,0,2,L,,scraped:espn
+2002,espn_48871,Final,knockout,Brazil,Germany,False,19,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191918,Group Stage,group,Germany,Costa Rica,True,11,0,0,0,0,0,False,90,4,2,W,,scraped:espn
+2006,espn_191918,Group Stage,group,Costa Rica,Germany,False,11,1,0,1,0,0,False,90,2,4,L,,scraped:espn
+2006,espn_191919,Group Stage,group,Poland,Ecuador,True,8,1,0,1,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191919,Group Stage,group,Ecuador,Poland,False,16,2,0,2,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191920,Group Stage,group,England,Paraguay,True,13,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191920,Group Stage,group,Paraguay,England,False,11,1,0,1,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191921,Group Stage,group,Trinidad and Tobago,Sweden,True,10,2,1,3,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191921,Group Stage,group,Sweden,Trinidad and Tobago,False,8,1,0,1,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191922,Group Stage,group,Argentina,Ivory Coast,True,13,3,0,3,0,0,False,90,2,1,W,,scraped:espn
+2006,espn_191922,Group Stage,group,Ivory Coast,Argentina,False,14,2,0,2,0,0,False,90,1,2,L,,scraped:espn
+2006,espn_191923,Group Stage,group,Serbia & Montenegro,Netherlands,True,14,4,0,4,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191923,Group Stage,group,Netherlands,Serbia & Montenegro,False,22,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191924,Group Stage,group,Mexico,Iran,True,22,2,0,2,0,0,False,90,3,1,W,,scraped:espn
+2006,espn_191924,Group Stage,group,Iran,Mexico,False,19,1,0,1,0,0,False,90,1,3,L,,scraped:espn
+2006,espn_191925,Group Stage,group,Angola,Portugal,True,27,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191925,Group Stage,group,Portugal,Angola,False,19,2,0,2,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191929,Group Stage,group,Australia,Japan,True,23,4,0,4,0,0,False,90,3,1,W,,scraped:espn
+2006,espn_191929,Group Stage,group,Japan,Australia,False,11,3,0,3,0,0,False,90,1,3,L,,scraped:espn
+2006,espn_191927,Group Stage,group,United States,Czechia,True,13,2,0,2,0,0,False,90,0,3,L,,scraped:espn
+2006,espn_191927,Group Stage,group,Czechia,United States,False,16,4,0,4,0,0,False,90,3,0,W,,scraped:espn
+2006,espn_191926,Group Stage,group,Italy,Ghana,True,8,3,0,3,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191926,Group Stage,group,Ghana,Italy,False,20,2,0,2,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191931,Group Stage,group,South Korea,Togo,True,17,2,0,2,0,0,False,90,2,1,W,,scraped:espn
+2006,espn_191931,Group Stage,group,Togo,South Korea,False,17,3,1,4,0,0,False,90,1,2,L,,scraped:espn
+2006,espn_191930,Group Stage,group,France,Switzerland,True,16,3,0,3,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191930,Group Stage,group,Switzerland,France,False,18,5,0,5,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191928,Group Stage,group,Brazil,Croatia,True,18,1,0,1,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191928,Group Stage,group,Croatia,Brazil,False,19,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191932,Group Stage,group,Spain,Ukraine,True,9,0,0,0,1,0,False,90,4,0,W,,scraped:espn
+2006,espn_191932,Group Stage,group,Ukraine,Spain,False,12,2,1,3,0,1,False,90,0,4,L,,scraped:espn
+2006,espn_191933,Group Stage,group,Tunisia,Saudi Arabia,True,15,4,0,4,0,0,False,90,2,2,D,,scraped:espn
+2006,espn_191933,Group Stage,group,Saudi Arabia,Tunisia,False,11,0,0,0,0,0,False,90,2,2,D,,scraped:espn
+2006,espn_191934,Group Stage,group,Germany,Poland,True,20,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191934,Group Stage,group,Poland,Germany,False,14,3,1,4,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191935,Group Stage,group,Ecuador,Costa Rica,True,12,3,0,3,0,0,False,90,3,0,W,,scraped:espn
+2006,espn_191935,Group Stage,group,Costa Rica,Ecuador,False,22,2,0,2,0,0,False,90,0,3,L,,scraped:espn
+2006,espn_191936,Group Stage,group,England,Trinidad and Tobago,True,15,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191936,Group Stage,group,Trinidad and Tobago,England,False,16,5,0,5,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191937,Group Stage,group,Sweden,Paraguay,True,18,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191937,Group Stage,group,Paraguay,Sweden,False,15,4,0,4,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191938,Group Stage,group,Argentina,Serbia & Montenegro,True,12,1,0,1,0,0,False,90,6,0,W,,scraped:espn
+2006,espn_191938,Group Stage,group,Serbia & Montenegro,Argentina,False,19,3,1,4,0,0,False,90,0,6,L,,scraped:espn
+2006,espn_191939,Group Stage,group,Netherlands,Ivory Coast,True,22,4,0,4,0,0,False,90,2,1,W,,scraped:espn
+2006,espn_191939,Group Stage,group,Ivory Coast,Netherlands,False,16,3,0,3,0,0,False,90,1,2,L,,scraped:espn
+2006,espn_191940,Group Stage,group,Mexico,Angola,True,17,1,0,1,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191940,Group Stage,group,Angola,Mexico,False,19,4,1,5,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191941,Group Stage,group,Portugal,Iran,True,18,3,0,3,1,0,False,90,2,0,W,,scraped:espn
+2006,espn_191941,Group Stage,group,Iran,Portugal,False,17,4,0,4,0,1,False,90,0,2,L,,scraped:espn
+2006,espn_191943,Group Stage,group,Czechia,Ghana,True,12,1,1,2,0,1,False,90,0,2,L,,scraped:espn
+2006,espn_191943,Group Stage,group,Ghana,Czechia,False,20,5,0,5,1,0,False,90,2,0,W,,scraped:espn
+2006,espn_191942,Group Stage,group,Italy,United States,True,13,2,1,3,0,0,False,90,1,1,D,,scraped:espn
+2006,espn_191942,Group Stage,group,United States,Italy,False,22,1,2,3,0,0,False,90,1,1,D,,scraped:espn
+2006,espn_191945,Group Stage,group,Japan,Croatia,True,18,3,0,3,0,1,False,90,0,0,D,,scraped:espn
+2006,espn_191945,Group Stage,group,Croatia,Japan,False,19,2,0,2,1,0,False,90,0,0,D,,scraped:espn
+2006,espn_191944,Group Stage,group,Brazil,Australia,True,9,3,0,3,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191944,Group Stage,group,Australia,Brazil,False,23,2,0,2,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191946,Group Stage,group,France,South Korea,True,20,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+2006,espn_191946,Group Stage,group,South Korea,France,False,10,2,0,2,0,0,False,90,1,1,D,,scraped:espn
+2006,espn_191947,Group Stage,group,Togo,Switzerland,True,18,3,0,3,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191947,Group Stage,group,Switzerland,Togo,False,13,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191949,Group Stage,group,Saudi Arabia,Ukraine,True,21,3,0,3,0,0,False,90,0,4,L,,scraped:espn
+2006,espn_191949,Group Stage,group,Ukraine,Saudi Arabia,False,20,3,0,3,0,0,False,90,4,0,W,,scraped:espn
+2006,espn_191948,Group Stage,group,Spain,Tunisia,True,10,2,0,2,1,0,False,90,3,1,W,,scraped:espn
+2006,espn_191948,Group Stage,group,Tunisia,Spain,False,20,6,0,6,0,1,False,90,1,3,L,,scraped:espn
+2006,espn_191951,Group Stage,group,Costa Rica,Poland,True,13,5,0,5,0,0,False,90,1,2,L,,scraped:espn
+2006,espn_191951,Group Stage,group,Poland,Costa Rica,False,18,5,0,5,0,0,False,90,2,1,W,,scraped:espn
+2006,espn_191950,Group Stage,group,Ecuador,Germany,True,20,1,0,1,0,0,False,90,0,3,L,,scraped:espn
+2006,espn_191950,Group Stage,group,Germany,Ecuador,False,17,1,0,1,0,0,False,90,3,0,W,,scraped:espn
+2006,espn_191953,Group Stage,group,Paraguay,Trinidad and Tobago,True,16,2,0,2,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191953,Group Stage,group,Trinidad and Tobago,Paraguay,False,20,2,0,2,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191952,Group Stage,group,Sweden,England,True,19,2,0,2,0,0,False,90,2,2,D,,scraped:espn
+2006,espn_191952,Group Stage,group,England,Sweden,False,11,1,0,1,0,0,False,90,2,2,D,,scraped:espn
+2006,espn_191957,Group Stage,group,Iran,Angola,True,18,3,0,3,0,0,False,90,1,1,D,,scraped:espn
+2006,espn_191957,Group Stage,group,Angola,Iran,False,21,3,0,3,0,0,False,90,1,1,D,,scraped:espn
+2006,espn_191956,Group Stage,group,Portugal,Mexico,True,22,4,0,4,1,1,False,90,2,1,W,,scraped:espn
+2006,espn_191956,Group Stage,group,Mexico,Portugal,False,15,4,1,5,1,1,False,90,1,2,L,,scraped:espn
+2006,espn_191955,Group Stage,group,Ivory Coast,Serbia & Montenegro,True,13,3,1,4,2,0,False,90,3,2,W,,scraped:espn
+2006,espn_191955,Group Stage,group,Serbia & Montenegro,Ivory Coast,False,19,4,1,5,0,2,False,90,2,3,L,,scraped:espn
+2006,espn_191954,Group Stage,group,Netherlands,Argentina,True,20,3,0,3,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191954,Group Stage,group,Argentina,Netherlands,False,16,2,0,2,0,0,False,90,0,0,D,,scraped:espn
+2006,espn_191958,Group Stage,group,Czechia,Italy,True,17,1,1,2,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191958,Group Stage,group,Italy,Czechia,False,16,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191959,Group Stage,group,Ghana,United States,True,30,4,0,4,1,0,False,90,2,1,W,,scraped:espn
+2006,espn_191959,Group Stage,group,United States,Ghana,False,15,1,0,1,0,1,False,90,1,2,L,,scraped:espn
+2006,espn_191961,Group Stage,group,Croatia,Australia,True,17,4,2,6,0,1,False,90,2,2,D,,scraped:espn
+2006,espn_191961,Group Stage,group,Australia,Croatia,False,21,1,1,2,1,0,False,90,2,2,D,,scraped:espn
+2006,espn_191960,Group Stage,group,Japan,Brazil,True,9,1,0,1,0,0,False,90,1,4,L,,scraped:espn
+2006,espn_191960,Group Stage,group,Brazil,Japan,False,5,1,0,1,0,0,False,90,4,1,W,,scraped:espn
+2006,espn_191964,Group Stage,group,Saudi Arabia,Spain,True,21,2,0,2,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191964,Group Stage,group,Spain,Saudi Arabia,False,21,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191965,Group Stage,group,Ukraine,Tunisia,True,17,4,0,4,1,0,False,90,1,0,W,,scraped:espn
+2006,espn_191965,Group Stage,group,Tunisia,Ukraine,False,24,3,1,4,0,1,False,90,0,1,L,,scraped:espn
+2006,espn_191963,Group Stage,group,Switzerland,South Korea,True,7,5,0,5,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191963,Group Stage,group,South Korea,Switzerland,False,19,4,0,4,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191962,Group Stage,group,Togo,France,True,20,3,0,3,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191962,Group Stage,group,France,Togo,False,11,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191966,Second Round,knockout,Germany,Sweden,True,14,1,0,1,0,1,False,90,2,0,W,,scraped:espn
+2006,espn_191966,Second Round,knockout,Sweden,Germany,False,20,3,1,4,1,0,False,90,0,2,L,,scraped:espn
+2006,espn_191967,Second Round,knockout,Argentina,Mexico,True,19,2,0,2,0,0,False,90,2,1,W,,scraped:espn
+2006,espn_191967,Second Round,knockout,Mexico,Argentina,False,25,4,0,4,0,0,False,90,1,2,L,,scraped:espn
+2006,espn_191968,Second Round,knockout,England,Ecuador,True,13,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191968,Second Round,knockout,Ecuador,England,False,22,3,0,3,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191969,Second Round,knockout,Portugal,Netherlands,True,9,7,2,9,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191969,Second Round,knockout,Netherlands,Portugal,False,12,5,2,7,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191970,Second Round,knockout,Italy,Australia,True,17,3,1,4,1,0,False,90,1,0,W,,scraped:espn
+2006,espn_191970,Second Round,knockout,Australia,Italy,False,24,3,0,3,0,1,False,90,0,1,L,,scraped:espn
+2006,espn_191971,Second Round,knockout,Switzerland,Ukraine,True,22,1,0,1,0,0,True,120,0,0,D,,scraped:espn
+2006,espn_191971,Second Round,knockout,Ukraine,Switzerland,False,18,0,0,0,0,0,True,120,0,0,D,,scraped:espn
+2006,espn_191972,Second Round,knockout,Brazil,Ghana,True,16,2,0,2,0,0,False,90,3,0,W,,scraped:espn
+2006,espn_191972,Second Round,knockout,Ghana,Brazil,False,22,5,1,6,0,0,False,90,0,3,L,,scraped:espn
+2006,espn_191973,Second Round,knockout,Spain,France,True,28,1,0,1,1,0,False,90,1,3,L,,scraped:espn
+2006,espn_191973,Second Round,knockout,France,Spain,False,22,3,0,3,0,1,False,90,3,1,W,,scraped:espn
+2006,espn_191974,Quarter-finals,knockout,Germany,Argentina,True,23,3,0,3,0,0,True,120,1,1,D,,scraped:espn
+2006,espn_191974,Quarter-finals,knockout,Argentina,Germany,False,30,4,0,4,0,0,True,120,1,1,D,,scraped:espn
+2006,espn_191975,Quarter-finals,knockout,Italy,Ukraine,True,14,0,0,0,0,0,False,90,3,0,W,,scraped:espn
+2006,espn_191975,Quarter-finals,knockout,Ukraine,Italy,False,24,3,0,3,0,0,False,90,0,3,L,,scraped:espn
+2006,espn_191976,Quarter-finals,knockout,England,Portugal,True,18,2,1,3,0,0,True,120,0,0,D,,scraped:espn
+2006,espn_191976,Quarter-finals,knockout,Portugal,England,False,10,2,0,2,0,0,True,120,0,0,D,,scraped:espn
+2006,espn_191977,Quarter-finals,knockout,Brazil,France,True,19,4,0,4,0,0,False,90,0,1,L,,scraped:espn
+2006,espn_191977,Quarter-finals,knockout,France,Brazil,False,17,3,0,3,0,0,False,90,1,0,W,,scraped:espn
+2006,espn_191978,Semi-finals,knockout,Germany,Italy,True,19,2,0,2,0,0,False,90,0,2,L,,scraped:espn
+2006,espn_191978,Semi-finals,knockout,Italy,Germany,False,19,1,0,1,0,0,False,90,2,0,W,,scraped:espn
+2006,espn_191979,Semi-finals,knockout,Portugal,France,True,16,1,0,1,0,1,False,90,0,1,L,,scraped:espn
+2006,espn_191979,Semi-finals,knockout,France,Portugal,False,10,1,0,1,1,0,False,90,1,0,W,,scraped:espn
+2006,espn_191980,3rd-Place Match,knockout,Germany,Portugal,True,14,2,0,2,0,0,False,90,3,1,W,,scraped:espn
+2006,espn_191980,3rd-Place Match,knockout,Portugal,Germany,False,15,3,0,3,0,0,False,90,1,3,L,,scraped:espn
+2006,espn_191983,Final,knockout,Italy,France,True,15,1,0,1,0,1,True,120,1,1,D,,scraped:espn
+2006,espn_191983,Final,knockout,France,Italy,False,24,3,1,4,1,0,True,120,1,1,D,,scraped:espn

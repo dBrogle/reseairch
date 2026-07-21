@@ -9,13 +9,15 @@ import os
 from pathlib import Path
 
 import numpy as np
+import matplotlib
+import matplotlib.colors
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from matplotlib.patches import Patch
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 from utils.graphing import heatmap
-from utils.model_icons import icon_path_for
+from utils.model_icons import icon_path_for, themed_icon_path_for
 from studies.poople.analysis import OUTCOMES, PIE_CATEGORIES
 
 _ICON_REF_PX = 512.0
@@ -50,8 +52,36 @@ def model_color(model: str) -> str:
     return "#4A90D9"
 
 
-def _place_icon(ax, model, xy, zoom, xycoords="data", zorder=20):
-    p = icon_path_for(model)
+def _vendor_spread_colors(models: list[str]) -> dict[str, str]:
+    """Brand color per model, lightened apart when several share one vendor.
+
+    An all-OpenAI chart would otherwise be N identical green bars. Models keeping
+    a vendor to themselves get the exact brand color, so mixed charts are
+    unchanged.
+    """
+    import colorsys
+
+    groups: dict[str, list[str]] = {}
+    for m in models:
+        groups.setdefault(model_color(m), []).append(m)
+
+    out: dict[str, str] = {}
+    for base, members in groups.items():
+        if len(members) == 1:
+            out[members[0]] = base
+            continue
+        r, g, b = matplotlib.colors.to_rgb(base)
+        h, l, s = colorsys.rgb_to_hls(r, g, b)
+        # Spread lightness around the brand value, darkest first.
+        lo, hi = max(0.18, l - 0.20), min(0.80, l + 0.26)
+        for i, m in enumerate(sorted(members)):
+            li = lo + (hi - lo) * (i / max(1, len(members) - 1))
+            out[m] = matplotlib.colors.to_hex(colorsys.hls_to_rgb(h, li, s))
+    return out
+
+
+def _place_icon(ax, model, xy, zoom, xycoords="data", zorder=20, themed=False):
+    p = themed_icon_path_for(model) if themed else icon_path_for(model)
     if p is None:
         return
     try:
@@ -88,9 +118,10 @@ def _headline_barh(stats, value_fn, title, subtitle, xlabel, save_path,
     fig.patch.set_facecolor(BG)
     ax.set_facecolor(BG)
 
+    palette = _vendor_spread_colors([s["model"] for s, _ in items])
     for i, (s, v) in enumerate(items):
         y = n - 1 - i
-        col = model_color(s["model"])
+        col = palette[s["model"]]
         ax.barh(y, v, height=0.62, color=col, edgecolor="white", linewidth=1.2, zorder=3)
         # value label + trailing brand icon (icon clear of the text)
         ax.text(v + headroom * 0.02, y, f"{v:{value_fmt}}{suffix}", ha="left", va="center",
@@ -127,8 +158,25 @@ def _headline_barh(stats, value_fn, title, subtitle, xlabel, save_path,
 # Outcome pie (one per model, with the model's logo)
 # ---------------------------------------------------------------------------
 
+def _pie_ordered(stats, pie_order):
+    """Reorder pies so `pie_order` models come first, in that order.
+
+    Sorting is stable, so anything unlisted keeps its existing relative position
+    at the back. A substring match keeps this robust to the vendor prefix.
+    """
+    if not pie_order:
+        return stats
+
+    def rank(s):
+        model = s["model"].lower()
+        return next((i for i, key in enumerate(pie_order) if key in model), len(pie_order))
+
+    return sorted(stats, key=rank)
+
+
 def _outcome_pies(stats, save_path, subtitle, title="Poople — outcome mix by model",
-                  solved_word="solved"):
+                  solved_word="solved", pie_order=None):
+    stats = _pie_ordered(stats, pie_order)
     n = len(stats)
     cols = min(3, n)
     rows = (n + cols - 1) // cols
@@ -153,7 +201,7 @@ def _outcome_pies(stats, save_path, subtitle, title="Poople — outcome mix by m
                radius=1.0, wedgeprops=dict(width=0.42, edgecolor="white", linewidth=2),
                textprops=dict(color="white", fontsize=11, fontweight="bold"))
         ax.set_aspect("equal")
-        _place_icon(ax, s["model"], (0, 0), zoom=0.11, xycoords="data")
+        _place_icon(ax, s["model"], (0, 0), zoom=0.11, xycoords="data", themed=True)
         ax.set_title(f"{_short(s['model'])}\n{s['overall']['solve_rate']:.0f}% {solved_word}",
                      fontsize=12.5, fontweight="bold", color="#15171a", pad=8)
 
@@ -222,7 +270,8 @@ def _stacked_outcomes(stats, save_path, subtitle):
 # Entry point
 # ---------------------------------------------------------------------------
 
-def generate_graphs(stats: list[dict], save_dir: Path, subtitle: str = ""):
+def generate_graphs(stats: list[dict], save_dir: Path, subtitle: str = "",
+                    pie_order: tuple[str, ...] | None = None):
     save_dir.mkdir(parents=True, exist_ok=True)
 
     _headline_barh(
@@ -243,7 +292,7 @@ def generate_graphs(stats: list[dict], save_dir: Path, subtitle: str = ""):
         value_fmt=".2f", suffix="", drop_none=True,
     )
 
-    _outcome_pies(stats, save_dir / "outcomes_pie.png", subtitle)
+    _outcome_pies(stats, save_dir / "outcomes_pie.png", subtitle, pie_order=pie_order)
     _stacked_outcomes(stats, save_dir / "outcomes_stacked.png", subtitle)
 
     # Difficulty heatmaps (model × par bucket).

@@ -1,6 +1,6 @@
 # Poople — can LLMs solve a word ladder to 'poop'?
 
-_Generated 2026-06-17._
+_Generated 2026-07-10._
 
 Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word and change exactly one letter at a time — every intermediate must be a real four-letter word — until you reach 'poop'. We BFS out from 'poop' over all four-letter English words to get the optimal solution length (par) and every optimal ladder, then ask LLMs to solve a difficulty-stratified sample of puzzles as strict JSON and grade each attempt for legality and steps over par. Models are tested in two sets: one-shot with reasoning OFF, and with reasoning ON.
 
@@ -33,10 +33,13 @@ Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word an
 | Model | Solve % | Avg +par | Illegal/attempt | % w/ illegal |
 |---|---|---|---|---|
 | gpt-5.5 | 21.1% | +0.58 | 1.19 | 78.9% |
+| gpt-5.6-terra | 20.0% | +0.5 | 1.49 | 80.0% |
 | deepseek-v4-pro | 16.7% | +0.6 | 1.24 | 83.3% |
 | grok-4.3 | 14.4% | +0.38 | 1.66 | 85.6% |
+| gpt-5.6-luna | 14.4% | +0.77 | 1.52 | 85.6% |
 | claude-opus-4.8 | 13.3% | +0.17 | 1.31 | 86.7% |
 | kimi-k2.6 | 13.3% | +0.67 | 1.57 | 82.2% |
+| gpt-5.6-sol | 10.0% | +0.33 | 1.51 | 90.0% |
 
 ## Reasoning vs one-shot (solve %)
 
@@ -77,6 +80,9 @@ Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word an
 - [no_reasoning] grok-4.3: `cods → cops → poop` — 1 illegal move   ·   didn't reach poop
 - [no_reasoning] kimi-k2.6: `cods → cops → coop → poop` — 1 illegal move   ·   didn't reach poop
 - [no_reasoning] deepseek-v4-pro: `cods → cops → coop → poop` — 1 illegal move   ·   didn't reach poop
+- [no_reasoning] gpt-5.6-luna: `cods → cops → poops → poop` — 2 illegal moves   ·   didn't reach poop
+- [no_reasoning] gpt-5.6-terra: `cods → cops → coops → poop` — 2 illegal moves   ·   didn't reach poop
+- [no_reasoning] gpt-5.6-sol: `cods → cops → coop → poop` — 1 illegal move   ·   didn't reach poop
 
 **cobs** (par 3) · one optimal: `cobs → coos → coop → poop`
 
@@ -90,6 +96,9 @@ Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word an
 - [no_reasoning] grok-4.3: `cobs → cops → poops → poop` — 2 illegal moves   ·   didn't reach poop
 - [no_reasoning] kimi-k2.6: `cobs → cobs → coos → coop → poop` — 1 illegal move   ·   didn't reach poop
 - [no_reasoning] deepseek-v4-pro: `cobs → cops → coos → poos → poop` — 1 illegal move   ·   didn't reach poop
+- [no_reasoning] gpt-5.6-luna: `cobs → cobs → cops → pops → pope → poop` — 2 illegal moves   ·   didn't reach poop
+- [no_reasoning] gpt-5.6-terra: `cobs → cops → coos → coof → poof → poop` — 0 illegal moves   ·   +2 over par
+- [no_reasoning] gpt-5.6-sol: `cobs → cops → pops → poop` — 1 illegal move   ·   didn't reach poop
 
 **nosh** (par 3) · one optimal: `nosh → posh → pooh → poop`
 
@@ -103,6 +112,9 @@ Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word an
 - [no_reasoning] grok-4.3: `nosh → posh → pooh → poop` — 0 illegal moves   ·   optimal (par)
 - [no_reasoning] kimi-k2.6: `nosh → posh → posy → poky → pock → poco → poop` — 2 illegal moves   ·   didn't reach poop
 - [no_reasoning] deepseek-v4-pro: `nosh → posh → pooh → poop` — 0 illegal moves   ·   optimal (par)
+- [no_reasoning] gpt-5.6-luna: `nosh → posh → pooh → poop` — 0 illegal moves   ·   optimal (par)
+- [no_reasoning] gpt-5.6-terra: `nosh → posh → pash → pash → poop` — 2 illegal moves   ·   didn't reach poop
+- [no_reasoning] gpt-5.6-sol: `nosh → posh → post → poet → poop` — 1 illegal move   ·   didn't reach poop
 
 **trow** (par 3) · one optimal: `trow → prow → prop → poop`
 
@@ -116,6 +128,9 @@ Poople is a Wordle-adjacent word-ladder puzzle: start from a four-letter word an
 - [no_reasoning] grok-4.3: `trow → trod → prod → prow → poop` — 1 illegal move   ·   didn't reach poop
 - [no_reasoning] kimi-k2.6: `trow → prow → prof → poof → poop` — 0 illegal moves   ·   +1 over par
 - [no_reasoning] deepseek-v4-pro: `trow → trop → prop → plop → plow → plot → plop → poop` — 0 illegal moves   ·   +4 over par
+- [no_reasoning] gpt-5.6-luna: `trow → trod → prod → prop → poop` — 0 illegal moves   ·   +1 over par
+- [no_reasoning] gpt-5.6-terra: `trow → trop → prop → poop` — 0 illegal moves   ·   optimal (par)
+- [no_reasoning] gpt-5.6-sol: `trow → prow → proa → pooa → poop` — 1 illegal move   ·   didn't reach poop
 
 ## Assets
 

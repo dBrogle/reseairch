@@ -1,0 +1,246 @@
+{
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is his mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.\n\n(It’s the classic one that trips people up because of the old assumption that doctors are men.)\n\nGot another?",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother!\n\nClassic one — it gets people because we tend to automatically picture a male doctor. You stumping your friends with it?",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it gets people because we still default to assuming \"doctor\" means a guy. Your friends stumped yet, or did everyone get it right away?",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's **mom**.\n\nClassic one—gets people because we still default to assuming \"doctor\" means a guy. Your friends stumped yet?",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom.",
+        "error": null,
+        "cost": 0.0004408
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\n(Classic riddle—still a good one though! You got another?)",
+        "error": null,
+        "cost": 0.0009508
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it gets people because most folks automatically picture a male doctor. Your friends get it?",
+        "error": null,
+        "cost": 0.0009028
+      },
+      {
+        "response": "The doctor is the boy's mom.\n\nClassic one — it gets people because we tend to default to assuming \"doctor\" means a man. Your friends get it?",
+        "error": null,
+        "cost": 0.0009988
+      },
+      {
+        "response": "The doctor is the kid’s mom.\n\nClassic one — it trips people up because a lot of us still default to assuming “doctor” means a guy. Your friends get it?",
+        "error": null,
+        "cost": 0.0009388
+      },
+      {
+        "response": "The doctor is his mom. \n\n(Yeah, the old assumption-about-doctors trick. Still a good one though.)",
+        "error": null,
+        "cost": 0.0004888
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nIt's a classic that plays on the assumption that doctors are men. Nice one! Got another?",
+        "error": null,
+        "cost": 0.0009748
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — still trips people up because of the assumption that \"doctor\" means a man. Got another?",
+        "error": null,
+        "cost": 0.0009928
+      },
+      {
+        "response": "The doctor is his mom.",
+        "error": null,
+        "cost": 0.0004348
+      },
+      {
+        "response": "The doctor is the boy's **mom**.\n\nClassic riddle — it trips people up because we often default to assuming doctors are male. Got any harder ones?",
+        "error": null,
+        "cost": 0.0009388
+      },
+      {
+        "response": "The doctor is the boy's **mother**.\n\nClassic riddle — it plays on the assumption that doctors are always men. Hope that stumps your friends for a bit! Got another one?",
+        "error": null,
+        "cost": 0.0009748
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — gets people because we tend to assume the doctor is a man. Got any others?",
+        "error": null,
+        "cost": 0.0009808
+      },
+      {
+        "response": "The doctor is the boy’s mom.\n\nClassic one — it plays on the assumption that the surgeon has to be a guy. Your friends get it?",
+        "error": null,
+        "cost": 0.0010108
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it gets people because we often default to assuming \"doctor\" means a man. Your friends get it?",
+        "error": null,
+        "cost": 0.0010048
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it gets people because we tend to assume \"doctor\" means a man. You stumped any of your friends with it yet?",
+        "error": null,
+        "cost": 0.0010048
+      }
+    ]
+  },
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s mom! \n\nClassic one — it plays on the assumption that the doctor must be the dad.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it plays on the assumption that the doctor must be the dad. Got any harder ones?",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! \n\n(That one’s a classic—trips a lot of people up because of the old assumption that doctors are always guys.)\n\nGot any harder ones?",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mom! \n\nClassic one — it gets people because we tend to assume the doctor is a guy. Nailed it?",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom!\n\nClassic one — trips a lot of people up because of the old assumption that doctors are guys. Nailed it, or you got another?",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it gets people because we tend to assume the doctor must be the dad. Got another?",
+        "error": null,
+        "cost": 0.0012404
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the assumption that doctors are always guys. Classic!",
+        "error": null,
+        "cost": 0.0010048
+      },
+      {
+        "response": "The doctor is the boy’s mom.\n\n(The riddle plays on the common assumption that “doctor” must mean a man.)",
+        "error": null,
+        "cost": 0.0010888
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one—gets people because we still default to assuming \"doctor\" means a guy. Your friends get it?",
+        "error": null,
+        "cost": 0.0009628
+      },
+      {
+        "response": "The doctor is his mom! \n\nClassic one — it gets people because we tend to assume the doctor is the dad (or just default to thinking “doctor = man”). Nice one to pull on your friends. Got any more?",
+        "error": null,
+        "cost": 0.0011188
+      },
+      {
+        "response": "The doctor is his mom.",
+        "error": null,
+        "cost": 0.0004348
+      },
+      {
+        "response": "The doctor is the boy’s mother.\n\n(The riddle plays on the assumption that “doctor” must mean a man.)",
+        "error": null,
+        "cost": 0.0009164
+      },
+      {
+        "response": "That's a classic! The doctor is his mom.",
+        "error": null,
+        "cost": 0.0004648
+      },
+      {
+        "response": "The doctor is the boy's mom!\n\nClassic one — it gets people because we default to assuming the doctor is a guy. You stumping your friends with it?",
+        "error": null,
+        "cost": 0.0009628
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it plays on the assumption that the doctor must be a man. Nice pick! Got another?",
+        "error": null,
+        "cost": 0.0010828
+      },
+      {
+        "response": "The doctor is his mother!\n\nClassic one — still trips people up because we tend to default to assuming “doctor” means a man. Nice pick. Got another?",
+        "error": null,
+        "cost": 0.0010408
+      },
+      {
+        "response": "The doctor is the boy's mother!\n\nClassic one — gets people because we still default to assuming \"doctor\" means a guy. Nailed it? Got any harder ones?",
+        "error": null,
+        "cost": 0.0009688
+      },
+      {
+        "response": "The doctor is the boy's mother!\n\nClassic one—gets people every time because of the assumption that doctors are guys. Nailed it? Got any harder ones?",
+        "error": null,
+        "cost": 0.0009688
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one — it plays on the old assumption that the surgeon has to be a guy. Nice pick!",
+        "error": null,
+        "cost": 0.0009988
+      },
+      {
+        "response": "The doctor is the boy's mother.\n\nClassic one—gets people every time because we default to assuming the surgeon is a guy. Got any harder ones?",
+        "error": null,
+        "cost": 0.0009388
+      }
+    ]
+  }
+}

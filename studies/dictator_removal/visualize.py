@@ -17,7 +17,7 @@ import numpy as np
 from scipy import stats
 
 from studies.dictator_removal.config import DICTATORS, IMAGES_DIR
-from utils.model_images import load_model_image
+from utils.model_images import ICON_REF_PX, load_model_image, load_themed_model_image
 
 
 # Red gradient for "would kill" percentage
@@ -50,12 +50,16 @@ def generate_grid_chart(
     n_models = len(models)
     n_dictators = len(DICTATORS)
 
-    fig_height = max(6, 2 + n_models * 0.8)
-    fig, ax = plt.subplots(1, 1, figsize=(14, fig_height))
-
     bar_height = 0.6
-    group_height = n_models * bar_height + 0.8
+    # The inter-group gap has to clear both the dictator name drawn above each
+    # group and the next group's first model tick label, or they overprint.
+    group_height = n_models * bar_height + 1.6
     y_positions = {}
+
+    # Height tracks the actual y-extent so rows keep a constant physical size
+    # whether the chart has 4 models or 8.
+    fig_height = max(6, 1.5 + n_dictators * group_height * 0.32)
+    fig, ax = plt.subplots(1, 1, figsize=(14, fig_height))
 
     for d_idx, dictator in enumerate(DICTATORS):
         base_y = d_idx * group_height
@@ -128,13 +132,93 @@ def generate_grid_chart(
             sep_y = y_positions[(d_idx, 0)] - (group_height - n_models * bar_height) / 2
             ax.axhline(sep_y, color="#CCCCCC", linewidth=0.8, linestyle="--")
 
-    ax.set_xlim(-5, 130)
+    # Left margin must contain the portraits anchored at x=-22, else they clip away.
+    # The margin is not part of the percentage scale, so keep ticks off it.
+    ax.set_xlim(-30, 130)
+    ax.set_xticks(range(0, 121, 20))
     ax.set_ylim(-0.8, n_dictators * group_height - 0.5)
     ax.set_xlabel("Would kill as baby (%)", fontsize=12)
     ax.set_title("Dictator Removal: Would You Kill Them as a Baby?",
                  fontsize=16, fontweight="bold", pad=15)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
+
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    fig.tight_layout()
+    fig.savefig(save_path, dpi=200, bbox_inches="tight")
+    plt.close(fig)
+
+
+def generate_overall_chart(
+    model_scores: dict[str, dict[str, dict]],
+    save_path: str | Path,
+    subtitle: str = "",
+):
+    """One bar per model: overall willingness to kill, pooled over all dictators.
+
+    Pooled yes/(yes+no) rather than a mean of the six per-dictator rates, so a
+    model that refuses on some dictators isn't scored as if it had answered.
+    """
+    rows = []
+    for model, scores in model_scores.items():
+        yes = sum(s["yes"] for s in scores.values())
+        no = sum(s["no"] for s in scores.values())
+        skipped = sum(s["refused"] + s["error"] for s in scores.values())
+        answered = yes + no
+        if answered:
+            rows.append((model, yes / answered, yes, answered, skipped))
+
+    if not rows:
+        print("  No data for the overall chart.")
+        return
+
+    rows.sort(key=lambda r: r[1], reverse=True)
+    n = len(rows)
+
+    fig, ax = plt.subplots(figsize=(12, 0.95 * n + 2.4))
+
+    # Icons sit in a gutter left of the zero line. OffsetImage zoom is in points,
+    # so its data-space width depends on dpi — keep it small and the gutter wide.
+    icon_x = -8.0
+
+    for i, (model, rate, yes, answered, skipped) in enumerate(rows):
+        y = n - 1 - i
+        pct = rate * 100
+        ax.barh(y, pct, height=0.58, color=KILL_CMAP(rate),
+                edgecolor="black", linewidth=0.8, zorder=3)
+        # Offsets in points, not data units, so the gap between the percentage
+        # and its count stays constant however long the bar is.
+        ax.annotate(f"{pct:.0f}%", (pct, y), xytext=(7, 0),
+                    textcoords="offset points", va="center", ha="left",
+                    fontsize=15, fontweight="bold", zorder=5)
+        ax.annotate(f"({yes}/{answered})", (pct, y), xytext=(62, 0),
+                    textcoords="offset points", va="center", ha="left",
+                    fontsize=10, color="#777777", zorder=5)
+
+        logo = load_themed_model_image(model)
+        if logo is not None:
+            box = OffsetImage(logo, zoom=0.075 * (ICON_REF_PX / logo.shape[0]))
+            box.image.axes = ax
+            ab = AnnotationBbox(box, (icon_x, y), frameon=False,
+                                xycoords="data", boxcoords="data")
+            ax.add_artist(ab)
+
+    ax.set_yticks(range(n))
+    ax.set_yticklabels([m.split("/")[-1] for m, *_ in rows][::-1],
+                       fontsize=12, fontweight="bold")
+    ax.tick_params(axis="y", length=0)
+
+    ax.set_xlim(-14.5, 108)
+    ax.set_xticks(range(0, 101, 20))
+    ax.set_ylim(-0.7, n - 0.3)
+    ax.set_xlabel("Would kill as baby (%) — all dictators pooled", fontsize=12)
+    ax.set_title("Dictator Removal: overall willingness to kill"
+                 + (f"\n{subtitle}" if subtitle else ""),
+                 fontsize=16, fontweight="bold", pad=14)
+    ax.xaxis.grid(True, linestyle="--", alpha=0.35, zorder=0)
+    ax.set_axisbelow(True)
+    for side in ("top", "right", "left"):
+        ax.spines[side].set_visible(False)
 
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     fig.tight_layout()
@@ -225,10 +309,10 @@ def generate_model_chart(
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
 
-    # Provider/company logo in top-right corner
-    logo = load_model_image(model)
+    # Provider/company logo in top-right corner (themed per-model where one exists)
+    logo = load_themed_model_image(model)
     if logo is not None:
-        imagebox = OffsetImage(logo, zoom=0.25)
+        imagebox = OffsetImage(logo, zoom=0.25 * (ICON_REF_PX / logo.shape[0]))
         ab = AnnotationBbox(
             imagebox,
             (0.95, 0.95),

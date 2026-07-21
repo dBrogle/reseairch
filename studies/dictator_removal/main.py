@@ -12,21 +12,24 @@ Pipeline:
 """
 
 import asyncio
+from pathlib import Path
 
 from services.llm import OpenRouterProvider
 from studies.dictator_removal.config import (
     MODELS,
+    OPENAI_MODELS,
     DICTATORS,
     TEMPERATURE,
     ITERATIONS,
 )
 from studies.dictator_removal.runner import run_all
 from studies.dictator_removal.extractor import extract_all, compute_scores
-from studies.dictator_removal.cache import RESULTS_DIR, GRAPHS_DIR
+from studies.dictator_removal.cache import RESULTS_DIR, GRAPHS_DIR as DEFAULT_GRAPHS_DIR
 from studies.dictator_removal.visualize import (
     generate_grid_chart,
     generate_model_chart,
     generate_dictator_chart,
+    generate_overall_chart,
     compute_pairwise_significance,
 )
 
@@ -128,8 +131,9 @@ def print_summary():
 # Graph generation
 # ---------------------------------------------------------------------------
 
-def generate_graphs(models: list[str]):
-    """Generate all charts."""
+def generate_graphs(models: list[str], graphs_dir: Path | None = None):
+    """Generate all charts for `models` into `graphs_dir` (default: output/graphs/)."""
+    GRAPHS_DIR = graphs_dir or DEFAULT_GRAPHS_DIR
     GRAPHS_DIR.mkdir(parents=True, exist_ok=True)
 
     # Collect all model scores for the grid chart
@@ -173,6 +177,29 @@ def generate_graphs(models: list[str]):
         print(f"  Chart saved for {dictator['name']}")
 
 
+OPENAI_GRAPHS_DIR = DEFAULT_GRAPHS_DIR.parent / "graphs_openai"
+
+
+def generate_openai_graphs():
+    """The same charts, restricted to the OpenAI models, in their own folder."""
+    print(f"\n  OpenAI-only graphs -> {OPENAI_GRAPHS_DIR}/")
+    generate_graphs(OPENAI_MODELS, graphs_dir=OPENAI_GRAPHS_DIR)
+
+    # Headline chart: each model's overall rate across every dictator.
+    all_scores = {}
+    for model in OPENAI_MODELS:
+        scores = compute_scores(model)
+        if any(s["yes"] + s["no"] > 0 for s in scores.values()):
+            all_scores[model] = scores
+    generate_overall_chart(
+        model_scores=all_scores,
+        save_path=OPENAI_GRAPHS_DIR / "overall_average.png",
+        subtitle=f"{len(DICTATORS)} dictators × {ITERATIONS} iterations "
+                 f"= {len(DICTATORS) * ITERATIONS} trials per model",
+    )
+    print("  Overall average chart saved.")
+
+
 # ---------------------------------------------------------------------------
 # Orchestration
 # ---------------------------------------------------------------------------
@@ -190,7 +217,8 @@ async def run_experiment(models: list[str]):
 
     # Step 3: Score and visualize
     print("\n--- Step 3: Scoring and visualization ---")
-    generate_graphs(models)
+    generate_graphs(MODELS)
+    generate_openai_graphs()
 
     print_summary()
 
@@ -210,6 +238,7 @@ def main():
     models = select_models()
     if models == "regenerate_graphs":
         generate_graphs(MODELS)
+        generate_openai_graphs()
         return
     if models == "print_summary":
         print_summary()

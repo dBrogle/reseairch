@@ -17,7 +17,14 @@ MODELS = [
     "x-ai/grok-4.3",
     "google/gemini-3.1-pro-preview",
     "deepseek/deepseek-v3.2",
+    # gpt-5.6 family (Jul 2026)
+    "openai/gpt-5.6-luna",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-sol",
 ]
+
+# Models to include in the OpenAI-only graph set (output/graphs_openai/).
+OPENAI_MODELS = [m for m in MODELS if m.startswith("openai/")]
 
 # Model used to extract yes/no from raw LLM responses
 EXTRACTOR_MODEL = "openai/gpt-5.4"

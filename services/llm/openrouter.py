@@ -43,7 +43,30 @@ class OpenRouterProvider(LLMProvider):
         enable_reasoning: bool = False,
         omit_temperature: bool = False,
         omit_reasoning: bool = False,
+        reasoning_effort: str | None = None,
     ) -> str:
+        text, _cost = await self.complete_text_with_cost(
+            prompt=prompt, model=model, temperature=temperature,
+            max_tokens=max_tokens, messages=messages,
+            enable_reasoning=enable_reasoning, omit_temperature=omit_temperature,
+            omit_reasoning=omit_reasoning, reasoning_effort=reasoning_effort,
+        )
+        return text
+
+    async def complete_text_with_cost(
+        self,
+        prompt: str | None = None,
+        model: str | None = None,
+        temperature: float | None = None,
+        max_tokens: int | None = None,
+        messages: list[dict] | None = None,
+        enable_reasoning: bool = False,
+        omit_temperature: bool = False,
+        omit_reasoning: bool = False,
+        reasoning_effort: str | None = None,
+    ) -> tuple[str, float | None]:
+        """Like complete_text, but also returns OpenRouter's reported USD cost for
+        the call (None if the endpoint doesn't report one)."""
         if model is None:
             raise ValueError("model is required for OpenRouter calls")
         if prompt is None and messages is None:
@@ -63,8 +86,10 @@ class OpenRouterProvider(LLMProvider):
                 msgs, model, temp, tokens,
                 enable_reasoning=enable_reasoning,
                 omit_reasoning=omit_reasoning,
+                reasoning_effort=reasoning_effort,
             )
-            return self._extract_text(response)
+            cost = (response.get("usage") or {}).get("cost")
+            return self._extract_text(response), cost
         except httpx.HTTPStatusError as e:
             # Surface the provider's error body so callers can react to it (e.g. the
             # identity runner detects "reasoning is mandatory" 400s and retries).
@@ -165,6 +190,7 @@ class OpenRouterProvider(LLMProvider):
         top_logprobs: int | None = None,
         enable_reasoning: bool = False,
         omit_reasoning: bool = False,
+        reasoning_effort: str | None = None,
     ) -> Dict[str, Any]:
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -175,6 +201,8 @@ class OpenRouterProvider(LLMProvider):
             "model": model,
             "messages": messages,
             "max_tokens": max_tokens,
+            # Ask OpenRouter to report token usage + USD cost in the response.
+            "usage": {"include": True},
         }
 
         # A None temperature means "let the model use its own default" — omit it.
@@ -200,7 +228,12 @@ class OpenRouterProvider(LLMProvider):
         # explicitly disabled because reasoning is mandatory; for those, callers
         # pass omit_reasoning=True to leave the field out entirely and let the
         # model use its own (unavoidable) default.
-        if omit_reasoning:
+        # An explicit effort ("low"/"medium"/"high") wins: it's the closest to
+        # "off" available for endpoints where reasoning is mandatory and
+        # {enabled: false} 400s.
+        if reasoning_effort is not None:
+            payload["reasoning"] = {"effort": reasoning_effort}
+        elif omit_reasoning:
             pass
         elif enable_reasoning:
             payload["reasoning"] = {"enabled": True}
@@ -229,6 +262,7 @@ class OpenRouterProvider(LLMProvider):
                     response_format,
                     enable_reasoning=enable_reasoning,
                     omit_reasoning=omit_reasoning,
+                    reasoning_effort=reasoning_effort,
                 )
             raise
 

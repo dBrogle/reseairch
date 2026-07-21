@@ -1,0 +1,216 @@
+{
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy's mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s *mother*.",
+        "error": null
+      },
+      {
+        "response": "The classic answer is that the doctor is the boy's mother.\n\n(Though these days we might add that the doctor could also be his other dad, a step-parent, or any other non-biological parent who refers to the child as \"my son.\")",
+        "error": null
+      },
+      {
+        "response": "The father is the doctor! He’s waiting outside the operating room and says, “I can’t operate on him—he’s my son.”",
+        "error": null
+      },
+      {
+        "response": "Easy one—the doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s *mother*.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mom!",
+        "error": null
+      },
+      {
+        "response": "Easy one: the doctor is the boy’s mom!",
+        "error": null
+      },
+      {
+        "response": "The father was driving? Nah, I’m guessing the doctor is the boy’s mom!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mom!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s *mother*.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      }
+    ]
+  },
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy's mother!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother—she’s a surgeon.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The surgeon is the boy's mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.",
+        "error": null
+      },
+      {
+        "response": "The classic answer is that the doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his *mom*.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy's mother.",
+        "error": null
+      },
+      {
+        "response": "Classic one! The doctor is the boy’s *mother*.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom!",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      }
+    ]
+  }
+}

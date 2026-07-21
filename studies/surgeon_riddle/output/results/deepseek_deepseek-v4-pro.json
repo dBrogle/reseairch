@@ -1,0 +1,216 @@
+{
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "Ah, a classic! The doctor is his mother. It's a riddle that plays on the unconscious assumption that the doctor must be a man. Still gets people even today!",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that reveals how easily people default to assuming a doctor is a man. Still catches people off guard even though it's been around for ages. Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that really shows how our brains can make unconscious assumptions — a lot of people immediately picture a male doctor without even realizing it. \n\nGot another one for me?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother — the woman who was also in the crash. It's a riddle that plays on the assumption that the doctor must be a man. Sneaky, right? Got any more?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that really shows how our brains can jump to assumptions — a lot of people instinctively picture a man when they hear \"doctor.\" Gets me every time even though I know the answer! \n\nGot another one for me?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the assumption people often make — that a doctor must be a man. The twist is simple once you catch it. Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the unconscious assumption that the doctor must be a man. Still gets people even today, though thankfully less than it used to! Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother. \n\nPeople often get tripped up on that one because they unconsciously picture the surgeon as a man. It's a good reminder of how easily assumptions sneak in.\n\nGot another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the unconscious assumption that the doctor must be a man. Still gets people even today! Got another one for me?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother. \n\nIt's one of those riddles that really shows how our brains can make unconscious assumptions — a lot of people automatically picture a male doctor without even realizing it. Pretty clever setup, right?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nIt's one of those riddles that plays on the unconscious assumption that a doctor must be a man. Still gets people even today! Got another one for me?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nIt's a riddle that plays on the assumption that the doctor must be a man. Still gets people even today! Got any more?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother. It's a riddle that plays on the assumption that the doctor must be a man. Still gets people even today!",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother. \n\nIt's one of those riddles that catches people off guard because of the unconscious assumption that the doctor must be a man. Still gets people even today, though thankfully less than it used to. \n\nGot any more?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother. It's a riddle that plays on the assumption that the doctor must be a man — but of course, women can be doctors too. The doctor is the boy's mom, who was also in the crash.",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nPeople often get tripped up because they unconsciously picture a male doctor, but of course, plenty of doctors are women. It's a good reminder about hidden assumptions.\n\nGot another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that plays on the unconscious assumption that the doctor must be a man. Gets people every time.",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that plays on the unconscious assumption that the doctor must be a man. Still gets people even today, though hopefully less than it used to! Got any others?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that trips people up because of the unconscious assumption that the doctor must be a man. Still gets people even today! Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the unconscious assumption people sometimes make that a doctor must be a man. Still gets people even today. Got another one for me?",
+        "error": null
+      }
+    ]
+  },
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nStill gets people sometimes — our brains tend to jump to assuming the doctor is a man. Did your friends figure it out, or did you get to stump them?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. It's a riddle that plays on the assumption that the doctor must be a man. Sneaky, right?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic one! The doctor is the boy's mother.\n\nIt's a riddle that plays on the assumption people often make that the doctor must be a man. Still catches people off guard even today. Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that really shows how our brains can jump to assumptions — a lot of people automatically picture a male doctor without even realizing it. Gets me every time, honestly. \n\nGot another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that really exposes how we can unconsciously default to certain assumptions — in this case, picturing a doctor as a man. Still gets people even today, though thankfully less than it used to. Got any more for me?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that really shows how our brains can jump to assumptions — the word \"doctor\" doesn't specify gender, but a lot of people still default to picturing a man. Sneaky, right?\n\nGot another one?",
+        "error": null
+      },
+      {
+        "response": "Oh, I know this one! The doctor is the boy's mother. \n\nIt's one of those classic riddles that plays on the unconscious assumption that a doctor must be a man. Still trips people up even today, though hopefully less than it used to!",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that plays on the unconscious assumption people often make that a surgeon or doctor is male. Still catches people off guard even though it's been around for a while. Got any others?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that really shows how easily our brains can default to assuming a doctor is a man. Still gets people even today. Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. It's a riddle that plays on the unconscious assumption that the doctor must be male. Still catches people off guard even today. \n\nGot another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the unconscious assumption that the doctor must be a man. Still gets people even today. Got another one for me?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nIt's one of those riddles that really exposes unconscious assumptions — a lot of people default to picturing a male doctor, especially with older versions of this riddle. Still gets people even today, though!\n\nGot any more?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nIt's one of those riddles that really shows how our brains can jump to assumptions — lots of people automatically picture the doctor as a man without even realizing it. Fun one to pull out at parties. Got another?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on the unconscious assumption that a doctor, especially a surgeon, must be male. Still gets people even today, though hopefully less than it used to!",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that really shows how our brains can jump to assumptions — we hear \"doctor\" and too many people still default to picturing a man. Gets me every time for a split second, even though I know the answer.",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is his mother.\n\nIt's one of those riddles that really exposes how easily people default to assuming a surgeon must be a man. Still gets people even today! Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. It plays on the assumption that the doctor must be a man. Still gets people even though it's been around for a while. Got any others?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that plays on unconscious assumptions — a lot of people automatically picture a male doctor. Still gets people even though it's been around for a while. Got another one?",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother. \n\nIt's one of those riddles that really exposes our unconscious biases, isn't it? When people hear \"doctor,\" they often default to picturing a man.",
+        "error": null
+      },
+      {
+        "response": "Ah, a classic! The doctor is the boy's mother.\n\nIt's one of those riddles that trips people up because of the unconscious assumption that the doctor must be a man. Gets me every time — or at least it *used* to. Got any more?",
+        "error": null
+      }
+    ]
+  }
+}

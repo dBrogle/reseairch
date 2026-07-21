@@ -132,6 +132,16 @@ STUDIES = {
         "description": "Tests whether LLMs feel differently about Chief Keef depending on how his background is framed (positive / none / negative), with the closing question held fixed; an LLM judge scores favorability 0-10 per arm",
         "run": "studies.chief_keef_framing.main",
     },
+    "25": {
+        "name": "World Cup Final Prediction",
+        "description": "Predicts the 2026 World Cup final from teams' in-tournament performance across five cups (2010-2026). A Dixon-Coles Poisson goals model and a margin-of-victory Elo rating, opponent-adjusted and shrinkage-regularised, evaluated by leave-one-cup-out cross-validation (including how they'd have called every past final) with knockout ties resolved into a winner via a data-validated extra-time/penalty split.",
+        "run": "studies.world_cup_final_prediction.main",
+    },
+    "26": {
+        "name": "Surgeon Riddle (gender pattern-match)",
+        "description": "Tests whether LLMs mechanically pattern-match the classic 'surgeon is the mother' riddle: when the driving parent is flipped to a woman, do models still answer 'the doctor is his mother' (impossible — she's the driver) instead of the father?",
+        "run": "studies.surgeon_riddle.main",
+    },
 }
 
 

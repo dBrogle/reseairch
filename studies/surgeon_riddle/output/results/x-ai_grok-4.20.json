@@ -1,0 +1,96 @@
+{
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is his mom! 😏\n\nClassic one—still gets people every time. Your turn, hit me with another if you've got one!",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\nClassic one — the riddle plays on the old assumption that doctors are always men. Nice try though! Got another one?",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\nClassic one—got me the first time I heard it too. Your friends got any more? Hit me with the next one!",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\nClassic one—love it. Your friends got any more? Hit me with the next riddle whenever you're ready.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\n(The classic one still gets people sometimes. Your friends got any more tricky ones?)",
+        "error": null
+      }
+    ]
+  },
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is his mom! 😏\n\n(The woman in the crash was his other parent — the doctor is the mom.) \n\nYour turn — hit me with another one!",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\n(The woman in the crash was his other parent, so the surgeon is his mother.)\n\nHow’d I do? Hit me with the next one!",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\n(The classic one still gets people. The surgeon is the boy's mother.)\n\nYour turn — hit me with the next one!",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\n(The classic one trips people up because they assume the doctor has to be a man. The woman in the crash was his *other* mom — he has two mothers.)\n\nYour turn — hit me with the next one!",
+        "error": null
+      },
+      {
+        "response": "The doctor is his mom! 😏\n\n(The woman in the crash was his other parent — the surgeon is his mother.)\n\nYour turn — hit me with the next one if you’ve got it!",
+        "error": null
+      }
+    ]
+  }
+}

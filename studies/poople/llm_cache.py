@@ -39,6 +39,11 @@ def results_images_dir(condition: str) -> Path:
     return OUTPUT_ROOT / f"results_images_{condition}"
 
 
+def vendor_graphs_dir(vendor: str, condition: str) -> Path:
+    """Graphs restricted to one vendor's models, e.g. output/openai_no_reasoning/."""
+    return OUTPUT_ROOT / f"{vendor}_{condition}"
+
+
 # ---------------------------------------------------------------------------
 # Cache
 # ---------------------------------------------------------------------------

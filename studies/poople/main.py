@@ -26,6 +26,8 @@ from studies.poople.config import (
     SAMPLE_PER_BUCKET,
     TARGET,
     TEMPERATURE,
+    VENDOR_ONLY_GRAPHS,
+    PIE_ORDER,
 )
 from studies.poople.wordlist import load_words
 from studies.poople.solver import (
@@ -34,7 +36,7 @@ from studies.poople.solver import (
     validate_ladder,
 )
 from studies.poople.sampling import flat_test_words, sample_test_words
-from studies.poople.llm_cache import graphs_dir, results_images_dir
+from studies.poople.llm_cache import graphs_dir, results_images_dir, vendor_graphs_dir
 
 STUDY_DIR = Path(__file__).parent
 SOLUTIONS_DIR = STUDY_DIR / OUTPUT_DIR / "solutions"
@@ -232,8 +234,19 @@ def _build_condition_outputs(condition: str, words, oracle, test_words):
     if not stats:
         print(f"  [{condition}] no cached results yet — skipping graphs.")
         return
-    generate_graphs(stats, graphs_dir(condition), subtitle=_subtitle(test_words, condition))
+    subtitle = _subtitle(test_words, condition)
+    generate_graphs(stats, graphs_dir(condition), subtitle=subtitle)
     generate_result_images(present, words, oracle["dist"], condition)
+
+    # The same charts again, restricted to one vendor, in their own folder.
+    for prefix, vendor in VENDOR_ONLY_GRAPHS.items():
+        subset = [s for s in stats if s["model"].startswith(f"{prefix}/")]
+        if len(subset) < 2:
+            continue  # a one-bar chart says nothing
+        out = vendor_graphs_dir(vendor, condition)
+        generate_graphs(subset, out, subtitle=subtitle, pie_order=PIE_ORDER)
+        print(f"  [{condition}] {vendor}-only graphs ({len(subset)} models) -> {out}/")
+
     print_llm_summary(stats, condition)
 
 

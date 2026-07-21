@@ -93,6 +93,27 @@ def icon_path_for(label: str) -> Path | None:
     return path if path.exists() else None
 
 
+# Models whose name earns them an icon better than their vendor logo. Ordered
+# (substring -> icon stem); first match wins, so "gpt-5.6-sol" is matched by its
+# full name rather than by a bare "sol" that would also catch "solar".
+_MODEL_ICON_OVERRIDES: list[tuple[str, str]] = [
+    ("gpt-5.6-luna", "moon"),
+    ("gpt-5.6-terra", "earth"),
+    ("gpt-5.6-sol", "sun"),
+]
+
+
+def themed_icon_path_for(label: str) -> Path | None:
+    """Icon honoring per-model overrides, else the vendor brand icon."""
+    low = (label or "").lower()
+    for key, stem in _MODEL_ICON_OVERRIDES:
+        if key in low:
+            path = _icon_file(stem)
+            if path.exists():
+                return path
+    return icon_path_for(label)
+
+
 def nationality(label: str) -> str | None:
     """Classify an identity label as 'china', 'west', or None (unknown)."""
     vendor = canonical_vendor(label)

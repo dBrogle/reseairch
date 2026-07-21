@@ -18,6 +18,15 @@ Two parts by user's design, both DONE:
   Grades illegal-move count + avg steps over par. First run (6 models): solve
   rates 8–23%, all models 0% on par-5.
 
+**gpt-5.6 family (Jul 2026).** luna/terra/sol added, `no_reasoning_only` (their
+reasoning IS toggleable — they're keyed that way because that's the only set
+they were run in, not a capability limit). Reasoning-OFF solve: terra 20%, luna
+14%, sol 10%. They are the FIRST models to score above 0% on par-5 (7/3/3%),
+even though sol trails everyone overall — depth ≠ average score here.
+`config.VENDOR_ONLY_GRAPHS` now emits a vendor-subset copy of every chart into
+`output/<vendor>_<condition>/` (skipped when <2 models, since a one-bar chart
+says nothing). See [[dictator-removal-study]].
+
 **Why:** reasoning:{enabled:false} only disables native reasoning tokens, NOT
 visible chain-of-thought — the prompt's "no preamble, JSON only" constraint is
 what enforces one-shot. Without it, models think in content and get truncated.

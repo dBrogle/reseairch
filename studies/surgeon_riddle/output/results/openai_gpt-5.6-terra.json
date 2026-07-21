@@ -1,0 +1,216 @@
+{
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent — traditionally, the riddle’s answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent — traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent — traditionally, the riddle’s answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      }
+    ]
+  },
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s other parent—his father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent — traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his other parent — traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his father (or potentially another parent, depending on the family).",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his father.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his father (or, in the classic version, his mother).",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent — traditionally, the answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—most commonly, his mother.",
+        "error": null
+      }
+    ]
+  }
+}

@@ -1,256 +1,256 @@
 tournament,match_id,stage,stage_group,team,opponent,is_home,fouls,yellows,reds,cards,pens_won,pens_conceded,went_to_et,minutes,gf,ga,result,referee,source
 2018,8650,Quarter-finals,knockout,Brazil,Belgium,True,20,2,0,2,0,0,False,90,1,2,L,Milorad Mažić,statsbomb
 2018,8650,Quarter-finals,knockout,Belgium,Brazil,False,18,2,0,2,0,0,False,90,2,1,W,Milorad Mažić,statsbomb
-2018,7550,Group Stage,group,Serbia,Switzerland,True,20,4,0,4,0,0,False,90,1,2,L,Felix Brych,statsbomb
-2018,7550,Group Stage,group,Switzerland,Serbia,False,13,1,0,1,0,0,False,90,2,1,W,Felix Brych,statsbomb
-2018,7534,Group Stage,group,Germany,Mexico,True,13,2,0,2,0,0,False,90,0,1,L,Alireza Faghani,statsbomb
-2018,7534,Group Stage,group,Mexico,Germany,False,15,2,0,2,0,0,False,90,1,0,W,Alireza Faghani,statsbomb
 2018,7554,Group Stage,group,England,Panama,True,14,1,0,1,2,0,False,90,6,1,W,Ghead Grisha,statsbomb
 2018,7554,Group Stage,group,Panama,England,False,13,3,0,3,0,2,False,90,1,6,L,Ghead Grisha,statsbomb
-2018,7538,Group Stage,group,Sweden,South Korea,True,19,1,0,1,1,0,False,90,1,0,W,Joel Antonio Aguilar Chicas,statsbomb
-2018,7538,Group Stage,group,South Korea,Sweden,False,22,2,0,2,0,1,False,90,0,1,L,Joel Antonio Aguilar Chicas,statsbomb
-2018,7584,Round of 16,knockout,Belgium,Japan,True,13,0,0,0,0,0,False,90,3,2,W,Malang Diedhiou,statsbomb
-2018,7584,Round of 16,knockout,Japan,Belgium,False,11,1,0,1,0,0,False,90,2,3,L,Malang Diedhiou,statsbomb
 2018,7539,Group Stage,group,Poland,Senegal,True,7,1,0,1,0,0,False,90,1,2,L,Nawaf Abdulla Ghayyath Shukralla,statsbomb
 2018,7539,Group Stage,group,Senegal,Poland,False,17,1,0,1,0,0,False,90,2,1,W,Nawaf Abdulla Ghayyath Shukralla,statsbomb
 2018,7543,Group Stage,group,Iran,Spain,True,14,2,0,2,0,0,False,90,0,1,L,Andrés Cunha,statsbomb
 2018,7543,Group Stage,group,Spain,Iran,False,15,0,0,0,0,0,False,90,1,0,W,Andrés Cunha,statsbomb
-2018,7546,Group Stage,group,France,Peru,True,11,2,0,2,0,0,False,90,1,0,W,Mohamed Abdulla Hassan Mohd,statsbomb
-2018,7546,Group Stage,group,Peru,France,False,14,2,0,2,0,0,False,90,0,1,L,Mohamed Abdulla Hassan Mohd,statsbomb
-2018,7545,Group Stage,group,Argentina,Croatia,True,20,4,0,4,0,0,False,90,0,3,L,Ravshan Irmatov,statsbomb
-2018,7545,Group Stage,group,Croatia,Argentina,False,23,4,0,4,0,0,False,90,3,0,W,Ravshan Irmatov,statsbomb
-2018,7569,Group Stage,group,Panama,Tunisia,True,20,1,0,1,0,0,False,90,1,2,L,Nawaf Abdulla Ghayyath Shukralla,statsbomb
-2018,7569,Group Stage,group,Tunisia,Panama,False,20,3,0,3,0,0,False,90,2,1,W,Nawaf Abdulla Ghayyath Shukralla,statsbomb
-2018,7585,Round of 16,knockout,Colombia,England,True,23,6,0,6,0,1,True,120,1,1,D,Mark Geiger,statsbomb
-2018,7585,Round of 16,knockout,England,Colombia,False,13,2,0,2,1,0,True,120,1,1,D,Mark Geiger,statsbomb
-2018,7544,Group Stage,group,Uruguay,Saudi Arabia,True,13,0,0,0,0,0,False,90,1,0,W,Clément Turpin,statsbomb
-2018,7544,Group Stage,group,Saudi Arabia,Uruguay,False,12,0,0,0,0,0,False,90,0,1,L,Clément Turpin,statsbomb
+2018,7550,Group Stage,group,Serbia,Switzerland,True,20,4,0,4,0,0,False,90,1,2,L,Felix Brych,statsbomb
+2018,7550,Group Stage,group,Switzerland,Serbia,False,13,1,0,1,0,0,False,90,2,1,W,Felix Brych,statsbomb
+2018,7538,Group Stage,group,Sweden,South Korea,True,19,1,0,1,1,0,False,90,1,0,W,Joel Antonio Aguilar Chicas,statsbomb
+2018,7538,Group Stage,group,South Korea,Sweden,False,22,2,0,2,0,1,False,90,0,1,L,Joel Antonio Aguilar Chicas,statsbomb
+2018,7584,Round of 16,knockout,Belgium,Japan,True,13,0,0,0,0,0,False,90,3,2,W,Malang Diedhiou,statsbomb
+2018,7584,Round of 16,knockout,Japan,Belgium,False,11,1,0,1,0,0,False,90,2,3,L,Malang Diedhiou,statsbomb
+2018,7534,Group Stage,group,Germany,Mexico,True,13,2,0,2,0,0,False,90,0,1,L,Alireza Faghani,statsbomb
+2018,7534,Group Stage,group,Mexico,Germany,False,15,2,0,2,0,0,False,90,1,0,W,Alireza Faghani,statsbomb
 2018,7572,Group Stage,group,Japan,Poland,True,12,1,0,1,0,0,False,90,0,1,L,Janny Sikazwe,statsbomb
 2018,7572,Group Stage,group,Poland,Japan,False,9,0,0,0,0,0,False,90,1,0,W,Janny Sikazwe,statsbomb
-2018,7531,Group Stage,group,Argentina,Iceland,True,11,0,0,0,1,0,False,90,1,1,D,Szymon Marciniak,statsbomb
-2018,7531,Group Stage,group,Iceland,Argentina,False,17,0,0,0,0,1,False,90,1,1,D,Szymon Marciniak,statsbomb
-2018,7561,Group Stage,group,Iceland,Croatia,True,14,3,0,3,1,0,False,90,1,2,L,Antonio Miguel Mateu Lahoz,statsbomb
-2018,7561,Group Stage,group,Croatia,Iceland,False,13,1,0,1,0,1,False,90,2,1,W,Antonio Miguel Mateu Lahoz,statsbomb
+2018,7569,Group Stage,group,Panama,Tunisia,True,20,1,0,1,0,0,False,90,1,2,L,Nawaf Abdulla Ghayyath Shukralla,statsbomb
+2018,7569,Group Stage,group,Tunisia,Panama,False,20,3,0,3,0,0,False,90,2,1,W,Nawaf Abdulla Ghayyath Shukralla,statsbomb
 2018,7540,Group Stage,group,Russia,Egypt,True,10,2,0,2,0,1,False,90,3,1,W,Enrique Cáceres,statsbomb
 2018,7540,Group Stage,group,Egypt,Russia,False,11,1,0,1,1,0,False,90,1,3,L,Enrique Cáceres,statsbomb
-2018,7586,Round of 16,knockout,Sweden,Switzerland,True,12,1,0,1,0,0,False,90,1,0,W,Damir Skomina,statsbomb
-2018,7586,Round of 16,knockout,Switzerland,Sweden,False,16,2,1,3,0,0,False,90,0,1,L,Damir Skomina,statsbomb
+2018,7545,Group Stage,group,Argentina,Croatia,True,20,4,0,4,0,0,False,90,0,3,L,Ravshan Irmatov,statsbomb
+2018,7545,Group Stage,group,Croatia,Argentina,False,23,4,0,4,0,0,False,90,3,0,W,Ravshan Irmatov,statsbomb
+2018,7585,Round of 16,knockout,Colombia,England,True,23,6,0,6,0,1,True,120,1,1,D,Mark Geiger,statsbomb
+2018,7585,Round of 16,knockout,England,Colombia,False,13,2,0,2,1,0,True,120,1,1,D,Mark Geiger,statsbomb
+2018,7561,Group Stage,group,Iceland,Croatia,True,14,3,0,3,1,0,False,90,1,2,L,Antonio Miguel Mateu Lahoz,statsbomb
+2018,7561,Group Stage,group,Croatia,Iceland,False,13,1,0,1,0,1,False,90,2,1,W,Antonio Miguel Mateu Lahoz,statsbomb
+2018,7544,Group Stage,group,Uruguay,Saudi Arabia,True,13,0,0,0,0,0,False,90,1,0,W,Clément Turpin,statsbomb
+2018,7544,Group Stage,group,Saudi Arabia,Uruguay,False,12,0,0,0,0,0,False,90,0,1,L,Clément Turpin,statsbomb
+2018,7546,Group Stage,group,France,Peru,True,11,2,0,2,0,0,False,90,1,0,W,Mohamed Abdulla Hassan Mohd,statsbomb
+2018,7546,Group Stage,group,Peru,France,False,14,2,0,2,0,0,False,90,0,1,L,Mohamed Abdulla Hassan Mohd,statsbomb
 2018,7557,Group Stage,group,Iran,Portugal,True,16,1,0,1,1,1,False,90,1,1,D,Enrique Cáceres,statsbomb
 2018,7557,Group Stage,group,Portugal,Iran,False,9,2,0,2,1,1,False,90,1,1,D,Enrique Cáceres,statsbomb
-2018,7570,Group Stage,group,England,Belgium,True,14,0,0,0,0,0,False,90,0,1,L,Damir Skomina,statsbomb
-2018,7570,Group Stage,group,Belgium,England,False,16,2,0,2,0,0,False,90,1,0,W,Damir Skomina,statsbomb
+2018,7531,Group Stage,group,Argentina,Iceland,True,11,0,0,0,1,0,False,90,1,1,D,Szymon Marciniak,statsbomb
+2018,7531,Group Stage,group,Iceland,Argentina,False,17,0,0,0,0,1,False,90,1,1,D,Szymon Marciniak,statsbomb
+2018,7586,Round of 16,knockout,Sweden,Switzerland,True,12,1,0,1,0,0,False,90,1,0,W,Damir Skomina,statsbomb
+2018,7586,Round of 16,knockout,Switzerland,Sweden,False,16,2,1,3,0,0,False,90,0,1,L,Damir Skomina,statsbomb
 2018,8656,Semi-finals,knockout,Croatia,England,True,26,2,0,2,0,0,True,120,2,1,W,Cüneyt Çakιr,statsbomb
 2018,8656,Semi-finals,knockout,England,Croatia,False,13,1,0,1,0,0,True,120,1,2,L,Cüneyt Çakιr,statsbomb
-2018,7553,Group Stage,group,South Korea,Mexico,True,26,3,0,3,0,1,False,90,1,2,L,Milorad Mažić,statsbomb
-2018,7553,Group Stage,group,Mexico,South Korea,False,8,0,0,0,1,0,False,90,2,1,W,Milorad Mažić,statsbomb
-2018,7542,Group Stage,group,Portugal,Morocco,True,18,1,0,1,0,0,False,90,1,0,W,Mark Geiger,statsbomb
-2018,7542,Group Stage,group,Morocco,Portugal,False,23,1,0,1,0,0,False,90,0,1,L,Mark Geiger,statsbomb
 2018,7548,Group Stage,group,Brazil,Costa Rica,True,11,2,0,2,0,0,False,90,2,0,W,Björn Kuipers,statsbomb
 2018,7548,Group Stage,group,Costa Rica,Brazil,False,17,1,0,1,0,0,False,90,0,2,L,Björn Kuipers,statsbomb
-2018,7555,Group Stage,group,Poland,Colombia,True,17,2,0,2,0,0,False,90,0,3,L,César Arturo Ramos Palazuelos,statsbomb
-2018,7555,Group Stage,group,Colombia,Poland,False,11,0,0,0,0,0,False,90,3,0,W,César Arturo Ramos Palazuelos,statsbomb
+2018,7570,Group Stage,group,England,Belgium,True,14,0,0,0,0,0,False,90,0,1,L,Damir Skomina,statsbomb
+2018,7570,Group Stage,group,Belgium,England,False,16,2,0,2,0,0,False,90,1,0,W,Damir Skomina,statsbomb
 2018,7578,Group Stage,group,Egypt,Uruguay,True,16,1,0,1,0,0,False,90,0,1,L,Björn Kuipers,statsbomb
 2018,7578,Group Stage,group,Uruguay,Egypt,False,7,0,0,0,0,0,False,90,1,0,W,Björn Kuipers,statsbomb
-2018,7576,Group Stage,group,Portugal,Spain,True,13,1,0,1,1,0,False,90,3,3,D,Gianluca Rocchi,statsbomb
-2018,7576,Group Stage,group,Spain,Portugal,False,11,1,0,1,0,1,False,90,3,3,D,Gianluca Rocchi,statsbomb
+2018,7542,Group Stage,group,Portugal,Morocco,True,18,1,0,1,0,0,False,90,1,0,W,Mark Geiger,statsbomb
+2018,7542,Group Stage,group,Morocco,Portugal,False,23,1,0,1,0,0,False,90,0,1,L,Mark Geiger,statsbomb
+2018,7555,Group Stage,group,Poland,Colombia,True,17,2,0,2,0,0,False,90,0,3,L,César Arturo Ramos Palazuelos,statsbomb
+2018,7555,Group Stage,group,Colombia,Poland,False,11,0,0,0,0,0,False,90,3,0,W,César Arturo Ramos Palazuelos,statsbomb
+2018,7551,Group Stage,group,Germany,Sweden,True,12,1,1,2,0,0,False,90,2,1,W,Szymon Marciniak,statsbomb
+2018,7551,Group Stage,group,Sweden,Germany,False,17,2,0,2,0,0,False,90,1,2,L,Szymon Marciniak,statsbomb
 2018,7536,Group Stage,group,Belgium,Panama,True,17,3,0,3,0,0,False,90,3,0,W,Janny Sikazwe,statsbomb
 2018,7536,Group Stage,group,Panama,Belgium,False,20,5,0,5,0,0,False,90,0,3,L,Janny Sikazwe,statsbomb
 2018,7537,Group Stage,group,Tunisia,England,True,15,0,0,0,1,0,False,90,1,2,L,Wilmar Alexander Roldán Pérez,statsbomb
 2018,7537,Group Stage,group,England,Tunisia,False,9,1,0,1,0,1,False,90,2,1,W,Wilmar Alexander Roldán Pérez,statsbomb
+2018,7553,Group Stage,group,South Korea,Mexico,True,26,3,0,3,0,1,False,90,1,2,L,Milorad Mažić,statsbomb
+2018,7553,Group Stage,group,Mexico,South Korea,False,8,0,0,0,1,0,False,90,2,1,W,Milorad Mažić,statsbomb
+2018,7576,Group Stage,group,Portugal,Spain,True,13,1,0,1,1,0,False,90,3,3,D,Gianluca Rocchi,statsbomb
+2018,7576,Group Stage,group,Spain,Portugal,False,11,1,0,1,0,1,False,90,3,3,D,Gianluca Rocchi,statsbomb
+2018,7581,Round of 16,knockout,Croatia,Denmark,True,7,0,0,0,1,0,True,120,1,1,D,Néstor Fabián Pitana,statsbomb
+2018,7581,Round of 16,knockout,Denmark,Croatia,False,19,1,0,1,0,1,True,120,1,1,D,Néstor Fabián Pitana,statsbomb
 2018,7565,Group Stage,group,Serbia,Brazil,True,14,3,0,3,0,0,False,90,0,2,L,Alireza Faghani,statsbomb
 2018,7565,Group Stage,group,Brazil,Serbia,False,7,0,0,0,0,0,False,90,2,0,W,Alireza Faghani,statsbomb
-2018,7551,Group Stage,group,Germany,Sweden,True,12,1,1,2,0,0,False,90,2,1,W,Szymon Marciniak,statsbomb
-2018,7551,Group Stage,group,Sweden,Germany,False,17,2,0,2,0,0,False,90,1,2,L,Szymon Marciniak,statsbomb
+2018,7580,Round of 16,knockout,France,Argentina,True,23,2,0,2,1,0,False,90,4,3,W,Alireza Faghani,statsbomb
+2018,7580,Round of 16,knockout,Argentina,France,False,14,4,0,4,0,1,False,90,3,4,L,Alireza Faghani,statsbomb
 2018,7562,Group Stage,group,Australia,Peru,True,12,3,0,3,0,0,False,90,0,2,L,Sergey Karasev,statsbomb
 2018,7562,Group Stage,group,Peru,Australia,False,12,2,0,2,0,0,False,90,2,0,W,Sergey Karasev,statsbomb
 2018,7571,Group Stage,group,Senegal,Colombia,True,15,1,0,1,0,0,False,90,0,1,L,Milorad Mažić,statsbomb
 2018,7571,Group Stage,group,Colombia,Senegal,False,16,1,0,1,0,0,False,90,1,0,W,Milorad Mažić,statsbomb
-2018,7580,Round of 16,knockout,France,Argentina,True,23,2,0,2,1,0,False,90,4,3,W,Alireza Faghani,statsbomb
-2018,7580,Round of 16,knockout,Argentina,France,False,14,4,0,4,0,1,False,90,3,4,L,Alireza Faghani,statsbomb
-2018,7549,Group Stage,group,Nigeria,Iceland,True,10,1,0,1,0,1,False,90,2,0,W,Matthew Conger,statsbomb
-2018,7549,Group Stage,group,Iceland,Nigeria,False,12,0,0,0,1,0,False,90,0,2,L,Matthew Conger,statsbomb
-2018,7558,Group Stage,group,Uruguay,Russia,True,19,1,0,1,0,0,False,90,3,0,W,Malang Diedhiou,statsbomb
-2018,7558,Group Stage,group,Russia,Uruguay,False,19,1,1,2,0,0,False,90,0,3,L,Malang Diedhiou,statsbomb
 2018,7529,Group Stage,group,Croatia,Nigeria,True,21,2,0,2,1,0,False,90,2,0,W,Sandro Ricci,statsbomb
 2018,7529,Group Stage,group,Nigeria,Croatia,False,15,1,0,1,0,1,False,90,0,2,L,Sandro Ricci,statsbomb
-2018,7581,Round of 16,knockout,Croatia,Denmark,True,7,0,0,0,1,0,True,120,1,1,D,Néstor Fabián Pitana,statsbomb
-2018,7581,Round of 16,knockout,Denmark,Croatia,False,19,1,0,1,0,1,True,120,1,1,D,Néstor Fabián Pitana,statsbomb
-2018,7547,Group Stage,group,Denmark,Australia,True,7,2,0,2,0,1,False,90,1,1,D,Antonio Miguel Mateu Lahoz,statsbomb
-2018,7547,Group Stage,group,Australia,Denmark,False,6,0,0,0,1,0,False,90,1,1,D,Antonio Miguel Mateu Lahoz,statsbomb
+2018,7549,Group Stage,group,Nigeria,Iceland,True,10,1,0,1,0,1,False,90,2,0,W,Matthew Conger,statsbomb
+2018,7549,Group Stage,group,Iceland,Nigeria,False,12,0,0,0,1,0,False,90,0,2,L,Matthew Conger,statsbomb
 2018,7530,Group Stage,group,France,Australia,True,17,1,0,1,1,1,False,90,2,1,W,Andrés Cunha,statsbomb
 2018,7530,Group Stage,group,Australia,France,False,20,3,0,3,1,1,False,90,1,2,L,Andrés Cunha,statsbomb
-2018,7583,Round of 16,knockout,Brazil,Mexico,True,8,2,0,2,0,0,False,90,2,0,W,Gianluca Rocchi,statsbomb
-2018,7583,Round of 16,knockout,Mexico,Brazil,False,19,4,0,4,0,0,False,90,0,2,L,Gianluca Rocchi,statsbomb
 2018,7568,Group Stage,group,Switzerland,Costa Rica,True,10,2,0,2,0,1,False,90,2,2,D,Clément Turpin,statsbomb
 2018,7568,Group Stage,group,Costa Rica,Switzerland,False,15,2,0,2,1,0,False,90,2,2,D,Clément Turpin,statsbomb
-2018,8649,Quarter-finals,knockout,Uruguay,France,True,22,2,0,2,0,0,False,90,0,2,L,Néstor Fabián Pitana,statsbomb
-2018,8649,Quarter-finals,knockout,France,Uruguay,False,18,2,0,2,0,0,False,90,2,0,W,Néstor Fabián Pitana,statsbomb
-2018,7535,Group Stage,group,Costa Rica,Serbia,True,18,2,0,2,0,0,False,90,0,1,L,Malang Diedhiou,statsbomb
-2018,7535,Group Stage,group,Serbia,Costa Rica,False,13,2,0,2,0,0,False,90,1,0,W,Malang Diedhiou,statsbomb
-2018,7533,Group Stage,group,Brazil,Switzerland,True,12,1,0,1,0,0,False,90,1,1,D,César Arturo Ramos Palazuelos,statsbomb
-2018,7533,Group Stage,group,Switzerland,Brazil,False,21,2,0,2,0,0,False,90,1,1,D,César Arturo Ramos Palazuelos,statsbomb
-2018,7582,Round of 16,knockout,Spain,Russia,True,6,1,0,1,0,1,True,120,1,1,D,Björn Kuipers,statsbomb
-2018,7582,Round of 16,knockout,Russia,Spain,False,21,2,0,2,1,0,True,120,1,1,D,Björn Kuipers,statsbomb
-2018,7564,Group Stage,group,Nigeria,Argentina,True,21,2,0,2,1,0,False,90,1,2,L,Cüneyt Çakιr,statsbomb
-2018,7564,Group Stage,group,Argentina,Nigeria,False,17,3,0,3,0,1,False,90,2,1,W,Cüneyt Çakιr,statsbomb
-2018,7532,Group Stage,group,Peru,Denmark,True,12,1,0,1,1,0,False,90,0,1,L,Bakary Papa Gassama,statsbomb
-2018,7532,Group Stage,group,Denmark,Peru,False,21,2,0,2,0,1,False,90,1,0,W,Bakary Papa Gassama,statsbomb
-2018,7560,Group Stage,group,Spain,Morocco,True,6,0,0,0,0,0,False,90,2,2,D,Ravshan Irmatov,statsbomb
-2018,7560,Group Stage,group,Morocco,Spain,False,18,6,0,6,0,0,False,90,2,2,D,Ravshan Irmatov,statsbomb
+2018,7558,Group Stage,group,Uruguay,Russia,True,19,1,0,1,0,0,False,90,3,0,W,Malang Diedhiou,statsbomb
+2018,7558,Group Stage,group,Russia,Uruguay,False,19,1,1,2,0,0,False,90,0,3,L,Malang Diedhiou,statsbomb
+2018,7583,Round of 16,knockout,Brazil,Mexico,True,8,2,0,2,0,0,False,90,2,0,W,Gianluca Rocchi,statsbomb
+2018,7583,Round of 16,knockout,Mexico,Brazil,False,19,4,0,4,0,0,False,90,0,2,L,Gianluca Rocchi,statsbomb
 2018,8658,Final,knockout,France,Croatia,True,14,1,0,1,1,0,False,90,4,2,W,Néstor Fabián Pitana,statsbomb
 2018,8658,Final,knockout,Croatia,France,False,14,1,0,1,0,1,False,90,2,4,L,Néstor Fabián Pitana,statsbomb
+2018,7560,Group Stage,group,Spain,Morocco,True,6,0,0,0,0,0,False,90,2,2,D,Ravshan Irmatov,statsbomb
+2018,7560,Group Stage,group,Morocco,Spain,False,18,6,0,6,0,0,False,90,2,2,D,Ravshan Irmatov,statsbomb
+2018,7582,Round of 16,knockout,Spain,Russia,True,6,1,0,1,0,1,True,120,1,1,D,Björn Kuipers,statsbomb
+2018,7582,Round of 16,knockout,Russia,Spain,False,21,2,0,2,1,0,True,120,1,1,D,Björn Kuipers,statsbomb
+2018,7535,Group Stage,group,Costa Rica,Serbia,True,18,2,0,2,0,0,False,90,0,1,L,Malang Diedhiou,statsbomb
+2018,7535,Group Stage,group,Serbia,Costa Rica,False,13,2,0,2,0,0,False,90,1,0,W,Malang Diedhiou,statsbomb
+2018,7547,Group Stage,group,Denmark,Australia,True,7,2,0,2,0,1,False,90,1,1,D,Antonio Miguel Mateu Lahoz,statsbomb
+2018,7547,Group Stage,group,Australia,Denmark,False,6,0,0,0,1,0,False,90,1,1,D,Antonio Miguel Mateu Lahoz,statsbomb
+2018,8649,Quarter-finals,knockout,Uruguay,France,True,22,2,0,2,0,0,False,90,0,2,L,Néstor Fabián Pitana,statsbomb
+2018,8649,Quarter-finals,knockout,France,Uruguay,False,18,2,0,2,0,0,False,90,2,0,W,Néstor Fabián Pitana,statsbomb
 2018,7552,Group Stage,group,Belgium,Tunisia,True,13,0,0,0,1,0,False,90,5,2,W,Jair Marrufo,statsbomb
 2018,7552,Group Stage,group,Tunisia,Belgium,False,15,1,0,1,0,1,False,90,2,5,L,Jair Marrufo,statsbomb
+2018,7564,Group Stage,group,Nigeria,Argentina,True,21,2,0,2,1,0,False,90,1,2,L,Cüneyt Çakιr,statsbomb
+2018,7564,Group Stage,group,Argentina,Nigeria,False,17,3,0,3,0,1,False,90,2,1,W,Cüneyt Çakιr,statsbomb
+2018,7533,Group Stage,group,Brazil,Switzerland,True,12,1,0,1,0,0,False,90,1,1,D,César Arturo Ramos Palazuelos,statsbomb
+2018,7533,Group Stage,group,Switzerland,Brazil,False,21,2,0,2,0,0,False,90,1,1,D,César Arturo Ramos Palazuelos,statsbomb
 2018,7577,Group Stage,group,Morocco,Iran,True,22,1,0,1,0,0,False,90,0,1,L,Cüneyt Çakιr,statsbomb
 2018,7577,Group Stage,group,Iran,Morocco,False,16,3,0,3,0,0,False,90,1,0,W,Cüneyt Çakιr,statsbomb
-2018,7566,Group Stage,group,Mexico,Sweden,True,16,3,0,3,0,1,False,90,0,3,L,Néstor Fabián Pitana,statsbomb
-2018,7566,Group Stage,group,Sweden,Mexico,False,18,2,0,2,1,0,False,90,3,0,W,Néstor Fabián Pitana,statsbomb
 2018,7579,Round of 16,knockout,Uruguay,Portugal,True,14,0,0,0,0,0,False,90,2,1,W,César Arturo Ramos Palazuelos,statsbomb
 2018,7579,Round of 16,knockout,Portugal,Uruguay,False,13,1,0,1,0,0,False,90,1,2,L,César Arturo Ramos Palazuelos,statsbomb
+2018,7566,Group Stage,group,Mexico,Sweden,True,16,3,0,3,0,1,False,90,0,3,L,Néstor Fabián Pitana,statsbomb
+2018,7566,Group Stage,group,Sweden,Mexico,False,18,2,0,2,1,0,False,90,3,0,W,Néstor Fabián Pitana,statsbomb
+2018,7532,Group Stage,group,Peru,Denmark,True,12,1,0,1,1,0,False,90,0,1,L,Bakary Papa Gassama,statsbomb
+2018,7532,Group Stage,group,Denmark,Peru,False,21,2,0,2,0,1,False,90,1,0,W,Bakary Papa Gassama,statsbomb
 2018,7525,Group Stage,group,Russia,Saudi Arabia,True,23,1,0,1,0,0,False,90,5,0,W,Néstor Fabián Pitana,statsbomb
 2018,7525,Group Stage,group,Saudi Arabia,Russia,False,12,1,0,1,0,0,False,90,0,5,L,Néstor Fabián Pitana,statsbomb
 2018,8651,Quarter-finals,knockout,Sweden,England,True,14,2,0,2,0,0,False,90,0,2,L,Björn Kuipers,statsbomb
 2018,8651,Quarter-finals,knockout,England,Sweden,False,8,1,0,1,0,0,False,90,2,0,W,Björn Kuipers,statsbomb
 2018,7541,Group Stage,group,Colombia,Japan,True,15,2,1,3,0,1,False,90,1,2,L,Damir Skomina,statsbomb
 2018,7541,Group Stage,group,Japan,Colombia,False,11,0,0,0,1,0,False,90,2,1,W,Damir Skomina,statsbomb
-2018,8652,Quarter-finals,knockout,Russia,Croatia,True,24,1,0,1,0,0,True,120,2,2,D,Sandro Ricci,statsbomb
-2018,8652,Quarter-finals,knockout,Croatia,Russia,False,18,4,0,4,0,0,True,120,2,2,D,Sandro Ricci,statsbomb
-2018,7559,Group Stage,group,Saudi Arabia,Egypt,True,9,0,0,0,2,0,False,90,2,1,W,Wilmar Alexander Roldán Pérez,statsbomb
-2018,7559,Group Stage,group,Egypt,Saudi Arabia,False,17,2,0,2,0,2,False,90,1,2,L,Wilmar Alexander Roldán Pérez,statsbomb
-2018,8657,3rd Place Final,knockout,Belgium,England,True,12,1,0,1,0,0,False,90,2,0,W,Alireza Faghani,statsbomb
-2018,8657,3rd Place Final,knockout,England,Belgium,False,4,2,0,2,0,0,False,90,0,2,L,Alireza Faghani,statsbomb
-2018,7567,Group Stage,group,South Korea,Germany,True,16,4,0,4,0,0,False,90,2,0,W,Mark Geiger,statsbomb
-2018,7567,Group Stage,group,Germany,South Korea,False,7,0,0,0,0,0,False,90,0,2,L,Mark Geiger,statsbomb
-2018,8655,Semi-finals,knockout,France,Belgium,True,6,2,0,2,0,0,False,90,1,0,W,Andrés Cunha,statsbomb
-2018,8655,Semi-finals,knockout,Belgium,France,False,17,3,0,3,0,0,False,90,0,1,L,Andrés Cunha,statsbomb
-2018,7556,Group Stage,group,Japan,Senegal,True,9,2,0,2,0,0,False,90,2,2,D,Gianluca Rocchi,statsbomb
-2018,7556,Group Stage,group,Senegal,Japan,False,15,3,0,3,0,0,False,90,2,2,D,Gianluca Rocchi,statsbomb
 2018,7563,Group Stage,group,Denmark,France,True,11,1,0,1,0,0,False,90,0,0,D,Sandro Ricci,statsbomb
 2018,7563,Group Stage,group,France,Denmark,False,10,0,0,0,0,0,False,90,0,0,D,Sandro Ricci,statsbomb
-2022,3857271,Group Stage,group,England,Iran,True,9,0,0,0,0,1,False,90,6,2,W,Raphael Claus,statsbomb
-2022,3857271,Group Stage,group,Iran,England,False,21,2,0,2,1,0,False,90,2,6,L,Raphael Claus,statsbomb
-2022,3857274,Group Stage,group,Netherlands,Ecuador,True,16,0,0,0,0,0,False,90,1,1,D,Mustapha Ghorbal,statsbomb
-2022,3857274,Group Stage,group,Ecuador,Netherlands,False,13,1,0,1,0,0,False,90,1,1,D,Mustapha Ghorbal,statsbomb
-2022,3857276,Group Stage,group,Canada,Morocco,True,16,4,0,4,0,0,False,90,1,2,L,Raphael Claus,statsbomb
-2022,3857276,Group Stage,group,Morocco,Canada,False,15,0,0,0,0,0,False,90,2,1,W,Raphael Claus,statsbomb
-2022,3857277,Group Stage,group,Morocco,Croatia,True,18,1,0,1,0,0,False,90,0,0,D,Fernando Andrés Rapallini,statsbomb
-2022,3857277,Group Stage,group,Croatia,Morocco,False,12,0,0,0,0,0,False,90,0,0,D,Fernando Andrés Rapallini,statsbomb
+2018,7559,Group Stage,group,Saudi Arabia,Egypt,True,9,0,0,0,2,0,False,90,2,1,W,Wilmar Alexander Roldán Pérez,statsbomb
+2018,7559,Group Stage,group,Egypt,Saudi Arabia,False,17,2,0,2,0,2,False,90,1,2,L,Wilmar Alexander Roldán Pérez,statsbomb
+2018,8652,Quarter-finals,knockout,Russia,Croatia,True,24,1,0,1,0,0,True,120,2,2,D,Sandro Ricci,statsbomb
+2018,8652,Quarter-finals,knockout,Croatia,Russia,False,18,4,0,4,0,0,True,120,2,2,D,Sandro Ricci,statsbomb
+2018,7567,Group Stage,group,South Korea,Germany,True,16,4,0,4,0,0,False,90,2,0,W,Mark Geiger,statsbomb
+2018,7567,Group Stage,group,Germany,South Korea,False,7,0,0,0,0,0,False,90,0,2,L,Mark Geiger,statsbomb
+2018,8657,3rd Place Final,knockout,Belgium,England,True,12,1,0,1,0,0,False,90,2,0,W,Alireza Faghani,statsbomb
+2018,8657,3rd Place Final,knockout,England,Belgium,False,4,2,0,2,0,0,False,90,0,2,L,Alireza Faghani,statsbomb
+2018,7556,Group Stage,group,Japan,Senegal,True,9,2,0,2,0,0,False,90,2,2,D,Gianluca Rocchi,statsbomb
+2018,7556,Group Stage,group,Senegal,Japan,False,15,3,0,3,0,0,False,90,2,2,D,Gianluca Rocchi,statsbomb
+2018,8655,Semi-finals,knockout,France,Belgium,True,6,2,0,2,0,0,False,90,1,0,W,Andrés Cunha,statsbomb
+2018,8655,Semi-finals,knockout,Belgium,France,False,17,3,0,3,0,0,False,90,0,1,L,Andrés Cunha,statsbomb
 2022,3857272,Group Stage,group,England,United States,True,11,0,0,0,0,0,False,90,0,0,D,Jesús Valenzuela Sáez,statsbomb
 2022,3857272,Group Stage,group,United States,England,False,16,0,0,0,0,0,False,90,0,0,D,Jesús Valenzuela Sáez,statsbomb
+2022,3857274,Group Stage,group,Netherlands,Ecuador,True,16,0,0,0,0,0,False,90,1,1,D,Mustapha Ghorbal,statsbomb
+2022,3857274,Group Stage,group,Ecuador,Netherlands,False,13,1,0,1,0,0,False,90,1,1,D,Mustapha Ghorbal,statsbomb
+2022,3857271,Group Stage,group,England,Iran,True,9,0,0,0,0,1,False,90,6,2,W,Raphael Claus,statsbomb
+2022,3857271,Group Stage,group,Iran,England,False,21,2,0,2,1,0,False,90,2,6,L,Raphael Claus,statsbomb
+2022,3857276,Group Stage,group,Canada,Morocco,True,16,4,0,4,0,0,False,90,1,2,L,Raphael Claus,statsbomb
+2022,3857276,Group Stage,group,Morocco,Canada,False,15,0,0,0,0,0,False,90,2,1,W,Raphael Claus,statsbomb
 2022,3857296,Group Stage,group,Croatia,Belgium,True,11,0,0,0,0,0,False,90,0,0,D,Anthony Taylor,statsbomb
 2022,3857296,Group Stage,group,Belgium,Croatia,False,10,1,0,1,0,0,False,90,0,0,D,Anthony Taylor,statsbomb
-2022,3857290,Group Stage,group,Switzerland,Cameroon,True,14,2,0,2,0,0,False,90,1,0,W,Facundo Tello Figueroa,statsbomb
-2022,3857290,Group Stage,group,Cameroon,Switzerland,False,10,1,0,1,0,0,False,90,0,1,L,Facundo Tello Figueroa,statsbomb
 2022,3857255,Group Stage,group,Japan,Spain,True,11,3,0,3,0,0,False,90,2,1,W,Victor Miguel de Freitas Gomes,statsbomb
 2022,3857255,Group Stage,group,Spain,Japan,False,8,0,0,0,0,0,False,90,1,2,L,Victor Miguel de Freitas Gomes,statsbomb
-2022,3857275,Group Stage,group,Tunisia,France,True,16,1,0,1,0,0,False,90,1,0,W,Matthew Conger,statsbomb
-2022,3857275,Group Stage,group,France,Tunisia,False,8,0,0,0,0,0,False,90,0,1,L,Matthew Conger,statsbomb
 2022,3857278,Group Stage,group,Iran,United States,True,21,3,0,3,0,0,False,90,0,1,L,Antonio Miguel Mateu Lahoz,statsbomb
 2022,3857278,Group Stage,group,United States,Iran,False,13,1,0,1,0,0,False,90,1,0,W,Antonio Miguel Mateu Lahoz,statsbomb
-2022,3857261,Group Stage,group,Wales,England,True,19,2,0,2,0,0,False,90,0,3,L,Slavko Vinčić,statsbomb
-2022,3857261,Group Stage,group,England,Wales,False,11,0,0,0,0,0,False,90,3,0,W,Slavko Vinčić,statsbomb
-2022,3857298,Group Stage,group,Portugal,Ghana,True,15,2,0,2,1,0,False,90,3,2,W,Ismail Elfath,statsbomb
-2022,3857298,Group Stage,group,Ghana,Portugal,False,20,4,0,4,0,1,False,90,2,3,L,Ismail Elfath,statsbomb
 2022,3857273,Group Stage,group,Wales,Iran,True,9,1,1,2,0,0,False,90,0,2,L,Mario Alberto Escobar Toca,statsbomb
 2022,3857273,Group Stage,group,Iran,Wales,False,10,2,0,2,0,0,False,90,2,0,W,Mario Alberto Escobar Toca,statsbomb
+2022,3857298,Group Stage,group,Portugal,Ghana,True,15,2,0,2,1,0,False,90,3,2,W,Ismail Elfath,statsbomb
+2022,3857298,Group Stage,group,Ghana,Portugal,False,20,4,0,4,0,1,False,90,2,3,L,Ismail Elfath,statsbomb
 2022,3857285,Group Stage,group,Senegal,Netherlands,True,13,2,0,2,0,0,False,90,0,2,L,Wilton Pereira Sampaio,statsbomb
 2022,3857285,Group Stage,group,Netherlands,Senegal,False,16,1,0,1,0,0,False,90,2,0,W,Wilton Pereira Sampaio,statsbomb
-2022,3857282,Group Stage,group,United States,Wales,True,17,4,0,4,0,1,False,90,1,1,D,Abdulrahman Ibrahim Al Jassim,statsbomb
-2022,3857282,Group Stage,group,Wales,United States,False,10,2,0,2,1,0,False,90,1,1,D,Abdulrahman Ibrahim Al Jassim,statsbomb
-2022,3857297,Group Stage,group,Poland,Saudi Arabia,True,18,3,0,3,0,1,False,90,2,0,W,Wilton Pereira Sampaio,statsbomb
-2022,3857297,Group Stage,group,Saudi Arabia,Poland,False,16,2,0,2,1,0,False,90,0,2,L,Wilton Pereira Sampaio,statsbomb
+2022,3857290,Group Stage,group,Switzerland,Cameroon,True,14,2,0,2,0,0,False,90,1,0,W,Facundo Tello Figueroa,statsbomb
+2022,3857290,Group Stage,group,Cameroon,Switzerland,False,10,1,0,1,0,0,False,90,0,1,L,Facundo Tello Figueroa,statsbomb
+2022,3857277,Group Stage,group,Morocco,Croatia,True,18,1,0,1,0,0,False,90,0,0,D,Fernando Andrés Rapallini,statsbomb
+2022,3857277,Group Stage,group,Croatia,Morocco,False,12,0,0,0,0,0,False,90,0,0,D,Fernando Andrés Rapallini,statsbomb
+2022,3857261,Group Stage,group,Wales,England,True,19,2,0,2,0,0,False,90,0,3,L,Slavko Vinčić,statsbomb
+2022,3857261,Group Stage,group,England,Wales,False,11,0,0,0,0,0,False,90,3,0,W,Slavko Vinčić,statsbomb
+2022,3857275,Group Stage,group,Tunisia,France,True,16,1,0,1,0,0,False,90,1,0,W,Matthew Conger,statsbomb
+2022,3857275,Group Stage,group,France,Tunisia,False,8,0,0,0,0,0,False,90,0,1,L,Matthew Conger,statsbomb
 2022,3857294,Group Stage,group,Netherlands,Qatar,True,19,1,0,1,0,0,False,90,2,0,W,Bakary Papa Gassama,statsbomb
 2022,3857294,Group Stage,group,Qatar,Netherlands,False,8,0,0,0,0,0,False,90,0,2,L,Bakary Papa Gassama,statsbomb
-2022,3857265,Group Stage,group,Mexico,Poland,True,14,2,0,2,0,1,False,90,0,0,D,Chris Beath,statsbomb
-2022,3857265,Group Stage,group,Poland,Mexico,False,15,1,0,1,1,0,False,90,0,0,D,Chris Beath,statsbomb
-2022,3857284,Group Stage,group,Germany,Japan,True,7,0,0,0,1,0,False,90,1,2,L,Ivan Arcides Barton Cisneros,statsbomb
-2022,3857284,Group Stage,group,Japan,Germany,False,15,0,0,0,0,1,False,90,2,1,W,Ivan Arcides Barton Cisneros,statsbomb
-2022,3857254,Group Stage,group,Denmark,Tunisia,True,13,2,0,2,0,0,False,90,0,0,D,César Arturo Ramos Palazuelos,statsbomb
-2022,3857254,Group Stage,group,Tunisia,Denmark,False,10,1,0,1,0,0,False,90,0,0,D,César Arturo Ramos Palazuelos,statsbomb
+2022,3857282,Group Stage,group,United States,Wales,True,17,4,0,4,0,1,False,90,1,1,D,Abdulrahman Ibrahim Al Jassim,statsbomb
+2022,3857282,Group Stage,group,Wales,United States,False,10,2,0,2,1,0,False,90,1,1,D,Abdulrahman Ibrahim Al Jassim,statsbomb
 2022,3857266,Group Stage,group,France,Denmark,True,4,1,0,1,0,0,False,90,2,1,W,Szymon Marciniak,statsbomb
 2022,3857266,Group Stage,group,Denmark,France,False,11,2,0,2,0,0,False,90,1,2,L,Szymon Marciniak,statsbomb
+2022,3857265,Group Stage,group,Mexico,Poland,True,14,2,0,2,0,1,False,90,0,0,D,Chris Beath,statsbomb
+2022,3857265,Group Stage,group,Poland,Mexico,False,15,1,0,1,1,0,False,90,0,0,D,Chris Beath,statsbomb
+2022,3857254,Group Stage,group,Denmark,Tunisia,True,13,2,0,2,0,0,False,90,0,0,D,César Arturo Ramos Palazuelos,statsbomb
+2022,3857254,Group Stage,group,Tunisia,Denmark,False,10,1,0,1,0,0,False,90,0,0,D,César Arturo Ramos Palazuelos,statsbomb
+2022,3857284,Group Stage,group,Germany,Japan,True,7,0,0,0,1,0,False,90,1,2,L,Ivan Arcides Barton Cisneros,statsbomb
+2022,3857284,Group Stage,group,Japan,Germany,False,15,0,0,0,0,1,False,90,2,1,W,Ivan Arcides Barton Cisneros,statsbomb
+2022,3857297,Group Stage,group,Poland,Saudi Arabia,True,18,3,0,3,0,1,False,90,2,0,W,Wilton Pereira Sampaio,statsbomb
+2022,3857297,Group Stage,group,Saudi Arabia,Poland,False,16,2,0,2,1,0,False,90,0,2,L,Wilton Pereira Sampaio,statsbomb
 2022,3857268,Group Stage,group,Belgium,Canada,True,11,3,0,3,0,1,False,90,1,0,W,Janny Sikazwe,statsbomb
 2022,3857268,Group Stage,group,Canada,Belgium,False,15,2,0,2,1,0,False,90,0,1,L,Janny Sikazwe,statsbomb
-2022,3857295,Group Stage,group,Japan,Costa Rica,True,24,3,0,3,0,0,False,90,0,1,L,Michael Oliver,statsbomb
-2022,3857295,Group Stage,group,Costa Rica,Japan,False,13,3,0,3,0,0,False,90,1,0,W,Michael Oliver,statsbomb
 2022,3857269,Group Stage,group,Brazil,Switzerland,True,10,1,0,1,0,0,False,90,1,0,W,Ivan Arcides Barton Cisneros,statsbomb
 2022,3857269,Group Stage,group,Switzerland,Brazil,False,18,1,0,1,0,0,False,90,0,1,L,Ivan Arcides Barton Cisneros,statsbomb
-2022,3857292,Group Stage,group,Costa Rica,Germany,True,4,1,0,1,0,0,False,90,2,4,L,Stéphanie Frappart,statsbomb
-2022,3857292,Group Stage,group,Germany,Costa Rica,False,9,0,0,0,0,0,False,90,4,2,W,Stéphanie Frappart,statsbomb
-2022,3869685,Final,knockout,Argentina,France,True,29,5,0,5,1,2,True,120,3,3,D,Szymon Marciniak,statsbomb
-2022,3869685,Final,knockout,France,Argentina,False,19,3,0,3,2,1,True,120,3,3,D,Szymon Marciniak,statsbomb
-2022,3869321,Quarter-finals,knockout,Netherlands,Argentina,True,37,7,1,8,0,1,True,120,2,2,D,Antonio Miguel Mateu Lahoz,statsbomb
-2022,3869321,Quarter-finals,knockout,Argentina,Netherlands,False,22,8,0,8,1,0,True,120,2,2,D,Antonio Miguel Mateu Lahoz,statsbomb
 2022,3857301,Group Stage,group,Qatar,Senegal,True,11,3,0,3,0,0,False,90,1,3,L,Antonio Miguel Mateu Lahoz,statsbomb
 2022,3857301,Group Stage,group,Senegal,Qatar,False,13,3,0,3,0,0,False,90,3,1,W,Antonio Miguel Mateu Lahoz,statsbomb
 2022,3869151,Round of 16,knockout,Argentina,Australia,True,9,0,0,0,0,0,False,90,2,1,W,Szymon Marciniak,statsbomb
 2022,3869151,Round of 16,knockout,Australia,Argentina,False,18,2,0,2,0,0,False,90,1,2,L,Szymon Marciniak,statsbomb
-2022,3869684,3rd Place Final,knockout,Croatia,Morocco,True,14,0,0,0,0,0,False,90,2,1,W,Abdulrahman Ibrahim Al Jassim,statsbomb
-2022,3869684,3rd Place Final,knockout,Morocco,Croatia,False,15,2,0,2,0,0,False,90,1,2,L,Abdulrahman Ibrahim Al Jassim,statsbomb
+2022,3869321,Quarter-finals,knockout,Netherlands,Argentina,True,37,7,1,8,0,1,True,120,2,2,D,Antonio Miguel Mateu Lahoz,statsbomb
+2022,3869321,Quarter-finals,knockout,Argentina,Netherlands,False,22,8,0,8,1,0,True,120,2,2,D,Antonio Miguel Mateu Lahoz,statsbomb
+2022,3857292,Group Stage,group,Costa Rica,Germany,True,4,1,0,1,0,0,False,90,2,4,L,Stéphanie Frappart,statsbomb
+2022,3857292,Group Stage,group,Germany,Costa Rica,False,9,0,0,0,0,0,False,90,4,2,W,Stéphanie Frappart,statsbomb
+2022,3857295,Group Stage,group,Japan,Costa Rica,True,24,3,0,3,0,0,False,90,0,1,L,Michael Oliver,statsbomb
+2022,3857295,Group Stage,group,Costa Rica,Japan,False,13,3,0,3,0,0,False,90,1,0,W,Michael Oliver,statsbomb
 2022,3857256,Group Stage,group,Serbia,Switzerland,True,21,7,0,7,0,0,False,90,2,3,L,Fernando Andrés Rapallini,statsbomb
 2022,3857256,Group Stage,group,Switzerland,Serbia,False,14,4,0,4,0,0,False,90,3,2,W,Fernando Andrés Rapallini,statsbomb
-2022,3857258,Group Stage,group,Brazil,Serbia,True,8,0,0,0,0,0,False,90,2,0,W,Alireza Faghani,statsbomb
-2022,3857258,Group Stage,group,Serbia,Brazil,False,11,3,0,3,0,0,False,90,0,2,L,Alireza Faghani,statsbomb
 2022,3857267,Group Stage,group,Ecuador,Senegal,True,23,0,0,0,0,1,False,90,1,2,L,Clément Turpin,statsbomb
 2022,3857267,Group Stage,group,Senegal,Ecuador,False,10,1,0,1,1,0,False,90,2,1,W,Clément Turpin,statsbomb
-2022,3857287,Group Stage,group,Uruguay,South Korea,True,7,1,0,1,0,0,False,90,0,0,D,Clément Turpin,statsbomb
-2022,3857287,Group Stage,group,South Korea,Uruguay,False,11,1,0,1,0,0,False,90,0,0,D,Clément Turpin,statsbomb
+2022,3869684,3rd Place Final,knockout,Croatia,Morocco,True,14,0,0,0,0,0,False,90,2,1,W,Abdulrahman Ibrahim Al Jassim,statsbomb
+2022,3869684,3rd Place Final,knockout,Morocco,Croatia,False,15,2,0,2,0,0,False,90,1,2,L,Abdulrahman Ibrahim Al Jassim,statsbomb
 2022,3857257,Group Stage,group,Australia,Denmark,True,12,2,0,2,0,0,False,90,1,0,W,Mustapha Ghorbal,statsbomb
 2022,3857257,Group Stage,group,Denmark,Australia,False,10,1,0,1,0,0,False,90,0,1,L,Mustapha Ghorbal,statsbomb
-2022,3857264,Group Stage,group,Poland,Argentina,True,9,1,0,1,0,1,False,90,0,2,L,Danny Desmond Makkelie,statsbomb
-2022,3857264,Group Stage,group,Argentina,Poland,False,12,1,0,1,1,0,False,90,2,0,W,Danny Desmond Makkelie,statsbomb
-2022,3857289,Group Stage,group,Argentina,Mexico,True,15,1,0,1,0,0,False,90,2,0,W,Daniele Orsato,statsbomb
-2022,3857289,Group Stage,group,Mexico,Argentina,False,21,4,0,4,0,0,False,90,0,2,L,Daniele Orsato,statsbomb
+2022,3869685,Final,knockout,Argentina,France,True,29,5,0,5,1,2,True,120,3,3,D,Szymon Marciniak,statsbomb
+2022,3869685,Final,knockout,France,Argentina,False,19,3,0,3,2,1,True,120,3,3,D,Szymon Marciniak,statsbomb
 2022,3857288,Group Stage,group,Tunisia,Australia,True,15,3,0,3,0,0,False,90,0,1,L,Daniel Siebert,statsbomb
 2022,3857288,Group Stage,group,Australia,Tunisia,False,16,0,0,0,0,0,False,90,1,0,W,Daniel Siebert,statsbomb
+2022,3857287,Group Stage,group,Uruguay,South Korea,True,7,1,0,1,0,0,False,90,0,0,D,Clément Turpin,statsbomb
+2022,3857287,Group Stage,group,South Korea,Uruguay,False,11,1,0,1,0,0,False,90,0,0,D,Clément Turpin,statsbomb
+2022,3857258,Group Stage,group,Brazil,Serbia,True,8,0,0,0,0,0,False,90,2,0,W,Alireza Faghani,statsbomb
+2022,3857258,Group Stage,group,Serbia,Brazil,False,11,3,0,3,0,0,False,90,0,2,L,Alireza Faghani,statsbomb
 2022,3869486,Quarter-finals,knockout,Morocco,Portugal,True,18,2,1,3,0,0,False,90,1,0,W,Facundo Tello Figueroa,statsbomb
 2022,3869486,Quarter-finals,knockout,Portugal,Morocco,False,9,1,0,1,0,0,False,90,0,1,L,Facundo Tello Figueroa,statsbomb
+2022,3857289,Group Stage,group,Argentina,Mexico,True,15,1,0,1,0,0,False,90,2,0,W,Daniele Orsato,statsbomb
+2022,3857289,Group Stage,group,Mexico,Argentina,False,21,4,0,4,0,0,False,90,0,2,L,Daniele Orsato,statsbomb
 2022,3857260,Group Stage,group,Saudi Arabia,Mexico,True,21,6,0,6,0,0,False,90,1,2,L,Michael Oliver,statsbomb
 2022,3857260,Group Stage,group,Mexico,Saudi Arabia,False,18,1,0,1,0,0,False,90,2,1,W,Michael Oliver,statsbomb
-2022,3869254,Round of 16,knockout,Portugal,Switzerland,True,14,0,0,0,0,0,False,90,6,1,W,César Arturo Ramos Palazuelos,statsbomb
-2022,3869254,Round of 16,knockout,Switzerland,Portugal,False,15,2,0,2,0,0,False,90,1,6,L,César Arturo Ramos Palazuelos,statsbomb
-2022,3869220,Round of 16,knockout,Morocco,Spain,True,19,1,0,1,0,0,True,120,0,0,D,Fernando Andrés Rapallini,statsbomb
-2022,3869220,Round of 16,knockout,Spain,Morocco,False,14,1,0,1,0,0,True,120,0,0,D,Fernando Andrés Rapallini,statsbomb
-2022,3869519,Semi-finals,knockout,Argentina,Croatia,True,20,2,0,2,1,0,False,90,3,0,W,Daniele Orsato,statsbomb
-2022,3869519,Semi-finals,knockout,Croatia,Argentina,False,10,2,0,2,0,1,False,90,0,3,L,Daniele Orsato,statsbomb
-2022,3869118,Round of 16,knockout,England,Senegal,True,16,0,0,0,0,0,False,90,3,0,W,Ivan Arcides Barton Cisneros,statsbomb
-2022,3869118,Round of 16,knockout,Senegal,England,False,13,1,0,1,0,0,False,90,0,3,L,Ivan Arcides Barton Cisneros,statsbomb
-2022,3869219,Round of 16,knockout,Japan,Croatia,True,13,0,0,0,0,0,True,120,1,1,D,Ismail Elfath,statsbomb
-2022,3869219,Round of 16,knockout,Croatia,Japan,False,16,2,0,2,0,0,True,120,1,1,D,Ismail Elfath,statsbomb
-2022,3869552,Semi-finals,knockout,France,Morocco,True,14,0,0,0,0,0,False,90,2,0,W,César Arturo Ramos Palazuelos,statsbomb
-2022,3869552,Semi-finals,knockout,Morocco,France,False,14,1,0,1,0,0,False,90,0,2,L,César Arturo Ramos Palazuelos,statsbomb
+2022,3857264,Group Stage,group,Poland,Argentina,True,9,1,0,1,0,1,False,90,0,2,L,Danny Desmond Makkelie,statsbomb
+2022,3857264,Group Stage,group,Argentina,Poland,False,12,1,0,1,1,0,False,90,2,0,W,Danny Desmond Makkelie,statsbomb
 2022,3869354,Quarter-finals,knockout,England,France,True,10,1,0,1,2,0,False,90,1,2,L,Wilton Pereira Sampaio,statsbomb
 2022,3869354,Quarter-finals,knockout,France,England,False,15,3,0,3,0,2,False,90,2,1,W,Wilton Pereira Sampaio,statsbomb
+2022,3869254,Round of 16,knockout,Portugal,Switzerland,True,14,0,0,0,0,0,False,90,6,1,W,César Arturo Ramos Palazuelos,statsbomb
+2022,3869254,Round of 16,knockout,Switzerland,Portugal,False,15,2,0,2,0,0,False,90,1,6,L,César Arturo Ramos Palazuelos,statsbomb
+2022,3869519,Semi-finals,knockout,Argentina,Croatia,True,20,2,0,2,1,0,False,90,3,0,W,Daniele Orsato,statsbomb
+2022,3869519,Semi-finals,knockout,Croatia,Argentina,False,10,2,0,2,0,1,False,90,0,3,L,Daniele Orsato,statsbomb
+2022,3869552,Semi-finals,knockout,France,Morocco,True,14,0,0,0,0,0,False,90,2,0,W,César Arturo Ramos Palazuelos,statsbomb
+2022,3869552,Semi-finals,knockout,Morocco,France,False,14,1,0,1,0,0,False,90,0,2,L,César Arturo Ramos Palazuelos,statsbomb
+2022,3869219,Round of 16,knockout,Japan,Croatia,True,13,0,0,0,0,0,True,120,1,1,D,Ismail Elfath,statsbomb
+2022,3869219,Round of 16,knockout,Croatia,Japan,False,16,2,0,2,0,0,True,120,1,1,D,Ismail Elfath,statsbomb
+2022,3869118,Round of 16,knockout,England,Senegal,True,16,0,0,0,0,0,False,90,3,0,W,Ivan Arcides Barton Cisneros,statsbomb
+2022,3869118,Round of 16,knockout,Senegal,England,False,13,1,0,1,0,0,False,90,0,3,L,Ivan Arcides Barton Cisneros,statsbomb
+2022,3869220,Round of 16,knockout,Morocco,Spain,True,19,1,0,1,0,0,True,120,0,0,D,Fernando Andrés Rapallini,statsbomb
+2022,3869220,Round of 16,knockout,Spain,Morocco,False,14,1,0,1,0,0,True,120,0,0,D,Fernando Andrés Rapallini,statsbomb
 2022,3869420,Quarter-finals,knockout,Croatia,Brazil,True,23,2,0,2,0,0,True,120,1,1,D,Michael Oliver,statsbomb
 2022,3869420,Quarter-finals,knockout,Brazil,Croatia,False,25,3,0,3,0,0,True,120,1,1,D,Michael Oliver,statsbomb
+2022,3869152,Round of 16,knockout,France,Poland,True,11,1,0,1,0,1,False,90,3,1,W,Jesús Valenzuela Sáez,statsbomb
+2022,3869152,Round of 16,knockout,Poland,France,False,10,2,0,2,1,0,False,90,1,3,L,Jesús Valenzuela Sáez,statsbomb
 2022,3857263,Group Stage,group,Spain,Germany,True,14,1,0,1,0,0,False,90,1,1,D,Danny Desmond Makkelie,statsbomb
 2022,3857263,Group Stage,group,Germany,Spain,False,15,3,0,3,0,0,False,90,1,1,D,Danny Desmond Makkelie,statsbomb
 2022,3869253,Round of 16,knockout,Brazil,South Korea,True,8,0,0,0,1,0,False,90,4,1,W,Clément Turpin,statsbomb
 2022,3869253,Round of 16,knockout,South Korea,Brazil,False,12,1,0,1,0,1,False,90,1,4,L,Clément Turpin,statsbomb
-2022,3857270,Group Stage,group,Portugal,Uruguay,True,11,3,0,3,1,0,False,90,2,0,W,Alireza Faghani,statsbomb
-2022,3857270,Group Stage,group,Uruguay,Portugal,False,16,2,0,2,0,1,False,90,0,2,L,Alireza Faghani,statsbomb
-2022,3869152,Round of 16,knockout,France,Poland,True,11,1,0,1,0,1,False,90,3,1,W,Jesús Valenzuela Sáez,statsbomb
-2022,3869152,Round of 16,knockout,Poland,France,False,10,2,0,2,1,0,False,90,1,3,L,Jesús Valenzuela Sáez,statsbomb
-2022,3857283,Group Stage,group,Belgium,Morocco,True,10,1,0,1,0,0,False,90,0,2,L,César Arturo Ramos Palazuelos,statsbomb
-2022,3857283,Group Stage,group,Morocco,Belgium,False,16,1,0,1,0,0,False,90,2,0,W,César Arturo Ramos Palazuelos,statsbomb
-2022,3869117,Round of 16,knockout,Netherlands,United States,True,11,2,0,2,0,0,False,90,3,1,W,Wilton Pereira Sampaio,statsbomb
-2022,3869117,Round of 16,knockout,United States,Netherlands,False,5,0,0,0,0,0,False,90,1,3,L,Wilton Pereira Sampaio,statsbomb
 2022,3857259,Group Stage,group,Cameroon,Serbia,True,9,2,0,2,0,0,False,90,3,3,D,Mohamed Abdulla Hassan Mohd,statsbomb
 2022,3857259,Group Stage,group,Serbia,Cameroon,False,16,2,0,2,0,0,False,90,3,3,D,Mohamed Abdulla Hassan Mohd,statsbomb
-2022,3857286,Group Stage,group,Qatar,Ecuador,True,17,4,0,4,0,1,False,90,0,2,L,Daniele Orsato,statsbomb
-2022,3857286,Group Stage,group,Ecuador,Qatar,False,14,2,0,2,1,0,False,90,2,0,W,Daniele Orsato,statsbomb
+2022,3869117,Round of 16,knockout,Netherlands,United States,True,11,2,0,2,0,0,False,90,3,1,W,Wilton Pereira Sampaio,statsbomb
+2022,3869117,Round of 16,knockout,United States,Netherlands,False,5,0,0,0,0,0,False,90,1,3,L,Wilton Pereira Sampaio,statsbomb
+2022,3857270,Group Stage,group,Portugal,Uruguay,True,11,3,0,3,1,0,False,90,2,0,W,Alireza Faghani,statsbomb
+2022,3857270,Group Stage,group,Uruguay,Portugal,False,16,2,0,2,0,1,False,90,0,2,L,Alireza Faghani,statsbomb
+2022,3857283,Group Stage,group,Belgium,Morocco,True,10,1,0,1,0,0,False,90,0,2,L,César Arturo Ramos Palazuelos,statsbomb
+2022,3857283,Group Stage,group,Morocco,Belgium,False,16,1,0,1,0,0,False,90,2,0,W,César Arturo Ramos Palazuelos,statsbomb
 2022,3857300,Group Stage,group,Argentina,Saudi Arabia,True,7,0,0,0,1,0,False,90,1,2,L,Slavko Vinčić,statsbomb
 2022,3857300,Group Stage,group,Saudi Arabia,Argentina,False,22,6,0,6,0,1,False,90,2,1,W,Slavko Vinčić,statsbomb
-2022,3857281,Group Stage,group,Croatia,Canada,True,15,2,0,2,0,0,False,90,4,1,W,Andrés Matonte,statsbomb
-2022,3857281,Group Stage,group,Canada,Croatia,False,6,2,0,2,0,0,False,90,1,4,L,Andrés Matonte,statsbomb
-2022,3857293,Group Stage,group,Ghana,Uruguay,True,21,2,0,2,1,0,False,90,0,2,L,Daniel Siebert,statsbomb
-2022,3857293,Group Stage,group,Uruguay,Ghana,False,11,5,0,5,0,1,False,90,2,0,W,Daniel Siebert,statsbomb
 2022,3857299,Group Stage,group,South Korea,Ghana,True,15,2,0,2,0,0,False,90,2,3,L,Anthony Taylor,statsbomb
 2022,3857299,Group Stage,group,Ghana,South Korea,False,10,2,0,2,0,0,False,90,3,2,W,Anthony Taylor,statsbomb
-2022,3857291,Group Stage,group,Spain,Costa Rica,True,8,0,0,0,1,0,False,90,7,0,W,,statsbomb
-2022,3857291,Group Stage,group,Costa Rica,Spain,False,14,2,0,2,0,1,False,90,0,7,L,,statsbomb
 2022,3857280,Group Stage,group,Cameroon,Brazil,True,17,4,1,5,0,0,False,90,1,0,W,Ismail Elfath,statsbomb
 2022,3857280,Group Stage,group,Brazil,Cameroon,False,15,2,0,2,0,0,False,90,0,1,L,Ismail Elfath,statsbomb
+2022,3857286,Group Stage,group,Qatar,Ecuador,True,17,4,0,4,0,1,False,90,0,2,L,Daniele Orsato,statsbomb
+2022,3857286,Group Stage,group,Ecuador,Qatar,False,14,2,0,2,1,0,False,90,2,0,W,Daniele Orsato,statsbomb
+2022,3857281,Group Stage,group,Croatia,Canada,True,15,2,0,2,0,0,False,90,4,1,W,Andrés Matonte,statsbomb
+2022,3857281,Group Stage,group,Canada,Croatia,False,6,2,0,2,0,0,False,90,1,4,L,Andrés Matonte,statsbomb
+2022,3857291,Group Stage,group,Spain,Costa Rica,True,8,0,0,0,1,0,False,90,7,0,W,,statsbomb
+2022,3857291,Group Stage,group,Costa Rica,Spain,False,14,2,0,2,0,1,False,90,0,7,L,,statsbomb
+2022,3857293,Group Stage,group,Ghana,Uruguay,True,21,2,0,2,1,0,False,90,0,2,L,Daniel Siebert,statsbomb
+2022,3857293,Group Stage,group,Uruguay,Ghana,False,11,5,0,5,0,1,False,90,2,0,W,Daniel Siebert,statsbomb
 2022,3857279,Group Stage,group,France,Australia,True,4,0,0,0,0,0,False,90,4,1,W,Victor Miguel de Freitas Gomes,statsbomb
 2022,3857279,Group Stage,group,Australia,France,False,14,3,0,3,0,0,False,90,1,4,L,Victor Miguel de Freitas Gomes,statsbomb
 2022,3857262,Group Stage,group,South Korea,Portugal,True,9,2,0,2,0,0,False,90,2,1,W,Facundo Tello Figueroa,statsbomb

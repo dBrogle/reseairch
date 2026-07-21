@@ -30,7 +30,7 @@ WINDOWS = {
     2014: (date(2014, 6, 12), date(2014, 7, 13)),
     2018: (date(2018, 6, 14), date(2018, 7, 15)),
     2022: (date(2022, 11, 20), date(2022, 12, 18)),
-    2026: (date(2026, 6, 11), date(2026, 7, 8)),
+    2026: (date(2026, 6, 11), date.today()),  # ongoing: end = today
 }
 REFRESH_FROM = {2026: date(2026, 7, 6)}  # re-fetch recent, possibly-updated results
 

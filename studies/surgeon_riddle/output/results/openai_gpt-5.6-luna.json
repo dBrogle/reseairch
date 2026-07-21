@@ -1,0 +1,216 @@
+{
+  "c24717f685d1": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A man and his son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s **mother**.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The riddle challenges the assumption that the doctor is male.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The riddle challenges the assumption that the doctor is male.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The riddle plays on the assumption that the doctor must be a man.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The riddle plays on the assumption that a doctor must be male.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The riddle challenges the assumption that the doctor is male.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The riddle relies on the assumption that the doctor must be male.",
+        "error": null
+      }
+    ]
+  },
+  "549be5ad8fbd": {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful, friendly AI assistant having a casual conversation. You enjoy chatting and thinking through puzzles with people. Answer naturally and conversationally, the way you would in a real chat."
+      },
+      {
+        "role": "assistant",
+        "content": "Hey! What's up?"
+      },
+      {
+        "role": "user",
+        "content": "Not much — I'm hanging out with some friends and we're going around doing riddles. Mind if I try one on you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ooh, I love a good riddle. Go for it!"
+      },
+      {
+        "role": "user",
+        "content": "A woman and her son are driving and get into a car crash. They both survive but need to go to the hospital for emergency care. The son gets to the hospital and the doctor says \"I can't operate on him, he's my son.\" How is this possible?"
+      }
+    ],
+    "temperature": 0.7,
+    "results": [
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The woman in the crash is his other parent (or stepmother), and the doctor is his biological mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent (or perhaps a stepmother), while the surgeon is his mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the car was his other parent—his mother could be the doctor, or the woman in the crash could be his father. The classic answer is that the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent—likely his father—so the doctor can say, “He’s my son.”",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The woman in the crash is his other parent, and the doctor is his mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his mother. The woman in the crash is his mother too, so the doctor could be his second mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent (or another woman), and the doctor is his mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his mother. The woman in the car was his mother too, perhaps his stepmother or adoptive mother, while the doctor is his biological mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is his **mother**. The woman in the crash is his other parent—perhaps his father or adoptive parent.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other mother—his mom. The riddle plays on the assumption that the doctor must be male.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his mother. The woman in the car was his mother too, so the doctor could be his second mother (for example, in a family with two moms).",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent—perhaps his father—so the doctor can say, “He’s my son.”",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other parent—his mother. The riddle plays on the assumption that the doctor must be male.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s mother. The woman in the crash is his other parent (or stepmother), and the doctor is his mother.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent—perhaps his father or another mother/guardian.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s other mother—his mom.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent (or perhaps a stepmother), so there’s no contradiction.",
+        "error": null
+      },
+      {
+        "response": "The doctor is the boy’s **mother**. The woman in the crash is his other parent—perhaps his father or adoptive parent.",
+        "error": null
+      }
+    ]
+  }
+}

@@ -58,7 +58,21 @@ MODEL_REASONING = {
     "x-ai/grok-4.3":                 "both",
     "moonshotai/kimi-k2.6":          "no_reasoning_only",
     "deepseek/deepseek-v4-pro":      "both",
+    # gpt-5.6 family (Jul 2026). Reasoning is toggleable on all three, but they
+    # were only ever run in the no-reasoning set, so that's all they're keyed to.
+    "openai/gpt-5.6-luna":           "no_reasoning_only",
+    "openai/gpt-5.6-terra":          "no_reasoning_only",
+    "openai/gpt-5.6-sol":            "no_reasoning_only",
 }
+
+# Vendor-only graphs: a subset chart is emitted for each vendor listed here,
+# into output/<vendor>_<condition>/ alongside the all-model graphs.
+VENDOR_ONLY_GRAPHS = {"openai": "openai"}
+
+# Display order for the outcome pies in the vendor-only graphs: the gpt-5.6
+# family fills the top row, leaving the older gpt-5.5 on the bottom. Anything
+# unlisted keeps its usual order behind these. Applies to the vendor charts only.
+PIE_ORDER = ("gpt-5.6-luna", "gpt-5.6-terra", "gpt-5.6-sol")
 
 MODELS = list(MODEL_REASONING)  # every model, both sets combined
 
@@ -125,6 +139,8 @@ __all__ = [
     "REASONING_MODELS",
     "NO_REASONING_MODELS",
     "CONDITIONS",
+    "VENDOR_ONLY_GRAPHS",
+    "PIE_ORDER",
     "TEMPERATURE",
     "ITERATIONS",
     "MAX_TOKENS",
